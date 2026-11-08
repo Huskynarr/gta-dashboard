@@ -1,4 +1,4 @@
-import { createGauge, createLineChart, sparkline } from './charts.js';
+import { createGauge, createLineChart, sparkline } from './charts.js?v=20261108';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
