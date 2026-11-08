@@ -88,6 +88,7 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 - **Mobile Performance:** Auf kleinen Screens werden Grain, Sun-Animation und teure Backdrop-Filter reduziert; Charts bekommen eine lesbare Höhe.
 - **Weniger Doppelarbeit:** Aktien-Historien werden pro Objekt gecacht, Basket-Karten und Chart teilen sich die 30-Tage-Berechnung.
 - **Datenqualität:** Jede Kennzahl ist als `Real`, `Proxy` oder `Leading` markiert.
+- **Cache-Busting:** CSS/JS mit `?v=20261108` — verhindert stale Cloudflare-/Pages-Caches nach Deploys.
 - **SEO:** Canonical, Open-Graph/Twitter-Meta, `robots.txt`, `sitemap.xml` und Web-Manifest.
 - **Resilienz:** Fehlt eine Quelle, bleiben die letzten Daten sichtbar; der Quellenstatus wird `degraded`.
 - **Cron:** Der Track-Workflow läuft auf dem Self-hosted Runner; der Runner wird per Watchdog am Leben gehalten.
