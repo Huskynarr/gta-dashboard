@@ -33,24 +33,21 @@ Es gibt keinen Build-Schritt. GitHub Pages liefert das Repository als statische 
 
 ## Cronjob
 
-Es gibt zwei Wege — beide sind vorbereitet:
+**Aktiv: GitHub Actions auf Self-hosted Runner.**
 
-**GitHub Actions** (`.github/workflows/track.yml.disabled`):
+`.github/workflows/track.yml` läuft auf dem Runner `gta-dashboard-local`:
 
 - **täglich um 06:00 und 18:00 UTC** — morgens und abends ein Snapshot,
 - **stündlich vom 10. bis 22. November 2026** — Preload-/Release-Fenster,
 - manuell über `workflow_dispatch`.
 
-**Lokaler Cron (aktiv)** — `scripts/cron.sh` läuft auf diesem Rechner:
+Jeder Lauf schreibt `data/stocks.json`, `data/osint.json`, `data/network.json` und `data/meta.json`, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den klassischen Pages-Branch-Build.
 
-```cron
-0 7,19 * * * /home/huskynarr/gta-dashboard/scripts/cron.sh
-0 0-6,8-18,20-23 10-22 11 * /home/huskynarr/gta-dashboard/scripts/cron.sh
-```
+Runner-Verzeichnis: `/home/huskynarr/gta-dashboard-runner`.  
+Runner-Log: `/home/huskynarr/gta-dashboard-runner/runner.log`.  
+Watchdog-Cron startet den Runner nach Reboot und prüft alle 5 Minuten, ob er noch läuft.
 
-Log: `/tmp/gta-dashboard-cron.log`. Der Job nutzt `flock`, sammelt Daten, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den Pages-Build.
-
-Warum lokal? GitHub Actions ist für dieses Konto aktuell wegen eines Billing-Locks blockiert. Sobald das behoben ist, die Dateien von `*.yml.disabled` nach `*.yml` umbenennen — dann übernimmt der GitHub-Cron.
+Der frühere lokale Daten-Cron ist deaktiviert, damit es keine Doppel-Läufe gibt. `scripts/cron.sh` bleibt als manueller Fallback erhalten.
 
 ## Lokal starten
 
@@ -88,7 +85,13 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 2. GitHub Pages ist auf **Deploy from a branch** gestellt: `main` / `/` (root).
 3. Live: <https://huskynarr.is-a.dev/gta-dashboard/>.
 
-Der alternative Actions-Deploy liegt als `.github/workflows/deploy.yml.disabled` bereit. Wegen des aktuellen GitHub-Actions-Billing-Locks läuft die Veröffentlichung über den klassischen Pages-Branch-Build. Die Custom Domain `huskynarr.is-a.dev` wird vom User-Site-Repository bereitgestellt; das Projekt-Repository braucht keine eigene `CNAME`-Datei.
+Der Actions-Deploy liegt als `.github/workflows/deploy.yml.disabled` bereit. Ein Testlauf auf dem Self-hosted Runner scheitert aktuell an der GitHub-Artefakt-Storage-Quote:
+
+> `Failed to CreateArtifact: Artifact storage quota has been hit.`
+
+Deshalb bleibt die Veröffentlichung beim klassischen Pages-Branch-Build. Der **Track-Cron läuft trotzdem über GitHub Actions** auf dem Self-hosted Runner und pusht die Daten; der Branch-Build deployt sie. Sobald die Artefakt-Quote wieder frei ist: `deploy.yml.disabled` → `deploy.yml`, Pages-Source auf **GitHub Actions** stellen, pushen.
+
+Die Custom Domain `huskynarr.is-a.dev` wird vom User-Site-Repository bereitgestellt; das Projekt-Repository braucht keine eigene `CNAME`-Datei.
 
 ## Lizenz
 
