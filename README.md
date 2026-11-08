@@ -33,13 +33,24 @@ Es gibt keinen Build-Schritt. GitHub Pages liefert das Repository als statische 
 
 ## Cronjob
 
-`.github/workflows/track.yml` läuft:
+Es gibt zwei Wege — beide sind vorbereitet:
+
+**GitHub Actions** (`.github/workflows/track.yml.disabled`):
 
 - **täglich um 06:00 und 18:00 UTC** — morgens und abends ein Snapshot,
 - **stündlich vom 10. bis 22. November 2026** — Preload-/Release-Fenster,
 - manuell über `workflow_dispatch`.
 
-Jeder Lauf schreibt `data/stocks.json`, `data/osint.json`, `data/network.json` und `data/meta.json` und committet die Änderungen. Der Push auf `main` triggert den Pages-Deploy.
+**Lokaler Cron (aktiv)** — `scripts/cron.sh` läuft auf diesem Rechner:
+
+```cron
+0 7,19 * * * /home/huskynarr/gta-dashboard/scripts/cron.sh
+0 0-6,8-18,20-23 10-22 11 * /home/huskynarr/gta-dashboard/scripts/cron.sh
+```
+
+Log: `/tmp/gta-dashboard-cron.log`. Der Job nutzt `flock`, sammelt Daten, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den Pages-Build.
+
+Warum lokal? GitHub Actions ist für dieses Konto aktuell wegen eines Billing-Locks blockiert. Sobald das behoben ist, die Dateien von `*.yml.disabled` nach `*.yml` umbenennen — dann übernimmt der GitHub-Cron.
 
 ## Lokal starten
 
@@ -74,10 +85,10 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 ## Deployment
 
 1. Repository ist öffentlich: `Huskynarr/gta-dashboard`.
-2. GitHub Pages ist auf **GitHub Actions** als Source gestellt.
-3. Der Deploy-Workflow baut `_site/` und veröffentlicht unter <https://huskynarr.is-a.dev/gta-dashboard/>.
+2. GitHub Pages ist auf **Deploy from a branch** gestellt: `main` / `/` (root).
+3. Live: <https://huskynarr.is-a.dev/gta-dashboard/>.
 
-Falls die Seite unter dem Pfad nicht erscheint: In den Repository-Einstellungen unter **Pages** prüfen, ob als Source „GitHub Actions“ gewählt ist. Die Custom Domain `huskynarr.is-a.dev` wird vom User-Site-Repository bereitgestellt; das Projekt-Repository braucht keine eigene `CNAME`-Datei.
+Der alternative Actions-Deploy liegt als `.github/workflows/deploy.yml.disabled` bereit. Wegen des aktuellen GitHub-Actions-Billing-Locks läuft die Veröffentlichung über den klassischen Pages-Branch-Build. Die Custom Domain `huskynarr.is-a.dev` wird vom User-Site-Repository bereitgestellt; das Projekt-Repository braucht keine eigene `CNAME`-Datei.
 
 ## Lizenz
 
