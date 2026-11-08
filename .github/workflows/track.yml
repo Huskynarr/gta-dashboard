@@ -1,0 +1,41 @@
+name: Track GTA VI signals
+
+on:
+  schedule:
+    # Morgens und abends (UTC) — 07:00/19:00 CET im Winter.
+    - cron: '0 6,18 * * *'
+    # Stündlich während des Preload-/Release-Fensters (10.–22. November 2026).
+    - cron: '0 * 10-22 11 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gta-track
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Collect market, OSINT and network data
+        run: node scripts/collect.mjs
+
+      - name: Commit data snapshot
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(data): refresh GTA VI signals'
+          file_pattern: 'data/*.json'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_author: 'github-actions[bot] <github-actions[bot]@users.noreply.github.com>'
