@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:39:46.064Z",
+  "updated": "2026-11-08T21:42:02.094Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -1551,7 +1551,7 @@
       "label": "GTA VI · DE",
       "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 15,
+      "count24h": 14,
       "series": [
         {
           "date": "2026-11-02",
@@ -1559,27 +1559,27 @@
         },
         {
           "date": "2026-11-03",
-          "count": 7
+          "count": 8
         },
         {
           "date": "2026-11-04",
-          "count": 12
+          "count": 16
         },
         {
           "date": "2026-11-05",
-          "count": 28
-        },
-        {
-          "date": "2026-11-06",
           "count": 26
         },
         {
+          "date": "2026-11-06",
+          "count": 25
+        },
+        {
           "date": "2026-11-07",
-          "count": 11
+          "count": 10
         },
         {
           "date": "2026-11-08",
-          "count": 15
+          "count": 14
         }
       ],
       "items": [
@@ -1701,7 +1701,7 @@
       "label": "Rockstar Newswire",
       "query": "site:rockstargames.com",
       "count7d": 41,
-      "count24h": 14,
+      "count24h": 13,
       "series": [
         {
           "date": "2026-11-02",
@@ -1721,7 +1721,7 @@
         },
         {
           "date": "2026-11-06",
-          "count": 5
+          "count": 6
         },
         {
           "date": "2026-11-07",
@@ -1729,21 +1729,27 @@
         },
         {
           "date": "2026-11-08",
-          "count": 14
+          "count": 13
         }
       ],
       "items": [
         {
           "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNTZ1Yll3T2dGSmhUX2dOcC1aOVM2Qmh6VXVTOFBHV0JVbFhvbWpRWXhuRUI5NnFNRmUwT2xmVmNHLWJpS3dqZTQ4Zkd5S3pIOXN6YWxkamQ2NVZzTzlURDFqeHZBdDBrak5DMS1HMFE3WFNiaWgtUk51UUxhSXhsaGpn?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Sun, 08 Nov 2026 20:59:44 GMT"
-        },
-        {
-          "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EbzZtLWh1RDFvUzlSaFVhaTRtSEszeW5PMGo2UXNIcmhJaUYzX2NTRDNBbkpDa3JHUWRwX2t1M2pyMk01UmxWRjY2MVRKN2pFZ28xdzdZbWVsZ2w3OVBzSEpGOTlzSHM?oc=5",
           "source": "Rockstar Games",
           "pubDate": "Sun, 08 Nov 2026 20:19:32 GMT"
+        },
+        {
+          "title": "- Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONUQ5S09WUFZia290dDhLdGNrZ2llUGtHZDVfVVlLVHBKZWxqM29DeDFZbmRoazlCMXh4Zk1aNjU0ejRLTWpmTGREbDlBaVdUUzRqQUdLYlNKMXR2bHh4Y2p1dVBqLTZROUFKS3dnb2wtUFFYQWJNRWRyLUdzTnBMMm4wQQ?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Sun, 08 Nov 2026 20:15:34 GMT"
+        },
+        {
+          "title": "- Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VcEtsYWlGT0pGSlRpdUVHUlpKTzVpLTdJOU5SaEZnVTBPM2ZFbk1NdEduTWpPS1VvVjY4dll0dXBoRkFENlZHeGwxM0FIbHhUcm9yUFZqZnBHYWdhcTdPTjZDTUswMzczajhFTDgyTUt6RS1DUVRJQ0ZRNHNwdw?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Sun, 08 Nov 2026 19:59:27 GMT"
         },
         {
           "title": "- Rockstar Games",
@@ -1762,12 +1768,6 @@
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HUE8wZVBqaUp1d3hxRjBaV1M0LVd1ODV4VzdjME0yT2VXN3RPLUhLR0xIWWxIRXN3NVh6bGEyY3A0WjhOZy1MMEpzWVQ1ZjlKNWRNSG1PZmN1Q015ZlMxVXVzUUlodnFfcG9qNW1xLWVqbmxvblE?oc=5",
           "source": "Rockstar Games",
           "pubDate": "Sun, 08 Nov 2026 19:12:35 GMT"
-        },
-        {
-          "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Ubk9rWWhZcXU0cmhTNjVfX3pNR2tIaUVtYVM2WlZYQTNsT0hFNEUxOVM5OF81blpzLXp5QW5CRC1BSkNteVJVTFMtSEloRzdua19IZFlIUHJtQzhtWEJ5bUd3WDdYc0ZTVnBjZ2ZnS2txY1k?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Sun, 08 Nov 2026 17:56:23 GMT"
         }
       ]
     }
@@ -1822,25 +1822,41 @@
         "link": "https://www.reddit.com/r/GTA6/comments/1xr3uqg"
       }
     ],
-    "fetchedAt": "2026-11-08T21:39:45.993Z"
+    "fetchedAt": "2026-11-08T21:42:00.977Z"
   },
   "steam": {
-    "gta5": 46223,
+    "gta5": 44013,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-08T21:39:43.917Z"
+    "fetchedAt": "2026-11-08T21:41:59.818Z"
   },
   "trends": {
     "de": {
       "geo": "DE",
       "items": [
         {
-          "title": "fermin lopez",
+          "title": "erling haaland",
+          "traffic": "2000+",
+          "pubDate": "Sun, 8 Nov 2026 13:30:00 -0800",
+          "newsTitle": "FPL rank climbing strategy: template, differentials and hits before GW11",
+          "newsUrl": "https://thefalse9.com/2026/11/fpl-rank-climbing-strategy.html",
+          "newsSource": "The False 9"
+        },
+        {
+          "title": "nasa",
+          "traffic": "500+",
+          "pubDate": "Sun, 8 Nov 2026 13:30:00 -0800",
+          "newsTitle": "Nasa seeks next generation of astronauts to live and work on the moon",
+          "newsUrl": "https://www.theguardian.com/science/2026/nov/08/nasa-astronauts-moon-applications-open",
+          "newsSource": "The Guardian"
+        },
+        {
+          "title": "haaland",
           "traffic": "200+",
-          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
-          "newsTitle": "Mentalidad Fermín",
-          "newsUrl": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261107/1004248116/mentalidad-fermin.html",
-          "newsSource": "Mundo Deportivo"
+          "pubDate": "Sun, 8 Nov 2026 13:30:00 -0800",
+          "newsTitle": "Everton ace Thierno Barry backed to join 'top-six club' as Erling Haaland-like similarity highlighted",
+          "newsUrl": "https://sports.yahoo.com/articles/everton-ace-thierno-barry-backed-071500036.html",
+          "newsSource": "Yahoo Sports"
         },
         {
           "title": "wdr live",
@@ -1875,14 +1891,6 @@
           "newsSource": "GameGPU"
         },
         {
-          "title": "michael film",
-          "traffic": "500+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Michael Fassbender's Underrated 2015 Western Is Worth Revisiting",
-          "newsUrl": "https://www.slashfilm.com/2300836/michael-fassbender-western-slow-west-worth-revisiting/",
-          "newsSource": "SlashFilm"
-        },
-        {
           "title": "steven miller",
           "traffic": "200+",
           "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
@@ -1902,17 +1910,9 @@
           "title": "chargers – texans",
           "traffic": "200+",
           "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
-          "newsTitle": "Week 9 inactives for Texans",
-          "newsUrl": "https://sports.yahoo.com/articles/week-9-inactives-texans-194455082.html",
-          "newsSource": "Yahoo Sports"
-        },
-        {
-          "title": "justin timberlake",
-          "traffic": "200+",
-          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
-          "newsTitle": "Justin Timberlake Reveals ‘What Goes Around… Comes Around’ Is Not About Britney Spears",
-          "newsUrl": "https://www.imdb.com/news/ni66101161/?ref_=nmnw_art_perm",
-          "newsSource": "IMDb"
+          "newsTitle": "How to watch Texans vs Chargers: Live stream NFL for free, TV channel, start time",
+          "newsUrl": "https://www.thebiglead.com/how-to-watch-texans-vs-chargers-live-stream-nfl-for-free-tv-channel-start-time/",
+          "newsSource": "The Big Lead"
         }
       ],
       "gta": [
@@ -1956,7 +1956,7 @@
         },
         {
           "title": "skip bayless",
-          "traffic": "20000+",
+          "traffic": "10000+",
           "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
           "newsTitle": "LSU flops on fourth downs in 'really disappointing' loss",
           "newsUrl": "https://www.espn.com/college-football/story/_/id/50415401/lsu-flops-fourth-downs-really-disappointing-loss",
@@ -2018,18 +2018,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 104,
+    "latencyMs": 99,
     "bytes": 1241407,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-08T21:39:43.763Z"
+    "checkedAt": "2026-11-08T21:41:59.699Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": true,
-    "checkedAt": "2026-11-08T21:39:44.314Z"
+    "checkedAt": "2026-11-08T21:42:00.107Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",

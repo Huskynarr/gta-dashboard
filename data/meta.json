@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-08T21:39:48.443Z",
-  "startedAt": "2026-11-08T21:39:43.686Z",
-  "durationMs": 4757,
+  "lastRun": "2026-11-08T21:42:04.379Z",
+  "startedAt": "2026-11-08T21:41:59.614Z",
+  "durationMs": 4765,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -31,7 +31,7 @@
     "snapshots": 1,
     "wikiSeries": 4,
     "newsQueries": 4,
-    "decixPoints": 572,
+    "decixPoints": 573,
     "filings": 8,
     "pressReleases": 3
   },
