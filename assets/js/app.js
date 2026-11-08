@@ -1,4 +1,4 @@
-import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js';
+import { createGauge, createLineChart, sparkline } from './charts.js';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -97,12 +97,16 @@ const SOURCE_LABELS = {
   rockstar: 'Rockstar · Endpoint-Probe',
   decix: 'DE-CIX · Traffic-API',
   playstation: 'PlayStation · Preload-Seite',
+  investor: 'Investor · Take-Two IR',
+  sec: 'SEC EDGAR · Filings',
+  estimates: 'Yahoo Finance · Konsens',
 };
 
 const state = {
   stocks: null,
   osint: null,
   network: null,
+  investor: null,
   meta: null,
   marketRange: 90,
   wikiRange: 90,
@@ -140,6 +144,11 @@ function pct(value, digits = 2) {
   if (value == null || !Number.isFinite(Number(value))) return '—';
   const number = Number(value);
   return `${number > 0 ? '+' : ''}${number.toFixed(digits).replace('.', ',')} %`;
+}
+
+function belowPct(value, digits = 2) {
+  if (value == null || !Number.isFinite(Number(value))) return '—';
+  return `${Math.abs(Number(value)).toFixed(digits).replace('.', ',')} %`;
 }
 
 function money(value, currency = 'USD') {
@@ -211,11 +220,19 @@ function changeClass(value) {
   return 'is-flat';
 }
 
+const historyCache = new WeakMap();
+
 function history(stock) {
-  return (stock?.history || [])
+  if (!stock) return [];
+  if (historyCache.has(stock)) return historyCache.get(stock);
+
+  const result = (stock.history || [])
     .filter((point) => Number.isFinite(point.close))
     .slice()
     .sort((a, b) => a.date.localeCompare(b.date));
+
+  historyCache.set(stock, result);
+  return result;
 }
 
 function sliceDays(series, days) {
@@ -354,7 +371,7 @@ function computeSickSignal() {
 }
 
 async function loadData() {
-  const files = ['stocks', 'osint', 'network', 'meta'];
+  const files = ['stocks', 'osint', 'network', 'investor', 'meta'];
   const results = await Promise.all(
     files.map(async (name) => {
       try {
@@ -368,7 +385,7 @@ async function loadData() {
     }),
   );
 
-  [state.stocks, state.osint, state.network, state.meta] = results;
+  [state.stocks, state.osint, state.network, state.investor, state.meta] = results;
   if (!state.stocks || !state.osint) {
     const banner = document.createElement('div');
     banner.className = 'data-banner';
@@ -456,26 +473,40 @@ function renderBaskets() {
     return;
   }
 
-  grid.innerHTML = BASKETS.map((basket) => {
-    const stats = basketStats(basket);
-    const spark = sparkline(stats.series.map((point) => point.value), basket.color);
-    const cls = changeClass(stats.change);
+  const basketData = BASKETS.map((basket) => {
+    const series = computeBasket(seriesMap, basket.symbols, 30);
+    const value = series.at(-1)?.value ?? null;
+    const first = series[0]?.value ?? null;
+    return {
+      basket,
+      series,
+      value,
+      change: value != null && first != null ? value - first : null,
+    };
+  });
+
+  grid.innerHTML = basketData.map(({ basket, series, value, change }) => {
+    const spark = sparkline(series.map((point) => point.value), basket.color);
+    const cls = changeClass(change);
     return `<article class="basket-card">
-      <div class="basket-card__top"><span class="basket-card__label">${escapeHtml(basket.label)}</span><span class="basket-card__change ${cls}">${pct(stats.change)}</span></div>
-      <div class="basket-card__value"><strong>${stats.value != null ? stats.value.toFixed(1).replace('.', ',') : '—'}</strong><span>Base 100 · 30T</span></div>
+      <div class="basket-card__top"><span class="basket-card__label">${escapeHtml(basket.label)}</span><span class="basket-card__change ${cls}">${pct(change)}</span></div>
+      <div class="basket-card__value"><strong>${value != null ? value.toFixed(1).replace('.', ',') : '—'}</strong><span>Base 100 · 30T</span></div>
       <p class="basket-card__desc">${escapeHtml(basket.desc)}</p>
       <div class="basket-card__spark">${spark}</div>
     </article>`;
   }).join('');
 
-  const chartSeries = BASKETS.map((basket) => ({
-    label: basket.label,
-    color: basket.color,
-    data: computeBasket(seriesMap, basket.symbols, state.marketRange).map((point) => ({
-      x: point.date,
-      y: point.value,
-    })),
-  }));
+  const chartSeries = BASKETS.map((basket) => {
+    const cached = basketData.find((entry) => entry.basket.key === basket.key);
+    const series = state.marketRange === 30 && cached
+      ? cached.series
+      : computeBasket(seriesMap, basket.symbols, state.marketRange);
+    return {
+      label: basket.label,
+      color: basket.color,
+      data: series.map((point) => ({ x: point.date, y: point.value })),
+    };
+  });
 
   createLineChart($('#basketChart'), chartSeries, {
     height: 340,
@@ -522,7 +553,7 @@ function renderStocks() {
     const low = stock.fiftyTwoWeekLow;
     const high = stock.fiftyTwoWeekHigh;
     const rangePosition =
-      low != null && high != null && high > low
+      stock.price != null && low != null && high != null && high > low
         ? clamp(((stock.price - low) / (high - low)) * 100, 0, 100)
         : 50;
     const cls = changeClass(stock.changePct);
@@ -655,7 +686,7 @@ function renderOsint() {
       ['GTA VI · EN', wikiEn ? compact(wikiEn.recent7) : '—', 'Pageviews · 7T'],
       ['GTA VI · DE', wikiDe ? compact(wikiDe.recent7) : '—', 'Pageviews · 7T'],
       ['News · 24h', newsEn ? intFmt.format(newsEn.count24h) : '—', newsEn ? `${intFmt.format(newsEn.count7d)} Artikel in 7T` : 'Google News · EN'],
-      ['r/GTA6', reddit?.subscribers ? compact(reddit.subscribers) : '—', reddit?.postsPerHour != null ? `${reddit.postsPerHour.toFixed(1).replace('.', ',')} Posts/h · ${reddit.sampleHours}h Sample` : 'Reddit Members'],
+      ['r/GTA6', reddit?.subscribers ? compact(reddit.subscribers) : '—', reddit?.postsPerHour != null ? `${reddit.postsPerHour.toFixed(1).replace('.', ',')} Posts/h · ${reddit.sampleHours ?? '—'}h Sample` : 'Reddit Members'],
       ['Steam · GTA V', steam?.gta5 != null ? compact(steam.gta5) : '—', 'Concurrent Players'],
       ['Hype Signal', hype != null ? `${hype}/100` : '—', 'OSINT Composite · 0–100'],
     ].map(([label, value, sub]) => `<div class="stat"><span class="stat__label">${escapeHtml(label)}</span><span class="stat__value">${escapeHtml(value)}</span><span class="stat__sub">${escapeHtml(sub)}</span></div>`).join('');
@@ -663,7 +694,9 @@ function renderOsint() {
 
   const newsBadge = $('#newsBadge');
   if (newsBadge) {
-    newsBadge.textContent = newsEn ? `${newsEn.count7d >= 100 ? '100+' : newsEn.count7d} · 7T` : '—';
+    newsBadge.textContent = newsEn
+      ? `${newsEn.count7d >= 100 ? '100+' : newsEn.count7d ?? 0} · 7T`
+      : '—';
     newsBadge.className = `badge ${newsEn ? 'is-ok' : 'is-degraded'}`;
   }
 
@@ -723,7 +756,11 @@ function preloadCountdown(dateString) {
   const days = Math.floor(diff / 86400000);
   const hours = Math.floor(diff / 3600000) % 24;
   const minutes = Math.floor(diff / 60000) % 60;
-  return `${days}T ${String(hours).padStart(2, '0')}H ${String(minutes).padStart(2, '0')}M`;
+  const parts = [];
+  if (days > 0) parts.push(`${days}T`);
+  parts.push(`${String(hours).padStart(2, '0')}H`);
+  parts.push(`${String(minutes).padStart(2, '0')}M`);
+  return parts.join(' ');
 }
 
 function renderNetwork() {
@@ -771,7 +808,6 @@ function renderNetwork() {
   if (statusBox) {
     const status = preload.status || 'upcoming';
     const target = status === 'upcoming' ? preload.ps5Preload : preload.release;
-    const statusLabel = status === 'upcoming' ? 'PRELOAD IN' : status === 'preload' ? 'RELEASE IN' : 'LIVE';
     const statusText =
       status === 'upcoming'
         ? 'PS5-Preload startet am 10. November um 00:00 lokal. Xbox startet weltweit um 00:00 GMT (01:00 CET).'
@@ -819,6 +855,204 @@ function renderNetwork() {
   }
 }
 
+function renderPeaks() {
+  const grid = $('#peakGrid');
+  if (!grid) return;
+
+  const decix = state.network?.decix;
+  const ttwo = state.stocks?.series?.TTWO;
+  const gtaBasket = computeBasket(state.stocks?.series || {}, BASKETS[0].symbols, 90);
+  const wiki = state.osint?.wikipedia?.gta_en;
+  const reddit = state.osint?.reddit;
+  const cards = [];
+
+  const add = (label, value, meta, sub, accent, quality = 'real') => {
+    cards.push({ label, value, meta, sub, accent, quality });
+  };
+
+  if (decix?.meta?.allTimePeak) {
+    const current = decix.meta.current;
+    add(
+      'DE-CIX · All-Time Peak',
+      tbit(decix.meta.allTimePeak),
+      '14.10.2026 · DE-CIX API',
+      current ? `Aktuell ${belowPct((current / decix.meta.allTimePeak - 1) * 100)} unter dem All-Time-Peak` : 'Frankfurt',
+      '#21e6c1',
+      'real',
+    );
+  }
+
+  if (decix?.traffic2d?.length) {
+    const peakPoint = decix.traffic2d.reduce((best, point) =>
+      point.value > best.value ? point : best,
+    );
+    add(
+      'DE-CIX · 2T Peak',
+      tbit(peakPoint.value),
+      `${dateTimeFmt.format(new Date(peakPoint.clock))} · DE-CIX API`,
+      'Höchster 5-Minuten-Punkt der letzten 48 Stunden',
+      '#21e6c1',
+      'real',
+    );
+  }
+
+  if (ttwo?.fiftyTwoWeekHigh) {
+    const distance = ttwo.price != null
+      ? (ttwo.price / ttwo.fiftyTwoWeekHigh - 1) * 100
+      : null;
+    add(
+      'TTWO · 52W High',
+      money(ttwo.fiftyTwoWeekHigh, ttwo.currency),
+      'Yahoo Finance · Real',
+      ttwo.price != null ? `Aktuell ${belowPct(distance)} unter dem 52W-Hoch` : 'Take-Two Interactive',
+      '#ff2e88',
+      'real',
+    );
+  }
+
+  if (gtaBasket.length) {
+    const peak = Math.max(...gtaBasket.map((point) => point.value));
+    const latest = gtaBasket.at(-1)?.value;
+    add(
+      'GTA Basket · 90T High',
+      peak.toFixed(1).replace('.', ','),
+      'Equal-Weight · Proxy',
+      latest != null ? `Aktuell ${belowPct((latest / peak - 1) * 100)} unter dem 90T-Hoch` : 'Base 100',
+      '#9b5cff',
+      'proxy',
+    );
+  }
+
+  if (wiki?.series?.length) {
+    const peak = wiki.series.reduce((best, point) =>
+      point.views > best.views ? point : best,
+    );
+    add(
+      'Wikipedia · Peak',
+      compact(peak.views),
+      `${dateShort(peak.date)} · Wikimedia`,
+      'Höchster Tageswert · Proxy',
+      '#ffc857',
+      'proxy',
+    );
+  }
+
+  if (reddit?.topPosts?.length) {
+    const top = reddit.topPosts[0];
+    add(
+      'Reddit · Top Post',
+      compact(top.score),
+      'Arctic Shift · Proxy',
+      top.title,
+      '#ff7a18',
+      'proxy',
+    );
+  }
+
+  if (!cards.length) {
+    grid.innerHTML = '<div class="panel"><p class="chart__empty">Peak-Daten gerade nicht verfügbar.</p></div>';
+    return;
+  }
+
+  grid.innerHTML = cards.map((card) => `
+    <article class="peak-card" style="--accent:${card.accent}">
+      <span class="peak-card__label">${escapeHtml(card.label)}</span>
+      <span class="peak-card__value">${escapeHtml(card.value)}</span>
+      <span class="peak-card__meta"><span class="quality ${card.quality === 'real' ? 'is-real' : 'is-proxy'}">${card.quality === 'real' ? 'Real' : 'Proxy'}</span><span>${escapeHtml(card.meta)}</span></span>
+      <span class="peak-card__sub">${escapeHtml(card.sub)}</span>
+    </article>`).join('');
+}
+
+function renderInvestor() {
+  const investor = state.investor;
+  const earnings = investor?.earnings;
+  const estimates = investor?.estimates;
+  const annual = investor?.annualMeeting;
+  const filings = investor?.filings || [];
+  const press = investor?.pressReleases || [];
+  const latest10Q = filings.find((filing) => filing.form === '10-Q');
+
+  const earningsBadge = $('#earningsBadge');
+  if (earningsBadge) {
+    if (!earnings?.date) {
+      earningsBadge.textContent = '—';
+      earningsBadge.className = 'badge';
+    } else if (new Date(earnings.date).getTime() > Date.now()) {
+      earningsBadge.textContent = `IN ${preloadCountdown(earnings.date)}`;
+      earningsBadge.className = 'badge is-ok';
+    } else {
+      earningsBadge.textContent = 'RELEASED';
+      earningsBadge.className = 'badge is-ok';
+    }
+  }
+
+  const earningsPanel = $('#earningsPanel');
+  if (earningsPanel) {
+    if (!earnings) {
+      earningsPanel.innerHTML = '<p class="chart__empty">Investor-Relations-Daten gerade nicht verfügbar.</p>';
+    } else {
+      const future = new Date(earnings.date).getTime() > Date.now();
+      earningsPanel.innerHTML = `
+        <div class="earnings-countdown">${future ? preloadCountdown(earnings.date) : 'VERÖFFENTLICHT'}</div>
+        <p class="earnings-title">${escapeHtml(earnings.title)}</p>
+        <p class="earnings-date">${escapeHtml(earnings.dateLabel)} · ${dateLong(earnings.date)}</p>
+        ${estimates ? `<div class="earnings-consensus">
+          <span class="earnings-consensus__label">Konsens · Yahoo Finance</span>
+          <strong>EPS ${money(estimates.epsAverage)} · Umsatz ${compact(estimates.revenueAverage)}</strong>
+          <span>Spanne ${money(estimates.epsLow)}–${money(estimates.epsHigh)} · ${compact(estimates.revenueLow)}–${compact(estimates.revenueHigh)}${estimates.analysts ? ` · ${estimates.analysts} Analysten` : ''}</span>
+        </div>` : ''}
+        <div class="earnings-actions">
+          ${earnings.webcastUrl ? `<a href="${escapeHtml(earnings.webcastUrl)}" target="_blank" rel="noopener">Webcast ↗</a>` : ''}
+          ${earnings.resultsUrl ? `<a href="${escapeHtml(earnings.resultsUrl)}" target="_blank" rel="noopener">IR-Meldung ↗</a>` : ''}
+        </div>
+        <p class="earnings-note">Die Q2-Zahlen sind der harte Realitätscheck vor dem Release. Der 19. November bleibt der größte Katalysator — die Guidance entscheidet, wie viel GTA VI schon im Kurs steckt.</p>`;
+    }
+  }
+
+  const filingBadge = $('#filingBadge');
+  if (filingBadge) {
+    filingBadge.textContent = `${filings.length} FILINGS`;
+    filingBadge.className = `badge ${filings.length ? 'is-ok' : 'is-degraded'}`;
+  }
+
+  const filingList = $('#filingList');
+  if (filingList) {
+    if (!filings.length) {
+      filingList.innerHTML = '<p class="chart__empty">Keine SEC-Filings verfügbar.</p>';
+    } else {
+      filingList.innerHTML = filings.slice(0, 6).map((filing) => `
+        <a class="filing-item" href="${escapeHtml(filing.url || '#')}" target="_blank" rel="noopener">
+          <span class="filing-form">${escapeHtml(filing.form)}</span>
+          <span><span class="filing-item__title">${escapeHtml(filing.description && filing.description !== filing.form ? filing.description : `${filing.form} · SEC Filing`)}</span><span class="filing-item__meta"><span>${dateShort(filing.filingDate)}</span><span>Report ${dateShort(filing.reportDate)}</span></span></span>
+          <span class="filing-item__arrow">↗</span>
+        </a>`).join('');
+    }
+  }
+
+  const stats = $('#investorStats');
+  if (stats) {
+    stats.innerHTML = [
+      ['Q2 FY2027', earnings?.resultsDate ? dateShort(earnings.resultsDate) : '—', 'Ergebnisse · Take-Two IR'],
+      ['Earnings Call', earnings?.date ? dateTimeFmt.format(new Date(earnings.date)) : '—', 'Webcast · 22:30 CET'],
+      ['Annual Meeting', annual?.date ? dateShort(annual.date) : '—', annual?.date && new Date(annual.date).getTime() < Date.now() ? 'bereits gelaufen' : 'Virtual'],
+      ['Latest 10-Q', latest10Q ? dateShort(latest10Q.filingDate) : '—', latest10Q ? 'SEC EDGAR' : 'kein Filing'],
+    ].map(([label, value, sub]) => `<div class="stat"><span class="stat__label">${escapeHtml(label)}</span><span class="stat__value">${escapeHtml(value)}</span><span class="stat__sub">${escapeHtml(sub)}</span></div>`).join('');
+  }
+
+  const pressList = $('#pressList');
+  if (pressList) {
+    if (!press.length) {
+      pressList.innerHTML = '<p class="chart__empty">Keine IR-Pressemitteilungen verfügbar.</p>';
+    } else {
+      pressList.innerHTML = press.slice(0, 6).map((item) => `
+        <a class="news-item" href="${escapeHtml(item.url || '#')}" target="_blank" rel="noopener">
+          <span class="news-item__title">${escapeHtml(item.title)}</span>
+          <span class="news-item__meta"><span>Take-Two IR</span><span>${escapeHtml(item.dateLabel || dateShort(item.date))}</span></span>
+        </a>`).join('');
+    }
+  }
+}
+
 function renderTimeline() {
   const list = $('#timelineList');
   if (!list) return;
@@ -850,8 +1084,12 @@ function renderMethodology() {
   const degraded = values.filter((value) => value !== 'ok').length;
 
   if (statusBadge) {
-    statusBadge.textContent = degraded ? `${degraded} QUELLE(N) DEGRADED` : 'ALLE QUELLEN OK';
-    statusBadge.className = `badge ${degraded ? 'is-degraded' : 'is-ok'}`;
+    statusBadge.textContent = !meta
+      ? '—'
+      : degraded
+        ? `${degraded} QUELLE(N) DEGRADED`
+        : 'ALLE QUELLEN OK';
+    statusBadge.className = `badge ${!meta ? '' : degraded ? 'is-degraded' : 'is-ok'}`;
   }
 
   const sourceList = $('#sourceList');
@@ -948,6 +1186,8 @@ async function init() {
   renderSick();
   renderOsint();
   renderNetwork();
+  renderPeaks();
+  renderInvestor();
   renderTimeline();
   renderMethodology();
   setupNav();

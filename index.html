@@ -4,12 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GTA VI Release Intelligence — Huskynarr</title>
-  <meta name="description" content="Ein datengetriebenes Dashboard zum GTA-VI-Release: Aktien, Krankenstand-Signale, OSINT-Hype und DE-CIX-Netzwerkload. Fan-Projekt, kein Finanzrat.">
+  <meta name="description" content="Ein datengetriebenes Dashboard zum GTA-VI-Release: Aktien, Peaks, Krankenstand-Signale, OSINT-Hype, Take-Two-Investor-Watch und DE-CIX-Netzwerkload. Fan-Projekt, kein Finanzrat.">
   <meta name="theme-color" content="#07070a">
+  <meta name="color-scheme" content="dark">
+  <meta name="author" content="Huskynarr">
+  <meta name="keywords" content="GTA 6, GTA VI, Release, Dashboard, Aktien, Take-Two, TTWO, DE-CIX, OSINT, Krankenstand">
+  <link rel="canonical" href="https://huskynarr.is-a.dev/gta-dashboard/">
   <meta property="og:title" content="GTA VI Release Intelligence">
-  <meta property="og:description" content="Aktien, Krankenstand, OSINT und Netzwerk-Traffic zum größten Game-Release aller Zeiten.">
+  <meta property="og:description" content="Aktien, Peaks, Krankenstand, OSINT, Take-Two-Zahlen und Netzwerk-Traffic zum größten Game-Release aller Zeiten.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://huskynarr.is-a.dev/gta-dashboard/">
+  <meta property="og:site_name" content="GTA VI Release Intelligence">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GTA VI Release Intelligence">
+  <meta name="twitter:description" content="Aktien, Peaks, Krankenstand, OSINT, Take-Two-Zahlen und DE-CIX-Traffic zum GTA-VI-Release.">
+  <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,6 +40,8 @@
       <a href="#krankenstand">Krankenstand</a>
       <a href="#osint">OSINT</a>
       <a href="#network">Netzwerk</a>
+      <a href="#peaks">Peaks</a>
+      <a href="#investor">Investor</a>
       <a href="#timeline">Timeline</a>
       <a href="#methodik">Methodik</a>
     </nav>
@@ -94,7 +105,7 @@
       <div class="basket-grid" id="basketCards"></div>
       <div class="panel panel--chart reveal">
         <div class="panel__head">
-          <div><span class="panel__kicker">Equal-Weight Index</span><h3>GTA VI Basket vs. Delivery</h3></div>
+          <div><span class="panel__kicker">Equal-Weight Index · Real</span><h3>GTA VI Basket vs. Delivery</h3></div>
           <div class="range-tabs" data-range-tabs="market">
             <button data-range="30">30T</button><button data-range="90" class="is-active">90T</button><button data-range="365">1J</button>
           </div>
@@ -122,13 +133,13 @@
       </div>
       <div class="split">
         <div class="panel panel--gauge reveal">
-          <div class="panel__head"><div><span class="panel__kicker">Leading Indicator</span><h3>Sick Leave Signal</h3></div></div>
+          <div class="panel__head"><div><span class="panel__kicker">Leading Indicator · Proxy</span><h3>Sick Leave Signal</h3></div></div>
           <div class="gauge" id="sickGauge"></div>
           <p class="gauge__caption" id="sickGaugeCaption">Wird geladen …</p>
           <div class="gauge__legend"><span><i class="dot dot--teal"></i> niedrig</span><span><i class="dot dot--gold"></i> erhöht</span><span><i class="dot dot--pink"></i> eskaliert</span></div>
         </div>
         <div class="panel panel--chart reveal">
-          <div class="panel__head"><div><span class="panel__kicker">Wikipedia Pageviews · DE</span><h3>Krankheit im Suchverhalten</h3></div></div>
+          <div class="panel__head"><div><span class="panel__kicker">Wikipedia Pageviews · Proxy</span><h3>Krankheit im Suchverhalten</h3></div></div>
           <div class="chart" id="sickChart"></div>
           <div class="chart__legend" id="sickLegend"></div>
         </div>
@@ -148,7 +159,7 @@
       </div>
       <div class="panel panel--chart reveal">
         <div class="panel__head">
-          <div><span class="panel__kicker">Wikipedia Pageviews · daily</span><h3>Wie viele Menschen nach Leonida suchen</h3></div>
+          <div><span class="panel__kicker">Wikipedia Pageviews · Proxy</span><h3>Wie viele Menschen nach Leonida suchen</h3></div>
           <div class="range-tabs" data-range-tabs="wiki"><button data-range="30">30T</button><button data-range="90" class="is-active">90T</button><button data-range="365">1J</button></div>
         </div>
         <div class="chart" id="wikiChart"></div>
@@ -169,7 +180,7 @@
       </div>
       <div class="network-grid">
         <div class="panel panel--chart reveal">
-          <div class="panel__head"><div><span class="panel__kicker">DE-CIX Frankfurt · live</span><h3>Bits pro Sekunde</h3></div><span class="live-pill"><span class="live-dot"></span> LIVE</span></div>
+          <div class="panel__head"><div><span class="panel__kicker">DE-CIX Frankfurt · Real</span><h3>Bits pro Sekunde</h3></div><span class="live-pill"><span class="live-dot"></span> LIVE</span></div>
           <div class="chart chart--decix" id="decixChart"></div>
           <div class="decix-meta" id="decixMeta"></div>
         </div>
@@ -182,9 +193,39 @@
       <div class="stat-grid" id="networkStats"></div>
     </section>
 
+    <section class="section" id="peaks">
+      <div class="section__head reveal">
+        <div><p class="kicker">05 / PEAKS &amp; RECORDS</p><h2>Die höchsten Ausschläge.</h2></div>
+        <p class="section__lede">Peaks sind lauter als Durchschnitte. Reale Rekorde, Proxy-Höchstwerte und der Abstand zum aktuellen Stand — jeweils mit Quelle und Datenqualität.</p>
+      </div>
+      <div class="peak-grid" id="peakGrid"></div>
+    </section>
+
+    <section class="section" id="investor">
+      <div class="section__head reveal">
+        <div><p class="kicker">06 / INVESTOR WATCH</p><h2>Was Take-Two als Nächstes zeigt.</h2></div>
+        <p class="section__lede">Q2 FY2027 Results am 9. November 2026, Earnings Call um 22:30 CET. Dazu die neuesten SEC-Filings und IR-Pressemitteilungen — echte Zahlen statt Bauchgefühl.</p>
+      </div>
+      <div class="investor-grid">
+        <div class="panel panel--earnings reveal">
+          <div class="panel__head"><div><span class="panel__kicker">Take-Two IR · Real</span><h3>Q2 FY2027 Earnings</h3></div><span class="badge is-ok" id="earningsBadge">--</span></div>
+          <div class="earnings-card" id="earningsPanel"></div>
+        </div>
+        <div class="panel panel--filings reveal">
+          <div class="panel__head"><div><span class="panel__kicker">SEC EDGAR · Real</span><h3>Latest Filings</h3></div><span class="badge" id="filingBadge">--</span></div>
+          <div class="filing-list" id="filingList"></div>
+        </div>
+      </div>
+      <div class="stat-grid" id="investorStats"></div>
+      <div class="panel panel--press reveal">
+        <div class="panel__head"><div><span class="panel__kicker">Take-Two IR · Press Releases</span><h3>Offizielle Meldungen</h3></div></div>
+        <div class="news-list" id="pressList"></div>
+      </div>
+    </section>
+
     <section class="section" id="timeline">
       <div class="section__head reveal">
-        <div><p class="kicker">05 / TIMELINE</p><h2>Der Weg nach Leonida.</h2></div>
+        <div><p class="kicker">07 / TIMELINE</p><h2>Der Weg nach Leonida.</h2></div>
         <p class="section__lede">Vom ersten Trailer bis zum Preload: die Meilensteine, die den Markt und die Netzwerke bewegt haben — und die noch kommen.</p>
       </div>
       <div class="timeline" id="timelineList"></div>
@@ -192,7 +233,7 @@
 
     <section class="section" id="methodik">
       <div class="section__head reveal">
-        <div><p class="kicker">06 / METHODIK</p><h2>Wie wir messen.</h2></div>
+        <div><p class="kicker">08 / METHODIK</p><h2>Wie wir messen.</h2></div>
         <p class="section__lede">Keine Blackbox: Jede Zahl hat eine Quelle, einen Zeitstempel und eine bewusste Grenze. Was hier steht, ist ein Signal — keine Prognose.</p>
       </div>
       <div class="method-grid">
@@ -200,9 +241,12 @@
         <article class="method-card reveal"><span class="method-card__num">02</span><h3>Krankenstand</h3><p>Wikipedia-Pageviews und Google-News-Volumen für Krankmeldung, Krankenstand und Arbeitsunfähigkeit. Offizielle Krankenkassen-Daten erscheinen mit Verzug — das hier ist ein Leading Indicator.</p></article>
         <article class="method-card reveal"><span class="method-card__num">03</span><h3>OSINT</h3><p>Wikipedia, Google News RSS, Reddit via Arctic Shift, Steam-Spielerzahlen und Google Trends. Jede Quelle wird einzeln als „ok“ oder „degraded“ markiert.</p></article>
         <article class="method-card reveal"><span class="method-card__num">04</span><h3>Netzwerk</h3><p>DE-CIX-Frankfurt-API (2 Tage, 5-Minuten-Punkte) und ein Rockstar-Endpoint-Probe. Latenz ist keine Traffic-Messung, sondern ein Verfügbarkeits-Signal.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">05</span><h3>Investor</h3><p>Take-Two-IR-Seite und SEC-EDGAR-Submissions: Earnings-Termin, Webcast, Annual Meeting und die neuesten 10-Q-, 10-K-, 8-K- und DEF-14A-Filings.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">06</span><h3>Datenqualität</h3><p><strong>Real</strong> = Aktien, DE-CIX, SEC/IR. <strong>Proxy</strong> = Wikipedia, News, Reddit, Trends. <strong>Leading</strong> = Sick-Leave-Signal. Jede Karte ist entsprechend markiert.</p></article>
       </div>
       <div class="panel panel--sources reveal">
         <div class="panel__head"><div><span class="panel__kicker">Transparenz</span><h3>Quellen &amp; Grenzen</h3></div><span class="badge" id="sourceStatus">--</span></div>
+        <div class="quality-legend"><span class="quality is-real">Real</span> Markt, Netzwerk, SEC/IR <span class="quality is-proxy">Proxy</span> Wikipedia, News, Reddit, Trends <span class="quality is-leading">Leading</span> Sick Leave Signal</div>
         <div class="source-list" id="sourceList"></div>
         <p class="disclaimer">Kein Finanzrat, keine Anlageempfehlung. Dieses Dashboard ist ein Fan-Projekt und steht in keiner Verbindung zu Rockstar Games oder Take-Two. Alle Daten kommen aus öffentlichen Quellen; Fehler und Verzögerungen sind möglich.</p>
       </div>

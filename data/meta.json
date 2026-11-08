@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-08T21:23:42.871Z",
-  "startedAt": "2026-11-08T21:23:38.197Z",
-  "durationMs": 4674,
+  "lastRun": "2026-11-08T21:39:48.443Z",
+  "startedAt": "2026-11-08T21:39:43.686Z",
+  "durationMs": 4757,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -20,7 +20,10 @@
     "reddit": "ok",
     "steam": "ok",
     "trends": "ok",
-    "rockstar": "ok"
+    "rockstar": "ok",
+    "investor": "ok",
+    "sec": "ok",
+    "estimates": "ok"
   },
   "counts": {
     "stocks": 13,
@@ -28,7 +31,9 @@
     "snapshots": 1,
     "wikiSeries": 4,
     "newsQueries": 4,
-    "decixPoints": 573
+    "decixPoints": 572,
+    "filings": 8,
+    "pressReleases": 3
   },
   "errors": []
 }

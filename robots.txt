@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://huskynarr.is-a.dev/gta-dashboard/sitemap.xml

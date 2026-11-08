@@ -1,0 +1,124 @@
+{
+  "updated": "2026-11-08T21:39:43.769Z",
+  "earnings": {
+    "title": "Q2 2027 Take-Two Interactive Software, Inc. Earnings Conference Call",
+    "dateLabel": "November 9, 2026 at 9:30 PM UTC",
+    "date": "2026-11-09T21:30:00.000Z",
+    "webcastUrl": "https://events.q4inc.com/attendee/112490011",
+    "resultsTitle": "Take-Two Interactive Software, Inc. to Report Second Quarter Fiscal Year 2027 Results on Monday, November 9, 2026",
+    "resultsDate": "2026-11-09",
+    "resultsUrl": "https://ir.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8"
+  },
+  "estimates": {
+    "epsAverage": 0.97358,
+    "epsLow": 0.9,
+    "epsHigh": 1.09,
+    "revenueAverage": 1656539590,
+    "revenueLow": 1625000000,
+    "revenueHigh": 1700000000,
+    "earningsDate": "2026-11-09",
+    "earningsCallDate": "2026-11-09",
+    "isEstimate": false,
+    "epsYearAgo": -0.73,
+    "analysts": 11,
+    "source": "Yahoo Finance quoteSummary"
+  },
+  "annualMeeting": {
+    "title": "Take-Two Interactive Software Inc’s 2026 Virtual Annual Shareholder Meeting",
+    "dateLabel": "September 17, 2026 at 1:00 PM UTC",
+    "date": "2026-09-17T13:00:00.000Z",
+    "url": "https://www.virtualshareholdermeeting.com/TTWO2026"
+  },
+  "pressReleases": [
+    {
+      "date": "2026-10-13",
+      "dateLabel": "October 13, 2026",
+      "title": "Take-Two Interactive Software, Inc. to Report Second Quarter Fiscal Year 2027 Results on Monday, November 9, 2026",
+      "url": "https://ir.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8"
+    },
+    {
+      "date": "2026-10-08",
+      "dateLabel": "October 8, 2026",
+      "title": "Words With Friends Expands Its Dictionary with 25,000 New Words to Herald the Next Era of Word Games",
+      "url": "https://ir.take2games.com/ir/news/words-friends-expands-its-dictionary-25000-new-words-herald-next"
+    },
+    {
+      "date": "2026-09-10",
+      "dateLabel": "September 10, 2026",
+      "title": "Take-Two Interactive to Host Webcast of 2026 Annual Meeting of Stockholders",
+      "url": "https://ir.take2games.com/ir/news/take-two-interactive-host-webcast-2026-annual-meeting"
+    }
+  ],
+  "filings": [
+    {
+      "form": "8-K",
+      "filingDate": "2026-09-30",
+      "reportDate": "2026-09-28",
+      "description": "8-K",
+      "accession": "0001628280-26-064001",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026064001/ttwo-20260928.htm"
+    },
+    {
+      "form": "8-K",
+      "filingDate": "2026-09-22",
+      "reportDate": "2026-09-17",
+      "description": "8-K",
+      "accession": "0001628280-26-063032",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026063032/ttwo-20260917.htm"
+    },
+    {
+      "form": "10-Q",
+      "filingDate": "2026-08-07",
+      "reportDate": "2026-06-30",
+      "description": "10-Q",
+      "accession": "0001628280-26-054870",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026054870/ttwo-20260630.htm"
+    },
+    {
+      "form": "8-K",
+      "filingDate": "2026-08-07",
+      "reportDate": "2026-08-07",
+      "description": "8-K",
+      "accession": "0001628280-26-054580",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026054580/ttwo-20260807.htm"
+    },
+    {
+      "form": "DEF 14A",
+      "filingDate": "2026-07-27",
+      "reportDate": "2026-03-31",
+      "description": "DEF 14A",
+      "accession": "0001628280-26-049813",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026049813/ttwo-20260727.htm"
+    },
+    {
+      "form": "10-K",
+      "filingDate": "2026-05-22",
+      "reportDate": "2026-03-31",
+      "description": "10-K",
+      "accession": "0001628280-26-037434",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/ttwo-20260331.htm"
+    },
+    {
+      "form": "8-K",
+      "filingDate": "2026-05-21",
+      "reportDate": "2026-05-21",
+      "description": "8-K",
+      "accession": "0001628280-26-037260",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037260/ttwo-20260521.htm"
+    },
+    {
+      "form": "10-Q",
+      "filingDate": "2026-02-04",
+      "reportDate": "2025-12-31",
+      "description": "10-Q",
+      "accession": "0001628280-26-005119",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026005119/ttwo-20251231.htm"
+    }
+  ],
+  "sources": {
+    "ir": "ok",
+    "sec": "ok",
+    "estimates": "ok"
+  },
+  "errors": []
+}

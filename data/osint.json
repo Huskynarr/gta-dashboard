@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:23:40.736Z",
+  "updated": "2026-11-08T21:39:46.064Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -1476,7 +1476,7 @@
       "label": "GTA VI · EN",
       "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 8,
+      "count24h": 11,
       "series": [
         {
           "date": "2026-11-02",
@@ -1484,19 +1484,19 @@
         },
         {
           "date": "2026-11-03",
-          "count": 7
-        },
-        {
-          "date": "2026-11-04",
           "count": 8
         },
         {
+          "date": "2026-11-04",
+          "count": 7
+        },
+        {
           "date": "2026-11-05",
-          "count": 19
+          "count": 18
         },
         {
           "date": "2026-11-06",
-          "count": 34
+          "count": 32
         },
         {
           "date": "2026-11-07",
@@ -1504,10 +1504,22 @@
         },
         {
           "date": "2026-11-08",
-          "count": 8
+          "count": 11
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 Piracy Claim: 0 Proven PS5 Exploits [2026] - shattered.io",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZVhnR3JaTUYzVTh0eWUtZmlUQ2YzZndMRnY2MUZPZmZIWFhfeHlKd0JpM011dlF6enU1QmJRRDFIM1l3ZjVSdzVubk9jWktyVnhYZFZqTEVmYWE1cnBJaGMtUHpka1dlbmMwUDVjQndMb0V1Q25oYzlqLWduTEVzS1hPUFhxQQ?oc=5",
+          "source": "shattered.io",
+          "pubDate": "Sun, 08 Nov 2026 21:23:53 GMT"
+        },
+        {
+          "title": "GTA 6 Piracy Risk: Take-Two Cites 10-20% Film Rate [2026] - https://tech-insider.org/",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcGtCMHA2WlBEb1gyTDd5TkxSU1MxOXl5NG9iVVZTQmp4ZVdWcmZfanJjekt4Y0ZpMVNkdDg0bEgta2JvLWxqSmNIdkJqY0ZQN0x6dlY1bXVlYzJiTHNtaElORGpzczJSMjJGNGxxN0owUjB4NDk4cThUcFJWeUE3M0t5Nno5TGJ5RElBbQ?oc=5",
+          "source": "https://tech-insider.org/",
+          "pubDate": "Sun, 08 Nov 2026 21:14:33 GMT"
+        },
         {
           "title": "Does GTA 6 come with a disc? No, the boxed copy holds a download code - Nacionale",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcmJUM1RwOWZjdE9RWmlocnhnMTRyYjZyS2VtUFRpSVE0aEZtTFlIckl1U2ZDdTJJdVBHY2p3bzA4Zy1zb3Ixdkg0MWtXbVl0VUZkZ2FjTm5HTThGNFhzdEtyN0RXZXFaYnVCT1d3UklVWHZPbmc2Nk1BWFFVbEctTWRDR2dETjlzbEE0cDdySmVSOXFwZHhjRG8zVl9tdw?oc=5",
@@ -1531,18 +1543,6 @@
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQc1lNTEI4U1owaER0SWJkRlByM1lZTjVQYXBtYXoycmx3Q3o4SXZ2ZlE3UlhaV2N2QndlNFVXQk9rc3ZBN3FXdml2LTJNdTcxcEVSdExPVU9ubnJmZ2tHX2hOVUE2TEh6MXppbFcxWjdEUG5sVDNkaldhZWxNOWczbmRB?oc=5",
           "source": "Comics Gaming Magazine",
           "pubDate": "Sun, 08 Nov 2026 15:00:00 GMT"
-        },
-        {
-          "title": "Take-Two Sheds $2.83B on GTA 6 Leaks [2026] - https://tech-insider.org/",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQndYMmFjWHoxNkt5dFI0d3NRbWQ4REdXUjRkTXR3NHIwS0dIWXVIS0NCZ0liRjd2S09CR09TcUlqNjd0QUlJRE1YZWZHNnVXOFE4U1doNTd1VkNGMmgyN2RSOWtDamU2RW5UNWxCZHFmUXFGd2xYd1NIYTQ5aVlxNU1rOW9zUQ?oc=5",
-          "source": "https://tech-insider.org/",
-          "pubDate": "Sun, 08 Nov 2026 12:32:10 GMT"
-        },
-        {
-          "title": "GTA 6 achievements leak hints at how massive the game could truly be - Neowin",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeFhIWVJxQVItZWJRd29ZenJSbXU1d0FOcDE0dU54NmRNSHV0WEZiX0xoQ2FvcHgxZVU2amUxb2stRkZuZ3VVVmxVSW1PVmNrVWpKZlBHTElsUFJGOGhXMURTUFA4enZJdFBFQkZHSUxocURNSVd2cm1vYXFoOTRXNF9KeUgyaVJkdEw2ZndoUEdaZUk2eXh0aGIxWTg0dw?oc=5",
-          "source": "Neowin",
-          "pubDate": "Sun, 08 Nov 2026 09:34:00 GMT"
         }
       ]
     },
@@ -1700,7 +1700,7 @@
       "key": "rockstar",
       "label": "Rockstar Newswire",
       "query": "site:rockstargames.com",
-      "count7d": 40,
+      "count7d": 41,
       "count24h": 14,
       "series": [
         {
@@ -1709,11 +1709,11 @@
         },
         {
           "date": "2026-11-03",
-          "count": 10
+          "count": 11
         },
         {
           "date": "2026-11-04",
-          "count": 4
+          "count": 3
         },
         {
           "date": "2026-11-05",
@@ -1721,7 +1721,7 @@
         },
         {
           "date": "2026-11-06",
-          "count": 4
+          "count": 5
         },
         {
           "date": "2026-11-07",
@@ -1735,21 +1735,21 @@
       "items": [
         {
           "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2Q2dhM2tEY0NPNUFubUFsOEtRTUhVSWJuM3B1QWl1dDNDYy1MZXBfUWVtZWlOSnZnVmNvYUNJcGFzNE9FNnJpQV82Qy1vUU5YSVdmRWZ4Z1VUaS03LXVxalc2VDlLS2JuNGZ0bUlVeTEyb0oxQ0E2azRicw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNTZ1Yll3T2dGSmhUX2dOcC1aOVM2Qmh6VXVTOFBHV0JVbFhvbWpRWXhuRUI5NnFNRmUwT2xmVmNHLWJpS3dqZTQ4Zkd5S3pIOXN6YWxkamQ2NVZzTzlURDFqeHZBdDBrak5DMS1HMFE3WFNiaWgtUk51UUxhSXhsaGpn?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 08 Nov 2026 20:21:33 GMT"
+          "pubDate": "Sun, 08 Nov 2026 20:59:44 GMT"
         },
         {
           "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONUQ5S09WUFZia290dDhLdGNrZ2llUGtHZDVfVVlLVHBKZWxqM29DeDFZbmRoazlCMXh4Zk1aNjU0ejRLTWpmTGREbDlBaVdUUzRqQUdLYlNKMXR2bHh4Y2p1dVBqLTZROUFKS3dnb2wtUFFYQWJNRWRyLUdzTnBMMm4wQQ?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EbzZtLWh1RDFvUzlSaFVhaTRtSEszeW5PMGo2UXNIcmhJaUYzX2NTRDNBbkpDa3JHUWRwX2t1M2pyMk01UmxWRjY2MVRKN2pFZ28xdzdZbWVsZ2w3OVBzSEpGOTlzSHM?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 08 Nov 2026 20:15:34 GMT"
+          "pubDate": "Sun, 08 Nov 2026 20:19:32 GMT"
         },
         {
           "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VcEtsYWlGT0pGSlRpdUVHUlpKTzVpLTdJOU5SaEZnVTBPM2ZFbk1NdEduTWpPS1VvVjY4dll0dXBoRkFENlZHeGwxM0FIbHhUcm9yUFZqZnBHYWdhcTdPTjZDTUswMzczajhFTDgyTUt6RS1DUVRJQ0ZRNHNwdw?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vVTFGT1Via0JLZFdmWGM1R1NpUUFGTTBfclJlQXVFVTRhOXVrM0MtNU9ldTRyYTVBaHVsSWE1WVozRW5QY0NST28yU0ZUVVF3bVlaaFVLNnNGUnhIRkVEQjhvR2lfNnQ1NDFzTmlR?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 08 Nov 2026 19:59:27 GMT"
+          "pubDate": "Sun, 08 Nov 2026 19:57:27 GMT"
         },
         {
           "title": "- Rockstar Games",
@@ -1759,9 +1759,9 @@
         },
         {
           "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNTZ1Yll3T2dGSmhUX2dOcC1aOVM2Qmh6VXVTOFBHV0JVbFhvbWpRWXhuRUI5NnFNRmUwT2xmVmNHLWJpS3dqZTQ4Zkd5S3pIOXN6YWxkamQ2NVZzTzlURDFqeHZBdDBrak5DMS1HMFE3WFNiaWgtUk51UUxhSXhsaGpn?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HUE8wZVBqaUp1d3hxRjBaV1M0LVd1ODV4VzdjME0yT2VXN3RPLUhLR0xIWWxIRXN3NVh6bGEyY3A0WjhOZy1MMEpzWVQ1ZjlKNWRNSG1PZmN1Q015ZlMxVXVzUUlodnFfcG9qNW1xLWVqbmxvblE?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 08 Nov 2026 17:58:21 GMT"
+          "pubDate": "Sun, 08 Nov 2026 19:12:35 GMT"
         },
         {
           "title": "- Rockstar Games",
@@ -1778,8 +1778,8 @@
     "posts24h": 100,
     "posts7d": null,
     "sampleSize": 100,
-    "sampleHours": 4.2,
-    "postsPerHour": 23.8,
+    "sampleHours": 4.5,
+    "postsPerHour": 22.3,
     "topPosts": [
       {
         "id": "1xr46pa",
@@ -1798,6 +1798,14 @@
         "link": "https://www.reddit.com/r/GTA6/comments/1xr3hia"
       },
       {
+        "id": "1xr5yeq",
+        "title": "GTA VI Laucnh Trailer Just Aired On a Brazilian Tv channel!",
+        "score": 142,
+        "comments": 11,
+        "createdUtc": 1794164081,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xr5yeq"
+      },
+      {
         "id": "1xr4l9k",
         "title": "Me n' my gf as Jason & Lucia for a Halloween party last night",
         "score": 52,
@@ -1812,35 +1820,35 @@
         "comments": 44,
         "createdUtc": 1794158908,
         "link": "https://www.reddit.com/r/GTA6/comments/1xr3uqg"
-      },
-      {
-        "id": "1xr3a5q",
-        "title": "This game just may entice me to act as a law-abiding citizen in free roam",
-        "score": 37,
-        "comments": 31,
-        "createdUtc": 1794157489,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xr3a5q"
       }
     ],
-    "fetchedAt": "2026-11-08T21:23:39.755Z"
+    "fetchedAt": "2026-11-08T21:39:45.993Z"
   },
   "steam": {
-    "gta5": 48312,
+    "gta5": 46223,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-08T21:23:38.440Z"
+    "fetchedAt": "2026-11-08T21:39:43.917Z"
   },
   "trends": {
     "de": {
       "geo": "DE",
       "items": [
         {
-          "title": "michael film",
-          "traffic": "1000+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Michael Fassbender's Underrated 2015 Western Is Worth Revisiting",
-          "newsUrl": "https://www.slashfilm.com/2300836/michael-fassbender-western-slow-west-worth-revisiting/",
-          "newsSource": "SlashFilm"
+          "title": "fermin lopez",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "Mentalidad Fermín",
+          "newsUrl": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261107/1004248116/mentalidad-fermin.html",
+          "newsSource": "Mundo Deportivo"
+        },
+        {
+          "title": "wdr live",
+          "traffic": "500+",
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "Highlights der Leverkusener Jazztage 2026",
+          "newsUrl": "https://www1.wdr.de/radio/wdr3/programm/sendungen/wdr3-konzert/highlights-der-leverkusener-jazztage-2026-100.html",
+          "newsSource": "WDR"
         },
         {
           "title": "gabriel",
@@ -1867,20 +1875,28 @@
           "newsSource": "GameGPU"
         },
         {
+          "title": "michael film",
+          "traffic": "500+",
+          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
+          "newsTitle": "Michael Fassbender's Underrated 2015 Western Is Worth Revisiting",
+          "newsUrl": "https://www.slashfilm.com/2300836/michael-fassbender-western-slow-west-worth-revisiting/",
+          "newsSource": "SlashFilm"
+        },
+        {
           "title": "steven miller",
           "traffic": "200+",
           "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Trump’s elevation of Stephen Miller a middle finger to millions of voters",
-          "newsUrl": "https://www.theguardian.com/us-news/2026/nov/07/trump-stephen-miller-midterms",
-          "newsSource": "The Guardian"
+          "newsTitle": "Deputy White House Chief of Staff Richard Walters exits job ahead of Stephen Miller takeover",
+          "newsUrl": "https://www.foxnews.com/politics/deputy-white-house-chief-staff-richard-walters-exits-job-ahead-stephen-miller-takeover",
+          "newsSource": "Fox News"
         },
         {
           "title": "bundespräsident deutschland",
           "traffic": "1000+",
           "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
-          "newsTitle": "Nach dem Aigner-Coup: Kann Söder jetzt noch Kanzler werden?",
-          "newsUrl": "https://www.bild.de/politik/inland/nach-dem-aigner-coup-kann-soeder-jetzt-noch-kanzler-werden-6af0b0521125adfe9365ce38",
-          "newsSource": "BILD"
+          "newsTitle": "Hape Kerkeling oder Ilse Aigner? Komiker dankt seinen Anhängern",
+          "newsUrl": "https://www.spiegel.de/politik/deutschland/hape-kerkeling-oder-ilse-aigner-komiker-dankt-seinen-anhaengern-a-8a04e4d3-5307-4431-91b6-ad8c1ebb6e9e",
+          "newsSource": "Spiegel"
         },
         {
           "title": "chargers – texans",
@@ -1897,22 +1913,6 @@
           "newsTitle": "Justin Timberlake Reveals ‘What Goes Around… Comes Around’ Is Not About Britney Spears",
           "newsUrl": "https://www.imdb.com/news/ni66101161/?ref_=nmnw_art_perm",
           "newsSource": "IMDb"
-        },
-        {
-          "title": "cham",
-          "traffic": "200+",
-          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
-          "newsTitle": "In Cham trifft am Sonntag Gesundheit auf Genuss",
-          "newsUrl": "https://www.idowa.de/regionen/cham/cham/in-cham-trifft-am-sonntag-gesundheit-auf-genuss-art-424722",
-          "newsSource": "Idowa.de"
-        },
-        {
-          "title": "nvidia",
-          "traffic": "1000+",
-          "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
-          "newsTitle": "(S+) Nvidia-Chef Jensen Huang entschuldigt sich für Affäre mit mutmaßlicher Spionin",
-          "newsUrl": "https://www.spiegel.de/ausland/nvidia-chef-jensen-huang-entschuldigt-sich-fuer-affaere-mit-mutmasslicher-spionin-a-66db6061-9340-44ba-9c9d-75726df75e3b",
-          "newsSource": "Spiegel"
         }
       ],
       "gta": [
@@ -1931,84 +1931,84 @@
       "geo": "US",
       "items": [
         {
-          "title": "alvin kamara",
-          "traffic": "2000+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "no.saintsbrown.110826.86.jpg",
-          "newsUrl": "https://www.theadvocate.com/no-saintsbrown-110826-86-jpg/image_9033d69a-534b-540e-8e68-9b257819cdb7.html",
-          "newsSource": "The Advocate"
+          "title": "ladd mcconkey",
+          "traffic": "5000+",
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "Why Jim Harbaugh, Chargers Won't Trade Justin Herbert, McConkey, Mack Revealed in New NFL Rumors",
+          "newsUrl": "https://bleacherreport.com/articles/25530554-why-jim-harbaugh-chargers-wont-trade-justin-herbert-mcconkey-mack-revealed-new-nfl-rumors",
+          "newsSource": "Bleacher Report"
         },
         {
-          "title": "49er game today",
+          "title": "ladd mcconkey injury",
           "traffic": "1000+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Bosa, Sigle Active vs. Raiders; Inactives Week 9 #LVvsSF",
-          "newsUrl": "https://www.49ers.com/news/bosa-sigle-active-vs-raiders-inactives-week-9-lvvssf",
-          "newsSource": "San Francisco 49ers"
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "What happened to Ladd McConkey? Live injury updates for Chargers vs. Texans on Sunday 11/08/26",
+          "newsUrl": "https://dknetwork.draftkings.com/2026/11/08/what-happened-to-ladd-mcconkey-live-injury-updates-for-chargers-vs-texans-on-sunday-11-08-26/",
+          "newsSource": "DraftKings Network"
         },
         {
-          "title": "malik nabers",
-          "traffic": "2000+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Inactives: Who's in, who's out for Giants at Eagles",
-          "newsUrl": "https://www.giants.com/news/inactives-new-york-giants-philadelphia-eagles-week-9-cam-skattebo-charlie-jones-tyrone-tracy-jr",
-          "newsSource": "Giants.com"
-        },
-        {
-          "title": "brandon aubrey",
+          "title": "ryan flournoy",
           "traffic": "500+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Cowboys star Brandon Aubrey details journey from soccer player to software engineer to Pro Bowl kicker",
-          "newsUrl": "https://www.foxnews.com/outkick-sports/cowboys-star-brandon-aubrey-details-journey-soccer-player-software-engineer-pro-bowl-kicker",
-          "newsSource": "Fox News"
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "Cowboys' Ryan Flournoy: Could see added looks with Pickens out",
+          "newsUrl": "https://www.cbssports.com/fantasy/football/news/cowboys-ryan-flournoy-could-see-added-looks-with-pickens-out/",
+          "newsSource": "CBS Sports"
         },
         {
-          "title": "chris jones",
-          "traffic": "500+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Chiefs' floundering pass rush starts with Chris Jones: 'I always can be better'",
-          "newsUrl": "https://www.espn.com/nfl/story/_/id/50380580/chris-jones-chiefs-pass-rush-struggles",
+          "title": "skip bayless",
+          "traffic": "20000+",
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "LSU flops on fourth downs in 'really disappointing' loss",
+          "newsUrl": "https://www.espn.com/college-football/story/_/id/50415401/lsu-flops-fourth-downs-really-disappointing-loss",
           "newsSource": "ESPN"
         },
         {
-          "title": "pats game today",
-          "traffic": "500+",
+          "title": "is micah parsons playing today",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "Packers give Micah Parsons boost in return from ACL injury",
+          "newsUrl": "https://www.espn.com/nfl/story/_/id/50390997/packers-micah-parsons-return-acl",
+          "newsSource": "ESPN"
+        },
+        {
+          "title": "黃仁勳",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "黃仁勳坦承與中國女間諜有婚外情輝達展開調查| 全球財經| 全球",
+          "newsUrl": "https://udn.com/news/story/6811/9865861",
+          "newsSource": "UDN"
+        },
+        {
+          "title": "coco gauff",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "Martina Navratilova breaks down the 2026 WTA Finals field",
+          "newsUrl": "https://www.wtatennis.com/news/4606080/martina-navratilova-breaks-down-the-2026-wta-finals-field",
+          "newsSource": "WTA Tennis"
+        },
+        {
+          "title": "justin guarini",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:20:00 -0800",
+          "newsTitle": "'American Idol' star Justin Guarini endured dark spiral after Hollywood dream collapsed",
+          "newsUrl": "https://www.foxnews.com/entertainment/american-idol-star-justin-guarini-endured-dark-spiral-hollywood-dream-collapsed",
+          "newsSource": "Fox News"
+        },
+        {
+          "title": "tyler shough",
+          "traffic": "2000+",
+          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
+          "newsTitle": "Saints' Tyler Shough: Still has glove on non-throwing hand",
+          "newsUrl": "https://www.cbssports.com/fantasy/football/news/saints-tyler-shough-still-has-glove-on-non-throwing-hand/",
+          "newsSource": "CBS Sports"
+        },
+        {
+          "title": "patriots game today",
+          "traffic": "2000+",
           "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
           "newsTitle": "Weekly Patriots notes: What New England could do at the trade deadline, intel",
           "newsUrl": "https://www.espn.com/nfl/story/_/id/50401769/new-england-patriots-notebook-week-9-trade-deadline-plans",
           "newsSource": "ESPN"
-        },
-        {
-          "title": "nik bonitto",
-          "traffic": "500+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Children's Hospital Colorado Kid Correspondent: Ivan interviews OLB Nik Bonitto",
-          "newsUrl": "https://www.denverbroncos.com/news/children-s-hospital-colorado-kid-correspondent-ivan-interviews-olb-nik-bonitto",
-          "newsSource": "Denver Broncos"
-        },
-        {
-          "title": "juwan johnson",
-          "traffic": "200+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Harold Fannin Jr. Leads the Browns in Receiving, and the Saints' Tight Ends Have 6 Touchdowns",
-          "newsUrl": "https://sports.yahoo.com/articles/harold-fannin-jr-leads-browns-123000462.html",
-          "newsSource": "Yahoo Sports"
-        },
-        {
-          "title": "abdul carter",
-          "traffic": "200+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Giants can use Abdul Carter to test the Eagles’ new QB",
-          "newsUrl": "https://sports.yahoo.com/articles/giants-abdul-carter-test-eagles-005557707.html",
-          "newsSource": "Yahoo Sports"
-        },
-        {
-          "title": "jaguares - bucaramanga",
-          "traffic": "200+",
-          "pubDate": "Sun, 8 Nov 2026 13:10:00 -0800",
-          "newsTitle": "Sunderland - Chelsea, en directo: Premier League, hoy en vivo",
-          "newsUrl": "https://as.com/futbol/internacional/sunderland-chelsea-en-directo-premier-league-hoy-en-vivo-f202611-n/",
-          "newsSource": "Diario AS"
         }
       ],
       "gta": [],
@@ -2018,18 +2018,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 109,
+    "latencyMs": 104,
     "bytes": 1241407,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-08T21:23:38.319Z"
+    "checkedAt": "2026-11-08T21:39:43.763Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": true,
-    "checkedAt": "2026-11-08T21:23:38.836Z"
+    "checkedAt": "2026-11-08T21:39:44.314Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",

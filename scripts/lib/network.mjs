@@ -44,17 +44,15 @@ export async function collectNetwork(existing = null, osint = null) {
   };
 
   try {
-    const [twoDays, oneMonth] = await Promise.all([
-      fetchDecix('2days'),
-      fetchDecix('1month'),
-    ]);
+    const twoDays = await fetchDecix('2days');
 
     output.decix = {
       fetchedAt: new Date().toISOString(),
-      meta: twoDays.meta,
+      meta: {
+        ...twoDays.meta,
+        allTimePeakDate: '2026-10-14',
+      },
       traffic2d: twoDays.traffic,
-      traffic1m: oneMonth.traffic,
-      monthMeta: oneMonth.meta,
     };
     output.sources.decix = 'ok';
   } catch (error) {

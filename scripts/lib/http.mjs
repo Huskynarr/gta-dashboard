@@ -19,12 +19,31 @@ export async function fetchWithTimeout(url, options = {}, timeoutMs = 25000) {
   return res;
 }
 
-export async function fetchText(url, options = {}, timeoutMs = 25000) {
-  const res = await fetchWithTimeout(url, options, timeoutMs);
-  if (!res.ok) {
-    throw new Error(`HTTP ${res.status} ${res.statusText} — ${url}`);
+export async function fetchText(url, options = {}, timeoutMs = 25000, attempts = 3) {
+  let lastError = null;
+
+  for (let attempt = 1; attempt <= attempts; attempt += 1) {
+    try {
+      const res = await fetchWithTimeout(url, options, timeoutMs);
+
+      if (!res.ok) {
+        const error = new Error(`HTTP ${res.status} ${res.statusText} — ${url}`);
+        error.status = res.status;
+        throw error;
+      }
+
+      return await res.text();
+    } catch (error) {
+      lastError = error;
+      const retryable =
+        !error.status || error.status === 429 || error.status >= 500;
+
+      if (!retryable || attempt === attempts) throw error;
+      await sleep(450 * attempt);
+    }
   }
-  return res.text();
+
+  throw lastError;
 }
 
 export async function fetchJson(url, options = {}, timeoutMs = 25000) {

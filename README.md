@@ -15,7 +15,9 @@ Kein Finanzrat. Keine Verbindung zu Rockstar Games oder Take-Two. Nur ein Fan-Pr
 - **Krankenstand** — Leading Indicator aus Wikipedia-Pageviews und Google-News-Volumen für Krankmeldung, Krankenstand und Arbeitsunfähigkeit.
 - **Hype & OSINT** — Wikipedia, Google News, Reddit (Arctic Shift), Steam und Google Trends.
 - **Network Watch** — DE-CIX-Frankfurt-Traffic (2 Tage, 5-Minuten-Punkte), Rockstar-Endpoint-Probe und Preload-Countdown.
-- **Timeline & Methodik** — Meilensteine, Quellenstatus und bewusste Grenzen der Daten.
+- **Peaks & Records** — DE-CIX-All-Time-Peak, 2T-Peak, TTWO-52W-Hoch, Basket-Hoch, Wikipedia-Peak und Reddit-Top-Post — mit Real/Proxy-Label.
+- **Investor Watch** — Take-Two-IR-Termine, Q2-FY2027-Earnings-Call am 9. November 2026, Yahoo-Konsens (EPS/Umsatz), SEC-Filings und IR-Pressemitteilungen.
+- **Timeline & Methodik** — Meilensteine, Quellenstatus, Datenqualität und bewusste Grenzen.
 
 ## Architektur
 
@@ -28,6 +30,7 @@ scripts/collect.mjs      Orchestriert alle Quellen
 scripts/lib/stocks.mjs    Yahoo Finance Chart API
 scripts/lib/osint.mjs     Wikipedia, Google News, Reddit, Steam, Trends
 scripts/lib/network.mjs   DE-CIX Traffic API + Rockstar-Probe
+scripts/lib/investor.mjs  Take-Two IR + SEC EDGAR + Yahoo-Konsens
 data/*.json              committete Momentaufnahmen
 .github/workflows/       Cron + GitHub-Pages-Deploy
 ```
@@ -72,8 +75,22 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 | Reddit / Arctic Shift | r/GTA6 Members, Posts pro Stunde, Top-Posts | 100-Post-Sample, kein vollständiger 7-Tage-Count |
 | Steam Web API | GTA V Concurrent Players | GTA VI ist (Stand jetzt) nicht auf Steam |
 | Google Trends RSS | DE/US Trending Searches | nur tägliche Trending-Liste, keine Zeitreihe |
-| DE-CIX Traffic API | Frankfurt Traffic, 2 Tage / 1 Monat | öffentliche Statistik, keine Garantie auf Verfügbarkeit |
+| DE-CIX Traffic API | Frankfurt Traffic, 2 Tage / 5-Minuten-Punkte | öffentliche Statistik, keine Garantie auf Verfügbarkeit |
 | Rockstar / PlayStation | Endpoint-Status, Preload-Bestätigung | Latenz ist kein Traffic |
+| Take-Two IR | Earnings-Termin, Webcast, Annual Meeting, Pressemitteilungen | offizielle Termine, keine Garantie auf Umsetzung |
+| SEC EDGAR | 10-Q, 10-K, 8-K, DEF 14A | echte Filings, Veröffentlichung mit Verzug |
+| Yahoo Finance quoteSummary | Konsens-EPS und -Umsatz für Q2 FY2027 | Analystenschätzung, keine Garantie |
+
+## Optimierungen
+
+- **Kleinere Daten:** Die ungenutzte 1-Monats-DE-CIX-Reihe wurde entfernt — `network.json` sinkt von ca. 737 KB auf ca. 47 KB.
+- **Retries:** Alle HTTP-Quellen haben 3 Versuche mit Backoff; 4xx außer 429 werden nicht sinnlos wiederholt.
+- **Mobile Performance:** Auf kleinen Screens werden Grain, Sun-Animation und teure Backdrop-Filter reduziert; Charts bekommen eine lesbare Höhe.
+- **Weniger Doppelarbeit:** Aktien-Historien werden pro Objekt gecacht, Basket-Karten und Chart teilen sich die 30-Tage-Berechnung.
+- **Datenqualität:** Jede Kennzahl ist als `Real`, `Proxy` oder `Leading` markiert.
+- **SEO:** Canonical, Open-Graph/Twitter-Meta, `robots.txt`, `sitemap.xml` und Web-Manifest.
+- **Resilienz:** Fehlt eine Quelle, bleiben die letzten Daten sichtbar; der Quellenstatus wird `degraded`.
+- **Cron:** Der Track-Workflow läuft auf dem Self-hosted Runner; der Runner wird per Watchdog am Leben gehalten.
 
 ## Wichtige Grenzen
 

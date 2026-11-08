@@ -1,0 +1,17 @@
+{
+  "name": "GTA VI Release Intelligence",
+  "short_name": "GTA VI Intel",
+  "description": "Aktien, Krankenstand, OSINT und DE-CIX-Traffic zum GTA-VI-Release.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#07070a",
+  "theme_color": "#07070a",
+  "icons": [
+    {
+      "src": "./assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

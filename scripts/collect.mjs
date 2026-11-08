@@ -3,6 +3,7 @@ import path from 'node:path';
 import { collectStocks } from './lib/stocks.mjs';
 import { collectOsint } from './lib/osint.mjs';
 import { collectNetwork } from './lib/network.mjs';
+import { collectInvestor } from './lib/investor.mjs';
 
 const DATA_DIR = path.resolve('data');
 
@@ -37,11 +38,13 @@ function runSlot(date = new Date()) {
 async function main() {
   const startedAt = new Date();
 
-  const [existingStocks, existingOsint, existingNetwork] = await Promise.all([
-    readJson(path.join(DATA_DIR, 'stocks.json')),
-    readJson(path.join(DATA_DIR, 'osint.json')),
-    readJson(path.join(DATA_DIR, 'network.json')),
-  ]);
+  const [existingStocks, existingOsint, existingNetwork, existingInvestor] =
+    await Promise.all([
+      readJson(path.join(DATA_DIR, 'stocks.json')),
+      readJson(path.join(DATA_DIR, 'osint.json')),
+      readJson(path.join(DATA_DIR, 'network.json')),
+      readJson(path.join(DATA_DIR, 'investor.json')),
+    ]);
 
   const stocksPromise = collectStocks(existingStocks).catch((error) => ({
     ...(existingStocks || {}),
@@ -55,8 +58,18 @@ async function main() {
     errors: [`collector:osint: ${error.message}`],
   }));
 
-  const stocks = await stocksPromise;
-  const osint = await osintPromise;
+  const investorPromise = collectInvestor(existingInvestor).catch((error) => ({
+    ...(existingInvestor || {}),
+    updated: new Date().toISOString(),
+    errors: [`collector:investor: ${error.message}`],
+  }));
+
+  const [stocks, osint, investor] = await Promise.all([
+    stocksPromise,
+    osintPromise,
+    investorPromise,
+  ]);
+
   const network = await collectNetwork(existingNetwork, osint).catch((error) => ({
     ...(existingNetwork || {}),
     updated: new Date().toISOString(),
@@ -79,6 +92,9 @@ async function main() {
       steam: osint?.sources?.steam || 'degraded',
       trends: osint?.sources?.trends || 'degraded',
       rockstar: osint?.sources?.rockstar || 'degraded',
+      investor: investor?.sources?.ir || 'degraded',
+      sec: investor?.sources?.sec || 'degraded',
+      estimates: investor?.sources?.estimates || 'degraded',
     },
     counts: {
       stocks: Object.keys(stocks?.series || {}).length,
@@ -90,10 +106,13 @@ async function main() {
       wikiSeries: Object.keys(osint?.wikipedia || {}).length,
       newsQueries: Object.keys(osint?.news || {}).length,
       decixPoints: network?.decix?.traffic2d?.length || 0,
+      filings: investor?.filings?.length || 0,
+      pressReleases: investor?.pressReleases?.length || 0,
     },
     errors: [
       ...(stocks?.errors || []),
       ...(osint?.errors || []),
+      ...(investor?.errors || []),
       ...(network?.decixError ? [`decix: ${network.decixError}`] : []),
     ],
   };
@@ -102,13 +121,14 @@ async function main() {
     writeJson(path.join(DATA_DIR, 'stocks.json'), stocks),
     writeJson(path.join(DATA_DIR, 'osint.json'), osint),
     writeJson(path.join(DATA_DIR, 'network.json'), network),
+    writeJson(path.join(DATA_DIR, 'investor.json'), investor),
     writeJson(path.join(DATA_DIR, 'meta.json'), meta),
   ]);
 
   console.log(
     `[collect] ${meta.runSlot} run finished in ${meta.durationMs}ms — ` +
       `${meta.counts.stocks} stocks, ${meta.counts.stockHistory} history points, ` +
-      `${meta.counts.decixPoints} DE-CIX points`,
+      `${meta.counts.decixPoints} DE-CIX points, ${meta.counts.filings} filings`,
   );
 
   if (meta.errors.length) {

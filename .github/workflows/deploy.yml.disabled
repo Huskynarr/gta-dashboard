@@ -27,7 +27,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site
-          cp -r index.html 404.html .nojekyll assets data _site/
+          cp -r index.html 404.html .nojekyll manifest.webmanifest robots.txt sitemap.xml assets data _site/
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
