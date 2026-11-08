@@ -1,0 +1,34 @@
+{
+  "lastRun": "2026-11-08T21:05:11.579Z",
+  "startedAt": "2026-11-08T21:05:05.708Z",
+  "durationMs": 5871,
+  "runSlot": "evening",
+  "release": {
+    "preorder": "2026-06-25T00:00:00+02:00",
+    "ps5Preload": "2026-11-10T00:00:00+01:00",
+    "xboxPreload": "2026-11-10T00:00:00Z",
+    "physical": "2026-11-12T00:00:00+01:00",
+    "release": "2026-11-19T00:00:00+01:00",
+    "storageGB": 212,
+    "priceUSD": 79.99,
+    "ultimateUSD": 99.99
+  },
+  "sources": {
+    "stocks": "ok",
+    "osint": "ok",
+    "network": "ok",
+    "reddit": "ok",
+    "steam": "ok",
+    "trends": "ok",
+    "rockstar": "ok"
+  },
+  "counts": {
+    "stocks": 13,
+    "stockHistory": 3263,
+    "snapshots": 1,
+    "wikiSeries": 4,
+    "newsQueries": 4,
+    "decixPoints": 572
+  },
+  "errors": []
+}

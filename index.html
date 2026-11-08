@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GTA VI Release Intelligence — Huskynarr</title>
+  <meta name="description" content="Ein datengetriebenes Dashboard zum GTA-VI-Release: Aktien, Krankenstand-Signale, OSINT-Hype und DE-CIX-Netzwerkload. Fan-Projekt, kein Finanzrat.">
+  <meta name="theme-color" content="#07070a">
+  <meta property="og:title" content="GTA VI Release Intelligence">
+  <meta property="og:description" content="Aktien, Krankenstand, OSINT und Netzwerk-Traffic zum größten Game-Release aller Zeiten.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://huskynarr.is-a.dev/gta-dashboard/">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="GTA VI Release Intelligence">
+      <span class="brand__mark">VI</span>
+      <span class="brand__text">RELEASE <strong>INTEL</strong></span>
+    </a>
+    <nav class="site-nav" id="siteNav" aria-label="Hauptnavigation">
+      <a href="#market">Markt</a>
+      <a href="#krankenstand">Krankenstand</a>
+      <a href="#osint">OSINT</a>
+      <a href="#network">Netzwerk</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#methodik">Methodik</a>
+    </nav>
+    <div class="header__right">
+      <span class="live-pill"><span class="live-dot"></span> LIVE</span>
+      <a class="header__link" href="https://github.com/Huskynarr/gta-dashboard" target="_blank" rel="noopener">GitHub ↗</a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">MENÜ</button>
+    </div>
+  </header>
+
+  <div class="ticker" aria-label="Aktien-Ticker">
+    <div class="ticker__label">MARKET WIRE</div>
+    <div class="ticker__viewport"><div class="ticker__track" id="tickerTrack"></div></div>
+  </div>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__sun"></div>
+        <div class="hero__glow"></div>
+        <div class="hero__grid"></div>
+      </div>
+      <div class="hero__inner">
+        <div class="hero__eyebrow reveal">
+          <span class="tag">ROCKSTAR GAMES</span>
+          <span class="tag tag--ghost">GRAND THEFT AUTO VI</span>
+          <span class="tag tag--ghost">RELEASE INTELLIGENCE</span>
+        </div>
+        <h1 class="hero__title reveal" style="--delay:80ms">
+          <span class="hero__gta">GTA</span><span class="hero__vi">VI</span>
+        </h1>
+        <p class="hero__sub reveal" style="--delay:160ms">Vice City is coming. The market already knows.</p>
+        <p class="hero__lede reveal" style="--delay:240ms">Aktien, Suchtverhalten, Krankenstand und Netzwerk-Traffic: ein datengetriebener Blick auf den Release, der 2026 alles überstrahlt. Täglich aktualisiert, morgens und abends.</p>
+
+        <div class="hero__countdown reveal" style="--delay:320ms" aria-live="polite">
+          <div class="countdown__label"><span class="live-dot"></span> <span id="cdLabel">PRELOAD STARTET IN</span></div>
+          <div class="countdown__grid">
+            <div class="countdown__cell"><span class="countdown__num" id="cdDays">--</span><span class="countdown__unit">Tage</span></div>
+            <div class="countdown__cell"><span class="countdown__num" id="cdHours">--</span><span class="countdown__unit">Std</span></div>
+            <div class="countdown__cell"><span class="countdown__num" id="cdMinutes">--</span><span class="countdown__unit">Min</span></div>
+            <div class="countdown__cell"><span class="countdown__num" id="cdSeconds">--</span><span class="countdown__unit">Sek</span></div>
+          </div>
+          <p class="countdown__target" id="cdTarget">10. November 2026 · 00:00 CET</p>
+        </div>
+
+        <div class="hero__stats reveal" style="--delay:400ms">
+          <div class="hero__stat"><span class="hero__stat-label">TTWO</span><span class="hero__stat-value" id="heroTtwo">--</span><span class="hero__stat-sub" id="heroTtwoSub">Take-Two Interactive</span></div>
+          <div class="hero__stat"><span class="hero__stat-label">GTA BASKET</span><span class="hero__stat-value" id="heroBasket">--</span><span class="hero__stat-sub">Equal-Weight · 90 Tage</span></div>
+          <div class="hero__stat"><span class="hero__stat-label">DE-CIX FRA</span><span class="hero__stat-value" id="heroDecix">--</span><span class="hero__stat-sub">Aktueller Traffic</span></div>
+          <div class="hero__stat"><span class="hero__stat-label">HYPE SIGNAL</span><span class="hero__stat-value" id="heroHype">--</span><span class="hero__stat-sub">OSINT Composite</span></div>
+        </div>
+      </div>
+      <a class="hero__scroll" href="#market"><span>SCROLL</span><span class="hero__scroll-line"></span></a>
+    </section>
+
+    <section class="section" id="market">
+      <div class="section__head reveal">
+        <div><p class="kicker">01 / MARKET PULSE</p><h2>Der Markt preist den Hype.</h2></div>
+        <p class="section__lede">Take-Two, Publisher, Delivery und Plattformen: Der GTA-VI-Basket bündelt die Firmen, die vom Release profitieren könnten. Equal Weight, tägliche Kurse, ein Jahr Historie.</p>
+      </div>
+      <div class="basket-grid" id="basketCards"></div>
+      <div class="panel panel--chart reveal">
+        <div class="panel__head">
+          <div><span class="panel__kicker">Equal-Weight Index</span><h3>GTA VI Basket vs. Delivery</h3></div>
+          <div class="range-tabs" data-range-tabs="market">
+            <button data-range="30">30T</button><button data-range="90" class="is-active">90T</button><button data-range="365">1J</button>
+          </div>
+        </div>
+        <div class="chart" id="basketChart"></div>
+        <div class="chart__legend" id="basketLegend"></div>
+      </div>
+      <div class="stock-toolbar reveal">
+        <div class="filter-tabs" id="stockFilters">
+          <button data-group="all" class="is-active">Alle</button>
+          <button data-group="gaming">Gaming</button>
+          <button data-group="delivery">Delivery</button>
+          <button data-group="platform">Plattform</button>
+          <button data-group="retail">Retail</button>
+        </div>
+        <p class="stock-toolbar__hint">Täglich · morgens &amp; abends · 1 Jahr Historie</p>
+      </div>
+      <div class="stock-grid" id="stockGrid"></div>
+    </section>
+
+    <section class="section" id="krankenstand">
+      <div class="section__head reveal">
+        <div><p class="kicker">02 / KRANKENSTAND</p><h2>Wenn Leonida die Büros leerräumt.</h2></div>
+        <p class="section__lede">Offizielle Krankenstandsdaten erscheinen mit Wochen Verzug. Dieses Dashboard trackt deshalb Leading Indicators: Suchverhalten, News-Volumen und Wikipedia-Interesse rund um Krankmeldung, Krankenstand und Arbeitsunfähigkeit.</p>
+      </div>
+      <div class="split">
+        <div class="panel panel--gauge reveal">
+          <div class="panel__head"><div><span class="panel__kicker">Leading Indicator</span><h3>Sick Leave Signal</h3></div></div>
+          <div class="gauge" id="sickGauge"></div>
+          <p class="gauge__caption" id="sickGaugeCaption">Wird geladen …</p>
+          <div class="gauge__legend"><span><i class="dot dot--teal"></i> niedrig</span><span><i class="dot dot--gold"></i> erhöht</span><span><i class="dot dot--pink"></i> eskaliert</span></div>
+        </div>
+        <div class="panel panel--chart reveal">
+          <div class="panel__head"><div><span class="panel__kicker">Wikipedia Pageviews · DE</span><h3>Krankheit im Suchverhalten</h3></div></div>
+          <div class="chart" id="sickChart"></div>
+          <div class="chart__legend" id="sickLegend"></div>
+        </div>
+      </div>
+      <div class="stat-grid" id="sickStats"></div>
+      <div class="thesis reveal">
+        <p class="thesis__label">DIE THESE</p>
+        <blockquote>„212 GB Download, 24 Stunden Wachheit und ein Arbeitgeber, der nichts davon weiß.“</blockquote>
+        <p>Der Blogpost von 2024 hat es vorgedacht: Releases machen Leute krank. Dieses Dashboard prüft die These täglich mit den besten öffentlich verfügbaren Signalen — und liefert bewusst keine Scheinkorrelation als Wahrheit.</p>
+      </div>
+    </section>
+
+    <section class="section" id="osint">
+      <div class="section__head reveal">
+        <div><p class="kicker">03 / HYPE &amp; OSINT</p><h2>Was das Internet verrät.</h2></div>
+        <p class="section__lede">Wikipedia, Google News, Reddit, Steam und Google Trends: fünf Blicke auf dieselbe Frage — wie groß ist der Hype wirklich, und wo zeigt er sich zuerst?</p>
+      </div>
+      <div class="panel panel--chart reveal">
+        <div class="panel__head">
+          <div><span class="panel__kicker">Wikipedia Pageviews · daily</span><h3>Wie viele Menschen nach Leonida suchen</h3></div>
+          <div class="range-tabs" data-range-tabs="wiki"><button data-range="30">30T</button><button data-range="90" class="is-active">90T</button><button data-range="365">1J</button></div>
+        </div>
+        <div class="chart" id="wikiChart"></div>
+        <div class="chart__legend" id="wikiLegend"></div>
+      </div>
+      <div class="stat-grid" id="osintStats"></div>
+      <div class="osint-grid">
+        <div class="panel panel--news reveal"><div class="panel__head"><div><span class="panel__kicker">Google News RSS</span><h3>Schlagzeilen</h3></div><span class="badge" id="newsBadge">--</span></div><div class="news-list" id="newsList"></div></div>
+        <div class="panel panel--reddit reveal"><div class="panel__head"><div><span class="panel__kicker">r/GTA6 · Arctic Shift</span><h3>Reddit Pulse</h3></div><span class="badge" id="redditBadge">--</span></div><div class="reddit-list" id="redditList"></div></div>
+        <div class="panel panel--trends reveal"><div class="panel__head"><div><span class="panel__kicker">Google Trends · DE/US</span><h3>Trending Now</h3></div></div><div class="trend-list" id="trendList"></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="network">
+      <div class="section__head reveal">
+        <div><p class="kicker">04 / NETWORK WATCH</p><h2>Wenn 212 GB durch die Leitungen gehen.</h2></div>
+        <p class="section__lede">Am 10. November startet der Preload. Dieses Panel beobachtet den DE-CIX Frankfurt, den Rockstar-Endpoint und den offiziellen Preload-Status — stündlich während des Release-Fensters.</p>
+      </div>
+      <div class="network-grid">
+        <div class="panel panel--chart reveal">
+          <div class="panel__head"><div><span class="panel__kicker">DE-CIX Frankfurt · live</span><h3>Bits pro Sekunde</h3></div><span class="live-pill"><span class="live-dot"></span> LIVE</span></div>
+          <div class="chart chart--decix" id="decixChart"></div>
+          <div class="decix-meta" id="decixMeta"></div>
+        </div>
+        <div class="panel panel--preload reveal">
+          <div class="panel__head"><div><span class="panel__kicker">Preload Watch</span><h3 id="preloadTitle">212 GB</h3></div></div>
+          <div class="preload-status" id="preloadStatus"></div>
+          <div class="preload-timeline" id="preloadTimeline"></div>
+        </div>
+      </div>
+      <div class="stat-grid" id="networkStats"></div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="section__head reveal">
+        <div><p class="kicker">05 / TIMELINE</p><h2>Der Weg nach Leonida.</h2></div>
+        <p class="section__lede">Vom ersten Trailer bis zum Preload: die Meilensteine, die den Markt und die Netzwerke bewegt haben — und die noch kommen.</p>
+      </div>
+      <div class="timeline" id="timelineList"></div>
+    </section>
+
+    <section class="section" id="methodik">
+      <div class="section__head reveal">
+        <div><p class="kicker">06 / METHODIK</p><h2>Wie wir messen.</h2></div>
+        <p class="section__lede">Keine Blackbox: Jede Zahl hat eine Quelle, einen Zeitstempel und eine bewusste Grenze. Was hier steht, ist ein Signal — keine Prognose.</p>
+      </div>
+      <div class="method-grid">
+        <article class="method-card reveal"><span class="method-card__num">01</span><h3>Aktien</h3><p>Yahoo-Finance-Chart-API, ein Jahr Tageshistorie. Morgens und abends wird ein Snapshot gezogen. Equal-Weight-Baskets mitteln Tagesrenditen, keine Kursziele.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">02</span><h3>Krankenstand</h3><p>Wikipedia-Pageviews und Google-News-Volumen für Krankmeldung, Krankenstand und Arbeitsunfähigkeit. Offizielle Krankenkassen-Daten erscheinen mit Verzug — das hier ist ein Leading Indicator.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">03</span><h3>OSINT</h3><p>Wikipedia, Google News RSS, Reddit via Arctic Shift, Steam-Spielerzahlen und Google Trends. Jede Quelle wird einzeln als „ok“ oder „degraded“ markiert.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">04</span><h3>Netzwerk</h3><p>DE-CIX-Frankfurt-API (2 Tage, 5-Minuten-Punkte) und ein Rockstar-Endpoint-Probe. Latenz ist keine Traffic-Messung, sondern ein Verfügbarkeits-Signal.</p></article>
+      </div>
+      <div class="panel panel--sources reveal">
+        <div class="panel__head"><div><span class="panel__kicker">Transparenz</span><h3>Quellen &amp; Grenzen</h3></div><span class="badge" id="sourceStatus">--</span></div>
+        <div class="source-list" id="sourceList"></div>
+        <p class="disclaimer">Kein Finanzrat, keine Anlageempfehlung. Dieses Dashboard ist ein Fan-Projekt und steht in keiner Verbindung zu Rockstar Games oder Take-Two. Alle Daten kommen aus öffentlichen Quellen; Fehler und Verzögerungen sind möglich.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer__brand"><span class="brand__mark">VI</span><span>RELEASE <strong>INTEL</strong></span></div>
+    <div class="footer__links"><a href="#market">Markt</a><a href="#krankenstand">Krankenstand</a><a href="#osint">OSINT</a><a href="#network">Netzwerk</a><a href="https://huskynarr.de/warum-der-krankenstand-im-herbst-2025-wegen-gaming-eskaliert" target="_blank" rel="noopener">Der Blogpost ↗</a></div>
+    <p class="footer__legal">© 2026 Huskynarr · Daten: Yahoo Finance, Wikipedia, Google News, Reddit/Arctic Shift, Steam, Google Trends, DE-CIX · <span id="lastUpdate">letztes Update: --</span></p>
+  </footer>
+
+  <script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>

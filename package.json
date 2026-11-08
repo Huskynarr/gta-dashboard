@@ -1,0 +1,11 @@
+{
+  "name": "gta-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GTA VI Release Intelligence Dashboard — Aktien, Krankenstand, OSINT und DE-CIX-Traffic.",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "serve": "python3 -m http.server 4173"
+  }
+}
