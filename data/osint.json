@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:05:08.269Z",
+  "updated": "2026-11-08T21:12:06.687Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -1551,7 +1551,7 @@
       "label": "GTA VI · DE",
       "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 15,
+      "count24h": 14,
       "series": [
         {
           "date": "2026-11-02",
@@ -1563,23 +1563,23 @@
         },
         {
           "date": "2026-11-04",
-          "count": 11
+          "count": 13
         },
         {
           "date": "2026-11-05",
-          "count": 29
+          "count": 28
         },
         {
           "date": "2026-11-06",
-          "count": 26
+          "count": 25
         },
         {
           "date": "2026-11-07",
-          "count": 11
+          "count": 12
         },
         {
           "date": "2026-11-08",
-          "count": 15
+          "count": 14
         }
       ],
       "items": [
@@ -1822,25 +1822,65 @@
         "link": "https://www.reddit.com/r/GTA6/comments/1xr3a5q"
       }
     ],
-    "fetchedAt": "2026-11-08T21:05:06.644Z"
+    "fetchedAt": "2026-11-08T21:12:05.389Z"
   },
   "steam": {
-    "gta5": 50094,
+    "gta5": 48312,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-08T21:05:06.029Z"
+    "fetchedAt": "2026-11-08T21:12:04.356Z"
   },
   "trends": {
     "de": {
       "geo": "DE",
       "items": [
         {
+          "title": "bundespräsident deutschland",
+          "traffic": "1000+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "Nach dem Aigner-Coup: Kann Söder jetzt noch Kanzler werden?",
+          "newsUrl": "https://www.bild.de/politik/inland/nach-dem-aigner-coup-kann-soeder-jetzt-noch-kanzler-werden-6af0b0521125adfe9365ce38",
+          "newsSource": "BILD"
+        },
+        {
+          "title": "fermín lópez",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "Así está el Pichichi de LaLiga 2026/27: Fermín sigue en estado de gracia y escala posiciones",
+          "newsUrl": "https://www.sport.es/es/noticias/laliga/pichichi-laliga-2026-27-mbappe-lamine-yamal-fermin-136208677",
+          "newsSource": "SPORT"
+        },
+        {
+          "title": "chargers – texans",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "Polymarket Promo Code SIBONUS: Get $25 Bonus for Texans vs. Chargers",
+          "newsUrl": "https://www.si.com/prediction-markets/polymarket-promo-code-sibonus-get-25-bonus-for-texans-vs-chargers-01m6rmwgz6dk-dp",
+          "newsSource": "Sports Illustrated"
+        },
+        {
+          "title": "cham",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "In Cham trifft am Sonntag Gesundheit auf Genuss",
+          "newsUrl": "https://www.idowa.de/regionen/cham/cham/in-cham-trifft-am-sonntag-gesundheit-auf-genuss-art-424722",
+          "newsSource": "Idowa.de"
+        },
+        {
+          "title": "justin timberlake",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "Justin Timberlake Reveals ‘What Goes Around… Comes Around’ Is Not About Britney Spears",
+          "newsUrl": "https://www.imdb.com/news/ni66101161/?ref_=nmnw_art_perm",
+          "newsSource": "IMDb"
+        },
+        {
           "title": "nvidia",
           "traffic": "1000+",
           "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
-          "newsTitle": "Statement from NVIDIA Board of Directors",
-          "newsUrl": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
-          "newsSource": "NVIDIA Newsroom"
+          "newsTitle": "(S+) Nvidia-Chef Jensen Huang entschuldigt sich für Affäre mit mutmaßlicher Spionin",
+          "newsUrl": "https://www.spiegel.de/ausland/nvidia-chef-jensen-huang-entschuldigt-sich-fuer-affaere-mit-mutmasslicher-spionin-a-66db6061-9340-44ba-9c9d-75726df75e3b",
+          "newsSource": "Spiegel"
         },
         {
           "title": "amon ra st brown",
@@ -1849,14 +1889,6 @@
           "newsTitle": "Week 9 inactives for Lions",
           "newsUrl": "https://sports.yahoo.com/articles/week-9-inactives-lions-164428801.html",
           "newsSource": "Yahoo Sports"
-        },
-        {
-          "title": "keira knightley",
-          "traffic": "500+",
-          "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
-          "newsTitle": "Netflix’s Best Returning Show Lands With A 92% Rotten Tomatoes Score",
-          "newsUrl": "https://www.forbes.com/sites/paultassi/2026/11/06/netflixs-best-returning-show-lands-with-a-92-rotten-tomatoes-score/",
-          "newsSource": "Forbes"
         },
         {
           "title": "seahawks – cardinals",
@@ -1875,44 +1907,12 @@
           "newsSource": "People.com"
         },
         {
-          "title": "politico",
-          "traffic": "200+",
-          "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
-          "newsTitle": "French presidential hopeful Melenchon pledges economic stimulus, renews NATO exit call",
-          "newsUrl": "https://www.reuters.com/world/french-presidential-hopeful-melenchon-pledges-minimum-wage-rise-retirement-60-2026-11-07/",
-          "newsSource": "Reuters"
-        },
-        {
-          "title": "barca",
-          "traffic": "2000+",
-          "pubDate": "Sun, 8 Nov 2026 12:40:00 -0800",
-          "newsTitle": "LIVE: Atletico Madrid vs Barcelona – La Liga",
-          "newsUrl": "https://www.aljazeera.com/sports/liveblog/2026/11/8/atletico-madrid-vs-barcelona-la-liga-live",
-          "newsSource": "Al Jazeera"
-        },
-        {
-          "title": "ralf dümmel rollfix",
-          "traffic": "10000+",
-          "pubDate": "Sun, 8 Nov 2026 12:40:00 -0800",
-          "newsTitle": "TV-Show „Die Millionenidee“: In der 1. Sendung geht Ralf Dümmel ein Schicksal nah",
-          "newsUrl": "https://www.bild.de/unterhaltung/stars-und-leute/tv-show-die-millionenidee-in-der-1-sendung-geht-ralf-duemmel-ein-schicksal-nah-6aef108880d3a1c6aa66c203",
-          "newsSource": "BILD"
-        },
-        {
-          "title": "signal iduna park",
-          "traffic": "1000+",
-          "pubDate": "Sun, 8 Nov 2026 12:40:00 -0800",
-          "newsTitle": "Feine Distanzschüsse: BVB feiert Doppelpacker Nmecha",
-          "newsUrl": "https://www.kicker.de/dortmund-gegen-elversberg-2026-bundesliga-5226881/spielbericht",
-          "newsSource": "Kicker"
-        },
-        {
-          "title": "caren miosga heute gäste",
+          "title": "keira knightley",
           "traffic": "500+",
-          "pubDate": "Sun, 8 Nov 2026 12:40:00 -0800",
-          "newsTitle": "\"Caren Miosga\" in der ARD: Diese Gäste sind am 8. November im Studio",
-          "newsUrl": "https://www.t-online.de/unterhaltung/tv/talkshows/id_101505572/-caren-miosga-das-sind-die-gaeste-in-der-kommenden-sendung.html",
-          "newsSource": "T-Online"
+          "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
+          "newsTitle": "Netflix’s Best Returning Show Lands With A 92% Rotten Tomatoes Score",
+          "newsUrl": "https://www.forbes.com/sites/paultassi/2026/11/06/netflixs-best-returning-show-lands-with-a-92-rotten-tomatoes-score/",
+          "newsSource": "Forbes"
         }
       ],
       "gta": [],
@@ -2009,18 +2009,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 167,
+    "latencyMs": 231,
     "bytes": 1241407,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-08T21:05:05.814Z"
+    "checkedAt": "2026-11-08T21:12:04.159Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": true,
-    "checkedAt": "2026-11-08T21:05:06.122Z"
+    "checkedAt": "2026-11-08T21:12:04.693Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",
