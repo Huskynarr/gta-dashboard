@@ -452,14 +452,23 @@ function renderHero() {
   const decix = state.network?.decix?.meta?.current;
   const hype = computeHypeScore();
 
+  const basketHigh = basket.series.length
+    ? Math.max(...basket.series.map((point) => point.value))
+    : null;
+
   $('#heroTtwo').textContent = ttwo ? money(ttwo.price, ttwo.currency) : '—';
   $('#heroTtwoSub').textContent = ttwo
-    ? `${pct(ttwo.changePct)} · ${ttwo.exchange || 'NASDAQ'}`
+    ? `${pct(ttwo.changePct)} · 52W ${money(ttwo.fiftyTwoWeekHigh, ttwo.currency)}`
     : 'Take-Two Interactive';
   $('#heroBasket').textContent = basket.value != null ? basket.value.toFixed(1).replace('.', ',') : '—';
   $('#heroBasket').nextElementSibling.textContent =
-    basket.change != null ? `${pct(basket.change)} · 30 Tage` : 'Equal-Weight · 90 Tage';
+    basket.change != null
+      ? `${pct(basket.change)} · 30T High ${basketHigh != null ? basketHigh.toFixed(1).replace('.', ',') : '—'}`
+      : 'Equal-Weight · 30 Tage';
   $('#heroDecix').textContent = decix ? tbit(decix) : '—';
+  $('#heroDecix').nextElementSibling.textContent = decix
+    ? `Aktuell · Peak ${tbit(state.network?.decix?.meta?.allTimePeak)}`
+    : 'Aktueller Traffic';
   $('#heroHype').textContent = hype != null ? `${hype}/100` : '—';
 }
 
