@@ -1,5 +1,8 @@
 # GTA VI Release Intelligence
 
+[![Track GTA VI signals](https://github.com/Huskynarr/gta-dashboard/actions/workflows/track.yml/badge.svg)](https://github.com/Huskynarr/gta-dashboard/actions/workflows/track.yml)
+[![Live](https://img.shields.io/badge/live-huskynarr.is--a.dev-ff2e88)](https://huskynarr.is-a.dev/gta-dashboard/)
+
 Ein datengetriebenes Fan-Dashboard zum GTA-VI-Release am **19. November 2026**. Es verbindet Aktienkurse, Krankenstand-Signale, OSINT-Hype und den Netzwerk-Traffic am DE-CIX Frankfurt.
 
 **Live:** <https://huskynarr.is-a.dev/gta-dashboard/>
