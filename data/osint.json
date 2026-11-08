@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T21:12:06.687Z",
+  "updated": "2026-11-08T21:19:04.742Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -1563,11 +1563,11 @@
         },
         {
           "date": "2026-11-04",
-          "count": 13
+          "count": 14
         },
         {
           "date": "2026-11-05",
-          "count": 28
+          "count": 27
         },
         {
           "date": "2026-11-06",
@@ -1822,13 +1822,13 @@
         "link": "https://www.reddit.com/r/GTA6/comments/1xr3a5q"
       }
     ],
-    "fetchedAt": "2026-11-08T21:12:05.389Z"
+    "fetchedAt": "2026-11-08T21:19:04.077Z"
   },
   "steam": {
     "gta5": 48312,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-08T21:12:04.356Z"
+    "fetchedAt": "2026-11-08T21:19:02.588Z"
   },
   "trends": {
     "de": {
@@ -1886,17 +1886,17 @@
           "title": "amon ra st brown",
           "traffic": "500+",
           "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
-          "newsTitle": "Week 9 inactives for Lions",
-          "newsUrl": "https://sports.yahoo.com/articles/week-9-inactives-lions-164428801.html",
-          "newsSource": "Yahoo Sports"
+          "newsTitle": "INACTIVES: Lions at Dolphins",
+          "newsUrl": "https://www.detroitlions.com/news/inactives-lions-at-dolphins-stbrown-reed-wonnum",
+          "newsSource": "Detroit Lions"
         },
         {
           "title": "seahawks – cardinals",
           "traffic": "200+",
           "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
-          "newsTitle": "Behind Enemy Lines: 4 things to know about the Arizona Cardinals",
-          "newsUrl": "https://www.aol.com/articles/behind-enemy-lines-4-things-162420000.html",
-          "newsSource": "AOL.com"
+          "newsTitle": "NFL Week 9 Cardinals vs. Seahawks odds, predictions: Use Kalshi promo code CBSSPORTS55 for $55 bonus",
+          "newsUrl": "https://www.cbssports.com/prediction/news/nfl-week-9-cardinals-vs-seahawks-odds-predictions-use-kalshi-promo-code-cbssports55-for-55-bonus/",
+          "newsSource": "CBS Sports"
         },
         {
           "title": "karlie kloss",
@@ -1922,6 +1922,38 @@
       "geo": "US",
       "items": [
         {
+          "title": "seahawks game today",
+          "traffic": "2000+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "Sources: Seahawks' Sam Darnold in jeopardy of missing Week 10 game vs. Raiders",
+          "newsUrl": "https://www.espn.com/nfl/story/_/id/50400897/sources-seahawks-sam-darnold-danger-missing-week-10",
+          "newsSource": "ESPN"
+        },
+        {
+          "title": "xavier worthy",
+          "traffic": "500+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "Xavier Worthy Hurts Hamstring",
+          "newsUrl": "https://www.draftsharks.com/fantasy-football-news/84046/xavier-worthy-hurts-hamstring",
+          "newsSource": "Draft Sharks"
+        },
+        {
+          "title": "jerry jeudy",
+          "traffic": "500+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "Browns Unlikely To Trade WR Jerry Jeudy",
+          "newsUrl": "https://www.profootballrumors.com/2026/11/browns-unlikely-to-trade-wr-jerry-jeudy",
+          "newsSource": "ProFootballRumors.com"
+        },
+        {
+          "title": "spencer shrader",
+          "traffic": "200+",
+          "pubDate": "Sun, 8 Nov 2026 13:00:00 -0800",
+          "newsTitle": "Colts' Spencer Shrader: Makes sole kick in blowout loss",
+          "newsUrl": "https://www.cbssports.com/fantasy/football/news/colts-spencer-shrader-makes-sole-kick-in-blowout-loss/",
+          "newsSource": "CBS Sports"
+        },
+        {
           "title": "cowboys game",
           "traffic": "20000+",
           "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
@@ -1931,7 +1963,7 @@
         },
         {
           "title": "jalen smith",
-          "traffic": "500+",
+          "traffic": "1000+",
           "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
           "newsTitle": "Jalen Smith (finger) upgraded to available Sunday",
           "newsUrl": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-11-08/jalen-smith-finger-upgraded-to-available-sunday",
@@ -1962,44 +1994,12 @@
           "newsSource": "Denver Broncos"
         },
         {
-          "title": "kurt russell",
-          "traffic": "1000+",
-          "pubDate": "Sun, 8 Nov 2026 12:40:00 -0800",
-          "newsTitle": "Quote Of The Day By Kurt Russell: 'Age Is A Reality, But It's Not..'",
-          "newsUrl": "https://www.tvline.com/2309146/quote-of-the-day-kurt-russell-reality-of-aging/",
-          "newsSource": "TVLine"
-        },
-        {
-          "title": "concepcion",
+          "title": "eastern il vs iowa state",
           "traffic": "200+",
-          "pubDate": "Sun, 8 Nov 2026 12:40:00 -0800",
-          "newsTitle": "Video | Roban al menos $3 mil millones desde bóveda de banco en Concepción: Perforaron muro de 60 centímetros de grosor",
-          "newsUrl": "https://www.emol.com/noticias/Nacional/2026/11/08/1216459/robo-banco-concepcion-forado-millonario.html",
-          "newsSource": "Emol"
-        },
-        {
-          "title": "kc concepcion",
-          "traffic": "2000+",
-          "pubDate": "Sun, 8 Nov 2026 12:30:00 -0800",
-          "newsTitle": "Browns injuries: Rookie starter helped off the field versus the Saints, returns",
-          "newsUrl": "https://sports.yahoo.com/articles/browns-injuries-rookie-starter-helped-201700609.html",
+          "pubDate": "Sun, 8 Nov 2026 12:50:00 -0800",
+          "newsTitle": "Game thread: Iowa State WBB versus Eastern Illinois",
+          "newsUrl": "https://sports.yahoo.com/articles/game-thread-iowa-state-wbb-195041864.html",
           "newsSource": "Yahoo Sports"
-        },
-        {
-          "title": "colts owner",
-          "traffic": "500+",
-          "pubDate": "Sun, 8 Nov 2026 12:30:00 -0800",
-          "newsTitle": "Steven A. Smith lauds Pat McAfee, blasts Indianapolis Colts, owner Carlie Irsay-Gordon",
-          "newsUrl": "https://www.indystar.com/story/sports/nfl/colts/2026/11/04/stephen-a-smith-rants-about-indianapolis-pat-mcafee-on-espn-first-take-carlie-irsay-gordon/92615202007/",
-          "newsSource": "IndyStar"
-        },
-        {
-          "title": "marta kostyuk",
-          "traffic": "500+",
-          "pubDate": "Sun, 8 Nov 2026 12:30:00 -0800",
-          "newsTitle": "Press Conference: Linda Noskova reflects on breakthrough year ahead of first WTA Finals",
-          "newsUrl": "https://www.wtatennis.com/videos/4605800/press-conference-linda-noskova-reflects-on-breakthrough-year-ahead-of-first-wta-finals",
-          "newsSource": "WTA Tennis"
         }
       ],
       "gta": [],
@@ -2009,18 +2009,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 231,
+    "latencyMs": 160,
     "bytes": 1241407,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-08T21:12:04.159Z"
+    "checkedAt": "2026-11-08T21:19:02.401Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": true,
-    "checkedAt": "2026-11-08T21:12:04.693Z"
+    "checkedAt": "2026-11-08T21:19:02.914Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",
