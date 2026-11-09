@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Live dashboard
+    url: https://huskynarr.is-a.dev/gta-dashboard/
+    about: Check the current state of the dashboard first.
+  - name: Report a security vulnerability
+    url: https://github.com/Huskynarr/gta-dashboard/security/advisories/new
+    about: Please report security issues privately, not as public issues.

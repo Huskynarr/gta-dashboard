@@ -1,0 +1,44 @@
+name: Data source / retail find
+description: Report a broken data source, propose a new one, or submit a retail/community find.
+title: "data: "
+labels: [data]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - Broken or degraded data source
+        - New data source proposal
+        - Retail / community find (Retail Watch)
+        - Store link (Stores & Merch)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Source URL
+      description: Original post, API endpoint or page. Required for retail finds.
+      placeholder: https://
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Publication date
+      placeholder: 2026-11-10
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What does the source show or measure? Any limits (rate limits, sample size, region)? For broken sources, add the error from meta.json or the logs.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The source is publicly accessible without login or paid API key.
+        - label: I am allowed to share this link (no private information).
+          required: true
