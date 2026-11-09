@@ -1,25 +1,17 @@
 {
-  "updated": "2026-11-09T14:14:05.112Z",
+  "updated": "2026-11-09T14:14:44.028Z",
   "decix": {
-    "fetchedAt": "2026-11-09T14:14:05.273Z",
+    "fetchedAt": "2026-11-09T14:14:44.375Z",
     "meta": {
       "allTimePeak": 21473193953966,
-      "current": 18105349556098,
-      "graphAverage": 15313809144416,
+      "current": 18229990127133,
+      "graphAverage": 15314557231274,
       "graphPeak": 21338943778953,
       "allTimePeakDate": "2026-10-14",
       "monthPeak": 21338943778953,
       "monthPeakAt": 1794162000000
     },
     "traffic2d": [
-      {
-        "clock": 1794060300000,
-        "value": 17897024600896
-      },
-      {
-        "clock": 1794060600000,
-        "value": 18031624219847
-      },
       {
         "clock": 1794060900000,
         "value": 18116489821540
@@ -2303,17 +2295,25 @@
       {
         "clock": 1794231900000,
         "value": 18105349556098
+      },
+      {
+        "clock": 1794232200000,
+        "value": 18127312463371
+      },
+      {
+        "clock": 1794232500000,
+        "value": 18229990127133
       }
     ]
   },
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 139,
+    "latencyMs": 132,
     "bytes": 1223386,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-09T14:14:00.758Z"
+    "checkedAt": "2026-11-09T14:14:39.593Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",

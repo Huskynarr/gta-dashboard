@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-09T14:14:05.391Z",
-  "startedAt": "2026-11-09T14:14:00.653Z",
-  "durationMs": 4738,
+  "lastRun": "2026-11-09T14:14:44.488Z",
+  "startedAt": "2026-11-09T14:14:39.456Z",
+  "durationMs": 5032,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -18,7 +18,7 @@
     "osint": "ok",
     "network": "ok",
     "decixHistory": "ok",
-    "reddit": "ok",
+    "reddit": "degraded",
     "steam": "ok",
     "trends": "ok",
     "rockstar": "ok",

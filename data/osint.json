@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T14:14:03.372Z",
+  "updated": "2026-11-09T14:14:41.720Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -1828,13 +1828,14 @@
         "link": "https://www.reddit.com/r/GTA6/comments/1xrslwp"
       }
     ],
-    "fetchedAt": "2026-11-09T14:14:03.372Z"
+    "fetchedAt": "2026-11-09T14:14:41.720Z",
+    "error": "HTTP 422 Unprocessable Entity — https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=GTA6&limit=100&sort=desc&fields=created_utc,score,title,num_comments,id"
   },
   "steam": {
     "gta5": 57715,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-09T14:14:00.873Z"
+    "fetchedAt": "2026-11-09T14:14:39.752Z"
   },
   "trends": {
     "de": {
@@ -2015,18 +2016,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 139,
+    "latencyMs": 132,
     "bytes": 1223386,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-09T14:14:00.758Z"
+    "checkedAt": "2026-11-09T14:14:39.593Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": true,
-    "checkedAt": "2026-11-09T14:14:01.184Z"
+    "checkedAt": "2026-11-09T14:14:40.006Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -2043,7 +2044,7 @@
   "sources": {
     "wikipedia": "ok",
     "news": "ok",
-    "reddit": "ok",
+    "reddit": "degraded",
     "steam": "ok",
     "trends": "ok",
     "rockstar": "ok",

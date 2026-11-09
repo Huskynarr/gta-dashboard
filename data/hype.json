@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T14:14:05.116Z",
+  "updated": "2026-11-09T14:14:44.031Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:14:05.116Z"
+      "updated": "2026-11-09T14:14:44.031Z"
     },
     {
       "key": "hardware",
@@ -135,7 +135,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:14:05.116Z"
+      "updated": "2026-11-09T14:14:44.031Z"
     },
     {
       "key": "creators",
@@ -203,7 +203,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:14:05.116Z"
+      "updated": "2026-11-09T14:14:44.031Z"
     },
     {
       "key": "release",
@@ -271,7 +271,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:14:05.116Z"
+      "updated": "2026-11-09T14:14:44.031Z"
     }
   ],
   "history": [
@@ -290,11 +290,11 @@
       "signature": "wiki+news+reddit"
     },
     {
-      "at": "2026-11-09T14:14:03.372Z",
+      "at": "2026-11-09T14:14:41.720Z",
       "version": "hype-v1",
-      "score": 87,
-      "coverage": 3,
-      "signature": "wiki+news+reddit"
+      "score": 83,
+      "coverage": 2,
+      "signature": "wiki+news"
     }
   ],
   "sources": {
