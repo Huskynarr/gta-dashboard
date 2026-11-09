@@ -1,6 +1,7 @@
-import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js?v=20261109-i18n';
-import { initI18n } from './i18n.js?v=20261109-i18n';
+import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js?v=20261109-archive';
+import { initI18n } from './i18n.js?v=20261109-archive';
 import { analyzeHype } from './hype.js?v=20261109-hype';
+import { createCountryCountdown } from './countdown.js?v=20261109-archive';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -375,13 +376,13 @@ async function loadData() {
   }
 }
 
+let countryCountdown = null;
+
 function renderCountdown() {
   const release = state.meta?.release || FALLBACK_RELEASE;
+  countryCountdown ||= createCountryCountdown($('#cdCountry'));
   const now = Date.now();
-  const preloadTime = new Date(release.ps5Preload || FALLBACK_RELEASE.ps5Preload).getTime();
-  const releaseTime = new Date(release.release || FALLBACK_RELEASE.release).getTime();
-  const isPreload = now < preloadTime;
-  const target = isPreload ? preloadTime : releaseTime;
+  const { phase, target, text } = countryCountdown(release, now);
   const diff = Math.max(target - now, 0);
 
   const days = Math.floor(diff / 86400000);
@@ -394,16 +395,9 @@ function renderCountdown() {
   $('#cdMinutes').textContent = String(minutes).padStart(2, '0');
   $('#cdSeconds').textContent = String(seconds).padStart(2, '0');
 
-  if (now >= releaseTime) {
-    $('#cdLabel').textContent = 'JETZT IN LEONIDA';
-    $('#cdTarget').textContent = 'Released · 19. November 2026';
-  } else if (isPreload) {
-    $('#cdLabel').textContent = 'PRELOAD STARTET IN';
-    $('#cdTarget').textContent = '10. November 2026 · 00:00 CET · 212 GB';
-  } else {
-    $('#cdLabel').textContent = 'RELEASE STARTET IN';
-    $('#cdTarget').textContent = '19. November 2026 · 00:00 CET';
-  }
+  const label = { released: 'JETZT IN LEONIDA', preload: 'PRELOAD STARTET IN', release: 'RELEASE STARTET IN' }[phase];
+  if ($('#cdLabel').textContent !== label) $('#cdLabel').textContent = label;
+  if ($('#cdTarget').textContent !== text) $('#cdTarget').textContent = text;
 }
 
 function renderTicker() {

@@ -1,0 +1,43 @@
+# GTA VI Release Intelligence
+
+> Unabhängiges, datengetriebenes Fan-Dashboard zum Release von Grand Theft Auto VI (GTA 6) am 19. November 2026. Es verbindet Börsen-, OSINT-, Netzwerk- und Investor-Signale und speichert ihren Verlauf fortlaufend ab dem 1. November 2026. Kein Finanzrat; keine Verbindung zu Rockstar Games oder Take-Two.
+
+Seite: https://huskynarr.is-a.dev/gta-dashboard/ (Deutsch, umschaltbar auf Englisch und Französisch)
+Quellcode: https://github.com/Huskynarr/gta-dashboard
+Autor: Huskynarr (https://huskynarr.de/)
+
+## Release-Fakten
+
+- Release: 19. November 2026, 00:00 Ortszeit, PlayStation 5 und Xbox Series X|S
+- Preload: 10. November 2026 (PS5 00:00 Ortszeit, Xbox 00:00 GMT / 01:00 MEZ)
+- Code-in-Box (physisch): ab 12. November 2026
+- Download-Größe: ca. 212 GB
+- Preis: 79,99 USD (Ultimate: 99,99 USD)
+
+## Was gemessen wird
+
+- Aktien: Take-Two (TTWO) und Vergleichswerte (Sony, Microsoft, Nintendo, NVIDIA, Roblox, CD Projekt, Ubisoft, Uber, DoorDash, Delivery Hero, GameStop, Amazon), Yahoo-Finance-Tageshistorie
+- Hype-Score: erklärter Index aus Wikipedia-Pageviews (45 %), Google-News-Volumen (35 %) und Reddit-Aktivität r/GTA6 (20 %)
+- Krankenstand-Proxy: Wikipedia- und News-Interesse an Krankmeldung/Arbeitsunfähigkeit (Leading Indicator, keine Krankenkassen-Daten)
+- Netzwerk: DE-CIX-Frankfurt-Traffic in 5-Minuten-Auflösung, Rockstar-Endpoint-Probe
+- Investor: Take-Two-IR-Termine, SEC-EDGAR-Filings, Analysten-Konsens
+- Steam-Spielerzahlen GTA V, Google Trends DE/US
+
+## Offene Daten (JSON)
+
+Alle Dateien werden bei jedem Lauf erweitert, nicht ersetzt. Aktualisierung täglich 06:00 und 18:00 UTC, vom 10. bis 22. November 2026 stündlich. Mitte Dezember 2026 wird der Datensatz archiviert.
+
+- [timeline.json](https://huskynarr.is-a.dev/gta-dashboard/data/timeline.json): stündliche Snapshots aller Momentwerte (Kurse, News-Zähler, Reddit, Steam, Trends, DE-CIX, Hype-Score)
+- [decix-history.json](https://huskynarr.is-a.dev/gta-dashboard/data/decix-history.json): DE-CIX-Frankfurt-Traffic seit 1. November 2026 inkl. Tages-Peaks
+- [stocks.json](https://huskynarr.is-a.dev/gta-dashboard/data/stocks.json): Kurshistorie und stündliche Kurs-Snapshots
+- [osint.json](https://huskynarr.is-a.dev/gta-dashboard/data/osint.json): Wikipedia-Tagesreihen, News-Tageszähler, Reddit, Steam, Trends
+- [hype.json](https://huskynarr.is-a.dev/gta-dashboard/data/hype.json): Hype-Score-Verlauf und Themenradar mit Tageshistorie
+- [news-archive.json](https://huskynarr.is-a.dev/gta-dashboard/data/news-archive.json): alle erfassten Schlagzeilen, Reddit-Top-Posts und GTA-Trends mit Zeitpunkt der Erfassung
+- [investor.json](https://huskynarr.is-a.dev/gta-dashboard/data/investor.json): Take-Two-Termine, Pressemitteilungen, SEC-Filings
+- [meta.json](https://huskynarr.is-a.dev/gta-dashboard/data/meta.json): letzter Lauf, Quellenstatus, Datenmengen
+
+## Hinweise zur Interpretation
+
+- "Real" = Aktien, DE-CIX, SEC/IR; "Proxy" = Wikipedia, News, Reddit, Trends; "Leading" = Krankenstand-Signal.
+- Hype-Score und Krankenstand-Proxy sind Aufmerksamkeitssignale, keine Absatz- oder Gesundheitsdaten.
+- Bitte bei Zitaten Quelle und Zeitstempel (Feld `updated` bzw. `at`) angeben.

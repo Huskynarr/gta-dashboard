@@ -3,16 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GTA VI Release Intelligence — Huskynarr</title>
-  <meta name="description" content="Ein datengetriebenes Dashboard zum GTA-VI-Release: Aktien, Peaks, Krankenstand-Signale, OSINT-Hype, Take-Two-Investor-Watch und DE-CIX-Netzwerkload. Fan-Projekt, kein Finanzrat.">
+  <title>GTA 6 Release Dashboard: Aktien, Hype &amp; DE-CIX-Traffic — GTA VI Release Intelligence</title>
+  <meta name="description" content="Live-Dashboard zum GTA-VI-Release am 19.11.2026: Take-Two-Aktie, Hype-Score, Wikipedia- und News-Signale, Krankenstand, DE-CIX-Traffic und Investor-Daten — mit fortlaufendem Verlauf seit November 2026. Fan-Projekt, kein Finanzrat.">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
   <meta name="theme-color" content="#07070a">
   <meta name="color-scheme" content="dark">
   <meta name="author" content="Huskynarr">
-  <meta name="keywords" content="GTA 6, GTA VI, Release, Dashboard, Aktien, Take-Two, TTWO, DE-CIX, OSINT, Krankenstand">
+  <meta name="keywords" content="GTA 6, GTA VI, GTA 6 Release, GTA 6 Preload, Release Dashboard, Take-Two Aktie, TTWO, DE-CIX, OSINT, Hype-Score, Krankenstand">
   <link rel="canonical" href="https://huskynarr.is-a.dev/gta-dashboard/">
+  <link rel="alternate" type="text/plain" href="https://huskynarr.is-a.dev/gta-dashboard/llms.txt" title="LLM-Zusammenfassung">
   <meta property="og:title" content="GTA VI Release Intelligence">
-  <meta property="og:description" content="Aktien, Peaks, Krankenstand, OSINT, Take-Two-Zahlen und Netzwerk-Traffic zum größten Game-Release aller Zeiten.">
+  <meta property="og:description" content="Aktien, Peaks, Krankenstand, OSINT, Take-Two-Zahlen und Netzwerk-Traffic zum größten Game-Release aller Zeiten — mit Verlauf seit November 2026.">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="fr_FR">
   <meta property="og:url" content="https://huskynarr.is-a.dev/gta-dashboard/">
   <meta property="og:image" content="https://huskynarr.is-a.dev/gta-dashboard/assets/img/gta-vi-keyart-wide.jpg">
   <meta property="og:image:alt" content="GTA VI Key-Art von Rockstar Games">
@@ -21,12 +26,86 @@
   <meta name="twitter:title" content="GTA VI Release Intelligence">
   <meta name="twitter:description" content="Aktien, Peaks, Krankenstand, OSINT, Take-Two-Zahlen und DE-CIX-Traffic zum GTA-VI-Release.">
   <meta name="twitter:image" content="https://huskynarr.is-a.dev/gta-dashboard/assets/img/gta-vi-keyart-wide.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://huskynarr.is-a.dev/gta-dashboard/#website",
+        "url": "https://huskynarr.is-a.dev/gta-dashboard/",
+        "name": "GTA VI Release Intelligence",
+        "inLanguage": ["de", "en", "fr"],
+        "publisher": { "@id": "https://huskynarr.is-a.dev/#person" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://huskynarr.is-a.dev/#person",
+        "name": "Huskynarr",
+        "url": "https://huskynarr.de/",
+        "sameAs": ["https://github.com/Huskynarr"]
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://huskynarr.is-a.dev/gta-dashboard/#webpage",
+        "url": "https://huskynarr.is-a.dev/gta-dashboard/",
+        "name": "GTA 6 Release Dashboard: Aktien, Hype & DE-CIX-Traffic",
+        "isPartOf": { "@id": "https://huskynarr.is-a.dev/gta-dashboard/#website" },
+        "about": { "@id": "https://huskynarr.is-a.dev/gta-dashboard/#game" },
+        "primaryImageOfPage": "https://huskynarr.is-a.dev/gta-dashboard/assets/img/gta-vi-keyart-wide.jpg",
+        "inLanguage": "de"
+      },
+      {
+        "@type": "VideoGame",
+        "@id": "https://huskynarr.is-a.dev/gta-dashboard/#game",
+        "name": "Grand Theft Auto VI",
+        "alternateName": ["GTA 6", "GTA VI"],
+        "datePublished": "2026-11-19",
+        "gamePlatform": ["PlayStation 5", "Xbox Series X|S"],
+        "publisher": { "@type": "Organization", "name": "Rockstar Games" },
+        "sameAs": ["https://www.rockstargames.com/VI", "https://en.wikipedia.org/wiki/Grand_Theft_Auto_VI"]
+      },
+      {
+        "@type": "Dataset",
+        "@id": "https://huskynarr.is-a.dev/gta-dashboard/#dataset",
+        "name": "GTA VI Release Signals 2026",
+        "description": "Fortlaufend erweiterter Datensatz rund um den GTA-VI-Release: Aktienkurse (Take-Two und Vergleichswerte), Wikipedia-Pageviews, Google-News-Volumen, Reddit-, Steam- und Google-Trends-Signale, DE-CIX-Frankfurt-Traffic in 5-Minuten-Auflösung sowie Take-Two-IR- und SEC-Filings. Jeder Lauf ergänzt den Verlauf, ältere Messungen werden nicht ersetzt.",
+        "url": "https://huskynarr.is-a.dev/gta-dashboard/",
+        "keywords": ["GTA 6", "GTA VI", "Take-Two", "DE-CIX", "Internet-Traffic", "OSINT", "Hype"],
+        "creator": { "@id": "https://huskynarr.is-a.dev/#person" },
+        "isAccessibleForFree": true,
+        "temporalCoverage": "2026-11-01/..",
+        "spatialCoverage": "Weltweit; DE-CIX Frankfurt",
+        "measurementTechnique": "Automatisierte Abfragen öffentlicher APIs, morgens und abends sowie stündlich vom 10. bis 22. November 2026",
+        "distribution": [
+          { "@type": "DataDownload", "encodingFormat": "application/json", "name": "Stündliche Zeitreihe aller Signale", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/timeline.json" },
+          { "@type": "DataDownload", "encodingFormat": "application/json", "name": "DE-CIX-Frankfurt-Traffic seit 1. November 2026", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/decix-history.json" },
+          { "@type": "DataDownload", "encodingFormat": "application/json", "name": "Aktienkurse und Snapshots", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/stocks.json" },
+          { "@type": "DataDownload", "encodingFormat": "application/json", "name": "Archiv aller erfassten News, Reddit-Posts und Trends", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/news-archive.json" },
+          { "@type": "DataDownload", "encodingFormat": "application/json", "name": "OSINT: Wikipedia, News, Reddit, Steam, Trends", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/osint.json" },
+          { "@type": "DataDownload", "encodingFormat": "application/json", "name": "Hype-Score-Verlauf und Themenradar", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/hype.json" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://huskynarr.is-a.dev/gta-dashboard/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "Wann erscheint GTA VI?", "acceptedAnswer": { "@type": "Answer", "text": "Grand Theft Auto VI erscheint am 19. November 2026 für PlayStation 5 und Xbox Series X|S. Der Preload startet am 10. November 2026 (PS5 um 00:00 Ortszeit, Xbox um 00:00 GMT), Code-in-Box-Versionen gibt es ab dem 12. November. Der Download ist rund 212 GB groß." } },
+          { "@type": "Question", "name": "Was misst das GTA VI Release Dashboard?", "acceptedAnswer": { "@type": "Answer", "text": "Das Dashboard verbindet Aktienkurse von Take-Two und Vergleichswerten, Wikipedia-Pageviews, Google-News-Volumen, Reddit-, Steam- und Google-Trends-Signale, einen Krankenstand-Proxy, den Internet-Traffic am DE-CIX Frankfurt sowie Take-Two-IR- und SEC-Daten." } },
+          { "@type": "Question", "name": "Wie oft werden die Daten aktualisiert?", "acceptedAnswer": { "@type": "Answer", "text": "Täglich um 06:00 und 18:00 UTC, im Preload- und Release-Fenster vom 10. bis 22. November 2026 stündlich." } },
+          { "@type": "Question", "name": "Gehen ältere Messwerte verloren?", "acceptedAnswer": { "@type": "Answer", "text": "Nein. Jeder Lauf erweitert den Verlauf, statt ihn zu ersetzen. Die Zeitreihen ab 1. November 2026 liegen als offene JSON-Dateien im Ordner data/ und werden Mitte Dezember 2026 archiviert." } },
+          { "@type": "Question", "name": "Ist das Dashboard eine Anlageempfehlung?", "acceptedAnswer": { "@type": "Answer", "text": "Nein. Es ist ein unabhängiges Fan-Projekt ohne Verbindung zu Rockstar Games oder Take-Two und stellt keinen Finanzrat dar." } }
+        ]
+      }
+    ]
+  }
+  </script>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css?v=20261109-i18n">
+  <link rel="stylesheet" href="./assets/css/style.css?v=20261109-archive">
 </head>
 <body>
   <a class="skip-link" href="#main">Zum Inhalt springen</a>
@@ -93,6 +172,7 @@
             <div class="countdown__cell"><span class="countdown__num" id="cdSeconds">--</span><span class="countdown__unit">Sek</span></div>
           </div>
           <p class="countdown__target" id="cdTarget">10. November 2026 · 00:00 CET</p>
+          <label class="countdown__country"><span data-country-caption>Land</span><select id="cdCountry"><option value="auto">Automatisch</option></select></label>
         </div>
 
         <div class="hero__stats reveal" style="--delay:400ms">
@@ -316,6 +396,17 @@
         <article class="method-card reveal"><span class="method-card__num">05</span><h3>Investor</h3><p>Take-Two-IR-Seite und SEC-EDGAR-Submissions: Earnings-Termin, Webcast, Annual Meeting und die neuesten 10-Q-, 10-K-, 8-K- und DEF-14A-Filings.</p></article>
         <article class="method-card reveal"><span class="method-card__num">06</span><h3>Retail Watch</h3><p>Manuell kuratierte Prospekt-Funde mit Originalbeitrag, Veröffentlichungsdatum und Links zu den geteilten Bildern. Community-Beobachtungen sind ein qualitativer Proxy; Händleraktionen und Umsatzwirkungen sind damit nicht bestätigt.</p></article>
         <article class="method-card reveal"><span class="method-card__num">07</span><h3>Datenqualität</h3><p><strong>Real</strong> = Aktien, DE-CIX, SEC/IR. <strong>Proxy</strong> = Wikipedia, News, Reddit, Trends, Retail Watch. <strong>Leading</strong> = Sick-Leave-Signal. Jede Karte ist entsprechend markiert.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">08</span><h3>Archiv</h3><p>Jeder Lauf erweitert den Verlauf, statt ihn zu ersetzen: stündliche Snapshots, alle erfassten Schlagzeilen und DE-CIX-Punkte seit 1. November 2026. Mitte Dezember wird der komplette Datensatz archiviert.</p></article>
+      </div>
+      <div class="panel panel--faq reveal" id="faq">
+        <div class="panel__head"><div><span class="panel__kicker">FAQ</span><h3>Häufige Fragen</h3></div></div>
+        <div class="faq-list">
+          <details><summary>Wann erscheint GTA VI?</summary><p>Grand Theft Auto VI erscheint am 19. November 2026 für PlayStation 5 und Xbox Series X|S. Der Preload startet am 10. November 2026 (PS5 um 00:00 Ortszeit, Xbox um 00:00 GMT), Code-in-Box-Versionen gibt es ab dem 12. November. Der Download ist rund 212 GB groß.</p></details>
+          <details><summary>Was misst das GTA VI Release Dashboard?</summary><p>Das Dashboard verbindet Aktienkurse von Take-Two und Vergleichswerten, Wikipedia-Pageviews, Google-News-Volumen, Reddit-, Steam- und Google-Trends-Signale, einen Krankenstand-Proxy, den Internet-Traffic am DE-CIX Frankfurt sowie Take-Two-IR- und SEC-Daten.</p></details>
+          <details><summary>Wie oft werden die Daten aktualisiert?</summary><p>Täglich um 06:00 und 18:00 UTC, im Preload- und Release-Fenster vom 10. bis 22. November 2026 stündlich.</p></details>
+          <details><summary>Gehen ältere Messwerte verloren?</summary><p>Nein. Jeder Lauf erweitert den Verlauf, statt ihn zu ersetzen. Die Zeitreihen ab 1. November 2026 liegen als offene JSON-Dateien im Ordner data/ und werden Mitte Dezember 2026 archiviert.</p></details>
+          <details><summary>Ist das Dashboard eine Anlageempfehlung?</summary><p>Nein. Es ist ein unabhängiges Fan-Projekt ohne Verbindung zu Rockstar Games oder Take-Two und stellt keinen Finanzrat dar.</p></details>
+        </div>
       </div>
       <div class="panel panel--sources reveal">
         <div class="panel__head"><div><span class="panel__kicker">Transparenz</span><h3>Quellen &amp; Grenzen</h3></div><span class="badge" id="sourceStatus">--</span></div>
@@ -348,6 +439,6 @@
   </aside>
   <button type="button" class="ad-reopen" id="adReopen" hidden>AD</button>
 
-  <script type="module" src="./assets/js/app.js?v=20261109-i18n"></script>
+  <script type="module" src="./assets/js/app.js?v=20261109-archive"></script>
 </body>
 </html>
