@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T14:20:40.648Z",
+  "updated": "2026-11-09T14:29:05.253Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:20:40.648Z"
+      "updated": "2026-11-09T14:29:05.253Z"
     },
     {
       "key": "hardware",
@@ -75,13 +75,13 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 50,
-      "publisherCount": 34,
+      "count24h": 52,
+      "publisherCount": 35,
       "capped": true,
       "series": [
         {
           "date": "2026-11-03",
-          "count": 10
+          "count": 9
         },
         {
           "date": "2026-11-04",
@@ -97,45 +97,45 @@
         },
         {
           "date": "2026-11-07",
-          "count": 12
+          "count": 11
         },
         {
           "date": "2026-11-08",
-          "count": 14
+          "count": 13
         },
         {
           "date": "2026-11-09",
-          "count": 44
+          "count": 47
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 bei Amazon ausverkauft, MediaMarkt liefert mit GTA-6-Poster - inside digital",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPemM5Rk83bXpfMURhNEhoRzlST0dLVFhlZFlpbGxzQk9hcTBlcndQb3pKYVVmLXpqbGdOeU5nYjczc3pBMmo5U2tlNGtVelVZQkEyczhZaUpVNHExSmo5SFhNV0ZCYlNIZzBZQlhYYVlqZHNQcGcyNFMwVFlWWGhLUExpZXZtNHdSQ0RoaDVpNEt5VHMxRDR6aEJ4MzZXOVNuQ2JwYjNxVGVRUE9WYWfSAbMBQVVfeXFMUDNHTTl3cFBQV2JpRmlQX1pGNkxZNndqeG8xUGxuMk5HdnA5amRsYm1udngtTHM3M3NmaEg2TjVuanRSQkQwb0hMTnE0c05XVm9HX2xFeVlOeGM4SDZzU3dXanU4QW14bmNmMnI2NXk5UkpHdF9hTWZCM25oMGRCdE9zcTdtVzBLVVpjRDJsdGg2VTliNHI5UU9PeGhVdDhDSnJYblNJMmRDZmFTNE41SzhnR0E?oc=5",
+          "source": "inside digital",
+          "pubDate": "Mon, 09 Nov 2026 14:23:59 GMT"
+        },
+        {
+          "title": "„GTA 6“ auf PS5 & Xbox schneller herunterladen: Diese Einstellung solltest du aktivieren - futurezone.de",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQb21GRmpJdnN4YW5VSlQza24zOWIxQjlFb21qU1lBTi1KdTE5dk9aMFJlampaa3UzM1ZJc3hHb2ItZGl5anVYU0J6ZGxBTDVoSW8taU9xX2lhdzBpRUViQXFGVTFaNms0SFBvQmlGSVN4V3otY0ZWM2lLZGxNdGxKYjlKNU1HODRnR2xLYWJibTZwQXZWNDEzVG9CbUhPbWJGSUo1TlNnSzNhaU83dWtOX0lZamJsWGhlN2NwMmg2ZlZtcUY3LUJYZTFzVEIwcWFZdkVvVHNicUdyV2VrYmdWQVBn?oc=5",
+          "source": "futurezone.de",
+          "pubDate": "Mon, 09 Nov 2026 14:19:49 GMT"
+        },
+        {
+          "title": "Vor dem Start von GTA 6: Diese beiden GTA-Klassiker gibt es noch kostenlos - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRG9tWFJGbkY0VUZpY256RTkwQTVWRzZ5LUF1VHBQNWpjcFhXTTlCLU5aS3ZJMnFiU2JOM0tJczAtc1RjaXU2TmQwUl9aMGg0Q1NQcU4wQnMwQURlSUNxSmNjRzdnNEMzRHR4Q1A3YmFiTTBoSHVpaVZtN3ItU0VsSmFkYmxpVzljcXZYWjRGRFltOUZYN2J6R2JVd3hFMEJDY3J4U0tlZ28wWWxsbnFQbEFFWFFKZlNTZEg4T0hWM29PQm9waWt1aVY0aXc2OFJESlhDWmxxeGEwbE1DZWNwSHhfcw?oc=5",
+          "source": "CHIP",
+          "pubDate": "Mon, 09 Nov 2026 14:19:00 GMT"
+        },
         {
           "title": "„GTA 6“: Preload startet heute Nacht – Download auf PS5 und Xbox ab Mitternacht - RND.de",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbWh0M2VMV0xucHZPNkxkWkhvVDU1QTE0ZV9CbGVscW9MM3NaZGZMbXc2RENZT1RmWHBmSEtxYTRzYzJ6Q204VXZSU3BvNkN4cnFvd2pvZ1haYjA4cEpQLUJCZ0lLYmVzMXFCRHotSEtWeGIwbnFXNGtVRnA1UDNEMUdha0ZuU2JxNWp1bXg4cDRmLTNEMzJKcXJQYTFmb0VvMFZGc0pUMjJ3Wks2elB5S0FnZFNQc1lqWjdGYjFJd1l4dFJnaXU3cXVJeG5fQlJ5Qjlz?oc=5",
           "source": "RND.de",
           "pubDate": "Mon, 09 Nov 2026 13:58:05 GMT"
-        },
-        {
-          "title": "GTA 6 Preload liefert Hinweise auf PS5 Pro-Performance & 40 FPS - PlayFront",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdmRGUGJ2Umh6ZFU4TzBUbEJSUDdCWllBdXpCX09Xc3lIVVF3OGVWcnpzMzh0OERVdkM1aXpwWjdGdkx4clVTQTcyYWpJd2lzSmprbzFDRzI0eGRYUWwydGV1dlJOeklnLWs5UUlzY3dLN2I5TkZ4cHRJeXFkT29iOGFmeDQybktPMUlZ?oc=5",
-          "source": "PlayFront",
-          "pubDate": "Mon, 09 Nov 2026 13:52:09 GMT"
-        },
-        {
-          "title": "GTA 6: 120 Hz, 40 FPS und neuere PSSR-Version auf PS5 Pro? Datenfund macht Hoffnung - - PLAY3.DE",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFhYVzU1dDB3bzMxVmtTamJzbEdXVmI5cWNYdXlmbjFVMDZveGpWUW9fWV8ydUtPcHJTbXh4MW1jWEZBakdUTElBV1lHeGg1TFJLR1lwZGtNMThzYWl4XzNSajN1dFktLVFrTEI1dnVXZnE4TU0xQmJ1eS1XaWZWR0VWUVVPWlQtRC1FVTdMSEM2YVV0SnRHUHVqbmhLNjgwUi1kMzVRWHoxS0ZZMDRlcVhTQQ?oc=5",
-          "source": "PLAY3.DE",
-          "pubDate": "Mon, 09 Nov 2026 13:47:00 GMT"
-        },
-        {
-          "title": "GTA 6 auf der PS5 Pro: Neue PSSR-Version, aber kein VRR - mobiFlip",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONGFieGxTOWdhcjFQb2JTRU45a0RhSnJ4N19nUGRFWXN0T0pZX19pVGQ5X3lYLTlIb2JsWFhic1d5Q1dDdW0xdDdUTEhBY3ozUkRsSVhuX0V6UXhDTnF2ZW5OMGhaUVBHRWd1dlh6OTdENnpoMXBZV0sxT0NlTTFPcHNKM2rSAYoBQVVfeXFMTXRCRWNTWmFMNWV2c1dLSHFMZlRPSC1Sd25CTEU3b3ZvT3dRNXMzTEQ1VThXdnJTdlVJcUJ1UE85b180Mmh1RjhISjhRdHRIenNfSUI2ODI0aEZ6SDBhRE1ELV9hV0s1UWRmWXl6b3R1MU5hejNMT2o5blk5OG1lZW9FZUFoc0VxNkVn?oc=5",
-          "source": "mobiFlip",
-          "pubDate": "Mon, 09 Nov 2026 13:26:32 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:20:40.648Z"
+      "updated": "2026-11-09T14:29:05.253Z"
     },
     {
       "key": "creators",
@@ -143,7 +143,7 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 27,
-      "count24h": 8,
+      "count24h": 9,
       "publisherCount": 13,
       "capped": false,
       "series": [
@@ -161,7 +161,7 @@
         },
         {
           "date": "2026-11-06",
-          "count": 7
+          "count": 6
         },
         {
           "date": "2026-11-07",
@@ -173,7 +173,7 @@
         },
         {
           "date": "2026-11-09",
-          "count": 6
+          "count": 7
         }
       ],
       "items": [
@@ -190,20 +190,20 @@
           "pubDate": "Mon, 09 Nov 2026 11:04:43 GMT"
         },
         {
+          "title": "Grand Theft Auto VI : Hinweis auf 55 Erfolge und ungewöhnlichen Gamerscore - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONzdPamlhTmdqOE1kRnVFQkhrSS1QWnBTSkd6QUN4QlFOdGZvVlhtSnp0c20weXJpTU5ydGg4TUItOXBDWk1KREhIRnN3cTBUUFBkT1h3VUoySWdwZ3FNenJSTUljQ3c1ZnRBZjBYclRFV1VqbTdyOEY3RldoUVd3VUpGQTVCaWdBSG12alBFVkdQVlliY2w4dkFTYllwR1NJMTJ4N0xYaUZFUQ?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Mon, 09 Nov 2026 10:30:00 GMT"
+        },
+        {
           "title": "Wer GTA 6 auf PS5 lädt, verliert womöglich sein Rückgaberecht - PC Games (DE)",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQzY2V281WGFnYzNIMHJKY0J6VjA1RnRFLXVNaEY1WUk0RmtIR0RGWjk1RGlwWUIzSGJwdXNWODBwUHA0d3MxdnMzNGM3Y1JCTFhaRkEwUy1tQkd4WHVTOThTUW9Hd1Uta1I5bVZyVWVGWmZpdlZ5b0pRdVE2QThqUU5tNGNyWUdsaE9aZDhpdS1aeDIzdXFndFVwZFE1Tlc0ZEJiQ2dwM0Z6TWM?oc=5",
           "source": "PC Games (DE)",
           "pubDate": "Mon, 09 Nov 2026 09:00:00 GMT"
-        },
-        {
-          "title": "GTA 6 gibt es bei MediaMarkt jetzt mit Gratis-Wandposter - PC Games (DE)",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd2ptMWZSbzhPN25nd2liSGpUTkpBVXAwY1dGaHRlNnFDXzRoOWh6bkRBMzM3ZmtmNzZTaEtnd25seVRjcy11anR0cW5IWkdmRFQ4QXVSZFFQX1NYVzdkZXlveU9UWllJVDlTVEY2RUk4WHptd05BQXY0R2JFSnVxZVdrMTNHVWVnQ25DWGVLeFR0dHhMWDBwOWZQTE9nckY3c2l6ZllPOUwxbkN3MkZLQWF6SGFsUQ?oc=5",
-          "source": "PC Games (DE)",
-          "pubDate": "Mon, 09 Nov 2026 08:45:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:20:40.648Z"
+      "updated": "2026-11-09T14:29:05.253Z"
     },
     {
       "key": "release",
@@ -246,6 +246,12 @@
       ],
       "items": [
         {
+          "title": "„GTA 6“ auf PS5 & Xbox schneller herunterladen: Diese Einstellung solltest du aktivieren - futurezone.de",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQb21GRmpJdnN4YW5VSlQza24zOWIxQjlFb21qU1lBTi1KdTE5dk9aMFJlampaa3UzM1ZJc3hHb2ItZGl5anVYU0J6ZGxBTDVoSW8taU9xX2lhdzBpRUViQXFGVTFaNms0SFBvQmlGSVN4V3otY0ZWM2lLZGxNdGxKYjlKNU1HODRnR2xLYWJibTZwQXZWNDEzVG9CbUhPbWJGSUo1TlNnSzNhaU83dWtOX0lZamJsWGhlN2NwMmg2ZlZtcUY3LUJYZTFzVEIwcWFZdkVvVHNicUdyV2VrYmdWQVBn?oc=5",
+          "source": "futurezone.de",
+          "pubDate": "Mon, 09 Nov 2026 14:19:49 GMT"
+        },
+        {
           "title": "„GTA 6“: Preload startet heute Nacht – Download auf PS5 und Xbox ab Mitternacht - RND.de",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbWh0M2VMV0xucHZPNkxkWkhvVDU1QTE0ZV9CbGVscW9MM3NaZGZMbXc2RENZT1RmWHBmSEtxYTRzYzJ6Q204VXZSU3BvNkN4cnFvd2pvZ1haYjA4cEpQLUJCZ0lLYmVzMXFCRHotSEtWeGIwbnFXNGtVRnA1UDNEMUdha0ZuU2JxNWp1bXg4cDRmLTNEMzJKcXJQYTFmb0VvMFZGc0pUMjJ3Wks2elB5S0FnZFNQc1lqWjdGYjFJd1l4dFJnaXU3cXVJeG5fQlJ5Qjlz?oc=5",
           "source": "RND.de",
@@ -262,16 +268,10 @@
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNkp4SlBPTUJHR0s3ckM4bjUxZGZEX1lEaEdJRjlEdV9LZXFVNmwzSWp5d2lBckt4Q2Z6Q3RuTWprRndiLVQ3NEk1MlpDN0Q1QlBTSDhiY0k5bmVIQUg5VUZvQldUdWtQQWhNcHN5cGpqbThBUDFtYUczanpkbFVtdTIxTVZDeEZFWkN4WVhpa3htd2NUYk5xc2VxUTJyenBrUjA5elhjaWo3VnIydmFB?oc=5",
           "source": "PCGH",
           "pubDate": "Mon, 09 Nov 2026 13:22:00 GMT"
-        },
-        {
-          "title": "GTA 6 - Preload startet heute Nacht: Brechen PSN und Xbox unter 212 GB zusammen? - Netzwelt",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGtXeVdKYmpfelhvOFQ5TU1KV2djSkU3UzMwdUd6UmZwUUxmQ3pYTUJSelpCeHVyaHJsRUU5a183SlFwQ1MweUFhcVNQN0E4Y0xQa042NWpQY3p2S1g4VUtGd1hZeGRRM21VVlpYTlJ3NEZRcEtVNVRqbGN6M1NyblNpdU5TaElvUTR6V2RNaDVlb1pnUmdsZE8zeEVpenNqR1NjM2ZoT044UQ?oc=5",
-          "source": "Netzwelt",
-          "pubDate": "Mon, 09 Nov 2026 13:15:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:20:40.648Z"
+      "updated": "2026-11-09T14:29:05.253Z"
     }
   ],
   "history": [
@@ -290,7 +290,7 @@
       "signature": "wiki+news+reddit"
     },
     {
-      "at": "2026-11-09T14:20:39.321Z",
+      "at": "2026-11-09T14:29:03.839Z",
       "version": "hype-v1",
       "score": 87,
       "coverage": 3,

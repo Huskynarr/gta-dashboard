@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T14:20:39.321Z",
+  "updated": "2026-11-09T14:29:03.839Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -1476,7 +1476,7 @@
       "label": "GTA VI · EN",
       "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 35,
+      "count24h": 36,
       "series": [
         {
           "date": "2026-11-03",
@@ -1492,7 +1492,7 @@
         },
         {
           "date": "2026-11-06",
-          "count": 22
+          "count": 21
         },
         {
           "date": "2026-11-07",
@@ -1504,7 +1504,7 @@
         },
         {
           "date": "2026-11-09",
-          "count": 28
+          "count": 29
         }
       ],
       "items": [
@@ -1551,7 +1551,7 @@
       "label": "GTA VI · DE",
       "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 35,
+      "count24h": 36,
       "series": [
         {
           "date": "2026-11-03",
@@ -1571,7 +1571,7 @@
         },
         {
           "date": "2026-11-07",
-          "count": 12
+          "count": 11
         },
         {
           "date": "2026-11-08",
@@ -1579,15 +1579,21 @@
         },
         {
           "date": "2026-11-09",
-          "count": 32
+          "count": 33
         }
       ],
       "items": [
         {
-          "title": "Neue Daten zu GTA 6 deuten auf 120-Hz- und PSSR-Unterstützung hin. - GameGPU",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbmhocUVDamY3U0k1WGZVaEIxVTBIWGVna3I5UXZScU1peGFPU2RDX1VubllhX1dEN01sM1dYamFuYnV5UTcxbHE0dVg4SGJCUTVUUlNnempEVm5jUVJtOUhYOVF1NXNCdFpWa2V5Y0JyNmM3VGViaHZ4VGxZM3prWWd2YW9icElJYzlHa0xBV3JPV2gwNmh6Zw?oc=5",
-          "source": "GameGPU",
-          "pubDate": "Mon, 09 Nov 2026 14:02:30 GMT"
+          "title": "GTA 6 bei Amazon ausverkauft, MediaMarkt liefert mit GTA-6-Poster - inside digital",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPemM5Rk83bXpfMURhNEhoRzlST0dLVFhlZFlpbGxzQk9hcTBlcndQb3pKYVVmLXpqbGdOeU5nYjczc3pBMmo5U2tlNGtVelVZQkEyczhZaUpVNHExSmo5SFhNV0ZCYlNIZzBZQlhYYVlqZHNQcGcyNFMwVFlWWGhLUExpZXZtNHdSQ0RoaDVpNEt5VHMxRDR6aEJ4MzZXOVNuQ2JwYjNxVGVRUE9WYWfSAbMBQVVfeXFMUDNHTTl3cFBQV2JpRmlQX1pGNkxZNndqeG8xUGxuMk5HdnA5amRsYm1udngtTHM3M3NmaEg2TjVuanRSQkQwb0hMTnE0c05XVm9HX2xFeVlOeGM4SDZzU3dXanU4QW14bmNmMnI2NXk5UkpHdF9hTWZCM25oMGRCdE9zcTdtVzBLVVpjRDJsdGg2VTliNHI5UU9PeGhVdDhDSnJYblNJMmRDZmFTNE41SzhnR0E?oc=5",
+          "source": "inside digital",
+          "pubDate": "Mon, 09 Nov 2026 14:23:59 GMT"
+        },
+        {
+          "title": "Vor dem Start von GTA 6: Diese beiden GTA-Klassiker gibt es noch kostenlos - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRG9tWFJGbkY0VUZpY256RTkwQTVWRzZ5LUF1VHBQNWpjcFhXTTlCLU5aS3ZJMnFiU2JOM0tJczAtc1RjaXU2TmQwUl9aMGg0Q1NQcU4wQnMwQURlSUNxSmNjRzdnNEMzRHR4Q1A3YmFiTTBoSHVpaVZtN3ItU0VsSmFkYmxpVzljcXZYWjRGRFltOUZYN2J6R2JVd3hFMEJDY3J4U0tlZ28wWWxsbnFQbEFFWFFKZlNTZEg4T0hWM29PQm9waWt1aVY0aXc2OFJESlhDWmxxeGEwbE1DZWNwSHhfcw?oc=5",
+          "source": "CHIP",
+          "pubDate": "Mon, 09 Nov 2026 14:19:00 GMT"
         },
         {
           "title": "„GTA 6“: Preload startet heute Nacht – Download auf PS5 und Xbox ab Mitternacht - RND.de",
@@ -1612,12 +1618,6 @@
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMHpXT0g3Wm1MX041MXRPc09qajF6WVJRZC1tVXY3YjBVUmpiM3JZSjZVM3dJMmxJVHFuUHNnbF9oRzAzRklndmkwaTBpVGVzMlhHNEd0NUwxX1IxZXdjbnI3U0NGZnVUcTlvMjc3ampubkhEajI3OWIyd2k1YmdoRVlMem9uWkNBWEIyc0NaUjZPVXd2bHBzV0V1bkIzaEhZeFA5SW1QYTlzNFVtYkd4Tg?oc=5",
           "source": "PCGH",
           "pubDate": "Mon, 09 Nov 2026 13:15:00 GMT"
-        },
-        {
-          "title": "GTA 6 Preload-Start heute Nacht: Wie ihr den Download startet, Größe und was ihr vorab wissen müsst im Liveticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtaFRTUkNUbTc1M2lnbFcyaUFyM2tPR2t0bElTbWdzcG5iQnZMdXdScGtfNlUzTFlUOGtxbkV4YUI4YkVaeU43NjZCT29TcWJySnQwYjJiY0dPNVpuVUhZajlQOUV0R1pqZVNORUlLVzRrTTc4Rkx0WXNn?oc=5",
-          "source": "GamePro",
-          "pubDate": "Mon, 09 Nov 2026 12:58:00 GMT"
         }
       ]
     },
@@ -1625,12 +1625,12 @@
       "key": "sick_de",
       "label": "Krankenstand · DE",
       "query": "(Krankmeldung OR Krankenstand OR Krankheitstage OR Arbeitsunfähigkeit)",
-      "count7d": 23,
+      "count7d": 24,
       "count24h": 2,
       "series": [
         {
           "date": "2026-11-03",
-          "count": 4
+          "count": 5
         },
         {
           "date": "2026-11-04",
@@ -1700,8 +1700,8 @@
       "key": "rockstar",
       "label": "Rockstar Newswire",
       "query": "site:rockstargames.com",
-      "count7d": 43,
-      "count24h": 15,
+      "count7d": 44,
+      "count24h": 16,
       "series": [
         {
           "date": "2026-11-03",
@@ -1729,10 +1729,16 @@
         },
         {
           "date": "2026-11-09",
-          "count": 13
+          "count": 14
         }
       ],
       "items": [
+        {
+          "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUTBFR05fRS1HNGlEckEwaXZVc1BxVlgtUVdFYmYtMDlkVzY3amRZV1JWSUEza0I4d0l4RkpxNmdWV1k0WEJzUVBGaWpYY0QtWExEd3RBdE5wTWJwM1hj?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Mon, 09 Nov 2026 14:22:16 GMT"
+        },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HUE8wZVBqaUp1d3hxRjBaV1M0LVd1ODV4VzdjME0yT2VXN3RPLUhLR0xIWWxIRXN3NVh6bGEyY3A0WjhOZy1MMEpzWVQ1ZjlKNWRNSG1PZmN1Q015ZlMxVXVzUUlodnFfcG9qNW1xLWVqbmxvblE?oc=5",
@@ -1762,12 +1768,6 @@
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2Q2dhM2tEY0NPNUFubUFsOEtRTUhVSWJuM3B1QWl1dDNDYy1MZXBfUWVtZWlOSnZnVmNvYUNJcGFzNE9FNnJpQV82Qy1vUU5YSVdmRWZ4Z1VUaS03LXVxalc2VDlLS2JuNGZ0bUlVeTEyb0oxQ0E2azRicw?oc=5",
           "source": "Rockstar Games",
           "pubDate": "Mon, 09 Nov 2026 11:30:32 GMT"
-        },
-        {
-          "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EbzZtLWh1RDFvUzlSaFVhaTRtSEszeW5PMGo2UXNIcmhJaUYzX2NTRDNBbkpDa3JHUWRwX2t1M2pyMk01UmxWRjY2MVRKN2pFZ28xdzdZbWVsZ2w3OVBzSEpGOTlzSHM?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Mon, 09 Nov 2026 11:26:28 GMT"
         }
       ]
     }
@@ -1784,16 +1784,16 @@
     "posts24h": 100,
     "posts7d": null,
     "sampleSize": 100,
-    "sampleHours": 2.5,
-    "postsPerHour": 40.5,
+    "sampleHours": 2.6,
+    "postsPerHour": 38.8,
     "topPosts": [
       {
-        "id": "1xrpo0k",
-        "title": "Update on NZ/Aus Version",
-        "score": 26,
-        "comments": 48,
-        "createdUtc": 1794225004,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xrpo0k"
+        "id": "1xrpriu",
+        "title": "The launch of GTA 6 is set to cost British businesses over £12m as 83,000 days off are booked for \"GTA related reasons\"",
+        "score": 90,
+        "comments": 57,
+        "createdUtc": 1794225338,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xrpriu"
       },
       {
         "id": "1xrq39z",
@@ -1804,42 +1804,58 @@
         "link": "https://www.reddit.com/r/GTA6/comments/1xrq39z"
       },
       {
-        "id": "1xrssvf",
-        "title": "Should I get base ps5 or pro for gta 6",
-        "score": 1,
-        "comments": 1,
-        "createdUtc": 1794233864,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xrssvf"
-      },
-      {
-        "id": "1xrssf2",
-        "title": "Finally the setup is complete!",
+        "id": "1xrt26y",
+        "title": "HUD and Interface options",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1794233833,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xrssf2"
+        "createdUtc": 1794234499,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xrt26y"
       },
       {
-        "id": "1xrsrlr",
-        "title": "First look at the map for GTA 6: The Festival in Miami 🌴",
+        "id": "1xrt10t",
+        "title": "By the way, this is the exact same location.",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1794233776,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xrsrlr"
+        "createdUtc": 1794234419,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xrt10t"
+      },
+      {
+        "id": "1xrszav",
+        "title": "Anyone in uk ordered the game off of very? As retailers are allowed to ship early for pre load but idk about controller bundles? Will they be shipping earlier to pre load?",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1794234299,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xrszav"
       }
     ],
-    "fetchedAt": "2026-11-09T14:20:39.321Z"
+    "fetchedAt": "2026-11-09T14:29:03.839Z"
   },
   "steam": {
-    "gta5": 58187,
+    "gta5": 58725,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-09T14:20:36.418Z"
+    "fetchedAt": "2026-11-09T14:29:00.852Z"
   },
   "trends": {
     "de": {
       "geo": "DE",
       "items": [
+        {
+          "title": "deutscher wetterdienst",
+          "traffic": "200+",
+          "pubDate": "Mon, 9 Nov 2026 06:10:00 -0800",
+          "newsTitle": "Jetzt bringt das Wetter Dauerregen: Wann es wo losgeht",
+          "newsUrl": "https://www.bild.de/news/wetter/jetzt-bringt-das-wetter-dauerregen-wann-es-wo-losgeht-6af04c78a389bc337cfc9dca",
+          "newsSource": "BILD"
+        },
+        {
+          "title": "geldwäsche",
+          "traffic": "200+",
+          "pubDate": "Mon, 9 Nov 2026 06:10:00 -0800",
+          "newsTitle": "Kiel: Verdacht auf Geldwäsche - Task Force beschlagnahmt Immobilie",
+          "newsUrl": "https://www.kn-online.de/lokales/kiel/kiel-verdacht-auf-geldwaesche-task-force-beschlagnahmt-immobilie-JSFMH6E5JNAHNF3BG2WQC275UE.html",
+          "newsSource": "Kieler Nachrichten"
+        },
         {
           "title": "playstation plus spiele",
           "traffic": "1000+",
@@ -1857,20 +1873,20 @@
           "newsSource": "Golem"
         },
         {
-          "title": "zora klipp",
-          "traffic": "500+",
-          "pubDate": "Mon, 9 Nov 2026 05:50:00 -0800",
-          "newsTitle": "\"Zora schmeckt's\": Hamburger Köchin Zora Klipp zu Gast in Bad Zwischenahn",
-          "newsUrl": "https://hamburg.t-online.de/region/hamburg/id_101515152/-zora-schmeckt-s-hamburger-koechin-zora-klipp-zu-gast-in-bad-zwischenahn.html",
-          "newsSource": "t-online – Hamburg"
-        },
-        {
           "title": "placebo münchen",
           "traffic": "200+",
           "pubDate": "Mon, 9 Nov 2026 05:50:00 -0800",
           "newsTitle": "Beispiel Placebo: Warum Bands mit alten Alben touren",
           "newsUrl": "https://www.br.de/nachrichten/kultur/beispiel-placebo-warum-bands-mit-alten-alben-touren,VaHfy5A",
           "newsSource": "BR"
+        },
+        {
+          "title": "zora klipp",
+          "traffic": "500+",
+          "pubDate": "Mon, 9 Nov 2026 05:50:00 -0800",
+          "newsTitle": "\"Zora schmeckt's\": Hamburger Köchin Zora Klipp zu Gast in Bad Zwischenahn",
+          "newsUrl": "https://hamburg.t-online.de/region/hamburg/id_101515152/-zora-schmeckt-s-hamburger-koechin-zora-klipp-zu-gast-in-bad-zwischenahn.html",
+          "newsSource": "t-online – Hamburg"
         },
         {
           "title": "ulrike kriener",
@@ -1882,7 +1898,7 @@
         },
         {
           "title": "shawn layden",
-          "traffic": "1000+",
+          "traffic": "2000+",
           "pubDate": "Mon, 9 Nov 2026 05:20:00 -0800",
           "newsTitle": "'I Think We Have Enough Power in the Machine' — Former PlayStation Boss Shawn Layden Calls on Sony to Prioritize Making a Cheaper Console Amid Rumors of a Pricey PS6",
           "newsUrl": "https://www.ign.com/articles/former-playstation-boss-says-sony-doesnt-need-a-ps6-for-1200-it-needs-a-ps5-for-300",
@@ -1903,22 +1919,6 @@
           "newsTitle": "„Die Küchenschlacht“: Warum das ZDF diese Woche nur Wiederholungen zeigt",
           "newsUrl": "https://www.swp.de/unterhaltung/tv/die-kuechenschlacht-warum-das-zdf-diese-woche-nur-wiederholungen-zeigt-79680977.html",
           "newsSource": "swp.de"
-        },
-        {
-          "title": "evonik industries",
-          "traffic": "200+",
-          "pubDate": "Mon, 9 Nov 2026 05:20:00 -0800",
-          "newsTitle": "Geheimes Spitzentreffen: BASF umgarnt Evonik und blitzt erneut ab",
-          "newsUrl": "https://www.n-tv.de/wirtschaft/BASF-umgarnt-Evonik-und-blitzt-erneut-ab-id31512022.html",
-          "newsSource": "n-tv.de"
-        },
-        {
-          "title": "michelle",
-          "traffic": "2000+",
-          "pubDate": "Mon, 9 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Haare abrasiert: Schlagerstar Michelle äußert sich zu Kritik an Kurzhaarfrisur",
-          "newsUrl": "https://www.t-online.de/unterhaltung/stars/id_101519882/michelle-schlagerstar-aeussert-sich-zu-kritik-an-kurzhaarfrisur.html",
-          "newsSource": "T-Online"
         }
       ],
       "gta": [],
@@ -1944,6 +1944,14 @@
           "newsSource": "Fox Business"
         },
         {
+          "title": "fortnite token",
+          "traffic": "200+",
+          "pubDate": "Mon, 9 Nov 2026 06:00:00 -0800",
+          "newsTitle": "‘Fortnite’ Reveals Pirate Shop Token Drop Rates, And They Are Bad",
+          "newsUrl": "https://www.forbes.com/sites/paultassi/2026/11/08/fortnite-reveals-pirate-shop-token-drop-rates-and-they-are-bad/",
+          "newsSource": "Forbes"
+        },
+        {
           "title": "what time does the stock market open",
           "traffic": "200+",
           "pubDate": "Mon, 9 Nov 2026 06:00:00 -0800",
@@ -1952,12 +1960,12 @@
           "newsSource": "富途牛牛"
         },
         {
-          "title": "fortnite token",
+          "title": "kaia jordan gerber",
           "traffic": "200+",
-          "pubDate": "Mon, 9 Nov 2026 06:00:00 -0800",
-          "newsTitle": "‘Fortnite’ Reveals Pirate Shop Token Drop Rates, And They Are Bad",
-          "newsUrl": "https://www.forbes.com/sites/paultassi/2026/11/08/fortnite-reveals-pirate-shop-token-drop-rates-and-they-are-bad/",
-          "newsSource": "Forbes"
+          "pubDate": "Mon, 9 Nov 2026 05:50:00 -0800",
+          "newsTitle": "Kaia Gerber posts about grief and loss following brother's death at 27",
+          "newsUrl": "https://www.usatoday.com/story/entertainment/celebrities/2026/11/08/kaia-gerber-grief-quote-after-brother-presley-gerber-death/92683671007/",
+          "newsSource": "USA Today"
         },
         {
           "title": "levar burton",
@@ -1984,14 +1992,6 @@
           "newsSource": "The New York Times"
         },
         {
-          "title": "julia louis-dreyfus",
-          "traffic": "500+",
-          "pubDate": "Mon, 9 Nov 2026 05:30:00 -0800",
-          "newsTitle": "Julia Louis-Dreyfus & Cecily Strong to Star In Apple Limited Series Based on Article THE NANNY SQUATTER",
-          "newsUrl": "https://geektyrant.com/news/julia-louis-dreyfus-amp-cecily-strong-to-star-in-apple-limited-series-based-on-article-the-nanny-squatter",
-          "newsSource": "GeekTyrant"
-        },
-        {
           "title": "astronaut applications",
           "traffic": "2000+",
           "pubDate": "Mon, 9 Nov 2026 05:30:00 -0800",
@@ -2000,12 +2000,12 @@
           "newsSource": "NPR"
         },
         {
-          "title": "walker scobell",
-          "traffic": "200+",
+          "title": "julia louis-dreyfus",
+          "traffic": "500+",
           "pubDate": "Mon, 9 Nov 2026 05:30:00 -0800",
-          "newsTitle": "‘Percy Jackson’ Star Leah Sava Jeffries Addresses Walker Scobell Romance Speculation",
-          "newsUrl": "https://people.com/percy-jackson-leah-sava-jeffries-shuts-down-romance-speculation-costar-walker-scobell-clear-this-up-12240534",
-          "newsSource": "People.com"
+          "newsTitle": "Julia Louis-Dreyfus & Cecily Strong to Star In Apple Limited Series Based on Article THE NANNY SQUATTER",
+          "newsUrl": "https://geektyrant.com/news/julia-louis-dreyfus-amp-cecily-strong-to-star-in-apple-limited-series-based-on-article-the-nanny-squatter",
+          "newsSource": "GeekTyrant"
         }
       ],
       "gta": [],
@@ -2015,18 +2015,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 102,
+    "latencyMs": 127,
     "bytes": 1223386,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-09T14:20:36.291Z"
+    "checkedAt": "2026-11-09T14:29:00.711Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": true,
-    "checkedAt": "2026-11-09T14:20:36.980Z"
+    "checkedAt": "2026-11-09T14:29:01.363Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",
