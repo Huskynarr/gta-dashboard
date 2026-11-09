@@ -46,9 +46,9 @@ export const COUNTRIES = [
 ].map(([id, country, tz]) => ({ id, country, tz }));
 
 const TEXT = {
-  de: { country: 'Land', auto: 'Automatisch', local: 'Ortszeit', preload: 'Preload', release: 'Release' },
-  en: { country: 'Country', auto: 'Automatic', local: 'local time', preload: 'Preload', release: 'Release' },
-  fr: { country: 'Pays', auto: 'Automatique', local: 'heure locale', preload: 'Préchargement', release: 'Sortie' },
+  de: { country: 'Land', auto: 'Automatisch', local: 'Ortszeit', releaseIn: 'Danach: Release in', day: 'T' },
+  en: { country: 'Country', auto: 'Automatic', local: 'local time', releaseIn: 'Then: release in', day: 'd' },
+  fr: { country: 'Pays', auto: 'Automatique', local: 'heure locale', releaseIn: 'Ensuite : sortie dans', day: 'j' },
 };
 
 const lang = () => (TEXT[document.documentElement.lang] ? document.documentElement.lang : 'de');
@@ -132,6 +132,13 @@ export function milestones(release, tz) {
     xboxPreload: Date.parse(release.xboxPreload || '2026-11-10T00:00:00Z'),
     release: localMidnight(dayOf(release.release, '2026-11-19'), tz),
   };
+}
+
+function formatRemaining(ms, dayUnit) {
+  const total = Math.max(Math.floor(ms / 1000), 0);
+  const pad = (value) => String(value).padStart(2, '0');
+  const days = Math.floor(total / 86400);
+  return `${days} ${dayUnit} ${pad(Math.floor(total / 3600) % 24)}:${pad(Math.floor(total / 60) % 60)}:${pad(total % 60)}`;
 }
 
 function flag(country) {
@@ -220,6 +227,7 @@ export function createCountryCountdown(select) {
         target: Math.min(...preloads),
         entry,
         text: `${where} · PS5 ${time(times.ps5Preload)} · Xbox ${time(times.xboxPreload)} · 212 GB`,
+        next: `${TEXT[language].releaseIn} ${formatRemaining(times.release - now, TEXT[language].day)} · ${time(times.release)}`,
       };
     }
 

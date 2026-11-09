@@ -459,6 +459,21 @@ img, svg { display: block; max-width: 100%; }
   text-transform: uppercase;
   color: var(--muted);
 }
+.countdown__next {
+  margin: 10px auto 0;
+  padding: 7px 12px;
+  width: fit-content;
+  max-width: 100%;
+  border: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  text-align: center;
+}
+.countdown__next[hidden] { display: none; }
 .countdown__country {
   display: flex;
   align-items: center;

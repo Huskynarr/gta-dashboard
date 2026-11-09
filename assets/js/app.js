@@ -1,7 +1,7 @@
 import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js?v=20261109-archive';
 import { initI18n } from './i18n.js?v=20261109-archive';
 import { analyzeHype } from './hype.js?v=20261109-hype';
-import { createCountryCountdown } from './countdown.js?v=20261109-archive';
+import { createCountryCountdown } from './countdown.js?v=20261109-release';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -382,7 +382,7 @@ function renderCountdown() {
   const release = state.meta?.release || FALLBACK_RELEASE;
   countryCountdown ||= createCountryCountdown($('#cdCountry'));
   const now = Date.now();
-  const { phase, target, text } = countryCountdown(release, now);
+  const { phase, target, text, next } = countryCountdown(release, now);
   const diff = Math.max(target - now, 0);
 
   const days = Math.floor(diff / 86400000);
@@ -398,6 +398,12 @@ function renderCountdown() {
   const label = { released: 'JETZT IN LEONIDA', preload: 'PRELOAD STARTET IN', release: 'RELEASE STARTET IN' }[phase];
   if ($('#cdLabel').textContent !== label) $('#cdLabel').textContent = label;
   if ($('#cdTarget').textContent !== text) $('#cdTarget').textContent = text;
+
+  const nextLine = $('#cdNext');
+  if (nextLine) {
+    nextLine.hidden = !next;
+    if (next && nextLine.textContent !== next) nextLine.textContent = next;
+  }
 }
 
 function renderTicker() {

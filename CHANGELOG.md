@@ -8,6 +8,11 @@ Automated data refreshes (`chore(data)`) are not listed.
 
 ## [Unreleased]
 
+## [1.6.0] - 2026-11-09
+
+### Added
+- Countdown shows a secondary release countdown (local midnight in the selected country) below the preload countdown; after the preload it becomes the main countdown.
+
 ## [1.5.1] - 2026-11-09
 
 ### Added
@@ -72,7 +77,8 @@ Automated data refreshes (`chore(data)`) are not listed.
 - Initial GTA VI Release Intelligence dashboard: market pulse, sick-leave signals, OSINT, DE-CIX network watch, timeline and methodology.
 - Scheduled data collection and GitHub Pages deployment.
 
-[Unreleased]: https://github.com/Huskynarr/gta-dashboard/compare/v1.5.1...HEAD
+[Unreleased]: https://github.com/Huskynarr/gta-dashboard/compare/v1.6.0...HEAD
+[1.6.0]: https://github.com/Huskynarr/gta-dashboard/compare/v1.5.1...v1.6.0
 [1.5.1]: https://github.com/Huskynarr/gta-dashboard/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/Huskynarr/gta-dashboard/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/Huskynarr/gta-dashboard/compare/v1.3.1...v1.4.0
