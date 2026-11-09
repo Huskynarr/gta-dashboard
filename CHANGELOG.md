@@ -8,6 +8,14 @@ Automated data refreshes (`chore(data)`) are not listed.
 
 ## [Unreleased]
 
+## [1.5.1] - 2026-11-09
+
+### Added
+- `scripts/backfill-archive.mjs` (`npm run backfill`): rebuilds `timeline.json`, `news-archive.json` and the merged daily histories from every data snapshot in git history (idempotent).
+
+### Changed
+- Archive merge logic moved from `collect.mjs` into `scripts/lib/archive.mjs` (`extendArchives`); existing `history` arrays are always carried over.
+
 ## [1.5.0] - 2026-11-09
 
 ### Added
@@ -64,7 +72,8 @@ Automated data refreshes (`chore(data)`) are not listed.
 - Initial GTA VI Release Intelligence dashboard: market pulse, sick-leave signals, OSINT, DE-CIX network watch, timeline and methodology.
 - Scheduled data collection and GitHub Pages deployment.
 
-[Unreleased]: https://github.com/Huskynarr/gta-dashboard/compare/v1.5.0...HEAD
+[Unreleased]: https://github.com/Huskynarr/gta-dashboard/compare/v1.5.1...HEAD
+[1.5.1]: https://github.com/Huskynarr/gta-dashboard/compare/v1.5.0...v1.5.1
 [1.5.0]: https://github.com/Huskynarr/gta-dashboard/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/Huskynarr/gta-dashboard/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/Huskynarr/gta-dashboard/compare/v1.3.0...v1.3.1

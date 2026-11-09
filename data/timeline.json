@@ -1,9 +1,489 @@
 {
-  "updated": "2026-11-09T22:38:19.244Z",
+  "updated": "2026-11-09T22:38:24.159Z",
   "description": "Hourly append-only snapshots of all point-in-time GTA VI signals (null = source unavailable in that run).",
   "snapshots": [
     {
-      "at": "2026-11-09T22:38:19.244Z",
+      "at": "2026-11-08T21:42:04.379Z",
+      "stocks": {
+        "7974": {
+          "price": 8178,
+          "changePct": -7.9,
+          "volume": 17393100
+        },
+        "TTWO": {
+          "price": 214.87,
+          "changePct": 0.71,
+          "volume": 3252012
+        },
+        "RBLX": {
+          "price": 49.3,
+          "changePct": 3.46,
+          "volume": 8011650
+        },
+        "CDR": {
+          "price": 266.9,
+          "changePct": 1.64,
+          "volume": 238941
+        },
+        "UBI": {
+          "price": 4.436,
+          "changePct": -0.83,
+          "volume": 414106
+        },
+        "SONY": {
+          "price": 27,
+          "changePct": -1.96,
+          "volume": 5675446
+        },
+        "MSFT": {
+          "price": 530.61,
+          "changePct": -0.99,
+          "volume": 26956423
+        },
+        "NVDA": {
+          "price": 186.64,
+          "changePct": 2.78,
+          "volume": 180212285
+        },
+        "UBER": {
+          "price": 68.59,
+          "changePct": -0.28,
+          "volume": 18212794
+        },
+        "DASH": {
+          "price": 179.67,
+          "changePct": -0.14,
+          "volume": 4548343
+        },
+        "DHER": {
+          "price": 37,
+          "changePct": 0.08,
+          "volume": 296696
+        },
+        "GME": {
+          "price": 25.12,
+          "changePct": 3.93,
+          "volume": 5519012
+        },
+        "AMZN": {
+          "price": 259.3,
+          "changePct": -0.35,
+          "volume": 42571534
+        }
+      },
+      "wikipedia": {
+        "gta_en": {
+          "date": "2026-11-06",
+          "views": 29530,
+          "recent7": 174480,
+          "prev7": 126805
+        },
+        "gta_de": {
+          "date": "2026-11-06",
+          "views": 2431,
+          "recent7": 14482,
+          "prev7": 9793
+        },
+        "sick_stand": {
+          "date": "2026-11-06",
+          "views": 0,
+          "recent7": 14,
+          "prev7": 26
+        },
+        "sick_ability": {
+          "date": "2026-11-06",
+          "views": 15,
+          "recent7": 86,
+          "prev7": 113
+        }
+      },
+      "news": {
+        "gta_en": {
+          "count24h": 11,
+          "count7d": 100
+        },
+        "gta_de": {
+          "count24h": 14,
+          "count7d": 100
+        },
+        "sick_de": {
+          "count24h": 2,
+          "count7d": 22
+        },
+        "rockstar": {
+          "count24h": 13,
+          "count7d": 41
+        }
+      },
+      "reddit": {
+        "subscribers": 1212091,
+        "posts24h": 100,
+        "postsPerHour": 22.3,
+        "topScore": 711
+      },
+      "steam": {
+        "gta5": 44013
+      },
+      "trends": {
+        "de": 1,
+        "us": 0
+      },
+      "rockstar": {
+        "ok": true,
+        "status": 200,
+        "latencyMs": 99
+      },
+      "playstation": {
+        "ok": true,
+        "preloadMention": true
+      },
+      "decix": {
+        "allTimePeak": 21473193953966,
+        "current": 17403419337223,
+        "graphAverage": 15399629183572,
+        "graphPeak": 21338943778953,
+        "allTimePeakDate": "2026-10-14"
+      },
+      "hype": {
+        "score": null,
+        "coverage": null,
+        "topics": {}
+      }
+    },
+    {
+      "at": "2026-11-09T13:36:15.587Z",
+      "stocks": {
+        "7974": {
+          "price": 8606,
+          "changePct": 5.23,
+          "volume": 10941200
+        },
+        "TTWO": {
+          "price": 214.87,
+          "changePct": 0.71,
+          "volume": 3252012
+        },
+        "RBLX": {
+          "price": 49.3,
+          "changePct": 3.46,
+          "volume": 8011650
+        },
+        "CDR": {
+          "price": 268.8,
+          "changePct": 0.71,
+          "volume": 109419
+        },
+        "UBI": {
+          "price": 4.441,
+          "changePct": 0.11,
+          "volume": 229460
+        },
+        "SONY": {
+          "price": 27,
+          "changePct": -1.96,
+          "volume": 5675446
+        },
+        "MSFT": {
+          "price": 530.61,
+          "changePct": -0.99,
+          "volume": 26956423
+        },
+        "NVDA": {
+          "price": 186.64,
+          "changePct": 2.78,
+          "volume": 180212285
+        },
+        "UBER": {
+          "price": 68.59,
+          "changePct": -0.28,
+          "volume": 18212794
+        },
+        "DASH": {
+          "price": 179.67,
+          "changePct": -0.14,
+          "volume": 4548343
+        },
+        "DHER": {
+          "price": 37.06,
+          "changePct": 0.16,
+          "volume": 49561
+        },
+        "GME": {
+          "price": 25.12,
+          "changePct": 3.93,
+          "volume": 5519012
+        },
+        "AMZN": {
+          "price": 259.3,
+          "changePct": -0.35,
+          "volume": 42571534
+        }
+      },
+      "wikipedia": {
+        "gta_en": {
+          "date": "2026-11-07",
+          "views": 28079,
+          "recent7": 185552,
+          "prev7": 128352
+        },
+        "gta_de": {
+          "date": "2026-11-07",
+          "views": 2541,
+          "recent7": 15555,
+          "prev7": 10202
+        },
+        "sick_stand": {
+          "date": "2026-11-07",
+          "views": 2,
+          "recent7": 16,
+          "prev7": 23
+        },
+        "sick_ability": {
+          "date": "2026-11-07",
+          "views": 8,
+          "recent7": 87,
+          "prev7": 103
+        }
+      },
+      "news": {
+        "gta_en": {
+          "count24h": 33,
+          "count7d": 100
+        },
+        "gta_de": {
+          "count24h": 29,
+          "count7d": 100
+        },
+        "sick_de": {
+          "count24h": 2,
+          "count7d": 23
+        },
+        "rockstar": {
+          "count24h": 15,
+          "count7d": 43
+        }
+      },
+      "reddit": {
+        "subscribers": 1212091,
+        "posts24h": 100,
+        "postsPerHour": 39.9,
+        "topScore": 3
+      },
+      "steam": {
+        "gta5": 55152
+      },
+      "trends": {
+        "de": 0,
+        "us": 0
+      },
+      "rockstar": {
+        "ok": true,
+        "status": 200,
+        "latencyMs": 158
+      },
+      "playstation": {
+        "ok": true,
+        "preloadMention": true
+      },
+      "decix": {
+        "allTimePeak": 21473193953966,
+        "current": 18070696010039,
+        "graphAverage": 15309909905884,
+        "graphPeak": 21338943778953,
+        "allTimePeakDate": "2026-10-14"
+      },
+      "hype": {
+        "score": 87,
+        "coverage": 3,
+        "topics": {
+          "retail": {
+            "count24h": 15,
+            "count7d": 20
+          },
+          "hardware": {
+            "count24h": 45,
+            "count7d": 100
+          },
+          "creators": {
+            "count24h": 9,
+            "count7d": 27
+          },
+          "release": {
+            "count24h": 39,
+            "count7d": 100
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-11-09T14:29:05.701Z",
+      "stocks": {
+        "7974": {
+          "price": 8606,
+          "changePct": 5.23,
+          "volume": 10941200
+        },
+        "TTWO": {
+          "price": 214.87,
+          "changePct": 0.71,
+          "volume": 3252012
+        },
+        "RBLX": {
+          "price": 49.3,
+          "changePct": 3.46,
+          "volume": 8011650
+        },
+        "CDR": {
+          "price": 270.1,
+          "changePct": 1.2,
+          "volume": 143339
+        },
+        "UBI": {
+          "price": 4.422,
+          "changePct": -0.32,
+          "volume": 238263
+        },
+        "SONY": {
+          "price": 27,
+          "changePct": -1.96,
+          "volume": 5675446
+        },
+        "MSFT": {
+          "price": 530.61,
+          "changePct": -0.99,
+          "volume": 26956423
+        },
+        "NVDA": {
+          "price": 186.64,
+          "changePct": 2.78,
+          "volume": 180212285
+        },
+        "UBER": {
+          "price": 68.59,
+          "changePct": -0.28,
+          "volume": 18212794
+        },
+        "DASH": {
+          "price": 179.67,
+          "changePct": -0.14,
+          "volume": 4548343
+        },
+        "DHER": {
+          "price": 37.08,
+          "changePct": 0.22,
+          "volume": 57685
+        },
+        "GME": {
+          "price": 25.12,
+          "changePct": 3.93,
+          "volume": 5519012
+        },
+        "AMZN": {
+          "price": 259.3,
+          "changePct": -0.35,
+          "volume": 42571534
+        }
+      },
+      "wikipedia": {
+        "gta_en": {
+          "date": "2026-11-07",
+          "views": 28079,
+          "recent7": 185552,
+          "prev7": 128352
+        },
+        "gta_de": {
+          "date": "2026-11-07",
+          "views": 2541,
+          "recent7": 15555,
+          "prev7": 10202
+        },
+        "sick_stand": {
+          "date": "2026-11-07",
+          "views": 2,
+          "recent7": 16,
+          "prev7": 23
+        },
+        "sick_ability": {
+          "date": "2026-11-07",
+          "views": 8,
+          "recent7": 87,
+          "prev7": 103
+        }
+      },
+      "news": {
+        "gta_en": {
+          "count24h": 36,
+          "count7d": 100
+        },
+        "gta_de": {
+          "count24h": 36,
+          "count7d": 100
+        },
+        "sick_de": {
+          "count24h": 2,
+          "count7d": 24
+        },
+        "rockstar": {
+          "count24h": 16,
+          "count7d": 44
+        }
+      },
+      "reddit": {
+        "subscribers": 1212091,
+        "posts24h": 100,
+        "postsPerHour": 38.8,
+        "topScore": 90
+      },
+      "steam": {
+        "gta5": 58725
+      },
+      "trends": {
+        "de": 0,
+        "us": 0
+      },
+      "rockstar": {
+        "ok": true,
+        "status": 200,
+        "latencyMs": 127
+      },
+      "playstation": {
+        "ok": true,
+        "preloadMention": true
+      },
+      "decix": {
+        "allTimePeak": 21473193953966,
+        "current": 18577299740073,
+        "graphAverage": 15315779229930,
+        "graphPeak": 21338943778953,
+        "allTimePeakDate": "2026-10-14",
+        "monthPeak": 21338943778953,
+        "monthPeakAt": 1794162000000
+      },
+      "hype": {
+        "score": 87,
+        "coverage": 3,
+        "topics": {
+          "retail": {
+            "count24h": 15,
+            "count7d": 20
+          },
+          "hardware": {
+            "count24h": 52,
+            "count7d": 100
+          },
+          "creators": {
+            "count24h": 9,
+            "count7d": 27
+          },
+          "release": {
+            "count24h": 39,
+            "count7d": 100
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-11-09T22:38:24.159Z",
       "stocks": {
         "7974": {
           "price": 8606,

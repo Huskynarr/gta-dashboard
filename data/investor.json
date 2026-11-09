@@ -42,20 +42,21 @@
       "dateLabel": "October 13, 2026",
       "title": "Take-Two Interactive Software, Inc. to Report Second Quarter Fiscal Year 2027 Results on Monday, November 9, 2026",
       "url": "https://ir.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8",
-      "firstSeen": "2026-11-09T22:35:56.217Z"
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "date": "2026-10-08",
       "dateLabel": "October 8, 2026",
       "title": "Words With Friends Expands Its Dictionary with 25,000 New Words to Herald the Next Era of Word Games",
       "url": "https://ir.take2games.com/ir/news/words-friends-expands-its-dictionary-25000-new-words-herald-next",
-      "firstSeen": "2026-11-09T22:35:56.217Z"
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "date": "2026-09-10",
       "dateLabel": "September 10, 2026",
       "title": "Take-Two Interactive to Host Webcast of 2026 Annual Meeting of Stockholders",
-      "url": "https://ir.take2games.com/ir/news/take-two-interactive-host-webcast-2026-annual-meeting"
+      "url": "https://ir.take2games.com/ir/news/take-two-interactive-host-webcast-2026-annual-meeting",
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     }
   ],
   "filings": [
@@ -84,7 +85,7 @@
       "description": "8-K",
       "accession": "0001628280-26-064001",
       "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026064001/ttwo-20260928.htm",
-      "firstSeen": "2026-11-09T22:35:56.217Z"
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "form": "8-K",
@@ -93,7 +94,7 @@
       "description": "8-K",
       "accession": "0001628280-26-063032",
       "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026063032/ttwo-20260917.htm",
-      "firstSeen": "2026-11-09T22:35:56.217Z"
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "form": "10-Q",
@@ -102,7 +103,7 @@
       "description": "10-Q",
       "accession": "0001628280-26-054870",
       "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026054870/ttwo-20260630.htm",
-      "firstSeen": "2026-11-09T22:35:56.217Z"
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "form": "8-K",
@@ -111,7 +112,7 @@
       "description": "8-K",
       "accession": "0001628280-26-054580",
       "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026054580/ttwo-20260807.htm",
-      "firstSeen": "2026-11-09T22:35:56.217Z"
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "form": "DEF 14A",
@@ -120,7 +121,7 @@
       "description": "DEF 14A",
       "accession": "0001628280-26-049813",
       "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026049813/ttwo-20260727.htm",
-      "firstSeen": "2026-11-09T22:35:56.217Z"
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "form": "10-K",
@@ -129,7 +130,7 @@
       "description": "10-K",
       "accession": "0001628280-26-037434",
       "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037434/ttwo-20260331.htm",
-      "firstSeen": "2026-11-09T22:35:56.217Z"
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "form": "8-K",
@@ -137,7 +138,8 @@
       "reportDate": "2026-05-21",
       "description": "8-K",
       "accession": "0001628280-26-037260",
-      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037260/ttwo-20260521.htm"
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026037260/ttwo-20260521.htm",
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     },
     {
       "form": "10-Q",
@@ -145,7 +147,8 @@
       "reportDate": "2025-12-31",
       "description": "10-Q",
       "accession": "0001628280-26-005119",
-      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026005119/ttwo-20251231.htm"
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026005119/ttwo-20251231.htm",
+      "firstSeen": "2026-11-08T21:39:48.443Z"
     }
   ],
   "sources": {
