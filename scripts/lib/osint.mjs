@@ -234,12 +234,22 @@ async function collectReddit(existing) {
     const subreddit = info?.data?.[0];
     if (!subreddit) throw new Error('subreddit not found');
 
-    const postsJson = await fetchJson(
-      'https://arctic-shift.photon-reddit.com/api/posts/search' +
-        '?subreddit=GTA6&limit=100&sort=desc' +
-        '&fields=created_utc,score,title,num_comments,id',
-      { headers: { Accept: 'application/json' } },
-    );
+    let postsJson;
+    try {
+      postsJson = await fetchJson(
+        'https://arctic-shift.photon-reddit.com/api/posts/search' +
+          '?subreddit=GTA6&limit=100&sort=desc' +
+          '&fields=created_utc,score,title,num_comments,id',
+        { headers: { Accept: 'application/json' } },
+      );
+    } catch (error) {
+      // Fallback: some Arctic-Shift deployments reject the `fields` parameter.
+      postsJson = await fetchJson(
+        'https://arctic-shift.photon-reddit.com/api/posts/search' +
+          '?subreddit=GTA6&limit=100&sort=desc',
+        { headers: { Accept: 'application/json' } },
+      );
+    }
 
     const posts = (postsJson?.data || []).map((post) => ({
       id: post.id,

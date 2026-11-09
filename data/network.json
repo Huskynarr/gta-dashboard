@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-09T14:14:44.028Z",
+  "updated": "2026-11-09T14:20:40.645Z",
   "decix": {
-    "fetchedAt": "2026-11-09T14:14:44.375Z",
+    "fetchedAt": "2026-11-09T14:20:40.772Z",
     "meta": {
       "allTimePeak": 21473193953966,
       "current": 18229990127133,
@@ -2309,11 +2309,11 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 132,
+    "latencyMs": 102,
     "bytes": 1223386,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-09T14:14:39.593Z"
+    "checkedAt": "2026-11-09T14:20:36.291Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",

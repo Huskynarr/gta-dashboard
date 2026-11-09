@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T14:14:44.031Z",
+  "updated": "2026-11-09T14:20:40.648Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:14:44.031Z"
+      "updated": "2026-11-09T14:20:40.648Z"
     },
     {
       "key": "hardware",
@@ -75,7 +75,7 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 49,
+      "count24h": 50,
       "publisherCount": 34,
       "capped": true,
       "series": [
@@ -89,7 +89,7 @@
         },
         {
           "date": "2026-11-05",
-          "count": 6
+          "count": 5
         },
         {
           "date": "2026-11-06",
@@ -101,7 +101,7 @@
         },
         {
           "date": "2026-11-08",
-          "count": 13
+          "count": 14
         },
         {
           "date": "2026-11-09",
@@ -135,7 +135,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:14:44.031Z"
+      "updated": "2026-11-09T14:20:40.648Z"
     },
     {
       "key": "creators",
@@ -203,7 +203,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:14:44.031Z"
+      "updated": "2026-11-09T14:20:40.648Z"
     },
     {
       "key": "release",
@@ -258,20 +258,20 @@
           "pubDate": "Mon, 09 Nov 2026 13:52:09 GMT"
         },
         {
-          "title": "GTA 6 vorbestellen: MediaMarkt und Saturn enthüllen neuen exklusiven Vorbestellerbonus - Netzwelt",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSHJFUlRhT0RaMnVPUFI4UDkzSHdoVkVNSkFXMjBQMHB3WWNGTi1Hb2ZrbFRkRi1JUWhGZUdEUXFaQVh6TzFnVjVNaElSNE9kZzdtbFctczVzanZtZ3JSajU5bmNTV2JlaUV3Q0pma0RXeHpuWVFaTEVDaEhlcTJQSDNrN29VZTFtQ2lxQlBqWWJHejZHMzZEWml5Qk84Sm9mSzhVOVN0aFYzVV9OZ3otZzhwVXprSUJRSmpyYw?oc=5",
-          "source": "Netzwelt",
-          "pubDate": "Mon, 09 Nov 2026 13:24:27 GMT"
-        },
-        {
           "title": "GTA 6 vorab laden: So klappt der Download schneller - PCGH",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNkp4SlBPTUJHR0s3ckM4bjUxZGZEX1lEaEdJRjlEdV9LZXFVNmwzSWp5d2lBckt4Q2Z6Q3RuTWprRndiLVQ3NEk1MlpDN0Q1QlBTSDhiY0k5bmVIQUg5VUZvQldUdWtQQWhNcHN5cGpqbThBUDFtYUczanpkbFVtdTIxTVZDeEZFWkN4WVhpa3htd2NUYk5xc2VxUTJyenBrUjA5elhjaWo3VnIydmFB?oc=5",
           "source": "PCGH",
           "pubDate": "Mon, 09 Nov 2026 13:22:00 GMT"
+        },
+        {
+          "title": "GTA 6 - Preload startet heute Nacht: Brechen PSN und Xbox unter 212 GB zusammen? - Netzwelt",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWGtXeVdKYmpfelhvOFQ5TU1KV2djSkU3UzMwdUd6UmZwUUxmQ3pYTUJSelpCeHVyaHJsRUU5a183SlFwQ1MweUFhcVNQN0E4Y0xQa042NWpQY3p2S1g4VUtGd1hZeGRRM21VVlpYTlJ3NEZRcEtVNVRqbGN6M1NyblNpdU5TaElvUTR6V2RNaDVlb1pnUmdsZE8zeEVpenNqR1NjM2ZoT044UQ?oc=5",
+          "source": "Netzwelt",
+          "pubDate": "Mon, 09 Nov 2026 13:15:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T14:14:44.031Z"
+      "updated": "2026-11-09T14:20:40.648Z"
     }
   ],
   "history": [
@@ -290,11 +290,11 @@
       "signature": "wiki+news+reddit"
     },
     {
-      "at": "2026-11-09T14:14:41.720Z",
+      "at": "2026-11-09T14:20:39.321Z",
       "version": "hype-v1",
-      "score": 83,
-      "coverage": 2,
-      "signature": "wiki+news"
+      "score": 87,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
     }
   ],
   "sources": {
