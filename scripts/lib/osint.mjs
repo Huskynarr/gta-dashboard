@@ -257,9 +257,21 @@ async function collectReddit(existing) {
     const oldest = posts.at(-1)?.createdUtc ?? now;
     const newest = posts[0]?.createdUtc ?? now;
     const sampleHours = Math.max((newest - oldest) / 3600, 1);
+    const peakPost = posts.reduce(
+      (best, post) => (post.score > best.score ? post : best),
+      existing?.peakPost || { score: 0 },
+    );
 
     return {
       subreddit: 'GTA6',
+      peakPost: peakPost.score
+        ? {
+            score: peakPost.score,
+            title: peakPost.title,
+            link: peakPost.link,
+            createdUtc: peakPost.createdUtc,
+          }
+        : existing?.peakPost || null,
       subscribers: subreddit.subscribers ?? null,
       posts24h: posts24h.length,
       posts7d: null,

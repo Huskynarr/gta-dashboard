@@ -501,14 +501,17 @@ export function createBarChart(container, data, opts = {}) {
   if (!container) return;
   container.innerHTML = '';
 
-  const width = 1000;
+  const width = Math.max(320, Math.min(1000, Math.round(container.clientWidth || 1000)));
   const height = opts.height || 260;
-  const pad = { top: 22, right: 20, bottom: 32, left: 44 };
+  const narrow = width < 600;
+  const pad = { top: 22, right: narrow ? 12 : 20, bottom: 32, left: narrow ? 40 : 44 };
   const innerW = width - pad.left - pad.right;
   const innerH = height - pad.top - pad.bottom;
   const values = data.map((point) => Number(point.count ?? point.y ?? 0));
-  const max = Math.max(...values, 1);
-  const barGap = 8;
+  const min = opts.min ?? 0;
+  const max = opts.max ?? Math.max(...values, 1);
+  const span = Math.max(max - min, 1);
+  const barGap = narrow ? 4 : 8;
   const barWidth = Math.max((innerW - barGap * (data.length - 1)) / Math.max(data.length, 1), 2);
 
   const svg = el('svg', {
@@ -528,7 +531,7 @@ export function createBarChart(container, data, opts = {}) {
         stroke: 'rgba(255,255,255,0.07)',
       }),
     );
-    const value = max - (max / 3) * i;
+    const value = max - (span / 3) * i;
     const label = el('text', {
       x: pad.left - 8,
       y: y + 4,
@@ -543,7 +546,7 @@ export function createBarChart(container, data, opts = {}) {
 
   data.forEach((point, index) => {
     const value = Number(point.count ?? point.y ?? 0);
-    const barHeight = (value / max) * innerH;
+    const barHeight = ((value - min) / span) * innerH;
     const x = pad.left + index * (barWidth + barGap);
     const y = pad.top + innerH - barHeight;
 

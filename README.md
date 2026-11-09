@@ -17,9 +17,10 @@ Kein Finanzrat. Keine Verbindung zu Rockstar Games oder Take-Two. Nur ein Fan-Pr
 - **Themenradar** — vier automatische Google-News-Abfragen für Handel/Marken, Hardware, Creator/Social und Release/Download. Mit 24h-/7T-Volumen, Quellen, Schlagzeilen und Sample-Grenzen.
 - **Stores & Merch** — filterbare Links zu Rockstar, PlayStation, Xbox, MediaMarkt, Saturn, Rockstar-Merch, Netto und Edeka. Store-Links sind auch direkt an den Prospekt-Funden verfügbar.
 - **Retail Watch** — Community-Funde aus Supermarktprospekten im OSINT-Bereich, zunächst Netto und Edeka aus dem Thread von [@lucaslu_ckli](https://x.com/lucaslu_ckli/status/2119489167553929288). Mit Datum, Originalbeitrag, Bildlinks und Proxy-Kennzeichnung.
-- **Network Watch** — DE-CIX-Frankfurt-Traffic (2 Tage, 5-Minuten-Punkte), Rockstar-Endpoint-Probe und Preload-Countdown.
+- **Network Watch** — DE-CIX-Frankfurt-Traffic (2T/7T/30T, 5-Minuten-Punkte), November-Historie mit Tages-Peaks, Rockstar-Endpoint-Probe und PS5-/Xbox-Preload-Countdown.
 - **Peaks & Records** — DE-CIX-All-Time-Peak, 2T-Peak, TTWO-52W-Hoch, Basket-Hoch, Wikipedia-Peak und Reddit-Top-Post — mit Real/Proxy-Label.
 - **Investor Watch** — Take-Two-IR-Termine, Q2-FY2027-Earnings-Call am 9. November 2026, Yahoo-Konsens (EPS/Umsatz), SEC-Filings und IR-Pressemitteilungen.
+- **Vice City Prospect** — offizielles GTA-VI-Key-Art in drei Ausschnitten, mit Bildcredit.
 - **Timeline & Methodik** — Meilensteine, Quellenstatus, Datenqualität und bewusste Grenzen.
 
 ## Architektur
@@ -56,7 +57,7 @@ Es gibt keinen Build-Schritt. GitHub Pages liefert das Repository als statische 
 - **stündlich vom 10. bis 22. November 2026** — Preload-/Release-Fenster,
 - manuell über `workflow_dispatch`.
 
-Jeder Lauf schreibt `data/stocks.json`, `data/osint.json`, `data/network.json`, `data/investor.json`, `data/hype.json` und `data/meta.json`, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den klassischen Pages-Branch-Build.
+Jeder Lauf schreibt `data/stocks.json`, `data/osint.json`, `data/network.json`, `data/decix-history.json`, `data/investor.json`, `data/hype.json` und `data/meta.json`, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den klassischen Pages-Branch-Build.
 
 Runner-Verzeichnis: `/home/huskynarr/gta-dashboard-runner`.  
 Runner-Log: `/home/huskynarr/gta-dashboard-runner/runner.log`.  
@@ -87,11 +88,12 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 | Steam Web API | GTA V Concurrent Players | GTA VI ist (Stand jetzt) nicht auf Steam |
 | Google Trends RSS | DE/US Trending Searches | nur tägliche Trending-Liste, keine Zeitreihe |
 | X / @lucaslu_ckli | Community-Funde zu Netto und Edeka, Beiträge vom 8. November 2026 | Händlerzuordnung und Prospekte nicht unabhängig bestätigt; keine Umsatzdaten |
-| DE-CIX Traffic API | Frankfurt Traffic, 2 Tage / 5-Minuten-Punkte | öffentliche Statistik, keine Garantie auf Verfügbarkeit |
+| DE-CIX Traffic API | Frankfurt Traffic, 2 Tage live + November-Archiv (5-Minuten-Punkte) | öffentliche Statistik, keine Garantie auf Verfügbarkeit |
 | Rockstar / PlayStation | Endpoint-Status, Preload-Bestätigung | Latenz ist kein Traffic |
 | Take-Two IR | Earnings-Termin, Webcast, Annual Meeting, Pressemitteilungen | offizielle Termine, keine Garantie auf Umsetzung |
 | SEC EDGAR | 10-Q, 10-K, 8-K, DEF 14A | echte Filings, Veröffentlichung mit Verzug |
 | Yahoo Finance quoteSummary | Konsens-EPS und -Umsatz für Q2 FY2027 | Analystenschätzung, keine Garantie |
+| Rockstar Games / PlayStation Blog | GTA-VI-Key-Art für die Galerie | Bildmaterial © Rockstar Games |
 
 ## Retail Watch pflegen
 
@@ -115,7 +117,9 @@ Bei Fehlern bleibt der letzte erfolgreiche Themenstand mit seinem ursprüngliche
 
 ## Optimierungen
 
-- **Kleinere Daten:** Die ungenutzte 1-Monats-DE-CIX-Reihe wurde entfernt — `network.json` sinkt von ca. 737 KB auf ca. 47 KB.
+- **Kleinere Live-Daten:** `network.json` sinkt von ca. 737 KB auf ca. 47 KB; die November-Historie liegt separat in `decix-history.json` (ca. 128 KB).
+- **Monats-Peaks:** DE-CIX-Historie wird täglich gemerged, mit Tages-Peaks und November-Peak; 2T/7T/30T-Umschaltung im Chart.
+- **Preload-Klarheit:** PS5- und Xbox-Preload sind getrennte Timeline-Schritte und Plattform-Badges.
 - **Retries:** Alle HTTP-Quellen haben 3 Versuche mit Backoff; 4xx außer 429 werden nicht sinnlos wiederholt.
 - **Mobile Performance:** Auf kleinen Screens werden Grain, Sun-Animation und teure Backdrop-Filter reduziert; Charts bekommen eine lesbare Höhe.
 - **Weniger Doppelarbeit:** Aktien-Historien werden pro Objekt gecacht, Basket-Karten und Chart teilen sich die 30-Tage-Berechnung.

@@ -1,39 +1,17 @@
 {
-  "updated": "2026-11-09T13:36:15.128Z",
+  "updated": "2026-11-09T14:14:05.112Z",
   "decix": {
-    "fetchedAt": "2026-11-09T13:36:15.282Z",
+    "fetchedAt": "2026-11-09T14:14:05.273Z",
     "meta": {
       "allTimePeak": 21473193953966,
-      "current": 18070696010039,
-      "graphAverage": 15309909905884,
+      "current": 18105349556098,
+      "graphAverage": 15313809144416,
       "graphPeak": 21338943778953,
-      "allTimePeakDate": "2026-10-14"
+      "allTimePeakDate": "2026-10-14",
+      "monthPeak": 21338943778953,
+      "monthPeakAt": 1794162000000
     },
     "traffic2d": [
-      {
-        "clock": 1794058500000,
-        "value": 17860479092538
-      },
-      {
-        "clock": 1794058800000,
-        "value": 17835569980140
-      },
-      {
-        "clock": 1794059100000,
-        "value": 17774316543979
-      },
-      {
-        "clock": 1794059400000,
-        "value": 17810349358342
-      },
-      {
-        "clock": 1794059700000,
-        "value": 17787774934532
-      },
-      {
-        "clock": 1794060000000,
-        "value": 17621346577912
-      },
       {
         "clock": 1794060300000,
         "value": 17897024600896
@@ -2301,17 +2279,41 @@
       {
         "clock": 1794230100000,
         "value": 18070696010039
+      },
+      {
+        "clock": 1794230400000,
+        "value": 18015161685196
+      },
+      {
+        "clock": 1794230700000,
+        "value": 18202949737885
+      },
+      {
+        "clock": 1794231000000,
+        "value": 18211967275188
+      },
+      {
+        "clock": 1794231300000,
+        "value": 18297161976076
+      },
+      {
+        "clock": 1794231600000,
+        "value": 18091509935575
+      },
+      {
+        "clock": 1794231900000,
+        "value": 18105349556098
       }
     ]
   },
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 158,
-    "bytes": 1241407,
+    "latencyMs": 139,
+    "bytes": 1223386,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-09T13:36:10.268Z"
+    "checkedAt": "2026-11-09T14:14:00.758Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -2327,6 +2329,7 @@
   },
   "sources": {
     "decix": "ok",
+    "decixHistory": "ok",
     "rockstar": "ok",
     "preload": "ok"
   }

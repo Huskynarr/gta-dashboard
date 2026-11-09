@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-09T13:36:15.587Z",
-  "startedAt": "2026-11-09T13:36:10.175Z",
-  "durationMs": 5412,
+  "lastRun": "2026-11-09T14:14:05.391Z",
+  "startedAt": "2026-11-09T14:14:00.653Z",
+  "durationMs": 4738,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -17,6 +17,7 @@
     "stocks": "ok",
     "osint": "ok",
     "network": "ok",
+    "decixHistory": "ok",
     "reddit": "ok",
     "steam": "ok",
     "trends": "ok",
@@ -33,9 +34,11 @@
     "wikiSeries": 4,
     "newsQueries": 4,
     "decixPoints": 573,
+    "decixHistoryPoints": 2359,
+    "decixDailyPeaks": 9,
     "filings": 8,
     "pressReleases": 3,
-    "hypeSnapshots": 2
+    "hypeSnapshots": 3
   },
   "errors": []
 }

@@ -14,16 +14,19 @@
   <meta property="og:description" content="Aktien, Peaks, Krankenstand, OSINT, Take-Two-Zahlen und Netzwerk-Traffic zum größten Game-Release aller Zeiten.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://huskynarr.is-a.dev/gta-dashboard/">
+  <meta property="og:image" content="https://huskynarr.is-a.dev/gta-dashboard/assets/img/gta-vi-keyart-wide.jpg">
+  <meta property="og:image:alt" content="GTA VI Key-Art von Rockstar Games">
   <meta property="og:site_name" content="GTA VI Release Intelligence">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="GTA VI Release Intelligence">
   <meta name="twitter:description" content="Aktien, Peaks, Krankenstand, OSINT, Take-Two-Zahlen und DE-CIX-Traffic zum GTA-VI-Release.">
+  <meta name="twitter:image" content="https://huskynarr.is-a.dev/gta-dashboard/assets/img/gta-vi-keyart-wide.jpg">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css?v=20261109-hype">
+  <link rel="stylesheet" href="./assets/css/style.css?v=20261109-decix">
 </head>
 <body>
   <a class="skip-link" href="#main">Zum Inhalt springen</a>
@@ -95,6 +98,28 @@
         </div>
       </div>
       <a class="hero__scroll" href="#market"><span>SCROLL</span><span class="hero__scroll-line"></span></a>
+    </section>
+
+    <section class="section section--gallery" id="gallery">
+      <div class="section__head reveal">
+        <div><p class="kicker">VICE CITY PROSPECT</p><h2>Drei Blicke nach Leonida.</h2></div>
+        <p class="section__lede">Offizielles Key-Art, in drei Ausschnitten: Lucia und Jason, das Logo und die Welt von Vice City. Bildmaterial: Rockstar Games / PlayStation Blog.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-card gallery-card--left reveal">
+          <img src="./assets/img/gta-vi-keyart.jpg" width="1088" height="612" alt="GTA VI Key-Art: Lucia und Jason vor Vice-City-Kulisse" loading="lazy" decoding="async">
+          <figcaption><span>01 / Lucia &amp; Jason</span><strong>Die Geschichte</strong></figcaption>
+        </figure>
+        <figure class="gallery-card gallery-card--center reveal">
+          <img src="./assets/img/gta-vi-keyart.jpg" width="1088" height="612" alt="GTA VI Key-Art: Vice City und das Grand-Theft-Auto-Logo" loading="lazy" decoding="async">
+          <figcaption><span>02 / Vice City</span><strong>Der Schauplatz</strong></figcaption>
+        </figure>
+        <figure class="gallery-card gallery-card--right reveal">
+          <img src="./assets/img/gta-vi-keyart.jpg" width="1088" height="612" alt="GTA VI Key-Art: Leonida und die Welt" loading="lazy" decoding="async">
+          <figcaption><span>03 / Leonida</span><strong>Die Welt</strong></figcaption>
+        </figure>
+      </div>
+      <p class="gallery-credit">Bildmaterial: © Rockstar Games / <a href="https://blog.playstation.com/2026/11/03/grand-theft-auto-vi-pre-download-begins-november-10/" target="_blank" rel="noopener">PlayStation Blog</a> · Fan-Projekt, keine offizielle Verbindung.</p>
     </section>
 
     <section class="section" id="market">
@@ -218,7 +243,7 @@
       </div>
       <div class="network-grid">
         <div class="panel panel--chart reveal">
-          <div class="panel__head"><div><span class="panel__kicker">DE-CIX Frankfurt · Real</span><h3>Bits pro Sekunde</h3></div><span class="live-pill"><span class="live-dot"></span> LIVE</span></div>
+          <div class="panel__head"><div><span class="panel__kicker">DE-CIX Frankfurt · Real</span><h3>Bits pro Sekunde</h3></div><div class="network-controls"><div class="range-tabs" data-range-tabs="decix"><button data-range="2" class="is-active">2T</button><button data-range="7">7T</button><button data-range="30">30T</button></div><span class="live-pill"><span class="live-dot"></span> LIVE</span></div></div>
           <div class="chart chart--decix" id="decixChart"></div>
           <div class="decix-meta" id="decixMeta"></div>
         </div>
@@ -227,6 +252,10 @@
           <div class="preload-status" id="preloadStatus"></div>
           <div class="preload-timeline" id="preloadTimeline"></div>
         </div>
+      </div>
+      <div class="panel panel--chart reveal">
+        <div class="panel__head"><div><span class="panel__kicker">DE-CIX · November</span><h3>Tages-Peaks</h3></div><span class="badge" id="decixHistoryBadge">--</span></div>
+        <div class="chart chart--daily" id="decixDailyChart"></div>
       </div>
       <div class="stat-grid" id="networkStats"></div>
     </section>
@@ -294,10 +323,10 @@
 
   <footer class="site-footer">
     <div class="footer__brand"><span class="brand__mark">VI</span><span>RELEASE <strong>INTEL</strong></span></div>
-    <div class="footer__links"><a href="#market">Markt</a><a href="#krankenstand">Krankenstand</a><a href="#osint">OSINT</a><a href="#network">Netzwerk</a><a href="#peaks">Peaks</a><a href="#investor">Investor</a><a href="#timeline">Timeline</a><a href="https://huskynarr.de/warum-der-krankenstand-im-herbst-2025-wegen-gaming-eskaliert" target="_blank" rel="noopener">Der Blogpost ↗</a></div>
+    <div class="footer__links"><a href="#gallery">Galerie</a><a href="#market">Markt</a><a href="#krankenstand">Krankenstand</a><a href="#osint">OSINT</a><a href="#network">Netzwerk</a><a href="#peaks">Peaks</a><a href="#investor">Investor</a><a href="#timeline">Timeline</a><a href="https://huskynarr.de/warum-der-krankenstand-im-herbst-2025-wegen-gaming-eskaliert" target="_blank" rel="noopener">Der Blogpost ↗</a></div>
     <p class="footer__legal">© 2026 Huskynarr · Daten: Yahoo Finance, Wikipedia, Google News, Reddit/Arctic Shift, Steam, Google Trends, DE-CIX · <span id="lastUpdate">letztes Update: --</span></p>
   </footer>
 
-  <script type="module" src="./assets/js/app.js?v=20261109-hype"></script>
+  <script type="module" src="./assets/js/app.js?v=20261109-decix"></script>
 </body>
 </html>

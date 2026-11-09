@@ -36,7 +36,10 @@ export async function fetchText(url, options = {}, timeoutMs = 25000, attempts =
     } catch (error) {
       lastError = error;
       const retryable =
-        !error.status || error.status === 429 || error.status >= 500;
+        !error.status ||
+        error.status === 406 ||
+        error.status === 429 ||
+        error.status >= 500;
 
       if (!retryable || attempt === attempts) throw error;
       await sleep(450 * attempt);

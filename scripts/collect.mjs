@@ -39,14 +39,21 @@ function runSlot(date = new Date()) {
 async function main() {
   const startedAt = new Date();
 
-  const [existingStocks, existingOsint, existingNetwork, existingInvestor, existingHype] =
-    await Promise.all([
-      readJson(path.join(DATA_DIR, 'stocks.json')),
-      readJson(path.join(DATA_DIR, 'osint.json')),
-      readJson(path.join(DATA_DIR, 'network.json')),
-      readJson(path.join(DATA_DIR, 'investor.json')),
-      readJson(path.join(DATA_DIR, 'hype.json')),
-    ]);
+  const [
+    existingStocks,
+    existingOsint,
+    existingNetwork,
+    existingInvestor,
+    existingHype,
+    existingDecixHistory,
+  ] = await Promise.all([
+    readJson(path.join(DATA_DIR, 'stocks.json')),
+    readJson(path.join(DATA_DIR, 'osint.json')),
+    readJson(path.join(DATA_DIR, 'network.json')),
+    readJson(path.join(DATA_DIR, 'investor.json')),
+    readJson(path.join(DATA_DIR, 'hype.json')),
+    readJson(path.join(DATA_DIR, 'decix-history.json')),
+  ]);
 
   const stocksPromise = collectStocks(existingStocks).catch((error) => ({
     ...(existingStocks || {}),
@@ -73,7 +80,7 @@ async function main() {
   ]);
 
   const [network, hype] = await Promise.all([
-    collectNetwork(existingNetwork, osint).catch((error) => ({
+    collectNetwork(existingNetwork, osint, existingDecixHistory).catch((error) => ({
       ...(existingNetwork || {}),
       updated: new Date().toISOString(),
       error: error.message,
@@ -97,6 +104,7 @@ async function main() {
       stocks: stocks?.errors?.length ? 'degraded' : 'ok',
       osint: osint?.errors?.length ? 'degraded' : 'ok',
       network: network?.sources?.decix || 'degraded',
+      decixHistory: network?.sources?.decixHistory || 'degraded',
       reddit: osint?.sources?.reddit || 'degraded',
       steam: osint?.sources?.steam || 'degraded',
       trends: osint?.sources?.trends || 'degraded',
@@ -116,6 +124,8 @@ async function main() {
       wikiSeries: Object.keys(osint?.wikipedia || {}).length,
       newsQueries: Object.keys(osint?.news || {}).length,
       decixPoints: network?.decix?.traffic2d?.length || 0,
+      decixHistoryPoints: network?.decixHistory?.points?.length || 0,
+      decixDailyPeaks: network?.decixHistory?.dailyPeaks?.length || 0,
       filings: investor?.filings?.length || 0,
       pressReleases: investor?.pressReleases?.length || 0,
       hypeSnapshots: hype?.history?.length || 0,
@@ -129,10 +139,13 @@ async function main() {
     ],
   };
 
+  const { decixHistory, ...networkOutput } = network;
+
   await Promise.all([
     writeJson(path.join(DATA_DIR, 'stocks.json'), stocks),
     writeJson(path.join(DATA_DIR, 'osint.json'), osint),
-    writeJson(path.join(DATA_DIR, 'network.json'), network),
+    writeJson(path.join(DATA_DIR, 'network.json'), networkOutput),
+    writeJson(path.join(DATA_DIR, 'decix-history.json'), decixHistory || existingDecixHistory || null),
     writeJson(path.join(DATA_DIR, 'investor.json'), investor),
     writeJson(path.join(DATA_DIR, 'meta.json'), meta),
     writeJson(path.join(DATA_DIR, 'hype.json'), hype),
@@ -141,7 +154,7 @@ async function main() {
   console.log(
     `[collect] ${meta.runSlot} run finished in ${meta.durationMs}ms — ` +
       `${meta.counts.stocks} stocks, ${meta.counts.stockHistory} history points, ` +
-      `${meta.counts.decixPoints} DE-CIX points, ${meta.counts.filings} filings`,
+      `${meta.counts.decixPoints} DE-CIX live points, ${meta.counts.decixHistoryPoints} history points, ${meta.counts.filings} filings`,
   );
 
   if (meta.errors.length) {

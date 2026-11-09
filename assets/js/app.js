@@ -1,4 +1,4 @@
-import { createGauge, createLineChart, sparkline } from './charts.js?v=20261108';
+import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js?v=20261109-decix';
 import { analyzeHype } from './hype.js?v=20261109-hype';
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -97,6 +97,7 @@ const SOURCE_LABELS = {
   trends: 'Google Trends · DE/US',
   rockstar: 'Rockstar · Endpoint-Probe',
   decix: 'DE-CIX · Traffic-API',
+  decixHistory: 'DE-CIX · November-Archiv',
   playstation: 'PlayStation · Preload-Seite',
   investor: 'Investor · Take-Two IR',
   sec: 'SEC EDGAR · Filings',
@@ -108,6 +109,7 @@ const state = {
   stocks: null,
   osint: null,
   network: null,
+  decixHistory: null,
   investor: null,
   meta: null,
   retail: null,
@@ -116,6 +118,7 @@ const state = {
   storeCategory: 'all',
   marketRange: 90,
   wikiRange: 90,
+  decixRange: 2,
   group: 'all',
 };
 
@@ -347,7 +350,7 @@ function computeSickSignal() {
 }
 
 async function loadData() {
-  const files = ['stocks', 'osint', 'network', 'investor', 'meta', 'retail', 'hype', 'stores'];
+  const files = ['stocks', 'osint', 'network', 'decix-history', 'investor', 'meta', 'retail', 'hype', 'stores'];
   const results = await Promise.all(
     files.map(async (name) => {
       try {
@@ -361,7 +364,7 @@ async function loadData() {
     }),
   );
 
-  [state.stocks, state.osint, state.network, state.investor, state.meta, state.retail, state.hype, state.stores] = results;
+  [state.stocks, state.osint, state.network, state.decixHistory, state.investor, state.meta, state.retail, state.hype, state.stores] = results;
   if (!state.stocks || !state.osint) {
     const banner = document.createElement('div');
     banner.className = 'data-banner';
@@ -908,41 +911,102 @@ function renderNetwork() {
   const network = state.network;
   if (!network) return;
   const decix = network.decix;
+  const history = state.decixHistory;
   const preload = network.preload || state.osint?.preload || FALLBACK_RELEASE;
+  const range = state.decixRange || 2;
 
-  if (decix?.traffic2d?.length) {
-    const series = [{
+  let points = [];
+  if (range === 2) {
+    points = (decix?.traffic2d || []).map((point) => ({ clock: point.clock, value: point.value }));
+  } else {
+    const all = history?.points || [];
+    const latest = all.length ? all.at(-1)[0] : Date.now();
+    const cutoff = latest - range * 86400000;
+    points = all
+      .filter(([clock]) => clock >= cutoff)
+      .map(([clock, value]) => ({ clock, value }));
+  }
+
+  if (!points.length) {
+    const all = history?.points || [];
+    const latest = all.length ? all.at(-1)[0] : Date.now();
+    points = all
+      .filter(([clock]) => clock >= latest - range * 86400000)
+      .map(([clock, value]) => ({ clock, value }));
+  }
+
+  if (points.length) {
+    const peak = points.reduce((best, point) => point.value > best.value ? point : best, points[0]);
+    const reference = range === 2
+      ? decix?.meta?.allTimePeak || history?.monthPeak
+      : history?.monthPeak || peak.value;
+    const referenceLabel = range === 2 ? 'ALL-TIME PEAK' : 'NOVEMBER PEAK';
+
+    createLineChart($('#decixChart'), [{
       label: 'DE-CIX Frankfurt',
       color: '#21e6c1',
-      data: decix.traffic2d.map((point) => ({ x: point.clock, y: point.value / 1e12 })),
-    }];
-
-    createLineChart($('#decixChart'), series, {
+      data: points.map((point) => ({ x: point.clock, y: point.value / 1e12 })),
+    }], {
       height: 340,
       area: true,
       valueFormat: (value) => `${value.toFixed(2).replace('.', ',')} Tbit/s`,
       yFormat: (value) => `${value.toFixed(0)}T`,
-      xFormat: (time) => new Intl.DateTimeFormat('de-DE', { weekday: 'short', hour: '2-digit', minute: '2-digit' }).format(new Date(time)),
-      ariaLabel: 'DE-CIX Frankfurt Traffic der letzten zwei Tage',
-      referenceLines: decix.meta?.allTimePeak
-        ? [{ value: decix.meta.allTimePeak / 1e12, label: 'ALL-TIME PEAK', color: 'rgba(255,200,87,0.7)' }]
+      xFormat: (time) => range === 2
+        ? new Intl.DateTimeFormat('de-DE', { weekday: 'short', hour: '2-digit', minute: '2-digit' }).format(new Date(time))
+        : new Intl.DateTimeFormat('de-DE', { day: '2-digit', month: 'short' }).format(new Date(time)),
+      ariaLabel: `DE-CIX Frankfurt Traffic der letzten ${range === 2 ? 'zwei Tage' : range === 7 ? 'sieben Tage' : '30 Tage'}`,
+      referenceLines: reference
+        ? [{ value: reference / 1e12, label: referenceLabel, color: 'rgba(255,200,87,0.7)' }]
         : [],
     });
 
     const meta = $('#decixMeta');
     if (meta) {
-      const values = decix.traffic2d.map((point) => point.value);
+      const values = points.map((point) => point.value);
       const avg = average(values);
       meta.innerHTML = [
-        ['Aktuell', tbit(decix.meta?.current)],
-        ['All-Time Peak', tbit(decix.meta?.allTimePeak)],
-        ['2T Peak', tbit(decix.meta?.graphPeak)],
-        ['2T Average', tbit(avg)],
+        ['Aktuell', tbit(decix?.meta?.current)],
+        ['November Peak', tbit(history?.monthPeak)],
+        ['All-Time Peak', tbit(decix?.meta?.allTimePeak)],
+        ['Range Average', tbit(avg)],
       ].map(([label, value]) => `<div class="decix-meta__item"><span class="decix-meta__label">${label}</span><span class="decix-meta__value">${value}</span></div>`).join('');
     }
   } else {
     const chart = $('#decixChart');
     if (chart) chart.innerHTML = '<p class="chart__empty">DE-CIX-Daten gerade nicht verfügbar.</p>';
+  }
+
+  const daily = history?.dailyPeaks || [];
+  const dailyBadge = $('#decixHistoryBadge');
+  if (dailyBadge) {
+    dailyBadge.textContent = daily.length
+      ? `${daily.length} Tage · ${history?.points?.length || 0} Punkte`
+      : '—';
+    dailyBadge.className = `badge ${daily.length ? 'is-ok' : 'is-degraded'}`;
+  }
+
+  if (daily.length) {
+    const dailyValues = daily.map((day) => day.peak / 1e12);
+    const dailyMin = Math.max(0, Math.floor(Math.min(...dailyValues) - 1));
+    const dailyMax = Math.ceil(Math.max(...dailyValues) + 0.5);
+
+    createBarChart($('#decixDailyChart'), daily.map((day) => ({
+      date: day.date,
+      count: day.peak / 1e12,
+    })), {
+      height: 240,
+      color: '#21e6c1',
+      min: dailyMin,
+      max: dailyMax,
+      yFormat: (value) => `${value.toFixed(0)}T`,
+      xFormat: (date) => window.innerWidth < 600
+        ? `${new Date(date).getDate()}.`
+        : new Intl.DateTimeFormat('de-DE', { day: '2-digit', month: 'short' }).format(new Date(date)),
+      ariaLabel: 'DE-CIX Tages-Peaks im November',
+    });
+  } else {
+    const dailyChart = $('#decixDailyChart');
+    if (dailyChart) dailyChart.innerHTML = '<p class="chart__empty">Noch keine Monats-Historie verfügbar.</p>';
   }
 
   const statusBox = $('#preloadStatus');
@@ -956,11 +1020,18 @@ function renderNetwork() {
           ? 'Der Preload läuft. 212 GB pro Installation — der DE-CIX wird es sehen.'
           : 'GTA VI ist released. Willkommen in Leonida.';
     const badgeText = status === 'upcoming' ? 'PRELOAD GEPLANT' : status === 'preload' ? 'PRELOAD LÄUFT' : 'RELEASED';
+    const now = Date.now();
+    const ps5Time = new Date(preload.ps5Preload || FALLBACK_RELEASE.ps5Preload).getTime();
+    const xboxTime = new Date(preload.xboxPreload || FALLBACK_RELEASE.xboxPreload).getTime();
 
     statusBox.innerHTML = `
       <span class="preload-status__badge"><span class="live-dot"></span> ${badgeText}</span>
       <span class="preload-status__big">${status === 'released' ? 'LIVE' : preloadCountdown(target)}</span>
-      <p class="preload-status__text">${escapeHtml(statusText)}</p>`;
+      <p class="preload-status__text">${escapeHtml(statusText)}</p>
+      <div class="preload-platforms">
+        <span class="${now >= ps5Time ? 'is-done' : 'is-next'}">PS5 · ${dateShort(preload.ps5Preload)} · 00:00 lokal</span>
+        <span class="${now >= xboxTime ? 'is-done' : 'is-next'}">Xbox · ${dateShort(preload.xboxPreload)} · 00:00 GMT</span>
+      </div>`;
   }
 
   const timeline = $('#preloadTimeline');
@@ -969,6 +1040,7 @@ function renderNetwork() {
     const steps = [
       { label: 'Preorder', date: preload.preorder || FALLBACK_RELEASE.preorder },
       { label: 'PS5 Preload', date: preload.ps5Preload || FALLBACK_RELEASE.ps5Preload },
+      { label: 'Xbox Preload', date: preload.xboxPreload || FALLBACK_RELEASE.xboxPreload },
       { label: 'Physical', date: preload.physical || FALLBACK_RELEASE.physical },
       { label: 'Release', date: preload.release || FALLBACK_RELEASE.release },
     ];
@@ -985,13 +1057,12 @@ function renderNetwork() {
 
   const stats = $('#networkStats');
   if (stats) {
-    const steam = state.osint?.steam;
     const rockstar = network.rockstar;
     stats.innerHTML = [
       ['DE-CIX · Aktuell', tbit(decix?.meta?.current), 'Frankfurt · live'],
-      ['DE-CIX · All-Time', tbit(decix?.meta?.allTimePeak), 'Peak'],
+      ['DE-CIX · November', tbit(history?.monthPeak), history?.monthPeakAt ? dateShort(history.monthPeakAt) : 'Peak'],
+      ['DE-CIX · All-Time', tbit(decix?.meta?.allTimePeak), '14.10.2026'],
       ['Rockstar Probe', rockstar?.latencyMs != null ? `${rockstar.latencyMs} ms` : '—', rockstar?.status ? `HTTP ${rockstar.status} · /VI` : 'Endpoint'],
-      ['Steam · GTA V', steam?.gta5 != null ? compact(steam.gta5) : '—', 'Concurrent Players'],
     ].map(([label, value, sub]) => `<div class="stat"><span class="stat__label">${escapeHtml(label)}</span><span class="stat__value">${escapeHtml(value)}</span><span class="stat__sub">${escapeHtml(sub)}</span></div>`).join('');
   }
 }
@@ -1023,15 +1094,24 @@ function renderPeaks() {
     );
   }
 
-  if (decix?.traffic2d?.length) {
-    const peakPoint = decix.traffic2d.reduce((best, point) =>
-      point.value > best.value ? point : best,
-    );
+  if (state.decixHistory?.monthPeak) {
     add(
-      'DE-CIX · 2T Peak',
-      tbit(peakPoint.value),
-      `${dateTimeFmt.format(new Date(peakPoint.clock))} · DE-CIX API`,
-      'Höchster 5-Minuten-Punkt der letzten 48 Stunden',
+      'DE-CIX · November Peak',
+      tbit(state.decixHistory.monthPeak),
+      `${dateTimeFmt.format(new Date(state.decixHistory.monthPeakAt))} · DE-CIX API`,
+      `${state.decixHistory.dailyPeaks?.length || 0} Tage im Archiv · Real`,
+      '#21e6c1',
+      'real',
+    );
+  }
+
+  const latestDay = state.decixHistory?.dailyPeaks?.at(-1);
+  if (latestDay) {
+    add(
+      'DE-CIX · Tages-Peak',
+      tbit(latestDay.peak),
+      `${dateShort(latestDay.date)} · DE-CIX API`,
+      'Höchster 5-Minuten-Punkt des letzten Tages',
       '#21e6c1',
       'real',
     );
@@ -1078,13 +1158,12 @@ function renderPeaks() {
     );
   }
 
-  if (reddit?.topPosts?.length) {
-    const top = reddit.topPosts[0];
+  if (reddit?.subscribers) {
     add(
-      'Reddit · Top Post',
-      compact(top.score),
-      'Arctic Shift · Proxy',
-      top.title,
+      'Reddit · Members',
+      compact(reddit.subscribers),
+      'r/GTA6 · Arctic Shift',
+      'Community-Größe · Proxy',
       '#ff7a18',
       'proxy',
     );
@@ -1277,6 +1356,9 @@ function setupRangeTabs() {
       if (group.dataset.rangeTabs === 'wiki') {
         state.wikiRange = value;
         renderWiki();
+      } else if (group.dataset.rangeTabs === 'decix') {
+        state.decixRange = value;
+        renderNetwork();
       } else {
         state.marketRange = value;
         renderBaskets();
