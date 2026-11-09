@@ -16,8 +16,8 @@ fi
   echo "[$(date -Is)] collect start"
   git pull --rebase --autostash origin main || true
   node scripts/collect.mjs
-  if ! git diff --quiet -- data; then
-    git add data/*.json
+  if ! git diff --quiet -- data sitemap.xml; then
+    git add data/*.json sitemap.xml
     git commit -m "chore(data): refresh GTA VI signals"
     git push origin main
     echo "[$(date -Is)] data pushed"

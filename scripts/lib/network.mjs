@@ -10,7 +10,8 @@ const DECIX_HEADERS = {
 };
 
 const MONTH_START = Date.UTC(2026, 10, 1); // 1. November 2026
-const HISTORY_LIMIT = 20000;
+// 5-minute points: ~288/day → 60000 covers well beyond mid-December.
+const HISTORY_LIMIT = 60000;
 
 function normalizeMeta(meta = {}) {
   return {

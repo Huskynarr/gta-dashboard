@@ -249,10 +249,13 @@ export async function collectStocks(existing = null) {
   }
 
   output.slot = slot;
+  // One snapshot per UTC hour (hourly runs during the release window), never
+  // overwriting earlier hours so the full November → December record is kept.
+  const hour = snapshot.ts.slice(0, 13);
   output.snapshots = output.snapshots
-    .filter((entry) => !(entry.date === date && entry.slot === slot))
+    .filter((entry) => String(entry.ts || '').slice(0, 13) !== hour)
     .concat(snapshot)
-    .slice(-400);
+    .slice(-5000);
 
   output.errors = errors;
 

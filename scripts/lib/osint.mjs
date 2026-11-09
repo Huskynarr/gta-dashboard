@@ -203,6 +203,13 @@ async function collectNews() {
           source: item.source,
           pubDate: item.pubDate,
         })),
+        // Full feed sample; moved into data/news-archive.json by collect.mjs.
+        archiveItems: items.map((item) => ({
+          title: item.title,
+          link: item.link,
+          source: item.source,
+          pubDate: item.pubDate,
+        })),
       };
     } catch (error) {
       errors.push(`news:${query.key}: ${error.message}`);
