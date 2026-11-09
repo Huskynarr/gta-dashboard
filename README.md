@@ -21,6 +21,8 @@ Kein Finanzrat. Keine Verbindung zu Rockstar Games oder Take-Two. Nur ein Fan-Pr
 - **Peaks & Records** — DE-CIX-All-Time-Peak, 2T-Peak, TTWO-52W-Hoch, Basket-Hoch, Wikipedia-Peak und Reddit-Top-Post — mit Real/Proxy-Label.
 - **Investor Watch** — Take-Two-IR-Termine, Q2-FY2027-Earnings-Call am 9. November 2026, Yahoo-Konsens (EPS/Umsatz), SEC-Filings und IR-Pressemitteilungen.
 - **Vice City Prospect** — offizielles GTA-VI-Key-Art in drei Ausschnitten, mit Bildcredit.
+- **Mehrsprachig** — Deutsch, English und Français per Umschalter; die Wahl bleibt im Browser gespeichert.
+- **YouTube-Overlay** — kleiner Werbe-Inlayer unten rechts mit dem GTA-V-Song, stummem Autoplay, Ton-Schalter und Schließen-Button.
 - **Timeline & Methodik** — Meilensteine, Quellenstatus, Datenqualität und bewusste Grenzen.
 
 ## Architektur
@@ -29,6 +31,7 @@ Kein Finanzrat. Keine Verbindung zu Rockstar Games oder Take-Two. Nur ein Fan-Pr
 index.html               statisches Dashboard (GitHub Pages)
 assets/css/style.css     Rockstar-/Vice-City-Design
 assets/js/charts.js      SVG-Charts, Sparklines, Gauge, Tooltips
+assets/js/i18n.js        DE/EN/FR-Übersetzungen + DOM-Observer
 assets/js/app.js         Daten laden, berechnen, rendern
 assets/js/hype.js        gemeinsame Score-Berechnung und Snapshot-Regeln
 scripts/collect.mjs      Orchestriert alle Quellen

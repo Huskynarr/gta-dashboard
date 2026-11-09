@@ -1,4 +1,5 @@
-import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js?v=20261109-decix';
+import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js?v=20261109-i18n';
+import { initI18n } from './i18n.js?v=20261109-i18n';
 import { analyzeHype } from './hype.js?v=20261109-hype';
 
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -1400,7 +1401,53 @@ function setupReveal() {
   items.forEach((item) => observer.observe(item));
 }
 
+function setupAd() {
+  const popup = $('#adPopup');
+  const close = $('#adClose');
+  const reopen = $('#adReopen');
+  const sound = $('#adSound');
+  const video = $('#adVideo');
+  if (!popup || !close || !reopen || !sound || !video) return;
+
+  const base = 'https://www.youtube-nocookie.com/embed/5dPwBWvmcbQ?autoplay=1&rel=0&playsinline=1';
+  const load = (muted) => {
+    video.src = `${base}&mute=${muted ? 1 : 0}`;
+  };
+
+  const closePopup = () => {
+    popup.hidden = true;
+    reopen.hidden = false;
+    video.removeAttribute('src');
+    sessionStorage.setItem('gta-ad-closed', '1');
+  };
+
+  const openPopup = () => {
+    popup.hidden = false;
+    reopen.hidden = true;
+    sessionStorage.removeItem('gta-ad-closed');
+    load(sound.dataset.muted !== 'false');
+  };
+
+  close.addEventListener('click', closePopup);
+  reopen.addEventListener('click', openPopup);
+  sound.addEventListener('click', () => {
+    const muted = sound.dataset.muted !== 'false';
+    sound.dataset.muted = String(!muted);
+    sound.textContent = muted ? 'Ton aus' : 'Ton an';
+    load(!muted);
+  });
+
+  if (sessionStorage.getItem('gta-ad-closed') === '1') {
+    popup.hidden = true;
+    reopen.hidden = false;
+  } else {
+    load(true);
+  }
+}
+
 async function init() {
+  initI18n();
+  setupAd();
   await loadData();
   renderCountdown();
   renderTicker();
