@@ -1,0 +1,85 @@
+{
+  "reviewedAt": "2026-11-09",
+  "entries": [
+    {
+      "id": "rockstar",
+      "name": "Rockstar Games",
+      "category": "games",
+      "kind": "Offizielle Spielseite",
+      "description": "Ankündigungen, Trailer und die offiziellen Verweise auf die Konsolen-Stores.",
+      "url": "https://www.rockstargames.com/VI",
+      "action": "Zu Rockstar",
+      "verification": "checked"
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation Store",
+      "category": "games",
+      "kind": "PS5 · Store",
+      "description": "GTA VI im deutschen PlayStation Store. Edition, Preis und Kaufstatus stehen im Store.",
+      "url": "https://store.playstation.com/de-de/concept/10000730",
+      "action": "Zum PS5-Store",
+      "verification": "checked"
+    },
+    {
+      "id": "xbox",
+      "name": "Xbox",
+      "category": "games",
+      "kind": "Xbox Series X|S · Store",
+      "description": "GTA VI im deutschen Xbox Store. Edition, Preis und Kaufstatus stehen im Store.",
+      "url": "https://www.xbox.com/de-DE/games/store/grand-theft-auto-vi/9P3H4968GRSM",
+      "action": "Zum Xbox-Store",
+      "verification": "checked"
+    },
+    {
+      "id": "mediamarkt",
+      "name": "MediaMarkt",
+      "category": "games",
+      "kind": "Händler · GTA-VI-Seite",
+      "description": "GTA-VI-Themenseite mit Verweisen auf die Konsolenversionen. Verfügbarkeit beim Händler prüfen.",
+      "url": "https://www.mediamarkt.de/de/campaign/gta6",
+      "action": "Zum Händler",
+      "verification": "checked"
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "category": "games",
+      "kind": "Händler · GTA-VI-Seite",
+      "description": "GTA-VI-Themenseite und Angebote für die Konsolenversionen. Preise können sich ändern.",
+      "url": "https://www.saturn.de/de/campaign/gta6",
+      "action": "Zum Händler",
+      "verification": "checked"
+    },
+    {
+      "id": "rockstar-merch",
+      "name": "Rockstar Store",
+      "category": "merch",
+      "kind": "Offizielle GTA-VI-Collection",
+      "description": "Die GTA-VI-Collection im offiziellen Rockstar Store. Ein eigener Blick auf den Hype rund um die Marke.",
+      "url": "https://store.rockstargames.com/grand-theft-auto-vi-collection",
+      "action": "Zur Collection",
+      "verification": "checked"
+    },
+    {
+      "id": "netto",
+      "name": "Netto",
+      "category": "everyday",
+      "kind": "Händler aus Retail Watch",
+      "description": "Offizielle Filialangebote zum Nachschlagen. Der GTA-Bezug stammt aus dem Community-Thread; Angebote sind regional.",
+      "url": "https://www.netto-online.de/filialangebote/",
+      "action": "Zu den Filialangeboten",
+      "verification": "blocked"
+    },
+    {
+      "id": "edeka",
+      "name": "Edeka",
+      "category": "everyday",
+      "kind": "Händler aus Retail Watch",
+      "description": "Offizielle Händlerseite für die lokale Marktsuche und Angebote. Der GTA-Bezug stammt aus dem Community-Thread.",
+      "url": "https://www.edeka.de/",
+      "action": "Zum Händler",
+      "verification": "blocked"
+    }
+  ]
+}

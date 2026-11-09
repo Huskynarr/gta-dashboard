@@ -4,6 +4,7 @@ import { collectStocks } from './lib/stocks.mjs';
 import { collectOsint } from './lib/osint.mjs';
 import { collectNetwork } from './lib/network.mjs';
 import { collectInvestor } from './lib/investor.mjs';
+import { collectHype } from './lib/hype.mjs';
 
 const DATA_DIR = path.resolve('data');
 
@@ -38,12 +39,13 @@ function runSlot(date = new Date()) {
 async function main() {
   const startedAt = new Date();
 
-  const [existingStocks, existingOsint, existingNetwork, existingInvestor] =
+  const [existingStocks, existingOsint, existingNetwork, existingInvestor, existingHype] =
     await Promise.all([
       readJson(path.join(DATA_DIR, 'stocks.json')),
       readJson(path.join(DATA_DIR, 'osint.json')),
       readJson(path.join(DATA_DIR, 'network.json')),
       readJson(path.join(DATA_DIR, 'investor.json')),
+      readJson(path.join(DATA_DIR, 'hype.json')),
     ]);
 
   const stocksPromise = collectStocks(existingStocks).catch((error) => ({
@@ -70,11 +72,18 @@ async function main() {
     investorPromise,
   ]);
 
-  const network = await collectNetwork(existingNetwork, osint).catch((error) => ({
-    ...(existingNetwork || {}),
-    updated: new Date().toISOString(),
-    error: error.message,
-  }));
+  const [network, hype] = await Promise.all([
+    collectNetwork(existingNetwork, osint).catch((error) => ({
+      ...(existingNetwork || {}),
+      updated: new Date().toISOString(),
+      error: error.message,
+    })),
+    collectHype(existingHype, osint).catch((error) => ({
+      ...(existingHype || {}),
+      sources: { topics: 'degraded' },
+      errors: [`collector:hype: ${error.message}`],
+    })),
+  ]);
 
   const finishedAt = new Date();
 
@@ -95,6 +104,7 @@ async function main() {
       investor: investor?.sources?.ir || 'degraded',
       sec: investor?.sources?.sec || 'degraded',
       estimates: investor?.sources?.estimates || 'degraded',
+      hype: hype?.sources?.topics || 'degraded',
     },
     counts: {
       stocks: Object.keys(stocks?.series || {}).length,
@@ -108,11 +118,13 @@ async function main() {
       decixPoints: network?.decix?.traffic2d?.length || 0,
       filings: investor?.filings?.length || 0,
       pressReleases: investor?.pressReleases?.length || 0,
+      hypeSnapshots: hype?.history?.length || 0,
     },
     errors: [
       ...(stocks?.errors || []),
       ...(osint?.errors || []),
       ...(investor?.errors || []),
+      ...(hype?.errors || []),
       ...(network?.decixError ? [`decix: ${network.decixError}`] : []),
     ],
   };
@@ -123,6 +135,7 @@ async function main() {
     writeJson(path.join(DATA_DIR, 'network.json'), network),
     writeJson(path.join(DATA_DIR, 'investor.json'), investor),
     writeJson(path.join(DATA_DIR, 'meta.json'), meta),
+    writeJson(path.join(DATA_DIR, 'hype.json'), hype),
   ]);
 
   console.log(

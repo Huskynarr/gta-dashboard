@@ -1,4 +1,5 @@
 import { createGauge, createLineChart, sparkline } from './charts.js?v=20261108';
+import { analyzeHype } from './hype.js?v=20261109-hype';
 
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
@@ -100,6 +101,7 @@ const SOURCE_LABELS = {
   investor: 'Investor · Take-Two IR',
   sec: 'SEC EDGAR · Filings',
   estimates: 'Yahoo Finance · Konsens',
+  hype: 'Hype-Themenradar · Google News RSS',
 };
 
 const state = {
@@ -108,6 +110,10 @@ const state = {
   network: null,
   investor: null,
   meta: null,
+  retail: null,
+  hype: null,
+  stores: null,
+  storeCategory: 'all',
   marketRange: 90,
   wikiRange: 90,
   group: 'all',
@@ -310,37 +316,7 @@ function basketStats(basket) {
 }
 
 function computeHypeScore() {
-  const osint = state.osint;
-  if (!osint) return null;
-
-  const wikiEn = osint.wikipedia?.gta_en;
-  const wikiDe = osint.wikipedia?.gta_de;
-  const newsEn = osint.news?.gta_en;
-  const reddit = osint.reddit;
-
-  const ratios = [];
-  for (const wiki of [wikiEn, wikiDe]) {
-    if (wiki?.recent7 > 0 && wiki?.prev7 > 0) ratios.push(wiki.recent7 / wiki.prev7);
-  }
-  const wikiRatio = average(ratios);
-  const wikiScore = wikiRatio == null ? null : clamp(50 + (wikiRatio - 1) * 42, 0, 100);
-
-  const newsBase = newsEn?.count7d > 0 ? newsEn.count7d / 7 : null;
-  const newsRatio = newsBase ? (newsEn.count24h + 0.6) / (newsBase + 0.6) : null;
-  const newsScore = newsRatio == null ? null : clamp(50 + (newsRatio - 1) * 42, 0, 100);
-
-  const postsPerHour = reddit?.postsPerHour;
-  const redditScore = postsPerHour == null ? null : clamp(postsPerHour * 3.2, 0, 100);
-
-  const parts = [
-    [wikiScore, 0.45],
-    [newsScore, 0.35],
-    [redditScore, 0.2],
-  ].filter(([value]) => value != null);
-
-  if (!parts.length) return null;
-  const totalWeight = parts.reduce((total, [, weight]) => total + weight, 0);
-  return Math.round(parts.reduce((total, [value, weight]) => total + value * weight, 0) / totalWeight);
+  return analyzeHype(state.osint).score;
 }
 
 function computeSickSignal() {
@@ -371,7 +347,7 @@ function computeSickSignal() {
 }
 
 async function loadData() {
-  const files = ['stocks', 'osint', 'network', 'investor', 'meta'];
+  const files = ['stocks', 'osint', 'network', 'investor', 'meta', 'retail', 'hype', 'stores'];
   const results = await Promise.all(
     files.map(async (name) => {
       try {
@@ -385,7 +361,7 @@ async function loadData() {
     }),
   );
 
-  [state.stocks, state.osint, state.network, state.investor, state.meta] = results;
+  [state.stocks, state.osint, state.network, state.investor, state.meta, state.retail, state.hype, state.stores] = results;
   if (!state.stocks || !state.osint) {
     const banner = document.createElement('div');
     banner.className = 'data-banner';
@@ -760,6 +736,162 @@ function renderOsint() {
   }
 }
 
+function renderHype() {
+  const analysis = analyzeHype(state.osint);
+  $('#hypeScore').textContent = analysis.score ?? '—';
+  $('#hypeVerdict').textContent = analysis.label;
+  $('#hypeCoverage').textContent = `${analysis.coverage}/3 SIGNALE AKTUELL`;
+  $('#hypeCoverage').className = `badge ${analysis.coverage === 3 ? 'is-ok' : 'is-degraded'}`;
+  $('#hypeUpdated').textContent = analysis.updated ? `OSINT-Stand: ${dateTimeFmt.format(new Date(analysis.updated))} · ${relative(analysis.updated)}` : 'Noch kein OSINT-Datenstand verfügbar.';
+
+  const history = state.hype?.history || [];
+  const previous = history.filter((item) => item.version === analysis.version && item.signature === analysis.signature && Date.parse(item.at) < Date.parse(analysis.updated)).at(-1);
+  $('#hypeTrend').textContent = analysis.score != null && previous
+    ? `${analysis.score - previous.score > 0 ? '+' : ''}${analysis.score - previous.score} Punkte seit ${dateTimeFmt.format(new Date(previous.at))} · gleiche Quellenbasis`
+    : 'Für eine Veränderung brauchen wir zwei Messungen mit gleicher Quellenbasis.';
+
+  $('#hypeSignals').innerHTML = analysis.channels.map((channel) => {
+    let evidence = 'Für diesen Teilwert fehlen verwertbare Daten.';
+    if (channel.key === 'wiki' && channel.changePct != null) evidence = `${pct(channel.changePct, 1)} Pageviews · letzte 7T gegenüber den 7T davor (Mittel EN/DE)`;
+    if (channel.key === 'news' && channel.count24h != null) evidence = `${channel.count24h} RSS-Treffer in 24h · ${channel.count7d >= 100 ? '100+' : channel.count7d} im 7T-Sample`;
+    if (channel.key === 'reddit' && channel.postsPerHour != null) evidence = `${compactFmt.format(channel.postsPerHour)} Posts/h · ${channel.sampleSize ?? '—'} Posts über ${channel.sampleHours ?? '—'}h im Sample`;
+    const active = channel.status === 'ok';
+    return `<article class="hype-signal">
+      <div class="retail-card__head"><h4>${escapeHtml(channel.label)}</h4><strong>${active ? Math.round(channel.score) : '—'}<span>/100</span></strong></div>
+      <p>${escapeHtml(evidence)}</p>
+      ${active ? `<meter min="0" max="100" value="${channel.score}" aria-label="${escapeHtml(channel.label)}">${Math.round(channel.score)} von 100</meter>` : `<p class="hype-signal__missing">${channel.status === 'stale' ? 'Datenstand älter als 48h oder ungültig' : 'Quelle nicht verfügbar'} · nicht gewertet</p>`}
+      <div class="hype-signal__footer"><a href="${escapeHtml(channel.url)}" target="_blank" rel="noopener">${escapeHtml(channel.source)} ↗</a><span>${active ? `${Math.round(channel.effectiveWeight)} % Gewicht` : '0 % Gewicht'}</span></div>
+    </article>`;
+  }).join('');
+
+  const wiki = analysis.channels.find((channel) => channel.key === 'wiki' && channel.status === 'ok');
+  const news = analysis.channels.find((channel) => channel.key === 'news' && channel.status === 'ok');
+  const reading = [];
+  if (wiki) reading.push(wiki.changePct === 0 ? 'Das Wikipedia-Interesse liegt auf dem Niveau der Vorwoche.' : `Das Wikipedia-Interesse liegt ${belowPct(wiki.changePct, 1)} ${wiki.changePct > 0 ? 'über' : 'unter'} der Vorwoche.`);
+  if (news) reading.push(`Im englischen News-Sample liegen die letzten 24 Stunden ${news.count24h === news.count7d / 7 ? 'auf' : news.count24h > news.count7d / 7 ? 'über' : 'unter'} dem Tagesmittel der letzten sieben Tage.${news.count7d >= 100 ? ' Das 7T-Sample erreicht die RSS-Grenze; der Vergleich ist dadurch eingeschränkt.' : ''}`);
+  if (analysis.coverage < 3) reading.push(`Die Einordnung nutzt ${analysis.coverage} von drei aktuellen Quellen.`);
+  reading.push('Der Score beschreibt Aufmerksamkeit; Vorfreude, Kritik und Kaufabsicht lassen sich damit nicht unterscheiden.');
+  $('#hypeReading').textContent = reading.join(' ');
+
+  const trendCountries = ['de', 'us'].map((geo) => state.osint?.trends?.[geo]);
+  const validTrends = analysis.updated && Date.now() - Date.parse(analysis.updated) <= 48 * 3600000 && state.osint?.sources?.trends !== 'degraded';
+  const trendText = validTrends ? trendCountries.map((country, index) => `${index === 0 ? 'DE' : 'US'}: ${country && !country.error ? country.gtaCount ?? country.gta?.length ?? 0 : '—'}`).join(' · ') : 'Daten fehlen / veraltet';
+  const retail = state.retail?.entries;
+  const checkedStores = state.stores?.entries?.filter((entry) => entry.verification === 'checked').length;
+  $('#hypeContext').innerHTML = [
+    ['Trend-Präsenz', trendText, 'GTA-Bezüge in RSS-Trendlisten, auch über Schlagzeilen; kein absolutes Suchvolumen.'],
+    ['Hype im Alltag', retail ? `${retail.length} Community-Funde` : 'Noch keine Fundliste', 'Manuell erfasste Prospekt-Hinweise. Eine größere Liste belegt keine größere Nachfrage.'],
+    ['Store-Präsenz', checkedStores != null ? `${checkedStores} geprüfte Anlaufstellen` : 'Store-Liste fehlt', 'Spielseiten, Stores und Merch. Verkäufe und Wunschlisten sind nicht öffentlich erhoben.'],
+  ].map(([label, value, text]) => `<div class="hype-context__item"><span class="panel__kicker">${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong><p>${escapeHtml(text)}</p></div>`).join('');
+
+  const complete = history.filter((item) => item.version === analysis.version && item.signature === 'wiki+news+reddit' && Number.isFinite(item.score));
+  if (complete.length < 2) {
+    $('#hypeChart').innerHTML = '<p class="chart__empty">Der Verlauf baut sich mit den nächsten Messungen auf.</p>';
+  } else {
+    createLineChart($('#hypeChart'), [{ label: 'Hype-Score', color: '#ff2e88', data: complete.map((item) => ({ x: item.at, y: item.score })) }], {
+      height: 250, min: 0, max: 100, area: true,
+      valueFormat: (value) => `${Math.round(value)}/100`,
+      xFormat: (time) => dateTimeFmt.format(new Date(time)),
+      ariaLabel: 'Hype-Score aus vollständigen Wikipedia-, News- und Reddit-Snapshots',
+    });
+  }
+  $('#hypeHistoryNote').textContent = `${complete.length} vollständige Snapshots · bis zu 90 Tage · gleiche Gewichtung, alle drei Quellen. Erfasst wird höchstens ein Punkt pro Stunde; es gibt keine rückwirkend geschätzten Scores.`;
+}
+
+function currentHypeTopic(topic) {
+  const age = Date.now() - Date.parse(topic.updated);
+  return topic.status === 'ok' && age >= -300000 && age <= 48 * 3600000;
+}
+
+function renderHypeTopics() {
+  const topics = state.hype?.topics || [];
+  const active = topics.filter(currentHypeTopic).length;
+  $('#hypeTopicsBadge').textContent = `${active}/4 THEMEN AKTUELL`;
+  $('#hypeTopicsBadge').className = `badge ${active === 4 ? 'is-ok' : 'is-degraded'}`;
+  if (!topics.length) {
+    $('#hypeTopicList').innerHTML = '<p class="retail-empty">Der Themenradar konnte gerade nicht geladen werden.</p>';
+    return;
+  }
+  $('#hypeTopicList').innerHTML = topics.map((topic) => {
+    const fresh = currentHypeTopic(topic);
+    const count = topic.count7d == null ? '—' : `${topic.count7d}${topic.capped ? '+' : ''}`;
+    return `<article class="hype-topic">
+      <div class="retail-card__head"><h4>${escapeHtml(topic.label)}</h4><span class="badge ${fresh ? 'is-ok' : 'is-degraded'}">${fresh ? 'RSS-SAMPLE' : 'ALTER STAND / FEHLT'}</span></div>
+      <p class="hype-topic__volume"><strong>${escapeHtml(count)}</strong> Treffer · 7T</p>
+      <p class="hype-meta">${topic.count24h ?? '—'} in 24h · ${topic.publisherCount ?? '—'} Quellen im Sample</p>
+      <p class="hype-topic__momentum">${topic.capped ? 'RSS-Grenze erreicht · Volumen unvollständig' : topic.count7d > 0 && topic.count24h != null ? `${compactFmt.format(topic.count24h / (topic.count7d / 7))}× Tagesmittel im 7T-Sample${fresh ? '' : ' · alter Stand'}` : 'Noch kein Volumenvergleich möglich'}</p>
+      <div class="hype-topic__spark" aria-hidden="true">${sparkline((topic.series || []).map((point) => point.count), '#21e6c1')}</div>
+      <div class="news-list">${(topic.items || []).slice(0, 2).map((item) => `<a class="news-item" href="${escapeHtml(item.link)}" target="_blank" rel="noopener"><span class="news-item__title">${escapeHtml(item.title)}</span><span class="news-item__meta">${escapeHtml(item.source)} · ${dateShort(item.pubDate)}</span></a>`).join('') || '<p class="hype-meta">Keine Schlagzeilen in dieser Stichprobe verfügbar.</p>'}</div>
+      <p class="hype-meta">${topic.updated ? `Stand ${dateTimeFmt.format(new Date(topic.updated))}` : 'Noch keine erfolgreiche Erfassung'}</p>
+      <a class="retail-card__source" href="${escapeHtml(topic.feedUrl)}" target="_blank" rel="noopener">Suchabfrage &amp; RSS-Belege ↗</a>
+    </article>`;
+  }).join('');
+}
+
+function renderStores() {
+  const all = state.stores?.entries || [];
+  const entries = all.filter((entry) => state.storeCategory === 'all' || entry.category === state.storeCategory);
+  $('#storeCount').textContent = state.stores ? `${entries.length} VON ${all.length} LINKS` : 'NICHT VERFÜGBAR';
+  $('#storeCount').className = `badge ${state.stores ? '' : 'is-degraded'}`;
+  $('#storeList').innerHTML = entries.map((entry) => `<article class="store-card">
+    <span class="panel__kicker">${escapeHtml(entry.kind)}</span><h4>${escapeHtml(entry.name)}</h4>
+    <p>${escapeHtml(entry.description)}</p>
+    <a class="store-card__action" href="${escapeHtml(entry.url)}" target="_blank" rel="noopener">${escapeHtml(entry.action)} ↗</a>
+    <span class="hype-meta">${entry.verification === 'checked' ? 'Seite beim Eintragen geprüft' : 'Link hinterlegt · automatischer Abruf blockiert'}</span>
+  </article>`).join('') || `<p class="retail-empty">${state.stores ? 'In dieser Kategorie sind noch keine Links erfasst.' : 'Die Store-Liste konnte gerade nicht geladen werden.'}</p>`;
+  const reviewed = state.stores?.reviewedAt;
+  $('#storesReviewed').textContent = `Preise, Editionen und Verfügbarkeit stehen beim jeweiligen Anbieter. Keine Affiliate-Links. Ein Store-Link allein belegt keine Nachfrage oder Kooperation.${reviewed ? ` Linkliste gesichtet am ${dateLong(`${reviewed}T12:00:00`)}.` : ''}`;
+}
+
+function setupStoreFilters() {
+  const filters = $('#storeFilters');
+  filters?.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-store-filter]');
+    if (!button) return;
+    state.storeCategory = button.dataset.storeFilter;
+    $$('[data-store-filter]', filters).forEach((item) => {
+      item.classList.toggle('is-active', item === button);
+      item.setAttribute('aria-pressed', String(item === button));
+    });
+    renderStores();
+  });
+}
+
+function renderRetailWatch() {
+  const list = $('#retailList');
+  const badge = $('#retailBadge');
+  const reviewed = $('#retailReviewed');
+  if (!list || !badge || !reviewed) return;
+
+  const entries = state.retail?.entries || [];
+  badge.textContent = state.retail ? `${entries.length} FUNDE` : 'NICHT VERFÜGBAR';
+  badge.className = `badge ${state.retail ? '' : 'is-degraded'}`;
+  reviewed.textContent = state.retail?.reviewedAt
+    ? `Zuletzt redaktionell gesichtet: ${dateLong(`${state.retail.reviewedAt}T12:00:00`)} · keine automatische Händler-Erfassung`
+    : '';
+
+  if (!entries.length) {
+    list.innerHTML = `<p class="retail-empty">${state.retail ? 'Noch keine Community-Funde erfasst.' : 'Die Community-Funde konnten gerade nicht geladen werden.'}</p>`;
+    return;
+  }
+
+  list.innerHTML = entries.map((entry) => {
+    const store = state.stores?.entries?.find((item) => item.id === entry.storeId);
+    return `
+    <article class="retail-card">
+      <div class="retail-card__head"><h4>${escapeHtml(entry.retailer)}</h4><span class="quality is-proxy">Community · Proxy</span></div>
+      <p class="retail-card__summary">${escapeHtml(entry.summary)}</p>
+      <p class="retail-card__meta">Beitrag vom <time datetime="${escapeHtml(entry.publishedAt)}">${dateLong(entry.publishedAt)}</time></p>
+      <a class="retail-card__source" href="${escapeHtml(entry.source.url)}" target="_blank" rel="noopener">${escapeHtml(entry.source.label)} · Originalbeitrag ↗</a>
+      ${store ? `<a class="retail-card__store" href="${escapeHtml(store.url)}" target="_blank" rel="noopener">${escapeHtml(store.action)} ↗</a>` : ''}
+      ${entry.images?.length ? `<details class="retail-evidence">
+        <summary>${entry.images.length} geteilte Prospektbilder</summary>
+        <ul>${entry.images.map((url, index) => `<li><a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(entry.retailer)} · Bild ${index + 1} ↗</a></li>`).join('')}</ul>
+      </details>` : ''}
+    </article>`;
+  }).join('');
+}
+
 function preloadCountdown(dateString) {
   const diff = Math.max(new Date(dateString).getTime() - Date.now(), 0);
   const days = Math.floor(diff / 86400000);
@@ -1085,6 +1217,7 @@ function renderMethodology() {
   const meta = state.meta;
   const sources = {
     ...(meta?.sources || {}),
+    hype: state.hype?.sources?.topics === 'ok' && state.hype.topics?.length === 4 && state.hype.topics.every(currentHypeTopic) ? 'ok' : 'degraded',
     decix: state.network?.sources?.decix,
     playstation: state.osint?.sources?.playstation,
   };
@@ -1194,6 +1327,10 @@ async function init() {
   renderStocks();
   renderSick();
   renderOsint();
+  renderHype();
+  renderHypeTopics();
+  renderStores();
+  renderRetailWatch();
   renderNetwork();
   renderPeaks();
   renderInvestor();
@@ -1202,6 +1339,7 @@ async function init() {
   setupNav();
   setupRangeTabs();
   setupStockFilters();
+  setupStoreFilters();
   setupReveal();
   setInterval(renderCountdown, 1000);
 }

@@ -13,7 +13,10 @@ Kein Finanzrat. Keine Verbindung zu Rockstar Games oder Take-Two. Nur ein Fan-Pr
 
 - **Market Pulse** — Take-Two, Publisher, Delivery und Plattformen als Equal-Weight-Baskets mit einem Jahr Tageshistorie.
 - **Krankenstand** — Leading Indicator aus Wikipedia-Pageviews und Google-News-Volumen für Krankmeldung, Krankenstand und Arbeitsunfähigkeit.
-- **Hype & OSINT** — Wikipedia, Google News, Reddit (Arctic Shift), Steam und Google Trends.
+- **Hype Monitor** — erklärter Score aus Suchinteresse, Medienecho und Reddit, mit Quellenabdeckung, Einordnung, Trends-Kontext und echtem Snapshot-Verlauf.
+- **Themenradar** — vier automatische Google-News-Abfragen für Handel/Marken, Hardware, Creator/Social und Release/Download. Mit 24h-/7T-Volumen, Quellen, Schlagzeilen und Sample-Grenzen.
+- **Stores & Merch** — filterbare Links zu Rockstar, PlayStation, Xbox, MediaMarkt, Saturn, Rockstar-Merch, Netto und Edeka. Store-Links sind auch direkt an den Prospekt-Funden verfügbar.
+- **Retail Watch** — Community-Funde aus Supermarktprospekten im OSINT-Bereich, zunächst Netto und Edeka aus dem Thread von [@lucaslu_ckli](https://x.com/lucaslu_ckli/status/2119489167553929288). Mit Datum, Originalbeitrag, Bildlinks und Proxy-Kennzeichnung.
 - **Network Watch** — DE-CIX-Frankfurt-Traffic (2 Tage, 5-Minuten-Punkte), Rockstar-Endpoint-Probe und Preload-Countdown.
 - **Peaks & Records** — DE-CIX-All-Time-Peak, 2T-Peak, TTWO-52W-Hoch, Basket-Hoch, Wikipedia-Peak und Reddit-Top-Post — mit Real/Proxy-Label.
 - **Investor Watch** — Take-Two-IR-Termine, Q2-FY2027-Earnings-Call am 9. November 2026, Yahoo-Konsens (EPS/Umsatz), SEC-Filings und IR-Pressemitteilungen.
@@ -26,12 +29,18 @@ index.html               statisches Dashboard (GitHub Pages)
 assets/css/style.css     Rockstar-/Vice-City-Design
 assets/js/charts.js      SVG-Charts, Sparklines, Gauge, Tooltips
 assets/js/app.js         Daten laden, berechnen, rendern
+assets/js/hype.js        gemeinsame Score-Berechnung und Snapshot-Regeln
 scripts/collect.mjs      Orchestriert alle Quellen
 scripts/lib/stocks.mjs    Yahoo Finance Chart API
 scripts/lib/osint.mjs     Wikipedia, Google News, Reddit, Steam, Trends
 scripts/lib/network.mjs   DE-CIX Traffic API + Rockstar-Probe
 scripts/lib/investor.mjs  Take-Two IR + SEC EDGAR + Yahoo-Konsens
+scripts/lib/hype.mjs     Themen-RSS und Hype-Snapshots
+scripts/collect-hype.mjs  nur Themenradar und Hype-Verlauf aktualisieren
 data/*.json              committete Momentaufnahmen
+data/retail.json         manuell kuratierte Community-Funde (kein Collector)
+data/stores.json         manuell gepflegte Store-/Händlerlinks
+data/hype.json           Themen-Samples und 90-Tage-Score-Verlauf
 .github/workflows/       Cron + GitHub-Pages-Deploy
 ```
 
@@ -47,7 +56,7 @@ Es gibt keinen Build-Schritt. GitHub Pages liefert das Repository als statische 
 - **stündlich vom 10. bis 22. November 2026** — Preload-/Release-Fenster,
 - manuell über `workflow_dispatch`.
 
-Jeder Lauf schreibt `data/stocks.json`, `data/osint.json`, `data/network.json` und `data/meta.json`, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den klassischen Pages-Branch-Build.
+Jeder Lauf schreibt `data/stocks.json`, `data/osint.json`, `data/network.json`, `data/investor.json`, `data/hype.json` und `data/meta.json`, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den klassischen Pages-Branch-Build.
 
 Runner-Verzeichnis: `/home/huskynarr/gta-dashboard-runner`.  
 Runner-Log: `/home/huskynarr/gta-dashboard-runner/runner.log`.  
@@ -65,6 +74,8 @@ python3 -m http.server 4173
 
 Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collector-Skripte nutzen `fetch` aus Node.
 
+`npm test` prüft Score-Berechnung, veraltete/fehlende Quellen, Snapshot-Deduplizierung und RSS-Fehlerbehandlung. `npm run collect:hype` aktualisiert nur den Themenradar und ergänzt den Verlauf aus dem vorhandenen OSINT-Datenstand. Neue OSINT-Messungen erzeugt der vollständige Lauf mit `npm run collect`.
+
 ## Datenquellen
 
 | Quelle | Nutzung | Grenze |
@@ -75,11 +86,32 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 | Reddit / Arctic Shift | r/GTA6 Members, Posts pro Stunde, Top-Posts | 100-Post-Sample, kein vollständiger 7-Tage-Count |
 | Steam Web API | GTA V Concurrent Players | GTA VI ist (Stand jetzt) nicht auf Steam |
 | Google Trends RSS | DE/US Trending Searches | nur tägliche Trending-Liste, keine Zeitreihe |
+| X / @lucaslu_ckli | Community-Funde zu Netto und Edeka, Beiträge vom 8. November 2026 | Händlerzuordnung und Prospekte nicht unabhängig bestätigt; keine Umsatzdaten |
 | DE-CIX Traffic API | Frankfurt Traffic, 2 Tage / 5-Minuten-Punkte | öffentliche Statistik, keine Garantie auf Verfügbarkeit |
 | Rockstar / PlayStation | Endpoint-Status, Preload-Bestätigung | Latenz ist kein Traffic |
 | Take-Two IR | Earnings-Termin, Webcast, Annual Meeting, Pressemitteilungen | offizielle Termine, keine Garantie auf Umsetzung |
 | SEC EDGAR | 10-Q, 10-K, 8-K, DEF 14A | echte Filings, Veröffentlichung mit Verzug |
 | Yahoo Finance quoteSummary | Konsens-EPS und -Umsatz für Q2 FY2027 | Analystenschätzung, keine Garantie |
+
+## Retail Watch pflegen
+
+Die Fundliste liegt in `data/retail.json` und wird manuell gepflegt. `reviewedAt` ist das Datum der letzten redaktionellen Sichtung; `entries` enthält je Fund eine eindeutige `id`, `retailer`, eine zugeschriebene `summary`, `publishedAt` sowie `source` mit `label` und Original-`url`. `images` enthält optional Links zu den vom Autor geteilten Bildern.
+
+Neue Funde mit Quelle ergänzen und `reviewedAt` nach der Sichtung aktualisieren. Der Daten-Collector überschreibt diese Datei nicht. Es gibt keine automatische X-Abfrage und keinen Einfluss auf den Hype-Score. Bilder werden erst über die aufklappbaren Quellenlinks geöffnet, nicht beim Laden des Dashboards abgerufen.
+
+Die Händlerzuordnung stammt aus den Community-Beiträgen. Echtheit der Prospekte, offizielle Kooperationen, regionale Gültigkeit und Preise sind nicht unabhängig geprüft. Die Fundliste misst weder Umsatz noch Marktanteile oder die Anzahl aller Händler mit GTA-Bezug.
+
+Mit `storeId` verweist ein Fund optional auf einen Eintrag in `data/stores.json`. Dessen `entries` enthalten `id`, `name`, `category` (`games`, `merch`, `everyday`), `kind`, `description`, `url`, `action` und `verification`. `checked` bedeutet, dass die Seite beim Eintragen erfolgreich abgerufen wurde; `blocked` kennzeichnet einen blockierten automatischen Abruf. Das Datum steht in `reviewedAt`. Diese Liste wird nicht automatisch auf Preise oder Verfügbarkeit geprüft und enthält keine Affiliate-Links.
+
+## Hype-Analyse und Grenzen
+
+Der Hype-Score nutzt dieselbe Berechnung im Browser und im Collector: Wikipedia 45 %, englische News 35 %, Reddit 20 %. Die genaue Formel steht aufklappbar im Dashboard. Fehlende, fehlerhafte oder über 48 Stunden alte Quellen werden ausgeschlossen; verbleibende Gewichte werden neu verteilt. Ein gemessener Nullwert bleibt ein Messwert. Der Score misst Aufmerksamkeit, weder Stimmung noch Kaufabsicht.
+
+`data/hype.json` speichert höchstens einen Score pro Stunde anhand des tatsächlichen OSINT-Zeitstempels und hält bis zu 90 Tage vor. Es werden keine historischen Scores erfunden. Der Chart nutzt nur vollständige Snapshots derselben Formelversion und Quellenbasis; Veränderungen werden ebenfalls nur auf gleicher Quellenbasis verglichen. Nach Änderungen an der Formel muss `HYPE_VERSION` erhöht werden.
+
+Der Themenradar fragt vier Google-News-RSS-Suchen parallel ab. Er entfernt doppelte Links/identische Titel, ungültige URLs und Artikel außerhalb des Sieben-Tage-Fensters. Die Tages-Sparklines zeigen sieben UTC-Kalendertage; der 7T-Gesamtwert verwendet ein rollendes Sieben-Tage-Fenster. Google liefert höchstens 100 Ergebnisse je Abfrage; gedeckelte Samples werden markiert und bekommen keinen Momentumvergleich. Themen dürfen sich überschneiden und sind keine Marktanteile. Der 24h-Vergleich verwendet den Tagesdurchschnitt desselben 7T-Samples.
+
+Bei Fehlern bleibt der letzte erfolgreiche Themenstand mit seinem ursprünglichen Zeitstempel sichtbar und wird als veraltet markiert. Eine gültige leere RSS-Antwort bedeutet null Treffer; eine HTML-Fehlerseite gilt als Quellenausfall. Öffentliche Store-Verkaufszahlen, Wunschlisten, YouTube-Aufrufe sowie TikTok-/Twitch-Reichweiten werden nicht erhoben. Die entsprechenden Themenkarten messen Berichterstattung über diese Kanäle.
 
 ## Optimierungen
 
@@ -88,7 +120,7 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 - **Mobile Performance:** Auf kleinen Screens werden Grain, Sun-Animation und teure Backdrop-Filter reduziert; Charts bekommen eine lesbare Höhe.
 - **Weniger Doppelarbeit:** Aktien-Historien werden pro Objekt gecacht, Basket-Karten und Chart teilen sich die 30-Tage-Berechnung.
 - **Datenqualität:** Jede Kennzahl ist als `Real`, `Proxy` oder `Leading` markiert.
-- **Cache-Busting:** CSS/JS mit `?v=20261108` — verhindert stale Cloudflare-/Pages-Caches nach Deploys.
+- **Cache-Busting:** Versionsparameter an CSS/JS — verhindert stale Cloudflare-/Pages-Caches nach Deploys.
 - **SEO:** Canonical, Open-Graph/Twitter-Meta, `robots.txt`, `sitemap.xml` und Web-Manifest.
 - **Resilienz:** Fehlt eine Quelle, bleiben die letzten Daten sichtbar; der Quellenstatus wird `degraded`.
 - **Cron:** Der Track-Workflow läuft auf dem Self-hosted Runner; der Runner wird per Watchdog am Leben gehalten.

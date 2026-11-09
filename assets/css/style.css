@@ -1011,6 +1011,79 @@ img, svg { display: block; max-width: 100%; }
 }
 .trend-item.is-gta .trend-item__title { color: var(--pink); }
 
+.panel--retail { margin-top: 18px; }
+.retail-jump, .retail-card__source { color: var(--teal); }
+.retail-jump:hover, .retail-card__source:hover, .retail-evidence a:hover { text-decoration: underline; }
+.retail-intro { margin: 0 0 20px; color: var(--muted); }
+.retail-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.retail-card { min-width: 0; padding: 20px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02); }
+.retail-card__head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.retail-card h4 { margin: 0; font-size: 1.4rem; font-weight: 600; }
+.retail-card__summary { margin: 14px 0; line-height: 1.55; }
+.retail-card__meta, .retail-card__source, .retail-reviewed {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  line-height: 1.8;
+}
+.retail-card__meta { margin: 0 0 8px; color: var(--muted); }
+.retail-card__source { display: inline-block; overflow-wrap: anywhere; }
+.retail-evidence { margin-top: 16px; border-top: 1px solid var(--line); padding-top: 12px; font-size: 0.9rem; }
+.retail-evidence summary { cursor: pointer; color: var(--muted); }
+.retail-evidence summary:hover { color: var(--text); }
+.retail-evidence ul { margin: 10px 0 0; padding-left: 20px; }
+.retail-evidence li + li { margin-top: 6px; }
+.retail-note { margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; line-height: 1.6; }
+.retail-reviewed { margin: 10px 0 0; color: var(--muted); }
+.retail-empty { grid-column: 1 / -1; margin: 0; color: var(--muted); }
+.retail-card__store { display: block; width: fit-content; margin-top: 12px; color: var(--gold); font-size: 0.9rem; }
+.retail-card__store:hover { text-decoration: underline; }
+
+.panel--hype { margin-top: 18px; }
+.hype-overview { display: flex; align-items: center; gap: 28px; margin-bottom: 24px; }
+.hype-score { display: flex; align-items: baseline; gap: 10px; flex-shrink: 0; }
+.hype-score strong { font-family: var(--display); font-size: clamp(3.5rem, 7vw, 6rem); line-height: 1; color: var(--pink); }
+.hype-score span, .hype-meta { color: var(--muted); font-family: var(--mono); font-size: 0.62rem; line-height: 1.8; }
+.hype-verdict { margin: 0 0 6px; font-size: 1.4rem; font-weight: 600; }
+.hype-meta { margin: 6px 0; }
+.hype-signals { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.hype-signal, .hype-topic, .store-card { min-width: 0; padding: 20px; border: 1px solid var(--line); background: rgba(255, 255, 255, 0.02); }
+.hype-signal { display: flex; flex-direction: column; }
+.hype-signal h4, .hype-topic h4, .store-card h4, .hype-history h4 { margin: 0; font-size: 1.25rem; font-weight: 600; line-height: 1.3; }
+.hype-signal strong { font-family: var(--mono); color: var(--teal); }
+.hype-signal strong span { font-size: 0.6rem; color: var(--muted); }
+.hype-signal > p { margin: 12px 0; font-size: 0.92rem; line-height: 1.5; }
+.hype-signal meter { display: block; width: 100%; height: 9px; margin-top: auto; appearance: none; border: 0; border-radius: 5px; overflow: hidden; background: var(--bg-2); }
+.hype-signal meter::-webkit-meter-bar { border: 0; background: var(--bg-2); }
+.hype-signal meter::-webkit-meter-optimum-value { background: var(--teal); }
+.hype-signal meter::-moz-meter-bar { background: var(--teal); }
+.hype-signal__footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; margin-top: 14px; color: var(--muted); font-family: var(--mono); font-size: 0.56rem; line-height: 1.8; }
+.hype-signal__footer a { color: var(--teal); }
+.hype-signal__footer a:hover { text-decoration: underline; }
+.hype-signal__missing { color: var(--gold); }
+.hype-reading { margin: 20px 0; max-width: 110ch; font-size: 1rem; line-height: 1.65; }
+.hype-context { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
+.hype-context__item { min-width: 0; }
+.hype-context__item strong { font-size: 1.05rem; font-weight: 600; }
+.hype-context__item p { margin: 6px 0 0; font-size: 0.85rem; line-height: 1.5; color: var(--muted); }
+.hype-method { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--line); }
+.hype-method summary { cursor: pointer; color: var(--teal); }
+.hype-method p { max-width: 105ch; margin: 12px 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.6; }
+.hype-history { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
+.hype-topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.hype-topic__volume { margin: 14px 0 4px; color: var(--muted); }
+.hype-topic__volume strong { margin-right: 5px; font-family: var(--display); font-size: 2.3rem; line-height: 1; color: var(--text); }
+.hype-topic__spark { height: 40px; margin: 14px 0; overflow: hidden; }
+.hype-topic__momentum { margin: 8px 0; color: var(--teal); font-size: 0.9rem; }
+.store-filters { flex-wrap: wrap; margin-bottom: 18px; }
+.store-filters button { min-height: 44px; }
+.store-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+.store-card { display: flex; flex-direction: column; }
+.store-card h4 { margin: 4px 0 0; font-size: 1.4rem; }
+.store-card > p { margin: 14px 0 20px; font-size: 0.95rem; color: var(--muted); line-height: 1.5; }
+.store-card__action { display: flex; align-items: center; justify-content: center; min-height: 44px; margin-top: auto; padding: 10px 14px; border: 1px solid rgba(255, 46, 136, 0.5); color: var(--pink); font-weight: 600; text-align: center; }
+.store-card__action:hover { background: rgba(255, 46, 136, 0.1); border-color: var(--pink); }
+.store-card > .hype-meta { display: block; margin-top: 12px; font-size: 0.55rem; }
+
 .network-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr);
@@ -1260,6 +1333,8 @@ img, svg { display: block; max-width: 100%; }
   .stock-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .stat-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .osint-grid { grid-template-columns: 1fr; }
+  .hype-signals, .hype-context { grid-template-columns: 1fr; }
+  .store-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .panel--trends { grid-column: auto; }
   .timeline::before { left: 7px; }
   .timeline-item { grid-template-columns: 1fr; gap: 4px; padding-left: 30px; }
@@ -1283,6 +1358,9 @@ img, svg { display: block; max-width: 100%; }
   .stock-grid { grid-template-columns: 1fr; }
   .stat-grid { grid-template-columns: 1fr 1fr; }
   .method-grid { grid-template-columns: 1fr; }
+  .retail-grid { grid-template-columns: 1fr; }
+  .hype-topics, .store-grid { grid-template-columns: 1fr; }
+  .hype-overview { align-items: flex-start; flex-direction: column; gap: 16px; }
   .source-list { grid-template-columns: 1fr; }
   .stock-toolbar { align-items: flex-start; flex-direction: column; }
   .filter-tabs { flex-wrap: wrap; }

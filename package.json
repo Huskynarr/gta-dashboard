@@ -5,7 +5,9 @@
   "type": "module",
   "description": "GTA VI Release Intelligence Dashboard — Aktien, Krankenstand, OSINT und DE-CIX-Traffic.",
   "scripts": {
+    "test": "node --test scripts/tests/*.test.mjs",
     "collect": "node scripts/collect.mjs",
+    "collect:hype": "node scripts/collect-hype.mjs",
     "serve": "python3 -m http.server 4173"
   }
 }

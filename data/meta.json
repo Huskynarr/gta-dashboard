@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-08T21:42:04.379Z",
-  "startedAt": "2026-11-08T21:41:59.614Z",
-  "durationMs": 4765,
+  "lastRun": "2026-11-09T13:36:15.587Z",
+  "startedAt": "2026-11-09T13:36:10.175Z",
+  "durationMs": 5412,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -23,17 +23,19 @@
     "rockstar": "ok",
     "investor": "ok",
     "sec": "ok",
-    "estimates": "ok"
+    "estimates": "ok",
+    "hype": "ok"
   },
   "counts": {
     "stocks": 13,
-    "stockHistory": 3263,
-    "snapshots": 1,
+    "stockHistory": 3267,
+    "snapshots": 2,
     "wikiSeries": 4,
     "newsQueries": 4,
     "decixPoints": 573,
     "filings": 8,
-    "pressReleases": 3
+    "pressReleases": 3,
+    "hypeSnapshots": 2
   },
   "errors": []
 }

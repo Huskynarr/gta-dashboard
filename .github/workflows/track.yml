@@ -28,7 +28,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Collect market, OSINT and network data
+      - name: Collect market, OSINT, network and hype data
         run: node scripts/collect.mjs
 
       - name: Commit data snapshot

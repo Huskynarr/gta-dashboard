@@ -1,0 +1,36 @@
+{
+  "reviewedAt": "2026-11-09",
+  "entries": [
+    {
+      "id": "netto-2026-11-08",
+      "retailer": "Netto",
+      "storeId": "netto",
+      "summary": "Lucas beginnt seinen Thread mit Netto und zwei abgebildeten Prospektseiten. Er ordnet sie dem GTA-VI-Hype zu.",
+      "publishedAt": "2026-11-08T17:56:10Z",
+      "source": {
+        "label": "X · @lucaslu_ckli",
+        "url": "https://x.com/lucaslu_ckli/status/2119489167553929288"
+      },
+      "images": [
+        "https://pbs.twimg.com/media/HWnwJikWYAAF1-y.jpg?name=orig",
+        "https://pbs.twimg.com/media/HWnwKHUXcAA1kIN.jpg?name=orig"
+      ]
+    },
+    {
+      "id": "edeka-2026-11-08",
+      "retailer": "Edeka",
+      "storeId": "edeka",
+      "summary": "Im Folgebeitrag nennt Lucas auch Edeka und teilt drei weitere Prospektseiten. Sein Kommentar stellt einen Bezug zum Spielen von GTA VI her.",
+      "publishedAt": "2026-11-08T18:02:58Z",
+      "source": {
+        "label": "X · @lucaslu_ckli",
+        "url": "https://x.com/lucaslu_ckli/status/2119490880184701049"
+      },
+      "images": [
+        "https://pbs.twimg.com/media/HWnxs65WoAAGbHK.jpg?name=orig",
+        "https://pbs.twimg.com/media/HWnxtbcWYAAaOuL.jpg?name=orig",
+        "https://pbs.twimg.com/media/HWnxt9_XAAAcI1U.jpg?name=orig"
+      ]
+    }
+  ]
+}

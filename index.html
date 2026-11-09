@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css?v=20261108">
+  <link rel="stylesheet" href="./assets/css/style.css?v=20261109-hype">
 </head>
 <body>
   <a class="skip-link" href="#main">Zum Inhalt springen</a>
@@ -38,7 +38,7 @@
     <nav class="site-nav" id="siteNav" aria-label="Hauptnavigation">
       <a href="#market">Markt</a>
       <a href="#krankenstand">Krankenstand</a>
-      <a href="#osint">OSINT</a>
+      <a href="#osint">Hype &amp; Stores</a>
       <a href="#network">Netzwerk</a>
       <a href="#peaks">Peaks</a>
       <a href="#investor">Investor</a>
@@ -155,8 +155,17 @@
     <section class="section" id="osint">
       <div class="section__head reveal">
         <div><p class="kicker">03 / HYPE &amp; OSINT</p><h2>Was das Internet verrät.</h2></div>
-        <p class="section__lede">Wikipedia, Google News, Reddit, Steam und Google Trends: fünf Blicke auf dieselbe Frage — wie groß ist der Hype wirklich, und wo zeigt er sich zuerst?</p>
+        <p class="section__lede">Vom Trailer bis zum Supermarkt: Wir verfolgen Suchinteresse, Medien, Community und den Hype im Handel. <a class="retail-jump" href="#stores">Stores &amp; Merch ↓</a> · <a class="retail-jump" href="#hypeTopics">Themenradar ↓</a> · <a class="retail-jump" href="#retail">Prospekt-Funde ↓</a></p>
       </div>
+      <section class="panel panel--hype reveal" aria-labelledby="hypeTitle">
+        <div class="panel__head"><div><span class="panel__kicker">Hype Monitor · Proxy · 0–100</span><h3 id="hypeTitle">Wie heiß läuft der Hype?</h3></div><span class="badge" id="hypeCoverage">WIRD GELADEN</span></div>
+        <div class="hype-overview"><div class="hype-score"><strong id="hypeScore">—</strong><span>/ 100</span></div><div><p class="hype-verdict" id="hypeVerdict">Signale werden ausgewertet …</p><p class="hype-meta" id="hypeTrend"></p><p class="hype-meta" id="hypeUpdated"></p></div></div>
+        <div class="hype-signals" id="hypeSignals"></div>
+        <p class="hype-reading" id="hypeReading"></p>
+        <div class="hype-context" id="hypeContext"></div>
+        <details class="hype-method"><summary>Was steckt im Score?</summary><p>Suchinteresse 45 %: Mittel der EN-/DE-Wikipedia-Verhältnisse, letzte sieben Tage gegen die sieben Tage davor. Medienecho 35 %: englische RSS-Treffer der letzten 24 Stunden gegen den Tagesdurchschnitt des Sieben-Tage-Samples. Community 20 %: Posts pro Stunde im Reddit-Sample.</p><p>Die Teilwerte werden auf 0–100 begrenzt: Wikipedia = 50 + (Verhältnis − 1) × 42; News = 50 + ((24h + 0,6) / (7T / 7 + 0,6) − 1) × 42; Reddit = Posts/h × 3,2. Bei fehlenden Quellen werden die verbleibenden Gewichte neu verteilt. Fehlerhafte oder über 48 Stunden alte Daten werden nicht gewertet.</p><p>Redaktionell gewählte Gewichtung; Aufmerksamkeit ist keine Stimmungsmessung und keine Absatzprognose. Store-Verkäufe, Wunschlisten, YouTube-Aufrufe und TikTok-Reichweiten werden nicht gemessen. Retail Watch bleibt ein qualitatives Signal.</p></details>
+        <div class="hype-history"><h4>Hype im Zeitverlauf</h4><div class="chart" id="hypeChart"></div><p class="hype-meta" id="hypeHistoryNote"></p></div>
+      </section>
       <div class="panel panel--chart reveal">
         <div class="panel__head">
           <div><span class="panel__kicker">Wikipedia Pageviews · Proxy</span><h3>Wie viele Menschen nach Leonida suchen</h3></div>
@@ -171,6 +180,35 @@
         <div class="panel panel--reddit reveal"><div class="panel__head"><div><span class="panel__kicker">r/GTA6 · Arctic Shift</span><h3>Reddit Pulse</h3></div><span class="badge" id="redditBadge">--</span></div><div class="reddit-list" id="redditList"></div></div>
         <div class="panel panel--trends reveal"><div class="panel__head"><div><span class="panel__kicker">Google Trends · DE/US</span><h3>Trending Now</h3></div></div><div class="trend-list" id="trendList"></div></div>
       </div>
+      <section class="panel panel--hype reveal" id="hypeTopics" aria-labelledby="hypeTopicsTitle">
+        <div class="panel__head"><div><span class="panel__kicker">Themenradar · Google News RSS · DE</span><h3 id="hypeTopicsTitle">Worüber gerade gesprochen wird.</h3></div><span class="badge" id="hypeTopicsBadge">WIRD GELADEN</span></div>
+        <p class="retail-intro">Handel, Hardware, Creator und Release-Fragen: gezielte Suchabfragen zeigen, wo GTA VI Schlagzeilen macht. Jede Karte verlinkt ihre Belege.</p>
+        <div class="hype-topics" id="hypeTopicList"></div>
+        <p class="retail-note">RSS-Stichproben mit höchstens 100 Ergebnissen je Abfrage. Themen überschneiden sich; Trefferzahlen sind keine Marktanteile und messen keine Social-Media-Reichweite.</p>
+      </section>
+      <section class="panel panel--hype reveal" id="stores" aria-labelledby="storesTitle">
+        <div class="panel__head"><div><span class="panel__kicker">Store Directory · Spiele, Merch &amp; Alltag</span><h3 id="storesTitle">Wo der Hype landet.</h3></div><span class="badge" id="storeCount" aria-live="polite">WIRD GELADEN</span></div>
+        <p class="retail-intro">Direkt zu den Konsolen-Stores, Händlern und zur GTA-VI-Collection. Bei den Supermärkten findest du die offiziellen Anlaufstellen zu den Community-Funden.</p>
+        <div class="filter-tabs store-filters" id="storeFilters" role="group" aria-label="Store-Kategorie">
+          <button type="button" data-store-filter="all" class="is-active" aria-pressed="true">Alle</button>
+          <button type="button" data-store-filter="games" aria-pressed="false">Spiel &amp; Stores</button>
+          <button type="button" data-store-filter="merch" aria-pressed="false">Merch</button>
+          <button type="button" data-store-filter="everyday" aria-pressed="false">Supermarkt</button>
+        </div>
+        <div class="store-grid" id="storeList"></div>
+        <p class="retail-note" id="storesReviewed">Preise, Editionen und Verfügbarkeit stehen beim jeweiligen Anbieter. Keine Affiliate-Links. Ein Store-Link allein belegt keine Nachfrage oder Kooperation.</p>
+      </section>
+      <section class="panel panel--retail reveal" id="retail" aria-labelledby="retailTitle">
+        <div class="panel__head">
+          <div><span class="panel__kicker">Retail Watch · Community · Proxy</span><h3 id="retailTitle">Der Hype im Supermarkt.</h3></div>
+          <span class="badge" id="retailBadge">WIRD GELADEN</span>
+        </div>
+        <p class="retail-intro">Welche Händler tauchen im GTA-VI-Gespräch auf? Prospekt-Funde aus der Community zeigen, wie der Release im Alltag ankommt.</p>
+        <div class="retail-grid" id="retailList"></div>
+        <noscript><p>Für die Fundliste bitte JavaScript aktivieren. <a class="retail-jump" href="https://x.com/lucaslu_ckli/status/2119489167553929288" target="_blank" rel="noopener">Original-Thread von @lucaslu_ckli ↗</a></p></noscript>
+        <p class="retail-note">Manuell kuratierte Community-Beobachtungen. Händlerzuordnung, Echtheit der Prospekte und offizielle Kooperationen sind nicht unabhängig bestätigt. Die Funde fließen nicht in den Hype-Score ein und belegen keine Umsatzwirkung.</p>
+        <p class="retail-reviewed" id="retailReviewed"></p>
+      </section>
     </section>
 
     <section class="section" id="network">
@@ -239,14 +277,15 @@
       <div class="method-grid">
         <article class="method-card reveal"><span class="method-card__num">01</span><h3>Aktien</h3><p>Yahoo-Finance-Chart-API, ein Jahr Tageshistorie. Morgens und abends wird ein Snapshot gezogen. Equal-Weight-Baskets mitteln Tagesrenditen, keine Kursziele.</p></article>
         <article class="method-card reveal"><span class="method-card__num">02</span><h3>Krankenstand</h3><p>Wikipedia-Pageviews und Google-News-Volumen für Krankmeldung, Krankenstand und Arbeitsunfähigkeit. Offizielle Krankenkassen-Daten erscheinen mit Verzug — das hier ist ein Leading Indicator.</p></article>
-        <article class="method-card reveal"><span class="method-card__num">03</span><h3>OSINT</h3><p>Wikipedia, Google News RSS, Reddit via Arctic Shift, Steam-Spielerzahlen und Google Trends. Jede Quelle wird einzeln als „ok“ oder „degraded“ markiert.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">03</span><h3>Hype &amp; OSINT</h3><p>Erklärter Hype-Score aus Wikipedia (45 %), News (35 %) und Reddit (20 %). Zusätzlich Steam, Trends und vier News-Themenfelder. Der Verlauf speichert echte Snapshots; ältere Daten und Ausfälle sind gekennzeichnet.</p></article>
         <article class="method-card reveal"><span class="method-card__num">04</span><h3>Netzwerk</h3><p>DE-CIX-Frankfurt-API (2 Tage, 5-Minuten-Punkte) und ein Rockstar-Endpoint-Probe. Latenz ist keine Traffic-Messung, sondern ein Verfügbarkeits-Signal.</p></article>
         <article class="method-card reveal"><span class="method-card__num">05</span><h3>Investor</h3><p>Take-Two-IR-Seite und SEC-EDGAR-Submissions: Earnings-Termin, Webcast, Annual Meeting und die neuesten 10-Q-, 10-K-, 8-K- und DEF-14A-Filings.</p></article>
-        <article class="method-card reveal"><span class="method-card__num">06</span><h3>Datenqualität</h3><p><strong>Real</strong> = Aktien, DE-CIX, SEC/IR. <strong>Proxy</strong> = Wikipedia, News, Reddit, Trends. <strong>Leading</strong> = Sick-Leave-Signal. Jede Karte ist entsprechend markiert.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">06</span><h3>Retail Watch</h3><p>Manuell kuratierte Prospekt-Funde mit Originalbeitrag, Veröffentlichungsdatum und Links zu den geteilten Bildern. Community-Beobachtungen sind ein qualitativer Proxy; Händleraktionen und Umsatzwirkungen sind damit nicht bestätigt.</p></article>
+        <article class="method-card reveal"><span class="method-card__num">07</span><h3>Datenqualität</h3><p><strong>Real</strong> = Aktien, DE-CIX, SEC/IR. <strong>Proxy</strong> = Wikipedia, News, Reddit, Trends, Retail Watch. <strong>Leading</strong> = Sick-Leave-Signal. Jede Karte ist entsprechend markiert.</p></article>
       </div>
       <div class="panel panel--sources reveal">
         <div class="panel__head"><div><span class="panel__kicker">Transparenz</span><h3>Quellen &amp; Grenzen</h3></div><span class="badge" id="sourceStatus">--</span></div>
-        <div class="quality-legend"><span class="quality is-real">Real</span> Markt, Netzwerk, SEC/IR <span class="quality is-proxy">Proxy</span> Wikipedia, News, Reddit, Trends <span class="quality is-leading">Leading</span> Sick Leave Signal</div>
+        <div class="quality-legend"><span class="quality is-real">Real</span> Markt, Netzwerk, SEC/IR <span class="quality is-proxy">Proxy</span> Wikipedia, News, Reddit, Trends, Retail Watch <span class="quality is-leading">Leading</span> Sick Leave Signal</div>
         <div class="source-list" id="sourceList"></div>
         <p class="disclaimer">Kein Finanzrat, keine Anlageempfehlung. Dieses Dashboard ist ein Fan-Projekt und steht in keiner Verbindung zu Rockstar Games oder Take-Two. Alle Daten kommen aus öffentlichen Quellen; Fehler und Verzögerungen sind möglich.</p>
       </div>
@@ -259,6 +298,6 @@
     <p class="footer__legal">© 2026 Huskynarr · Daten: Yahoo Finance, Wikipedia, Google News, Reddit/Arctic Shift, Steam, Google Trends, DE-CIX · <span id="lastUpdate">letztes Update: --</span></p>
   </footer>
 
-  <script type="module" src="./assets/js/app.js?v=20261109"></script>
+  <script type="module" src="./assets/js/app.js?v=20261109-hype"></script>
 </body>
 </html>
