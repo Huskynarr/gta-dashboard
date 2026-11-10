@@ -144,6 +144,7 @@ async function main() {
       decixHistory: network?.sources?.decixHistory || 'degraded',
       decixSites: network?.sources?.decixSites || 'degraded',
       reddit: osint?.sources?.reddit || 'degraded',
+      redditGta: osint?.sources?.redditGta || 'degraded',
       steam: osint?.sources?.steam || 'degraded',
       trends: osint?.sources?.trends || 'degraded',
       rockstar: osint?.sources?.rockstar || 'degraded',

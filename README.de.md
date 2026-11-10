@@ -106,9 +106,9 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 | Quelle | Nutzung | Grenze |
 | --- | --- | --- |
 | Yahoo Finance Chart API | Tageskurse, 1 Jahr Historie, Snapshots | inoffizielle API, Rate-Limits möglich |
-| Wikipedia Pageviews API | GTA VI, Krankenstand, Arbeitsunfähigkeit | Suchinteresse, keine echten Krankmeldungen |
-| Google News RSS | Artikelvolumen und Schlagzeilen | max. 100 Treffer pro Query |
-| Reddit / Arctic Shift | r/GTA6 Members, Posts pro Stunde, Top-Posts | 100-Post-Sample, kein vollständiger 7-Tage-Count |
+| Wikipedia Pageviews API | GTA VI (EN/DE/FR), GTA-Reihe, GTA V, Rockstar Games, Krankenstand, Arbeitsunfähigkeit | Suchinteresse, keine echten Krankmeldungen |
+| Google News RSS | Artikelvolumen und Schlagzeilen für `"GTA 6" OR "GTA VI" OR "Grand Theft Auto VI"` und für Leonida/Vice City (immer mit GTA kombiniert, weil "Leonida" allein auch Leonidas findet) | max. 100 Treffer pro Query |
+| Reddit / Arctic Shift | r/GTA6 und r/GTA Members, Posts pro Stunde, Top-Posts | 100-Post-Sample, kein vollständiger 7-Tage-Count |
 | Steam Web API | GTA V Concurrent Players | GTA VI ist (Stand jetzt) nicht auf Steam |
 | Google Trends RSS | DE/US Trending Searches | nur tägliche Trending-Liste, keine Zeitreihe |
 | X / @lucaslu_ckli | Community-Funde zu Netto und Edeka, Beiträge vom 8. November 2026 | Händlerzuordnung und Prospekte nicht unabhängig bestätigt; keine Umsatzdaten |

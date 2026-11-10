@@ -95,6 +95,7 @@ const SOURCE_LABELS = {
   osint: 'OSINT · Wikipedia / News / Reddit / Steam / Trends',
   network: 'Netzwerk · DE-CIX Frankfurt',
   reddit: 'Reddit · Arctic Shift',
+  redditGta: 'Reddit r/GTA · Arctic Shift',
   steam: 'Steam · GTA V',
   trends: 'Google Trends · DE/US',
   rockstar: 'Rockstar · Endpoint-Probe',
@@ -632,12 +633,16 @@ function renderSick() {
 function renderWiki() {
   const osint = state.osint;
   if (!osint) return;
-  const en = osint.wikipedia?.gta_en;
-  const de = osint.wikipedia?.gta_de;
+  const wikiSeries = (key, label, color) => ({
+    label,
+    color,
+    data: (osint.wikipedia?.[key]?.series || []).slice(-state.wikiRange).map((point) => ({ x: point.date, y: point.views })),
+  });
 
   const series = [
-    { label: 'GTA VI · EN', color: '#ff2e88', data: (en?.series || []).slice(-state.wikiRange).map((point) => ({ x: point.date, y: point.views })) },
-    { label: 'GTA VI · DE', color: '#21e6c1', data: (de?.series || []).slice(-state.wikiRange).map((point) => ({ x: point.date, y: point.views })) },
+    wikiSeries('gta_en', 'GTA VI · EN', '#ff2e88'),
+    wikiSeries('gta_de', 'GTA VI · DE', '#21e6c1'),
+    wikiSeries('gta_fr', 'GTA VI · FR', '#ffc857'),
   ];
 
   createLineChart($('#wikiChart'), series, {
@@ -650,13 +655,29 @@ function renderWiki() {
     ariaLabel: 'Wikipedia-Pageviews zu Grand Theft Auto VI',
   });
 
+  const legendHtml = (entries) => entries.map((entry) => {
+    const latest = entry.data.at(-1)?.y;
+    return `<span class="chart__legend-item" style="color:${entry.color}"><i class="chart__legend-swatch" style="background:${entry.color}"></i>${escapeHtml(entry.label)} <strong>${latest != null ? compact(latest) : '—'}</strong></span>`;
+  }).join('');
+
   const legend = $('#wikiLegend');
-  if (legend) {
-    legend.innerHTML = series.map((entry) => {
-      const latest = entry.data.at(-1)?.y;
-      return `<span class="chart__legend-item" style="color:${entry.color}"><i class="chart__legend-swatch" style="background:${entry.color}"></i>${escapeHtml(entry.label)} <strong>${latest != null ? compact(latest) : '—'}</strong></span>`;
-    }).join('');
-  }
+  if (legend) legend.innerHTML = legendHtml(series);
+
+  const context = [
+    wikiSeries('gta_series', 'Grand Theft Auto · Reihe', '#9b5cff'),
+    wikiSeries('gta5_en', 'GTA V', '#ff7a18'),
+    wikiSeries('rockstar_en', 'Rockstar Games', '#4ef29d'),
+  ];
+  createLineChart($('#wikiContextChart'), context, {
+    height: 280,
+    valueFormat: (value) => intFmt.format(Math.round(value)),
+    yFormat: (value) => (value >= 1000 ? `${Math.round(value / 1000)}k` : intFmt.format(Math.round(value))),
+    xFormat: (time) => dateShort(time),
+    min: 0,
+    ariaLabel: 'Wikipedia-Pageviews zur GTA-Reihe, zu GTA V und zu Rockstar Games',
+  });
+  const contextLegend = $('#wikiContextLegend');
+  if (contextLegend) contextLegend.innerHTML = legendHtml(context);
 }
 
 function renderOsint() {
@@ -668,7 +689,9 @@ function renderOsint() {
   const wikiDe = osint.wikipedia?.gta_de;
   const newsEn = osint.news?.gta_en;
   const newsDe = osint.news?.gta_de;
+  const lore = osint.news?.lore;
   const reddit = osint.reddit;
+  const redditGta = osint.redditGta;
   const steam = osint.steam;
   const hype = computeHypeScore();
 
@@ -679,6 +702,8 @@ function renderOsint() {
       ['GTA VI · DE', wikiDe ? compact(wikiDe.recent7) : '—', 'Pageviews · 7T'],
       ['News · 24h', newsEn ? intFmt.format(newsEn.count24h) : '—', newsEn ? `${intFmt.format(newsEn.count7d)} Artikel in 7T` : 'Google News · EN'],
       ['r/GTA6', reddit?.subscribers ? compact(reddit.subscribers) : '—', reddit?.postsPerHour != null ? `${reddit.postsPerHour.toFixed(1).replace('.', ',')} Posts/h · ${reddit.sampleHours ?? '—'}h Sample` : 'Reddit Members'],
+      ['Leonida & Vice City', lore && !lore.error ? intFmt.format(lore.count24h) : '—', lore && !lore.error ? `${intFmt.format(lore.count7d)} Artikel in 7T` : 'Google News · EN'],
+      ['r/GTA', redditGta?.subscribers ? compact(redditGta.subscribers) : '—', redditGta?.postsPerHour != null ? `${redditGta.postsPerHour.toFixed(1).replace('.', ',')} Posts/h · ${redditGta.sampleHours ?? '—'}h Sample` : 'Reddit Members'],
       ['Steam · GTA V', steam?.gta5 != null ? compact(steam.gta5) : '—', 'Concurrent Players'],
       ['Hype Signal', hype != null ? `${hype}/100` : '—', 'OSINT Composite · 0–100'],
     ].map(([label, value, sub]) => `<div class="stat"><span class="stat__label">${escapeHtml(label)}</span><span class="stat__value">${escapeHtml(value)}</span><span class="stat__sub">${escapeHtml(sub)}</span></div>`).join('');

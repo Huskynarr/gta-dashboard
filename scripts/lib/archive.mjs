@@ -102,6 +102,7 @@ export function extendArchives({
     news: { ...(existingNewsArchive?.news || {}) },
     hype: { ...(existingNewsArchive?.hype || {}) },
     reddit: existingNewsArchive?.reddit || [],
+    redditGta: existingNewsArchive?.redditGta || [],
     trends: existingNewsArchive?.trends || [],
   };
 
@@ -137,6 +138,10 @@ export function extendArchives({
 
   // Reddit top posts and GTA-related Google Trends entries.
   newsArchive.reddit = mergeItems(newsArchive.reddit, osint?.reddit?.topPosts || [], (post) => post.id || post.link, {
+    seenAt,
+    sortKey: (post) => String(post.createdUtc ?? '').padStart(12, '0'),
+  });
+  newsArchive.redditGta = mergeItems(newsArchive.redditGta, osint?.redditGta?.topPosts || [], (post) => post.id || post.link, {
     seenAt,
     sortKey: (post) => String(post.createdUtc ?? '').padStart(12, '0'),
   });
@@ -186,6 +191,14 @@ export function extendArchives({
           posts24h: osint.reddit.posts24h,
           postsPerHour: osint.reddit.postsPerHour,
           topScore: osint.reddit.topPosts?.[0]?.score ?? null,
+        }
+      : null,
+    redditGta: osint?.redditGta && !osint.redditGta.error
+      ? {
+          subscribers: osint.redditGta.subscribers,
+          posts24h: osint.redditGta.posts24h,
+          postsPerHour: osint.redditGta.postsPerHour,
+          topScore: osint.redditGta.topPosts?.[0]?.score ?? null,
         }
       : null,
     steam: osint?.steam && !osint.steam.error ? { gta5: osint.steam.gta5 } : null,

@@ -105,9 +105,9 @@ Node 22 or newer is required. There are no npm dependencies; the collectors use 
 | Source | Usage | Limit |
 | --- | --- | --- |
 | Yahoo Finance chart API | daily prices, 1 year history, snapshots | unofficial API, rate limits possible |
-| Wikipedia Pageviews API | GTA VI, sick leave, incapacity to work | search interest, not actual sick notes |
-| Google News RSS | article volume and headlines | max. 100 results per query |
-| Reddit / Arctic Shift | r/GTA6 members, posts per hour, top posts | 100-post sample, no complete 7-day count |
+| Wikipedia Pageviews API | GTA VI (EN/DE/FR), the GTA series, GTA V, Rockstar Games, sick leave, incapacity to work | search interest, not actual sick notes |
+| Google News RSS | article volume and headlines for `"GTA 6" OR "GTA VI" OR "Grand Theft Auto VI"` and for Leonida/Vice City (always combined with GTA, since "Leonida" alone also matches Leonidas) | max. 100 results per query |
+| Reddit / Arctic Shift | r/GTA6 and r/GTA members, posts per hour, top posts | 100-post sample, no complete 7-day count |
 | Steam Web API | GTA V concurrent players | GTA VI is not on Steam (as of now) |
 | Google Trends RSS | DE/US trending searches | daily trending list only, no time series |
 | X / @lucaslu_ckli | community finds for Netto and Edeka, posts from 8 November 2026 | retailer attribution and flyers not independently verified; no sales data |

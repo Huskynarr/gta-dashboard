@@ -12,7 +12,13 @@ Automated data refreshes (`chore(data)`) are not listed.
 - Network Watch compares DE-CIX Frankfurt with New York, Madrid and Dubai (same DE-CIX traffic API). Each site is shown as a percentage of its own all-time peak, so the PS5 preload wave through the time zones and the simultaneous Xbox start at 00:00 GMT become visible.
 - `data/decix-sites.json`: append-only 5-minute history since 1 November 2026 plus daily peaks for the additional sites; hourly snapshots in `timeline.json` include their live values (`decixSites`).
 
+- More search terms: Google News query `lore` for Leonida/Vice City (combined with GTA), Wikipedia pageviews for GTA VI (FR), the GTA series, GTA V and Rockstar Games (new "Around GTA VI" chart), and r/GTA next to r/GTA6 (`osint.redditGta`, archived in `news-archive.json` and `timeline.json`).
+
+### Changed
+- The GTA VI Google News queries now also match "GTA VI". The 7-day count was already capped at 100; the 24-hour count, which feeds the hype score's media channel, may rise slightly from 10 November 2026.
+
 ### Fixed
+- Reddit collection retries Arctic Shift's sporadic HTTP 422 "Timeout. Maybe slow down a bit" instead of marking the source degraded.
 - `2T`/`7T` range buttons are now translated to `2D`/`7D` (EN) and `2J`/`7J` (FR).
 
 ## [1.6.0] - 2026-11-09

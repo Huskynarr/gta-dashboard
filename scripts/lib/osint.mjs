@@ -24,6 +24,31 @@ const WIKI_ARTICLES = [
     article: 'Grand_Theft_Auto_VI',
   },
   {
+    key: 'gta_fr',
+    label: 'GTA VI · FR',
+    project: 'fr.wikipedia',
+    article: 'Grand_Theft_Auto_VI',
+  },
+  // Context articles: the series, the predecessor people catch up on, the studio.
+  {
+    key: 'gta_series',
+    label: 'Grand Theft Auto · Reihe',
+    project: 'en.wikipedia',
+    article: 'Grand_Theft_Auto',
+  },
+  {
+    key: 'gta5_en',
+    label: 'GTA V · EN',
+    project: 'en.wikipedia',
+    article: 'Grand_Theft_Auto_V',
+  },
+  {
+    key: 'rockstar_en',
+    label: 'Rockstar Games · EN',
+    project: 'en.wikipedia',
+    article: 'Rockstar_Games',
+  },
+  {
     key: 'sick_stand',
     label: 'Krankenstand · DE',
     project: 'de.wikipedia',
@@ -41,7 +66,7 @@ const NEWS_QUERIES = [
   {
     key: 'gta_en',
     label: 'GTA VI · EN',
-    query: '("GTA 6" OR "Grand Theft Auto VI")',
+    query: '("GTA 6" OR "GTA VI" OR "Grand Theft Auto VI")',
     hl: 'en-US',
     gl: 'US',
     ceid: 'US:en',
@@ -49,10 +74,20 @@ const NEWS_QUERIES = [
   {
     key: 'gta_de',
     label: 'GTA VI · DE',
-    query: '("GTA 6" OR "Grand Theft Auto VI")',
+    query: '("GTA 6" OR "GTA VI" OR "Grand Theft Auto VI")',
     hl: 'de',
     gl: 'DE',
     ceid: 'DE:de',
+  },
+  {
+    // Game-world terms. "GTA" alone is not used anywhere: it also matches GTA V,
+    // GTA Online and the Greater Toronto Area. "Leonida" alone matches Leonidas.
+    key: 'lore',
+    label: 'Leonida & Vice City',
+    query: '(Leonida OR "Vice City") (GTA OR "Grand Theft Auto")',
+    hl: 'en-US',
+    gl: 'US',
+    ceid: 'US:en',
   },
   {
     key: 'sick_de',
@@ -231,11 +266,23 @@ async function collectNews() {
   return { output, errors };
 }
 
-async function collectReddit(existing) {
+// Arctic Shift answers uncached searches with HTTP 422 "Timeout. Maybe slow
+// down a bit"; the same request succeeds a moment later.
+async function fetchArcticShift(url) {
+  for (let attempt = 1; ; attempt += 1) {
+    try {
+      return await fetchJson(url, { headers: { Accept: 'application/json' } });
+    } catch (error) {
+      if (error.status !== 422 || attempt === 3) throw error;
+      await sleep(1500 * attempt);
+    }
+  }
+}
+
+async function collectReddit(existing, subredditName = 'GTA6') {
   try {
-    const info = await fetchJson(
-      'https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GTA6',
-      { headers: { Accept: 'application/json' } },
+    const info = await fetchArcticShift(
+      `https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=${subredditName}`,
     );
 
     const subreddit = info?.data?.[0];
@@ -243,18 +290,16 @@ async function collectReddit(existing) {
 
     let postsJson;
     try {
-      postsJson = await fetchJson(
+      postsJson = await fetchArcticShift(
         'https://arctic-shift.photon-reddit.com/api/posts/search' +
-          '?subreddit=GTA6&limit=100&sort=desc' +
+          `?subreddit=${subredditName}&limit=100&sort=desc` +
           '&fields=created_utc,score,title,num_comments,id',
-        { headers: { Accept: 'application/json' } },
       );
     } catch (error) {
       // Fallback: some Arctic-Shift deployments reject the `fields` parameter.
-      postsJson = await fetchJson(
+      postsJson = await fetchArcticShift(
         'https://arctic-shift.photon-reddit.com/api/posts/search' +
-          '?subreddit=GTA6&limit=100&sort=desc',
-        { headers: { Accept: 'application/json' } },
+          `?subreddit=${subredditName}&limit=100&sort=desc`,
       );
     }
 
@@ -265,8 +310,8 @@ async function collectReddit(existing) {
       comments: post.num_comments ?? 0,
       createdUtc: post.created_utc,
       link: post.id
-        ? `https://www.reddit.com/r/GTA6/comments/${post.id}`
-        : 'https://www.reddit.com/r/GTA6/',
+        ? `https://www.reddit.com/r/${subredditName}/comments/${post.id}`
+        : `https://www.reddit.com/r/${subredditName}/`,
     }));
 
     const now = Date.now() / 1000;
@@ -280,7 +325,7 @@ async function collectReddit(existing) {
     );
 
     return {
-      subreddit: 'GTA6',
+      subreddit: subredditName,
       peakPost: peakPost.score
         ? {
             score: peakPost.score,
@@ -460,11 +505,15 @@ function preloadStatus(now = new Date()) {
 }
 
 export async function collectOsint(existing = null) {
-  const [wikipedia, news, reddit, steam, trends, rockstar, playstation] =
+  const [wikipedia, news, [reddit, redditGta], steam, trends, rockstar, playstation] =
     await Promise.all([
       collectWikipedia(),
       collectNews(),
-      collectReddit(existing?.reddit),
+      // Sequential: Arctic Shift answers parallel searches with sporadic HTTP 422.
+      collectReddit(existing?.reddit, 'GTA6').then(async (main) => [
+        main,
+        await collectReddit(existing?.redditGta, 'GTA'),
+      ]),
       collectSteam(),
       collectTrends(),
       probeRockstar(),
@@ -482,6 +531,7 @@ export async function collectOsint(existing = null) {
     wikipedia: wikipedia.output,
     news: news.output,
     reddit,
+    redditGta,
     steam,
     trends: trends.output,
     rockstar,
@@ -500,6 +550,7 @@ export async function collectOsint(existing = null) {
       wikipedia: errors.some((e) => e.startsWith('wiki:')) ? 'degraded' : 'ok',
       news: errors.some((e) => e.startsWith('news:')) ? 'degraded' : 'ok',
       reddit: reddit?.error ? 'degraded' : 'ok',
+      redditGta: redditGta?.error ? 'degraded' : 'ok',
       steam: steam?.error ? 'degraded' : 'ok',
       trends: errors.some((e) => e.startsWith('trends:')) ? 'degraded' : 'ok',
       rockstar: rockstar?.ok ? 'ok' : 'degraded',

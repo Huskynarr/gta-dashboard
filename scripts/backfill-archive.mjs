@@ -76,6 +76,7 @@ for (const group of ['news', 'hype']) {
   }
 }
 existingNewsArchive.reddit = mergeItems(acc.newsArchive?.reddit, current.newsArchive?.reddit, (post) => post.id || post.link);
+existingNewsArchive.redditGta = mergeItems(acc.newsArchive?.redditGta, current.newsArchive?.redditGta, (post) => post.id || post.link);
 existingNewsArchive.trends = mergeItems(acc.newsArchive?.trends, current.newsArchive?.trends, (item) => `${item.geo}|${item.title}|${item.pubDate}`);
 
 const { timeline, newsArchive } = extendArchives({
