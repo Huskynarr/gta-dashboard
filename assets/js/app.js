@@ -100,6 +100,7 @@ const SOURCE_LABELS = {
   rockstar: 'Rockstar · Endpoint-Probe',
   decix: 'DE-CIX · Traffic-API',
   decixHistory: 'DE-CIX · November-Archiv',
+  decixSites: 'DE-CIX · New York / Madrid / Dubai',
   playstation: 'PlayStation · Preload-Seite',
   investor: 'Investor · Take-Two IR',
   sec: 'SEC EDGAR · Filings',
@@ -112,6 +113,7 @@ const state = {
   osint: null,
   network: null,
   decixHistory: null,
+  decixSites: null,
   investor: null,
   meta: null,
   retail: null,
@@ -121,6 +123,7 @@ const state = {
   marketRange: 90,
   wikiRange: 90,
   decixRange: 2,
+  sitesRange: 2,
   group: 'all',
 };
 
@@ -352,7 +355,7 @@ function computeSickSignal() {
 }
 
 async function loadData() {
-  const files = ['stocks', 'osint', 'network', 'decix-history', 'investor', 'meta', 'retail', 'hype', 'stores'];
+  const files = ['stocks', 'osint', 'network', 'decix-history', 'investor', 'meta', 'retail', 'hype', 'stores', 'decix-sites'];
   const results = await Promise.all(
     files.map(async (name) => {
       try {
@@ -366,7 +369,7 @@ async function loadData() {
     }),
   );
 
-  [state.stocks, state.osint, state.network, state.decixHistory, state.investor, state.meta, state.retail, state.hype, state.stores] = results;
+  [state.stocks, state.osint, state.network, state.decixHistory, state.investor, state.meta, state.retail, state.hype, state.stores, state.decixSites] = results;
   if (!state.stocks || !state.osint) {
     const banner = document.createElement('div');
     banner.className = 'data-banner';
@@ -1068,6 +1071,79 @@ function renderNetwork() {
   }
 }
 
+const SITE_COLORS = { FRA: '#21e6c1', NYC: '#ff2e88', MAD: '#ffc857', DXB: '#9b5cff' };
+
+/** Max per time bucket, so 30 days × 4 sites stay a light SVG while peaks survive. */
+function bucketMax(points, bucketMs) {
+  if (bucketMs <= 300000) return points;
+  const buckets = new Map();
+  for (const [clock, value] of points) {
+    const key = Math.floor(clock / bucketMs) * bucketMs;
+    if (!buckets.has(key) || value > buckets.get(key)) buckets.set(key, value);
+  }
+  return [...buckets.entries()].sort((a, b) => a[0] - b[0]);
+}
+
+function renderDecixSites() {
+  const container = $('#decixSitesChart');
+  if (!container) return;
+  const fraHistory = state.decixHistory?.points || [];
+  const fraLive = (state.network?.decix?.traffic2d || []).map((point) => [point.clock, point.value]);
+  const fraPoints = [...new Map([...fraHistory, ...fraLive]).entries()].sort((a, b) => a[0] - b[0]);
+  const sites = [
+    {
+      key: 'FRA',
+      label: 'Frankfurt',
+      points: fraPoints,
+      allTimePeak: state.network?.decix?.meta?.allTimePeak,
+      current: state.network?.decix?.meta?.current,
+    },
+    ...Object.values(state.decixSites?.sites || {}).map((site) => ({
+      key: site.key,
+      label: site.label,
+      points: site.points || [],
+      allTimePeak: site.meta?.allTimePeak || site.monthPeak,
+      current: site.meta?.current,
+    })),
+  ].filter((site) => site.points.length && site.allTimePeak);
+
+  if (!sites.length) {
+    container.innerHTML = '<p class="chart__empty">Standort-Daten gerade nicht verfügbar.</p>';
+    return;
+  }
+
+  const range = state.sitesRange || 2;
+  const latest = Math.max(...sites.map((site) => site.points.at(-1)[0]));
+  const cutoff = latest - range * 86400000;
+  const bucket = range === 2 ? 300000 : range === 7 ? 1800000 : 3600000;
+  const series = sites.map((site) => ({
+    label: site.label,
+    color: SITE_COLORS[site.key] || '#f4efe6',
+    data: bucketMax(site.points.filter(([clock]) => clock >= cutoff), bucket)
+      .map(([clock, value]) => ({ x: clock, y: (value / site.allTimePeak) * 100 })),
+  }));
+
+  createLineChart(container, series, {
+    height: 320,
+    valueFormat: (value) => `${value.toFixed(1).replace('.', ',')} %`,
+    yFormat: (value) => `${Math.round(value)} %`,
+    xFormat: (time) => range === 2
+      ? new Intl.DateTimeFormat('de-DE', { weekday: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }).format(new Date(time))
+      : new Intl.DateTimeFormat('de-DE', { day: '2-digit', month: 'short' }).format(new Date(time)),
+    referenceLines: [{ value: 100, label: 'ALL-TIME PEAK', color: 'rgba(255,200,87,0.7)' }],
+    ariaLabel: 'DE-CIX-Traffic in Frankfurt, New York, Madrid und Dubai relativ zum jeweiligen All-Time-Peak',
+  });
+
+  const legend = $('#decixSitesLegend');
+  if (legend) {
+    legend.innerHTML = sites.map((site) => {
+      const color = SITE_COLORS[site.key] || '#f4efe6';
+      const share = site.current ? ` · ${Math.round((site.current / site.allTimePeak) * 100)} %` : '';
+      return `<span class="chart__legend-item" style="color:${color}"><i class="chart__legend-swatch" style="background:${color}"></i>${escapeHtml(site.label)} <strong>${tbit(site.current)}${share}</strong></span>`;
+    }).join('');
+  }
+}
+
 function renderPeaks() {
   const grid = $('#peakGrid');
   if (!grid) return;
@@ -1360,6 +1436,9 @@ function setupRangeTabs() {
       } else if (group.dataset.rangeTabs === 'decix') {
         state.decixRange = value;
         renderNetwork();
+      } else if (group.dataset.rangeTabs === 'sites') {
+        state.sitesRange = value;
+        renderDecixSites();
       } else {
         state.marketRange = value;
         renderBaskets();
@@ -1461,6 +1540,7 @@ async function init() {
   renderStores();
   renderRetailWatch();
   renderNetwork();
+  renderDecixSites();
   renderPeaks();
   renderInvestor();
   renderTimeline();

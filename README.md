@@ -22,7 +22,7 @@ Not financial advice. No affiliation with Rockstar Games or Take-Two. Just a fan
 - **Topic radar** — four automatic Google News queries for retail/brands, hardware, creators/social and release/download, with 24h/7d volume, sources, headlines and sample limits.
 - **Stores & merch** — filterable links to Rockstar, PlayStation, Xbox, MediaMarkt, Saturn, Rockstar merch, Netto and Edeka. Store links are also attached to the flyer finds.
 - **Retail Watch** — community finds from German supermarket flyers, starting with Netto and Edeka from the thread by [@lucaslu_ckli](https://x.com/lucaslu_ckli/status/2119489167553929288). With date, original post, image links and proxy label.
-- **Network Watch** — DE-CIX Frankfurt traffic (2d/7d/30d, 5-minute points), November history with daily peaks, Rockstar endpoint probe and PS5/Xbox preload countdown.
+- **Network Watch** — DE-CIX Frankfurt traffic (2d/7d/30d, 5-minute points), November history with daily peaks, a comparison of DE-CIX Frankfurt, New York, Madrid and Dubai (as % of each site's all-time peak, to spot the time-zone preload wave), Rockstar endpoint probe and PS5/Xbox preload countdown.
 - **Peaks & records** — DE-CIX all-time peak, 2d peak, TTWO 52-week high, basket high, Wikipedia peak and top Reddit post — with real/proxy labels.
 - **Investor Watch** — Take-Two IR dates, Q2 FY2027 earnings call on 9 November 2026, Yahoo consensus (EPS/revenue), SEC filings and IR press releases.
 - **Vice City Prospect** — official GTA VI key art in three crops, with image credit.
@@ -43,7 +43,7 @@ assets/js/hype.js        shared score calculation and snapshot rules
 scripts/collect.mjs      orchestrates all sources
 scripts/lib/stocks.mjs   Yahoo Finance chart API
 scripts/lib/osint.mjs    Wikipedia, Google News, Reddit, Steam, Trends
-scripts/lib/network.mjs  DE-CIX traffic API + Rockstar probe
+scripts/lib/network.mjs  DE-CIX traffic API (FRA, NYC, MAD, DXB) + Rockstar probe
 scripts/lib/investor.mjs Take-Two IR + SEC EDGAR + Yahoo consensus
 scripts/lib/hype.mjs     topic RSS and hype snapshots
 scripts/lib/archive.mjs  merge helpers: every run extends the history
@@ -70,7 +70,7 @@ There is no build step. GitHub Pages serves the repository as a static site.
 - **hourly from 10 to 22 November 2026** — preload/release window,
 - manually via `workflow_dispatch`.
 
-Each run writes `data/stocks.json`, `data/osint.json`, `data/network.json`, `data/decix-history.json`, `data/investor.json`, `data/hype.json`, `data/timeline.json`, `data/news-archive.json` and `data/meta.json`, updates `lastmod` in `sitemap.xml`, commits only on changes and pushes to `main`. The push triggers the classic Pages branch build.
+Each run writes `data/stocks.json`, `data/osint.json`, `data/network.json`, `data/decix-history.json`, `data/decix-sites.json`, `data/investor.json`, `data/hype.json`, `data/timeline.json`, `data/news-archive.json` and `data/meta.json`, updates `lastmod` in `sitemap.xml`, commits only on changes and pushes to `main`. The push triggers the classic Pages branch build.
 
 The former local data cron is disabled to avoid double runs. `scripts/cron.sh` remains as a manual fallback.
 
@@ -81,7 +81,7 @@ For the archive in mid-December 2026, the history from 1 November is continued w
 | Data | Behaviour |
 | --- | --- |
 | Stocks | daily history merged; one price snapshot per UTC hour (up to 5000) |
-| DE-CIX | 5-minute points since 1 November merged (up to 60,000 ≈ 200 days) |
+| DE-CIX | 5-minute points since 1 November merged (up to 60,000 ≈ 200 days); Frankfurt in `decix-history.json`, New York/Madrid/Dubai in `decix-sites.json` |
 | Wikipedia | daily series kept beyond the 90-day API window |
 | Google News / hype topics | `history`: daily counts of all observed days (maximum per day) |
 | Headlines, Reddit, Trends | `news-archive.json`, deduplicated, with `firstSeen` |
@@ -111,7 +111,7 @@ Node 22 or newer is required. There are no npm dependencies; the collectors use 
 | Steam Web API | GTA V concurrent players | GTA VI is not on Steam (as of now) |
 | Google Trends RSS | DE/US trending searches | daily trending list only, no time series |
 | X / @lucaslu_ckli | community finds for Netto and Edeka, posts from 8 November 2026 | retailer attribution and flyers not independently verified; no sales data |
-| DE-CIX traffic API | Frankfurt traffic, 2 days live + November archive (5-minute points) | public statistics, no availability guarantee |
+| DE-CIX traffic API | Frankfurt, New York, Madrid and Dubai traffic, 2 days live + November archive (5-minute points) | public statistics, no availability guarantee |
 | Rockstar / PlayStation | endpoint status, preload confirmation | latency is not traffic |
 | Take-Two IR | earnings date, webcast, annual meeting, press releases | official dates, no guarantee |
 | SEC EDGAR | 10-Q, 10-K, 8-K, DEF 14A | real filings, published with delay |

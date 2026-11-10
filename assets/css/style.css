@@ -766,6 +766,7 @@ img, svg { display: block; max-width: 100%; }
 .chart__tooltip-row span { color: var(--muted); }
 .chart__tooltip-row strong { color: var(--text); font-weight: 700; }
 
+.chart__note { margin: 14px 0 0; color: var(--muted); font-size: 0.85rem; line-height: 1.6; max-width: 80ch; }
 .chart__legend {
   display: flex;
   flex-wrap: wrap;

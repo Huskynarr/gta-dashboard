@@ -80,6 +80,7 @@
         "distribution": [
           { "@type": "DataDownload", "encodingFormat": "application/json", "name": "Stündliche Zeitreihe aller Signale", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/timeline.json" },
           { "@type": "DataDownload", "encodingFormat": "application/json", "name": "DE-CIX-Frankfurt-Traffic seit 1. November 2026", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/decix-history.json" },
+          { "@type": "DataDownload", "encodingFormat": "application/json", "name": "DE-CIX New York, Madrid und Dubai seit 1. November 2026", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/decix-sites.json" },
           { "@type": "DataDownload", "encodingFormat": "application/json", "name": "Aktienkurse und Snapshots", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/stocks.json" },
           { "@type": "DataDownload", "encodingFormat": "application/json", "name": "Archiv aller erfassten News, Reddit-Posts und Trends", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/news-archive.json" },
           { "@type": "DataDownload", "encodingFormat": "application/json", "name": "OSINT: Wikipedia, News, Reddit, Steam, Trends", "contentUrl": "https://huskynarr.is-a.dev/gta-dashboard/data/osint.json" },
@@ -325,7 +326,7 @@
     <section class="section" id="network">
       <div class="section__head reveal">
         <div><p class="kicker">04 / NETWORK WATCH</p><h2>Wenn 212 GB durch die Leitungen gehen.</h2></div>
-        <p class="section__lede">Am 10. November startet der Preload. Dieses Panel beobachtet den DE-CIX Frankfurt, den Rockstar-Endpoint und den offiziellen Preload-Status — stündlich während des Release-Fensters.</p>
+        <p class="section__lede">Am 10. November startet der Preload. Dieses Panel beobachtet den DE-CIX Frankfurt (dazu New York, Madrid und Dubai), den Rockstar-Endpoint und den offiziellen Preload-Status — stündlich während des Release-Fensters.</p>
       </div>
       <div class="network-grid">
         <div class="panel panel--chart reveal">
@@ -342,6 +343,12 @@
       <div class="panel panel--chart reveal">
         <div class="panel__head"><div><span class="panel__kicker">DE-CIX · November</span><h3>Tages-Peaks</h3></div><span class="badge" id="decixHistoryBadge">--</span></div>
         <div class="chart chart--daily" id="decixDailyChart"></div>
+      </div>
+      <div class="panel panel--chart reveal" id="decixSites">
+        <div class="panel__head"><div><span class="panel__kicker">DE-CIX · Frankfurt · New York · Madrid · Dubai</span><h3>Vier Knoten im Vergleich</h3></div><div class="range-tabs" data-range-tabs="sites"><button data-range="2" class="is-active">2T</button><button data-range="7">7T</button><button data-range="30">30T</button></div></div>
+        <div class="chart" id="decixSitesChart"></div>
+        <div class="chart__legend" id="decixSitesLegend"></div>
+        <p class="chart__note">Traffic je Standort in Prozent des eigenen All-Time-Peaks, damit große und kleine Knoten vergleichbar sind. Zeitachse in UTC. Der PS5-Preload startet um 00:00 Ortszeit und sollte als Welle durch die Zeitzonen laufen, der Xbox-Preload um 00:00 GMT überall gleichzeitig.</p>
       </div>
       <div class="stat-grid" id="networkStats"></div>
     </section>

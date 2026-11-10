@@ -8,6 +8,13 @@ Automated data refreshes (`chore(data)`) are not listed.
 
 ## [Unreleased]
 
+### Added
+- Network Watch compares DE-CIX Frankfurt with New York, Madrid and Dubai (same DE-CIX traffic API). Each site is shown as a percentage of its own all-time peak, so the PS5 preload wave through the time zones and the simultaneous Xbox start at 00:00 GMT become visible.
+- `data/decix-sites.json`: append-only 5-minute history since 1 November 2026 plus daily peaks for the additional sites; hourly snapshots in `timeline.json` include their live values (`decixSites`).
+
+### Fixed
+- `2T`/`7T` range buttons are now translated to `2D`/`7D` (EN) and `2J`/`7J` (FR).
+
 ## [1.6.0] - 2026-11-09
 
 ### Added

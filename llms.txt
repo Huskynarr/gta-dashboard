@@ -19,7 +19,7 @@ Autor: Huskynarr (https://huskynarr.de/)
 - Aktien: Take-Two (TTWO) und Vergleichswerte (Sony, Microsoft, Nintendo, NVIDIA, Roblox, CD Projekt, Ubisoft, Uber, DoorDash, Delivery Hero, GameStop, Amazon), Yahoo-Finance-Tageshistorie
 - Hype-Score: erklärter Index aus Wikipedia-Pageviews (45 %), Google-News-Volumen (35 %) und Reddit-Aktivität r/GTA6 (20 %)
 - Krankenstand-Proxy: Wikipedia- und News-Interesse an Krankmeldung/Arbeitsunfähigkeit (Leading Indicator, keine Krankenkassen-Daten)
-- Netzwerk: DE-CIX-Frankfurt-Traffic in 5-Minuten-Auflösung, Rockstar-Endpoint-Probe
+- Netzwerk: DE-CIX-Traffic in 5-Minuten-Auflösung (Frankfurt, dazu New York, Madrid und Dubai im Vergleich), Rockstar-Endpoint-Probe
 - Investor: Take-Two-IR-Termine, SEC-EDGAR-Filings, Analysten-Konsens
 - Steam-Spielerzahlen GTA V, Google Trends DE/US
 
@@ -29,6 +29,7 @@ Alle Dateien werden bei jedem Lauf erweitert, nicht ersetzt. Aktualisierung täg
 
 - [timeline.json](https://huskynarr.is-a.dev/gta-dashboard/data/timeline.json): stündliche Snapshots aller Momentwerte (Kurse, News-Zähler, Reddit, Steam, Trends, DE-CIX, Hype-Score)
 - [decix-history.json](https://huskynarr.is-a.dev/gta-dashboard/data/decix-history.json): DE-CIX-Frankfurt-Traffic seit 1. November 2026 inkl. Tages-Peaks
+- [decix-sites.json](https://huskynarr.is-a.dev/gta-dashboard/data/decix-sites.json): DE-CIX New York, Madrid und Dubai seit 1. November 2026 inkl. Tages-Peaks
 - [stocks.json](https://huskynarr.is-a.dev/gta-dashboard/data/stocks.json): Kurshistorie und stündliche Kurs-Snapshots
 - [osint.json](https://huskynarr.is-a.dev/gta-dashboard/data/osint.json): Wikipedia-Tagesreihen, News-Tageszähler, Reddit, Steam, Trends
 - [hype.json](https://huskynarr.is-a.dev/gta-dashboard/data/hype.json): Hype-Score-Verlauf und Themenradar mit Tageshistorie

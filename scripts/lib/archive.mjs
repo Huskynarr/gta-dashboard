@@ -201,6 +201,11 @@ export function extendArchives({
       ? { ok: osint.playstation.ok, preloadMention: osint.playstation.preloadMention }
       : null,
     decix: ok(network?.sources?.decix) ? network.decix?.meta || null : null,
+    decixSites: Object.fromEntries(
+      Object.values(network?.decixSites?.sites || {})
+        .filter((site) => site?.status === 'ok' && site.meta)
+        .map((site) => [site.key, site.meta]),
+    ),
     hype: {
       score: hypeLatest && hypeLatest.at.slice(0, 13) === seenAt.slice(0, 13) ? hypeLatest.score : null,
       coverage: hypeLatest && hypeLatest.at.slice(0, 13) === seenAt.slice(0, 13) ? hypeLatest.coverage : null,

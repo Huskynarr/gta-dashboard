@@ -63,6 +63,7 @@ async function main() {
     existingInvestor,
     existingHype,
     existingDecixHistory,
+    existingDecixSites,
     existingTimeline,
     existingNewsArchive,
   ] = await Promise.all([
@@ -72,6 +73,7 @@ async function main() {
     readJson(path.join(DATA_DIR, 'investor.json')),
     readJson(path.join(DATA_DIR, 'hype.json')),
     readJson(path.join(DATA_DIR, 'decix-history.json')),
+    readJson(path.join(DATA_DIR, 'decix-sites.json')),
     readJson(path.join(DATA_DIR, 'timeline.json')),
     readJson(path.join(DATA_DIR, 'news-archive.json')),
   ]);
@@ -101,7 +103,7 @@ async function main() {
   ]);
 
   const [network, hype] = await Promise.all([
-    collectNetwork(existingNetwork, osint, existingDecixHistory).catch((error) => ({
+    collectNetwork(existingNetwork, osint, existingDecixHistory, existingDecixSites).catch((error) => ({
       ...(existingNetwork || {}),
       updated: new Date().toISOString(),
       error: error.message,
@@ -140,6 +142,7 @@ async function main() {
       osint: osint?.errors?.length ? 'degraded' : 'ok',
       network: network?.sources?.decix || 'degraded',
       decixHistory: network?.sources?.decixHistory || 'degraded',
+      decixSites: network?.sources?.decixSites || 'degraded',
       reddit: osint?.sources?.reddit || 'degraded',
       steam: osint?.sources?.steam || 'degraded',
       trends: osint?.sources?.trends || 'degraded',
@@ -161,6 +164,10 @@ async function main() {
       decixPoints: network?.decix?.traffic2d?.length || 0,
       decixHistoryPoints: network?.decixHistory?.points?.length || 0,
       decixDailyPeaks: network?.decixHistory?.dailyPeaks?.length || 0,
+      decixSitePoints: Object.values(network?.decixSites?.sites || {}).reduce(
+        (total, site) => total + (site?.points?.length || 0),
+        0,
+      ),
       filings: investor?.filings?.length || 0,
       pressReleases: investor?.pressReleases?.length || 0,
       hypeSnapshots: hype?.history?.length || 0,
@@ -173,10 +180,11 @@ async function main() {
       ...(investor?.errors || []),
       ...(hype?.errors || []),
       ...(network?.decixError ? [`decix: ${network.decixError}`] : []),
+      ...(network?.decixSitesError ? [`decix-sites: ${network.decixSitesError}`] : []),
     ],
   };
 
-  const { decixHistory, ...networkOutput } = network;
+  const { decixHistory, decixSites, ...networkOutput } = network;
 
   await touchSitemap(finishedAt);
 
@@ -185,6 +193,7 @@ async function main() {
     writeJson(path.join(DATA_DIR, 'osint.json'), osint),
     writeJson(path.join(DATA_DIR, 'network.json'), networkOutput),
     writeJson(path.join(DATA_DIR, 'decix-history.json'), decixHistory || existingDecixHistory || null),
+    writeJson(path.join(DATA_DIR, 'decix-sites.json'), decixSites || existingDecixSites || null),
     writeJson(path.join(DATA_DIR, 'investor.json'), investor),
     writeJson(path.join(DATA_DIR, 'meta.json'), meta),
     writeJson(path.join(DATA_DIR, 'hype.json'), hype),
