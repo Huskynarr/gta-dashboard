@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-10T05:14:42.251Z",
+  "updated": "2026-11-10T13:50:44.818Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 18,
-      "count24h": 14,
-      "publisherCount": 10,
+      "count7d": 19,
+      "count24h": 6,
+      "publisherCount": 12,
       "capped": false,
       "series": [
         {
@@ -33,41 +33,41 @@
         },
         {
           "date": "2026-11-09",
-          "count": 16
+          "count": 14
         },
         {
           "date": "2026-11-10",
-          "count": 0
+          "count": 4
         }
       ],
       "items": [
         {
-          "title": "GTA 6: Download startet – Vorsicht vor dieser Kostenfalle - Buffed",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRVRuOGIxZlVRMjd5RkpnVVVrbWN0SkEySDNneERJemtXNnEtdmotbm5OdnU5UlpkWDFER2E3UGlTZG9ZcFhxQ051bHJSX1dmLVpibkJYTlNyZ2RKSWlHckE1bjNyV2ZvQWgtOHR1MDl6U0Y4bnh1YUN0aFVKZndpSy1YeTVNaVZNRE5UOEFDa3Jkdm9mR3Nnc2RnRnB2YkxWR2gxQmFzMlpoRmI4cXRIalNRVVZIcjdyMjVXSkVUNzRpdV9ZczNudXUtTHhLd09kdDdwUkVFM1RxVU4xVFhxeTFpNnc5blE?oc=5",
-          "source": "Buffed",
-          "pubDate": "Mon, 09 Nov 2026 18:30:00 GMT"
+          "title": "GTA 6 jetzt vorbestellen: Pre-Load ist live – wo Sie das Spiel kaufen und sich ein Gratis-Poster sichern - TZ",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUHhtWEFmcE9jeENCdGFNNk5EYTYycVBuZzdNZHJET1pCcEpHMnJEdUtKOUZBSEpMb3lnUmZoU05SWVNUQzc5NDhiVXBpRjVzNHRkUWppWktPZEx3U2hEcUhHMGk0c2RUYTYxMnk3RXVpR0k3eTRwVEpncTZkaHZlalMwc04wVmJTSWhQdTV5ZVZBOEZBc3RNcWdrM1JtSk5EY2toWGl6TV9GUmp1VDlGWUpR?oc=5",
+          "source": "TZ",
+          "pubDate": "Tue, 10 Nov 2026 10:41:00 GMT"
         },
         {
-          "title": "GTA 6: Vorab-Download startet in wenigen Stunden - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPODF1YklONDNSRUxzOTVIcnFYcktuVUxQS0Zkb0VUdGlaNHg0NXlkOEJQSGFpd1JmeUZhWTlob09HMFR5LWZWb3BOUWQwZ3FYM3lzejgtZkFLajFsNHllRnRiNlNtN2dHZnBEODJQTnc1VGp0b2FqMllNR09UWGJiRVQwaXRCdFpoV3Zyd1l6TTUyekhMZzZ0WjFfb0lSYWtpOE15ZnpqMEdZWm80ZjBjN0NNcHc5U3ZMLUZPQk9xY3E?oc=5",
-          "source": "CHIP",
-          "pubDate": "Mon, 09 Nov 2026 15:01:00 GMT"
+          "title": "GTA 6 Merchandise in Londoner Pop Up-Store zieht euch das Geld aus der Tasche - PlayCentral",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBBdHFGWEE2a0h5YllTSzZZODBCdjVJSmVPTVo0emhMUWVjeFZxZnVNaXN0WlNhbk1qRTR2RElnQzBWd1p2ZzZycEdlUDhKNEJrYi16UkZFOU5xVDBkcXlES0p5aFhIalhlTkZHOXhfdXNIeEJHSlNWX2xn?oc=5",
+          "source": "PlayCentral",
+          "pubDate": "Tue, 10 Nov 2026 10:32:46 GMT"
         },
         {
-          "title": "Pünktlich zum GTA-6-Release: Diese Händler bieten die PS5 für knapp 600 Euro an - einer liefert schon morgen - Netzwelt",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdjlVOXltTU56Y3BXTEduRVV2b2JCLWFSb0hvdzJRUThsS1lpRXUwcUhsdEF4LS1udHZCb3pUU1lvc1A0dUUxZWJIWERscjUzYTZla1JIdk9GcGE3Skk3MENtdlRfeEczR0pFbGtVeGFKcWliVDNIWkhUQVA2NTA3cHlRWS1CWkx6VVNCQmhTYTJSQ2NPdjJmbzlzNndlRUpGaTVwWkNqMnRHdGcyYTJSd2h0VWd1UWsxZFpwZVBsYVA?oc=5",
-          "source": "Netzwelt",
-          "pubDate": "Mon, 09 Nov 2026 12:45:00 GMT"
-        },
-        {
-          "title": "Wer GTA 6 nicht digital, sondern in der Box vorbestellt, bekommt einen unerwarteten Preorder-Bonus! Deswegen habe ich jetzt vorbestellt - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQemtXVzBVdEhoNWExSWhhVXhqOWFrcmVhUzhLSmUzb05MdmhJbU5hM0p4SHZxMFBmXzF4TFZ3Z2xfVkxFVUsydDR5U3Vwb3ZzMnB4TTNNMXgzbVY4X2g5T1Q0bXRsNkx5TGdQM1JYMU0zMHNOWmE2Qm04M1YwN3BrZUlscGVRbGNudjV2RDRReFRMejZwUDRtd3dMRENIOHF6eU1MS0JFQml4cFRETmNXSl9ZVU54am5RUWZGNXpnTUs?oc=5",
+          "title": "Netto preist gerade einen TV für GTA 6 für unter 300 Euro an – Was taugt das Angebot? - GameStar",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kWFZPRjdSX1U1UU93eUlpejV2UXhQNnptQlNmYkFTbGFNbkwzaHMySUNFcnBUQk5QQTV0NS15MWpnX09ibG5PMF9mQWNSQXRLbmlkZF9kNC05RjAtV0RKUDJkMy04WVFpVlF3ZUhB?oc=5",
           "source": "GameStar",
-          "pubDate": "Mon, 09 Nov 2026 12:35:00 GMT"
+          "pubDate": "Tue, 10 Nov 2026 07:34:00 GMT"
+        },
+        {
+          "title": "Gaming-Hype: Wie Edeka und Co. das GTA-VI-Fieber nutzen wollen - Lebensmittel Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM1F1ZWVqTm1PYV9aTFprOTE2c1NjeFM2enBLY2YzMTI3Z3dRU2I4SkFkSEp4RzY5c29McGRUY2lSNlhmV19ablBlSm1WNVVJekg2MGZfNnRrVVJQSXpyekJzbk9qNkF4SnFQR3VDaldHWXFGOVhtaG02c2xzTjZrMjJIc1JodHlvTFJ0LW1WWUZDazcySEhob0NibzRQcTltUmlKU0NrSVZTemt4MjR2MU5kQnYwUjFDNnVsZVFpR2c?oc=5",
+          "source": "Lebensmittel Zeitung",
+          "pubDate": "Tue, 10 Nov 2026 07:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-10T05:14:42.251Z",
+      "updated": "2026-11-10T13:50:44.818Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -99,7 +99,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 0
+          "count": 4
         }
       ]
     },
@@ -109,13 +109,13 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 63,
-      "publisherCount": 38,
+      "count24h": 40,
+      "publisherCount": 42,
       "capped": true,
       "series": [
         {
           "date": "2026-11-04",
-          "count": 6
+          "count": 4
         },
         {
           "date": "2026-11-05",
@@ -123,53 +123,53 @@
         },
         {
           "date": "2026-11-06",
-          "count": 3
+          "count": 1
         },
         {
           "date": "2026-11-07",
-          "count": 7
+          "count": 5
         },
         {
           "date": "2026-11-08",
-          "count": 11
+          "count": 7
         },
         {
           "date": "2026-11-09",
-          "count": 60
+          "count": 53
         },
         {
           "date": "2026-11-10",
-          "count": 5
+          "count": 21
         }
       ],
       "items": [
         {
-          "title": "GTA 6 Download-Zeiten: Wollt ihr zu Release loslegen, müsst ihr je nach Internet bis zu 50 Stunden vorher mit dem Runterladen anfangen - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuR3czS2V4V0I3NnNrV3Y5RG9MWG5uSzRfS2p4TC1EYV9wSW4tVUJYUWVvRFZhZU9nazhfdloyYzFuSFlGaTVaZGNJQ0dhdkQ0WjlQYjhwVl9WaDZwRnBoZ1g4RFdJbFVwSlBXRzVJR3B3Y1k?oc=5",
+          "title": "Grand Theft Auto VI (GTA VI): Preload liefert Hinweise auf 40-fps-Modus an der PS5 Pro - Caschys Blog",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa0hNWm9pSWVKYmYxY1FTcnhtdGJZWnV6dDVXOWd4WUswOWk2ZG93TVVWZGo4eUFWZ2h3MWdqV1hLUEJNYWFxV2tVRnpsUU4tNnpvTWwtNnV5TDBQS295R0trUE44eThUYzFLSjlCdkx0WVJldDR1dlVhM2pMZkZJWk9QcVhnZTEta0pNVmd2aGU3NUdoZVpOZ3hNM3huNlg4Q1JvSWgyNUJrdnhZX3dOOWVzYw?oc=5",
+          "source": "Caschys Blog",
+          "pubDate": "Tue, 10 Nov 2026 12:30:15 GMT"
+        },
+        {
+          "title": "„GTA 6“: Preload für PS5 und Xbox gestartet – so groß ist der Download - Neue Westfälische",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTEM1ckxMOVlvSmUzTncyYXc0MlRlSldQQXRjMERKSTlXRFBYaFhiWmFhQS1wbUc3Z2lmSllUd2cwZU90Wkx1dnpPSnhvRlFPWHZMYnRwM25mc1JPa25LN0JBVFltaVA5Y2U1eVV0a1MzUzRCcW01YmVaUzZBS1RZVy1LMHFDVnJTUkY2M1NkUHpSNHNRcXUwSHVqb2pOTlBNUkpyWEdza3VRWFVnZThOMF8tOW1nclM1aVE?oc=5",
+          "source": "Neue Westfälische",
+          "pubDate": "Tue, 10 Nov 2026 12:03:27 GMT"
+        },
+        {
+          "title": "GTA 6 mit mehr als 30 fps: Geheimer Eintrag liefert Hinweis auf PS5 Pro-Sensation - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FTE5TYzhFUk0xQ0Q1NE9TWTl3a1BTd0tIdXViQ1FZdHpTN0tOSVpEVUwwRWJPUUJzc2F1d2YxV2I2emxtcFUzelhlbnIxczY5QnR0cS1mVGJtQXJrRXlnVmFpVWxUMkI4RF9xUFNxTlh0a2lIMFFsLQ?oc=5",
           "source": "GamePro",
-          "pubDate": "Tue, 10 Nov 2026 04:20:00 GMT"
+          "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT"
         },
         {
-          "title": "GTA 6 Preload gestartet: 223 GB, PS5-Pro-Raytracing und Multiplayer-Hinweise - MMOEXP",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSmNwUFpJNm0zc2U3M2hodUtBNzdzVHc2ZnZqYl9hLVoxMVRzdjNjTVZnUC02Nzk0UDZWb091VF9oU2RlQlFKcmhVVmVITmZNbzQ3R2YwMmFhNXZtNzJlZGZpd1RHUzZnQlpfTzkxX292R2g2N2M3Vm5jd1Rvek1kU3ZTaE5idU5vVkhudlBWU3JQTVpzeW9jV25HbnVsb3RvY3JXd3FoekduUzg?oc=5",
-          "source": "MMOEXP",
-          "pubDate": "Tue, 10 Nov 2026 03:53:02 GMT"
-        },
-        {
-          "title": "GTA 6 Release: Preise, Editionen & Preload von Grand Theft Auto VI - WirtschaftsWoche",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWW13c3V6djFyQWJjNjBUS2ZHamxSREI2THVMRW5WeW12cGJJeUN3b2MzQVNUWEx6YlpuRkhWV282bll6VDRWUXhtbjlaNW8zWFAxTWstWEdQSXY3WlVzTFl6eWd4ZkljNG13YXlSNDRvZVN1Nk9VNlhwRXJYTTE3S2ZhSUJVRFJpMVZlNDRraDVrQWpSbElDejZIOGN6Q0JhVGpUQUhVazJiQWItZWpHYjh2QkVPc250akNndmN1ZE5QWTZUNHc?oc=5",
-          "source": "WirtschaftsWoche",
-          "pubDate": "Tue, 10 Nov 2026 02:22:32 GMT"
-        },
-        {
-          "title": "Grand Theft Auto VI - Preload ab sofort möglich - Xbox Aktuell",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOTlTSm9Ec0UxYWNmU2p4UWdZUHp2OThEN3R0Qk5pYm1qSXIzYVVRLXRkN1Zid0xybjlMX2dmUEx3N016V1lnUkFGbU5PNVNqN2JweUN6bGpzRzNEX0IyLUpOcG5EZ0s4TkcxWTFFZ2dXdlBFaDBQZ2k1NjhtWkx1NzdzNmN0dkZvQmJfZjFJWDluU001VFE?oc=5",
-          "source": "Xbox Aktuell",
-          "pubDate": "Tue, 10 Nov 2026 00:04:54 GMT"
+          "title": "Grand Theft Auto VI : Vice City trifft auf das Brandenburger Tor - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODF1MlJHTGRIUlFwUGlPR1VtQzkwZFZYdFZpSDZyMjdIYVJIZkJvc2VFMnV6VEI5ZWlqQk1BcEVzdlp5U01TbDFuSFU3MkNqVVVzSzBka3V5MlNmeW1YQ3hkMWkxcTdkRHI2REx0ajFsb2JHRXlpRlNQdVd4QlBseTI4Um9LOXRSZHJmMDdrZUN0MW1BWVg1VER0bw?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Tue, 10 Nov 2026 11:30:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-10T05:14:42.251Z",
+      "updated": "2026-11-10T13:50:44.818Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -201,7 +201,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 5
+          "count": 21
         }
       ]
     },
@@ -210,8 +210,8 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 26,
-      "count24h": 12,
+      "count7d": 27,
+      "count24h": 11,
       "publisherCount": 16,
       "capped": false,
       "series": [
@@ -225,7 +225,7 @@
         },
         {
           "date": "2026-11-06",
-          "count": 4
+          "count": 1
         },
         {
           "date": "2026-11-07",
@@ -241,37 +241,37 @@
         },
         {
           "date": "2026-11-10",
-          "count": 0
+          "count": 5
         }
       ],
       "items": [
         {
-          "title": "So schützt du dich bis zum 19. November vor GTA-6-Spoilern - Pasquale Pillitteri",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0YzhkbUpEenRwemZGNjJLV3FrVDI0cVVWMUV0Z2IydUNzV2c4cGpsOEhGVnpQam5zZmloZTlUQmhrc0VXZHRZakpkbmJPSWZDeGRkN3ZuSEhKSzdDMzVETWlKZE5leFVROFBUc2tKRkh3NUtJQmJTc3pramJJNDA?oc=5",
-          "source": "Pasquale Pillitteri",
-          "pubDate": "Mon, 09 Nov 2026 20:46:57 GMT"
+          "title": "Grand Theft Auto VI (GTA VI): Preload liefert Hinweise auf 40-fps-Modus an der PS5 Pro - Caschys Blog",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa0hNWm9pSWVKYmYxY1FTcnhtdGJZWnV6dDVXOWd4WUswOWk2ZG93TVVWZGo4eUFWZ2h3MWdqV1hLUEJNYWFxV2tVRnpsUU4tNnpvTWwtNnV5TDBQS295R0trUE44eThUYzFLSjlCdkx0WVJldDR1dlVhM2pMZkZJWk9QcVhnZTEta0pNVmd2aGU3NUdoZVpOZ3hNM3huNlg4Q1JvSWgyNUJrdnhZX3dOOWVzYw?oc=5",
+          "source": "Caschys Blog",
+          "pubDate": "Tue, 10 Nov 2026 12:30:15 GMT"
         },
         {
-          "title": "GTA 6 Piraterie: Take-Two erwartet Raubkopien – Cracker im Visier - TARNKAPPE.INFO",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMWhuS0hxcER5SmdRVGxFS2NlRjYtbU5meU40WTdCMkVoakgxSGtKMHpUUkdCTHFwNDRKVjJpdlZKRlA4ckNYUUpwcXlJc2xyVXpXeFE2NWFmbGIyTGUtTEppamg4aS13UHd3WDZQczB6TG5FbGxydEhhVWZ2RmN6bkJRSTZLWDA1UFE?oc=5",
-          "source": "TARNKAPPE.INFO",
-          "pubDate": "Mon, 09 Nov 2026 16:50:21 GMT"
-        },
-        {
-          "title": "GTA 6 steht vor der Tür: Diese 5 Dinge solltet ihr vor dem Release noch erledigen - PC Games (DE)",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1NnNhdDdvWWVfM1dCS2dNZDdKSW9LYUdjbWNCSzJGaGwxM1hndXhrcWZabWJDQy1UVUlTRXUxVVpMclFoOFNZYXlJUlJIV1JjeFN2ZjlrckVKT2xxampJSHBKZUVyc3RzbW9HaXpSb2pXaWdCUnNv?oc=5",
+          "title": "Größer als GTA 5 und komplett kostenlos: Dieses verrückte Spiel macht euch zur Spionage-Taube - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcVFqSkdhQ3NuUjNVUWk4Ymo3Ykk5V1FSSDQ5RDBvaTFlSDFKcFpSdUx6NUpzdC1zb1U4b1FQTEhJRW1iTF9tTVU2SWR4QTJYUXpxRTBtOGFTaHU4bXhfZV9RTVZ4U3h1bXNKdlZUSlA3ZjR5M3lIY1BqOWZiNlhGU0s1dmRLRUtSdGdYbW9lQQ?oc=5",
           "source": "PC Games (DE)",
-          "pubDate": "Mon, 09 Nov 2026 15:20:00 GMT"
+          "pubDate": "Tue, 10 Nov 2026 12:00:00 GMT"
         },
         {
-          "title": "GTA-6-Fans aufgepasst! Ein Satz macht Hoffnung auf den Multiplayer - techbook",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWjFoaGpzVmNTX2pVOXlaWWFCcXVNR05lOTdiVTZGa0h5NERDN1czSFVBVTVnVGdJamJELWlwX2pJN05FWUljWDRSd3JJMmZOYmtXSXVuZzF3NDZCMlZBWnZDdl83ZmRfQ1BSRnVGUnNaMDh3RDdFZUdVYVBGSkQ3Y0paRm5VVXVISU1pZ3RwWQ?oc=5",
-          "source": "techbook",
-          "pubDate": "Mon, 09 Nov 2026 14:59:00 GMT"
+          "title": "Grand Theft Auto VI : Vice City trifft auf das Brandenburger Tor - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNODF1MlJHTGRIUlFwUGlPR1VtQzkwZFZYdFZpSDZyMjdIYVJIZkJvc2VFMnV6VEI5ZWlqQk1BcEVzdlp5U01TbDFuSFU3MkNqVVVzSzBka3V5MlNmeW1YQ3hkMWkxcTdkRHI2REx0ajFsb2JHRXlpRlNQdVd4QlBseTI4Um9LOXRSZHJmMDdrZUN0MW1BWVg1VER0bw?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Tue, 10 Nov 2026 11:30:00 GMT"
+        },
+        {
+          "title": "Mehr FPS und bessere Grafik in GTA 6? Dataminer finden heue Hinweise - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR3c2Ykx4RlgtNzI4ejVkUm9NOEx6OGV5WVVjaHp4SUFBVnJIZURxZWdJTDdubzlCbHY0ZDRFZW9fUkFkQUpWTmQtR1lfa2xmdk5uM3hvZHZqMFpKS29YU0N1WWRNeGszbnhaV0NTalRwZnBZb2djWHdrcjFwY1NCTE9lblp4RzY2WjRnVFV6YlVTTnJ6RmgyUWFZcw?oc=5",
+          "source": "PC Games (DE)",
+          "pubDate": "Tue, 10 Nov 2026 10:30:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-10T05:14:42.251Z",
+      "updated": "2026-11-10T13:50:44.818Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -303,7 +303,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 0
+          "count": 5
         }
       ]
     },
@@ -313,8 +313,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 54,
-      "publisherCount": 40,
+      "count24h": 47,
+      "publisherCount": 46,
       "capped": true,
       "series": [
         {
@@ -323,57 +323,57 @@
         },
         {
           "date": "2026-11-05",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-06",
-          "count": 5
+          "count": 1
         },
         {
           "date": "2026-11-07",
-          "count": 9
+          "count": 7
         },
         {
           "date": "2026-11-08",
-          "count": 11
+          "count": 8
         },
         {
           "date": "2026-11-09",
-          "count": 52
+          "count": 38
         },
         {
           "date": "2026-11-10",
-          "count": 5
+          "count": 29
         }
       ],
       "items": [
         {
-          "title": "GTA 6 Download-Zeiten: Wollt ihr zu Release loslegen, müsst ihr je nach Internet bis zu 50 Stunden vorher mit dem Runterladen anfangen - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBuR3czS2V4V0I3NnNrV3Y5RG9MWG5uSzRfS2p4TC1EYV9wSW4tVUJYUWVvRFZhZU9nazhfdloyYzFuSFlGaTVaZGNJQ0dhdkQ0WjlQYjhwVl9WaDZwRnBoZ1g4RFdJbFVwSlBXRzVJR3B3Y1k?oc=5",
+          "title": "Grand Theft Auto VI (GTA VI): Preload liefert Hinweise auf 40-fps-Modus an der PS5 Pro - Caschys Blog",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa0hNWm9pSWVKYmYxY1FTcnhtdGJZWnV6dDVXOWd4WUswOWk2ZG93TVVWZGo4eUFWZ2h3MWdqV1hLUEJNYWFxV2tVRnpsUU4tNnpvTWwtNnV5TDBQS295R0trUE44eThUYzFLSjlCdkx0WVJldDR1dlVhM2pMZkZJWk9QcVhnZTEta0pNVmd2aGU3NUdoZVpOZ3hNM3huNlg4Q1JvSWgyNUJrdnhZX3dOOWVzYw?oc=5",
+          "source": "Caschys Blog",
+          "pubDate": "Tue, 10 Nov 2026 12:30:15 GMT"
+        },
+        {
+          "title": "„GTA 6“: Preload für PS5 und Xbox gestartet – so groß ist der Download - Neue Westfälische",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTEM1ckxMOVlvSmUzTncyYXc0MlRlSldQQXRjMERKSTlXRFBYaFhiWmFhQS1wbUc3Z2lmSllUd2cwZU90Wkx1dnpPSnhvRlFPWHZMYnRwM25mc1JPa25LN0JBVFltaVA5Y2U1eVV0a1MzUzRCcW01YmVaUzZBS1RZVy1LMHFDVnJTUkY2M1NkUHpSNHNRcXUwSHVqb2pOTlBNUkpyWEdza3VRWFVnZThOMF8tOW1nclM1aVE?oc=5",
+          "source": "Neue Westfälische",
+          "pubDate": "Tue, 10 Nov 2026 12:03:27 GMT"
+        },
+        {
+          "title": "GTA 6 erscheint in 9 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
           "source": "GamePro",
-          "pubDate": "Tue, 10 Nov 2026 04:20:00 GMT"
+          "pubDate": "Tue, 10 Nov 2026 11:53:54 GMT"
         },
         {
-          "title": "GTA 6 Preload gestartet: 223 GB, PS5-Pro-Raytracing und Multiplayer-Hinweise - MMOEXP",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSmNwUFpJNm0zc2U3M2hodUtBNzdzVHc2ZnZqYl9hLVoxMVRzdjNjTVZnUC02Nzk0UDZWb091VF9oU2RlQlFKcmhVVmVITmZNbzQ3R2YwMmFhNXZtNzJlZGZpd1RHUzZnQlpfTzkxX292R2g2N2M3Vm5jd1Rvek1kU3ZTaE5idU5vVkhudlBWU3JQTVpzeW9jV25HbnVsb3RvY3JXd3FoekduUzg?oc=5",
-          "source": "MMOEXP",
-          "pubDate": "Tue, 10 Nov 2026 03:53:02 GMT"
-        },
-        {
-          "title": "GTA 6 Preload-Start heute Nacht: Uhrzeit, Download-Größe auf PS5 & Xbox und wann ihr GTA 6 runterladen könnt im Liveticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtaFRTUkNUbTc1M2lnbFcyaUFyM2tPR2t0bElTbWdzcG5iQnZMdXdScGtfNlUzTFlUOGtxbkV4YUI4YkVaeU43NjZCT29TcWJySnQwYjJiY0dPNVpuVUhZajlQOUV0R1pqZVNORUlLVzRrTTc4Rkx0WXNn?oc=5",
-          "source": "GamePro",
-          "pubDate": "Tue, 10 Nov 2026 00:09:00 GMT"
-        },
-        {
-          "title": "Grand Theft Auto VI - Preload ab sofort möglich - Xbox Aktuell",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOTlTSm9Ec0UxYWNmU2p4UWdZUHp2OThEN3R0Qk5pYm1qSXIzYVVRLXRkN1Zid0xybjlMX2dmUEx3N016V1lnUkFGbU5PNVNqN2JweUN6bGpzRzNEX0IyLUpOcG5EZ0s4TkcxWTFFZ2dXdlBFaDBQZ2k1NjhtWkx1NzdzNmN0dkZvQmJfZjFJWDluU001VFE?oc=5",
-          "source": "Xbox Aktuell",
-          "pubDate": "Tue, 10 Nov 2026 00:04:54 GMT"
+          "title": "GTA 6 Online: Im Preload stecken offenbar erste Erkenntnisse zum Multiplayer-Modus - GameStar",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTW5nanpXYnJtaV9XOWJrTDlpYkFSV19iRFVWd1JybzRnSlF5dkVYTnNESWhOMGZEOExpY2E2SXpoZHA1RmtVVkdDSE5rWE04RkdUMUNtZUhKSDk3aW9oMnU3eVRZZms4dDFUVENWWVMzQ0hiWUI4MVJjN0ducXZmZWxWVEJSUQ?oc=5",
+          "source": "GameStar",
+          "pubDate": "Tue, 10 Nov 2026 10:59:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-10T05:14:42.251Z",
+      "updated": "2026-11-10T13:50:44.818Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -405,7 +405,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 5
+          "count": 29
         }
       ]
     }
@@ -450,6 +450,13 @@
       "at": "2026-11-10T05:14:40.412Z",
       "version": "hype-v1",
       "score": 88,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-10T13:50:43.718Z",
+      "version": "hype-v1",
+      "score": 89,
       "coverage": 3,
       "signature": "wiki+news+reddit"
     }
