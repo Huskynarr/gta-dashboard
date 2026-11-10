@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-10T20:42:06.282Z",
+  "updated": "2026-11-10T22:36:41.300Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 21,
-      "count24h": 8,
+      "count7d": 22,
+      "count24h": 9,
       "publisherCount": 12,
       "capped": false,
       "series": [
@@ -37,15 +37,21 @@
         },
         {
           "date": "2026-11-10",
-          "count": 7
+          "count": 8
         }
       ],
       "items": [
         {
+          "title": "GTA 6 vorbestellen: Alles, was PS5- und Xbox-Spieler kurz vor Launch wissen müssen - Giga",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR2pVUDZvTXkyMUZCX1JnQ2w4RGJ2UVRFLWpXYk1BcDVsbXBISjZqbURST3hqeWdSSFJMa3ZuZ0wwVV9zTWRwMkpONWl2M3hkcXdDMVV4Q201MlhISzVpVE5fQnVIX29ic3BZb2o5SnBoYmtnc3ZsOURENkNmWDI2S1pLY2p4MTl2bkhJX0hQa1o1dkxrZTM4RGQ5VERHOFYwMER4WGNheEZCQkRVMlFvQWVKY1E5YlBFbFlSaldkOUNCdjBST2dScHBQSGlwQm8?oc=5",
+          "source": "Giga",
+          "pubDate": "Tue, 10 Nov 2026 19:01:00 GMT"
+        },
+        {
           "title": "GTA 6 kaufen: Die günstigsten Angebote und alle Infos zum Verkaufsstart im Live-Ticker - GamePro",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY0g3bk4tNkFKMEJPWm50WFdnQjZjQnBkcld0cGJhUGQ1cFNPMlk3cjdPdm5rZmhBM2xNUVV5QWdiaHdfSXhDUzlyeHpfMktMeUxnOHBTQ3V3aHBOdUQ3QWlvUnRRQTBzWHMtQ0I5aDR6RjBrSVVUWVZ4dkFyMk9qZXFyY2JyQQ?oc=5",
           "source": "GamePro",
-          "pubDate": "Tue, 10 Nov 2026 18:00:00 GMT"
+          "pubDate": "Tue, 10 Nov 2026 18:41:00 GMT"
         },
         {
           "title": "Nur bis 14. November: Netto listet GTA 6 und wirbt mit 70 Euro günstigerem LG-TV - Netzwelt",
@@ -58,16 +64,10 @@
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTThfVDVSd1ZPV2RYcmRRdGpLMWEyRVh1akVLU2VzMW56emhpRGV1dnkyR3ZtcmFYdms5dWlLMk9Dc3d3T000ZG9yVm1QdjI3NVd1SDVVMnBYSnhaYmZSeGtndVBjeWl2blFaZHo0dl93RFNuTDFIVEtuVkx0M3FMNkI2N2hrRjMyZW8xQU5Yay1vLXQyUktWNkJMRU9NVEtPTnNFTVBVOS1jOUpsRU1QV1l4Z3NYUHRuajFiREZCMjFHUjk1NERoTUhFdHpaV0V1NS1sWGRoNA?oc=5",
           "source": "Giga",
           "pubDate": "Tue, 10 Nov 2026 14:05:58 GMT"
-        },
-        {
-          "title": "GTA 6 jetzt vorbestellen: Pre-Load ist live – wo Sie das Spiel kaufen und sich ein Gratis-Poster sichern - TZ",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUHhtWEFmcE9jeENCdGFNNk5EYTYycVBuZzdNZHJET1pCcEpHMnJEdUtKOUZBSEpMb3lnUmZoU05SWVNUQzc5NDhiVXBpRjVzNHRkUWppWktPZEx3U2hEcUhHMGk0c2RUYTYxMnk3RXVpR0k3eTRwVEpncTZkaHZlalMwc04wVmJTSWhQdTV5ZVZBOEZBc3RNcWdrM1JtSk5EY2toWGl6TV9GUmp1VDlGWUpR?oc=5",
-          "source": "TZ",
-          "pubDate": "Tue, 10 Nov 2026 10:41:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-10T20:42:06.282Z",
+      "updated": "2026-11-10T22:36:41.300Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -99,7 +99,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 7
+          "count": 8
         }
       ]
     },
@@ -109,13 +109,13 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 50,
+      "count24h": 53,
       "publisherCount": 40,
       "capped": true,
       "series": [
         {
           "date": "2026-11-04",
-          "count": 3
+          "count": 4
         },
         {
           "date": "2026-11-05",
@@ -123,7 +123,7 @@
         },
         {
           "date": "2026-11-06",
-          "count": 2
+          "count": 1
         },
         {
           "date": "2026-11-07",
@@ -131,18 +131,24 @@
         },
         {
           "date": "2026-11-08",
-          "count": 6
+          "count": 4
         },
         {
           "date": "2026-11-09",
-          "count": 37
+          "count": 36
         },
         {
           "date": "2026-11-10",
-          "count": 49
+          "count": 52
         }
       ],
       "items": [
+        {
+          "title": "Grand Theft Auto VI - 30 fps und per Xbox Cloud Gaming - Xbox Aktuell",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRlRHdW9sLXRFUE80aDRZTlFybGo4X3JBM2k0QXpTUmo3OC1BWWpLbEhJM3RLRjNoQ205MTQwdFRqY1IxLV9DUFhISHpCbTRIZ2lrZWEzWmg5V3pKcFc5Y1ZHb2FncFpPQ1RnZHIxUkZPcXRpUGtWNmszTTI0bVNseDRIY3hqNm5xVnFqSVVMUU9JSDg?oc=5",
+          "source": "Xbox Aktuell",
+          "pubDate": "Tue, 10 Nov 2026 20:54:07 GMT"
+        },
         {
           "title": "GTA 6 läuft auch auf PS5 Pro und Xbox Series X mit 30 FPS - mobidevices.com",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GbkItUkQ5aXQzV0ZYMFEta0x2ZjVRQUxXREQ0WGNnZDRDQkhNcjRQRlVkQzB4cXhYcW5mdG4zWXBKVHJYY1ZaRVZ3OV9PSmtCcHI2TUtldDlGMHpCWnRhM1A2cTEwX2x4b0NRWUdtVnhJRU0?oc=5",
@@ -160,16 +166,10 @@
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQkJLZVNxTFhud0ktbkU0blQ4Ry1pU1YxSmJiVGVJbHJMQURQX2NHRkNkdTFQZTZtazBSSldja0pqYzBMUXVpdndXNWVwb2FvYjVSdDl3M201N0RUM1hScFExUWZaczNxalZ5ZkRYMG1pZktKLVhEZGd6YTM4dDhjWlBQbnFRRmhfQmFaRHZLZlR1VnA0NndEdjQyZzZLV2VjS2M3T3hnWQ?oc=5",
           "source": "GameGPU",
           "pubDate": "Tue, 10 Nov 2026 19:10:43 GMT"
-        },
-        {
-          "title": "GTA 6 vorbestellen: Alles, was PS5- und Xbox-Spieler kurz vor Launch wissen müssen - Giga",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR2pVUDZvTXkyMUZCX1JnQ2w4RGJ2UVRFLWpXYk1BcDVsbXBISjZqbURST3hqeWdSSFJMa3ZuZ0wwVV9zTWRwMkpONWl2M3hkcXdDMVV4Q201MlhISzVpVE5fQnVIX29ic3BZb2o5SnBoYmtnc3ZsOURENkNmWDI2S1pLY2p4MTl2bkhJX0hQa1o1dkxrZTM4RGQ5VERHOFYwMER4WGNheEZCQkRVMlFvQWVKY1E5YlBFbFlSaldkOUNCdjBST2dScHBQSGlwQm8?oc=5",
-          "source": "Giga",
-          "pubDate": "Tue, 10 Nov 2026 19:01:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-10T20:42:06.282Z",
+      "updated": "2026-11-10T22:36:41.300Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -201,7 +201,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 49
+          "count": 52
         }
       ]
     },
@@ -211,8 +211,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 26,
-      "count24h": 11,
-      "publisherCount": 18,
+      "count24h": 10,
+      "publisherCount": 16,
       "capped": false,
       "series": [
         {
@@ -225,7 +225,7 @@
         },
         {
           "date": "2026-11-06",
-          "count": 0
+          "count": 1
         },
         {
           "date": "2026-11-07",
@@ -258,20 +258,20 @@
           "pubDate": "Tue, 10 Nov 2026 14:59:05 GMT"
         },
         {
-          "title": "GTA 6: Download gestartet – Gaming-Experte John Braun sieht „globales Ereignis“ - YouTube",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5URGVGY2VVcUc5dTlqRERqXy05QjQ0SHhqMU52Rl9EN0xOUVRFYnRTaEJIXzVuZ0pBb3hyNW9HRkloRk1wUWQ2M28xQWlVeE5sdGFhZ18tTWowN1lL?oc=5",
-          "source": "YouTube",
-          "pubDate": "Tue, 10 Nov 2026 14:55:36 GMT"
-        },
-        {
           "title": "GTA 6: Neuer Trailer und offizielle Details zu Grafik, FPS und Konsolen - PC Games (DE)",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPS0IteWJNdmhRV1J3eXdSaU5Pc0lsYWpOVXVXb0VKNUY4MTF3aUlDTVRFSW9EOUtRRXhtZlVNaFpHMWxYaHFUZUJpdDZjejd3R09pRXZnUzdNSnRiWUxVbnpZVU1EcjJZS3Qya1RoazF1WF80MDkxUElkYkRXOFJQSXRrSlhwQWs5Vk5seGR0TlMwNW1N?oc=5",
           "source": "PC Games (DE)",
           "pubDate": "Tue, 10 Nov 2026 14:55:00 GMT"
+        },
+        {
+          "title": "Grand Theft Auto VI - Pre-Load Now - Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FUUs5c1lOSllWT0dBenpsbUlMb0w3bEpzOXdwNXEyT3laVDFWZFBsbTd5T3hTREYzLURvb3RVVkIxd1lKR3ZxcDlVY1hhMENoazJIM2wwQy1EeHNY?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Tue, 10 Nov 2026 14:51:15 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-10T20:42:06.282Z",
+      "updated": "2026-11-10T22:36:41.300Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -313,8 +313,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 52,
-      "publisherCount": 45,
+      "count24h": 54,
+      "publisherCount": 44,
       "capped": true,
       "series": [
         {
@@ -335,18 +335,24 @@
         },
         {
           "date": "2026-11-08",
-          "count": 7
+          "count": 6
         },
         {
           "date": "2026-11-09",
-          "count": 30
+          "count": 29
         },
         {
           "date": "2026-11-10",
-          "count": 52
+          "count": 54
         }
       ],
       "items": [
+        {
+          "title": "\"GTA VI\": Download-Start für gefeiertes Videospiel - tagesschau.de",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aM1h1YTFfRWh4NXljZXh1T0Ywbzg0YnpaQzhDSmZKcDB0Y1ZUUXo4bnVXVXhlMWpKQm8xSWt0a205dVBXbHR2VlFfWDhMaGFRZmdLQW5ZUGVtWmZaQ2ZJSzB1WVRLNm8?oc=5",
+          "source": "tagesschau.de",
+          "pubDate": "Tue, 10 Nov 2026 21:56:31 GMT"
+        },
         {
           "title": "GTA 6 vorbestellen: Alles, was PS5- und Xbox-Spieler kurz vor Launch wissen müssen - Giga",
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNR2pVUDZvTXkyMUZCX1JnQ2w4RGJ2UVRFLWpXYk1BcDVsbXBISjZqbURST3hqeWdSSFJMa3ZuZ0wwVV9zTWRwMkpONWl2M3hkcXdDMVV4Q201MlhISzVpVE5fQnVIX29ic3BZb2o5SnBoYmtnc3ZsOURENkNmWDI2S1pLY2p4MTl2bkhJX0hQa1o1dkxrZTM4RGQ5VERHOFYwMER4WGNheEZCQkRVMlFvQWVKY1E5YlBFbFlSaldkOUNCdjBST2dScHBQSGlwQm8?oc=5",
@@ -354,26 +360,20 @@
           "pubDate": "Tue, 10 Nov 2026 19:01:00 GMT"
         },
         {
-          "title": "GTA 6 kaufen: Die günstigsten Angebote und alle Infos zum Verkaufsstart im Live-Ticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY0g3bk4tNkFKMEJPWm50WFdnQjZjQnBkcld0cGJhUGQ1cFNPMlk3cjdPdm5rZmhBM2xNUVV5QWdiaHdfSXhDUzlyeHpfMktMeUxnOHBTQ3V3aHBOdUQ3QWlvUnRRQTBzWHMtQ0I5aDR6RjBrSVVUWVZ4dkFyMk9qZXFyY2JyQQ?oc=5",
-          "source": "GamePro",
-          "pubDate": "Tue, 10 Nov 2026 18:00:00 GMT"
+          "title": "GTA 6 auf der Xbox One spielen: So bringt Xbox Cloud Gaming den Blockbuster auf die Last-Gen - Eurogamer.de",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rUndtbS1kdjVQWjBYX08tbHQ2RTlpa3ZaOC0tX2U0ZERLNWE1aUs0WTEzcFhfVDA3c0R3d3REaDFQbGw5Z3lYNmg5cGtMcW1JMEppUVVpd2hrSERpMUVMTURnX1B1Zw?oc=5",
+          "source": "Eurogamer.de",
+          "pubDate": "Tue, 10 Nov 2026 18:57:30 GMT"
         },
         {
-          "title": "GTA 6: Rekord vor dem Launch - Bestmarken in den Stores von PlayStation und Xbox - - PLAY3.DE",
+          "title": "GTA 6: Rekorde vor dem Launch - Bestmarken in den Stores von PlayStation und Xbox - - PLAY3.DE",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ3VZenJkZU1PMXM1Sm5mNTBMOHQ4MjdCLUlVTUpvenZIQUR3cDJfam1lNWFLOE9qQXRUM1B1VDZBSkhiOW8wVm5qTXhsWVRDWHBPSnJGTUJQZjVkZzJXalJQMk8xb3lwTF9MbklnZ3QwaEFxakF5YWY4ZkYyenFyUUxlNk1Jb1ZnT0pGb0VhcnZPQ083Z3IxWHBoQXhVVEgyR0t1Nml6cFQ3Yzk1cUNURWdWOVMzYmU1akVDNndJck1XLXJjMzM4b2ZOTmFaeEc2c3lJ?oc=5",
           "source": "PLAY3.DE",
           "pubDate": "Tue, 10 Nov 2026 17:53:00 GMT"
-        },
-        {
-          "title": "GTA 6 ist jetzt das am häufigsten vorbestellte Spiel in der Geschichte des PlayStation Store und des Microsoft Store – offizielle Warnung zum Preload veröffentlicht - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNQ3pHc2ZLcFlGVFN0YlQtMm4tNVJZaEVUd3hkUDZ3YWl3TkFXLUlJWGNlQUpReER1OXFHdHkwU0V5X19BMWVRaHhDU3FRa1Z1bDBSM1Q5Q25NbmFRSHlXRmZwbXRnemdjQmRZM1R0V0w4NGlWRVVJMWRQdENWdVZySmNTeS1mM0dsbzlhOUNEdktqQldNVmdEM2Q5Q2Mxd0hSTDFKZ3dDV19MQk9XWTZHUWVueGtOYVNRRTA5RlRxU0d1a3F4ZXF4R0xaMkMtUEhocTFfLVBCby14ZUE1cnVj?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Tue, 10 Nov 2026 16:51:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-10T20:42:06.282Z",
+      "updated": "2026-11-10T22:36:41.300Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -405,7 +405,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 52
+          "count": 54
         }
       ]
     }
@@ -466,6 +466,13 @@
       "score": 87,
       "coverage": 2,
       "signature": "wiki+news"
+    },
+    {
+      "at": "2026-11-10T22:36:40.843Z",
+      "version": "hype-v1",
+      "score": 89,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
     }
   ],
   "sources": {
