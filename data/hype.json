@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T22:38:23.691Z",
+  "updated": "2026-11-10T00:54:20.305Z",
   "topics": [
     {
       "key": "retail",
@@ -11,10 +11,6 @@
       "publisherCount": 10,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-03",
-          "count": 1
-        },
         {
           "date": "2026-11-04",
           "count": 1
@@ -38,6 +34,10 @@
         {
           "date": "2026-11-09",
           "count": 16
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
         }
       ],
       "items": [
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T22:38:23.691Z",
+      "updated": "2026-11-10T00:54:20.305Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -96,6 +96,10 @@
         {
           "date": "2026-11-09",
           "count": 16
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
         }
       ]
     },
@@ -105,14 +109,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 63,
-      "publisherCount": 36,
+      "count24h": 64,
+      "publisherCount": 37,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-03",
-          "count": 7
-        },
         {
           "date": "2026-11-04",
           "count": 6
@@ -135,37 +135,41 @@
         },
         {
           "date": "2026-11-09",
-          "count": 63
+          "count": 62
+        },
+        {
+          "date": "2026-11-10",
+          "count": 2
         }
       ],
       "items": [
         {
-          "title": "GTA 6: Preload hält 40 Fps und 120 Hz offen, aber nur auf PS5 Pro - PCGH",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ25nbmJaS1ZFX3pMMHV2YngtVGlNVkNwZV9XVkh5LVZtQjBjcWgyXzZneUZIOXpKNElpTzdZWTE1VTlfSDJyNkNobnlRYnFUUUhYT2ZKV2Q1NUNETGVKTVVyRzBTMmlLeVlzamVLOFF0cHFnaVRJY1dhczBWQ2U2X1ZzTDFROU5fRF9KNFRvellsMnlhaU5WRFpSTWdRV3hF?oc=5",
-          "source": "PCGH",
-          "pubDate": "Mon, 09 Nov 2026 19:30:00 GMT"
+          "title": "Grand Theft Auto VI - Preload ab sofort möglich - Xbox Aktuell",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOTlTSm9Ec0UxYWNmU2p4UWdZUHp2OThEN3R0Qk5pYm1qSXIzYVVRLXRkN1Zid0xybjlMX2dmUEx3N016V1lnUkFGbU5PNVNqN2JweUN6bGpzRzNEX0IyLUpOcG5EZ0s4TkcxWTFFZ2dXdlBFaDBQZ2k1NjhtWkx1NzdzNmN0dkZvQmJfZjFJWDluU001VFE?oc=5",
+          "source": "Xbox Aktuell",
+          "pubDate": "Tue, 10 Nov 2026 00:04:54 GMT"
         },
         {
-          "title": "GTA 6: Was der Preload über die PS5 Pro verrät - vybe",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MLXoyOXJaTEZXRGlHOXBlZURfY2tQQmlPYTlsUnZVTXJsa1RPZExXZzBrQW43ZzFBWWFKa0dkMUFoYjdHaUZMYk9SRi1EVDhSakNtcjZlaGpFck9GOW1GSTNYaHRRNDhoakJKekw1cG96VXVU?oc=5",
-          "source": "vybe",
-          "pubDate": "Mon, 09 Nov 2026 19:16:24 GMT"
+          "title": "„GTA 6“: Preload für PS5 und Xbox gestartet – so groß ist der Download - Neue Westfälische",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTEM1ckxMOVlvSmUzTncyYXc0MlRlSldQQXRjMERKSTlXRFBYaFhiWmFhQS1wbUc3Z2lmSllUd2cwZU90Wkx1dnpPSnhvRlFPWHZMYnRwM25mc1JPa25LN0JBVFltaVA5Y2U1eVV0a1MzUzRCcW01YmVaUzZBS1RZVy1LMHFDVnJTUkY2M1NkUHpSNHNRcXUwSHVqb2pOTlBNUkpyWEdza3VRWFVnZThOMF8tOW1nclM1aVE?oc=5",
+          "source": "Neue Westfälische",
+          "pubDate": "Tue, 10 Nov 2026 00:00:00 GMT"
         },
         {
-          "title": "GTA 6: Download startet – Vorsicht vor dieser Kostenfalle - Buffed",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRVRuOGIxZlVRMjd5RkpnVVVrbWN0SkEySDNneERJemtXNnEtdmotbm5OdnU5UlpkWDFER2E3UGlTZG9ZcFhxQ051bHJSX1dmLVpibkJYTlNyZ2RKSWlHckE1bjNyV2ZvQWgtOHR1MDl6U0Y4bnh1YUN0aFVKZndpSy1YeTVNaVZNRE5UOEFDa3Jkdm9mR3Nnc2RnRnB2YkxWR2gxQmFzMlpoRmI4cXRIalNRVVZIcjdyMjVXSkVUNzRpdV9ZczNudXUtTHhLd09kdDdwUkVFM1RxVU4xVFhxeTFpNnc5blE?oc=5",
-          "source": "Buffed",
-          "pubDate": "Mon, 09 Nov 2026 18:30:00 GMT"
+          "title": "GTA 6: Vorab-Download ist gestartet - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjlvM055MDhkSWtSdUJUWjZ2d3QtQUZ5WFBWc1hCZl9Wb2ZMWEZwSDhKeUZONGpfQUZrdFR4Tm1uRUFvcUIzVFhjNkpHTWFRQ2c0Y2pTODFJMllOVHhkc3ptbFJBTUVaeHotaU5IYlktNzFTZ2lVaWhoOGM0N3h5MldxRVlfc2x0ZXBhOVlnLWoxSlpxYVRPNkxGNzJqRGVjTlN0ZEJkNldpWEw1OTlj?oc=5",
+          "source": "CHIP",
+          "pubDate": "Mon, 09 Nov 2026 23:01:00 GMT"
         },
         {
-          "title": "GTA 6 Release: Preise, Editionen & Preload von Grand Theft Auto VI - WirtschaftsWoche",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWW13c3V6djFyQWJjNjBUS2ZHamxSREI2THVMRW5WeW12cGJJeUN3b2MzQVNUWEx6YlpuRkhWV282bll6VDRWUXhtbjlaNW8zWFAxTWstWEdQSXY3WlVzTFl6eWd4ZkljNG13YXlSNDRvZVN1Nk9VNlhwRXJYTTE3S2ZhSUJVRFJpMVZlNDRraDVrQWpSbElDejZIOGN6Q0JhVGpUQUhVazJiQWItZWpHYjh2QkVPc250akNndmN1ZE5QWTZUNHc?oc=5",
-          "source": "WirtschaftsWoche",
-          "pubDate": "Mon, 09 Nov 2026 17:56:53 GMT"
+          "title": "Startschuss für Vice City: Der GTA 6 Preload ist offiziell live - PlayFront",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMkZndFFMemhCT295UzVGcHVKak1hN0hrOXVnWDcxMkRDdk50SnJsQWN4QVdlcWpyaDJuaWZSeFoxRDFOMHRpcXRNNDdUa21fNUY4ekNEZ3JRQ2xWWGFwV0kwN2ppZkk0VUZMejVwaE9IOC1ZWG9MVXdKYW4tbE9rREZUcFkzdUprbnFBdFhn?oc=5",
+          "source": "PlayFront",
+          "pubDate": "Mon, 09 Nov 2026 23:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T22:38:23.691Z",
+      "updated": "2026-11-10T00:54:20.305Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -194,6 +198,10 @@
         {
           "date": "2026-11-09",
           "count": 63
+        },
+        {
+          "date": "2026-11-10",
+          "count": 2
         }
       ]
     },
@@ -202,15 +210,11 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 27,
+      "count7d": 26,
       "count24h": 12,
-      "publisherCount": 17,
+      "publisherCount": 16,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-03",
-          "count": 3
-        },
         {
           "date": "2026-11-04",
           "count": 2
@@ -229,11 +233,15 @@
         },
         {
           "date": "2026-11-08",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-09",
           "count": 12
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
         }
       ],
       "items": [
@@ -263,7 +271,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T22:38:23.691Z",
+      "updated": "2026-11-10T00:54:20.305Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -292,6 +300,10 @@
         {
           "date": "2026-11-09",
           "count": 12
+        },
+        {
+          "date": "2026-11-10",
+          "count": 0
         }
       ]
     },
@@ -301,14 +313,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 51,
+      "count24h": 54,
       "publisherCount": 40,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-03",
-          "count": 11
-        },
         {
           "date": "2026-11-04",
           "count": 6
@@ -319,11 +327,11 @@
         },
         {
           "date": "2026-11-06",
-          "count": 8
+          "count": 7
         },
         {
           "date": "2026-11-07",
-          "count": 10
+          "count": 9
         },
         {
           "date": "2026-11-08",
@@ -331,37 +339,41 @@
         },
         {
           "date": "2026-11-09",
-          "count": 51
+          "count": 52
+        },
+        {
+          "date": "2026-11-10",
+          "count": 2
         }
       ],
       "items": [
         {
-          "title": "GTA 6 mit 212 GByte: Online-Rechner zeigt, wie lange Ihr Download dauert - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUUo3QTdrSWJ2LVBqc1hPa3hCblJnOXpZSUJIRDdGTl9vR0t6U0JDcTM5MWEzV2NkZEVIdFFTenk0ekZoWVB3T2JCa29SeHBPcUc1aDF3WEw4STE1SlpkSXRsU2YxSE1hRmFEdzJ1VjlobHQzLXZCNGUtTThVVlgycV9pb252MGRaeUtldWNUbjNFTE50WjhjcVI4aDN4TlZwWEk2LVpXbWhJOUExUUg4LWtQM1FMVXRGcmxUV01xazZVQWxubHpLNWI1V1VIaERCeXlISXQ5SVVqMnJlV3Iw?oc=5",
-          "source": "CHIP",
-          "pubDate": "Mon, 09 Nov 2026 22:30:00 GMT"
+          "title": "Grand Theft Auto VI - Preload ab sofort möglich - Xbox Aktuell",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOTlTSm9Ec0UxYWNmU2p4UWdZUHp2OThEN3R0Qk5pYm1qSXIzYVVRLXRkN1Zid0xybjlMX2dmUEx3N016V1lnUkFGbU5PNVNqN2JweUN6bGpzRzNEX0IyLUpOcG5EZ0s4TkcxWTFFZ2dXdlBFaDBQZ2k1NjhtWkx1NzdzNmN0dkZvQmJfZjFJWDluU001VFE?oc=5",
+          "source": "Xbox Aktuell",
+          "pubDate": "Tue, 10 Nov 2026 00:04:54 GMT"
         },
         {
-          "title": "GTA 6 erscheint in 10 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
-          "source": "GamePro",
-          "pubDate": "Mon, 09 Nov 2026 21:01:59 GMT"
+          "title": "„GTA 6“: Preload für PS5 und Xbox gestartet – so groß ist der Download - Neue Westfälische",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTEM1ckxMOVlvSmUzTncyYXc0MlRlSldQQXRjMERKSTlXRFBYaFhiWmFhQS1wbUc3Z2lmSllUd2cwZU90Wkx1dnpPSnhvRlFPWHZMYnRwM25mc1JPa25LN0JBVFltaVA5Y2U1eVV0a1MzUzRCcW01YmVaUzZBS1RZVy1LMHFDVnJTUkY2M1NkUHpSNHNRcXUwSHVqb2pOTlBNUkpyWEdza3VRWFVnZThOMF8tOW1nclM1aVE?oc=5",
+          "source": "Neue Westfälische",
+          "pubDate": "Tue, 10 Nov 2026 00:00:00 GMT"
         },
         {
-          "title": "So schützt du dich bis zum 19. November vor GTA-6-Spoilern - Pasquale Pillitteri",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0YzhkbUpEenRwemZGNjJLV3FrVDI0cVVWMUV0Z2IydUNzV2c4cGpsOEhGVnpQam5zZmloZTlUQmhrc0VXZHRZakpkbmJPSWZDeGRkN3ZuSEhKSzdDMzVETWlKZE5leFVROFBUc2tKRkh3NUtJQmJTc3pramJJNDA?oc=5",
-          "source": "Pasquale Pillitteri",
-          "pubDate": "Mon, 09 Nov 2026 20:46:57 GMT"
-        },
-        {
-          "title": "GTA 6 Preload-Start heute Nacht: Uhrzeit, Download-Größe und wann ihr GTA 6 runterladen könnt im Liveticker - GamePro",
+          "title": "GTA 6 Preload-Start heute Nacht: Uhrzeit, Download-Größe auf PS5 & Xbox und wann ihr GTA 6 runterladen könnt im Liveticker - GamePro",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAtaFRTUkNUbTc1M2lnbFcyaUFyM2tPR2t0bElTbWdzcG5iQnZMdXdScGtfNlUzTFlUOGtxbkV4YUI4YkVaeU43NjZCT29TcWJySnQwYjJiY0dPNVpuVUhZajlQOUV0R1pqZVNORUlLVzRrTTc4Rkx0WXNn?oc=5",
           "source": "GamePro",
-          "pubDate": "Mon, 09 Nov 2026 19:56:00 GMT"
+          "pubDate": "Mon, 09 Nov 2026 23:04:00 GMT"
+        },
+        {
+          "title": "GTA 6: Vorab-Download ist gestartet - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSjlvM055MDhkSWtSdUJUWjZ2d3QtQUZ5WFBWc1hCZl9Wb2ZMWEZwSDhKeUZONGpfQUZrdFR4Tm1uRUFvcUIzVFhjNkpHTWFRQ2c0Y2pTODFJMllOVHhkc3ptbFJBTUVaeHotaU5IYlktNzFTZ2lVaWhoOGM0N3h5MldxRVlfc2x0ZXBhOVlnLWoxSlpxYVRPNkxGNzJqRGVjTlN0ZEJkNldpWEw1OTlj?oc=5",
+          "source": "CHIP",
+          "pubDate": "Mon, 09 Nov 2026 23:01:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-09T22:38:23.691Z",
+      "updated": "2026-11-10T00:54:20.305Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -390,6 +402,10 @@
         {
           "date": "2026-11-09",
           "count": 52
+        },
+        {
+          "date": "2026-11-10",
+          "count": 2
         }
       ]
     }
@@ -418,6 +434,13 @@
     },
     {
       "at": "2026-11-09T22:38:21.915Z",
+      "version": "hype-v1",
+      "score": 88,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-10T00:54:18.477Z",
       "version": "hype-v1",
       "score": 88,
       "coverage": 3,
