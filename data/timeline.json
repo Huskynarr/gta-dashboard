@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T13:50:40.145Z",
+  "updated": "2026-11-10T13:57:28.783Z",
   "description": "Hourly append-only snapshots of all point-in-time GTA VI signals (null = source unavailable in that run).",
   "snapshots": [
     {
@@ -984,7 +984,7 @@
       }
     },
     {
-      "at": "2026-11-10T13:50:40.145Z",
+      "at": "2026-11-10T13:57:28.783Z",
       "stocks": {
         "7974": {
           "price": 8452,
@@ -1002,14 +1002,14 @@
           "volume": 14781069
         },
         "CDR": {
-          "price": 270.7,
-          "changePct": 0.63,
-          "volume": 108256
+          "price": 270,
+          "changePct": 0.37,
+          "volume": 110533
         },
         "UBI": {
-          "price": 4.49,
-          "changePct": -0.18,
-          "volume": 114471
+          "price": 4.489,
+          "changePct": -0.2,
+          "volume": 114767
         },
         "SONY": {
           "price": 27.06,
@@ -1037,9 +1037,9 @@
           "volume": 5308526
         },
         "DHER": {
-          "price": 36.97,
-          "changePct": -0.27,
-          "volume": 61601
+          "price": 36.99,
+          "changePct": -0.22,
+          "volume": 61806
         },
         "GME": {
           "price": 25.59,
@@ -1099,8 +1099,8 @@
       "reddit": {
         "subscribers": 1212091,
         "posts24h": 100,
-        "postsPerHour": 42.4,
-        "topScore": 1
+        "postsPerHour": 45.9,
+        "topScore": 2
       },
       "steam": {
         "gta5": 54570
@@ -1112,7 +1112,7 @@
       "rockstar": {
         "ok": true,
         "status": 200,
-        "latencyMs": 254
+        "latencyMs": 100
       },
       "playstation": {
         "ok": true,
@@ -1120,8 +1120,8 @@
       },
       "decix": {
         "allTimePeak": 21473193953966,
-        "current": 18269820075297,
-        "graphAverage": 15438860273252,
+        "current": 18556558991619,
+        "graphAverage": 15439512999949,
         "graphPeak": 21338943778953,
         "allTimePeakDate": "2026-10-14",
         "monthPeak": 21338943778953,
@@ -1136,12 +1136,12 @@
             "count7d": 19
           },
           "hardware": {
-            "count24h": 40,
+            "count24h": 39,
             "count7d": 100
           },
           "creators": {
-            "count24h": 11,
-            "count7d": 27
+            "count24h": 10,
+            "count7d": 26
           },
           "release": {
             "count24h": 47,

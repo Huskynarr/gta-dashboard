@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-10T13:50:45.741Z",
-  "startedAt": "2026-11-10T13:50:40.145Z",
-  "durationMs": 5596,
+  "lastRun": "2026-11-10T13:57:35.300Z",
+  "startedAt": "2026-11-10T13:57:28.783Z",
+  "durationMs": 6517,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -34,13 +34,13 @@
     "wikiSeries": 4,
     "newsQueries": 4,
     "decixPoints": 573,
-    "decixHistoryPoints": 2642,
+    "decixHistoryPoints": 2643,
     "decixDailyPeaks": 10,
     "filings": 10,
     "pressReleases": 4,
     "hypeSnapshots": 7,
     "timelineSnapshots": 7,
-    "archivedNews": 402
+    "archivedNews": 405
   },
   "errors": []
 }
