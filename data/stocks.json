@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T00:54:16.121Z",
+  "updated": "2026-11-10T05:14:38.127Z",
   "source": "Yahoo Finance chart API",
   "series": {
     "7974": {
@@ -11,15 +11,15 @@
       "color": "#ff4d4d",
       "currency": "JPY",
       "exchange": "Tokyo",
-      "price": 8541,
+      "price": 8460,
       "previousClose": 13420,
-      "changePct": -0.75,
-      "marketTime": "2026-11-10T00:39:14.000Z",
+      "changePct": -1.7,
+      "marketTime": "2026-11-10T04:59:33.000Z",
       "dayHigh": 8601,
-      "dayLow": 8425,
+      "dayLow": 8407,
       "fiftyTwoWeekHigh": 13985,
       "fiftyTwoWeekLow": 6544,
-      "volume": 2021200,
+      "volume": 4559800,
       "history": [
         {
           "date": "2025-11-06",
@@ -1977,9 +1977,9 @@
           "date": "2026-11-10",
           "open": 8505,
           "high": 8601,
-          "low": 8425,
-          "close": 8541,
-          "volume": 2021200
+          "low": 8407,
+          "close": 8460,
+          "volume": 4559800
         }
       ]
     },
@@ -4008,15 +4008,15 @@
           "high": 217.7,
           "low": 209.72,
           "close": 214.87,
-          "volume": 3204400
+          "volume": 3252000
         },
         {
           "date": "2026-11-09",
-          "open": 216.257,
+          "open": 216.26,
           "high": 217,
           "low": 206.36,
           "close": 207.4,
-          "volume": 5951253
+          "volume": 6018700
         }
       ]
     },
@@ -6051,9 +6051,9 @@
           "date": "2026-11-09",
           "open": 50.5,
           "high": 52.53,
-          "low": 50.1059,
+          "low": 50.106,
           "close": 51.6,
-          "volume": 14781069
+          "volume": 14876700
         }
       ]
     },
@@ -12202,9 +12202,9 @@
           "date": "2026-11-09",
           "open": 27.24,
           "high": 27.32,
-          "low": 26.845,
+          "low": 26.85,
           "close": 27.06,
-          "volume": 6387921
+          "volume": 6388700
         }
       ]
     },
@@ -14233,15 +14233,15 @@
           "high": 538.33,
           "low": 524.47,
           "close": 530.61,
-          "volume": 26938400
+          "volume": 26956400
         },
         {
           "date": "2026-11-09",
-          "open": 544.485,
+          "open": 544.49,
           "high": 548.28,
-          "low": 538.6996,
+          "low": 538.7,
           "close": 545.18,
-          "volume": 25282835
+          "volume": 25295600
         }
       ]
     },
@@ -16270,15 +16270,15 @@
           "high": 194.9,
           "low": 185.22,
           "close": 186.64,
-          "volume": 179722400
+          "volume": 180212300
         },
         {
           "date": "2026-11-09",
-          "open": 173.04,
+          "open": 173.07,
           "high": 179.92,
           "low": 170.24,
           "close": 178.67,
-          "volume": 456756830
+          "volume": 459116500
         }
       ]
     },
@@ -18307,15 +18307,15 @@
           "high": 70.14,
           "low": 67.99,
           "close": 68.59,
-          "volume": 18279800
+          "volume": 18290800
         },
         {
           "date": "2026-11-09",
           "open": 69.5,
           "high": 71.26,
-          "low": 68.86,
+          "low": 68.84,
           "close": 71.17,
-          "volume": 19047727
+          "volume": 19137100
         }
       ]
     },
@@ -20348,11 +20348,11 @@
         },
         {
           "date": "2026-11-09",
-          "open": 182.78,
-          "high": 183.315,
-          "low": 179.59,
+          "open": 182.57,
+          "high": 183.355,
+          "low": 179.578,
           "close": 180.96,
-          "volume": 5308526
+          "volume": 5330400
         }
       ]
     },
@@ -24442,15 +24442,15 @@
           "high": 25.21,
           "low": 23.85,
           "close": 25.12,
-          "volume": 5537400
+          "volume": 5563600
         },
         {
           "date": "2026-11-09",
           "open": 24.7,
-          "high": 26.0098,
+          "high": 26.01,
           "low": 24.61,
           "close": 25.59,
-          "volume": 7780827
+          "volume": 7827300
         }
       ]
     },
@@ -26479,15 +26479,15 @@
           "high": 264.18,
           "low": 258.53,
           "close": 259.3,
-          "volume": 42497100
+          "volume": 42571500
         },
         {
           "date": "2026-11-09",
           "open": 269.32,
-          "high": 275.31,
-          "low": 266.92,
+          "high": 275.34,
+          "low": 266.91,
           "close": 266.93,
-          "volume": 50588278
+          "volume": 51419400
         }
       ]
     }
@@ -26678,6 +26678,65 @@
         "7974": {
           "price": 8541,
           "changePct": -0.75
+        },
+        "TTWO": {
+          "price": 207.4,
+          "changePct": -3.48
+        },
+        "RBLX": {
+          "price": 51.6,
+          "changePct": 4.67
+        },
+        "CDR": {
+          "price": 269,
+          "changePct": 0.79
+        },
+        "UBI": {
+          "price": 4.498,
+          "changePct": 1.4
+        },
+        "SONY": {
+          "price": 27.06,
+          "changePct": 0.22
+        },
+        "MSFT": {
+          "price": 545.18,
+          "changePct": 2.75
+        },
+        "NVDA": {
+          "price": 178.67,
+          "changePct": -4.27
+        },
+        "UBER": {
+          "price": 71.17,
+          "changePct": 3.76
+        },
+        "DASH": {
+          "price": 180.96,
+          "changePct": 0.72
+        },
+        "DHER": {
+          "price": 37.07,
+          "changePct": 0.19
+        },
+        "GME": {
+          "price": 25.59,
+          "changePct": 1.87
+        },
+        "AMZN": {
+          "price": 266.93,
+          "changePct": 2.94
+        }
+      }
+    },
+    {
+      "ts": "2026-11-10T05:14:42.247Z",
+      "date": "2026-11-10",
+      "slot": "morning",
+      "prices": {
+        "7974": {
+          "price": 8460,
+          "changePct": -1.7
         },
         "TTWO": {
           "price": 207.4,
