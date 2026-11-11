@@ -20,7 +20,7 @@ Kein Finanzrat. Keine Verbindung zu Rockstar Games oder Take-Two. Nur ein Fan-Pr
 - **Themenradar** — vier automatische Google-News-Abfragen für Handel/Marken, Hardware, Creator/Social und Release/Download. Mit 24h-/7T-Volumen, Quellen, Schlagzeilen und Sample-Grenzen.
 - **Stores & Merch** — filterbare Links zu Rockstar, PlayStation, Xbox, MediaMarkt, Saturn, Rockstar-Merch, Netto und Edeka. Store-Links sind auch direkt an den Prospekt-Funden verfügbar.
 - **Retail Watch** — Community-Funde aus Supermarktprospekten im OSINT-Bereich, zunächst Netto und Edeka aus dem Thread von [@lucaslu_ckli](https://x.com/lucaslu_ckli/status/2119489167553929288). Mit Datum, Originalbeitrag, Bildlinks und Proxy-Kennzeichnung.
-- **Network Watch** — DE-CIX-Frankfurt-Traffic (2T/7T/30T, 5-Minuten-Punkte), November-Historie mit Tages-Peaks, Vergleich von DE-CIX Frankfurt, New York, Madrid und Dubai (in % des jeweiligen All-Time-Peaks, um die Preload-Welle durch die Zeitzonen zu sehen), Rockstar-Endpoint-Probe und PS5-/Xbox-Preload-Countdown.
+- **Network Watch** — DE-CIX-Frankfurt-Traffic (2T/7T/30T, 5-Minuten-Punkte), November-Historie mit Tages-Peaks, Vergleich von DE-CIX Frankfurt, New York, Madrid, Dubai, AMS-IX Amsterdam und LONAP London (in % des jeweiligen Peaks, um die Preload-Welle durch die Zeitzonen zu sehen), Rockstar-Endpoint-Probe und PS5-/Xbox-Preload-Countdown.
 - **Peaks & Records** — DE-CIX-All-Time-Peak, 2T-Peak, TTWO-52W-Hoch, Basket-Hoch, Wikipedia-Peak und Reddit-Top-Post — mit Real/Proxy-Label.
 - **Investor Watch** — Take-Two-IR-Termine, Q2-FY2027-Earnings-Call am 9. November 2026, Yahoo-Konsens (EPS/Umsatz), SEC-Filings und IR-Pressemitteilungen.
 - **Vice City Prospect** — offizielles GTA-VI-Key-Art in drei Ausschnitten, mit Bildcredit.
@@ -41,6 +41,7 @@ scripts/collect.mjs      Orchestriert alle Quellen
 scripts/lib/stocks.mjs    Yahoo Finance Chart API
 scripts/lib/osint.mjs     Wikipedia, Google News, Reddit, Steam, Trends
 scripts/lib/network.mjs   DE-CIX Traffic API (FRA, NYC, MAD, DXB) + Rockstar-Probe
+scripts/lib/ixp.mjs       AMS-IX-Statistikseite + LONAP IXP Manager Grapher
 scripts/lib/investor.mjs  Take-Two IR + SEC EDGAR + Yahoo-Konsens
 scripts/lib/hype.mjs     Themen-RSS und Hype-Snapshots
 scripts/lib/archive.mjs  Merge-Helfer: jeder Lauf erweitert den Verlauf
@@ -67,7 +68,7 @@ Es gibt keinen Build-Schritt. GitHub Pages liefert das Repository als statische 
 - **stündlich vom 10. bis 22. November 2026** — Preload-/Release-Fenster,
 - manuell über `workflow_dispatch`.
 
-Jeder Lauf schreibt `data/stocks.json`, `data/osint.json`, `data/network.json`, `data/decix-history.json`, `data/decix-sites.json`, `data/investor.json`, `data/hype.json`, `data/timeline.json`, `data/news-archive.json` und `data/meta.json`, aktualisiert `lastmod` in `sitemap.xml`, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den klassischen Pages-Branch-Build.
+Jeder Lauf schreibt `data/stocks.json`, `data/osint.json`, `data/network.json`, `data/decix-history.json`, `data/decix-sites.json`, `data/ixp-sites.json`, `data/investor.json`, `data/hype.json`, `data/timeline.json`, `data/news-archive.json` und `data/meta.json`, aktualisiert `lastmod` in `sitemap.xml`, committet nur bei Änderungen und pusht auf `main`. Der Push triggert den klassischen Pages-Branch-Build.
 
 ### Verlauf statt Überschreiben
 
@@ -76,7 +77,7 @@ Für die Archivierung Mitte Dezember 2026 wird der Verlauf ab 1. November lücke
 | Daten | Verhalten |
 | --- | --- |
 | Aktien | Tageshistorie gemerged; ein Kurs-Snapshot pro UTC-Stunde (bis 5000) |
-| DE-CIX | 5-Minuten-Punkte seit 1. November gemerged (bis 60.000 ≈ 200 Tage); Frankfurt in `decix-history.json`, New York/Madrid/Dubai in `decix-sites.json` |
+| DE-CIX | 5-Minuten-Punkte seit 1. November gemerged (bis 60.000 ≈ 200 Tage); Frankfurt in `decix-history.json`, New York/Madrid/Dubai in `decix-sites.json`; AMS-IX/LONAP in `ixp-sites.json` (Rückblick aus den gröberen Monatsreihen: AMS-IX 2 h, LONAP bis 30 min) |
 | Wikipedia | Tagesreihen über das 90-Tage-API-Fenster hinaus behalten |
 | Google News / Hype-Themen | `history`: Tageszähler aller beobachteten Tage (Maximum je Tag) |
 | Schlagzeilen, Reddit, Trends | `news-archive.json`, dedupliziert, mit `firstSeen` |
@@ -113,6 +114,8 @@ Node 22 oder neuer wird benötigt. Es gibt keine npm-Abhängigkeiten; die Collec
 | Google Trends RSS | DE/US Trending Searches | nur tägliche Trending-Liste, keine Zeitreihe |
 | X / @lucaslu_ckli | Community-Funde zu Netto und Edeka, Beiträge vom 8. November 2026 | Händlerzuordnung und Prospekte nicht unabhängig bestätigt; keine Umsatzdaten |
 | DE-CIX Traffic API | Traffic Frankfurt, New York, Madrid und Dubai, 2 Tage live + November-Archiv (5-Minuten-Punkte) | öffentliche Statistik, keine Garantie auf Verfügbarkeit |
+| AMS-IX-Statistikseite | Traffic Amsterdam, aus den in der Seite eingebetteten Daten gelesen (keine offizielle API) | bricht bei einem Umbau der Seite; 12-Monats-Peak als Bezug |
+| LONAP IXP Manager | Traffic London über die öffentliche Grapher-JSON | kleinerer der beiden Londoner Knoten; 12-Monats-Peak als Bezug |
 | Rockstar / PlayStation | Endpoint-Status, Preload-Bestätigung | Latenz ist kein Traffic |
 | Take-Two IR | Earnings-Termin, Webcast, Annual Meeting, Pressemitteilungen | offizielle Termine, keine Garantie auf Umsetzung |
 | SEC EDGAR | 10-Q, 10-K, 8-K, DEF 14A | echte Filings, Veröffentlichung mit Verzug |

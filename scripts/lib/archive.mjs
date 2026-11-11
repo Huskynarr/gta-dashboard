@@ -82,6 +82,7 @@ export function extendArchives({
   hype,
   investor,
   network,
+  ixpSites,
   existingOsint,
   existingHype,
   existingInvestor,
@@ -218,6 +219,11 @@ export function extendArchives({
       Object.values(network?.decixSites?.sites || {})
         .filter((site) => site?.status === 'ok' && site.meta)
         .map((site) => [site.key, site.meta]),
+    ),
+    ixpSites: Object.fromEntries(
+      Object.values(ixpSites?.sites || {})
+        .filter((site) => site?.status === 'ok' && site.meta)
+        .map((site) => [site.key, { current: site.meta.current, peak12m: site.meta.allTimePeak }]),
     ),
     hype: {
       score: hypeLatest && hypeLatest.at.slice(0, 13) === seenAt.slice(0, 13) ? hypeLatest.score : null,

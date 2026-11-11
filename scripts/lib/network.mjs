@@ -9,7 +9,7 @@ const DECIX_HEADERS = {
   'Sec-Fetch-Site': 'same-origin',
 };
 
-const MONTH_START = Date.UTC(2026, 10, 1); // 1. November 2026
+export const MONTH_START = Date.UTC(2026, 10, 1); // 1. November 2026
 
 // Additional DE-CIX locations in other time zones. Same API as Frankfurt, so a
 // GTA-driven spike should show up as a wave (PS5: local midnight) or as one
@@ -61,7 +61,7 @@ async function fetchDecix(range, site = 'FRA', page = 'frankfurt') {
   };
 }
 
-function mergeHistory(existingPoints = [], newPoints = []) {
+export function mergeHistory(existingPoints = [], newPoints = []) {
   const byClock = new Map();
 
   for (const point of existingPoints) {
@@ -82,7 +82,7 @@ function mergeHistory(existingPoints = [], newPoints = []) {
     .slice(-HISTORY_LIMIT);
 }
 
-function buildDailyPeaks(points) {
+export function buildDailyPeaks(points) {
   const days = new Map();
 
   for (const [clock, value] of points) {

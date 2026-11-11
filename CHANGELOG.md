@@ -9,6 +9,7 @@ Automated data refreshes (`chore(data)`) are not listed.
 ## [Unreleased]
 
 ### Added
+- AMS-IX Amsterdam and LONAP London in the network comparison chart (now six exchanges). AMS-IX is read from the Apollo state embedded in its statistics page, LONAP from its public IXP Manager grapher. Both are backfilled to 1 November from their coarser monthly series (AMS-IX 2 h, LONAP up to 30 min), which also closes gaps after collector outages without overwriting finer points. Data in `data/ixp-sites.json`; hourly snapshots in `timeline.json` include `ixpSites`. Their 100 % reference is the published 12-month peak.
 - Network Watch compares DE-CIX Frankfurt with New York, Madrid and Dubai (same DE-CIX traffic API). Each site is shown as a percentage of its own all-time peak, so the PS5 preload wave through the time zones and the simultaneous Xbox start at 00:00 GMT become visible.
 - `data/decix-sites.json`: append-only 5-minute history since 1 November 2026 plus daily peaks for the additional sites; hourly snapshots in `timeline.json` include their live values (`decixSites`).
 

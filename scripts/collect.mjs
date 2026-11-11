@@ -3,6 +3,7 @@ import path from 'node:path';
 import { collectStocks } from './lib/stocks.mjs';
 import { collectOsint } from './lib/osint.mjs';
 import { collectNetwork } from './lib/network.mjs';
+import { collectIxpSites } from './lib/ixp.mjs';
 import { collectInvestor } from './lib/investor.mjs';
 import { collectHype } from './lib/hype.mjs';
 import { extendArchives } from './lib/archive.mjs';
@@ -64,6 +65,7 @@ async function main() {
     existingHype,
     existingDecixHistory,
     existingDecixSites,
+    existingIxpSites,
     existingTimeline,
     existingNewsArchive,
   ] = await Promise.all([
@@ -74,6 +76,7 @@ async function main() {
     readJson(path.join(DATA_DIR, 'hype.json')),
     readJson(path.join(DATA_DIR, 'decix-history.json')),
     readJson(path.join(DATA_DIR, 'decix-sites.json')),
+    readJson(path.join(DATA_DIR, 'ixp-sites.json')),
     readJson(path.join(DATA_DIR, 'timeline.json')),
     readJson(path.join(DATA_DIR, 'news-archive.json')),
   ]);
@@ -102,7 +105,7 @@ async function main() {
     investorPromise,
   ]);
 
-  const [network, hype] = await Promise.all([
+  const [network, hype, ixpSites] = await Promise.all([
     collectNetwork(existingNetwork, osint, existingDecixHistory, existingDecixSites).catch((error) => ({
       ...(existingNetwork || {}),
       updated: new Date().toISOString(),
@@ -113,7 +116,16 @@ async function main() {
       sources: { topics: 'degraded' },
       errors: [`collector:hype: ${error.message}`],
     })),
+    collectIxpSites(existingIxpSites).catch((error) => ({
+      ...(existingIxpSites || {}),
+      error: error.message,
+    })),
   ]);
+  const ixpStates = Object.values(ixpSites?.sites || {});
+  const ixpErrors = [
+    ...(ixpSites?.error ? [`ixp: ${ixpSites.error}`] : []),
+    ...ixpStates.filter((site) => site.error).map((site) => `ixp:${site.key}: ${site.error}`),
+  ];
 
   const { timeline, newsArchive } = extendArchives({
     at: startedAt,
@@ -122,6 +134,7 @@ async function main() {
     hype,
     investor,
     network,
+    ixpSites,
     existingOsint,
     existingHype,
     existingInvestor,
@@ -143,6 +156,7 @@ async function main() {
       network: network?.sources?.decix || 'degraded',
       decixHistory: network?.sources?.decixHistory || 'degraded',
       decixSites: network?.sources?.decixSites || 'degraded',
+      ixpSites: ixpStates.length && ixpStates.every((site) => site.status === 'ok') ? 'ok' : 'degraded',
       reddit: osint?.sources?.reddit || 'degraded',
       redditGta: osint?.sources?.redditGta || 'degraded',
       steam: osint?.sources?.steam || 'degraded',
@@ -169,6 +183,7 @@ async function main() {
         (total, site) => total + (site?.points?.length || 0),
         0,
       ),
+      ixpSitePoints: ixpStates.reduce((total, site) => total + (site?.points?.length || 0), 0),
       filings: investor?.filings?.length || 0,
       pressReleases: investor?.pressReleases?.length || 0,
       hypeSnapshots: hype?.history?.length || 0,
@@ -182,6 +197,7 @@ async function main() {
       ...(hype?.errors || []),
       ...(network?.decixError ? [`decix: ${network.decixError}`] : []),
       ...(network?.decixSitesError ? [`decix-sites: ${network.decixSitesError}`] : []),
+      ...ixpErrors,
     ],
   };
 
@@ -195,6 +211,7 @@ async function main() {
     writeJson(path.join(DATA_DIR, 'network.json'), networkOutput),
     writeJson(path.join(DATA_DIR, 'decix-history.json'), decixHistory || existingDecixHistory || null),
     writeJson(path.join(DATA_DIR, 'decix-sites.json'), decixSites || existingDecixSites || null),
+    writeJson(path.join(DATA_DIR, 'ixp-sites.json'), ixpSites?.sites ? ixpSites : existingIxpSites || null),
     writeJson(path.join(DATA_DIR, 'investor.json'), investor),
     writeJson(path.join(DATA_DIR, 'meta.json'), meta),
     writeJson(path.join(DATA_DIR, 'hype.json'), hype),
