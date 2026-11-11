@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:42:25.265Z",
+  "updated": "2026-11-11T22:22:54.548Z",
   "earnings": {
     "title": "Q2 2027 Take-Two Interactive Software, Inc. Earnings Conference Call",
     "dateLabel": "November 9, 2026 at 9:30 PM UTC",
@@ -10,17 +10,17 @@
     "resultsUrl": "https://ir.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8"
   },
   "estimates": {
-    "epsAverage": 4.10781,
+    "epsAverage": 4.20439,
     "epsLow": 3.43,
-    "epsHigh": 4.85,
-    "revenueAverage": 3496351360,
-    "revenueLow": 3202052000,
-    "revenueHigh": 4088000000,
+    "epsHigh": 4.88298,
+    "revenueAverage": 3465485900,
+    "revenueLow": 3356100000,
+    "revenueHigh": 3600000000,
     "earningsDate": "2027-02-09",
     "earningsCallDate": "2026-11-09",
     "isEstimate": true,
     "epsYearAgo": -0.5,
-    "analysts": 5,
+    "analysts": 6,
     "source": "Yahoo Finance quoteSummary"
   },
   "annualMeeting": {
