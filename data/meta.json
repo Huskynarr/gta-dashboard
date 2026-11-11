@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-11T22:22:59.294Z",
-  "startedAt": "2026-11-11T22:22:54.437Z",
-  "durationMs": 4857,
+  "lastRun": "2026-11-11T23:45:25.712Z",
+  "startedAt": "2026-11-11T23:45:20.565Z",
+  "durationMs": 5147,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -30,17 +30,17 @@
   "counts": {
     "stocks": 13,
     "stockHistory": 3301,
-    "snapshots": 13,
+    "snapshots": 14,
     "wikiSeries": 4,
     "newsQueries": 4,
     "decixPoints": 573,
-    "decixHistoryPoints": 3032,
+    "decixHistoryPoints": 3049,
     "decixDailyPeaks": 11,
     "filings": 10,
     "pressReleases": 4,
-    "hypeSnapshots": 14,
-    "timelineSnapshots": 14,
-    "archivedNews": 751
+    "hypeSnapshots": 15,
+    "timelineSnapshots": 15,
+    "archivedNews": 762
   },
   "errors": []
 }

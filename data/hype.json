@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T22:22:58.726Z",
+  "updated": "2026-11-11T23:45:24.790Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-11T22:22:58.726Z",
+      "updated": "2026-11-11T23:45:24.790Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -113,8 +113,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 44,
-      "publisherCount": 40,
+      "count24h": 43,
+      "publisherCount": 38,
       "capped": true,
       "series": [
         {
@@ -173,7 +173,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-11T22:22:58.726Z",
+      "updated": "2026-11-11T23:45:24.790Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -218,9 +218,9 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 24,
+      "count7d": 25,
       "count24h": 6,
-      "publisherCount": 15,
+      "publisherCount": 16,
       "capped": false,
       "series": [
         {
@@ -245,7 +245,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 9
+          "count": 10
         },
         {
           "date": "2026-11-11",
@@ -279,7 +279,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-11T22:22:58.726Z",
+      "updated": "2026-11-11T23:45:24.790Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -325,8 +325,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 44,
-      "publisherCount": 52,
+      "count24h": 43,
+      "publisherCount": 53,
       "capped": true,
       "series": [
         {
@@ -360,6 +360,18 @@
       ],
       "items": [
         {
+          "title": "tagesschau24 - KULTUR: Videospiel 'GTA 6' steht zum Download bereit - hier anschauen - ARD Mediathek",
+          "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNTHA1M1JqVFhYV0g4bV96NmxpOHlnTm41cmUxblBfazh2bHRTRmdzMmx2YTlmdktkY2c0MXltUWJYc0swa3VEckVUU00wT2FIUkxJOHpfRkEzLW5mU1hhUFVLeHdNVzVYanpoXzhmeWZMYUxudFVvRmM4dVBTejdxMF9SZXFjcUQ1YnFBb3o3S1NPTVNfbG1CR0xHNlRQS2dZQUlVT0pmUlk4eENiN05VMnlUOGtRUzFxOXNHbVJQQWxTZHBoNWZjY3gtQU5JZTlPWkNvRWdrQ2VFVmFUbnNqUHMtc3Fxc05Mem5fM2RzaTZJOEdDTUk2TWNReGQyVUhZUnJsMklac3ZkUUJYVVc0NXc2OHI?oc=5",
+          "source": "ARD Mediathek",
+          "pubDate": "Wed, 11 Nov 2026 23:17:07 GMT"
+        },
+        {
+          "title": "Gaming - Download-Freigabe von \"GTA 6\" sorgt für erhöhten Datenverkehr im Internet - Deutschlandfunk",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd0FnSTI5YnhJWGJBZ1BkeUZ5dVZQNGh3ZWtGenNVYmFIS3NfWklCZHNvemQyaF9VLW13ek5xSjFObnFlb1N6OGtLbnZCSG9HN2hRaUZQMEZrbUNDalpCV2hDQldfQmJFdGVseUJHQzFhSC1VUC01MjRPUUtvdkdtdmNNWHl5QTlhQzN6SmlyVV9LLUtMbmk1dk5uNjN0UmdEVTRCaVBqRWxyc3lTOGo2cjJZYw?oc=5",
+          "source": "Deutschlandfunk",
+          "pubDate": "Wed, 11 Nov 2026 21:23:58 GMT"
+        },
+        {
           "title": "GTA VI: 200 GB Download lässt Datenverkehr bei Telekom, Vodafone & 1&1 steigen - RTL.de",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdkxRNWkyNU85ekFmME85S29sU3FNemxYamNDVnIzSjlNc2FZOGhOVzdORHpqd1JjZ0lSOHdxWFYwcTFDSDJsR1dsOFdzZHB6dmlOMnNObjlpYnhvMjlqOVd2SjdyVzhkSXU2ZTlRSEdHZUZiYkM5ZzZ0emFkcVVvSlBDbkxFZWVyMTVCVmRVb2YyOC1ONXF4Zk01RHc1REoyMlFsWFl1Z2MtcnRrNHZUa1dIeXJacEFvQTRfQTBxa29Kd0JM?oc=5",
           "source": "RTL.de",
@@ -370,22 +382,10 @@
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWW13c3V6djFyQWJjNjBUS2ZHamxSREI2THVMRW5WeW12cGJJeUN3b2MzQVNUWEx6YlpuRkhWV282bll6VDRWUXhtbjlaNW8zWFAxTWstWEdQSXY3WlVzTFl6eWd4ZkljNG13YXlSNDRvZVN1Nk9VNlhwRXJYTTE3S2ZhSUJVRFJpMVZlNDRraDVrQWpSbElDejZIOGN6Q0JhVGpUQUhVazJiQWItZWpHYjh2QkVPc250akNndmN1ZE5QWTZUNHc?oc=5",
           "source": "WirtschaftsWoche",
           "pubDate": "Wed, 11 Nov 2026 19:11:01 GMT"
-        },
-        {
-          "title": "GTA 6 sorgt für Datenrekorde: Internetanbieter melden enormen Ansturm - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOODdkNmtSb25JbTBHSHBibkRyUVFKZ1VCSVhYRXg1cEN1WmsxTE03MXZqODRDZnZBWnlhNjVUaEE5Mmp4UG1MZ2hVX0FGbWdXNFMtTWJNQ0FSRDIyY0tRdzZuOVhPSGVfanZKQzdtSGp2MVlwYTI0VzlHYnN5WDk0c3M3Sk9YaFhEcDRNWjg1aVFITVVHcTk3eVRwMW42aHJDNjFqVXduZDU5RDAzTU9NWVRiZEVqVnA0VlJxRjJubGxKdU1XWHZUYUFTOW9jaFFfZjZuaXkxQmF4akQxQVpXNkZYbmM4WDdkQkE?oc=5",
-          "source": "CHIP",
-          "pubDate": "Wed, 11 Nov 2026 19:08:00 GMT"
-        },
-        {
-          "title": "GTA 6: Sensor Tower erhöht Vorbestell-Prognose auf 1 Milliarde $ - GamesWirtschaft.de",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQkd3MFlab1VHamZlQ0xqb1h2d3E1VFVpa0x4SmVES2c4a2N4bWs4em15czRLWlViWkxyZU1kVWltR3JwWlZhNkIwTThTLUVQRUVuWVdVMEw3NGdQa3ZxRnlCcjhlaUpyMXdhczRSX1BnYkpvOVluR192Wl9sUlJkOU9pc2RCMHVsbi1wUzlPSkI?oc=5",
-          "source": "GamesWirtschaft.de",
-          "pubDate": "Wed, 11 Nov 2026 19:05:59 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-11T22:22:58.726Z",
+      "updated": "2026-11-11T23:45:24.790Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -520,6 +520,13 @@
     },
     {
       "at": "2026-11-11T22:22:56.997Z",
+      "version": "hype-v1",
+      "score": 92,
+      "coverage": 2,
+      "signature": "wiki+news"
+    },
+    {
+      "at": "2026-11-11T23:45:22.906Z",
       "version": "hype-v1",
       "score": 92,
       "coverage": 2,
