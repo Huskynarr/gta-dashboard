@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T13:02:23.342Z",
+  "updated": "2026-11-11T15:42:30.476Z",
   "topics": [
     {
       "key": "retail",
@@ -7,7 +7,7 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 24,
-      "count24h": 7,
+      "count24h": 5,
       "publisherCount": 13,
       "capped": false,
       "series": [
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-11T13:02:23.342Z",
+      "updated": "2026-11-11T15:42:30.476Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -113,13 +113,13 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 51,
-      "publisherCount": 44,
+      "count24h": 48,
+      "publisherCount": 41,
       "capped": true,
       "series": [
         {
           "date": "2026-11-05",
-          "count": 0
+          "count": 2
         },
         {
           "date": "2026-11-06",
@@ -127,53 +127,53 @@
         },
         {
           "date": "2026-11-07",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-08",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-09",
-          "count": 21
+          "count": 20
         },
         {
           "date": "2026-11-10",
-          "count": 47
+          "count": 37
         },
         {
           "date": "2026-11-11",
-          "count": 24
+          "count": 34
         }
       ],
       "items": [
         {
-          "title": "GTA 6: 30 fps, Cloud-Gaming auf Xbox One und hoher Netz-Traffic - connect.de",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNjlwVGRoYlRMbUVNdHpqdF9ON2VkazB6Vi1uR05xN05Wd0k2YVUtWVA0WDR2UnZWRmRBcFRPNjN4R1ZGaGo0cjViVFdaX0ZrR1k5VkJTRjNTRHo3ZGhieFItOHpkNjZQZEVVc2lIdklpRjRFemZQUG8zeE9BNzh0WTdUNlpSdTIzMFBtVGpab3VNSE0zcHRvdFdiTjVRdGtGbmRCNWswb0RKWUVQYzFSVWwzbENhXzZsSWgxUVVobw?oc=5",
-          "source": "connect.de",
-          "pubDate": "Wed, 11 Nov 2026 12:26:29 GMT"
+          "title": "Grand Theft Auto VI : Große Versprechen vor dem wichtigsten Rockstar-Launch seit Jahren - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU0FDeV95WXRWelhFcEx5WHlzWGhoMVZSSDJNckdUaTFsSk1mbG9vbzJsWnVleEV3NnlfTmpBc1hIeFpqeGNaaVFUbmVNY2gwalFiSEZxc211WG1STFpvNXl1ZGJIdVdiZjJCTmtNU2lhOUEtbkZLTHNKb1hnbG55ZExzemU1V2pyb0Y4Y3EtY2Q4aXVuOHM4U0lYZUVyc24wTXM0V3ZHZWE4UU5lMDROSGNfOEl6X3p1SFp3?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Wed, 11 Nov 2026 14:45:00 GMT"
         },
         {
-          "title": "Warum ihr GTA 6 auf PS5 und nicht auf der Xbox spielen solltet - hier gibt's die aktuell günstigste PS5 - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHo2R2dLZ3IxbVBXZjNST0tya2R3QllBcU9YZjQxRXZ5dGt1SDREeU9PYWpRU1ljVUwzaGNOdF80dTBWRlVFUWhjcFNVU2lCLWNZVENCSFQ4QnJ0RlBlaG1iV3ItOE1fVVNucVFZSVRrcDBXbkRXTERxN3FLSE02UDRGTWlZNkUtMnZ5cnV5OG1Oc0IyNHhVNlpUY00ybTc5dVJkeDZGY2tzVVo0Z19N?oc=5",
-          "source": "GameStar",
-          "pubDate": "Wed, 11 Nov 2026 12:19:00 GMT"
+          "title": "GTA 6: Vodafone gibt PS5-Spielern einen wichtigen Hinweis - Giga",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTVlNTzZYRktIZjY1UHJyTzREX1pEWXFRMmREWlFybFdhajJ6cVIxWXExQkZ1aE9fa3JUcEdlbUk0WVhteVBkRDF4VlkwckFTLTJ4UVBTOXJ2R2hNeUhLajl6SjFuSnh0eDVOMEhwbjFXNGZUVloyZ0pNOU5FMk9xMHFUdFV3dkFZRlZ6QnB6eHNubmxmRmp4dzh3ZjJJRmM0VldmdkhacFN0VmJIZWNR?oc=5",
+          "source": "Giga",
+          "pubDate": "Wed, 11 Nov 2026 14:30:01 GMT"
         },
         {
-          "title": "GTA 6 bricht Vorbestellungsrekord auf PlayStation und Xbox - mobidevices.com",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTWdrVTlfaFVnbmo1dUxLby1uNERCcW53WDN1Z3ZVQm5SUFM1UFBCZXhQUTE5NVZZRVhCOC14d2pEbW4xdHBVeEJ1TWlPbk9vMVFKc3dlYnYzLWhfWnBRZDZMUkJjNExMWUsxV0t6bjgtbGh4MFVaem9WcW0xUXdxTGhn?oc=5",
-          "source": "mobidevices.com",
-          "pubDate": "Wed, 11 Nov 2026 12:08:04 GMT"
+          "title": "Grand Theft Auto VI : Kein Witz – selbst die Xbox One darf nach Vice City - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTzVCaWRkaFV6WE9NbVpfbGdtM2FfQVR3anJFT2MwckZDMkk2U2RNZElpbDI4QzY3am5qTDZSdTFSUEd0ZjBUM1MxS2pabVNfX20yVUNmU2JsMWo1THl1UElBeUZFdGFlMUFoYXB3eEc2cm1GV28yeVd5bzRXWGp2Uldid2Q0N0VLbktQUzJuUFU2Nk1CZ0ZfNjA0YzhtalFINVEyMQ?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Wed, 11 Nov 2026 14:15:00 GMT"
         },
         {
-          "title": "GTA 6 bricht PlayStation- und Xbox-Rekord: Vorbesteller-Ansturm schreibt jetzt Geschichte - Netzwelt",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcVpzeWFDTnlEam52TlQ3dXR5RnpVVnhTZWp0cDRqYkY2dlc3UlA3dUdlaHdLb01ieENhOFpBcENJNmlSY3BTMGpVOTRLOE1SdE5mX0V6SkFVZ1ppSk15aUdzdndlbDRYZlEtUHZIRGJvZlVHZ1F3TUNUZjUyMlhjblk3WElHZ2tNUEstWHZHU1NrWTR1RnFoZ1NNb0h1UjU5UkRGSGxHWlBWbnRodG02bGV0TFBTZ3lNN3c?oc=5",
-          "source": "Netzwelt",
-          "pubDate": "Wed, 11 Nov 2026 12:00:00 GMT"
+          "title": "Rekord bei den Vorbestellungen für GTA 6, doch Rockstar nennt keine Zahlen - Pasquale Pillitteri",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOOVRwMlQ3SEQxWkJXNV9pUEJjYnNkd1JKUURzeVk4T2N6eHpIT21rNEpvS0FtRzMwQjR5Z2duSk9nS1JLakFwTmxqUTE2b0FOTEMzOVRXX0EwNzJjMEZGUzNhOC1GbUxEbWVaNmd6QTR6SzhnN1lSYmpzeTJISzFCeWU5VzhHNko5MFB3SWVkZ0otSTc2dUJ0RmI3NXRwMUxrYmFKUl82NkJTbFZS?oc=5",
+          "source": "Pasquale Pillitteri",
+          "pubDate": "Wed, 11 Nov 2026 13:55:07 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-11T13:02:23.342Z",
+      "updated": "2026-11-11T15:42:30.476Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -209,7 +209,7 @@
         },
         {
           "date": "2026-11-11",
-          "count": 24
+          "count": 34
         }
       ]
     },
@@ -219,8 +219,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 25,
-      "count24h": 10,
-      "publisherCount": 15,
+      "count24h": 5,
+      "publisherCount": 17,
       "capped": false,
       "series": [
         {
@@ -237,7 +237,7 @@
         },
         {
           "date": "2026-11-08",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-09",
@@ -245,7 +245,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 10
+          "count": 12
         },
         {
           "date": "2026-11-11",
@@ -279,7 +279,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-11T13:02:23.342Z",
+      "updated": "2026-11-11T15:42:30.476Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -325,8 +325,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 37,
-      "publisherCount": 46,
+      "count24h": 39,
+      "publisherCount": 47,
       "capped": true,
       "series": [
         {
@@ -343,49 +343,49 @@
         },
         {
           "date": "2026-11-08",
-          "count": 7
+          "count": 5
         },
         {
           "date": "2026-11-09",
-          "count": 25
+          "count": 21
         },
         {
           "date": "2026-11-10",
-          "count": 45
+          "count": 39
         },
         {
           "date": "2026-11-11",
-          "count": 17
+          "count": 30
         }
       ],
       "items": [
         {
-          "title": "GTA VI: Vorab-Download treibt Internetverkehr in Frankfurt auf Rekordhöhe - Golem",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ3c3R0xCTEE5Z1prWnl3WXE2eDJlS2ZKSDVOQ1lWeHFwVExSOXNFNXlzWTZDUzlmM1YyMWJBT1JtZndrQkd4OFRERkVnNGFMOWFxeFlnWWxPLURqeVRtdE5VbE56SW1rb3Z4ME9ac3JqQUlHWklqSlFmbC1oVjRodjAzNlBXampWZVNLNnU0eHA5ajZBT3lTUHowdDJmbU9Vb1lqYTZ1N2lTUQ?oc=5",
-          "source": "Golem",
-          "pubDate": "Wed, 11 Nov 2026 12:49:02 GMT"
+          "title": "Take-Two bilanziert GTA 6 Ultimate Edition als In-Game-Umsatz - GamesWirtschaft.de",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU2ZUVVAxWi00bC1oVUlGQklqbkZtSXgtRnZvcXVlYXUxUTItTFkyUXlPVGFzMzhWbUYxYjZXWmVMdkxHc2dkSkQ3eVlFNVEwNnJvWmJGR24xY2V3MjlTMmxvWndCM3RTamg1Um5sN05NczBIcjIyWV9zY2pJN1dJLVNSY2ZuZzBY?oc=5",
+          "source": "GamesWirtschaft.de",
+          "pubDate": "Wed, 11 Nov 2026 15:29:12 GMT"
         },
         {
-          "title": "GTA 6: 30 fps, Cloud-Gaming auf Xbox One und hoher Netz-Traffic - connect.de",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNjlwVGRoYlRMbUVNdHpqdF9ON2VkazB6Vi1uR05xN05Wd0k2YVUtWVA0WDR2UnZWRmRBcFRPNjN4R1ZGaGo0cjViVFdaX0ZrR1k5VkJTRjNTRHo3ZGhieFItOHpkNjZQZEVVc2lIdklpRjRFemZQUG8zeE9BNzh0WTdUNlpSdTIzMFBtVGpab3VNSE0zcHRvdFdiTjVRdGtGbmRCNWswb0RKWUVQYzFSVWwzbENhXzZsSWgxUVVobw?oc=5",
-          "source": "connect.de",
-          "pubDate": "Wed, 11 Nov 2026 12:26:29 GMT"
+          "title": "GTA 6: Der Preload ist so groß, dass er in Großbritannien plötzlich einen Internetanbieter ausbremste - GameStar",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdDN3OS1FS0JCTXgxazExRHl3TVZCc1R6X2dDWWVIbzNBQnhjeFdwdHA0RTNqTWQ1YjdfNGRjQlJ1U2s3dGhoVi1rUWlJd2w0U0JpVGo0R2lfeFJiRllwSG5UUy1sZjhmZGsycm5RQWoxMzBsRVRyMGVkdzU0TFE4RThvdzlZM3JSUDgyU3AzSE1vMnNp?oc=5",
+          "source": "GameStar",
+          "pubDate": "Wed, 11 Nov 2026 15:10:00 GMT"
         },
         {
-          "title": "GTA 6 bricht Vorbestellungsrekord auf PlayStation und Xbox - mobidevices.com",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTWdrVTlfaFVnbmo1dUxLby1uNERCcW53WDN1Z3ZVQm5SUFM1UFBCZXhQUTE5NVZZRVhCOC14d2pEbW4xdHBVeEJ1TWlPbk9vMVFKc3dlYnYzLWhfWnBRZDZMUkJjNExMWUsxV0t6bjgtbGh4MFVaem9WcW0xUXdxTGhn?oc=5",
-          "source": "mobidevices.com",
-          "pubDate": "Wed, 11 Nov 2026 12:08:04 GMT"
+          "title": "Grand Theft Auto VI : Große Versprechen vor dem wichtigsten Rockstar-Launch seit Jahren - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU0FDeV95WXRWelhFcEx5WHlzWGhoMVZSSDJNckdUaTFsSk1mbG9vbzJsWnVleEV3NnlfTmpBc1hIeFpqeGNaaVFUbmVNY2gwalFiSEZxc211WG1STFpvNXl1ZGJIdVdiZjJCTmtNU2lhOUEtbkZLTHNKb1hnbG55ZExzemU1V2pyb0Y4Y3EtY2Q4aXVuOHM4U0lYZUVyc24wTXM0V3ZHZWE4UU5lMDROSGNfOEl6X3p1SFp3?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Wed, 11 Nov 2026 14:45:00 GMT"
         },
         {
-          "title": "GTA 6 erscheint in 8 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
-          "source": "GamePro",
-          "pubDate": "Wed, 11 Nov 2026 11:55:22 GMT"
+          "title": "Neues Videospiel: Vorab-Downloads von GTA 6 treiben Datenverkehr in die Höhe - STERN.de",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQT3lJcXBESFF1WVVlUDhZc2pHTWpnXzVPSzRlT1NBTW1qa3lzb1BrWnVXRFVULW5jUENQYnZzWjBJVGk3RjRPdldwdC1mNVJ4WVlyVFNEcUNlZk02TEdZYnFIcmZPUmcyTXk5OTVsa2tiU2VQU3lJc2Q3QmgzbjlvWmx0T3dTcEEwQm0zejRMUHFLSnZPM1V4bzVIQi12VHJ2TlRPQkJLVTAzdnVhUHRBeVpSZFh4WEhoQjJqR1h2MGtCdWRxS3JZ?oc=5",
+          "source": "STERN.de",
+          "pubDate": "Wed, 11 Nov 2026 14:33:52 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-11T13:02:23.342Z",
+      "updated": "2026-11-11T15:42:30.476Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -421,7 +421,7 @@
         },
         {
           "date": "2026-11-11",
-          "count": 17
+          "count": 30
         }
       ]
     }
@@ -508,6 +508,13 @@
       "at": "2026-11-11T13:02:11.874Z",
       "version": "hype-v1",
       "score": 88,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-11T15:42:30.334Z",
+      "version": "hype-v1",
+      "score": 91,
       "coverage": 3,
       "signature": "wiki+news+reddit"
     }
