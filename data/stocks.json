@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T22:55:16.747Z",
+  "updated": "2026-11-13T00:48:30.784Z",
   "source": "Yahoo Finance chart API",
   "series": {
     "7974": {
@@ -11,15 +11,15 @@
       "color": "#ff4d4d",
       "currency": "JPY",
       "exchange": "Tokyo",
-      "price": 8563,
-      "previousClose": 13885,
-      "changePct": 2.29,
-      "marketTime": "2026-11-12T06:30:00.000Z",
-      "dayHigh": 8703,
-      "dayLow": 8419,
+      "price": 8547,
+      "previousClose": 13665,
+      "changePct": -0.19,
+      "marketTime": "2026-11-13T00:33:30.000Z",
+      "dayHigh": 8555,
+      "dayLow": 8421,
       "fiftyTwoWeekHigh": 13985,
       "fiftyTwoWeekLow": 6544,
-      "volume": 8086700,
+      "volume": 1631800,
       "history": [
         {
           "date": "2025-11-06",
@@ -1996,6 +1996,14 @@
           "low": 8419,
           "close": 8563,
           "volume": 8086700
+        },
+        {
+          "date": "2026-11-13",
+          "open": 8531,
+          "high": 8555,
+          "low": 8421,
+          "close": 8547,
+          "volume": 1631800
         }
       ]
     },
@@ -27909,8 +27917,67 @@
           "changePct": 0.48
         }
       }
+    },
+    {
+      "ts": "2026-11-13T00:48:34.961Z",
+      "date": "2026-11-13",
+      "slot": "morning",
+      "prices": {
+        "7974": {
+          "price": 8547,
+          "changePct": -0.19
+        },
+        "TTWO": {
+          "price": 226.95,
+          "changePct": -1.88
+        },
+        "RBLX": {
+          "price": 51.42,
+          "changePct": -2.26
+        },
+        "CDR": {
+          "price": 278.2,
+          "changePct": 1.35
+        },
+        "UBI": {
+          "price": 4.508,
+          "changePct": -2.15
+        },
+        "SONY": {
+          "price": 26.66,
+          "changePct": 0.64
+        },
+        "MSFT": {
+          "price": 523,
+          "changePct": 0.36
+        },
+        "NVDA": {
+          "price": 166.19,
+          "changePct": -4.34
+        },
+        "UBER": {
+          "price": 69.12,
+          "changePct": -2.21
+        },
+        "DASH": {
+          "price": 172.58,
+          "changePct": -3.19
+        },
+        "DHER": {
+          "price": 36.65,
+          "changePct": -0.27
+        },
+        "GME": {
+          "price": 25.62,
+          "changePct": 0.27
+        },
+        "AMZN": {
+          "price": 267.44,
+          "changePct": 0.48
+        }
+      }
     }
   ],
-  "slot": "evening",
+  "slot": "morning",
   "errors": []
 }

@@ -1,8 +1,8 @@
 {
-  "lastRun": "2026-11-12T22:55:21.656Z",
-  "startedAt": "2026-11-12T22:55:16.724Z",
-  "durationMs": 4932,
-  "runSlot": "evening",
+  "lastRun": "2026-11-13T00:48:35.615Z",
+  "startedAt": "2026-11-13T00:48:30.760Z",
+  "durationMs": 4855,
+  "runSlot": "morning",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
     "ps5Preload": "2026-11-10T00:00:00+01:00",
@@ -18,7 +18,7 @@
     "osint": "ok",
     "network": "ok",
     "decixHistory": "ok",
-    "reddit": "ok",
+    "reddit": "degraded",
     "steam": "ok",
     "trends": "ok",
     "rockstar": "ok",
@@ -29,18 +29,18 @@
   },
   "counts": {
     "stocks": 13,
-    "stockHistory": 3314,
-    "snapshots": 19,
+    "stockHistory": 3315,
+    "snapshots": 20,
     "wikiSeries": 4,
     "newsQueries": 4,
-    "decixPoints": 571,
-    "decixHistoryPoints": 3326,
-    "decixDailyPeaks": 12,
+    "decixPoints": 572,
+    "decixHistoryPoints": 3348,
+    "decixDailyPeaks": 13,
     "filings": 10,
     "pressReleases": 4,
-    "hypeSnapshots": 20,
-    "timelineSnapshots": 20,
-    "archivedNews": 931
+    "hypeSnapshots": 21,
+    "timelineSnapshots": 21,
+    "archivedNews": 938
   },
   "errors": []
 }
