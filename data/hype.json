@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-14T01:54:19.389Z",
+  "updated": "2026-11-14T08:19:17.463Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 28,
+      "count7d": 27,
       "count24h": 2,
       "publisherCount": 14,
       "capped": false,
@@ -17,7 +17,7 @@
         },
         {
           "date": "2026-11-09",
-          "count": 10
+          "count": 9
         },
         {
           "date": "2026-11-10",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-14T01:54:19.389Z",
+      "updated": "2026-11-14T08:19:17.463Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -124,7 +124,7 @@
       "label": "Hardware & Setup",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 100,
+      "count7d": 99,
       "count24h": 20,
       "publisherCount": 43,
       "capped": true,
@@ -135,7 +135,7 @@
         },
         {
           "date": "2026-11-09",
-          "count": 12
+          "count": 11
         },
         {
           "date": "2026-11-10",
@@ -143,49 +143,49 @@
         },
         {
           "date": "2026-11-11",
-          "count": 22
+          "count": 23
         },
         {
           "date": "2026-11-12",
-          "count": 25
+          "count": 23
         },
         {
           "date": "2026-11-13",
-          "count": 20
+          "count": 17
         },
         {
           "date": "2026-11-14",
-          "count": 0
+          "count": 4
         }
       ],
       "items": [
         {
-          "title": "Rockstar Games hat den ersten offiziellen Patch 1.002.000 für GTA VI auf PS5 veröffentlicht; er ist 1 GB groß. - GameGPU",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRjNaMTJuWkhVQ2pKYWhrVWlGQWpJb0Jwdl9pS0ZyX3JhQzBvN2hEbXZlSXFKVWMzTF82QnRsVng1T0NvY1lrU1NuVjFzd21vX0NNVnhqU3hVd2pzVENLdHYwMzE0RmR1RVJGMWFha2VldTZwR3ZVX25IZzFrODJJa3U1M0pwOVF4dlFtWFZQUklPU3NkbE5raDM5YXl6SnNPUWVfVmxOOXVRbkdjTzNfYWVZSTZVLTFCYWY4?oc=5",
-          "source": "GameGPU",
-          "pubDate": "Fri, 13 Nov 2026 22:08:43 GMT"
+          "title": "GTA 6: Auf dieses exklusive PS5-Feature freue ich mich jetzt schon am meisten - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSE1tQ205VnVMeGV6M3ozekpIOVNEX3JTcG1ZcUpFamRRR0lncW9HM3pDMkV0NURScGt3QWdLb1NWNjdCQlJTc1VoZGx1SHhVaEQ5SmVkMXpMZ3BaRFJDS3Mwb1pWMFBpejcydFJ0UjNWWDVlNXpkMDFRTnVxSmNWVUNvSVM4dGsycmU1OUhCS2VRZG1kUV9TXzVB?oc=5",
+          "source": "GamePro",
+          "pubDate": "Sat, 14 Nov 2026 08:01:00 GMT"
         },
         {
-          "title": "GTA 6: Aufregung um Code-in-a-Box ohne Sicherheitsschutz, Spieler warnen vor Diebstahl - PlayFront",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeVR1TDNrLUVEdWpKdy1PaUxvbV9pNXdXMmt0anNBNEFNVkZRYTRJUGp1M190V0dtTnpHWHVSZmVZUnlmai1HaE12RERfSWhKb1VnZmxxLXhyT1JIdDA3bWZvb3dBeU9aZXRwU19Od1JWckhyckxGc2RGWTYyelZZaTBJN3Y0SnBJNXZLY29PUERfX3o0ZVZpa1ZCQjA2akVMRVRGNjdDcVRidw?oc=5",
-          "source": "PlayFront",
-          "pubDate": "Fri, 13 Nov 2026 21:23:26 GMT"
+          "title": "Grand Theft Auto VI : Versiegelte Spiele, aber Codes schon weg? - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOURqRTR0cC14bDdMSXo0dzVKSUtseUIzZU9kTWs0N3poRmxoU1drdXNwZ0dYMjREeXA5TFlfTWd6UDItZ25fRkQ3bkN5eUFaTjFJS2QzVUV0QzBVVmJCOXNvUTQ5OUN3OFZxQzFDMXc1UWwza0dONWF5YzBNQWg5SGV0NjhVSkZ0bEZPMUlaTHU3QTJrSGcwYU9BLXpxZWMybFktTmZ3Ym9CM1E?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Sat, 14 Nov 2026 06:05:00 GMT"
         },
         {
           "title": "GTA 6 Release sorgt für Anstieg von Urlaubsanträgen - WirtschaftsWoche",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWW13c3V6djFyQWJjNjBUS2ZHamxSREI2THVMRW5WeW12cGJJeUN3b2MzQVNUWEx6YlpuRkhWV282bll6VDRWUXhtbjlaNW8zWFAxTWstWEdQSXY3WlVzTFl6eWd4ZkljNG13YXlSNDRvZVN1Nk9VNlhwRXJYTTE3S2ZhSUJVRFJpMVZlNDRraDVrQWpSbElDejZIOGN6Q0JhVGpUQUhVazJiQWItZWpHYjh2QkVPc250akNndmN1ZE5QWTZUNHc?oc=5",
           "source": "WirtschaftsWoche",
-          "pubDate": "Fri, 13 Nov 2026 20:36:51 GMT"
+          "pubDate": "Sat, 14 Nov 2026 05:30:22 GMT"
         },
         {
-          "title": "10 Millionen Vorbestellungen und 1 Milliarde Dollar: Was GTA 6 jetzt auslösen könnte - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYUFwcVlXZUxxQ3p0MGIwVDluNFk5UUdvWTY2bkdpNzNYdVF5Nno2ampkYk8tMUdIV3lxQ1VMR29aRjFEQkhydzZmNXJnTFl6dWc2R0tVNTlodEJLcFhLRDNvcm1BcmVkRVg3WHlQWU1GNTJVeGkyWXJyUjlwRS1KWk1HNG0tdlNJZzFMUTVCTWVfX3JHVkJhTnJxd1k2S055dHVYUkFMTVJiQXJhckNLRE8wYzZHQ2QyXzZmWGJRNFczNE5qdGVCNGdQUWxhejZHdzdpWGwzQUNOQ1JFY1N3bktnWUtIZGo1UFVqNFE1Q2JBYXc?oc=5",
+          "title": "38 Prozent mehr Urlaubsanträge in Deutschland – zeitgleich mit dem GTA-6-Start - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTnNYaHNqOWlpMWxlbUhTNGJvM191dXp2djg0NWJhRHJDbDR0WW1OUXVsdFk3YXpDZGQxLTFZY1loUmpYdkxTYUFORTJqZGJoT3JjQXA3cmtmaDQ4Q1hYUTY1VzFGTnlaTVRWVExTQmFkOThjQlNOSk9kY2tyOUxGM0NGOTZjaHNJX0hnVDVwak5JV3M0U05fM1NrZl93cS0tbU1oWE40dkZtVGd6OTNaNEJqVEZEN3lfdUFRcEtxUVVkeGlYVnI3aXZfSnM3YlpVTGo0WUx1RWhVc3hQLUhTTlJhS29UUkU2T2YwTjg1aUY?oc=5",
           "source": "CHIP",
-          "pubDate": "Fri, 13 Nov 2026 18:10:00 GMT"
+          "pubDate": "Sat, 14 Nov 2026 05:05:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-14T01:54:19.389Z",
+      "updated": "2026-11-14T08:19:17.463Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -233,7 +233,7 @@
         },
         {
           "date": "2026-11-14",
-          "count": 0
+          "count": 4
         }
       ]
     },
@@ -242,8 +242,8 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 31,
-      "count24h": 12,
+      "count7d": 30,
+      "count24h": 11,
       "publisherCount": 16,
       "capped": false,
       "series": [
@@ -257,7 +257,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 5
+          "count": 4
         },
         {
           "date": "2026-11-11",
@@ -273,10 +273,16 @@
         },
         {
           "date": "2026-11-14",
-          "count": 0
+          "count": 1
         }
       ],
       "items": [
+        {
+          "title": "Für GTA 6 macht in Japan ein ganzes Entwicklerstudio fünf Tage Urlaub - GameStar",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRkNmNi1SX3doWV9pbEV1cjJncFp2Q2JMcHBjaUhmRDZhWks1aC12MFRJVDZDbWZkekhaTkxqWVFHMVVPS3VKSEJrTU1kbkQ2b1hpN0JVb28wdm44WUZheEpsSGhsRGYwVzBPcWFYR2lzem4teWlzNkdNMWp4UzYySlBsTTNnREVnam14RlFBRm02T2V2b1Z0WlZJZFRyZw?oc=5",
+          "source": "GameStar",
+          "pubDate": "Sat, 14 Nov 2026 06:50:00 GMT"
+        },
         {
           "title": "GTA 6: Kurz vor Release werden 19 Twitch-Drops freigeschaltet - https://www.4fansites.de/",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORVI2R3prUlZQYWF2QUxLNndiR2xUNG9PQUpxODVkeWRSdWoyQWlUdnctT1lJS1pNZjg5T3l0MWVJeU9pTkNuOHRvZnZhTDM4N1BUNXNtNVFkbkNDdzI5VHl4UmNNZmpWWHN4dG1Pc0dTeVZDTjlrbGFSLUVtU2Q3SmtoMkVZSHlaNVRrMGNUUUhXQmZQTWxQcEc5bw?oc=5",
@@ -294,16 +300,10 @@
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51bzdQblIweFNNTWpCR3M3VU5sMHY3QXRRem8tb0tMYTA5YlVWRHk5TGw0TjRLLXl5ZlgtQy04dzhiNHA1OWdILWdNMmtGOXRicXF2NEhiR0h4TjJremE3c1NkYkxtNUhyZThmQ2VVVzRUR00?oc=5",
           "source": "WEB.DE",
           "pubDate": "Fri, 13 Nov 2026 16:11:59 GMT"
-        },
-        {
-          "title": "GTA 6 bekommt zum Release einen gigantischen 24-Stunden-Livestream von YouTube - PlayCentral",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GQzVoazE1eDNGdnFmNXBfQ2g4c2RQMVVfQzdjMHVQMk9lcWxDZWxrZktvcVd4MlhsT0pweFpVOTgtTW5nWDlVZ2ltMDdqREgtNTNuc3ZvWE5wVlhDSkhvakRRVUZId2wyeUt0bUp2VmtfTEt1MnA2MXlOcw?oc=5",
-          "source": "PlayCentral",
-          "pubDate": "Fri, 13 Nov 2026 14:42:27 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-14T01:54:19.389Z",
+      "updated": "2026-11-14T08:19:17.463Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -351,7 +351,7 @@
         },
         {
           "date": "2026-11-14",
-          "count": 0
+          "count": 1
         }
       ]
     },
@@ -361,8 +361,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 22,
-      "publisherCount": 48,
+      "count24h": 23,
+      "publisherCount": 50,
       "capped": true,
       "series": [
         {
@@ -371,57 +371,57 @@
         },
         {
           "date": "2026-11-09",
-          "count": 9
+          "count": 8
         },
         {
           "date": "2026-11-10",
-          "count": 17
+          "count": 15
         },
         {
           "date": "2026-11-11",
-          "count": 29
+          "count": 28
         },
         {
           "date": "2026-11-12",
-          "count": 18
+          "count": 21
         },
         {
           "date": "2026-11-13",
-          "count": 20
+          "count": 18
         },
         {
           "date": "2026-11-14",
-          "count": 2
+          "count": 5
         }
       ],
       "items": [
         {
-          "title": "Zum Start von GTA 6 steigen weltweit die Urlaubsanträge – eine Generation ist dabei ganz vorn - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdWd6aEU0WFhfZkRpTmRPd3dmdzllY0gwNFgzZ3Y2ZVYwc3phYW9LcGlRRXZ2bnYtRjVjY2pVQi1PTlkwcUhxYzFsN3dxRmYtZmdiQm5UOER5Ykc1Ymp3ak5admtvSFVFaWRZMVFiWV9hYkhMZTVMdklINVBuMFUwSWIxOWVIdDVwWk5LMm5KVHhIQW9seHljSA?oc=5",
-          "source": "GamePro",
-          "pubDate": "Sat, 14 Nov 2026 01:00:00 GMT"
+          "title": "GTA 6 Release sorgt für Anstieg von Urlaubsanträgen - WirtschaftsWoche",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWW13c3V6djFyQWJjNjBUS2ZHamxSREI2THVMRW5WeW12cGJJeUN3b2MzQVNUWEx6YlpuRkhWV282bll6VDRWUXhtbjlaNW8zWFAxTWstWEdQSXY3WlVzTFl6eWd4ZkljNG13YXlSNDRvZVN1Nk9VNlhwRXJYTTE3S2ZhSUJVRFJpMVZlNDRraDVrQWpSbElDejZIOGN6Q0JhVGpUQUhVazJiQWItZWpHYjh2QkVPc250akNndmN1ZE5QWTZUNHc?oc=5",
+          "source": "WirtschaftsWoche",
+          "pubDate": "Sat, 14 Nov 2026 05:30:22 GMT"
         },
         {
           "title": "GTA 6 erscheint in 6 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
           "source": "GamePro",
-          "pubDate": "Sat, 14 Nov 2026 00:29:30 GMT"
+          "pubDate": "Sat, 14 Nov 2026 05:24:20 GMT"
         },
         {
-          "title": "GTA 6 Release sorgt für Anstieg von Urlaubsanträgen - WirtschaftsWoche",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWW13c3V6djFyQWJjNjBUS2ZHamxSREI2THVMRW5WeW12cGJJeUN3b2MzQVNUWEx6YlpuRkhWV282bll6VDRWUXhtbjlaNW8zWFAxTWstWEdQSXY3WlVzTFl6eWd4ZkljNG13YXlSNDRvZVN1Nk9VNlhwRXJYTTE3S2ZhSUJVRFJpMVZlNDRraDVrQWpSbElDejZIOGN6Q0JhVGpUQUhVazJiQWItZWpHYjh2QkVPc250akNndmN1ZE5QWTZUNHc?oc=5",
-          "source": "WirtschaftsWoche",
-          "pubDate": "Fri, 13 Nov 2026 20:36:51 GMT"
-        },
-        {
-          "title": "10 Millionen Vorbestellungen und 1 Milliarde Dollar: Was GTA 6 jetzt auslösen könnte - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYUFwcVlXZUxxQ3p0MGIwVDluNFk5UUdvWTY2bkdpNzNYdVF5Nno2ampkYk8tMUdIV3lxQ1VMR29aRjFEQkhydzZmNXJnTFl6dWc2R0tVNTlodEJLcFhLRDNvcm1BcmVkRVg3WHlQWU1GNTJVeGkyWXJyUjlwRS1KWk1HNG0tdlNJZzFMUTVCTWVfX3JHVkJhTnJxd1k2S055dHVYUkFMTVJiQXJhckNLRE8wYzZHQ2QyXzZmWGJRNFczNE5qdGVCNGdQUWxhejZHdzdpWGwzQUNOQ1JFY1N3bktnWUtIZGo1UFVqNFE1Q2JBYXc?oc=5",
+          "title": "38 Prozent mehr Urlaubsanträge in Deutschland – zeitgleich mit dem GTA-6-Start - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTnNYaHNqOWlpMWxlbUhTNGJvM191dXp2djg0NWJhRHJDbDR0WW1OUXVsdFk3YXpDZGQxLTFZY1loUmpYdkxTYUFORTJqZGJoT3JjQXA3cmtmaDQ4Q1hYUTY1VzFGTnlaTVRWVExTQmFkOThjQlNOSk9kY2tyOUxGM0NGOTZjaHNJX0hnVDVwak5JV3M0U05fM1NrZl93cS0tbU1oWE40dkZtVGd6OTNaNEJqVEZEN3lfdUFRcEtxUVVkeGlYVnI3aXZfSnM3YlpVTGo0WUx1RWhVc3hQLUhTTlJhS29UUkU2T2YwTjg1aUY?oc=5",
           "source": "CHIP",
-          "pubDate": "Fri, 13 Nov 2026 18:10:00 GMT"
+          "pubDate": "Sat, 14 Nov 2026 05:05:00 GMT"
+        },
+        {
+          "title": "„Bin dann erst mal nicht verfügbar“ – So kommt GTA VI beim Verkaufsstart in Frankfurt an - Frankfurter Rundschau",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUkd0S2ZnMmdxLV9CQm95aDZZUnVSY0ticjVnQkc4Y01pWnNYZ0M0ellvOUJBT3FqMzVTLTZJVjFvdXg1a0JUNEt1bHZrYmZSTC1MM2xPSkpHcWVEV1FUa0hjT1I2dW5PcFR1U0V0XzRwYVRtUlpvUDlOWmxsa25uc2RsbWlRaXFvMmkzbTFkVF9kRWpIT1JDY3YzLUxRQ3BHNnJWMFVucG5fSWh0VTZCLVVNdElIaFpyZTlLMUdjY1VsQjVJbm9IU196ZExXMDRxZGc?oc=5",
+          "source": "Frankfurter Rundschau",
+          "pubDate": "Sat, 14 Nov 2026 05:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-14T01:54:19.389Z",
+      "updated": "2026-11-14T08:19:17.463Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -469,7 +469,7 @@
         },
         {
           "date": "2026-11-14",
-          "count": 2
+          "count": 5
         }
       ]
     }
@@ -661,6 +661,13 @@
       "at": "2026-11-14T01:54:17.924Z",
       "version": "hype-v1",
       "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-14T08:19:16.512Z",
+      "version": "hype-v1",
+      "score": 93,
       "coverage": 3,
       "signature": "wiki+news+reddit"
     }
