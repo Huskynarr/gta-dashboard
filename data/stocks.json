@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T08:19:13.104Z",
+  "updated": "2026-11-14T12:35:24.478Z",
   "source": "Yahoo Finance chart API",
   "series": {
     "7974": {
@@ -17,7 +17,7 @@
       "marketTime": "2026-11-13T06:30:00.000Z",
       "dayHigh": 8819,
       "dayLow": 8421,
-      "fiftyTwoWeekHigh": 13555,
+      "fiftyTwoWeekHigh": 13520,
       "fiftyTwoWeekLow": 6544,
       "volume": 9371600,
       "history": [
@@ -10309,7 +10309,7 @@
           "date": "2026-11-13",
           "open": 4.45,
           "high": 4.5,
-          "low": 4.328,
+          "low": 4.326,
           "close": 4.332,
           "volume": 287678
         }
@@ -10330,7 +10330,7 @@
       "marketTime": "2026-11-13T21:00:02.000Z",
       "dayHigh": 27.305,
       "dayLow": 27.065,
-      "fiftyTwoWeekHigh": 30.33,
+      "fiftyTwoWeekHigh": 29.41,
       "fiftyTwoWeekLow": 19.32,
       "volume": 4248202,
       "history": [
@@ -28485,8 +28485,67 @@
           "changePct": -0.29
         }
       }
+    },
+    {
+      "ts": "2026-11-14T12:35:28.528Z",
+      "date": "2026-11-14",
+      "slot": "evening",
+      "prices": {
+        "7974": {
+          "price": 8773,
+          "changePct": 2.45
+        },
+        "TTWO": {
+          "price": 227.82,
+          "changePct": 0.38
+        },
+        "RBLX": {
+          "price": 49.91,
+          "changePct": -2.94
+        },
+        "CDR": {
+          "price": 278.4,
+          "changePct": 0.07
+        },
+        "UBI": {
+          "price": 4.332,
+          "changePct": -3.9
+        },
+        "SONY": {
+          "price": 27.07,
+          "changePct": 1.54
+        },
+        "MSFT": {
+          "price": 523.88,
+          "changePct": 0.17
+        },
+        "NVDA": {
+          "price": 162.85,
+          "changePct": -2.01
+        },
+        "UBER": {
+          "price": 69.69,
+          "changePct": 0.83
+        },
+        "DASH": {
+          "price": 171.51,
+          "changePct": -0.62
+        },
+        "DHER": {
+          "price": 36.65,
+          "changePct": 0
+        },
+        "GME": {
+          "price": 25.85,
+          "changePct": 0.9
+        },
+        "AMZN": {
+          "price": 266.66,
+          "changePct": -0.29
+        }
+      }
     }
   ],
-  "slot": "morning",
+  "slot": "evening",
   "errors": []
 }
