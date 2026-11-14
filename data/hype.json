@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T22:57:08.593Z",
+  "updated": "2026-11-14T01:54:19.389Z",
   "topics": [
     {
       "key": "retail",
@@ -11,10 +11,6 @@
       "publisherCount": 14,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-07",
-          "count": 0
-        },
         {
           "date": "2026-11-08",
           "count": 0
@@ -38,6 +34,10 @@
         {
           "date": "2026-11-13",
           "count": 2
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
         }
       ],
       "items": [
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-13T22:57:08.593Z",
+      "updated": "2026-11-14T01:54:19.389Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -112,6 +112,10 @@
         {
           "date": "2026-11-13",
           "count": 2
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
         }
       ]
     },
@@ -121,21 +125,17 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 21,
-      "publisherCount": 41,
+      "count24h": 20,
+      "publisherCount": 43,
       "capped": true,
       "series": [
         {
-          "date": "2026-11-07",
-          "count": 2
-        },
-        {
           "date": "2026-11-08",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-09",
-          "count": 11
+          "count": 12
         },
         {
           "date": "2026-11-10",
@@ -143,15 +143,19 @@
         },
         {
           "date": "2026-11-11",
-          "count": 24
+          "count": 22
         },
         {
           "date": "2026-11-12",
-          "count": 24
+          "count": 25
         },
         {
           "date": "2026-11-13",
-          "count": 21
+          "count": 20
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
         }
       ],
       "items": [
@@ -181,7 +185,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-13T22:57:08.593Z",
+      "updated": "2026-11-14T01:54:19.389Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -226,6 +230,10 @@
         {
           "date": "2026-11-13",
           "count": 21
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
         }
       ]
     },
@@ -235,14 +243,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 31,
-      "count24h": 11,
+      "count24h": 12,
       "publisherCount": 16,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-07",
-          "count": 2
-        },
         {
           "date": "2026-11-08",
           "count": 0
@@ -261,11 +265,15 @@
         },
         {
           "date": "2026-11-12",
-          "count": 9
+          "count": 8
         },
         {
           "date": "2026-11-13",
-          "count": 11
+          "count": 12
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
         }
       ],
       "items": [
@@ -295,7 +303,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-13T22:57:08.593Z",
+      "updated": "2026-11-14T01:54:19.389Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -339,7 +347,11 @@
         },
         {
           "date": "2026-11-13",
-          "count": 11
+          "count": 12
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
         }
       ]
     },
@@ -350,20 +362,16 @@
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
       "count24h": 22,
-      "publisherCount": 47,
+      "publisherCount": 48,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-07",
-          "count": 2
-        },
         {
           "date": "2026-11-08",
           "count": 2
         },
         {
           "date": "2026-11-09",
-          "count": 11
+          "count": 9
         },
         {
           "date": "2026-11-10",
@@ -371,7 +379,7 @@
         },
         {
           "date": "2026-11-11",
-          "count": 28
+          "count": 29
         },
         {
           "date": "2026-11-12",
@@ -379,15 +387,25 @@
         },
         {
           "date": "2026-11-13",
-          "count": 22
+          "count": 20
+        },
+        {
+          "date": "2026-11-14",
+          "count": 2
         }
       ],
       "items": [
         {
+          "title": "Zum Start von GTA 6 steigen weltweit die Urlaubsanträge – eine Generation ist dabei ganz vorn - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdWd6aEU0WFhfZkRpTmRPd3dmdzllY0gwNFgzZ3Y2ZVYwc3phYW9LcGlRRXZ2bnYtRjVjY2pVQi1PTlkwcUhxYzFsN3dxRmYtZmdiQm5UOER5Ykc1Ymp3ak5admtvSFVFaWRZMVFiWV9hYkhMZTVMdklINVBuMFUwSWIxOWVIdDVwWk5LMm5KVHhIQW9seHljSA?oc=5",
+          "source": "GamePro",
+          "pubDate": "Sat, 14 Nov 2026 01:00:00 GMT"
+        },
+        {
           "title": "GTA 6 erscheint in 6 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
           "source": "GamePro",
-          "pubDate": "Fri, 13 Nov 2026 21:34:50 GMT"
+          "pubDate": "Sat, 14 Nov 2026 00:29:30 GMT"
         },
         {
           "title": "GTA 6 Release sorgt für Anstieg von Urlaubsanträgen - WirtschaftsWoche",
@@ -400,16 +418,10 @@
           "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYUFwcVlXZUxxQ3p0MGIwVDluNFk5UUdvWTY2bkdpNzNYdVF5Nno2ampkYk8tMUdIV3lxQ1VMR29aRjFEQkhydzZmNXJnTFl6dWc2R0tVNTlodEJLcFhLRDNvcm1BcmVkRVg3WHlQWU1GNTJVeGkyWXJyUjlwRS1KWk1HNG0tdlNJZzFMUTVCTWVfX3JHVkJhTnJxd1k2S055dHVYUkFMTVJiQXJhckNLRE8wYzZHQ2QyXzZmWGJRNFczNE5qdGVCNGdQUWxhejZHdzdpWGwzQUNOQ1JFY1N3bktnWUtIZGo1UFVqNFE1Q2JBYXc?oc=5",
           "source": "CHIP",
           "pubDate": "Fri, 13 Nov 2026 18:10:00 GMT"
-        },
-        {
-          "title": "Die physische GTA 6-Version wird immer enttäuschender – sogar das Wendecover wurde mir weggenommen - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zWU9VTldNQndTcE9tWWIxMm9YclNmSl81WjVfZUlyUUxQZ0czTlVkVExQbmdvUHlzRE9lUHg4RnlwS3hJbEpwUlk4WENabmVYaE93VklEM1ZodHdka1kzdlluby1uUVFsazhtOXNRWDh0ZTBBTVBoTA?oc=5",
-          "source": "GamePro",
-          "pubDate": "Fri, 13 Nov 2026 18:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-13T22:57:08.593Z",
+      "updated": "2026-11-14T01:54:19.389Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -454,6 +466,10 @@
         {
           "date": "2026-11-13",
           "count": 22
+        },
+        {
+          "date": "2026-11-14",
+          "count": 2
         }
       ]
     }
@@ -636,6 +652,13 @@
     },
     {
       "at": "2026-11-13T22:57:06.812Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-14T01:54:17.924Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
