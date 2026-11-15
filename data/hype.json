@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T20:39:46.524Z",
+  "updated": "2026-11-15T22:10:13.234Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-15T20:39:46.524Z",
+      "updated": "2026-11-15T22:10:13.234Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -128,18 +128,18 @@
       "label": "Hardware & Setup",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 92,
+      "count7d": 91,
       "count24h": 22,
-      "publisherCount": 39,
+      "publisherCount": 40,
       "capped": false,
       "series": [
         {
           "date": "2026-11-09",
-          "count": 14
+          "count": 13
         },
         {
           "date": "2026-11-10",
-          "count": 14
+          "count": 15
         },
         {
           "date": "2026-11-11",
@@ -147,7 +147,7 @@
         },
         {
           "date": "2026-11-12",
-          "count": 6
+          "count": 5
         },
         {
           "date": "2026-11-13",
@@ -189,7 +189,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-15T20:39:46.524Z",
+      "updated": "2026-11-15T22:10:13.234Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -250,7 +250,7 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 28,
+      "count7d": 27,
       "count24h": 5,
       "publisherCount": 17,
       "capped": false,
@@ -261,7 +261,7 @@
         },
         {
           "date": "2026-11-10",
-          "count": 4
+          "count": 3
         },
         {
           "date": "2026-11-11",
@@ -311,7 +311,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-15T20:39:46.524Z",
+      "updated": "2026-11-15T22:10:13.234Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -372,14 +372,14 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 93,
+      "count7d": 94,
       "count24h": 17,
       "publisherCount": 53,
       "capped": false,
       "series": [
         {
           "date": "2026-11-09",
-          "count": 9
+          "count": 10
         },
         {
           "date": "2026-11-10",
@@ -408,16 +408,16 @@
       ],
       "items": [
         {
+          "title": "GTA 6 erscheint in 4 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
+          "source": "GamePro",
+          "pubDate": "Sun, 15 Nov 2026 20:25:18 GMT"
+        },
+        {
           "title": "Zahnarzt aus Neuss lässt euch GTA 6 in der Praxis in 30 Minuten runterladen - gegen einen Vorsorgetermin - GamePro",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3b0R3bWtCSUhGU0hCQ2hJS2pfQUh6SFNFYnM0czJneVI1d3RJT1hyaDE0R21RcGYwenpSaVBIM2hpOXl3NFhSUkxBSXJuRGJURjg2bGZncnZvU3c0ek8tbUhMQ2VFWXYyMW5HTjIyRnZZWENxQzBzQ1djZFI?oc=5",
           "source": "GamePro",
           "pubDate": "Sun, 15 Nov 2026 18:37:00 GMT"
-        },
-        {
-          "title": "GTA 6 erscheint in 4 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
-          "source": "GamePro",
-          "pubDate": "Sun, 15 Nov 2026 17:29:18 GMT"
         },
         {
           "title": "Darauf hat die Gaming-Welt gewartet: Alles Wichtige zum Start von «GTA VI» - Watson",
@@ -433,7 +433,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-15T20:39:46.524Z",
+      "updated": "2026-11-15T22:10:13.234Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -749,6 +749,13 @@
       "score": 98,
       "coverage": 2,
       "signature": "wiki+news"
+    },
+    {
+      "at": "2026-11-15T22:10:11.334Z",
+      "version": "hype-v1",
+      "score": 99,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
     }
   ],
   "sources": {
