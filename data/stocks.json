@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T15:06:25.858Z",
+  "updated": "2026-11-15T20:39:38.356Z",
   "source": "Yahoo Finance chart API",
   "series": {
     "7974": {
@@ -2024,7 +2024,7 @@
       "dayLow": 226.68,
       "fiftyTwoWeekHigh": 265.94,
       "fiftyTwoWeekLow": 183.86,
-      "volume": 3006391,
+      "volume": 3021420,
       "history": [
         {
           "date": "2025-11-07",
@@ -12401,7 +12401,7 @@
       "dayLow": 513.82,
       "fiftyTwoWeekHigh": 559.15,
       "fiftyTwoWeekLow": 349.2,
-      "volume": 25458037,
+      "volume": 26189242,
       "history": [
         {
           "date": "2025-11-07",
@@ -14470,7 +14470,7 @@
       "dayLow": 158.39,
       "fiftyTwoWeekHigh": 243.37,
       "fiftyTwoWeekLow": 148.8,
-      "volume": 362490337,
+      "volume": 365796552,
       "history": [
         {
           "date": "2025-11-07",
@@ -18608,7 +18608,7 @@
       "dayLow": 169.65,
       "fiftyTwoWeekHigh": 239,
       "fiftyTwoWeekLow": 143.3,
-      "volume": 5257485,
+      "volume": 5263236,
       "history": [
         {
           "date": "2025-11-07",
@@ -24839,7 +24839,7 @@
       "dayLow": 263.91,
       "fiftyTwoWeekHigh": 287.2,
       "fiftyTwoWeekLow": 196,
-      "volume": 30818727,
+      "volume": 31148510,
       "history": [
         {
           "date": "2025-11-07",
@@ -28901,6 +28901,65 @@
     },
     {
       "ts": "2026-11-15T15:06:30.186Z",
+      "date": "2026-11-15",
+      "slot": "evening",
+      "prices": {
+        "7974": {
+          "price": 8773,
+          "changePct": 2.45
+        },
+        "TTWO": {
+          "price": 227.82,
+          "changePct": 0.38
+        },
+        "RBLX": {
+          "price": 49.91,
+          "changePct": -2.94
+        },
+        "CDR": {
+          "price": 278.4,
+          "changePct": 0.07
+        },
+        "UBI": {
+          "price": 4.332,
+          "changePct": -3.9
+        },
+        "SONY": {
+          "price": 27.07,
+          "changePct": 1.54
+        },
+        "MSFT": {
+          "price": 523.88,
+          "changePct": 0.17
+        },
+        "NVDA": {
+          "price": 162.85,
+          "changePct": -2.01
+        },
+        "UBER": {
+          "price": 69.69,
+          "changePct": 0.83
+        },
+        "DASH": {
+          "price": 171.51,
+          "changePct": -0.62
+        },
+        "DHER": {
+          "price": 36.65,
+          "changePct": 0
+        },
+        "GME": {
+          "price": 25.85,
+          "changePct": 0.9
+        },
+        "AMZN": {
+          "price": 266.66,
+          "changePct": -0.29
+        }
+      }
+    },
+    {
+      "ts": "2026-11-15T20:39:42.906Z",
       "date": "2026-11-15",
       "slot": "evening",
       "prices": {
