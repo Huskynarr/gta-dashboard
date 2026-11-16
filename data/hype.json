@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T14:05:33.121Z",
+  "updated": "2026-11-16T17:40:03.060Z",
   "topics": [
     {
       "key": "retail",
@@ -21,11 +21,11 @@
         },
         {
           "date": "2026-11-12",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-13",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-14",
@@ -33,7 +33,7 @@
         },
         {
           "date": "2026-11-15",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-16",
@@ -41,6 +41,12 @@
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 bei Lidl für 69,99 Euro - warum die Spielebox ohne Disc kommt - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVjFGYy1ZU0UtMXZFLUhmb1ZTSzBHV1pMQllYVHplRnY0dFZLLXZRbFltSGRIaUVoY3VsajNFQmZDQVV5RDRmU0VSdkx3S1AwS3dsY0ZyNHVwX1pLeVVZVTgtVnpsRTJ0NzFMWEFWSC1qSzdSYy04MDRYbWdMYkpYQ19PWndJNDl0bkNsajdRQTVaUElwdEYyOFJYZDFaWHBzYVFLRW56QWQ2Sko3dzlCQ0s2ajhqM1huX1ZEa3pBandtdDRySjVxVjdZeWxUWVNCSXFIT2JONWJqcnhTYmxSRXg5T1puWGZXSk9YZ3VrZDM?oc=5",
+          "source": "CHIP",
+          "pubDate": "Sun, 15 Nov 2026 10:33:00 GMT"
+        },
         {
           "title": "GTA 6 zum Black Friday 2026: Deals bei Lidl, Kaufland und Otto - CHIP",
           "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZVcxejAzdlJjTUt0SzJxUVpMcXk1S0hycXNkSGJuaW85MEpQQVQ4WjdSampTbWxKaEFJem1HODdOMFlrQWNTUDNpNWFBeHZRa2xnODBBcmRzLUVVNDFQZjQwWHFPMldaZVJjZlJPcWpwSzNtOHgwNDFYWXY4QVZQb0ZGbU1vbmpyRWZjckdGQ2pPT3kyYVI3TWNHaERfNlZVQmI1QmU4RlZKNGFSRlJsS0pZNnh3VDN3WlMzbVVJODJBcWFPNllhODVMSVpTbVVmMnpRb3BKcjY?oc=5",
@@ -58,16 +64,10 @@
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDYzRkluMGNJNmllcUVreXpSNVl1ckRUUVNRRWx4TTJQR2ctUDBXZHd1amNTSXYzQ3hoVjNXeVV3aDBvZG96MUpzTWlmd21NY2ZTLUlwdEZsVkNWenk3N3ZSNl9nSnNheWZydHRUaDFlSnJEamNXcU9PYlU5T0M0LWNpbFRVOWVpRlRUQ0c4Nzh6cmFVT1EyTDZfc3VNWE9wVW1tWE1oT1ZxNlVkSzdvd2stbw?oc=5",
           "source": "SRF",
           "pubDate": "Fri, 13 Nov 2026 13:40:06 GMT"
-        },
-        {
-          "title": "GTA 6 zum Black Friday 2026: Angebote bei Lidl, Kaufland und Otto - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcmJWUTVpRnNpY1VmTlhjOEViejNYcW00czBySEd6NmVTSjNFdEpoUkg2RkNEY2JTd3NyTFJ5Z2hnd3o3NEFGaTNTaHBSOVF1MEF4b3RuRXFUOUpTa0ZkSFh3TG9pcm16YmJsd3VNZlRFMUxRTVlNOXpHR3Zub2twOTlGWWE4dGhFbGoyYjlTSktESHVCZ1BTMk50S1ZLRktxNUdHeVNFYjFIMjZSNUdSWG1wajYyWHZNTjAtZXZJLVNoLTNuUl9hNFZ6U2QzVWpOVkdGNFFxY1BYX1Ra?oc=5",
-          "source": "CHIP",
-          "pubDate": "Fri, 13 Nov 2026 13:02:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-16T14:05:33.121Z",
+      "updated": "2026-11-16T17:40:03.060Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -132,10 +132,10 @@
       "label": "Hardware & Setup",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 91,
-      "count24h": 23,
-      "publisherCount": 39,
-      "capped": false,
+      "count7d": 100,
+      "count24h": 42,
+      "publisherCount": 42,
+      "capped": true,
       "series": [
         {
           "date": "2026-11-10",
@@ -151,49 +151,49 @@
         },
         {
           "date": "2026-11-13",
-          "count": 6
+          "count": 4
         },
         {
           "date": "2026-11-14",
-          "count": 10
+          "count": 7
         },
         {
           "date": "2026-11-15",
-          "count": 16
+          "count": 15
         },
         {
           "date": "2026-11-16",
-          "count": 21
+          "count": 40
         }
       ],
       "items": [
         {
-          "title": "GTA 6 kurz vor Release: Zweiter Patch und rätselhafte Zusatzdownloads - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWkpPcHI3Y0Vpb1hJcnNHWG1sOVIydXBhQVFuZGlzczNUVnA1clJ2eXJwMS01Zll3Y0Fpb3B2VnluTmZhS1E5V3FKU2l5TUYydWJqN0NMTFdSWi1lQldrTzVrN2NzT2RHelB2SDl0bjBQcFFoLUVTQjJTSXk1QUp4ZDFJYzRqMkc2aVhfMmlmSms1QmdPX2tqOWE2VThDSFEyWEloQ1FHQnhyUzFMQjJWUWV1N1k0TmtXYTBSUV9uaENvM1B0LWpoakZyVkRfR2hUS19VdGxnaG9jbzJoRWc?oc=5",
-          "source": "CHIP",
-          "pubDate": "Mon, 16 Nov 2026 13:18:00 GMT"
+          "title": "GTA 6 sorgt für Urlaubsboom: Wo Gamer jetzt noch eine PlayStation 5 bekommen - om-online.de",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWmpPREJtcktLZHlnSU9uUXVsM2wyOUNLRWR6dkg2b1VCU0xwM1cyOS1xclp5d0QzX1NXT0lQd0lYbzkyMkFhVlpKLUZLTTJzVjZxLVBBQzBDMTlHeXJoMGJQaUF6RE5xNEhqaXc1UF8xdkFhV2toQzVYX2RObjFfZDBXUUFiRGo1MkVRREJyQW02cW1KSlZRZUN5bmZzbXJnUU5XaHhFZW1uS1hxaE84S0VzOA?oc=5",
+          "source": "om-online.de",
+          "pubDate": "Mon, 16 Nov 2026 17:15:00 GMT"
         },
         {
-          "title": "Warnung vor dem Neuseeland-Trick für GTA 6: Früher spielen könnte einen kleinen Haken haben - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNS02VTY1eE5WdlZtMGxqVU9zVi1LUzVMQjRGVU5BdEt6dUxScmstcUl2bTl2X3k4MHNaWGw3a0R2bVZXNUl0dWhNaVRPRk5tYXVjWEo0Q3pTbkJmQmpOOGY2NUpFcDNTTmM2amRfU0FWMnlVYl9LN0ZFc29ULVlyaW1oZFpCTFVpblppOEp4QVZ2QQ?oc=5",
-          "source": "GameStar",
-          "pubDate": "Mon, 16 Nov 2026 12:48:00 GMT"
-        },
-        {
-          "title": "Die Story von GTA 6 könnte rund 50 Stunden dauern, Platin etwa 200 - mobidevices.com",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iYVRHYl9ZVXBOLS1xd2VQSTlFWjZBNmt2U2M5bVU2RDhFMllKbE9xVWc3UDkzRzNZZHU4SzN3OWtTRThCRjNmX1lNSDNhaEVmb3lJ?oc=5",
-          "source": "mobidevices.com",
-          "pubDate": "Mon, 16 Nov 2026 11:42:47 GMT"
-        },
-        {
-          "title": "EA SPORTS Madden NFL 27 : EA bittet Fans das Spiel wegen GTA VI nicht zu löschen - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaF9XNjlIY3g1YVFVM3JkRTZob09LUjRIZ3R6THNlbUdKellsT24ycEFuTVJPWUtXV3VSTUtEWUs3N3Z0dGxUQ2dhQ1NUZjlzc001TjFpTHN2dlNkS2s5dGdoTjYyeHpOeWVoNWM0MWRWQ0ZlTl9IeVlfdjFsWjlIWktvbDViaTQ2MElOTExVMjUzSlEtaE0zVXpKR2FoakUxTHVRem94UVBfRFVEU0pzOGJn?oc=5",
+          "title": "Grand Theft Auto VI : Neue Insider-Aussage zum Mythic-Achievement sorgt für Aufsehen - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQczBKbUhqcm8yQkNHTnRRWDZsUERVUmtyQzJSU3djRFI3RDMxUW1zOXRSbVBSd0RsYzFkNjRsMEx2UWVwSlVGY1JCLUV4QzBfRFRtS3UwVk4xZjFqd3pLTlZsd28xNUdiVGxlV05vLV96TVY1aEpBcy12Vmw5RVVBbGUwS1JTVDFob0EzTmxENzVMbnZuTl9DTTJ2eHRackw1RHFsaXFLbGZhdU5YVGlBZXpIOWwzNnM?oc=5",
           "source": "XboxDynasty",
-          "pubDate": "Mon, 16 Nov 2026 11:30:00 GMT"
+          "pubDate": "Mon, 16 Nov 2026 17:00:00 GMT"
+        },
+        {
+          "title": "GTA 6: Download-Code lässt sich mit Taschenlampe klauen - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdTZnZkozbXFoQS1XX3N6WGpQclhoT2dJYnF1a3ZqcVBqSTM1elZzT3hDUUtDNEFSOHNYdUN3Y2RtRmw5NGlnMnVJcmdZSkRZNmdKc2xkUHNBaEtpTk0xZktkVlFsSkJwNFdRX2dZQUNPcG9oNzdCNkZmQ00ya1Z2cTZKWmNXdXJYZEVjVzhFVm1WcjdaRnEzaEtwUmNGNG9FOC1GQUVGeU9IYnZUaFgzUjVmLTJHYlhuVXFLRW8wTThrdHpLM0U2WFhkVzlzaC1Gd0tZ?oc=5",
+          "source": "CHIP",
+          "pubDate": "Mon, 16 Nov 2026 16:56:00 GMT"
+        },
+        {
+          "title": "GTA 6 bekommt schon das zweite Update! Rockstar verteilt neuen Patch vor dem Release - DailyGame.at",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE15LVlSQmNHVm1LdmV1dU9kSW90TmMtZGE4LUc4aWE1UmNHa0VsWTBfanJLVXdCdW41aFZ6UVozZVdLX3BmZ055WXo5U2ZFRGZzVVFnd1lJRnJFNm55NEZKbm05QWdHUQ?oc=5",
+          "source": "DailyGame.at",
+          "pubDate": "Mon, 16 Nov 2026 16:30:53 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-16T14:05:33.121Z",
+      "updated": "2026-11-16T17:40:03.060Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -249,7 +249,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 21
+          "count": 40
         }
       ]
     },
@@ -258,9 +258,9 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 31,
-      "count24h": 13,
-      "publisherCount": 20,
+      "count7d": 32,
+      "count24h": 15,
+      "publisherCount": 21,
       "capped": false,
       "series": [
         {
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-11-13",
-          "count": 6
+          "count": 5
         },
         {
           "date": "2026-11-14",
@@ -289,37 +289,37 @@
         },
         {
           "date": "2026-11-16",
-          "count": 11
+          "count": 14
         }
       ],
       "items": [
         {
-          "title": "Trymacs sagt Geburtstag seiner Freundin ab: „Geburtstag ist jedes Jahr, GTA 6 nur einmal“ - Raptastisch",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaklmUVNqZmZPTy01a3FRZTlnbWk1eXMxOXpDNjBuS3hYRjhzbGZsTU9ETFlMYlprV0NiS0YtUHpBRUtuUk1lejRMT2YwaGZBVFRUYXQtSHhaLWJ1eVVoY0RmYXhVN3NVak4tOUd3N2piclpHNTF5NTNoVlJNOS1feEdQQy1xRWpyNWxiaElFZmpkaG1WbXZjMzRDZ210Q2I2RDZHUXoxYWdyam9ROUpBQ1cwdFVJM0FueGoyZDR3?oc=5",
-          "source": "Raptastisch",
-          "pubDate": "Mon, 16 Nov 2026 13:12:57 GMT"
+          "title": "GTA 6 in China: Angebliche Streaming-Regeln verbieten offenbar jede Kriminalität - Eurogamer.de",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5aLWpxOWlDc2Nra3ZYNWwzcXVrU1J6ak9kWmNHMzg3TEFuYjNfNHJIa3FtbDRlUk5UUnkyZk9pZmcybzJ5bEJuMTBNN0Z3ZF9pallsV0lDLVphR2VlWGdYdXltTVFqc2FVNFg0?oc=5",
+          "source": "Eurogamer.de",
+          "pubDate": "Mon, 16 Nov 2026 17:03:50 GMT"
         },
         {
-          "title": "Warnung vor dem Neuseeland-Trick für GTA 6: Früher spielen könnte einen kleinen Haken haben - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNS02VTY1eE5WdlZtMGxqVU9zVi1LUzVMQjRGVU5BdEt6dUxScmstcUl2bTl2X3k4MHNaWGw3a0R2bVZXNUl0dWhNaVRPRk5tYXVjWEo0Q3pTbkJmQmpOOGY2NUpFcDNTTmM2amRfU0FWMnlVYl9LN0ZFc29ULVlyaW1oZFpCTFVpblppOEp4QVZ2QQ?oc=5",
-          "source": "GameStar",
-          "pubDate": "Mon, 16 Nov 2026 12:48:00 GMT"
+          "title": "Computerspiel-Download in 30 Minuten: Neusser Zahnarzt wirbt mit kuriosem Angebot um Fans von GTA 6 - RP Online",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVHdfeFpWT0I2S015Q3dUSHdIOFhWbXZyeGxXX3JFY3F5c1dmTEdLYUlKUmhfNHFwOVdCT21BNTdKM1lFX1lBYXJ4bVhsc3lINTlyQ1FwQnR5SUpUa2EzMkY3bXh2bkQ4bHF3YmZVTldSbmdXSTdBclliOTkwMUlpclNKd1B3cjBWd0ZQekZtNmhSOGZoSGVwX2dLVkhKbkZBMUZpSG9vREVfQkt5NzJnMjFBNTFrMmlHNXpENUpkTU5JcUItcXNF?oc=5",
+          "source": "RP Online",
+          "pubDate": "Mon, 16 Nov 2026 16:25:00 GMT"
         },
         {
-          "title": "GTA VI in China: Leak-Liste verbietet Autodiebstahl im Stream - Gagadget.com",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTWk4aS1jcU83akR1dWFxSlA2Vm9YaDY3QWdOMThUSUVhVFp1RW55VW94enBMNkJ5NG5YRm9CaGFfc0JyNHFBZ1JjZmw4bFlXbWUzVEcyWUFJblQwZ1dIWHVIR1dGX2d1WlJMU1RPWWdHdHZfaGtlRnJ0TzVXSzEySnMtVzRuRVZKNW1IWDM2N2doc1J1MlZIZWN6MDAyTnVQSS1FZkRRMnE4ZFFUcjlTOU5uRUJBUGNaNFZhSVU1OUxPRzF1NUZsUmR3?oc=5",
-          "source": "Gagadget.com",
-          "pubDate": "Mon, 16 Nov 2026 12:39:02 GMT"
+          "title": "GTA 6: Warum andere Länder schon spielen dürfen, während Deutschland noch wartet - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOd0RhUW8xNlJNUzB1eC1MSmpEYXBmWEFYZVVYdFhhUVlPU3VCWWF0akx0dXhhMUVrQVFGdjNPRWVQSm1NQzU3Tl9lNk1LYmI4QzZkeGg3ME9kZVZHS3ljbXZKUW5ZS2IxWEhYNVl5OWdybmhfZmxIdG5wTkM0MnhmSUs2RzVKSWF2V2NEUkVQZnJGelo4TlJkN2xFeDhYUHBnMnJubkQtX3lhbnhMMmI5Z1N5RktSOTJ3YXkzTVJmUVlSa2hfSHo0VDdLQzBEM182NXc5Z0ptSlBOZkdES1NQcXBfU29VdWh6RUkwZnNR?oc=5",
+          "source": "CHIP",
+          "pubDate": "Mon, 16 Nov 2026 15:41:00 GMT"
         },
         {
-          "title": "GTA 6 - Erlebt den Mega-Release live bei uns im Stream - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE96ZTVuWklDemdQX0ZVVDBxWEk3aXJsbms5OUhDX284SllPZi1fU1hPLTl6YmhpSGFVTXpzU05jUlBMMDNvQklKM3FJXzlvaHNQcXpibC1qbXNZWHU4VEw5YWhUazlGc0pRY0NoYmFFTjNuNmM5Sm9saXZ4dlRxQQ?oc=5",
-          "source": "GameStar",
-          "pubDate": "Mon, 16 Nov 2026 12:13:00 GMT"
+          "title": "Einige Streamer wollen GTA 6 früher streamen - doch das könnte Konsequenzen bei Twitch haben - Comicschau",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03dllDZDRIR042d0dFT2UwbmpWRWZtMVhCOEUyQXBuUVZkNk01dS1lNzc3VU1pdlpwWmNHZUJMS3c5T1NMVnNselQ5U3luY0pHV04xbm00NkhvUDc5UVJ2dXI3M3hlODZZemlsamVGeG1Wc081Y0hkYzZ3?oc=5",
+          "source": "Comicschau",
+          "pubDate": "Mon, 16 Nov 2026 15:37:41 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-16T14:05:33.121Z",
+      "updated": "2026-11-16T17:40:03.060Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -375,7 +375,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 11
+          "count": 14
         }
       ]
     },
@@ -384,9 +384,9 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 89,
-      "count24h": 27,
-      "publisherCount": 53,
+      "count7d": 94,
+      "count24h": 39,
+      "publisherCount": 49,
       "capped": false,
       "series": [
         {
@@ -395,57 +395,57 @@
         },
         {
           "date": "2026-11-11",
-          "count": 4
+          "count": 5
         },
         {
           "date": "2026-11-12",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-13",
-          "count": 9
+          "count": 7
         },
         {
           "date": "2026-11-14",
-          "count": 10
+          "count": 8
         },
         {
           "date": "2026-11-15",
-          "count": 20
+          "count": 18
         },
         {
           "date": "2026-11-16",
-          "count": 22
+          "count": 36
         }
       ],
       "items": [
         {
-          "title": "EA setzt auf 'Don't Delete'-Message in Madden NFL 27: Verhindert das die Löschung zu Gunsten von GTA 6? - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNd1RDclJUV3g4aVRlQVVPX1I1YkJXTVJsTTZxUDFCaEhnSkl3ZXBZaHVkS2lKdWRvUGdoZElNbEtOaDh0ZVhDQThHQWhvdnBDcTBSaS1fT29tSXZRcml2ZU5sMDNpRE4zLWZfTmNhcFNROTB1emNlYnFNRklwWUgtZTlDRDFJQkhIZzhBMFpVcXFHbmptSGtLMHlqakhuTkdWYTd0UGJ6ZWlDOThmaFRtVENmX2NRR1h5U1NNQ2xpdmdLTV8tWjFZRE5vdnR5Qk5kZURid1pkU3J4N0VF?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Mon, 16 Nov 2026 13:53:00 GMT"
+          "title": "GTA 6: Download-Code lässt sich mit Taschenlampe klauen - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdTZnZkozbXFoQS1XX3N6WGpQclhoT2dJYnF1a3ZqcVBqSTM1elZzT3hDUUtDNEFSOHNYdUN3Y2RtRmw5NGlnMnVJcmdZSkRZNmdKc2xkUHNBaEtpTk0xZktkVlFsSkJwNFdRX2dZQUNPcG9oNzdCNkZmQ00ya1Z2cTZKWmNXdXJYZEVjVzhFVm1WcjdaRnEzaEtwUmNGNG9FOC1GQUVGeU9IYnZUaFgzUjVmLTJHYlhuVXFLRW8wTThrdHpLM0U2WFhkVzlzaC1Gd0tZ?oc=5",
+          "source": "CHIP",
+          "pubDate": "Mon, 16 Nov 2026 16:56:00 GMT"
         },
         {
-          "title": "Noch schneller als GTA 5: Knackt GTA 6 schon am Startwochenende die Zwei-Milliarden-Dollar-Marke? - Eurogamer.de",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXbEpRTTFrMFgyd3VncGIwYndzWkZTeGsyUHozX2F6SlRlTHpNTTRyMmVWeDQwYnlGaFpjRDZuWEtzSjFuTV9nQTRWN180VGRicVZTZ3hFNjVwaW9TU2VITmRRYUdQcThDYzBtNDVWdw?oc=5",
-          "source": "Eurogamer.de",
-          "pubDate": "Mon, 16 Nov 2026 13:39:50 GMT"
+          "title": "NBA 2K27: GTA 6 bringt Vice City auf den Court – Gratis-Zugang und neue Edition - PlayFront",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUndKNS1pb2Z3UDNwQW1vU3p0OU5zVVQwbHlURWlwWmtrREJXdWZUV2hfbnI0V1pJNVZUVE5UdlpJZDVaY0UybmJFaVc5ZWhvLXlKYnRRbzVId2N4YkRIUERfMEcwRGl6VU83VUUwNW9tUVdLMnM5WVNWUFc3Y2RmVzBfek43cVBubWNCbjl6NWhlQUhVZnBrcmhOenA3cU0?oc=5",
+          "source": "PlayFront",
+          "pubDate": "Mon, 16 Nov 2026 16:35:39 GMT"
         },
         {
-          "title": "Noch vor dem Launch von GTA 6 legt Rockstar mit einem zweiten Patch nach - Eurogamer.de",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94M2pQWGVYeXo0emtLeGJNa25KakllX3FPT21TaUtYUnZoc1BVbzJzaDFlaV8ydWdocndXN3c2R3JPTEhLNV9FZW5hNDgyVU1zV20zOUhlVktJeVIxSm41eUZ3?oc=5",
-          "source": "Eurogamer.de",
-          "pubDate": "Mon, 16 Nov 2026 12:47:00 GMT"
+          "title": "Computerspiel-Download in 30 Minuten: Neusser Zahnarzt wirbt mit kuriosem Angebot um Fans von GTA 6 - RP Online",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVHdfeFpWT0I2S015Q3dUSHdIOFhWbXZyeGxXX3JFY3F5c1dmTEdLYUlKUmhfNHFwOVdCT21BNTdKM1lFX1lBYXJ4bVhsc3lINTlyQ1FwQnR5SUpUa2EzMkY3bXh2bkQ4bHF3YmZVTldSbmdXSTdBclliOTkwMUlpclNKd1B3cjBWd0ZQekZtNmhSOGZoSGVwX2dLVkhKbkZBMUZpSG9vREVfQkt5NzJnMjFBNTFrMmlHNXpENUpkTU5JcUItcXNF?oc=5",
+          "source": "RP Online",
+          "pubDate": "Mon, 16 Nov 2026 16:25:00 GMT"
         },
         {
-          "title": "GTA 6: Vorbesteller melden fehlende Codes in der Box - PC Games Hardware",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQLVk1NXVTV25sQWdSclhIbDhYN2ZSUVZFUGRyeDlHRHJOOTRnZmZTWlVBSTJQSHhMc29NQXlRM3pOU0Rpb01BZXFQNm5TOTB4Zzdab0NXMmtRWksyNnZ0cUhsZjAzUE5naG9aWnVMZ2pVWjR2eFB2dWxtRGEtSlVhMFg0c0cyUUJjZ09fNGU1dXREbmRCaUhCVkh3R0FpNU53NUlMQy1qOA?oc=5",
-          "source": "PC Games Hardware",
-          "pubDate": "Mon, 16 Nov 2026 12:30:00 GMT"
+          "title": "Vodafone hat eine Warnung an alle PS5-Besitzer, die GTA 6 spielen wollen - Giga",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZnlROHRnN1pqQ1lsUENwNFZhRV9IcDFobHoxT1pQY1hvdFlZR1lVSzRBVUhELXBWZnNmcmVVbWZDbU9vU0dLek1yMWxBQVBNZHFic2JjaW03anRZUmJhLURSTGljNDBNMmo1SHZSQlBoaVhFWnN0WE5MSEZiTGtvRkN6bklhendSbkw2ZGd6X3dNZDZUSDFLbnlSU202WDBKTU9VbEpnT2w0ZTJ6dEZueXpQSVZnR2JnWHROVzNiTFVlSEE?oc=5",
+          "source": "Giga",
+          "pubDate": "Mon, 16 Nov 2026 16:04:41 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-16T14:05:33.121Z",
+      "updated": "2026-11-16T17:40:03.060Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -501,7 +501,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 22
+          "count": 36
         }
       ]
     }
@@ -789,6 +789,13 @@
     },
     {
       "at": "2026-11-16T14:05:33.082Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-16T17:40:01.484Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
