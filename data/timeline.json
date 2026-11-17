@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T01:11:13.035Z",
+  "updated": "2026-11-17T01:18:06.371Z",
   "description": "Hourly append-only snapshots of all point-in-time GTA VI signals (null = source unavailable in that run).",
   "snapshots": [
     {
@@ -6966,12 +6966,12 @@
       }
     },
     {
-      "at": "2026-11-17T01:11:13.035Z",
+      "at": "2026-11-17T01:18:06.371Z",
       "stocks": {
         "7974": {
-          "price": 8950,
-          "changePct": 0.63,
-          "volume": 3022700
+          "price": 8970,
+          "changePct": 0.86,
+          "volume": 3259500
         },
         "TTWO": {
           "price": 213.47,
@@ -7062,7 +7062,7 @@
       },
       "news": {
         "gta_en": {
-          "count24h": 59,
+          "count24h": 57,
           "count7d": 100
         },
         "gta_de": {
@@ -7075,17 +7075,17 @@
         },
         "rockstar": {
           "count24h": 12,
-          "count7d": 42
+          "count7d": 44
         }
       },
       "reddit": {
         "subscribers": 1212091,
         "posts24h": 100,
-        "postsPerHour": 50,
+        "postsPerHour": 48.8,
         "topScore": 2
       },
       "steam": {
-        "gta5": 28416
+        "gta5": 27560
       },
       "trends": {
         "de": 0,
@@ -7094,7 +7094,7 @@
       "rockstar": {
         "ok": true,
         "status": 200,
-        "latencyMs": 164
+        "latencyMs": 100
       },
       "playstation": {
         "ok": true,
@@ -7102,8 +7102,8 @@
       },
       "decix": {
         "allTimePeak": 22297595572415,
-        "current": 9760867519454,
-        "graphAverage": 15493781755828,
+        "current": 9122030447933,
+        "graphAverage": 15491527408874,
         "graphPeak": 21156769798605,
         "allTimePeakDate": "2026-10-14",
         "monthPeak": 22297595572415,
@@ -7122,12 +7122,12 @@
             "count7d": 100
           },
           "creators": {
-            "count24h": 18,
+            "count24h": 17,
             "count7d": 35
           },
           "release": {
             "count24h": 41,
-            "count7d": 98
+            "count7d": 97
           }
         }
       }

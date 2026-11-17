@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T01:11:13.064Z",
+  "updated": "2026-11-17T01:18:06.400Z",
   "source": "Yahoo Finance chart API",
   "series": {
     "7974": {
@@ -11,15 +11,15 @@
       "color": "#ff4d4d",
       "currency": "JPY",
       "exchange": "Tokyo",
-      "price": 8950,
+      "price": 8970,
       "previousClose": 13430,
-      "changePct": 0.63,
-      "marketTime": "2026-11-17T00:56:12.000Z",
-      "dayHigh": 8965,
+      "changePct": 0.86,
+      "marketTime": "2026-11-17T01:03:06.000Z",
+      "dayHigh": 8977,
       "dayLow": 8751,
       "fiftyTwoWeekHigh": 13520,
       "fiftyTwoWeekLow": 6544,
-      "volume": 3022700,
+      "volume": 3259500,
       "history": [
         {
           "date": "2025-11-06",
@@ -2016,10 +2016,10 @@
         {
           "date": "2026-11-17",
           "open": 8920,
-          "high": 8965,
+          "high": 8977,
           "low": 8751,
-          "close": 8950,
-          "volume": 3022700
+          "close": 8970,
+          "volume": 3259500
         }
       ]
     },
@@ -29425,13 +29425,13 @@
       }
     },
     {
-      "ts": "2026-11-17T01:11:17.136Z",
+      "ts": "2026-11-17T01:18:10.614Z",
       "date": "2026-11-17",
       "slot": "morning",
       "prices": {
         "7974": {
-          "price": 8950,
-          "changePct": 0.63
+          "price": 8970,
+          "changePct": 0.86
         },
         "TTWO": {
           "price": 213.47,

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T01:11:17.140Z",
+  "updated": "2026-11-17T01:18:11.590Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-17T01:11:17.140Z",
+      "updated": "2026-11-17T01:18:11.590Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -197,7 +197,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-17T01:11:17.140Z",
+      "updated": "2026-11-17T01:18:11.590Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -267,7 +267,7 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 35,
-      "count24h": 18,
+      "count24h": 17,
       "publisherCount": 23,
       "capped": false,
       "series": [
@@ -327,7 +327,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-17T01:11:17.140Z",
+      "updated": "2026-11-17T01:18:11.590Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -396,7 +396,7 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 98,
+      "count7d": 97,
       "count24h": 41,
       "publisherCount": 52,
       "capped": false,
@@ -415,7 +415,7 @@
         },
         {
           "date": "2026-11-14",
-          "count": 10
+          "count": 9
         },
         {
           "date": "2026-11-15",
@@ -438,16 +438,16 @@
           "pubDate": "Tue, 17 Nov 2026 00:01:40 GMT"
         },
         {
+          "title": "GTA 6 erscheint in 3 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
+          "source": "GamePro",
+          "pubDate": "Mon, 16 Nov 2026 23:40:15 GMT"
+        },
+        {
           "title": "Knossi in Miami: Live zur GTA-6-Launch-Woche mit YouTube - Pressure Magazine",
           "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3SUo2U3dwRlNRNzFwU3l0NkdiRjJsUGVwWXhLREJZY3otQ1hPdGJ6YlVZdHdBc0had2xjZGV6QmhJTDY5NkFlbF9xaWI3Uk4tSDFiVWI5TzQ0YldEbXU1clIweEhEMTJ3RUZpR0puNl9LZw?oc=5",
           "source": "Pressure Magazine",
           "pubDate": "Mon, 16 Nov 2026 22:08:54 GMT"
-        },
-        {
-          "title": "GTA 6 erscheint in 3 Tagen: Neue Infos zum Rockstar-Spiel und alles Wichtige im Live-Ticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvakdKelNtNktDXzljVzJFbGFQUE5LSURlelRiN2hQV1ZyX3gzRzFTZzN3V05hQ21xSHNBMWY3dURNV3dZRlNGOUcxb3lCSmxOT1pJUGVRX01BU3BzRXg5Z3NnVzlaOUFlaFBLTU82S3U1OTcwT29HZA?oc=5",
-          "source": "GamePro",
-          "pubDate": "Mon, 16 Nov 2026 20:50:59 GMT"
         },
         {
           "title": "GTA 6 bei Lidl für 69,99 Euro - weshalb die Spielebox ohne Disc kommt - CHIP",
@@ -457,7 +457,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-17T01:11:17.140Z",
+      "updated": "2026-11-17T01:18:11.590Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -818,7 +818,7 @@
       "signature": "wiki+news+reddit"
     },
     {
-      "at": "2026-11-17T01:11:16.632Z",
+      "at": "2026-11-17T01:18:11.587Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,

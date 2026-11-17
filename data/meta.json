@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-17T01:11:17.664Z",
-  "startedAt": "2026-11-17T01:11:13.035Z",
-  "durationMs": 4629,
+  "lastRun": "2026-11-17T01:18:12.743Z",
+  "startedAt": "2026-11-17T01:18:06.371Z",
+  "durationMs": 6372,
   "runSlot": "morning",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -40,7 +40,7 @@
     "pressReleases": 4,
     "hypeSnapshots": 43,
     "timelineSnapshots": 43,
-    "archivedNews": 1556
+    "archivedNews": 1559
   },
   "errors": []
 }
