@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-17T09:53:34.790Z",
+  "updated": "2026-11-17T14:58:54.596Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 18,
+      "count7d": 19,
       "count24h": 3,
-      "publisherCount": 11,
+      "publisherCount": 12,
       "capped": false,
       "series": [
         {
           "date": "2026-11-11",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-12",
-          "count": 3
+          "count": 4
         },
         {
           "date": "2026-11-13",
@@ -29,7 +29,7 @@
         },
         {
           "date": "2026-11-15",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-16",
@@ -37,21 +37,21 @@
         },
         {
           "date": "2026-11-17",
-          "count": 1
+          "count": 2
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 als Lockmittel: Phishing-Versuche um 1.300 Prozent gestiegen - so schützt ihr euch - Netzwelt",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNam5aWHhMSXk4WHlpcGpZcUtXeFZPcXNkbTZfMzBYSzJYNW9adS13Qk4xVVp3a1R1YVpnU25RNk82blBaRnpWSTVMcXRZSTl0R1hFbkg4bUZJcDR4bWI2SkdfVXNxV0cxZGxZMnF2YVNNaE1XeEhfV0ZNTXRfbGZ0b19HbHU3OGM4aWlQSjFWZUFkNWpzd0F1VWFSSVE1eDBpY2ZyVjZUb1BiNXJwZWM1d0pYSlU?oc=5",
+          "source": "Netzwelt",
+          "pubDate": "Tue, 17 Nov 2026 13:45:09 GMT"
+        },
         {
           "title": "GTA 6-Vorbestellung stornieren? Rückerstattung: PS5 & Xbox - games.gg",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTnVvNjdMVGI2Wk1GU1dwRk9OUzhwOWVHanFqem1aZ3NYR1ZJRWNtNERFMURhbDNYZmJkSjBhWC1BaTNMYjBBTjJDTjJ2VDBCcVFXUVU4NGpJWUlVc2xZbFlsWGFoR2Rmbzktb1dlWnlOTkdsNjlQbDJZOUxrczZFemtpQ1VoWHlaS20zRml1cWVUOEVKNzYyMTN3TDZkMFVBSmhoRVB1VERqYjhFcG1NSkFFT0VJbm9CUWRzV2cwWkQ?oc=5",
           "source": "games.gg",
           "pubDate": "Tue, 17 Nov 2026 06:44:58 GMT"
-        },
-        {
-          "title": "GTA 6 bei Lidl für 69,99 Euro - weshalb die Spielebox ohne Disc kommt - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOVlJ3cjE3ZEYzanZHMWYyWWMzOTNWcDRsRGtySldvTk9rTF9OUF9DMjc2UTl2bmpsQlgtS2FveVlrOEN5Vjl6X25LTTAwUXRTYzh5dWJ1SmttTmNzTVowVlctLVVGQTJfS3FqdmRCUkoteEpaR0dlSFY4ZjR1LWlVWi1lUnczNE16NDR4ejRBX3daM2xieU93MjNBajIwUzBFRjNpSU5ZVk1mOXd2dFpKREt5ME9iQlE2dlNiVjhDbUxTMG5HOXllcUdVenhtSGVHYWxVZEVmZHlCemszRVZ5eUdObHJDM3VWaV9IMG5pTQ?oc=5",
-          "source": "CHIP",
-          "pubDate": "Mon, 16 Nov 2026 19:03:00 GMT"
         },
         {
           "title": "GTA-6-Code fehlt offenbar in einigen versiegelten Spieleboxen - techbook",
@@ -60,14 +60,14 @@
           "pubDate": "Mon, 16 Nov 2026 15:13:00 GMT"
         },
         {
-          "title": "GTA 6 zum Black Friday 2026: Deals bei Lidl, Kaufland und Otto - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZVcxejAzdlJjTUt0SzJxUVpMcXk1S0hycXNkSGJuaW85MEpQQVQ4WjdSampTbWxKaEFJem1HODdOMFlrQWNTUDNpNWFBeHZRa2xnODBBcmRzLUVVNDFQZjQwWHFPMldaZVJjZlJPcWpwSzNtOHgwNDFYWXY4QVZQb0ZGbU1vbmpyRWZjckdGQ2pPT3kyYVI3TWNHaERfNlZVQmI1QmU4RlZKNGFSRlJsS0pZNnh3VDN3WlMzbVVJODJBcWFPNllhODVMSVpTbVVmMnpRb3BKcjY?oc=5",
-          "source": "CHIP",
-          "pubDate": "Sun, 15 Nov 2026 07:47:00 GMT"
+          "title": "Kaufland verkauft heute GTA 6 für die PS5: So könnt ihr 10 Euro sparen - Giga",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMGxOemxKQlRhYjB5VXgxeVdwN2pXTllsbFJWeUF4Rk1HOHVROGZ6NkFXSjljYUxSSG9kS0J0R0hCUHl4ODNSbTJmQzF6ckQ4QThuUG5hMDRoNzNpT3J3enRZNU1VSU5OVXZWazdUYzFhSEp2UmxKSGlBcmJmVFlkMG1Sei0xTEpjdnN0M3hRTjlWZUdRUFR0NHBoMmZzNXhIZlB3V045U1lwWW85djZkYjZZeldiQ2NjZVVEZUppXzhSTmM?oc=5",
+          "source": "Giga",
+          "pubDate": "Mon, 16 Nov 2026 08:10:04 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-17T09:53:34.790Z",
+      "updated": "2026-11-17T14:58:54.596Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -127,7 +127,7 @@
         },
         {
           "date": "2026-11-17",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -136,18 +136,18 @@
       "label": "Hardware & Setup",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 100,
-      "count24h": 43,
-      "publisherCount": 37,
-      "capped": true,
+      "count7d": 93,
+      "count24h": 42,
+      "publisherCount": 40,
+      "capped": false,
       "series": [
         {
           "date": "2026-11-11",
-          "count": 11
+          "count": 12
         },
         {
           "date": "2026-11-12",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-13",
@@ -155,49 +155,49 @@
         },
         {
           "date": "2026-11-14",
-          "count": 6
+          "count": 1
         },
         {
           "date": "2026-11-15",
-          "count": 13
+          "count": 9
         },
         {
           "date": "2026-11-16",
-          "count": 39
+          "count": 33
         },
         {
           "date": "2026-11-17",
-          "count": 13
+          "count": 27
         }
       ],
       "items": [
         {
-          "title": "GTA 6 steckt voller Details: Wie will das meine 6 Jahre alte PS5 überhaupt noch schaffen? - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52bG9OcVhpLXVIaEJONTYzWHc3R0dUSWIzYll6eEdXaldub2tOTlQ5YWNQSFpFaE1rV0VPZENiald2NVJiYnNFR0tjYWxOVTkwT3RocXR0NFREVTM2a0NxWHVmYnZJRk9iUkJkSnZaS0VhVXJmT0E?oc=5",
-          "source": "GameStar",
-          "pubDate": "Tue, 17 Nov 2026 09:39:00 GMT"
+          "title": "Angst vor GTA 6: Warum Spieleentwickler ihre Titel verschieben - Teltarif",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZVdsajBxMkNMTzZLdDhYNWFCLTZNMUtxcm5Kb0h5dDBUVGVjVHg5NzRUeVdxakNlaUR5MFN1WUMtUW8xSVRlMDFHVnBORE9pTlVXZURJc2tjZEdCTlQ2UTdXZTcyVndCdzlJSWZ3SHlTckptVU1YYzB2LW1kYS1aS3N1NnFOM0U?oc=5",
+          "source": "Teltarif",
+          "pubDate": "Tue, 17 Nov 2026 14:10:00 GMT"
         },
         {
-          "title": "GTA 6 bei Kaufland: Grand Theft Auto VI im Markt schon jetzt mit 10 Euro Rabatt - Express",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZmFleDRpRjRCR2dIWDFCQjdOeExILU1FTUc0X09XOWVLYUh0UDdkMnYwU0pSUVpvcnUtWEpFWTdxaEVmdlBmU3N1SWxQeGFfbEFlNVg1X21PYmNZMXhvVlZCTzNBVnNMNWVRUHNJU21ZUjRmNXhDNHRxaUhvSmZpbHhfX09RWmt2WFhkLXVoY1lGNy05OGZ2UEI4cFdrdw?oc=5",
-          "source": "Express",
-          "pubDate": "Tue, 17 Nov 2026 09:21:50 GMT"
+          "title": "Gewinnspiel mit 3x Grand Theft Auto VI für Xbox endet bald - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOS003NGE3WThuOVRQME9xTHVuT1lnMzk3cmFqMWJSb21WOWl3cW5qMjlzV0NBUDhFdzEwTVNTQWNIamdnX2U3TzRVS1RCRGdoOW5zck5ucU9GQ2ZmVk9hTXN1VVItRUNDbFFNSm5iTVpoYUxObE5KV0QxbUdwcUtKaDlsTC1rTkNWVUZpYW5fc200dU1uSVhfLQ?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Tue, 17 Nov 2026 11:51:35 GMT"
         },
         {
-          "title": "GTA 6 und ein möglicher PC-Port: Hacker will PS5-Firmware ausgelesen haben - Hardwareluxx",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZVpfZmFWeTN4cl95eDBBM19tU2s5RmRsSUZiYUVlV1JzWkZLbi1pX3EtU1BwWEhmZjFyalNLSmJUMVZPOUEtYTdqVEIyMk5hN0FjYk5yTEV4LU11QnB3WjVVZzNQYWNva0l3MzRNRE5PYjN1bjlZTFRaSDFFSDVrMXJ5Qmh2bkVvRzFGTDJKSTRHUkpwQ3E0bktwOUwzTFFhd0VaSnJoaFdDY2JXTENkMERLXzFyX2F3ZHMyeDFaeTJ4aXBRc1puREhOSTB1YmtfLWxHUEVfUnl6ZkJS?oc=5",
-          "source": "Hardwareluxx",
-          "pubDate": "Tue, 17 Nov 2026 09:17:10 GMT"
+          "title": "Fast 19 Stunden Downloadzeit: Warum GTA6-Spieler ihre PS5 und Xbox schon vor dem 19. November prüfen müssen - Merkur",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGJDRFdHQzJhV3FuUzRzbEhRRTdLVGd1b2wtdXJhb0FMLVF5bGY3ckJrSXY2T3NlcmZzVFNTOUpuYUR0bWYyQk5SX3ZKeWZLODJzaDFZUFlSMi1XX1lnZnJ0T1hCUWxnS3JTQWxCeFk0NnJfNDdTNzR0YXlZX0Q4SVRfbUw2Q3FmdWFYSkF4QmN2aWkzT1NoNHFXel9DRnEwS3FwX0JLODNEY2ctZUs2cTl0Zw?oc=5",
+          "source": "Merkur",
+          "pubDate": "Tue, 17 Nov 2026 11:45:15 GMT"
         },
         {
-          "title": "GTA 6 kurz vor dem Start: Zweiter Patch und rätselhafte Zusatzdownloads - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSDBYc1ZPX3psR2t3Y1RLXzgtS1lrQ29oNzFGM3NOQUNyQURfR0lONmdLbGJIdnFLdk1HVUIzUVo2MjdMUlg3TEtmNXlRWWdFbW5naHc4enpqS0hUaEJzMVNsRW9ZcFdxVDVyWWZVR3paZGpvbk5nZHhNT0tZSTRRV2lBeGR5amFUNUstY0JuaEQwak5pQzdYYnRRTGNQaTh1dVNITk1ldXBsQ2lkSnRjdVBzSDV5Q0c2ZlhvQmo3WW9MS2VCVDYyVU1CY0dUNzNGeTVoNXVJYUpiNG9SaGZ4ZA?oc=5",
-          "source": "CHIP",
-          "pubDate": "Tue, 17 Nov 2026 09:05:00 GMT"
+          "title": "Neues PS5-Update 14.23 ist draußen und springt GTA 6 zur Rettung - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWXR1ZUhIZ2YtY3A4V19tNUtzRGtqQ2Y0TXdfT0JJU0xMelNuOXdJRGVQaHg2T1VRbWxrYWdLdmhBUE1qWFhSb0ppZkZFU0hqd0dDX3NDSkNtbWxDdm4tR2lkMWhZTU5qYWpiREVmdmc3XzFQTzA5YjdJUEdRNzNickYzQk0yT3c0?oc=5",
+          "source": "GamePro",
+          "pubDate": "Tue, 17 Nov 2026 11:03:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-17T09:53:34.790Z",
+      "updated": "2026-11-17T14:58:54.596Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -257,7 +257,7 @@
         },
         {
           "date": "2026-11-17",
-          "count": 13
+          "count": 27
         }
       ]
     },
@@ -266,14 +266,14 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 36,
-      "count24h": 19,
-      "publisherCount": 24,
+      "count7d": 35,
+      "count24h": 16,
+      "publisherCount": 22,
       "capped": false,
       "series": [
         {
           "date": "2026-11-11",
-          "count": 0
+          "count": 1
         },
         {
           "date": "2026-11-12",
@@ -293,41 +293,41 @@
         },
         {
           "date": "2026-11-16",
-          "count": 17
+          "count": 15
         },
         {
           "date": "2026-11-17",
-          "count": 6
+          "count": 9
         }
       ],
       "items": [
+        {
+          "title": "Deutsche Twitch-Streamer streiten sich darüber, wer GTA 6 früher spielen darf, manche riskieren sogar einen Bann - Mein-MMO",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WMWY5OWRXZ1hLOXdTS3N0Yi1DVXIxU2xkVjZLSWhpeVpyak9LcThzNHlKNDJsRXZ2QnREd3ljVDkxWUNJZ2RMZmFGZ0FHQnprWVdnN3VvTEJBS3hxUXN6RWVwdEtYN0duMXh4Q2VB?oc=5",
+          "source": "Mein-MMO",
+          "pubDate": "Tue, 17 Nov 2026 14:30:00 GMT"
+        },
+        {
+          "title": "\"Wird seinen Kanal knallen\": Zarbex kassiert nach Ankündigung für GTA 6-Livestream massive Kritik - Comicschau",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0zT3VoejJ0dFhzREdGcjR3SHRqYkRCRzdiQ2hQUVpWdC1aUjBjN3JCcWZmRmcxTEJKRkVvbTBDS1lxdldySG93Q0F2bkNyUktvdW12X3VmSnczbkJMd2hYN25mZGsyNWlSbUdQRURxekxDaXc?oc=5",
+          "source": "Comicschau",
+          "pubDate": "Tue, 17 Nov 2026 13:48:27 GMT"
+        },
+        {
+          "title": "GTA VI: Wie der Actionblockbuster für Menschenfeindlichkeit gekapert wird - Belltower.News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVi1iNXJoR215LWtRbjY4ZTZwNFNWRDUwOWowOHhxSlQ4NmlZam10eks4b21zeTgyeFhfRnVnemF6TVcxQVlZVm5nWkRXZTFuZ3VHX2w2bFoteTU3MmVxSXg2R0IwZ1VaZElzOWNzaEpyNlgxaXdXdFpmcFB0X1RSeWh6ZVhOZ2NqVV9JNzBLdDRidlpJeUsxRXJXaVFxTEtKa0ZId1hCYVFBS3hf?oc=5",
+          "source": "Belltower.News",
+          "pubDate": "Tue, 17 Nov 2026 09:57:01 GMT"
+        },
         {
           "title": "GTA 6 noch nicht erschienen – doch Rockstar soll bereits 1,5 Milliarden Dollar kassiert haben - PC Games (DE)",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU2E1ZXptTDBFRkkxU0FkMDFsS095ZVVMbGpPRldoU3pLWW4yazBiSlo4Z0JSZks2bHZYY2hiLTRhblJGR2hCbzNTWWlKSHUtaFlFZGFBbm5FZlB2Sms1SXl1elZZcFlQYl80Z3g5WnY5ckswcEozVkc5RHFac1FFQkl5bEhyaEVmLUZabkcyakp0dw?oc=5",
           "source": "PC Games (DE)",
           "pubDate": "Tue, 17 Nov 2026 09:00:00 GMT"
-        },
-        {
-          "title": "Was GTA 6 von alten Rockstar-Helden lernen muss - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnBuVHR3a2Q2bmhoX1c5b2YwckVJcWZCWHFQRjBtSFlGVEhGQXYzbEZ2Tk5ucGQ5UTJheTUwZUNkMXNEWHlQRXpFdjVHdlBIYzJhRzI0V1A3ZFpHWGs2NG9HSEo1MFpGN0xwSmtKZW04NXV2WExrVHNWNTNWTFlIVGMtNlJiWUFEYmdKbDJ1V1lodjNR?oc=5",
-          "source": "GameStar",
-          "pubDate": "Tue, 17 Nov 2026 08:00:00 GMT"
-        },
-        {
-          "title": "GTA 6: Warum andere Länder schon spielen dürfen, während Deutschland noch wartet - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOd0RhUW8xNlJNUzB1eC1MSmpEYXBmWEFYZVVYdFhhUVlPU3VCWWF0akx0dXhhMUVrQVFGdjNPRWVQSm1NQzU3Tl9lNk1LYmI4QzZkeGg3ME9kZVZHS3ljbXZKUW5ZS2IxWEhYNVl5OWdybmhfZmxIdG5wTkM0MnhmSUs2RzVKSWF2V2NEUkVQZnJGelo4TlJkN2xFeDhYUHBnMnJubkQtX3lhbnhMMmI5Z1N5RktSOTJ3YXkzTVJmUVlSa2hfSHo0VDdLQzBEM182NXc5Z0ptSlBOZkdES1NQcXBfU29VdWh6RUkwZnNR?oc=5",
-          "source": "CHIP",
-          "pubDate": "Tue, 17 Nov 2026 07:27:00 GMT"
-        },
-        {
-          "title": "\"Nur Content und Kohle\": Streamer rechnet wegen GTA 6-Trick mit Kollegen ab - Comicschau",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10cDFOelF5N0N1aWlWWVZoc0ppWWxMZ2trNHlvRTEtcnZZNGxMMDdLaGJ6QVFVNUp1WXhQb0NYTnRWdlJFRmh4ak9vZktZWjNpM0FVZmNGTVdMRUlJWlhmSEc4YXRtOEZ2d01LTlZKclQxYkVUc2c?oc=5",
-          "source": "Comicschau",
-          "pubDate": "Tue, 17 Nov 2026 06:55:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-17T09:53:34.790Z",
+      "updated": "2026-11-17T14:58:54.596Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -387,7 +387,7 @@
         },
         {
           "date": "2026-11-17",
-          "count": 6
+          "count": 9
         }
       ]
     },
@@ -396,10 +396,10 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 99,
+      "count7d": 100,
       "count24h": 42,
       "publisherCount": 54,
-      "capped": false,
+      "capped": true,
       "series": [
         {
           "date": "2026-11-11",
@@ -415,49 +415,49 @@
         },
         {
           "date": "2026-11-14",
-          "count": 7
+          "count": 5
         },
         {
           "date": "2026-11-15",
-          "count": 16
+          "count": 10
         },
         {
           "date": "2026-11-16",
-          "count": 37
+          "count": 36
         },
         {
           "date": "2026-11-17",
-          "count": 14
+          "count": 29
         }
       ],
       "items": [
         {
-          "title": "Darauf hat die Gaming-Welt gewartet: Alles Wichtige zum Start von «GTA VI» - Watson",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSlVlVF9uaVZiZlE2ckFnODJnNm0wSXp5empCYkFsbWNBQVlEdzdsc3FETTU4SzI4dFlVX21UdUhIRGRqczNCblM4dzk0YXdYRnpYajNJQmQ1TE5XWnBnNlBiSHBhZmNpTnlLbmlHb1VGN0RiM19ZV1Bfcl9JLWtpdlFuZmk1LUNKcERIanc5Yk5TczVEdDBqMjAxSWtYM2VKN2ZkUTRVYnVkbXlrR2tIODVpZk9FUzg?oc=5",
-          "source": "Watson",
-          "pubDate": "Tue, 17 Nov 2026 09:46:36 GMT"
+          "title": "Take Two-Aktie vor GTA 6: Rekordvorbestellungen treffen auf hohe Erwartungen - DWN | Deutsche Wirtschaftsnachrichten",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUXRTRjNSRnU0VUNrRU9Kb2VXUEhrd0Z2VVlvNEt5ZGoybTc2eXZaYWlxVlJOYXFiVUViYkhQQjIwWS1WV2E1dEJFVEd3cERaMTZnQTFUMGUxQXdtcDJQeHBPOVdIX0t6SWxMNmNQbnVKSGpxV0dJXy1acHVJdDZhWnpRQ242anc2R2NDWEpKSkxBdFY0em10MV9PNkJBUVVaRkZQNzNDczZmN3pKbERBMTVDODA0WGtiOWRuUG1VR0dGaV9r?oc=5",
+          "source": "DWN | Deutsche Wirtschaftsnachrichten",
+          "pubDate": "Tue, 17 Nov 2026 14:43:21 GMT"
         },
         {
-          "title": "Noch vor dem Launch von GTA 6 erobert The Legend of Zelda: Ocarina of Time die US-Retail-Spitze des Jahres - Eurogamer.de",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BU3p6YXJCM3JnOXpMalEybHFHVlMtdjg4d0NlSm9RYVlnZG1sdHhUZjlIUUFsSmVOeTJQaEtHN3d1WHI1QUZHU1dLNFM5VndGcHNzelJiOERDeUd2blo3VzQ4M3BFVndkdkh4MXYtcV9jLVE?oc=5",
-          "source": "Eurogamer.de",
-          "pubDate": "Tue, 17 Nov 2026 09:45:10 GMT"
+          "title": "Bevor Sie GTA 6 starten, prüfen Sie diese Einstellungen an TV & Konsole - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZ1NtYlloeG4xalBvS1RpQm1ZdFh5OEItT0REUkhrSFprX0pYSWpMaU1Sa3BuOXV6TWdrSy15ZmcxWnpHa0o3ZG5CYU1pU01XUnFfeGJPSGhMVEtZaHNxeUVhem9GdlRJcHRLTUwzX3ZEeUdncWEyMXN6eTVhSWJYY1Q4bEs0UkM0SXRJSldRM3BWaFNGSW9jYkx6akNmMldYR2huSU1hZ0dNYXZpd3FIWmQ0QlpjSWkzU0VNU1lBT05Yb0xCU3VEMEJsa25zRjlVN0RxLVBOWEZ5QVNtZEVyaHhpZGllUQ?oc=5",
+          "source": "CHIP",
+          "pubDate": "Tue, 17 Nov 2026 14:40:00 GMT"
         },
         {
-          "title": "Zum Launch von GTA 6 erobert Vice City in Season 3 auch die Basketball-Courts von NBA 2K27 - Eurogamer.de",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtRmFSa3FDbWhwRDBZQ2xMcDZBbkJQYjFjSW1TYmRQM0ZHT0dlOF9vUWNLaDJJTzdnd25BY3ltOHREOUduR3BOWmRkNThGdjVUa0dwajZEMi1tenJCY3c?oc=5",
-          "source": "Eurogamer.de",
-          "pubDate": "Tue, 17 Nov 2026 08:45:10 GMT"
+          "title": "„Wir zocken zum Release“ – wo Düsseldorfer das Videospiel GTA 6 feiern - RP Online",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeklaenlwMXBoVU43NEdmZUIwS0l6YzhRODRqSGpMay05ZHVHTUlKVFNHRnVxN01rc3JVMDM4N2pMY1pvWlBZcnZnY3d5bkJYazBvR3djOEVadEU2Tl8zSWtDWGZhdk1oeElEMEI1REx5RWVEQWpTX2dGRUt3S183aERSV1o5c25HSC1vOXVJOXFlYnZ6a2NicnlTZWpCcEFobTA0WHhkcjYxaUxEUFhwdk50OTRHS2w3TEVqZ2VueVhlNWh5RUVLMVM3LXhWTDhIbHV5Q1dn?oc=5",
+          "source": "RP Online",
+          "pubDate": "Tue, 17 Nov 2026 14:16:54 GMT"
         },
         {
-          "title": "GTA 6: Preload auf PS5 und Xbox – Zeiten und Speicher - NeoTeo",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWpvVmthWURiVWxlWlY4SS1ScENlaEdFTWM4Nno1ZFIweElORmRmV05EbHF2amQ5YU85aUJfbWtidlE2a2picVNaYVRlYzR0Vm81UlliY05Nd19teTdwNkw1b09rZWhrU0hKTGpNN21oWk1Vclc0bGJqb0psMVZDd2N3?oc=5",
-          "source": "NeoTeo",
-          "pubDate": "Tue, 17 Nov 2026 08:42:32 GMT"
+          "title": "GTA 6 herunterladen: So lange könnte der Download bei dir dauern - Südostschweiz",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMW5xWmlTb3V1QTZsUC1SZGIzNXdwaThJSmY2eWdfYU04Q3lPX3k1aThkSDZ0NTY4SG52bjlhdllocm5HVV9vMUZhY2Jjc090eWlQMEtCaVZWcGxoelNRWVhNTl9EYklISS1ISkRsRVJVekZUZGlONlBFa2Q4dkZmcEJTc2lTOWxqMXlqai01bW41SEFOZkdiZy01RDE0SE5UUURiZkxfbmhJekdOTHJuNQ?oc=5",
+          "source": "Südostschweiz",
+          "pubDate": "Tue, 17 Nov 2026 14:09:32 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-17T09:53:34.790Z",
+      "updated": "2026-11-17T14:58:54.596Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -517,7 +517,7 @@
         },
         {
           "date": "2026-11-17",
-          "count": 14
+          "count": 29
         }
       ]
     }
@@ -830,6 +830,13 @@
       "score": 100,
       "coverage": 3,
       "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-17T14:58:52.660Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 2,
+      "signature": "wiki+news"
     }
   ],
   "sources": {

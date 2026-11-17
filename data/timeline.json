@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T09:53:30.250Z",
+  "updated": "2026-11-17T14:58:50.076Z",
   "description": "Hourly append-only snapshots of all point-in-time GTA VI signals (null = source unavailable in that run).",
   "snapshots": [
     {
@@ -7295,6 +7295,168 @@
           "release": {
             "count24h": 42,
             "count7d": 99
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-11-17T14:58:50.076Z",
+      "stocks": {
+        "7974": {
+          "price": 8926,
+          "changePct": 0.36,
+          "volume": 9315300
+        },
+        "TTWO": {
+          "price": 211.91,
+          "changePct": -0.73,
+          "volume": 836292
+        },
+        "RBLX": {
+          "price": 45.37,
+          "changePct": -1.67,
+          "volume": 402865
+        },
+        "CDR": {
+          "price": 266.8,
+          "changePct": -4.99,
+          "volume": 233223
+        },
+        "UBI": {
+          "price": 4.372,
+          "changePct": -1.77,
+          "volume": 151397
+        },
+        "SONY": {
+          "price": 26.9,
+          "changePct": -0.5,
+          "volume": 222968
+        },
+        "MSFT": {
+          "price": 511.46,
+          "changePct": -1.26,
+          "volume": 2211155
+        },
+        "NVDA": {
+          "price": 155.774,
+          "changePct": -0.23,
+          "volume": 51049247
+        },
+        "UBER": {
+          "price": 68.725,
+          "changePct": -1.81,
+          "volume": 1893621
+        },
+        "DASH": {
+          "price": 166.7,
+          "changePct": -1.81,
+          "volume": 375126
+        },
+        "DHER": {
+          "price": 36.6,
+          "changePct": -0.54,
+          "volume": 17197
+        },
+        "GME": {
+          "price": 25.59,
+          "changePct": -0.16,
+          "volume": 430536
+        },
+        "AMZN": {
+          "price": 258.855,
+          "changePct": 0.43,
+          "volume": 5623421
+        }
+      },
+      "wikipedia": {
+        "gta_en": {
+          "date": "2026-11-16",
+          "views": 106689,
+          "recent7": 537700,
+          "prev7": 212736
+        },
+        "gta_de": {
+          "date": "2026-11-16",
+          "views": 13681,
+          "recent7": 74515,
+          "prev7": 19008
+        },
+        "sick_stand": {
+          "date": "2026-11-16",
+          "views": 4,
+          "recent7": 26,
+          "prev7": 15
+        },
+        "sick_ability": {
+          "date": "2026-11-16",
+          "views": 18,
+          "recent7": 96,
+          "prev7": 102
+        }
+      },
+      "news": {
+        "gta_en": {
+          "count24h": 68,
+          "count7d": 100
+        },
+        "gta_de": {
+          "count24h": 70,
+          "count7d": 100
+        },
+        "sick_de": {
+          "count24h": 2,
+          "count7d": 21
+        },
+        "rockstar": {
+          "count24h": 14,
+          "count7d": 38
+        }
+      },
+      "reddit": null,
+      "steam": {
+        "gta5": 62062
+      },
+      "trends": {
+        "de": 0,
+        "us": 0
+      },
+      "rockstar": {
+        "ok": true,
+        "status": 200,
+        "latencyMs": 259
+      },
+      "playstation": {
+        "ok": true,
+        "preloadMention": true
+      },
+      "decix": {
+        "allTimePeak": 22297595572415,
+        "current": 19939889923070,
+        "graphAverage": 15653332159552,
+        "graphPeak": 21156769798605,
+        "allTimePeakDate": "2026-10-14",
+        "monthPeak": 22297595572415,
+        "monthPeakAt": 1794338400000
+      },
+      "hype": {
+        "score": 100,
+        "coverage": 2,
+        "topics": {
+          "retail": {
+            "count24h": 3,
+            "count7d": 19
+          },
+          "hardware": {
+            "count24h": 42,
+            "count7d": 93
+          },
+          "creators": {
+            "count24h": 16,
+            "count7d": 35
+          },
+          "release": {
+            "count24h": 42,
+            "count7d": 100
           }
         }
       }
