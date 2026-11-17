@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T14:58:50.076Z",
+  "updated": "2026-11-17T18:52:04.777Z",
   "description": "Hourly append-only snapshots of all point-in-time GTA VI signals (null = source unavailable in that run).",
   "snapshots": [
     {
@@ -7456,6 +7456,173 @@
           },
           "release": {
             "count24h": 42,
+            "count7d": 100
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-11-17T18:52:04.777Z",
+      "stocks": {
+        "7974": {
+          "price": 8926,
+          "changePct": 0.36,
+          "volume": 9315300
+        },
+        "TTWO": {
+          "price": 204.13,
+          "changePct": -4.37,
+          "volume": 3417774
+        },
+        "RBLX": {
+          "price": 43.91,
+          "changePct": -4.79,
+          "volume": 3018094
+        },
+        "CDR": {
+          "price": 264.8,
+          "changePct": -5.7,
+          "volume": 328827
+        },
+        "UBI": {
+          "price": 4.339,
+          "changePct": -2.52,
+          "volume": 540150
+        },
+        "SONY": {
+          "price": 26.8,
+          "changePct": -0.89,
+          "volume": 2018058
+        },
+        "MSFT": {
+          "price": 504.405,
+          "changePct": -2.62,
+          "volume": 13880408
+        },
+        "NVDA": {
+          "price": 153.22,
+          "changePct": -1.87,
+          "volume": 224697084
+        },
+        "UBER": {
+          "price": 69.09,
+          "changePct": -1.29,
+          "volume": 11946509
+        },
+        "DASH": {
+          "price": 164.885,
+          "changePct": -2.88,
+          "volume": 2038287
+        },
+        "DHER": {
+          "price": 36.55,
+          "changePct": -0.68,
+          "volume": 336041
+        },
+        "GME": {
+          "price": 25.473,
+          "changePct": -0.5,
+          "volume": 2289007
+        },
+        "AMZN": {
+          "price": 256.62,
+          "changePct": -0.44,
+          "volume": 20173940
+        }
+      },
+      "wikipedia": {
+        "gta_en": {
+          "date": "2026-11-16",
+          "views": 106689,
+          "recent7": 537700,
+          "prev7": 212736
+        },
+        "gta_de": {
+          "date": "2026-11-16",
+          "views": 13681,
+          "recent7": 74515,
+          "prev7": 19008
+        },
+        "sick_stand": {
+          "date": "2026-11-16",
+          "views": 4,
+          "recent7": 26,
+          "prev7": 15
+        },
+        "sick_ability": {
+          "date": "2026-11-16",
+          "views": 18,
+          "recent7": 96,
+          "prev7": 102
+        }
+      },
+      "news": {
+        "gta_en": {
+          "count24h": 69,
+          "count7d": 100
+        },
+        "gta_de": {
+          "count24h": 66,
+          "count7d": 100
+        },
+        "sick_de": {
+          "count24h": 4,
+          "count7d": 23
+        },
+        "rockstar": {
+          "count24h": 14,
+          "count7d": 36
+        }
+      },
+      "reddit": {
+        "subscribers": 1212091,
+        "posts24h": 100,
+        "postsPerHour": 87,
+        "topScore": 2
+      },
+      "steam": {
+        "gta5": 62885
+      },
+      "trends": {
+        "de": 0,
+        "us": 0
+      },
+      "rockstar": {
+        "ok": true,
+        "status": 200,
+        "latencyMs": 307
+      },
+      "playstation": {
+        "ok": true,
+        "preloadMention": true
+      },
+      "decix": {
+        "allTimePeak": 22297595572415,
+        "current": 20358864049481,
+        "graphAverage": 15640675721801,
+        "graphPeak": 21156769798605,
+        "allTimePeakDate": "2026-10-14",
+        "monthPeak": 22297595572415,
+        "monthPeakAt": 1794338400000
+      },
+      "hype": {
+        "score": 100,
+        "coverage": 3,
+        "topics": {
+          "retail": {
+            "count24h": 3,
+            "count7d": 19
+          },
+          "hardware": {
+            "count24h": 43,
+            "count7d": 95
+          },
+          "creators": {
+            "count24h": 12,
+            "count7d": 35
+          },
+          "release": {
+            "count24h": 43,
             "count7d": 100
           }
         }

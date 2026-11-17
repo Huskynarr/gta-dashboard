@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T14:58:52.660Z",
+  "updated": "2026-11-17T18:52:09.924Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -1636,7 +1636,7 @@
       "label": "GTA VI · EN",
       "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 68,
+      "count24h": 69,
       "series": [
         {
           "date": "2026-11-11",
@@ -1644,7 +1644,7 @@
         },
         {
           "date": "2026-11-12",
-          "count": 4
+          "count": 3
         },
         {
           "date": "2026-11-13",
@@ -1652,7 +1652,7 @@
         },
         {
           "date": "2026-11-14",
-          "count": 6
+          "count": 4
         },
         {
           "date": "2026-11-15",
@@ -1660,49 +1660,49 @@
         },
         {
           "date": "2026-11-16",
-          "count": 29
+          "count": 19
         },
         {
           "date": "2026-11-17",
-          "count": 48
+          "count": 63
         }
       ],
       "items": [
         {
-          "title": "GTA 6 Vice City real places: 11 Florida spots behind it - qz.com",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0MzU5alBQQ1JjOG5vZDFnMkt6aVp1aHJZRkJaT1Exa2pScmRuTGpjVGZNbEk0WkdseDAzQjNWZ3FycXJCVDY3ZWpIWXhVaHBrWUk2SjRoSEFnSV8yNzNN?oc=5",
-          "source": "qz.com",
-          "pubDate": "Tue, 17 Nov 2026 14:41:44 GMT"
+          "title": "Video: Grand Theft Auto VI Set to Make Billions - The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZmtDTGpqQ2ZEWmExTGI5TFpmdnVlX2dYRkJiZU1HeDI1TFJEWThCWV9hWDRENDdORGREeXZOWFJKTHFrU1FhMTVUdmkyUTdXMTNhN3dPUnVWZ2VjeF9LOG5jYURWT3BCTkZJc0s2ajBBdzAwVHVzZlFtMFhCZ19UNkdhaEZJUUtZREtnTks3eUVmOU1RaTJYMldyYWdvOXM?oc=5",
+          "source": "The New York Times",
+          "pubDate": "Tue, 17 Nov 2026 18:45:35 GMT"
         },
         {
-          "title": "Grand Theft Auto history: 10 milestones from 1997 to GTA 6 - qz.com",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZS2pKUGM3RXhTZk5XNlFiZG1VdDdaRm8xMDB6LTRLT3lWY3NxQnBpeDZ5dmlJTjlQRW0xZTRFclgteUZCT05ZMTF3RlVXQnJUZVM0Y2JGT3l3ODRjTDNB?oc=5",
-          "source": "qz.com",
-          "pubDate": "Tue, 17 Nov 2026 14:33:39 GMT"
+          "title": "GTA 6 Leads TGA Nominations, And Reviews Aren’t Even Live Yet - GameSpot",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR0JwS3dLNFB4eHUxOTNzOURSXy1HSEl4dXpBOXhpVzdrVFNGZWlRWTNuQnpDYXVjV1hUOW12SldtTkVLaGZReU96QzNlVDNzREZUWmtJOVd5Q1BzWV9Ja0NtYVdRa2hzYjBod19KckZrSUtaOEp4MXFvQlNRSnhjdFBtOHFSd3ctZkItRm1hZHNmTERSeU52X0xR?oc=5",
+          "source": "GameSpot",
+          "pubDate": "Tue, 17 Nov 2026 18:39:08 GMT"
         },
         {
-          "title": "PS5 Pro live restock tracker: Where to buy the best console for 'GTA 6' - Mashable",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JTnRBcTB2N05XMzl3QmV2Y3JMMHVOVEEzZlVDTWEtSHpMZFJWd2tqUE1oLTN0U1lOSHZwWUx4WW1GUFpwNlZjSzJmajRKdHRWaGd4Nnp1NFNudFFad0pUTnZpRHlRa09BVWFzTTE1Nmc?oc=5",
+          "title": "Nearly 20% of Salaried US Workers are Taking Off Thursday for GTA 6’s Launch - Sole Retriever",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSzhKQnlVeFVoeU4tV09GODI1U3VvMmhqcW4ta1A3cGp0RDROenVCWXFsRGhwbm9KMEtCRnBVc3JmVjJCbFZLR1BWOF92M015U0NMZWRUSGVlc2JZeW9nbFJ5dF9meW9NSHQxcF9DekNrcEEzUEtqUUZGMERFV2FMZGpPN3EyWW5KcjBNYW9tMTBjM1k4R2ZOblJoUkY?oc=5",
+          "source": "Sole Retriever",
+          "pubDate": "Tue, 17 Nov 2026 18:30:27 GMT"
+        },
+        {
+          "title": "GTA 6 New Zealand time trick for Xbox, PS5: How to play hours early - Mashable",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9TYmlTM0pyNXdQRVFQR1dzXzdDZV9DS0ozalBvbU5vcnpDQnVhN3pVaTR4aWNjUG1CclZiQzlBTTVZekxJeXgwNzY3djl0TTNzYTlhUVBvcnFRZEhKQ2ZOSzhmTGJPTkpGUE9CVU9LU2xPZmNCVVNoaUZXelY?oc=5",
           "source": "Mashable",
-          "pubDate": "Tue, 17 Nov 2026 14:23:36 GMT"
+          "pubDate": "Tue, 17 Nov 2026 18:22:30 GMT"
         },
         {
-          "title": "Autistic teen hacker pleads guilty to leak of Grand Theft Auto VI footage - The Record from Recorded Future News",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FaktuakRZRkZvUHMtb2RybGVVQWNSb3BIaWZfS2hlVllod1ZqUlE5MWxpdkozTk0xa250b1FhQ1NDb1FFdEV2OG9hak1EX3ZKR0psanlxMGlGWldzbC1URUd2bm15VDNaazNIV0RqeW9hbTBDejhPUjRpMEFxaWs?oc=5",
-          "source": "The Record from Recorded Future News",
-          "pubDate": "Tue, 17 Nov 2026 14:21:02 GMT"
+          "title": "GTA 6’s Lucia Actor Revealed, And It’s The Person Everyone Already Guessed - GameSpot",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQkRSdjFMSUZYMEFOVGxHaVdKVzhvS2dJMkRWU1ZnMEZRbEw0VDRSVmlKTmRfbjRsWFdxOGZObm1lQ2NIS0xHRFhOcGJMNUpPd3Vkb01weWZXenJCcXI0ZTJWQUJMdzZBNV9rRjd6RFlhZTJwd2l1Uy1UbndqQ3RuM0czbTQyalV2bVhXVnJpN0RuMS1WWW9KMFhxcm4wRXZpaVZRcFFIUy05QQ?oc=5",
+          "source": "GameSpot",
+          "pubDate": "Tue, 17 Nov 2026 18:20:35 GMT"
         },
         {
-          "title": "The Least Productive Day of the Year - The Atlantic",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPd25rTFVwd01EMXBVZG03TDNVTE5fMmVWcVNlZFF2VWdVZU9XTmgyVV9HbHJhREJvMUhaZnVtb3RCRzJUYzVWNDhld0MySkhsV0hBdF9jSWctVVpRbGJlTWFxNFlpc2ZpRm96U2xsOUh4RVlKSmxDTXYyTUJObHZPT1E2TVE?oc=5",
-          "source": "The Atlantic",
-          "pubDate": "Tue, 17 Nov 2026 13:38:42 GMT"
-        },
-        {
-          "title": "My husband and I were serious gamers before having a baby. GTA 6 will be our biggest parenting challenge yet. - Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYWExdm50QlFVd1B3N1JYX1NBUGsyQlhSdFh3UVU4Z1FTLXZvbW1DcFBlRE1oU0h1SG1lb21MY29Qa0VTd2RReTBjTEk4NkRaM2xicnU4TndVc3ZhaENtVlc1ZGdGN3paMkZfTERtcFpFSWVJSVc4OGszQllHbGdfdFMwbHR3V2JVXzNCcFZDN1RRclR1?oc=5",
-          "source": "Yahoo",
-          "pubDate": "Tue, 17 Nov 2026 13:21:01 GMT"
+          "title": "The Game Awards 2026 Nominations Revealed, GTA 6 Dominates - IGN Southeast Asia",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORkk2QXIwdjBWTnZGMWwxWEpsNzV5Z2FId1NrSHc1UXJLbFhKbE1rNV80bHc1S3hTRUN1ejlvTE5jR1ozb241bFpfYkF3SkdHY2NGblJiMWsxaTd3QkRGZERtQzdFdlFMbTA4VDQtWnE4SmpJTDZmUV9uWld2cWdYN29WN2NLdnFlY0VJeFNEa3pnU3hxUF9sX1B3aEE?oc=5",
+          "source": "IGN Southeast Asia",
+          "pubDate": "Tue, 17 Nov 2026 18:05:01 GMT"
         }
       ],
       "history": [
@@ -1768,7 +1768,7 @@
         },
         {
           "date": "2026-11-17",
-          "count": 48
+          "count": 63
         }
       ]
     },
@@ -1777,7 +1777,7 @@
       "label": "GTA VI · DE",
       "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 70,
+      "count24h": 66,
       "series": [
         {
           "date": "2026-11-11",
@@ -1789,7 +1789,7 @@
         },
         {
           "date": "2026-11-13",
-          "count": 6
+          "count": 4
         },
         {
           "date": "2026-11-14",
@@ -1801,49 +1801,49 @@
         },
         {
           "date": "2026-11-16",
-          "count": 26
+          "count": 18
         },
         {
           "date": "2026-11-17",
-          "count": 56
+          "count": 66
         }
       ],
       "items": [
         {
-          "title": "Bevor Sie GTA 6 starten, prüfen Sie diese Einstellungen an TV & Konsole - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZ1NtYlloeG4xalBvS1RpQm1ZdFh5OEItT0REUkhrSFprX0pYSWpMaU1Sa3BuOXV6TWdrSy15ZmcxWnpHa0o3ZG5CYU1pU01XUnFfeGJPSGhMVEtZaHNxeUVhem9GdlRJcHRLTUwzX3ZEeUdncWEyMXN6eTVhSWJYY1Q4bEs0UkM0SXRJSldRM3BWaFNGSW9jYkx6akNmMldYR2huSU1hZ0dNYXZpd3FIWmQ0QlpjSWkzU0VNU1lBT05Yb0xCU3VEMEJsa25zRjlVN0RxLVBOWEZ5QVNtZEVyaHhpZGllUQ?oc=5",
+          "title": "The Game Awards 2026: GTA 6 führt mit 8 Nominierungen - GamesWirtschaft.de",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzBQbGRaSk83c0pMeE5mUUlUVnRYNkw1MjR3ODY1U0x4TWR4NHRMNzZISzVZakZmR2FpdUdyLUpQbVJLNFpxRWNhaXVjLTdrRTZhTnVSZk91THpIc3JlckU5V0xNbFBxc0RRNl94YXg0Mkx1M3JsX2pvcDVsZ0FldmV3SHRGYXc?oc=5",
+          "source": "GamesWirtschaft.de",
+          "pubDate": "Tue, 17 Nov 2026 18:46:42 GMT"
+        },
+        {
+          "title": "„GTA 6“ jetzt schon herunterladen! - BILD",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFBFUGdvM0ZjUUh3NzUzVnNtQWtKMzFPQjlKSFV3RHFXVzI3YkRFeVFFZU5jU0VNby15T2RqcE5XaXNjOGpyeDNoNU5WNUtSUWNlclh5RFktQTNINkRfUGpXZ2xYY1RNdUxxZE1na0t5M3RlQUowV0dqR19fSHJFLVN0Umx0cVQ1b3BUMUhuano4bzdtWlJ3Ql91X2c4dDQ3alZMWjFYZFRxRFZ5aHVxSXhfeXBoZGdzZVN1VVRyOWRKQk8tMlVTSTF3?oc=5",
+          "source": "BILD",
+          "pubDate": "Tue, 17 Nov 2026 18:23:06 GMT"
+        },
+        {
+          "title": "„GTA 6“: Die größte Werbeaktion, die die Welt je gesehen hat - BILD",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVjh5X2lacjBLbUk1d0hOMHFFZmtNNlpZX1gza3h3NUlZMS0wUDE0MmQ2Z2lNZlJoNWRMTkliSDF3VElsSDVBZUF5Qnk1TXdFVjFiejBnVlUtVTZXWjB2NEF4Nl9EMXdIWkVfbFBVbFQ5Y01BS0gwbzBmMS1MQ252b3dGX2VFbEl1X2I3LUNRcWduRkgybjdhOVhUVkl0UjRnWmFaeVVSTDlMX3VOLWV2R2JlWElLM3BiNWpYQWFkUXY?oc=5",
+          "source": "BILD",
+          "pubDate": "Tue, 17 Nov 2026 18:10:30 GMT"
+        },
+        {
+          "title": "Diese Auto-Highlights warten im neuen GTA 6 - Auto Bild",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IbUtLRHh1VHVBRW9kZVdRYjBuNEFCakRxbEFUMHZyNFBmVW1Vc1I4dXptMHhfZFFBdld1enR5cWVHTHdFU2c5Y3Q0NHhnQ0tTTFFrbjhOaHgyT3J5VmVDV18zTVFXLTRyODBSQWZYZUNDSzlLMEVOT2I3Yw?oc=5",
+          "source": "Auto Bild",
+          "pubDate": "Tue, 17 Nov 2026 18:10:00 GMT"
+        },
+        {
+          "title": "Über 200 GByte! So lange dauert der Download von GTA 6 - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMUFPZWUtZUl1ZDB0TEpkZDVMd1RfNG1QNkM2UEVFTkJoMnplbVdtTFBoVlF1Q1VkOHFJWUVVZkxIUWp6RDlvcG81U2stdHVJSHpEOWFQLUV0b1B0VWsyZEZYa19PeFQtY2d4M2ZZbXFnTnU2SVNfSk5pRnZnSVp6UTFHd205azhOT1VMSHJuZlluR1BBeGlGY01ic2xYMll1MW5pNzRUQ0JJcmNuNGN5cFRNUFRoNGVIVEQyOWtBbldELXRrV3lNYU9B?oc=5",
           "source": "CHIP",
-          "pubDate": "Tue, 17 Nov 2026 14:40:00 GMT"
+          "pubDate": "Tue, 17 Nov 2026 18:07:00 GMT"
         },
         {
-          "title": "Schmeißt GTA 6 von der Festplatte – dann könntet ihr dieses Spiel gratis bekommen - 4P.de",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQS1IwYW5uUEdNQ0c3bTVkTkJjc09KdXFHNTJIZVNaYUVkTXY5Y0ttN2NwQ0VfTmFUTXBCZGlwZU0tSUhIOXRiM2x6WjA3c0RmYk5EODFiRml3c1F1ckxfbWkzZl9Ycldyd3o5dVZwOFZ4b1BwcjNNTkN2SkRMYVljNGhUZVoxakdvY0RMdUhPelh0WllXNWMwRS1VbC1SSm9pYkFHcWtjd0MtRUR3Rmk3YUZB?oc=5",
-          "source": "4P.de",
-          "pubDate": "Tue, 17 Nov 2026 14:32:23 GMT"
-        },
-        {
-          "title": "„Wir zocken zum Release“ – wo Düsseldorfer das Videospiel GTA 6 feiern - RP Online",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQeklaenlwMXBoVU43NEdmZUIwS0l6YzhRODRqSGpMay05ZHVHTUlKVFNHRnVxN01rc3JVMDM4N2pMY1pvWlBZcnZnY3d5bkJYazBvR3djOEVadEU2Tl8zSWtDWGZhdk1oeElEMEI1REx5RWVEQWpTX2dGRUt3S183aERSV1o5c25HSC1vOXVJOXFlYnZ6a2NicnlTZWpCcEFobTA0WHhkcjYxaUxEUFhwdk50OTRHS2w3TEVqZ2VueVhlNWh5RUVLMVM3LXhWTDhIbHV5Q1dn?oc=5",
-          "source": "RP Online",
-          "pubDate": "Tue, 17 Nov 2026 14:16:54 GMT"
-        },
-        {
-          "title": "Beste GTA-6-Alternativen: 7 Spiele für die Wartezeit - t3n",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5JUDFNWmFielBiUW5xS1lCRWZja096VzgyblZLMkVwRVRyU0lLYU4yOVM1NFJGTHdvbXRWZHFJX0twNm93S2NOYUplWUVYTjE1U3A5a3ZkRDVudDV4UDQzNnlqMFVlV3JOZU40RmptZlR2M0xL?oc=5",
-          "source": "t3n",
-          "pubDate": "Tue, 17 Nov 2026 13:55:00 GMT"
-        },
-        {
-          "title": "GTA 6 als Lockmittel: Phishing-Versuche um 1.300 Prozent gestiegen - so schützt ihr euch - Netzwelt",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNam5aWHhMSXk4WHlpcGpZcUtXeFZPcXNkbTZfMzBYSzJYNW9adS13Qk4xVVp3a1R1YVpnU25RNk82blBaRnpWSTVMcXRZSTl0R1hFbkg4bUZJcDR4bWI2SkdfVXNxV0cxZGxZMnF2YVNNaE1XeEhfV0ZNTXRfbGZ0b19HbHU3OGM4aWlQSjFWZUFkNWpzd0F1VWFSSVE1eDBpY2ZyVjZUb1BiNXJwZWM1d0pYSlU?oc=5",
-          "source": "Netzwelt",
-          "pubDate": "Tue, 17 Nov 2026 13:45:09 GMT"
-        },
-        {
-          "title": "Für GTA 6 krankmelden? Dieses Tool liefert die absurdesten Ausreden - Giga",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVFd6Z1k5NWhOSnVNdWh3VHJOc2c5dFlQT0FQZ3RCbWNrZ25NSy1GUHBaVEt5em9qejhqQVcwVG1aV3pRQXBqUmtkQko5RC01b21qRUN4dTZKSlJlWmF1TEM0Q2d3bzZNSGNGTGU1b0F3RTI4cE9qRVRhR3FFakpoTUpqd2VUdlktaFFTdW1JTkVxTHdzVmwtamx6WlpmRTRMR0JoMExILVVKTGkwSGltYWRucXlmS21US2R0MQ?oc=5",
-          "source": "Giga",
-          "pubDate": "Tue, 17 Nov 2026 13:30:00 GMT"
+          "title": "GTA-6-Hype eskaliert – Fans zahlen schon jetzt irre Preise für diese Artikel - Business Insider Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVWhkV2FrNUljMzNHMGN3cXQyRks5WGJ2cVkxbVVYb0xtVnV2U1RhZ3paeVFmX3FVazh6bTA2MFJCUWlBYjZjcE02MTlreEtDZVFIUEg0ZWs1M1FrSmJVWjB0cmxJMWN5Zl9IX1dRN0RmQ1g0dmRFQXVlX0VDQ0t4eDBObTV2QWNsZDNFaEtmeEdMWE5DUGhpV2Z5NTNFRk5ic242OWFiNWw0MEJXMDRRYXFnSFBuX19qTkVZcDFn?oc=5",
+          "source": "Business Insider Deutschland",
+          "pubDate": "Tue, 17 Nov 2026 18:00:00 GMT"
         }
       ],
       "history": [
@@ -1909,7 +1909,7 @@
         },
         {
           "date": "2026-11-17",
-          "count": 56
+          "count": 66
         }
       ]
     },
@@ -1917,8 +1917,8 @@
       "key": "sick_de",
       "label": "Krankenstand · DE",
       "query": "(Krankmeldung OR Krankenstand OR Krankheitstage OR Arbeitsunfähigkeit)",
-      "count7d": 21,
-      "count24h": 2,
+      "count7d": 23,
+      "count24h": 4,
       "series": [
         {
           "date": "2026-11-11",
@@ -1946,10 +1946,22 @@
         },
         {
           "date": "2026-11-17",
-          "count": 2
+          "count": 4
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 statt Arbeit? Wann Arbeitgeber eine Krankmeldung anzweifeln und wegen vorgetäuschter Krankheit kündigen dürfen - Anwalt.de",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeW95aHZCdXF3b1BQRnJ6alVxN3hOdmVlWERKUy1TSDlsd2hRcndoeUhWTTY5ZVBCcmF3MUFiQkctNFFlWE5EUE5VUGZLc0RiVTR5YnE1cTY5QVQxY3V3djJqVnhfZWxaZGRDY1VjVF90R3BpVEcxMzNONmpKeXZuVjlDWm9sc0J5aUtUUjBQeUlOM0gwM0lpZGs3OUVZZzV6Qld0UmJtdG1TWVlhc3ZJTmlQdTFVS0N6cUc1R0FTSndFdkJVVzhkOWd2a2ZtQzEydXVockk5UVpxbHRUYzlHTW13YmtiVWtKQURDaGFsNFczRXlVelRF?oc=5",
+          "source": "Anwalt.de",
+          "pubDate": "Tue, 17 Nov 2026 16:07:01 GMT"
+        },
+        {
+          "title": "Krankheitstage im Europa-Vergleich: Wo steht Deutschland? - DUP Magazin",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdHN0a3ZKOFBRaHRJLVRPZUpGWUhmTXEzVUJCY1Y5RUdOM2Q5d052UjVBeEs5ZC1hNkxPUk9SNzJublZQTlZnQ3NtQlNqdkxId2lqRjB2NWRGRjhlUlVNZHhWSjFEbFB6WVo2amZMUTQwanQ3SGkwNnpkMGt4S3RUSVM5M2ppX2d0OW9EaHNXOGpnaURXaXRXdTd6Wmk5LWp4c180?oc=5",
+          "source": "DUP Magazin",
+          "pubDate": "Tue, 17 Nov 2026 15:05:59 GMT"
+        },
         {
           "title": "Arbeitsunfälle 2025: Dauer der Arbeitsunfähigkeit im Fokus - Dachdecker Handwerk",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tY0FNekstMW5PbGo4enZGZ3prcFdqdkgwQXQ1Z0ZsM1ZPX2o0VHppQjd5YnJyMkJfWk10cWNURXYxc0JSZkdrZWp4SFRCVDk4OVpUcU9OR3k2UE5GbkswaDMxYlRUQQ?oc=5",
@@ -1973,18 +1985,6 @@
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPX3YwZlIzbWlmSUtQeklPMFc3c1ItbTJDYjd1emVWa05rRVdhOXRId3JfOWZZRjZOZnpicUxtZU55TVhQVkZvYXVHSkNUb2RKLUVDakNYY3o0RGJjZ2hiM0lYQks3QnZpYVZBMVJJNFFfQjdsbkNEclFuLWtOalpuaU9ZWFlMMWJWWmxBOHFHU3ZnRUhtN3pwb2hJcEFVaGZLY01FRUdySW1tVHk4ek5UenN6bHMtQk0?oc=5",
           "source": "SWR",
           "pubDate": "Mon, 16 Nov 2026 10:08:56 GMT"
-        },
-        {
-          "title": "Weniger Krankengeld als erwartet: Diese Krankheitstage darf die Kasse auch mitzählen - Gegen Hartz IV",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVXhUTWVmR21oWVM2YklUdmlPdWZVMVhRUklRYjRHRENFWTFDR3h0cW1aOG14WVotY1Z3d3NwWWRBVHpaTFNEb215Ti1pRWoxOGQ2T2trU25SNldQaWx1QVkteTljbjQxWi1xSmxpNWVXdEhpdXFIT0t6d2ROQ1g2S0gzMk1PVFY2WDVCSk5kUUlNeGhEVE9CUU1tWWtucHBiYmhWOFhwT2NmN3JWbkMwN3JqcmJQWU0?oc=5",
-          "source": "Gegen Hartz IV",
-          "pubDate": "Mon, 16 Nov 2026 09:50:47 GMT"
-        },
-        {
-          "title": "Grundsicherung für EU-Bürger: Bulgare bekommt Bürgergeld-Leistungen trotz einer bestehenden Arbeitsunfähigkeit - Gegen Hartz IV",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZ2lmRmUydkl3MU16S056VUREVGpBbWtIR3BKbTFXc3JKYlp6SC02MWZzRkxrNTB3SktWYjVxRk5VdFZ5bUJMbFdyUFFkMjg1WlhWYTF5a09JMFUtazlqZ1dGb3Q1Uk5zU1k0QW80LWx3QTdVRVh2LWlvOHVkQnFzaXVBUlRqNTQyaFZ2RTdWWGo2VHkyRDJXNWpJSDNyZlZnWk1ocWVMWVRqekJFajJLaUZCYnBMSi16UVZzMlpMcEp6YzVqS2ZFdklRcTJxQkZtVnRrNElsdw?oc=5",
-          "source": "Gegen Hartz IV",
-          "pubDate": "Mon, 16 Nov 2026 07:25:21 GMT"
         }
       ],
       "history": [
@@ -2050,7 +2050,7 @@
         },
         {
           "date": "2026-11-17",
-          "count": 2
+          "count": 4
         }
       ]
     },
@@ -2058,16 +2058,16 @@
       "key": "rockstar",
       "label": "Rockstar Newswire",
       "query": "site:rockstargames.com",
-      "count7d": 38,
+      "count7d": 36,
       "count24h": 14,
       "series": [
         {
           "date": "2026-11-11",
-          "count": 5
+          "count": 4
         },
         {
           "date": "2026-11-12",
-          "count": 7
+          "count": 6
         },
         {
           "date": "2026-11-13",
@@ -2092,40 +2092,40 @@
       ],
       "items": [
         {
-          "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TYVV0RUx3N3pHcTVvQ0JVd2hMQTY4Y3dZZ3BPVkxGWVByeG0tSlhzX1RYM3dBQ3FCcWc1MWdSRmVMMWItVVlBZ0JEX2xKM20y?oc=5",
+          "title": "Rockstar Games - Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbUdSbGM0WnJGc3pDQThxWFpsaG05WThnQzVwUUF4SjNCMGRValhOX181WjFweHJYbHRpLUxxS2haYnJaQWx0V2lhczlPSXc5b0hhRlI4dzhPR2ZMNWhyY1dxQVIxdXVWLWFZeVRIb0NKamd4aHZNLS1PNG5pbmxBVm0wM21XRjNFNEpMM3hlc25pcUtoTmVFQjVTQllGa0VpXzBOeFU4RUY5T1NPbWZQSlZVLUZ5Q1VqeFIyS3d2WQ?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Tue, 17 Nov 2026 13:35:46 GMT"
-        },
-        {
-          "title": "Grand Theft Auto VI is Now Set to Launch November 19, 2026 - Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTBtaHBIYlRBTDY1bnNwT3JxUzBWcWRrRjZEdEhwaWV5Ql9xVFZmYkZwcFhzeHI5QXN1MHZseXhlbWZzSTJfYm1MenNFLU1ZVXRhQ2dySG84MVVlTW9rVml3YzljR0JOaHJjZE9JOXFvYXlPVlFBNmgydFZGNXBWaVhvbmZTbmV0cGlqYTVKeGtpcXhYOWRGd3paQTljSUZBZ09wMHhTWXB4Nk50V2ZNTzdtRkhhdU9DLWxZ?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Tue, 17 Nov 2026 13:25:43 GMT"
+          "pubDate": "Tue, 17 Nov 2026 18:13:08 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2Q2dhM2tEY0NPNUFubUFsOEtRTUhVSWJuM3B1QWl1dDNDYy1MZXBfUWVtZWlOSnZnVmNvYUNJcGFzNE9FNnJpQV82Qy1vUU5YSVdmRWZ4Z1VUaS03LXVxalc2VDlLS2JuNGZ0bUlVeTEyb0oxQ0E2azRicw?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Tue, 17 Nov 2026 13:09:37 GMT"
+          "pubDate": "Tue, 17 Nov 2026 16:45:51 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04SkxRcHFJN2o2YW5qOHlYdHNhQVB6cVNyLWxEdk9JOFpYaTdSNnFURU53Y290aHRzaHVpdzJHbEd6bGZvc3QtTEI0SFVBQy1yQVdpUGxtWVZFNEg5c1FkVWtzSms1LUJ1N25pNGNfZnB4N2M?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Tue, 17 Nov 2026 13:07:35 GMT"
+          "pubDate": "Tue, 17 Nov 2026 16:23:36 GMT"
+        },
+        {
+          "title": "- Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Ubk9rWWhZcXU0cmhTNjVfX3pNR2tIaUVtYVM2WlZYQTNsT0hFNEUxOVM5OF81blpzLXp5QW5CRC1BSkNteVJVTFMtSEloRzdua19IZFlIUHJtQzhtWEJ5bUd3WDdYc0ZTVnBjZ2ZnS2txY1k?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Tue, 17 Nov 2026 16:23:36 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNTZ1Yll3T2dGSmhUX2dOcC1aOVM2Qmh6VXVTOFBHV0JVbFhvbWpRWXhuRUI5NnFNRmUwT2xmVmNHLWJpS3dqZTQ4Zkd5S3pIOXN6YWxkamQ2NVZzTzlURDFqeHZBdDBrak5DMS1HMFE3WFNiaWgtUk51UUxhSXhsaGpn?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Tue, 17 Nov 2026 12:57:33 GMT"
+          "pubDate": "Tue, 17 Nov 2026 16:13:32 GMT"
         },
         {
           "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HUE8wZVBqaUp1d3hxRjBaV1M0LVd1ODV4VzdjME0yT2VXN3RPLUhLR0xIWWxIRXN3NVh6bGEyY3A0WjhOZy1MMEpzWVQ1ZjlKNWRNSG1PZmN1Q015ZlMxVXVzUUlodnFfcG9qNW1xLWVqbmxvblE?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EbzZtLWh1RDFvUzlSaFVhaTRtSEszeW5PMGo2UXNIcmhJaUYzX2NTRDNBbkpDa3JHUWRwX2t1M2pyMk01UmxWRjY2MVRKN2pFZ28xdzdZbWVsZ2w3OVBzSEpGOTlzSHM?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Tue, 17 Nov 2026 12:55:33 GMT"
+          "pubDate": "Tue, 17 Nov 2026 15:55:33 GMT"
         }
       ],
       "history": [
@@ -2208,142 +2208,141 @@
     "posts24h": 100,
     "posts7d": null,
     "sampleSize": 100,
-    "sampleHours": 2.7,
-    "postsPerHour": 36.7,
+    "sampleHours": 1.2,
+    "postsPerHour": 87,
     "topPosts": [
       {
-        "id": "1xygeaf",
-        "title": "Kai Cenat's GTA 6 playthrough trailer featuring Snoop Dogg and Wiz Khalifa.",
+        "id": "1xyrl6l",
+        "title": "Be ready guys cause it's gonna be a fricking movie.",
+        "score": 2,
+        "comments": 0,
+        "createdUtc": 1794938834,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xyrl6l"
+      },
+      {
+        "id": "1xyqvyd",
+        "title": "we knew it",
+        "score": 2,
+        "comments": 0,
+        "createdUtc": 1794937229,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xyqvyd"
+      },
+      {
+        "id": "1xyspcl",
+        "title": "GTA VI getting nominated before GTA VI",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1794941364,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xyspcl"
+      },
+      {
+        "id": "1xyspci",
+        "title": "A wiseguy friend of mine would kill me if he knew I told you",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1794941363,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xyspci"
+      },
+      {
+        "id": "1xysp1w",
+        "title": "I have it. You don't. 💅🏻💜",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1794908937,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xygeaf"
-      },
-      {
-        "id": "1xyge9w",
-        "title": "GTA VI in Milan",
-        "score": 1,
-        "comments": 0,
-        "createdUtc": 1794908935,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xyge9w"
-      },
-      {
-        "id": "1xyge9f",
-        "title": "Two predictions that I’ve been thinking about *POTENTIAL SPOILERS*",
-        "score": 1,
-        "comments": 0,
-        "createdUtc": 1794908933,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xyge9f"
-      },
-      {
-        "id": "1xygd57",
-        "title": "48 things you can do in GTA 6",
-        "score": 1,
-        "comments": 1,
-        "createdUtc": 1794908815,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xygd57"
-      },
-      {
-        "id": "1xygbyc",
-        "title": "They’re so cute, but I wanna say something 🥹❤️",
-        "score": 1,
-        "comments": 0,
-        "createdUtc": 1794908686,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xygbyc"
+        "createdUtc": 1794941346,
+        "link": "https://www.reddit.com/r/GTA6/comments/1xysp1w"
       }
     ],
-    "fetchedAt": "2026-11-17T14:58:50.645Z",
-    "error": "HTTP 422 Unprocessable Entity — https://arctic-shift.photon-reddit.com/api/subreddits/search?subreddit=GTA6"
+    "fetchedAt": "2026-11-17T18:52:09.924Z"
   },
   "steam": {
-    "gta5": 62062,
+    "gta5": 62885,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-17T14:58:50.357Z"
+    "fetchedAt": "2026-11-17T18:52:05.134Z"
   },
   "trends": {
     "de": {
       "geo": "DE",
       "items": [
         {
-          "title": "bank",
-          "traffic": "1000+",
-          "pubDate": "Tue, 17 Nov 2026 06:40:00 -0800",
-          "newsTitle": "JPMorgan Chase systems recovering following hourslong nationwide technical outage",
-          "newsUrl": "https://www.foxbusiness.com/money/jpmorgan-chase-systems-recovering-following-hourslong-nationwide-technical-outage",
-          "newsSource": "Fox Business"
+          "title": "ralf dümmel",
+          "traffic": "2000+",
+          "pubDate": "Tue, 17 Nov 2026 10:20:00 -0800",
+          "newsTitle": "»Schlag den Star«: Frank Thelen und Ralf Dümmel verirren sich geografisch",
+          "newsUrl": "https://www.spiegel.de/kultur/schlag-den-star-frank-thelen-und-ralf-duemmel-verirren-sich-geografisch-a-7d88a6c0-2da3-4ddd-b18d-d661a1d26dec",
+          "newsSource": "Spiegel"
         },
         {
-          "title": "die rosenheim-cops",
-          "traffic": "5000+",
-          "pubDate": "Tue, 17 Nov 2026 06:40:00 -0800",
-          "newsTitle": "Abschied bei den „Rosenheim-Cops“: Es hat sich leider ausgestockelt!",
-          "newsUrl": "https://rp-online.de/panorama/fernsehen/rosenheim-cops-ausgestockelt-marisa-burger-als-miriam-stockl-steigt-aus-v2_aid-158320327",
+          "title": "let’s dance",
+          "traffic": "500+",
+          "pubDate": "Tue, 17 Nov 2026 10:20:00 -0800",
+          "newsTitle": "Mathias Mester wird Papa: „Jetzt ist die Katze aus dem Sack“",
+          "newsUrl": "https://www.stern.de/lifestyle/mathias-mester-wird-papa---jetzt-ist-die-katze-aus-dem-sack--38563068.html",
+          "newsSource": "STERN.de"
+        },
+        {
+          "title": "brenda patea",
+          "traffic": "200+",
+          "pubDate": "Tue, 17 Nov 2026 10:20:00 -0800",
+          "newsTitle": "(S+) Alexander Zverev: Ex-Freundin Brenda Patea hat Klage gegen Tennisstar eingereicht",
+          "newsUrl": "https://www.spiegel.de/sport/alexander-zverev-ex-freundin-brenda-patea-hat-klage-gegen-tennisstar-eingereicht-a-7d6f41e1-0c5e-47cd-b20c-199c7672fbe3",
+          "newsSource": "Spiegel"
+        },
+        {
+          "title": "zverev heute",
+          "traffic": "200+",
+          "pubDate": "Tue, 17 Nov 2026 10:20:00 -0800",
+          "newsTitle": "Tennis im Liveblog: Fils schlägt Jodar – Zverev kann Halbfinale perfekt machen",
+          "newsUrl": "https://rp-online.de/sport/tennis/atp-finals-fils-schlaegt-jodar-zverev-kann-halbfinale-perfekt-machen_aid-123888561",
           "newsSource": "RP Online"
         },
         {
-          "title": "nike aktie",
+          "title": "apple störung",
           "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 06:40:00 -0800",
-          "newsTitle": "Trading Idee: Nike — Investorentag als Bewährungsprobe, Ziel 42 Dollar",
-          "newsUrl": "https://www.finanzen.net/nachricht/zertifikate/trading-idee-trading-idee-nike-investorentag-als-bewaehrungsprobe-ziel-42-dollar-16068241",
-          "newsSource": "Finanzen.net"
+          "pubDate": "Tue, 17 Nov 2026 10:20:00 -0800",
+          "newsTitle": "Technische Probleme - Störung bei Apple-Diensten - Wirtschaft - SZ.de",
+          "newsUrl": "https://www.sueddeutsche.de/wirtschaft/technische-probleme-stoerung-bei-apple-diensten-dpa.urn-newsml-dpa-com-20090101-261117-930-10586",
+          "newsSource": "SZ.de"
         },
         {
-          "title": "philipp raimund",
+          "title": "handel",
           "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 06:40:00 -0800",
-          "newsTitle": "Endlich die Tournee?: Der Goldjunge ringt mit dem deutschen Schanzen-Fluch",
-          "newsUrl": "https://www.n-tv.de/sport/Der-Goldjunge-ringt-mit-dem-deutschen-Schanzen-Fluch-id31542787.html",
-          "newsSource": "n-tv.de"
+          "pubDate": "Tue, 17 Nov 2026 10:10:00 -0800",
+          "newsTitle": "Aktien im Nahen Osten und Golfbörsen schließen uneinheitlich, Sorgen um Sicherheit der Schifffahrt halten an",
+          "newsUrl": "https://ch.marketscreener.com/boerse-nachrichten/aktien-im-nahen-osten-und-golfboersen-schliessen-uneinheitlich-sorgen-um-sicherheit-der-schifffahrt-h-ce785edcd880f724",
+          "newsSource": "MarketScreener Schweiz"
         },
         {
-          "title": "india vs pakistan",
+          "title": "glücksatlas 2026",
           "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 06:30:00 -0800",
-          "newsTitle": "We know how to hurt India, says Pakistan coach Solano ahead of SAFF Championship final",
-          "newsUrl": "https://www.dawn.com/news/2044966",
-          "newsSource": "Dawn"
+          "pubDate": "Tue, 17 Nov 2026 10:10:00 -0800",
+          "newsTitle": "Bayern: Hier sind die Deutschen am glücklichsten – SKL-Glücksatlas",
+          "newsUrl": "https://www.spiegel.de/panorama/bayern-hier-sind-die-deutschen-am-gluecklichsten-skl-gluecksatlas-a-f7bb1bc1-b767-4882-a0a2-e8b8c4d4b6f6",
+          "newsSource": "Spiegel"
         },
         {
-          "title": "sat.1",
-          "traffic": "1000+",
-          "pubDate": "Tue, 17 Nov 2026 06:20:00 -0800",
-          "newsTitle": "ProSiebenSat.1 startet neuen Sender Sat.2 am Valentinstag",
-          "newsUrl": "https://www.dwdl.de/nachrichten/108599/prosiebensat1_startet_neuen_sender_sat2_am_valentinstag/",
-          "newsSource": "DWDL"
-        },
-        {
-          "title": "1 fc köln",
+          "title": "u21 deutschland",
           "traffic": "500+",
-          "pubDate": "Tue, 17 Nov 2026 06:20:00 -0800",
-          "newsTitle": "Livestream - Bundesliga-Highlights: Die Sportschau am Freitag mit Bayern München gegen Köln",
-          "newsUrl": "https://www.ardmediathek.de/video/sportschau/die-sportschau-am-freitag-mit-bayern-gegen-koeln/das-erste/Y3JpZDovL3Nwb3J0c2NoYXUuZGUvNjdiMDM0ZWUtMjFhYy00ZmE3LWI3YjgtZDE3MDQ2ODAxMTRm",
-          "newsSource": "ARD Mediathek"
+          "pubDate": "Tue, 17 Nov 2026 10:10:00 -0800",
+          "newsTitle": "Das ist die Startelf gegen Kroatien",
+          "newsUrl": "https://www.dfb.de/news/das-ist-die-startelf-gegen-kroatien",
+          "newsSource": "Deutscher Fußball-Bund"
         },
         {
-          "title": "hendrik holt",
+          "title": "anya elsner",
           "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 06:20:00 -0800",
-          "newsTitle": "Hendrik Holt exklusiv: „Ich bin jetzt auf freiem Fuß – ich kann nur gewinnen“",
-          "newsUrl": "https://www.noz.de/deutschland-welt/politik/artikel/hendrik-holt-interview-in-dubai-ich-bin-jetzt-auf-freiem-fuss-51760672",
-          "newsSource": "noz.de"
+          "pubDate": "Tue, 17 Nov 2026 10:10:00 -0800",
+          "newsTitle": "„Als wäre Anya gestorben!“ Mama Katrin Elsner spricht über ihren größten Schmerz",
+          "newsUrl": "https://www.rtl.de/sendungen/prominent-verwandt/prominent-verwandt-2026-anya-elsners-mama-suchte-nach-kontaktabbruch-eine-trauergruppe-auf-id31497737.html",
+          "newsSource": "RTL.de"
         },
         {
-          "title": "sandra starke",
-          "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 06:20:00 -0800",
-          "newsTitle": "Deutscher Nationalspielerin droht Karriereende nach Horror-Verletzung",
-          "newsUrl": "https://www.bild.de/sport/fussball/nach-horror-verletzung-deutscher-nationalspielerin-droht-das-karriereende-6afc0c8e028f6e41ab3f2120",
-          "newsSource": "BILD"
-        },
-        {
-          "title": "информационное агентство тайшет24",
-          "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 06:10:00 -0800",
-          "newsTitle": "",
-          "newsUrl": "",
-          "newsSource": ""
+          "title": "sonderzahlung",
+          "traffic": "500+",
+          "pubDate": "Tue, 17 Nov 2026 10:00:00 -0800",
+          "newsTitle": "Weihnachtsgeld nach Kündigung: Wann Arbeitnehmer es zurückzahlen müssen",
+          "newsUrl": "https://www.rnd.de/wirtschaft/weihnachtsgeld-bei-kuendigung-wann-eine-rueckzahlung-droht-T7TIJAWN5BGE3MMK2CKRAI2TWM.html",
+          "newsSource": "RND.de"
         }
       ],
       "gta": [],
@@ -2353,84 +2352,84 @@
       "geo": "US",
       "items": [
         {
-          "title": "turkey",
-          "traffic": "2000+",
-          "pubDate": "Tue, 17 Nov 2026 06:40:00 -0800",
-          "newsTitle": "Giant sinkholes tear through Turkey’s parched farmland",
-          "newsUrl": "https://www.ft.com/content/1350f0c8-deb3-4388-8b8a-cf6a1a93c0d4?syn-25a6b1a6=1",
-          "newsSource": "Financial Times"
-        },
-        {
-          "title": "unh stock",
-          "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 06:40:00 -0800",
-          "newsTitle": "UNH Shares Closed at $412.02 on Nov. 16; After-Hours Price Was $410.66",
-          "newsUrl": "https://www.tokenpost.com/news/investing/58938",
-          "newsSource": "www.tokenpost.com"
-        },
-        {
-          "title": "hero world challenge",
+          "title": "pennsylvania lottery",
           "traffic": "500+",
-          "pubDate": "Tue, 17 Nov 2026 06:30:00 -0800",
-          "newsTitle": "Tiger Woods returning to competition at Hero World Challenge",
-          "newsUrl": "https://www.golfchannel.com/pga-tour/news/tiger-woods-returning-to-competition-at-hero-world-challenge",
-          "newsSource": "Golf Channel"
+          "pubDate": "Tue, 17 Nov 2026 10:30:00 -0800",
+          "newsTitle": "Winning Pa. Lottery numbers for Nov. 16, 2026",
+          "newsUrl": "https://www.pennlive.com/lottery/2026/11/winning-pa-lottery-numbers-for-nov-16-2026.html",
+          "newsSource": "PennLive.com"
         },
         {
-          "title": "melanie lynskey",
+          "title": "rj godfrey",
           "traffic": "500+",
-          "pubDate": "Tue, 17 Nov 2026 06:30:00 -0800",
-          "newsTitle": "Who Is Melanie Lynskey Married To? Inside Her Heartwarming Romance with Jason Ritter",
-          "newsUrl": "https://parade.com/entertainment/who-is-melanie-lynskey-married-to-inside-her-heartwarming-romance-with-jason-ritter",
-          "newsSource": "Parade Magazine"
+          "pubDate": "Tue, 17 Nov 2026 10:20:00 -0800",
+          "newsTitle": "Arizona's RJ Godfrey reportedly eligible to play vs. UConn after judge grants injunction",
+          "newsUrl": "https://sports.yahoo.com/mens-college-basketball/breaking-news/article/arizonas-rj-godfrey-reportedly-eligible-to-play-vs-uconn-after-judge-grants-injunction-182521598.html",
+          "newsSource": "Yahoo Sports"
         },
         {
-          "title": "xbox black friday sale 2026",
-          "traffic": "500+",
-          "pubDate": "Tue, 17 Nov 2026 06:30:00 -0800",
-          "newsTitle": "XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!",
-          "newsUrl": "https://news.xbox.com/en-us/2026/11/16/xbox-black-friday-sale-2026/",
-          "newsSource": "XBOX Wire"
-        },
-        {
-          "title": "nike stock",
+          "title": "when we were young 2027",
           "traffic": "1000+",
-          "pubDate": "Tue, 17 Nov 2026 06:30:00 -0800",
-          "newsTitle": "Nike hosts first investor day in 9 years as it tries to rightsize its business",
-          "newsUrl": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html",
-          "newsSource": "CNBC"
+          "pubDate": "Tue, 17 Nov 2026 10:10:00 -0800",
+          "newsTitle": "When We Were Young Festival announces 2027 lineup",
+          "newsUrl": "https://www.9news.com/article/entertainment/music/when-we-were-young-festival-2027-lineup/73-83b1663e-e75a-42bb-bafb-33901cd07f34",
+          "newsSource": "9News"
         },
         {
-          "title": "when is anthropic ipo",
+          "title": "gpt 6.2",
           "traffic": "1000+",
-          "pubDate": "Tue, 17 Nov 2026 06:10:00 -0800",
-          "newsTitle": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
-          "newsUrl": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
-          "newsSource": "CNBC"
+          "pubDate": "Tue, 17 Nov 2026 10:10:00 -0800",
+          "newsTitle": "OpenAI Unveils New Astra AI Model After Scrapping Prior Release",
+          "newsUrl": "https://www.bloomberg.com/news/articles/2026-11-17/openai-unveils-new-astra-ai-model-after-scrapping-prior-release",
+          "newsSource": "Bloomberg.com"
         },
         {
-          "title": "abigail spanberger",
+          "title": "playstation plus games",
+          "traffic": "1000+",
+          "pubDate": "Tue, 17 Nov 2026 09:50:00 -0800",
+          "newsTitle": "PlayStation Plus issues December free game update, last chance to play 100-hour RPG",
+          "newsUrl": "https://www.gamingbible.com/news/platform/playstation/playstation-plus-december-free-game-update-035399-20261117",
+          "newsSource": "GAMINGbible"
+        },
+        {
+          "title": "flight 5342",
           "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 06:00:00 -0800",
-          "newsTitle": "Spanberger reverses Virginia plan to participate in Trump’s school vouchers",
-          "newsUrl": "https://www.washingtonpost.com/dc-md-va/2026/11/13/spanberger-reverse-decision-participate-trumps-school-vouchers/",
-          "newsSource": "The Washington Post"
+          "pubDate": "Tue, 17 Nov 2026 09:40:00 -0800",
+          "newsTitle": "Watch live: Duffy gives remarks amid scrutiny over FAA shortfalls",
+          "newsUrl": "https://thehill.com/policy/transportation/6225379-watch-live-duffy-faa-overhaul-presser-dca-crash/",
+          "newsSource": "The Hill"
         },
         {
-          "title": "brittany snow",
-          "traffic": "500+",
-          "pubDate": "Tue, 17 Nov 2026 05:50:00 -0800",
-          "newsTitle": "Simon G Jewels Worn By McKenna Grace and Brittany Snow at Recent Profile Events",
-          "newsUrl": "https://news.centurionjewelry.com/articles/detail/simon-g-jewels-worn-by-mckenna-grace-and-brittany-snow-at-recent-profile-events",
-          "newsSource": "Centurion Jewelry Show"
+          "title": "yemen",
+          "traffic": "1000+",
+          "pubDate": "Tue, 17 Nov 2026 09:30:00 -0800",
+          "newsTitle": "Saudi-Backed Forces Retreat in Yemen, Leaving Key Strait in Houthi Control",
+          "newsUrl": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+          "newsSource": "The New York Times"
         },
         {
-          "title": "india vs pakistan",
-          "traffic": "200+",
-          "pubDate": "Tue, 17 Nov 2026 05:50:00 -0800",
-          "newsTitle": "India vs Pakistan LIVE: SAFF Championship final",
-          "newsUrl": "https://www.aljazeera.com/sports/liveblog/2026/11/17/india-vs-pakistan-live-saff-championship-final",
-          "newsSource": "Al Jazeera"
+          "title": "earthshot prize",
+          "traffic": "1000+",
+          "pubDate": "Tue, 17 Nov 2026 09:30:00 -0800",
+          "newsTitle": "Kate Middleton Makes Showstopping Entrance in Dramatic Red Gown at Earthshot Awards After 4-Year Absence",
+          "newsUrl": "https://people.com/kate-middleton-showstopping-moment-earthshot-prize-awards-in-india-first-time-4-years-alongside-prince-william-12258764",
+          "newsSource": "People.com"
+        },
+        {
+          "title": "banana ball",
+          "traffic": "1000+",
+          "pubDate": "Tue, 17 Nov 2026 09:30:00 -0800",
+          "newsTitle": "Viola Selected in First Round of Banana Ball Draft",
+          "newsUrl": "https://purduesports.com/news/2026/11/16/viola-selected-in-first-round-of-banana-ball-draft",
+          "newsSource": "Purdue Boilermakers"
+        },
+        {
+          "title": "apple outage",
+          "traffic": "50000+",
+          "pubDate": "Tue, 17 Nov 2026 09:20:00 -0800",
+          "newsTitle": "Is Apple down? Thousands report problems accessing services",
+          "newsUrl": "https://www.usatoday.com/story/tech/2026/11/17/apple-services-outage/92827849007/",
+          "newsSource": "USA Today"
         }
       ],
       "gta": [],
@@ -2440,18 +2439,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 259,
+    "latencyMs": 307,
     "bytes": 1234686,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-17T14:58:50.187Z"
+    "checkedAt": "2026-11-17T18:52:04.885Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": false,
-    "checkedAt": "2026-11-17T14:58:50.670Z"
+    "checkedAt": "2026-11-17T18:52:05.981Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -2468,7 +2467,7 @@
   "sources": {
     "wikipedia": "ok",
     "news": "ok",
-    "reddit": "degraded",
+    "reddit": "ok",
     "steam": "ok",
     "trends": "ok",
     "rockstar": "ok",
