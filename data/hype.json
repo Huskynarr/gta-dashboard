@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T00:04:59.357Z",
+  "updated": "2026-11-18T01:26:29.428Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-18T00:04:59.357Z",
+      "updated": "2026-11-18T01:26:29.428Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -140,9 +140,9 @@
       "label": "Hardware & Setup",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 97,
+      "count7d": 98,
       "count24h": 41,
-      "publisherCount": 38,
+      "publisherCount": 39,
       "capped": false,
       "series": [
         {
@@ -155,7 +155,7 @@
         },
         {
           "date": "2026-11-14",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-15",
@@ -163,18 +163,24 @@
         },
         {
           "date": "2026-11-16",
-          "count": 29
+          "count": 30
         },
         {
           "date": "2026-11-17",
-          "count": 41
+          "count": 40
         },
         {
           "date": "2026-11-18",
-          "count": 0
+          "count": 1
         }
       ],
       "items": [
+        {
+          "title": "‘GTA 6’ Price & Editions Explained: How Much Does ‘Grand Theft Auto VI’ Cost on PS5 & Xbox? - IMDb",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82TUZzbUVoQVVLaVJvV2xIWW10S3labzJjM2pMcWVWZ25FSG45N0JTR1NIY3g5UmVSbkVfLUhIQk1Md2NVOW9vaUZCQ3FfZ1prNGl6LUhVcXdzRTg1VE5wNy1hcFUzYzVIX1E?oc=5",
+          "source": "IMDb",
+          "pubDate": "Wed, 18 Nov 2026 00:18:25 GMT"
+        },
         {
           "title": "GTA 6 Launch-Guide: So bereitest du dich optimal vor - games.gg",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeXFKY3FqOHhNMXRodW5HVG43OFozMmlvQ1p0b1ZrV1pYQjQwM2NKU0FVRW1mbGN3a2ZvbDJuQTNiTld4WDBfZ29jc2tPUnNYV1h4MjhjYWtHZWIwVEotUDhVclp2Q0t6RFVVUjgyRFJaVEszMzZpX3E5WEVBMmNXQXp5dGY5aVpRS3RORHhLTjEycmw1OXdfMnNsSGg?oc=5",
@@ -188,20 +194,14 @@
           "pubDate": "Tue, 17 Nov 2026 19:00:00 GMT"
         },
         {
-          "title": "Über 200 GByte! So lange dauert der Download von GTA 6 - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMUFPZWUtZUl1ZDB0TEpkZDVMd1RfNG1QNkM2UEVFTkJoMnplbVdtTFBoVlF1Q1VkOHFJWUVVZkxIUWp6RDlvcG81U2stdHVJSHpEOWFQLUV0b1B0VWsyZEZYa19PeFQtY2d4M2ZZbXFnTnU2SVNfSk5pRnZnSVp6UTFHd205azhOT1VMSHJuZlluR1BBeGlGY01ic2xYMll1MW5pNzRUQ0JJcmNuNGN5cFRNUFRoNGVIVEQyOWtBbldELXRrV3lNYU9B?oc=5",
-          "source": "CHIP",
-          "pubDate": "Tue, 17 Nov 2026 18:07:00 GMT"
-        },
-        {
-          "title": "GTA 6 Trophäen und Platin-Guide: Alle Erfolge, Lösungen und die 100%-Checkliste - PlayCentral",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBERHU4Z0t0cVdJMmNhYnA3TDRXRWQtd2tDbnBJWjVqbUk3a0E4UzA4NjdEcGEzanpVNElzWWVJMDlIT3JTMHZ4SzMzYVFic3YwNnhXNW1id0dGVHdDR1ZPVFpmaWNEY1hqaEFvY0I5ajJYczhDSlE?oc=5",
-          "source": "PlayCentral",
-          "pubDate": "Tue, 17 Nov 2026 18:00:16 GMT"
+          "title": "13 Jahre nach dem Vorgänger: Deshalb war der Weg zu «GTA VI» so lang - Watson",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbTJHU3FQMHpfVnpZT1pMMHhrY0dZLVhsRWZTSjdvYUZnWDZtMjJCWEVqLXlHWFFWZXNTQXdVQ08xa1R5S0Ywd1prd3lvQU1BVTFBUnBFR1gwRnNUcDZacjc3dUVwVlY3Q3dySHY4WjMybk5scGJsSGtJT045eElvUThkWEN5Rk9VcnZyOFRrUW85QQ?oc=5",
+          "source": "Watson",
+          "pubDate": "Tue, 17 Nov 2026 18:10:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-18T00:04:59.357Z",
+      "updated": "2026-11-18T01:26:29.428Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -265,7 +265,7 @@
         },
         {
           "date": "2026-11-18",
-          "count": 0
+          "count": 1
         }
       ]
     },
@@ -274,9 +274,9 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 33,
+      "count7d": 32,
       "count24h": 9,
-      "publisherCount": 20,
+      "publisherCount": 19,
       "capped": false,
       "series": [
         {
@@ -297,7 +297,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 14
+          "count": 13
         },
         {
           "date": "2026-11-17",
@@ -335,7 +335,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-18T00:04:59.357Z",
+      "updated": "2026-11-18T01:26:29.428Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -409,8 +409,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 44,
-      "publisherCount": 50,
+      "count24h": 43,
+      "publisherCount": 51,
       "capped": true,
       "series": [
         {
@@ -427,7 +427,7 @@
         },
         {
           "date": "2026-11-15",
-          "count": 6
+          "count": 7
         },
         {
           "date": "2026-11-16",
@@ -435,7 +435,7 @@
         },
         {
           "date": "2026-11-17",
-          "count": 44
+          "count": 43
         },
         {
           "date": "2026-11-18",
@@ -469,7 +469,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-18T00:04:59.357Z",
+      "updated": "2026-11-18T01:26:29.428Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -863,6 +863,13 @@
     },
     {
       "at": "2026-11-18T00:04:57.537Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-18T01:26:27.337Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
