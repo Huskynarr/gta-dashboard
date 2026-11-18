@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-18T18:30:21.922Z",
-  "startedAt": "2026-11-18T18:30:15.274Z",
-  "durationMs": 6648,
+  "lastRun": "2026-11-18T23:38:39.265Z",
+  "startedAt": "2026-11-18T23:38:33.737Z",
+  "durationMs": 5528,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -18,7 +18,7 @@
     "osint": "ok",
     "network": "ok",
     "decixHistory": "ok",
-    "reddit": "ok",
+    "reddit": "degraded",
     "steam": "ok",
     "trends": "ok",
     "rockstar": "ok",
@@ -30,17 +30,17 @@
   "counts": {
     "stocks": 13,
     "stockHistory": 3366,
-    "snapshots": 50,
+    "snapshots": 51,
     "wikiSeries": 4,
     "newsQueries": 4,
-    "decixPoints": 573,
-    "decixHistoryPoints": 4999,
+    "decixPoints": 572,
+    "decixHistoryPoints": 5059,
     "decixDailyPeaks": 18,
     "filings": 10,
     "pressReleases": 4,
-    "hypeSnapshots": 51,
-    "timelineSnapshots": 51,
-    "archivedNews": 2173
+    "hypeSnapshots": 52,
+    "timelineSnapshots": 52,
+    "archivedNews": 2240
   },
   "errors": []
 }

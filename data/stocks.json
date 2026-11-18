@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T18:30:15.309Z",
+  "updated": "2026-11-18T23:38:33.771Z",
   "source": "Yahoo Finance chart API",
   "series": {
     "7974": {
@@ -2040,15 +2040,15 @@
       "color": "#ff2e88",
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "price": 219.505,
+      "price": 216.61,
       "previousClose": 239.09,
-      "changePct": 7.64,
-      "marketTime": "2026-11-18T18:30:10.000Z",
-      "dayHigh": 221.82,
+      "changePct": 6.22,
+      "marketTime": "2026-11-18T21:00:00.000Z",
+      "dayHigh": 222.65,
       "dayLow": 210.5,
       "fiftyTwoWeekHigh": 265.94,
       "fiftyTwoWeekLow": 183.86,
-      "volume": 7355287,
+      "volume": 11993979,
       "history": [
         {
           "date": "2025-11-07",
@@ -4112,15 +4112,15 @@
           "high": 220.13,
           "low": 201.66,
           "close": 203.93,
-          "volume": 6236700
+          "volume": 6262400
         },
         {
           "date": "2026-11-18",
           "open": 212.64,
-          "high": 221.82,
+          "high": 222.65,
           "low": 210.5,
-          "close": 219.505,
-          "volume": 7355287
+          "close": 216.61,
+          "volume": 11993979
         }
       ]
     },
@@ -4133,15 +4133,15 @@
       "color": "#ff7a18",
       "currency": "USD",
       "exchange": "NYSE",
-      "price": 47.34,
+      "price": 47.33,
       "previousClose": 101.73,
-      "changePct": 7.59,
-      "marketTime": "2026-11-18T18:30:06.000Z",
+      "changePct": 7.57,
+      "marketTime": "2026-11-18T21:03:40.000Z",
       "dayHigh": 47.685,
       "dayLow": 43.43,
       "fiftyTwoWeekHigh": 100.56,
       "fiftyTwoWeekLow": 33.88,
-      "volume": 4124529,
+      "volume": 8806885,
       "history": [
         {
           "date": "2025-11-07",
@@ -6212,8 +6212,8 @@
           "open": 43.6725,
           "high": 47.685,
           "low": 43.43,
-          "close": 47.34,
-          "volume": 4124529
+          "close": 47.33,
+          "volume": 8806885
         }
       ]
     },
@@ -10444,15 +10444,15 @@
       "color": "#21e6c1",
       "currency": "USD",
       "exchange": "NYSE",
-      "price": 26.72,
+      "price": 26.67,
       "previousClose": 28.67,
-      "changePct": 0.15,
-      "marketTime": "2026-11-18T18:30:16.000Z",
+      "changePct": -0.04,
+      "marketTime": "2026-11-18T21:00:02.000Z",
       "dayHigh": 26.83,
       "dayLow": 26.58,
       "fiftyTwoWeekHigh": 29.36,
       "fiftyTwoWeekLow": 19.32,
-      "volume": 3890118,
+      "volume": 6452040,
       "history": [
         {
           "date": "2025-11-07",
@@ -12516,15 +12516,15 @@
           "high": 26.99,
           "low": 26.61,
           "close": 26.68,
-          "volume": 4102800
+          "volume": 4132000
         },
         {
           "date": "2026-11-18",
           "open": 26.63,
           "high": 26.83,
           "low": 26.58,
-          "close": 26.72,
-          "volume": 3890118
+          "close": 26.67,
+          "volume": 6452040
         }
       ]
     },
@@ -12537,15 +12537,15 @@
       "color": "#4da3ff",
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "price": 506.84,
+      "price": 508.29,
       "previousClose": 493.79,
-      "changePct": 0.12,
-      "marketTime": "2026-11-18T18:30:16.000Z",
-      "dayHigh": 508.5,
+      "changePct": 0.41,
+      "marketTime": "2026-11-18T21:00:01.000Z",
+      "dayHigh": 510.44,
       "dayLow": 501.08,
       "fiftyTwoWeekHigh": 559.15,
       "fiftyTwoWeekLow": 349.2,
-      "volume": 9354356,
+      "volume": 21349348,
       "history": [
         {
           "date": "2025-11-07",
@@ -14609,15 +14609,15 @@
           "high": 515.64,
           "low": 496.51,
           "close": 506.24,
-          "volume": 27914600
+          "volume": 27992800
         },
         {
           "date": "2026-11-18",
           "open": 505.11,
-          "high": 508.5,
+          "high": 510.44,
           "low": 501.08,
-          "close": 506.84,
-          "volume": 9354356
+          "close": 508.29,
+          "volume": 21349348
         }
       ]
     },
@@ -14630,15 +14630,15 @@
       "color": "#7ef29d",
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "price": 152.04,
+      "price": 150.96,
       "previousClose": 181.36,
-      "changePct": -2.2,
-      "marketTime": "2026-11-18T18:30:17.000Z",
+      "changePct": -2.89,
+      "marketTime": "2026-11-18T21:00:00.000Z",
       "dayHigh": 159.7,
-      "dayLow": 150.85,
+      "dayLow": 150.4,
       "fiftyTwoWeekHigh": 243.37,
       "fiftyTwoWeekLow": 148.8,
-      "volume": 224636021,
+      "volume": 343007056,
       "history": [
         {
           "date": "2025-11-07",
@@ -16702,15 +16702,15 @@
           "high": 158.19,
           "low": 150.33,
           "close": 155.46,
-          "volume": 398625600
+          "volume": 406985100
         },
         {
           "date": "2026-11-18",
           "open": 159.19,
           "high": 159.7,
-          "low": 150.85,
-          "close": 152.04,
-          "volume": 224636021
+          "low": 150.4,
+          "close": 150.96,
+          "volume": 343007056
         }
       ]
     },
@@ -16723,15 +16723,15 @@
       "color": "#21e6c1",
       "currency": "USD",
       "exchange": "NYSE",
-      "price": 69.58,
+      "price": 68.76,
       "previousClose": 90.86,
-      "changePct": 1.12,
-      "marketTime": "2026-11-18T18:30:17.000Z",
+      "changePct": -0.07,
+      "marketTime": "2026-11-18T21:00:02.000Z",
       "dayHigh": 70.115,
       "dayLow": 68.02,
       "fiftyTwoWeekHigh": 92.78,
       "fiftyTwoWeekLow": 64.04,
-      "volume": 7080858,
+      "volume": 12226788,
       "history": [
         {
           "date": "2025-11-07",
@@ -18795,15 +18795,15 @@
           "high": 70.09,
           "low": 67.06,
           "close": 68.81,
-          "volume": 22210900
+          "volume": 22224700
         },
         {
           "date": "2026-11-18",
           "open": 68.16,
           "high": 70.115,
           "low": 68.02,
-          "close": 69.58,
-          "volume": 7080858
+          "close": 68.76,
+          "volume": 12226788
         }
       ]
     },
@@ -18816,15 +18816,15 @@
       "color": "#ff5c5c",
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "price": 168.6,
+      "price": 166.8,
       "previousClose": 212.08,
-      "changePct": 2.24,
-      "marketTime": "2026-11-18T18:30:12.000Z",
+      "changePct": 1.15,
+      "marketTime": "2026-11-18T21:00:01.000Z",
       "dayHigh": 170.5,
       "dayLow": 163.635,
       "fiftyTwoWeekHigh": 239,
       "fiftyTwoWeekLow": 143.3,
-      "volume": 2430686,
+      "volume": 5060095,
       "history": [
         {
           "date": "2025-11-07",
@@ -20895,8 +20895,8 @@
           "open": 164.756,
           "high": 170.5,
           "low": 163.635,
-          "close": 168.6,
-          "volume": 2430686
+          "close": 166.8,
+          "volume": 5060095
         }
       ]
     },
@@ -23026,15 +23026,15 @@
       "color": "#ffc857",
       "currency": "USD",
       "exchange": "NYSE",
-      "price": 26.43,
+      "price": 26.53,
       "previousClose": 20.5,
-      "changePct": 4.22,
-      "marketTime": "2026-11-18T18:30:03.000Z",
+      "changePct": 4.61,
+      "marketTime": "2026-11-18T21:00:02.000Z",
       "dayHigh": 26.65,
       "dayLow": 25.29,
       "fiftyTwoWeekHigh": 28.3,
       "fiftyTwoWeekLow": 17.79,
-      "volume": 4132396,
+      "volume": 7680043,
       "history": [
         {
           "date": "2025-11-07",
@@ -25098,15 +25098,15 @@
           "high": 25.93,
           "low": 25.12,
           "close": 25.36,
-          "volume": 4698500
+          "volume": 4727000
         },
         {
           "date": "2026-11-18",
           "open": 25.25,
           "high": 26.65,
           "low": 25.29,
-          "close": 26.43,
-          "volume": 4132396
+          "close": 26.53,
+          "volume": 7680043
         }
       ]
     },
@@ -25119,15 +25119,15 @@
       "color": "#ff9900",
       "currency": "USD",
       "exchange": "NasdaqGS",
-      "price": 267.055,
+      "price": 267.74,
       "previousClose": 222.55,
-      "changePct": 3.55,
-      "marketTime": "2026-11-18T18:30:18.000Z",
-      "dayHigh": 267.32,
+      "changePct": 3.82,
+      "marketTime": "2026-11-18T21:00:00.000Z",
+      "dayHigh": 268.29,
       "dayLow": 259.63,
       "fiftyTwoWeekHigh": 287.2,
       "fiftyTwoWeekLow": 196,
-      "volume": 20711025,
+      "volume": 40845576,
       "history": [
         {
           "date": "2025-11-07",
@@ -27191,15 +27191,15 @@
           "high": 259.9,
           "low": 254,
           "close": 257.89,
-          "volume": 38499300
+          "volume": 38685200
         },
         {
           "date": "2026-11-18",
           "open": 259.81,
-          "high": 267.32,
+          "high": 268.29,
           "low": 259.63,
-          "close": 267.055,
-          "volume": 20711025
+          "close": 267.74,
+          "volume": 40845576
         }
       ]
     }
@@ -30152,6 +30152,65 @@
         "AMZN": {
           "price": 267.055,
           "changePct": 3.55
+        }
+      }
+    },
+    {
+      "ts": "2026-11-18T23:38:38.505Z",
+      "date": "2026-11-18",
+      "slot": "evening",
+      "prices": {
+        "7974": {
+          "price": 9002,
+          "changePct": 0.85
+        },
+        "TTWO": {
+          "price": 216.61,
+          "changePct": 6.22
+        },
+        "RBLX": {
+          "price": 47.33,
+          "changePct": 7.57
+        },
+        "CDR": {
+          "price": 282.9,
+          "changePct": 6.84
+        },
+        "UBI": {
+          "price": 4.257,
+          "changePct": -1.89
+        },
+        "SONY": {
+          "price": 26.67,
+          "changePct": -0.04
+        },
+        "MSFT": {
+          "price": 508.29,
+          "changePct": 0.41
+        },
+        "NVDA": {
+          "price": 150.96,
+          "changePct": -2.89
+        },
+        "UBER": {
+          "price": 68.76,
+          "changePct": -0.07
+        },
+        "DASH": {
+          "price": 166.8,
+          "changePct": 1.15
+        },
+        "DHER": {
+          "price": 36.35,
+          "changePct": -0.55
+        },
+        "GME": {
+          "price": 26.53,
+          "changePct": 4.61
+        },
+        "AMZN": {
+          "price": 267.74,
+          "changePct": 3.82
         }
       }
     }
