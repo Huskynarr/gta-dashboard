@@ -1,5 +1,5 @@
-import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js?v=20261109-archive';
-import { initI18n } from './i18n.js?v=20261109-archive';
+import { createBarChart, createGauge, createLineChart, sparkline } from './charts.js?v=20261119-mobile';
+import { initI18n } from './i18n.js?v=20261119-mobile';
 import { analyzeHype } from './hype.js?v=20261109-hype';
 import { createCountryCountdown } from './countdown.js?v=20261109-release';
 
@@ -357,12 +357,13 @@ function computeSickSignal() {
   return Math.round(parts.reduce((total, [value, weight]) => total + value * weight, 0) / totalWeight);
 }
 
-async function loadData() {
-  const files = ['stocks', 'osint', 'network', 'decix-history', 'investor', 'meta', 'retail', 'hype', 'stores', 'decix-sites', 'ixp-sites'];
-  const results = await Promise.all(
+// 'no-cache' revalidates via ETag: repeat visits on mobile get a 304 instead
+// of downloading every data file again.
+async function fetchData(files) {
+  return Promise.all(
     files.map(async (name) => {
       try {
-        const response = await fetch(`./data/${name}.json`, { cache: 'no-store' });
+        const response = await fetch(`./data/${name}.json`, { cache: 'no-cache' });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return await response.json();
       } catch (error) {
@@ -371,8 +372,12 @@ async function loadData() {
       }
     }),
   );
+}
 
-  [state.stocks, state.osint, state.network, state.decixHistory, state.investor, state.meta, state.retail, state.hype, state.stores, state.decixSites, state.ixpSites] = results;
+async function loadData() {
+  const results = await fetchData(['stocks', 'osint', 'network', 'decix-history', 'investor', 'meta', 'retail', 'hype', 'stores']);
+
+  [state.stocks, state.osint, state.network, state.decixHistory, state.investor, state.meta, state.retail, state.hype, state.stores] = results;
   if (!state.stocks || !state.osint) {
     const banner = document.createElement('div');
     banner.className = 'data-banner';
@@ -380,6 +385,13 @@ async function loadData() {
       'Einige Datenquellen sind gerade nicht erreichbar. Die letzte erfolgreiche Momentaufnahme bleibt sichtbar.';
     $('#main')?.prepend(banner);
   }
+}
+
+// The exchange comparison is the heaviest payload and sits far below the fold:
+// fetch it after the first render so it never delays the hero on mobile.
+async function loadSites() {
+  [state.decixSites, state.ixpSites] = await fetchData(['decix-sites', 'ixp-sites']);
+  renderDecixSites();
 }
 
 let countryCountdown = null;
@@ -1524,13 +1536,13 @@ function setupAd() {
     popup.hidden = true;
     reopen.hidden = false;
     video.removeAttribute('src');
-    sessionStorage.setItem('gta-ad-closed', '1');
+    try { sessionStorage.setItem('gta-ad-closed', '1'); } catch { /* storage blocked */ }
   };
 
   const openPopup = () => {
     popup.hidden = false;
     reopen.hidden = true;
-    sessionStorage.removeItem('gta-ad-closed');
+    try { sessionStorage.removeItem('gta-ad-closed'); } catch { /* storage blocked */ }
     load(sound.dataset.muted !== 'false');
   };
 
@@ -1543,41 +1555,76 @@ function setupAd() {
     load(!muted);
   });
 
-  if (sessionStorage.getItem('gta-ad-closed') === '1') {
+  // Phones start collapsed: an auto-opening bottom sheet would cover a third of
+  // the first screen (intrusive interstitial) and pull ~1.5 MB of player code.
+  const compact = window.matchMedia('(max-width: 620px)').matches;
+  let closedBefore = false;
+  try {
+    closedBefore = sessionStorage.getItem('gta-ad-closed') === '1';
+  } catch {
+    /* storage blocked */
+  }
+  if (closedBefore || compact) {
     popup.hidden = true;
     reopen.hidden = false;
-  } else {
-    load(true);
+    return;
   }
+  // Desktop: the popup ships hidden (no layout shift) and appears with the
+  // player only after the page itself has rendered.
+  const deferLoad = () => {
+    const idle = window.requestIdleCallback || ((fn) => setTimeout(fn, 1500));
+    idle(() => {
+      if (!reopen.hidden || video.getAttribute('src')) return;
+      popup.hidden = false;
+      load(true);
+    }, { timeout: 4000 });
+  };
+  if (document.readyState === 'complete') deferLoad();
+  else window.addEventListener('load', deferLoad, { once: true });
+}
+
+function yieldToMain() {
+  if (globalThis.scheduler?.yield) return globalThis.scheduler.yield();
+  return new Promise((resolve) => setTimeout(resolve, 0));
 }
 
 async function init() {
   initI18n();
   setupAd();
+  // The countdown needs no data (fallback release date), so the hero's
+  // largest element paints before the JSON files arrive.
+  renderCountdown();
+  setupReveal();
+  setupNav();
   await loadData();
   renderCountdown();
   renderTicker();
   renderHero();
-  renderBaskets();
-  renderStocks();
-  renderSick();
-  renderOsint();
-  renderHype();
-  renderHypeTopics();
-  renderStores();
-  renderRetailWatch();
-  renderNetwork();
-  renderDecixSites();
-  renderPeaks();
-  renderInvestor();
-  renderTimeline();
-  renderMethodology();
-  setupNav();
+  // Top to bottom, yielding between sections: one long task would freeze
+  // taps and scrolling on mid-range phones while ~20 charts are drawn.
+  for (const render of [
+    renderBaskets,
+    renderStocks,
+    renderSick,
+    renderOsint,
+    renderHype,
+    renderHypeTopics,
+    renderStores,
+    renderRetailWatch,
+    renderNetwork,
+    renderPeaks,
+    renderInvestor,
+    renderTimeline,
+    renderMethodology,
+  ]) {
+    await yieldToMain();
+    render();
+  }
   setupRangeTabs();
   setupStockFilters();
   setupStoreFilters();
-  setupReveal();
   setInterval(renderCountdown, 1000);
+  loadSites();
 }
 
 init();

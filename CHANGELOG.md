@@ -18,6 +18,16 @@ Automated data refreshes (`chore(data)`) are not listed.
 ### Changed
 - The GTA VI Google News queries now also match "GTA VI". The 7-day count was already capped at 100; the 24-hour count, which feeds the hype score's media channel, may rise slightly from 10 November 2026.
 
+### Changed (mobile)
+Audited with Lighthouse in its mobile profile (Moto G Power, slow 4G). Measured on a gzip server against the previous version: page weight 2.3 MB → 543 KB, Best Practices 96 → 100, CLS ≤ 0.04, hero visible before the data arrives.
+- The YouTube popup no longer opens by itself on phones (≤ 620 px). It covered a third of the first screen (an intrusive interstitial) and loaded ~1.5 MB of player code; it is now one tap away via the "AD" button. On desktop it appears only after the page has loaded.
+- The hero no longer waits for JavaScript and data: its entrance is pure CSS and the countdown renders before the JSON files load.
+- Sections render one after another with yields to the main thread instead of one long task; the exchange comparison (`decix-sites.json`, `ixp-sites.json`, the largest payload) loads after the first render.
+- Data files are revalidated (`cache: 'no-cache'`, ETag) instead of always being downloaded again (`no-store`).
+- Metric-matched fallback fonts (`size-adjust`) prevent layout shifts when Anton and Barlow Condensed swap in.
+- Phones: labels have at least 11 px, chart axes 11 px, the language buttons, menu, popup controls and footer links have larger tap targets, and the full-screen noise blend layer is disabled.
+- Key art is served as WebP (132 KB instead of 200 KB) with a JPEG fallback.
+
 ### Fixed
 - Reddit collection retries Arctic Shift's sporadic HTTP 422 "Timeout. Maybe slow down a bit" instead of marking the source degraded.
 - `2T`/`7T` range buttons are now translated to `2D`/`7D` (EN) and `2J`/`7J` (FR).

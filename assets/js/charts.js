@@ -134,7 +134,7 @@ export function createLineChart(container, series, opts = {}) {
       'text-anchor': 'end',
       fill: 'rgba(153,150,163,0.9)',
       'font-family': 'JetBrains Mono, monospace',
-      'font-size': 10,
+      'font-size': narrow ? 11 : 10,
     });
     label.textContent = opts.yFormat ? opts.yFormat(value) : niceNumber(value);
     svg.appendChild(label);
@@ -151,7 +151,7 @@ export function createLineChart(container, series, opts = {}) {
       'text-anchor': i === 0 ? 'start' : i === xTickCount - 1 ? 'end' : 'middle',
       fill: 'rgba(153,150,163,0.9)',
       'font-family': 'JetBrains Mono, monospace',
-      'font-size': 10,
+      'font-size': narrow ? 11 : 10,
     });
     label.textContent = opts.xFormat
       ? opts.xFormat(time)
