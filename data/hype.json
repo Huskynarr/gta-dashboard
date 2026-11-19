@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T14:46:35.128Z",
+  "updated": "2026-11-19T17:50:32.538Z",
   "topics": [
     {
       "key": "retail",
@@ -7,13 +7,13 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 18,
-      "count24h": 4,
-      "publisherCount": 13,
+      "count24h": 3,
+      "publisherCount": 12,
       "capped": false,
       "series": [
         {
           "date": "2026-11-13",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-14",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T14:46:35.128Z",
+      "updated": "2026-11-19T17:50:32.538Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -145,8 +145,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 64,
-      "publisherCount": 36,
+      "count24h": 59,
+      "publisherCount": 33,
       "capped": true,
       "series": [
         {
@@ -155,7 +155,7 @@
         },
         {
           "date": "2026-11-14",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-15",
@@ -171,41 +171,41 @@
         },
         {
           "date": "2026-11-18",
-          "count": 42
+          "count": 39
         },
         {
           "date": "2026-11-19",
-          "count": 49
+          "count": 53
         }
       ],
       "items": [
         {
-          "title": "GTA 6 wurde erstmals mit einem Lenkrad auf der PS5 Pro in der offenen Welt gezeigt. - GameGPU",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTnJYYm1nZldVQlNvVDR0TjhFcHEycjEtNnYtVVJadzBwYTJ2WGR2ekJON1Blc1Z2dzdGQTh5VVIyMFlZaWJ3c0JhTmhZM2tZM0p5bndKb1p0VEh3ZFQ1MG1wV3VBczlXaHFkUGo2a1djMDhvMWFIX0FzYlExSTV5NFJFb2UzNF9iZThfVUtUNnBMTVpZQUE?oc=5",
-          "source": "GameGPU",
-          "pubDate": "Thu, 19 Nov 2026 14:24:17 GMT"
+          "title": "„Nicht leistungsstark genug“: Rockstar erklärt, warum GTA 6 auf der PS5 Pro keine 60 fps erreichen kann - MIXED News",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdk13d3l4ZWR0d2N2U3YwSk5DNGZXQ0lTeFR4bXU2RnQxczB2dGUwMGtGTmp3OGZ1cmk0d0FEbDRlVHlMbmxYcm4xejI0TDY4c0RDR1ZIX3lBTkJGVU5QbXVFM1pobnExTUVldDAtLU4zSkdNczg1MVFkRkFnbDRoMHNqbXBNWTlraG95SUEwemdRMWNmazd0NERPQmdJWkpHdzBFdzFSWk0zeVVzVmJhTDF4WmF4TU1zaTZsZkM4enl2MkV3?oc=5",
+          "source": "MIXED News",
+          "pubDate": "Thu, 19 Nov 2026 17:29:41 GMT"
         },
         {
-          "title": "GTA 6 auf PlayStation Portal: Remote Play bestätigt, PS5-Dashboard im Vice City-Look - PlayFront",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUW1wb2xUckFGcDZOcUFqX1owaWQtVnp3bTZLR1VmNno2NWRwalJBcU9XbGxJbEZacjNKeGNUMkcwT2RpZVJBQXVpODlhNTFuSnlTYnJheGJXRlYyWW5ZV2lQbV9XdktCUmJOa0pqcTJTTFpGMVB6dF9Lam82SHBFYkFmN2s5Wjlzb3lxT3hGQ3E0TElXV2RqLUFvV3JjTGtqMkk3VTRFUFA?oc=5",
-          "source": "PlayFront",
-          "pubDate": "Thu, 19 Nov 2026 13:42:11 GMT"
+          "title": "GTA 6: Kritiker vergeben Bestnoten – zum Start häufen sich Bugs? - PCGH",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSkgwdEY1aWcwbmJ3eVZlZklaWXJLLVd0NXBhbWVSWkQ2OXB3d2hhTW9uRDF4a09BX0FKNnlWeS10WEs5M1Brc2NzREh1LVBYMFJSOG14SzJVN2E5OEhQNnlYazE5Z0dfMzZHWUtzNlVNQmNlV1E3bHVOblBSNWZfLUNYZVYxMFNNOTlDTjBrbWw5RzUwMnB1UE1OTk9Fb3ZPOUpPVVFuUkdrUQ?oc=5",
+          "source": "PCGH",
+          "pubDate": "Thu, 19 Nov 2026 16:45:00 GMT"
         },
         {
-          "title": "Grand Theft Auto VI : Verstecktes Fast & Furious Easter Egg entdeckt - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaVIxemg3ZXFRVFpCZXVnMFdDNl9qak9DSkdzQWJUSW5HWjBpdmh0WlltdTVRRXVkbEsxQVI3UmdaR2lscVo1OWd2UjlUbEZxMm5fTGM3T0hVa3RjX0RSTmI0VkN1UU84emZnT1l2YWtHNElyM0xhY016S19kbXNHU2tsQVRGd2R2YmhnNlNadHQ4R2xGVzc3aHdFQmtTZw?oc=5",
+          "title": "Grand Theft Auto VI: GTA+ bringt exklusiven Sportwagen, eigene Garage und zahlreiche Rabatte - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNelktcnpleUhOY19HQjAxOHY1SUFQRlVJbnVaMk9fNTZrUU5sYmZNUEstT3BpZjlOVlcyVFBaV05xLWRsdm5CQVg2RVFieTAtSUVuY1NId0xWTVdTSFJHbFZvTzlEOTNkQkNDZDJMazZURkhHRkFRazFwV090YmkxTEFmaDZiS1Q0dDFTRUZfaHo0NVlaSzF3WnF6N0wybnIzYzdiQVRnRXhzRmcwY0hiVFBjM0JMaUltWU5faUtDbw?oc=5",
           "source": "XboxDynasty",
-          "pubDate": "Thu, 19 Nov 2026 13:33:00 GMT"
+          "pubDate": "Thu, 19 Nov 2026 16:00:00 GMT"
         },
         {
-          "title": "GTA 6 startet mit Bestwertungen: Und das mit Recht! - connect.de",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb045QTVxclp0NV9uOVp4TzNuNlkxc2xSeXJ0clFFMlhjWWt0N1F2Tm5Ub0FoUmcxUXVHUDN6clRpMHBtcEdJZ2ZRN2lZUmM2UDlzRDZLSTg1Q1RHQ2FxSnJfREgwSnptT1M2YlRzbk5nYS1xNngtdmo4ZUw2NHhjeFJHdkFYSGhQYUxkYVNic2diSE4wN1JTR3JHMkRiZXM2SFJXMk8tTnBrbmFIaFpkSmhPb3pyZzJJQTFVUFp2cm9Xa0Jf?oc=5",
-          "source": "connect.de",
-          "pubDate": "Thu, 19 Nov 2026 13:15:46 GMT"
+          "title": "GTA 6 (Grand Theft Auto 6) - Offizieller Global Launch Trailer - IGN Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUNhU1FId1g1TmotZmtyaWlrUGh2ajFoWWd2bzkwTlRhdFJQU3A5bE80V2FNeWlwVUdYMFNRNE84MXVlSlR0UGVWSzhqZW8tUGUzdTM2SnZUMXBnYm1iOVdVbGNaUXBiMlVtVUE5OXdzeDh4NzFsWGRHbkxEYWk3WHUwT1N5eFNsTkpKSERiU1JJVjI2ZUxiM2NKdGc4WGdPU281WktkTQ?oc=5",
+          "source": "IGN Deutschland",
+          "pubDate": "Thu, 19 Nov 2026 15:49:25 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T14:46:35.128Z",
+      "updated": "2026-11-19T17:50:32.538Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -273,7 +273,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 49
+          "count": 53
         }
       ]
     },
@@ -282,9 +282,9 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 41,
+      "count7d": 42,
       "count24h": 29,
-      "publisherCount": 27,
+      "publisherCount": 30,
       "capped": false,
       "series": [
         {
@@ -297,11 +297,11 @@
         },
         {
           "date": "2026-11-15",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-16",
-          "count": 3
+          "count": 4
         },
         {
           "date": "2026-11-17",
@@ -309,41 +309,41 @@
         },
         {
           "date": "2026-11-18",
-          "count": 13
+          "count": 9
         },
         {
           "date": "2026-11-19",
-          "count": 20
+          "count": 25
         }
       ],
       "items": [
         {
-          "title": "GTA 6 sorgt für böse Cheat-Überraschung: Rockstar sperrt eine der beliebtesten Funktionen - PC Games (DE)",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdmhHT2lVWWt4TFdCYnhpbXFzejgyRVJ3bnlIOE03bTFVMlhNTWJ2TXEyQzFMcVZCekpseWdZdjNIZ3JMZDFGbmlseFhGQVd2OXhtMEVjYzRRX01NTXBJY3NmUjIzWnNhTHdTamRfa01VTVQwMmlKc09GRTNQbElQbHB6dFN1OU0takd3NkxSWnc?oc=5",
-          "source": "PC Games (DE)",
-          "pubDate": "Thu, 19 Nov 2026 13:30:00 GMT"
+          "title": "GTA 6: Asmongold verliert die Fassung – was ihn so wütend macht, ist kaum zu glauben - Buffed",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeU53Ulh1S2dQQm5GQnZ3aFk4MktwX1RxYUIwWDY5cEEyZFRzXzFhWjhxRjU0MDRZMXNHRHFPUHlFTXVORjZOR2c3VHpYUjFsN0laLXA2dDdaUVR3OHAtOVlTbGlPdjBwMGp0TWJyeTk2ZHF2R1B5T0Q0YnBoNUkxRXhXWDRzdw?oc=5",
+          "source": "Buffed",
+          "pubDate": "Thu, 19 Nov 2026 17:30:00 GMT"
         },
         {
-          "title": "Papaplatte: „Ich habe mir jetzt insgesamt GTA 6 dreimal gekauft“ - Raptastisch",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUVmS0VUbHVPRFc3MGlVWnpYVWVRMWpJLUpqVlkwa0ZZSlJIVUpkVEtib2FnQVYzUHUwMkxNbFQwdnBXZHNRWi1abldxaUNsQ2V1UVFvSUNCeDhDWC0wdWJvWTVSdzlQTVdiUHV0LTR4NGtXR3J0eEZtOTRvS2FKUWlCSU41b0czWWlaU0NrM0JPcGhDNDJ6Z1g0Nks5QQ?oc=5",
-          "source": "Raptastisch",
-          "pubDate": "Thu, 19 Nov 2026 12:50:23 GMT"
+          "title": "GTA 6: Streamer verliert 10.000-Dollar-Code im Livestream - BILD",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc1kwWHV4YWVBZnhGR2NnOW5oSmZVVEQ1aW43VDdjc3N4WFUzcm1rRldHVWgzZDgzLWVaalV2akVNV2pqQnVFWHNXSXJtZ3BISGQ4aU1oZUFwWXZJN0MxaWJZUDFEU251OVpDZEYxd0dXWVI5Z3NMYk4yY1JWVUw3U3MwcUUyTURCT1VfeDdHMk8tdTVJMTl0RWtCRmJaTlM3UjVzelpQVlR3N0pnQjBPeFZQV3ZEbTdTZ25YemRR?oc=5",
+          "source": "BILD",
+          "pubDate": "Thu, 19 Nov 2026 16:09:56 GMT"
         },
         {
-          "title": "„GTA 6“ ist da! Twitch feiert den Release mit exklusiven Belohnungen und kostenlosen Spielcodes - DVD-Forum.at",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcW1yUTYzbDlCMi00eU9YaktzeF85bXVWd1FzZXVIRFVCUXJTMlcwU19EeTBpak95Y0JBcVk3dl9ZSC1RUldJbXBqSEZub3N2MlVHU05PaGs4cTJiNWxVdWJBTmY0UmxLcmlodlIzMURyamtYT0FmU1BCMUp5cHlXdk9oVkk2RkN3MkgxNTFXbnN4TFJGNjJmVHZoMElRbmVwcnZWWjhHTzE1bUVxdjVvSFA1QTNOU0I0?oc=5",
-          "source": "DVD-Forum.at",
-          "pubDate": "Thu, 19 Nov 2026 12:28:33 GMT"
+          "title": "GTA 6 löst weltweiten Büro-Trend aus – Mitarbeiter handeln freie Tage mit ihren Chefs aus - Business Insider Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMmlmeWE2VFhYd3BRV0JXVEFXSEVKVENyWGRVWHhkVmFjM0RCcFZiN09jR0o2SmtuS2VqYnJZMHNWWU1SVGFMUmxaRkpJN1RHY0Q5a3NwTjZDWkVSeVdTU2xhZnUwRUdhUHdRZjFldENVdXBfZTRYWmdSdVZ5Tkw0WkVyLWRPZTlUNEZBUXFScXhYSjZBWjQ0VWItQVgyaGhTMnZMNE9vVm1wdUVqZFE?oc=5",
+          "source": "Business Insider Deutschland",
+          "pubDate": "Thu, 19 Nov 2026 15:35:51 GMT"
         },
         {
-          "title": "Jahrelang auf GTA 6 gewartet: Doch jetzt erleben viele Zocker ein böses Erwachen - DerWesten",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTDVhWHlNVVNpSUUzQi1wOTRhMTNEWnhURmtkNUUzRzc1ZW5iMlRKdGtjMGI3bk44RVhWSEt3NmlkNDM5ODc3UlRLNEFJaTBxXzNsNkp5Rmc2ZVpOSDRoeFd0aUhyZUNXT1JJdHUxdFN0cURSY1NVeUJrZmo3U1h0Qm1MZHlkVXJ2dW5KYnpqV0hTYXZEVTFaSlNsTEIyWjlLekVoWFlYQQ?oc=5",
-          "source": "DerWesten",
-          "pubDate": "Thu, 19 Nov 2026 12:10:02 GMT"
+          "title": "Die Veröffentlichung von GTA 6 sorgte für einen Rekord beim Online-Traffic und 7,91 Millionen gleichzeitige Zuschauer auf Streaming-Plattformen. - Informat.ro",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlg1RVFYOWd0aHdHY1lGWi1IRmtKQmpKRHdqNDJnNzNxblhXWVFWSXp4Rm1tLXNyS05VM3RHWnFGZUJJNjB2dWhWQ2pUdzFKc202QUg2VHVEdjNEMjhWU0ZJQmJJbXh2MzUtcGUxMlB3LVRRYkplSzJyLUpJazZwX1VITGl3MjBIQlBFNjMtdU9jY3ctQWJMMVNmdXd6S2tMS1FMSElUdTdOWmZ0YW05Sk9jY1ZnWWQ1?oc=5",
+          "source": "Informat.ro",
+          "pubDate": "Thu, 19 Nov 2026 15:26:39 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T14:46:35.128Z",
+      "updated": "2026-11-19T17:50:32.538Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -411,7 +411,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 20
+          "count": 25
         }
       ]
     },
@@ -421,13 +421,13 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 67,
-      "publisherCount": 59,
+      "count24h": 71,
+      "publisherCount": 60,
       "capped": true,
       "series": [
         {
           "date": "2026-11-13",
-          "count": 5
+          "count": 2
         },
         {
           "date": "2026-11-14",
@@ -435,53 +435,53 @@
         },
         {
           "date": "2026-11-15",
-          "count": 2
+          "count": 1
         },
         {
           "date": "2026-11-16",
-          "count": 2
+          "count": 1
         },
         {
           "date": "2026-11-17",
-          "count": 8
+          "count": 7
         },
         {
           "date": "2026-11-18",
-          "count": 23
+          "count": 22
         },
         {
           "date": "2026-11-19",
-          "count": 58
+          "count": 65
         }
       ],
       "items": [
         {
-          "title": "GTA VI-Hype: Im Kreis Dillingen sind alle Konsolen weg - Augsburger Allgemeine",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSmJUMFJDb0JHcTh1eHJJaTBxbkkyU29lSHk1YW1Tb1RJbW82TlRzTjdGeEoyZlVSa05OUzFkNXZpOHA0Y0dGeS1EbjdsckwtRmthakxLczRyaTljMzRwT3llNzJYWlNma05XRG92Z0RmN2poaU1HQ1JGV3BDVk5TNzRtb1JibXNvQllHS3A3ZTdpTEZzUE1URmJTMzRURmI4OERKcUxlVXZxLWhYVVZz?oc=5",
-          "source": "Augsburger Allgemeine",
-          "pubDate": "Thu, 19 Nov 2026 14:37:16 GMT"
+          "title": "\"GTA 6\" ist spielbar: Darum ist der Hype so groß - NDR.de",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeDNfRjJiQzlSTWpYMUNMdE9lSjNfM3d5dE5vUGhxZDBzRVhldThlRXR3amdfZ0dBRFluSnc0LXlLRmFaYXlnRlpqQmxEUVlXdUlhR2pNZUN2bTBQdWRuOWl5QjBDTVVGcnNXaG9Zc21uNFFJWW5xcWhDOVBsQVEwdktlWjBQMkI3V1R0UFBZSm1PTW1OT3d1UUlCb2pmUGs?oc=5",
+          "source": "NDR.de",
+          "pubDate": "Thu, 19 Nov 2026 17:47:25 GMT"
         },
         {
-          "title": "Stunden vor GTA VI: Tausende Spieler kommen nicht ins PlayStation Network – Sony räumt Störung ein - Merkur",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOLUtrMEFUaVcwcnp1bVhoVTVrX3o0WEhHX1V3MGx4Umpwd1VtbmhXRUxFejhlQ3NONjZ6UHBHTkxoZ2NxRVRxMnVXMjh1bWVXZEJSVVEydVJGRkNCSHNnQlV6dG1paDh2aVNDSkJ5NXgtVTlKVXdRZk1OM3ZoWWtZcHRlUTFPZlRTRTRXMUtQM3RWNUY1RXlsNk9BMmhyZlJpSmxNTUl4TVhLWThqUDY1Rmh6dTA3WDBhM3hSalZzbTBYUXdwWHlKQVpwU2tOZw?oc=5",
-          "source": "Merkur",
-          "pubDate": "Thu, 19 Nov 2026 14:16:48 GMT"
+          "title": "„GTA 6“ ist da – erste Tests, Downloadgröße und alle wichtigen Infos - Neue Westfälische",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcktaOTYtdEhaYTdNOU16Zkg3MzEzSVp2aXk4YkVjSTh2REpsQnNFWjhSd3N1VldocklRQ0lvejJfQ0UyZ2NGQXRPZ21YLVJ0U0xwX2RUaGxTVXNmYW80V1QtTnhzeDR0S2dySVA3SjZqMTFyMUhwZ01VbHNHMGJQZlE5ZUJCMUpjZ1U5bVUzWHJMWHV5dTNELUZwSVl6Wlp4b1EyMjFoRm83MzlVZXFCNGRVX2Izdnc?oc=5",
+          "source": "Neue Westfälische",
+          "pubDate": "Thu, 19 Nov 2026 17:14:46 GMT"
         },
         {
-          "title": "GTA 6 Release: Warum der Media Markt in Frankfurt leer blieb - FAZ",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV0x3blVPTXBETXFJMWFhMGNXRThPellZZFZ6d3FTbW1ja3ZQY3hkNHFFN3BrM2xILTlRQkJxNUtTOWptcnpfMURsbmxKdExrU3VWRjRjLUZYM3Y5RmJxZHZMRXY4cXp4dklWa2toQjZnWXQ5cTdTdEw5OTRXR3h4RXVvLTBMcXdvSDY2Q0xlRjRZbWRqR2g5MkJwUHZyTnYwUUNEVEJ6ME1iejFZZXFQWnBXNFJkS2pXeHR5N3RHNEM?oc=5",
-          "source": "FAZ",
-          "pubDate": "Thu, 19 Nov 2026 14:12:54 GMT"
+          "title": "„GTA VI“-Release sorgt in Fulda für ausverkaufte Spielekonsolen - Fuldaer Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVmdVaEJObWVxN2VjbVJDWmNhQWFQYjNhTzRVdE5KS2dKM0hSa0Q4aWJ6c3BQaW0tWEtENkt0OWNYbDFhVlo0TzlLRDA4UzEzX2Z5UUdSSjRSR25pQnBWUmRDek1BZUIyUkI5cG5LY0V6a3dQOTF6LVVFdU81Tk1vbGVOeDhHeDdkVTZud0tuV3FRS3BuclpscTlNZGMtMTBOTldpNXRoVjltMDdxTW5GUERR?oc=5",
+          "source": "Fuldaer Zeitung",
+          "pubDate": "Thu, 19 Nov 2026 17:12:43 GMT"
         },
         {
-          "title": "GTA 6 und Cloud-Gaming: Verändert GTA 6 die Spielewelt für immer? - WirtschaftsWoche",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDd3Y2lVY3BTMWEyQThNcTRiczVGaDZ1ajBhUjdZcXdjWTBBaUluQ2RsS1kzNjBXcDlnNHZ6OGhqM01JTkNoOU56TUVKTS0zNHliM1JMZXNwMkpXWm1JMWRiRlV6TDA1a3FlcUdJRUl0SW8zOXhIU2FKTkk5RTFfN0ZyM0ZfaHJVdmRGWjU0VFNmeFZlWWdMRmlJNlNEN3dkMjB5NVp4Y3h6SEtwc2VuX095RTJWZw?oc=5",
-          "source": "WirtschaftsWoche",
-          "pubDate": "Thu, 19 Nov 2026 13:43:36 GMT"
+          "title": "Müde Augen und leere Schulbänke Was Lehrer zum GTA-Start in Recklinghausen beobachten - Recklinghäuser Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZVo0TVRocE9IVk1hVS1pczIyUmx3cHhQemtCZGJOTmxFbWI5YU82Zjl0d0tqcF9SeGJBMWJoNnZ2c2pKUzhpY1p6eWtMLWJqZ250SWxQUGhIUFIzelJDMldDRzdYLWJyY19pZk1sX0g0Q3UwOXZ3cXdiZVZoRi05Z1RfVDZVai1URElYWWR2NDBmWnpWWW8weFNpNW4wZmdVbWNSZEpweFJaRzFKLUhpeEZ2aHl1bGhqSGh5R3ZBbE5TYnlzQ0JTM09BcWlpYkFNUFR0X05VcHRxMzM4Mjln?oc=5",
+          "source": "Recklinghäuser Zeitung",
+          "pubDate": "Thu, 19 Nov 2026 16:50:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T14:46:35.128Z",
+      "updated": "2026-11-19T17:50:32.538Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -549,7 +549,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 58
+          "count": 65
         }
       ]
     }
@@ -942,6 +942,13 @@
     },
     {
       "at": "2026-11-19T14:46:35.118Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-19T17:50:32.534Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
