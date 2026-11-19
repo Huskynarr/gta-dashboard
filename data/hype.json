@@ -1,23 +1,19 @@
 {
-  "updated": "2026-11-18T23:38:38.509Z",
+  "updated": "2026-11-19T00:51:14.267Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 20,
+      "count7d": 19,
       "count24h": 5,
       "publisherCount": 14,
       "capped": false,
       "series": [
         {
-          "date": "2026-11-12",
-          "count": 3
-        },
-        {
           "date": "2026-11-13",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-14",
@@ -38,6 +34,10 @@
         {
           "date": "2026-11-18",
           "count": 5
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
         }
       ],
       "items": [
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-18T23:38:38.509Z",
+      "updated": "2026-11-19T00:51:14.267Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -132,6 +132,10 @@
         {
           "date": "2026-11-18",
           "count": 5
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
         }
       ]
     },
@@ -141,14 +145,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 88,
+      "count24h": 85,
       "publisherCount": 36,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-12",
-          "count": 1
-        },
         {
           "date": "2026-11-13",
           "count": 0
@@ -167,11 +167,15 @@
         },
         {
           "date": "2026-11-17",
-          "count": 7
+          "count": 8
         },
         {
           "date": "2026-11-18",
-          "count": 88
+          "count": 87
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
         }
       ],
       "items": [
@@ -188,20 +192,20 @@
           "pubDate": "Wed, 18 Nov 2026 23:00:00 GMT"
         },
         {
-          "title": "GTA 6: Weltweite Veröffentlichungszeiten bestätigt | So könnt ihr das Spiel dank des Neuseeland-Tricks schon früher spielen - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPS3BYUlUwUVluZ2VLRnR2UkRvU01ILTN4MWQ3eHRLVjRTTWV3LWEwZlFGRHc5T1BYQ3JiamJybHg5akZGSUZ0VW5OM3djZVl1R0RZYXFsT2NGbHBEUTZfakR3VF9WdnBWNVBneVZnalROVG44UEtZWmRzYS1aNzc1X0dWek8xRU9EUUNSV0dfYlFMckVBSFpqWmdpaGtxblZPcGhldEtaSllJTUJFNXRLejQ1Vy0yRGFzNFNlUnE0Qm1uWWRYSlVNVU5tMFhla1Ytc3pNVXc1QnYtLTQ4a1hF?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Wed, 18 Nov 2026 22:36:37 GMT"
-        },
-        {
           "title": "GTA 6 auf der PS5 Pro: Warum 1.400 Euro keine 60 Fps kaufen - PCGH",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSTZhQ2tlVjVrX1BrUWdZVW1mQUIzWURGR2hqLWVjaWEwYlJfOE9vSnZ6UnhJSmtnQ0YwRUJBR3lKUGxneEtVWTlSOGhjV1ZuUzBjRlo1dERGbVhDMjFLNklvQ0VpUm0xR202dUdTcTlrTGZzOW1kX1daWGM5blM0a2VuTkpmUVVNLVRVSUpMMkozSlo5RFNBN2dIUVdJZw?oc=5",
           "source": "PCGH",
           "pubDate": "Wed, 18 Nov 2026 22:15:00 GMT"
+        },
+        {
+          "title": "GTA 6 schon vor Mitternacht spielen? Vorsicht vor dem „Neuseeland-Trick” - RTL.de",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMGg0c0dfREQ4WjVwemJrS0hJNjRuVjVxV2tpaVRFenk1bjFBdmFweTN5dTNZV0dKMG1XWGYzNDBvbnlwTnBrRWhwQ29kRVNxN1JYRjBKWjJsM2t4RmUzS1o4V01KQnpUZkNDWnNTaE9VVHd4VG9NTGFodFFLQnE4bEVTNUN3U0pRUHJJQzdGWjNzQmdVcGJlbHFhQ1k2S2RHRUtJdW5UbWg3X1UzT3MxMW52RHJQa1B3bXBkeG9fY21yY05vYkZlX09n?oc=5",
+          "source": "RTL.de",
+          "pubDate": "Wed, 18 Nov 2026 20:41:20 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-18T23:38:38.509Z",
+      "updated": "2026-11-19T00:51:14.267Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -266,6 +270,10 @@
         {
           "date": "2026-11-18",
           "count": 88
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
         }
       ]
     },
@@ -274,15 +282,11 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 41,
-      "count24h": 31,
-      "publisherCount": 24,
+      "count7d": 39,
+      "count24h": 29,
+      "publisherCount": 22,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-12",
-          "count": 2
-        },
         {
           "date": "2026-11-13",
           "count": 2
@@ -305,7 +309,11 @@
         },
         {
           "date": "2026-11-18",
-          "count": 31
+          "count": 29
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
         }
       ],
       "items": [
@@ -322,20 +330,20 @@
           "pubDate": "Wed, 18 Nov 2026 22:30:00 GMT"
         },
         {
-          "title": "Gratis GTA 6: So funktionieren die Code-Verlosungen auf Twitch und Kick - esports.ch",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8ySDB3bWlFWFpfWkRzbGtBazJxb0tiX0RiSzlFZmo4XzA4cWNVU25BbGpRSnJRTTAwM0tqemhrQmxWOWIyc0NiSnhYNjNzRFBKdkUtMUtJSGM2V1VOMFRNdWczVENLbE90MWI1SHBIQQ?oc=5",
-          "source": "esports.ch",
-          "pubDate": "Wed, 18 Nov 2026 20:54:45 GMT"
-        },
-        {
           "title": "GTA 6 bricht schon vor dem weltweiten Start alle Streaming-Rekorde - IGN Deutschland",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMlh6Z1BKNGMwcS1fSGdTTWVnQ3drVC1pd1daaVptaENTY1JGNmxIaF9rOEEzWVV4eFRGNE9lOUFyaF8yS3ZTa1ZDemhRZFNmNFZKSlRYTXNRMnJub2c2M0VTS2xfbktZMFVUdF9QaUF1dEVpS04yM25ydjJhc0ZxTkRzVUctV3k5MWZBUjlUM1I4LUhNQlpmNFluX01wVXNiNmt6M1VpRXBWVlJFc3h1S3hB?oc=5",
           "source": "IGN Deutschland",
           "pubDate": "Wed, 18 Nov 2026 19:37:00 GMT"
+        },
+        {
+          "title": "GTA 6: Streamer verliert 10.000-Dollar-Code im Livestream - BILD",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc1kwWHV4YWVBZnhGR2NnOW5oSmZVVEQ1aW43VDdjc3N4WFUzcm1rRldHVWgzZDgzLWVaalV2akVNV2pqQnVFWHNXSXJtZ3BISGQ4aU1oZUFwWXZJN0MxaWJZUDFEU251OVpDZEYxd0dXWVI5Z3NMYk4yY1JWVUw3U3MwcUUyTURCT1VfeDdHMk8tdTVJMTl0RWtCRmJaTlM3UjVzelpQVlR3N0pnQjBPeFZQV3ZEbTdTZ25YemRR?oc=5",
+          "source": "BILD",
+          "pubDate": "Wed, 18 Nov 2026 19:32:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-18T23:38:38.509Z",
+      "updated": "2026-11-19T00:51:14.267Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -400,6 +408,10 @@
         {
           "date": "2026-11-18",
           "count": 31
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
         }
       ]
     },
@@ -409,21 +421,17 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 69,
-      "publisherCount": 57,
+      "count24h": 70,
+      "publisherCount": 56,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-12",
-          "count": 3
-        },
         {
           "date": "2026-11-13",
           "count": 7
         },
         {
           "date": "2026-11-14",
-          "count": 1
+          "count": 3
         },
         {
           "date": "2026-11-15",
@@ -431,15 +439,19 @@
         },
         {
           "date": "2026-11-16",
-          "count": 5
+          "count": 4
         },
         {
           "date": "2026-11-17",
-          "count": 13
+          "count": 10
         },
         {
           "date": "2026-11-18",
-          "count": 69
+          "count": 71
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
         }
       ],
       "items": [
@@ -469,7 +481,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-18T23:38:38.509Z",
+      "updated": "2026-11-19T00:51:14.267Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -533,7 +545,11 @@
         },
         {
           "date": "2026-11-18",
-          "count": 69
+          "count": 71
+        },
+        {
+          "date": "2026-11-19",
+          "count": 0
         }
       ]
     }
@@ -902,6 +918,13 @@
       "score": 100,
       "coverage": 2,
       "signature": "wiki+news"
+    },
+    {
+      "at": "2026-11-19T00:51:13.541Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
     }
   ],
   "sources": {
