@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-19T00:51:14.267Z",
+  "updated": "2026-11-19T08:10:41.139Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 19,
+      "count7d": 18,
       "count24h": 5,
-      "publisherCount": 14,
+      "publisherCount": 13,
       "capped": false,
       "series": [
         {
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T00:51:14.267Z",
+      "updated": "2026-11-19T08:10:41.139Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -145,8 +145,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 85,
-      "publisherCount": 36,
+      "count24h": 78,
+      "publisherCount": 46,
       "capped": true,
       "series": [
         {
@@ -155,11 +155,11 @@
         },
         {
           "date": "2026-11-14",
-          "count": 0
+          "count": 1
         },
         {
           "date": "2026-11-15",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-16",
@@ -167,45 +167,45 @@
         },
         {
           "date": "2026-11-17",
-          "count": 8
+          "count": 5
         },
         {
           "date": "2026-11-18",
-          "count": 87
+          "count": 67
         },
         {
           "date": "2026-11-19",
-          "count": 0
+          "count": 22
         }
       ],
       "items": [
         {
-          "title": "13 Jahre gewartet: GTA 6 ist jetzt offiziell in Deutschland gestartet - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQajh2dDlUY21faEQ2aU04RmRsb3ZraV82dHJYa25qeTBRVklnakxicjVXbmFRTEJ1SXRubF9hV3ZfRlFtRFlEWkR4OTh4bkFlQktDVmxxVnVTZW4xR1ZPWi1rUmw0TFRDSWpWNFRjbzlQbTFZUXRvUG4weE5MUEs3QWh2VnVKY2FoY0RZN21IQk5CR3RvSzhPUnNfWU8xWmd6OTJkb0JrSFFGM2pyREZfeE1oNnJ4SjZmSEVxbV9QSHBCdEVTTHh3bTZzeF81cWRuR3MxVFpneERHUmhn?oc=5",
-          "source": "CHIP",
-          "pubDate": "Wed, 18 Nov 2026 23:01:00 GMT"
+          "title": "Grand Theft Auto VI : PS5 & Xbox gleich auf – Xbox Series S überrascht - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQ1N5dE1MM3h3dC1oMUVGeDhiVk9MQndCUk92WVVheHQxUlZWSWk4Y0dMNm5TNHE4QWtFV3VrclNJdVBsVXRlTm9YblhMMkVObUt1TFFZazJLa3RyUE5sQVV5ODk0a1U4WEJSbVZ2eHFSV0JVNXFlYVNsLUdLTlFjSmtXaURqQS1jTkNiM25EcnFMQ01BSndGdnVzT1VBOEE?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Thu, 19 Nov 2026 08:00:00 GMT"
         },
         {
-          "title": "GTA 6: Alle Cheats für PS5 + Xbox Series X/S und wie ihr sie freischaltet - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vaEt5cklCTWNhbjJ4RWpKbERzNVlXUTdxR1FuRVVfS2FLR1lUeVdOaEJhdmE5RENacWxyWkhKZTRRdkNRMHJucThhUjJPZ2dCVHZZamJLMEdsZXE3Ny13WVR2STdpQUk?oc=5",
-          "source": "GamePro",
-          "pubDate": "Wed, 18 Nov 2026 23:00:00 GMT"
+          "title": "GTA 6 ist gestartet: So laufen die Konsolenfassungen auf PS5 und Xbox - Hardwareluxx",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVHZocjBfZWE0R3lZcTl3MWVjZEh0ZmdCWWFKZ3pPbURCTFFuQ2o0cGJnTXFNUHRETlQ0MXN2NGhPWVpFVkI4WE01VmFBdTlyX3dfU0JHMFYtQVNLTW1hRGtQUGtWUW5wZVhCVHJsaVZ4U1VCWjRlVkRqX3JlSlZ4Tml5SDRfOVVPV05abTNBcGtFdGZfcHJ1YmpDT0xIR2RjQ0ZTaGxmUlhpaTE0dW9pb3Z2UnFPNXNhWGEtRkZpT09IWm5HWnMtUXY0TmtwUnQzNVFWUA?oc=5",
+          "source": "Hardwareluxx",
+          "pubDate": "Thu, 19 Nov 2026 07:54:20 GMT"
         },
         {
-          "title": "GTA 6 auf der PS5 Pro: Warum 1.400 Euro keine 60 Fps kaufen - PCGH",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSTZhQ2tlVjVrX1BrUWdZVW1mQUIzWURGR2hqLWVjaWEwYlJfOE9vSnZ6UnhJSmtnQ0YwRUJBR3lKUGxneEtVWTlSOGhjV1ZuUzBjRlo1dERGbVhDMjFLNklvQ0VpUm0xR202dUdTcTlrTGZzOW1kX1daWGM5blM0a2VuTkpmUVVNLVRVSUpMMkozSlo5RFNBN2dIUVdJZw?oc=5",
-          "source": "PCGH",
-          "pubDate": "Wed, 18 Nov 2026 22:15:00 GMT"
+          "title": "In GTA 6 könnt ihr keine Prostituierten aufgabeln, aber Rockstar hat einen logischen Grund dafür - IGN Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSUdncUFSNUFLb2xwT1MtUVQzN1BBNHlzRDJZdnNOMnVxS0l4SDVDU2dVNDVkWHl5b3JTSFlDdzlZMTZ2bUZ4MnZKbE9SX0VVTjllVWNaTG1EdHBjRHhyV1E3SU54b2h3RGRrTGFwVmhwc1ZfdE5LNjNubTk0OERCNGVVM2FHUUQyTV90bmFVYWdIeGlFbkZjenJTd3pidTNuOVNQMUdENndReGV6VDYxWTNLTmtPVEhfcUstem85N1dBTGpxUG1PS0lqXzdBSzI5Y3ZDalNWRWI?oc=5",
+          "source": "IGN Deutschland",
+          "pubDate": "Thu, 19 Nov 2026 07:54:00 GMT"
         },
         {
-          "title": "GTA 6 schon vor Mitternacht spielen? Vorsicht vor dem „Neuseeland-Trick” - RTL.de",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMGg0c0dfREQ4WjVwemJrS0hJNjRuVjVxV2tpaVRFenk1bjFBdmFweTN5dTNZV0dKMG1XWGYzNDBvbnlwTnBrRWhwQ29kRVNxN1JYRjBKWjJsM2t4RmUzS1o4V01KQnpUZkNDWnNTaE9VVHd4VG9NTGFodFFLQnE4bEVTNUN3U0pRUHJJQzdGWjNzQmdVcGJlbHFhQ1k2S2RHRUtJdW5UbWg3X1UzT3MxMW52RHJQa1B3bXBkeG9fY21yY05vYkZlX09n?oc=5",
-          "source": "RTL.de",
-          "pubDate": "Wed, 18 Nov 2026 20:41:20 GMT"
+          "title": "GTA 6 startet mit Bestwertungen: Und das mit Recht! - connect.de",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb045QTVxclp0NV9uOVp4TzNuNlkxc2xSeXJ0clFFMlhjWWt0N1F2Tm5Ub0FoUmcxUXVHUDN6clRpMHBtcEdJZ2ZRN2lZUmM2UDlzRDZLSTg1Q1RHQ2FxSnJfREgwSnptT1M2YlRzbk5nYS1xNngtdmo4ZUw2NHhjeFJHdkFYSGhQYUxkYVNic2diSE4wN1JTR3JHMkRiZXM2SFJXMk8tTnBrbmFIaFpkSmhPb3pyZzJJQTFVUFp2cm9Xa0Jf?oc=5",
+          "source": "connect.de",
+          "pubDate": "Thu, 19 Nov 2026 07:43:48 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T00:51:14.267Z",
+      "updated": "2026-11-19T08:10:41.139Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -273,7 +273,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 0
+          "count": 22
         }
       ]
     },
@@ -282,9 +282,9 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 39,
-      "count24h": 29,
-      "publisherCount": 22,
+      "count7d": 38,
+      "count24h": 28,
+      "publisherCount": 24,
       "capped": false,
       "series": [
         {
@@ -301,7 +301,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 3
+          "count": 4
         },
         {
           "date": "2026-11-17",
@@ -309,41 +309,41 @@
         },
         {
           "date": "2026-11-18",
-          "count": 29
+          "count": 22
         },
         {
           "date": "2026-11-19",
-          "count": 0
+          "count": 6
         }
       ],
       "items": [
         {
-          "title": "GTA 6-Countdown - Heute Nacht geht's los: Release-Uhrzeit in Deutschland und ab wann ihr spielen könnt im Live-Ticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XVVlVcFR6WVFtRmtxV1JEZUpLZXltdG55ZGFKdUQ5QlpwSnhLc1lRLUVJaVVTMUZROTl3SjUwdU9zUXVPenFUalFHWGhSV2R3MDNiTGdOTVZGOHRRbDVKRmdvV1NmRl96WXFpZUhLZnBldw?oc=5",
-          "source": "GamePro",
-          "pubDate": "Wed, 18 Nov 2026 22:57:10 GMT"
+          "title": "\"Nicht die Eier dazu\": Nutzer rechnen wegen GTA 6 mit Twitch ab - Comicschau",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TLTVoQllqbjN2VzJHQ3hHZnZ2clR4YUo3aU91YTlXX1NXdmlQVV83LWpHakRkZEtSVWRVWF93ZWNyV2xNSFhWSzZnMHllT1J4RmdsbTM3c3lsUnFkajYwLUduVm0tRlFvbENXTlFFaUU?oc=5",
+          "source": "Comicschau",
+          "pubDate": "Thu, 19 Nov 2026 07:40:00 GMT"
+        },
+        {
+          "title": "Grand Theft Auto VI: Streaming-Rekorde purzeln bereits - Gameswelt",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVVdZT2NlSmRfYzVkLXdiUS11WGRXcng0UFZYWTA3OWZrbGgxTl9rVmFmOWNhMG1aYURjVWxLT3hmZEw1Ujc4amxPZjZveWhuN1JVbzZocGtsSkx3ckFST1VnenNWMV9wdmpoVnh5QXJtYXB3cE5iTkVfTnRfSTV6eHRJWFlGTkgxQ1UxZFh4ZkhjSjBm?oc=5",
+          "source": "Gameswelt",
+          "pubDate": "Thu, 19 Nov 2026 07:18:00 GMT"
         },
         {
           "title": "PSN Down zum GTA 6 Release im Live-Ticker – Alles zur Störung und dem Server-Status auf PS5 - Mein-MMO",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5CcXlTbVFLdzFZaE5xdjczMkl1VHZHVTBqLWp1UmNGX2lqQW5nMGxkcE0tMDdvN091d1UxRkY3eHlXaEl2ZHBYQW5sQmVNRGtSRDRKQQ?oc=5",
           "source": "Mein-MMO",
-          "pubDate": "Wed, 18 Nov 2026 22:30:00 GMT"
+          "pubDate": "Thu, 19 Nov 2026 05:56:55 GMT"
         },
         {
-          "title": "GTA 6 bricht schon vor dem weltweiten Start alle Streaming-Rekorde - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMlh6Z1BKNGMwcS1fSGdTTWVnQ3drVC1pd1daaVptaENTY1JGNmxIaF9rOEEzWVV4eFRGNE9lOUFyaF8yS3ZTa1ZDemhRZFNmNFZKSlRYTXNRMnJub2c2M0VTS2xfbktZMFVUdF9QaUF1dEVpS04yM25ydjJhc0ZxTkRzVUctV3k5MWZBUjlUM1I4LUhNQlpmNFluX01wVXNiNmt6M1VpRXBWVlJFc3h1S3hB?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Wed, 18 Nov 2026 19:37:00 GMT"
-        },
-        {
-          "title": "GTA 6: Streamer verliert 10.000-Dollar-Code im Livestream - BILD",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc1kwWHV4YWVBZnhGR2NnOW5oSmZVVEQ1aW43VDdjc3N4WFUzcm1rRldHVWgzZDgzLWVaalV2akVNV2pqQnVFWHNXSXJtZ3BISGQ4aU1oZUFwWXZJN0MxaWJZUDFEU251OVpDZEYxd0dXWVI5Z3NMYk4yY1JWVUw3U3MwcUUyTURCT1VfeDdHMk8tdTVJMTl0RWtCRmJaTlM3UjVzelpQVlR3N0pnQjBPeFZQV3ZEbTdTZ25YemRR?oc=5",
-          "source": "BILD",
-          "pubDate": "Wed, 18 Nov 2026 19:32:00 GMT"
+          "title": "GTA 6 ist live: Twitch-Rekord nach 30 Minuten - Play Experience",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ESm1BSUNCV2kwS29JUS1NN0dlQUFrSDJneUFWVFJIMWRrTjFjMmdiaWVMVWxmQ21NTG1BZzNvUUNNcHhiSXZtVDVIWkVTU3NUUkEzNnFOUF9uczB3dVJtV0MtVGNTTUEydnFkUmJkaU1rUQ?oc=5",
+          "source": "Play Experience",
+          "pubDate": "Thu, 19 Nov 2026 05:20:24 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T00:51:14.267Z",
+      "updated": "2026-11-19T08:10:41.139Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -411,7 +411,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 0
+          "count": 6
         }
       ]
     },
@@ -420,18 +420,18 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 100,
-      "count24h": 70,
-      "publisherCount": 56,
-      "capped": true,
+      "count7d": 89,
+      "count24h": 55,
+      "publisherCount": 57,
+      "capped": false,
       "series": [
         {
           "date": "2026-11-13",
-          "count": 7
+          "count": 5
         },
         {
           "date": "2026-11-14",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-15",
@@ -443,45 +443,45 @@
         },
         {
           "date": "2026-11-17",
-          "count": 10
+          "count": 8
         },
         {
           "date": "2026-11-18",
-          "count": 71
+          "count": 42
         },
         {
           "date": "2026-11-19",
-          "count": 0
+          "count": 23
         }
       ],
       "items": [
         {
-          "title": "13 Jahre gewartet: GTA 6 ist jetzt offiziell in Deutschland gestartet - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQajh2dDlUY21faEQ2aU04RmRsb3ZraV82dHJYa25qeTBRVklnakxicjVXbmFRTEJ1SXRubF9hV3ZfRlFtRFlEWkR4OTh4bkFlQktDVmxxVnVTZW4xR1ZPWi1rUmw0TFRDSWpWNFRjbzlQbTFZUXRvUG4weE5MUEs3QWh2VnVKY2FoY0RZN21IQk5CR3RvSzhPUnNfWU8xWmd6OTJkb0JrSFFGM2pyREZfeE1oNnJ4SjZmSEVxbV9QSHBCdEVTTHh3bTZzeF81cWRuR3MxVFpneERHUmhn?oc=5",
-          "source": "CHIP",
-          "pubDate": "Wed, 18 Nov 2026 23:01:00 GMT"
+          "title": "GTA 6 ist draußen: Nach vielen Jahren geht es jetzt nach Vice City - ZDFheute",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1BbVFDc2swSmlVeVowVzBXdmg1SG1URmhQWm9KQkJuVUVlSlpBcFlpVWdKQ2FCcGdLWFBXVWp2SGRDUjZGNDJJYjl2Q0huVTdwRk1nOXZKTDcyd0NzRzdYM1BicFJfSERsMmxReXFpZ0YzYjR3YWRQMW5ZejI?oc=5",
+          "source": "ZDFheute",
+          "pubDate": "Thu, 19 Nov 2026 08:02:41 GMT"
         },
         {
-          "title": "GTA 6-Countdown - Heute Nacht geht's los: Release-Uhrzeit in Deutschland und ab wann ihr spielen könnt im Live-Ticker - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XVVlVcFR6WVFtRmtxV1JEZUpLZXltdG55ZGFKdUQ5QlpwSnhLc1lRLUVJaVVTMUZROTl3SjUwdU9zUXVPenFUalFHWGhSV2R3MDNiTGdOTVZGOHRRbDVKRmdvV1NmRl96WXFpZUhLZnBldw?oc=5",
-          "source": "GamePro",
-          "pubDate": "Wed, 18 Nov 2026 22:57:10 GMT"
+          "title": "GTA 6 ist gestartet: So laufen die Konsolenfassungen auf PS5 und Xbox - Hardwareluxx",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVHZocjBfZWE0R3lZcTl3MWVjZEh0ZmdCWWFKZ3pPbURCTFFuQ2o0cGJnTXFNUHRETlQ0MXN2NGhPWVpFVkI4WE01VmFBdTlyX3dfU0JHMFYtQVNLTW1hRGtQUGtWUW5wZVhCVHJsaVZ4U1VCWjRlVkRqX3JlSlZ4Tml5SDRfOVVPV05abTNBcGtFdGZfcHJ1YmpDT0xIR2RjQ0ZTaGxmUlhpaTE0dW9pb3Z2UnFPNXNhWGEtRkZpT09IWm5HWnMtUXY0TmtwUnQzNVFWUA?oc=5",
+          "source": "Hardwareluxx",
+          "pubDate": "Thu, 19 Nov 2026 07:54:20 GMT"
         },
         {
-          "title": "GTA 6: Weltweite Veröffentlichungszeiten bestätigt | So könnt ihr das Spiel dank des Neuseeland-Tricks schon früher spielen - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPS3BYUlUwUVluZ2VLRnR2UkRvU01ILTN4MWQ3eHRLVjRTTWV3LWEwZlFGRHc5T1BYQ3JiamJybHg5akZGSUZ0VW5OM3djZVl1R0RZYXFsT2NGbHBEUTZfakR3VF9WdnBWNVBneVZnalROVG44UEtZWmRzYS1aNzc1X0dWek8xRU9EUUNSV0dfYlFMckVBSFpqWmdpaGtxblZPcGhldEtaSllJTUJFNXRLejQ1Vy0yRGFzNFNlUnE0Qm1uWWRYSlVNVU5tMFhla1Ytc3pNVXc1QnYtLTQ4a1hF?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Wed, 18 Nov 2026 22:36:37 GMT"
+          "title": "Vergesst GTA 6: Der wahre König des 19. November ist jetzt endlich spielbar - PlayFront",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX293Q2V4U3FLdEppX1lNV3JUSjRfbkx2c3ZNaThGaVhJWXJwM0k2dWNrU3JVRFBIYy1PN1NEamZ3aGI2b0YzbmxuUERSQU5tUjkzem9Wa3pkWXhPMnhGNExtZUZSbDFtMlp3WlExZXd3U0gyV3BsTUtoQmQyNml6OGVzclpLVE5oSGNwQzVidFM1LTVDVW9HN0RleXc?oc=5",
+          "source": "PlayFront",
+          "pubDate": "Thu, 19 Nov 2026 07:52:15 GMT"
         },
         {
-          "title": "GTA 6: Diese sechs Fragen beschäftigen jetzt die Fans - BILD",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcEY3VGRNUGt4U0VKV1BpeVRTVElBc2tQWC1vcWN4aWpmOU5zbWNCS25ISzR1U2VhckVQMWtjbDFFNzRGdUNnazdOWFBOS2hFaVN3UDBoMENDZnAxSWJLaGtraGV0eE41dURFbjM0eTVYU1FNX01ibENGWFIydXpqLVQ1WDgxRUhlMzAzT0U0SURIOF82NFNVY2JscjAxSENCNWxHOFRUb3hQZjFkc1VmOVBmX1o2djFkVXc?oc=5",
-          "source": "BILD",
-          "pubDate": "Wed, 18 Nov 2026 21:55:03 GMT"
+          "title": "Hype um Videospiel: GTA 6 treibt Internet-Datenverkehr in die Höhe - Tagesspiegel",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQN1hIM3liS3BhdVIxWUttSXZreGctZm5jNHlLTUVYeXpQNmlOVzdQYm5tdlgxLXJxOFNYZjJnMnRScng0eTdXODNfSGY5UXVzSk1paTRFMWVIOXlBcDdzWjhzT3lnZVUwbEcxbHN6ZFN5cG1PX1k0S3NJUGZCbVNvdF9zVDhCRXdsUlB5ckZBQUcyVlowTjJ2ZjgyU1A1bUoxOHV1bk5NYVk3TjN5TUttZXB4RTZhOE5TV3gyTzQ3LVNGaGRSUGZibFVZTQ?oc=5",
+          "source": "Tagesspiegel",
+          "pubDate": "Thu, 19 Nov 2026 07:41:23 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T00:51:14.267Z",
+      "updated": "2026-11-19T08:10:41.139Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -549,7 +549,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 0
+          "count": 23
         }
       ]
     }
@@ -925,6 +925,13 @@
       "score": 100,
       "coverage": 3,
       "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-19T08:10:23.295Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 2,
+      "signature": "wiki+news"
     }
   ],
   "sources": {
