@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T17:50:32.538Z",
+  "updated": "2026-11-19T23:56:59.013Z",
   "topics": [
     {
       "key": "retail",
@@ -7,7 +7,7 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 18,
-      "count24h": 3,
+      "count24h": 2,
       "publisherCount": 12,
       "capped": false,
       "series": [
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T17:50:32.538Z",
+      "updated": "2026-11-19T23:56:59.013Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -145,8 +145,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 59,
-      "publisherCount": 33,
+      "count24h": 54,
+      "publisherCount": 37,
       "capped": true,
       "series": [
         {
@@ -167,45 +167,45 @@
         },
         {
           "date": "2026-11-17",
-          "count": 5
+          "count": 6
         },
         {
           "date": "2026-11-18",
-          "count": 39
+          "count": 37
         },
         {
           "date": "2026-11-19",
-          "count": 53
+          "count": 54
         }
       ],
       "items": [
         {
-          "title": "„Nicht leistungsstark genug“: Rockstar erklärt, warum GTA 6 auf der PS5 Pro keine 60 fps erreichen kann - MIXED News",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdk13d3l4ZWR0d2N2U3YwSk5DNGZXQ0lTeFR4bXU2RnQxczB2dGUwMGtGTmp3OGZ1cmk0d0FEbDRlVHlMbmxYcm4xejI0TDY4c0RDR1ZIX3lBTkJGVU5QbXVFM1pobnExTUVldDAtLU4zSkdNczg1MVFkRkFnbDRoMHNqbXBNWTlraG95SUEwemdRMWNmazd0NERPQmdJWkpHdzBFdzFSWk0zeVVzVmJhTDF4WmF4TU1zaTZsZkM4enl2MkV3?oc=5",
-          "source": "MIXED News",
-          "pubDate": "Thu, 19 Nov 2026 17:29:41 GMT"
+          "title": "Kurz vor GTA 6: Sony bringt PS5-Sicherheitsupdate - Wochenblatt Reporter",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb1Atd29fOTFlS0FZNC1xRFZ0aXdpdHBwY0ZaWTJRamVSV2RoLTEwdklDeHA1R1J0T0E3T2NibW1sLXY4bkVJWGJNWkNQemJUMHhRNl9UYW1ieFo3b09NSVJ4dUhhUHB2dTRGMU9yQU5Vb2Z4R2w1UFNvSk1FZ1J2WHpycklIb1FGTkJNODVka29QYTBzWVlpazVHb3RKMF9XcHZ0N3JB?oc=5",
+          "source": "Wochenblatt Reporter",
+          "pubDate": "Thu, 19 Nov 2026 22:12:48 GMT"
         },
         {
-          "title": "GTA 6: Kritiker vergeben Bestnoten – zum Start häufen sich Bugs? - PCGH",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSkgwdEY1aWcwbmJ3eVZlZklaWXJLLVd0NXBhbWVSWkQ2OXB3d2hhTW9uRDF4a09BX0FKNnlWeS10WEs5M1Brc2NzREh1LVBYMFJSOG14SzJVN2E5OEhQNnlYazE5Z0dfMzZHWUtzNlVNQmNlV1E3bHVOblBSNWZfLUNYZVYxMFNNOTlDTjBrbWw5RzUwMnB1UE1OTk9Fb3ZPOUpPVVFuUkdrUQ?oc=5",
-          "source": "PCGH",
-          "pubDate": "Thu, 19 Nov 2026 16:45:00 GMT"
+          "title": "Die Xbox Series X zeigt in den FSR 4.1.2 Benchmarks von GTA VI einen Vorteil gegenüber der Series S. - GameGPU",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQelZQQ0UyRjVhNktYTTFvOWpIVHhkZUYwdEliT3R3b21zYVBxQnlMY19oeGMwdXFKVHlJTzBsdTNLRmY4MngxcGxfSDFrb3NPSkg1aHhsYkFsbUxMcXFlWk1maDVob3djMV9XUzVJMXRMaHVWNGt3WHBSTHRQbjNwdVZFbHE1WkRQMU5FQnJyU1JOMXBudW53LUNpWEtoeGEtSVlHTlRNMDE0OGUwc09mQVQwME1SZw?oc=5",
+          "source": "GameGPU",
+          "pubDate": "Thu, 19 Nov 2026 21:55:40 GMT"
         },
         {
-          "title": "Grand Theft Auto VI: GTA+ bringt exklusiven Sportwagen, eigene Garage und zahlreiche Rabatte - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNelktcnpleUhOY19HQjAxOHY1SUFQRlVJbnVaMk9fNTZrUU5sYmZNUEstT3BpZjlOVlcyVFBaV05xLWRsdm5CQVg2RVFieTAtSUVuY1NId0xWTVdTSFJHbFZvTzlEOTNkQkNDZDJMazZURkhHRkFRazFwV090YmkxTEFmaDZiS1Q0dDFTRUZfaHo0NVlaSzF3WnF6N0wybnIzYzdiQVRnRXhzRmcwY0hiVFBjM0JMaUltWU5faUtDbw?oc=5",
-          "source": "XboxDynasty",
-          "pubDate": "Thu, 19 Nov 2026 16:00:00 GMT"
+          "title": "GTA 6 und Cloud-Gaming: Verändert GTA 6 die Spielewelt für immer? - WirtschaftsWoche",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDd3Y2lVY3BTMWEyQThNcTRiczVGaDZ1ajBhUjdZcXdjWTBBaUluQ2RsS1kzNjBXcDlnNHZ6OGhqM01JTkNoOU56TUVKTS0zNHliM1JMZXNwMkpXWm1JMWRiRlV6TDA1a3FlcUdJRUl0SW8zOXhIU2FKTkk5RTFfN0ZyM0ZfaHJVdmRGWjU0VFNmeFZlWWdMRmlJNlNEN3dkMjB5NVp4Y3h6SEtwc2VuX095RTJWZw?oc=5",
+          "source": "WirtschaftsWoche",
+          "pubDate": "Thu, 19 Nov 2026 21:32:52 GMT"
         },
         {
-          "title": "GTA 6 (Grand Theft Auto 6) - Offizieller Global Launch Trailer - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeUNhU1FId1g1TmotZmtyaWlrUGh2ajFoWWd2bzkwTlRhdFJQU3A5bE80V2FNeWlwVUdYMFNRNE84MXVlSlR0UGVWSzhqZW8tUGUzdTM2SnZUMXBnYm1iOVdVbGNaUXBiMlVtVUE5OXdzeDh4NzFsWGRHbkxEYWk3WHUwT1N5eFNsTkpKSERiU1JJVjI2ZUxiM2NKdGc4WGdPU281WktkTQ?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Thu, 19 Nov 2026 15:49:25 GMT"
+          "title": "GTA 6: Neues Abenteuer mit Jason und Lucia führt in die Unterwelt von Vice City - TopTechNews",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaTRRLUwtbzhJNjlDUVFhRFNtX3NGbFFfalRtMjNJMmpQV19PbFpwOHpCMGVpWFZKTk15cnVWVlBVelNKdnBna0lGQXhrUF9fUEhTTmV5Vkc3NGtuRENjaHIyYUtFTmY4ckQyWVBvZXZ3V3FqNEhfdlkxMVRnYUppaWtMQzdHQk80djBfalYzSFZqZVJiRC05T2VyQWU4SUFpVENUWWJTRVFpRUNoMG5NNmM2cUxaejlkZXc?oc=5",
+          "source": "TopTechNews",
+          "pubDate": "Thu, 19 Nov 2026 20:46:50 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T17:50:32.538Z",
+      "updated": "2026-11-19T23:56:59.013Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -273,7 +273,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 53
+          "count": 54
         }
       ]
     },
@@ -282,9 +282,9 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 42,
-      "count24h": 29,
-      "publisherCount": 30,
+      "count7d": 40,
+      "count24h": 22,
+      "publisherCount": 28,
       "capped": false,
       "series": [
         {
@@ -301,7 +301,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 4
+          "count": 3
         },
         {
           "date": "2026-11-17",
@@ -309,14 +309,26 @@
         },
         {
           "date": "2026-11-18",
-          "count": 9
+          "count": 11
         },
         {
           "date": "2026-11-19",
-          "count": 25
+          "count": 22
         }
       ],
       "items": [
+        {
+          "title": "Streamer im GTA-6-Stripclub: Diese private Tanzeinlage bringt ihn in Verlegenheit - BILD",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPQ3UyazQ5dThkUnczdlJkY1hkNE82VWpseEN1XzMxcmh6YnpGa1JvUFhJeHlNdXI3WVNtbXQzZi1GOVJsaUtCWGhzMF8xNURsU3BsMWlfTHkxWlhFZDdqMmhhTlRHX2pCb0NZalpZc1RkeWJPRmRaWll4REZ5a1liMU9naXZLX3hDbVJaSHZ3VzBGRU0yT3Q3QkU5eTU0aFJsTmJvemR2VjgxaXJOVmNtSnRRWDFDLWtlMzdGN0praFk3OGt6d3Fyam9vNXNNNW1sMG5Naw?oc=5",
+          "source": "BILD",
+          "pubDate": "Thu, 19 Nov 2026 19:36:44 GMT"
+        },
+        {
+          "title": "GTA 6 ist das größte Spiel auf Twitch, doch an einem einzigen Europäer kommt es nicht vorbei - Mein-MMO",
+          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5pOGljMmc4M0pWRjlEWmxLb2tTVUNYSUZnNmFWbWNtcGVYdHB0cUxNY1c5a0FoY0l4VEdlenJWSVNzeU43OHhiazg3N2VEb25lcVA2c2R1dTI?oc=5",
+          "source": "Mein-MMO",
+          "pubDate": "Thu, 19 Nov 2026 19:00:00 GMT"
+        },
         {
           "title": "GTA 6: Asmongold verliert die Fassung – was ihn so wütend macht, ist kaum zu glauben - Buffed",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeU53Ulh1S2dQQm5GQnZ3aFk4MktwX1RxYUIwWDY5cEEyZFRzXzFhWjhxRjU0MDRZMXNHRHFPUHlFTXVORjZOR2c3VHpYUjFsN0laLXA2dDdaUVR3OHAtOVlTbGlPdjBwMGp0TWJyeTk2ZHF2R1B5T0Q0YnBoNUkxRXhXWDRzdw?oc=5",
@@ -328,22 +340,10 @@
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQc1kwWHV4YWVBZnhGR2NnOW5oSmZVVEQ1aW43VDdjc3N4WFUzcm1rRldHVWgzZDgzLWVaalV2akVNV2pqQnVFWHNXSXJtZ3BISGQ4aU1oZUFwWXZJN0MxaWJZUDFEU251OVpDZEYxd0dXWVI5Z3NMYk4yY1JWVUw3U3MwcUUyTURCT1VfeDdHMk8tdTVJMTl0RWtCRmJaTlM3UjVzelpQVlR3N0pnQjBPeFZQV3ZEbTdTZ25YemRR?oc=5",
           "source": "BILD",
           "pubDate": "Thu, 19 Nov 2026 16:09:56 GMT"
-        },
-        {
-          "title": "GTA 6 löst weltweiten Büro-Trend aus – Mitarbeiter handeln freie Tage mit ihren Chefs aus - Business Insider Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMmlmeWE2VFhYd3BRV0JXVEFXSEVKVENyWGRVWHhkVmFjM0RCcFZiN09jR0o2SmtuS2VqYnJZMHNWWU1SVGFMUmxaRkpJN1RHY0Q5a3NwTjZDWkVSeVdTU2xhZnUwRUdhUHdRZjFldENVdXBfZTRYWmdSdVZ5Tkw0WkVyLWRPZTlUNEZBUXFScXhYSjZBWjQ0VWItQVgyaGhTMnZMNE9vVm1wdUVqZFE?oc=5",
-          "source": "Business Insider Deutschland",
-          "pubDate": "Thu, 19 Nov 2026 15:35:51 GMT"
-        },
-        {
-          "title": "Die Veröffentlichung von GTA 6 sorgte für einen Rekord beim Online-Traffic und 7,91 Millionen gleichzeitige Zuschauer auf Streaming-Plattformen. - Informat.ro",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlg1RVFYOWd0aHdHY1lGWi1IRmtKQmpKRHdqNDJnNzNxblhXWVFWSXp4Rm1tLXNyS05VM3RHWnFGZUJJNjB2dWhWQ2pUdzFKc202QUg2VHVEdjNEMjhWU0ZJQmJJbXh2MzUtcGUxMlB3LVRRYkplSzJyLUpJazZwX1VITGl3MjBIQlBFNjMtdU9jY3ctQWJMMVNmdXd6S2tMS1FMSElUdTdOWmZ0YW05Sk9jY1ZnWWQ1?oc=5",
-          "source": "Informat.ro",
-          "pubDate": "Thu, 19 Nov 2026 15:26:39 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T17:50:32.538Z",
+      "updated": "2026-11-19T23:56:59.013Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -421,37 +421,37 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 71,
-      "publisherCount": 60,
+      "count24h": 51,
+      "publisherCount": 57,
       "capped": true,
       "series": [
         {
           "date": "2026-11-13",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-14",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-15",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-16",
-          "count": 1
+          "count": 4
         },
         {
           "date": "2026-11-17",
-          "count": 7
+          "count": 8
         },
         {
           "date": "2026-11-18",
-          "count": 22
+          "count": 29
         },
         {
           "date": "2026-11-19",
-          "count": 65
+          "count": 51
         }
       ],
       "items": [
@@ -459,29 +459,29 @@
           "title": "\"GTA 6\" ist spielbar: Darum ist der Hype so groß - NDR.de",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeDNfRjJiQzlSTWpYMUNMdE9lSjNfM3d5dE5vUGhxZDBzRVhldThlRXR3amdfZ0dBRFluSnc0LXlLRmFaYXlnRlpqQmxEUVlXdUlhR2pNZUN2bTBQdWRuOWl5QjBDTVVGcnNXaG9Zc21uNFFJWW5xcWhDOVBsQVEwdktlWjBQMkI3V1R0UFBZSm1PTW1OT3d1UUlCb2pmUGs?oc=5",
           "source": "NDR.de",
-          "pubDate": "Thu, 19 Nov 2026 17:47:25 GMT"
+          "pubDate": "Thu, 19 Nov 2026 21:48:09 GMT"
+        },
+        {
+          "title": "GTA 6 und Cloud-Gaming: Verändert GTA 6 die Spielewelt für immer? - WirtschaftsWoche",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaDd3Y2lVY3BTMWEyQThNcTRiczVGaDZ1ajBhUjdZcXdjWTBBaUluQ2RsS1kzNjBXcDlnNHZ6OGhqM01JTkNoOU56TUVKTS0zNHliM1JMZXNwMkpXWm1JMWRiRlV6TDA1a3FlcUdJRUl0SW8zOXhIU2FKTkk5RTFfN0ZyM0ZfaHJVdmRGWjU0VFNmeFZlWWdMRmlJNlNEN3dkMjB5NVp4Y3h6SEtwc2VuX095RTJWZw?oc=5",
+          "source": "WirtschaftsWoche",
+          "pubDate": "Thu, 19 Nov 2026 21:32:52 GMT"
+        },
+        {
+          "title": "GTA 6: Neues Abenteuer mit Jason und Lucia führt in die Unterwelt von Vice City - TopTechNews",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaTRRLUwtbzhJNjlDUVFhRFNtX3NGbFFfalRtMjNJMmpQV19PbFpwOHpCMGVpWFZKTk15cnVWVlBVelNKdnBna0lGQXhrUF9fUEhTTmV5Vkc3NGtuRENjaHIyYUtFTmY4ckQyWVBvZXZ3V3FqNEhfdlkxMVRnYUppaWtMQzdHQk80djBfalYzSFZqZVJiRC05T2VyQWU4SUFpVENUWWJTRVFpRUNoMG5NNmM2cUxaejlkZXc?oc=5",
+          "source": "TopTechNews",
+          "pubDate": "Thu, 19 Nov 2026 20:46:50 GMT"
         },
         {
           "title": "„GTA 6“ ist da – erste Tests, Downloadgröße und alle wichtigen Infos - Neue Westfälische",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcktaOTYtdEhaYTdNOU16Zkg3MzEzSVp2aXk4YkVjSTh2REpsQnNFWjhSd3N1VldocklRQ0lvejJfQ0UyZ2NGQXRPZ21YLVJ0U0xwX2RUaGxTVXNmYW80V1QtTnhzeDR0S2dySVA3SjZqMTFyMUhwZ01VbHNHMGJQZlE5ZUJCMUpjZ1U5bVUzWHJMWHV5dTNELUZwSVl6Wlp4b1EyMjFoRm83MzlVZXFCNGRVX2Izdnc?oc=5",
           "source": "Neue Westfälische",
-          "pubDate": "Thu, 19 Nov 2026 17:14:46 GMT"
-        },
-        {
-          "title": "„GTA VI“-Release sorgt in Fulda für ausverkaufte Spielekonsolen - Fuldaer Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVmdVaEJObWVxN2VjbVJDWmNhQWFQYjNhTzRVdE5KS2dKM0hSa0Q4aWJ6c3BQaW0tWEtENkt0OWNYbDFhVlo0TzlLRDA4UzEzX2Z5UUdSSjRSR25pQnBWUmRDek1BZUIyUkI5cG5LY0V6a3dQOTF6LVVFdU81Tk1vbGVOeDhHeDdkVTZud0tuV3FRS3BuclpscTlNZGMtMTBOTldpNXRoVjltMDdxTW5GUERR?oc=5",
-          "source": "Fuldaer Zeitung",
-          "pubDate": "Thu, 19 Nov 2026 17:12:43 GMT"
-        },
-        {
-          "title": "Müde Augen und leere Schulbänke Was Lehrer zum GTA-Start in Recklinghausen beobachten - Recklinghäuser Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZVo0TVRocE9IVk1hVS1pczIyUmx3cHhQemtCZGJOTmxFbWI5YU82Zjl0d0tqcF9SeGJBMWJoNnZ2c2pKUzhpY1p6eWtMLWJqZ250SWxQUGhIUFIzelJDMldDRzdYLWJyY19pZk1sX0g0Q3UwOXZ3cXdiZVZoRi05Z1RfVDZVai1URElYWWR2NDBmWnpWWW8weFNpNW4wZmdVbWNSZEpweFJaRzFKLUhpeEZ2aHl1bGhqSGh5R3ZBbE5TYnlzQ0JTM09BcWlpYkFNUFR0X05VcHRxMzM4Mjln?oc=5",
-          "source": "Recklinghäuser Zeitung",
-          "pubDate": "Thu, 19 Nov 2026 16:50:00 GMT"
+          "pubDate": "Thu, 19 Nov 2026 18:27:05 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T17:50:32.538Z",
+      "updated": "2026-11-19T23:56:59.013Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -949,6 +949,13 @@
     },
     {
       "at": "2026-11-19T17:50:32.534Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-19T23:56:59.010Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
