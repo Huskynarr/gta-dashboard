@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T11:11:10.523Z",
+  "updated": "2026-11-19T11:23:56.911Z",
   "source": "Yahoo Finance chart API",
   "series": {
     "7974": {
@@ -6234,15 +6234,15 @@
       "color": "#ffc857",
       "currency": "PLN",
       "exchange": "Warsaw",
-      "price": 280.6,
+      "price": 280.2,
       "previousClose": 229.2,
-      "changePct": -0.81,
-      "marketTime": "2026-11-19T10:56:06.000Z",
+      "changePct": -0.95,
+      "marketTime": "2026-11-19T11:08:54.000Z",
       "dayHigh": 284.5,
       "dayLow": 279.5,
       "fiftyTwoWeekHigh": 297,
       "fiftyTwoWeekLow": 211.3,
-      "volume": 125440,
+      "volume": 128648,
       "history": [
         {
           "date": "2025-11-06",
@@ -8313,8 +8313,8 @@
           "open": 282.9,
           "high": 284.5,
           "low": 279.5,
-          "close": 280.6,
-          "volume": 125440
+          "close": 280.2,
+          "volume": 128648
         }
       ]
     },
@@ -8327,15 +8327,15 @@
       "color": "#9b5cff",
       "currency": "EUR",
       "exchange": "Paris",
-      "price": 4.428,
+      "price": 4.434,
       "previousClose": 6.77,
-      "changePct": 4,
-      "marketTime": "2026-11-19T10:53:44.000Z",
+      "changePct": 4.17,
+      "marketTime": "2026-11-19T11:07:27.000Z",
       "dayHigh": 4.471,
       "dayLow": 4.263,
       "fiftyTwoWeekHigh": 8.094,
       "fiftyTwoWeekLow": 3.702,
-      "volume": 96906,
+      "volume": 97571,
       "history": [
         {
           "date": "2025-11-06",
@@ -10454,8 +10454,8 @@
           "open": 4.263,
           "high": 4.471,
           "low": 4.263,
-          "close": 4.428,
-          "volume": 96906
+          "close": 4.434,
+          "volume": 97571
         }
       ]
     },
@@ -30365,7 +30365,7 @@
       }
     },
     {
-      "ts": "2026-11-19T11:11:15.120Z",
+      "ts": "2026-11-19T11:24:01.116Z",
       "date": "2026-11-19",
       "slot": "morning",
       "prices": {
@@ -30382,12 +30382,12 @@
           "changePct": 7.57
         },
         "CDR": {
-          "price": 280.6,
-          "changePct": -0.81
+          "price": 280.2,
+          "changePct": -0.95
         },
         "UBI": {
-          "price": 4.428,
-          "changePct": 4
+          "price": 4.434,
+          "changePct": 4.17
         },
         "SONY": {
           "price": 26.67,

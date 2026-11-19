@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T11:11:15.124Z",
+  "updated": "2026-11-19T11:24:01.120Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T11:11:15.124Z",
+      "updated": "2026-11-19T11:24:01.120Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -145,7 +145,7 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 80,
+      "count24h": 78,
       "publisherCount": 39,
       "capped": true,
       "series": [
@@ -171,14 +171,20 @@
         },
         {
           "date": "2026-11-18",
-          "count": 49
+          "count": 47
         },
         {
           "date": "2026-11-19",
-          "count": 40
+          "count": 42
         }
       ],
       "items": [
+        {
+          "title": "Microsoft pflastert ungefragt das GTA 6-Motiv über personalisierte Xbox-Dashboards - IGN Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU1Z4MDdMX1NjRGlnQmhQRGVkNGl2WXAwZ3VFNkxyN3JWcnR4V2plMEdLLXVRU3RMTGlBa1Rfc0RTQ1lzbVlVREM3U0N0ZEQ0dVhWMFpXOTFVWmFoQ2RiM0VrMkd0UU9BY2hTTW52TzBhWENnb01rNmI0bXhyZWNyZ0JxcjJ1V19lRmdTSTd2V2ZmdzZjQVdUSlFsWXowQm1INW5yUVpSNnRFWDhZeEktSWotME12ck1qVFA0S2NBMmY3S0VteGZJ?oc=5",
+          "source": "IGN Deutschland",
+          "pubDate": "Thu, 19 Nov 2026 11:12:00 GMT"
+        },
         {
           "title": "GTA 6 stürzt auf Xbox Series X schon im Prolog ab - Allround-PC",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY0ZVT2FnbkxfOWRwSHFoSlo3RlI2d19iTUZEcU9GYm1tTjNGcFB2eS1zZ1EyY2w1a2t1N2Nvem5RQ2lKd2lkMWJwSHl2Q2pOcmg1b3dLb0ZFQVg3c3pqQ2pNbGFUV1FkTzZJeWYxS0FvaXZRNXZUMm1kc1RPQXlQQlpDTzVrLUEzMHI4d3ZvUjBVWUpWaWc?oc=5",
@@ -196,16 +202,10 @@
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb1kxMkJzSGtBYlBzTU9LdUFaZVlZT2ZpbDRhQTZtWHN6V3dTR3RiLXMyNUZUNmkyUW5VSndHS1lBb2ItZ2JTTjdYQmFaRkQ0UlFvaWpoXzVLSno2WFVsSDg3cG4yMTV1OGVhRS1uSzhOM2tBTlg2UnRZZWhLWjljXzhvOU9HaDIySkY1bGhGaXp2LXIwcGpHVzBNYVhiT2NIdDVVbkZKYmdwMmZv?oc=5",
           "source": "Merkur",
           "pubDate": "Thu, 19 Nov 2026 10:52:36 GMT"
-        },
-        {
-          "title": "Nur 30 FPS in GTA 6? Diese 10 Einstellungen holen trotzdem das Maximum raus - WinFuture",
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE9iSWs4cTlKSHVFd1oyZ3hEak9KLVVoUnlWWmRVSVRLQUM3LWtmaUtqTTg1UEE5LTVXSm81c1pRbkhiQQ?oc=5",
-          "source": "WinFuture",
-          "pubDate": "Thu, 19 Nov 2026 10:29:56 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T11:11:15.124Z",
+      "updated": "2026-11-19T11:24:01.120Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -273,7 +273,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 40
+          "count": 42
         }
       ]
     },
@@ -282,9 +282,9 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 44,
-      "count24h": 33,
-      "publisherCount": 28,
+      "count7d": 46,
+      "count24h": 34,
+      "publisherCount": 29,
       "capped": false,
       "series": [
         {
@@ -301,7 +301,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 3
+          "count": 4
         },
         {
           "date": "2026-11-17",
@@ -309,14 +309,20 @@
         },
         {
           "date": "2026-11-18",
-          "count": 17
+          "count": 16
         },
         {
           "date": "2026-11-19",
-          "count": 18
+          "count": 20
         }
       ],
       "items": [
+        {
+          "title": "\"Erst nach 25 Stunden gut?\" – Wir diskutieren die GTA 6 Kritik - GameStar",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeGtOQlc4anBHVDJSZFVaa0NTR0o1X1lSU2RDWXBMQ2VPeFdxWmhQOWwtNUFMMEZIQ2syX3JQT3NaMGdSaW5JY1dnSDdTZl9FQ2NiSUpXNlpTamIzX1JxOE9uU1pZRHFIdUY0dWUwVFFwMGljMU9xTmx2VXppT0x5c2xaVXJjaU0xeWxnNTE4VmFnRURqY0FpbVBoY3ZmV1pVRUE?oc=5",
+          "source": "GameStar",
+          "pubDate": "Thu, 19 Nov 2026 11:00:00 GMT"
+        },
         {
           "title": "GTA VI: Mit dem Auto in die Zukunft - Stuttgarter Nachrichten",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ1ZyaDRKaG9KY01VaXFlZFYzd1ZqeDR0WUdQalVkNjIyR2dGZWVLSmpjWl93cXNvMTZQWFpVWVdBR2dsZzFBQnR5Q25HR3B6R3E3em9aUUN6dTZobEhKRVFyeWRtdlIxX3N6dE9VMVFJazBJV2RNNkY4UTNqQUVseUptU1c3WTlUYmNVc1o4OGtGOUVsUmdzVG9RSQ?oc=5",
@@ -334,16 +340,10 @@
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS19Za3VKMkdtMWk4cU9PN3dZaldWSGtOaThPczgyV0R1MThmdUdaTkl1bzJ4RXhsQnhuYzdEUmtIMTBza2hMc3paeTlTQmVEd3B5M04yMlhOVWNvNGJQMTZMRkRhQjlUQ3VBNklUZnJQRXFJeVBvVzZSYjhUd3pIdDV3TElSNVN4OGxmZ1RlOVZaZXdoSkRKQjM0ak9JRFdqS1ZDeUZWSlF0amduMXozYjE4blVJOWVp?oc=5",
           "source": "General-Anzeiger Bonn",
           "pubDate": "Thu, 19 Nov 2026 09:42:00 GMT"
-        },
-        {
-          "title": "Instagram-Video geht viral: Trabzonspor macht GTA 6 Konkurrenz! - Sport Bild",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORTl6VkpnTjhPMngxZGFodFNRYWo1STN0em5yQkpmOE5wMEpPYWxfa1hYQ3V4ZXNFX1ptX2U0c0JLYWZRNXlSLVBJcjVvVlVFY2FQMzRSSXR5VVFfTmtSVHhVQjZ5VTJSWFVjcWlfQTVvd0QtWjNZUHZLREVKU0ZLRVJPNW45cGs1SFp0OXZjV1lMbUh0MkZVSFpTak1VSlJ4VU9JZHdjb00wOHFYQ0VLalgyeUtMX3hoOTR6RmRR?oc=5",
-          "source": "Sport Bild",
-          "pubDate": "Thu, 19 Nov 2026 09:37:43 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T11:11:15.124Z",
+      "updated": "2026-11-19T11:24:01.120Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -411,7 +411,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 18
+          "count": 20
         }
       ]
     },
@@ -420,9 +420,9 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 96,
+      "count7d": 97,
       "count24h": 63,
-      "publisherCount": 56,
+      "publisherCount": 57,
       "capped": false,
       "series": [
         {
@@ -435,7 +435,7 @@
         },
         {
           "date": "2026-11-15",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-16",
@@ -456,6 +456,12 @@
       ],
       "items": [
         {
+          "title": "tagesschau24 - Ilyass Alaoui, NDR, zur Veröffentlichung des Computerspiels 'GTA VI' - hier anschauen - ARD Mediathek",
+          "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxQb1ZkV1JlT2RGSW5xcnU0VXE4Sm8zSktFRlJ2WXBGYTZ3YUM4NFhVbk9nSGYwS2VUMkZoaTdZZ0NhbXNpbDM5YThZaWgtZDRKNXZKV19VSENMRVdkUnRLU2RVSUhfbkpXdG11YVV0QThiM1QxSGRCMWRiYTJ6b21KLW9RbFI5M1JiSjFqVi1nb0V4WHBrTlFRLUdKd0NOb2ROa2p6ekYxMkZnN3VDUGlfUFJ3YmU5WVdGcjN2dFlXeURnQU9PdG5QdmdJRGZwZVhaaldOZmp1YUs0WFNDYUN1dVdoVzJpWnk5WE43N2pmMzU1WTFyTGdmaTVyTWJwN1NvYWlLcVJLWk9na2NBWndyOGJKaFh1dUtHbC11S0d6M0t5RHRvOHBWTnZ3?oc=5",
+          "source": "ARD Mediathek",
+          "pubDate": "Thu, 19 Nov 2026 11:14:54 GMT"
+        },
+        {
           "title": "GTA 6: Extras der Ultimate Edition erfordern bis zu 60 Spielstunden – teils nur temporär nutzbar - Eurogamer.de",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IR2c2aGx3azhEU1BWQ2VhQkxCUU9GUGJITW1HUnRCOFJTMWJ5WDBicVZwTDBkcXkwdHlQZUVGMHB5MkJ2QVB2VExfajlQSWpoUThBbm9vUUx3bFNoVW5ubEQ2Z2p3UFFBMHRPUmdiSmUyR3c?oc=5",
           "source": "Eurogamer.de",
@@ -472,16 +478,10 @@
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeDNfRjJiQzlSTWpYMUNMdE9lSjNfM3d5dE5vUGhxZDBzRVhldThlRXR3amdfZ0dBRFluSnc0LXlLRmFaYXlnRlpqQmxEUVlXdUlhR2pNZUN2bTBQdWRuOWl5QjBDTVVGcnNXaG9Zc21uNFFJWW5xcWhDOVBsQVEwdktlWjBQMkI3V1R0UFBZSm1PTW1OT3d1UUlCb2pmUGs?oc=5",
           "source": "NDR.de",
           "pubDate": "Thu, 19 Nov 2026 10:16:04 GMT"
-        },
-        {
-          "title": "Vergesst die Gangster in Vice City: Warum die Tierwelt zum Launch von GTA 6 die weitaus größere Gefahr ist - Eurogamer.de",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5XYnBoRWZlbVdwNldYd2VoM25YVnltU2t1ekRWa0Z3WDYzQ1J1cklCd3lVNDRMSHV1MlhTYWgwNWRqMjQwbFBXQWxVN0tXckdpWlJCSmJUamFtdDVoZmtjcWJwdHYxa18wWG4xODRQR2hMLWN3RURpRg?oc=5",
-          "source": "Eurogamer.de",
-          "pubDate": "Thu, 19 Nov 2026 10:10:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T11:11:15.124Z",
+      "updated": "2026-11-19T11:24:01.120Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -934,7 +934,7 @@
       "signature": "wiki+news"
     },
     {
-      "at": "2026-11-19T11:11:14.688Z",
+      "at": "2026-11-19T11:24:01.032Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
