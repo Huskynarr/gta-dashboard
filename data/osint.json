@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T08:10:23.295Z",
+  "updated": "2026-11-19T11:11:14.688Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -828,6 +828,1490 @@
         {
           "date": "2026-11-18",
           "views": 41375
+        }
+      ]
+    },
+    "gta_fr": {
+      "key": "gta_fr",
+      "label": "GTA VI · FR",
+      "project": "fr.wikipedia",
+      "article": "Grand_Theft_Auto_VI",
+      "total": 194401,
+      "recent7": 69140,
+      "prev7": 18755,
+      "series": [
+        {
+          "date": "2026-08-21",
+          "views": 1366
+        },
+        {
+          "date": "2026-08-22",
+          "views": 1341
+        },
+        {
+          "date": "2026-08-23",
+          "views": 1439
+        },
+        {
+          "date": "2026-08-24",
+          "views": 1540
+        },
+        {
+          "date": "2026-08-25",
+          "views": 1536
+        },
+        {
+          "date": "2026-08-26",
+          "views": 1855
+        },
+        {
+          "date": "2026-08-27",
+          "views": 4088
+        },
+        {
+          "date": "2026-08-28",
+          "views": 6823
+        },
+        {
+          "date": "2026-08-29",
+          "views": 4046
+        },
+        {
+          "date": "2026-08-30",
+          "views": 3553
+        },
+        {
+          "date": "2026-08-31",
+          "views": 3156
+        },
+        {
+          "date": "2026-09-01",
+          "views": 2453
+        },
+        {
+          "date": "2026-09-02",
+          "views": 2062
+        },
+        {
+          "date": "2026-09-03",
+          "views": 1822
+        },
+        {
+          "date": "2026-09-04",
+          "views": 1652
+        },
+        {
+          "date": "2026-09-05",
+          "views": 1430
+        },
+        {
+          "date": "2026-09-06",
+          "views": 1324
+        },
+        {
+          "date": "2026-09-07",
+          "views": 1345
+        },
+        {
+          "date": "2026-09-08",
+          "views": 1302
+        },
+        {
+          "date": "2026-09-09",
+          "views": 1217
+        },
+        {
+          "date": "2026-09-10",
+          "views": 1131
+        },
+        {
+          "date": "2026-09-11",
+          "views": 1005
+        },
+        {
+          "date": "2026-09-12",
+          "views": 1031
+        },
+        {
+          "date": "2026-09-13",
+          "views": 1056
+        },
+        {
+          "date": "2026-09-14",
+          "views": 1002
+        },
+        {
+          "date": "2026-09-15",
+          "views": 1018
+        },
+        {
+          "date": "2026-09-16",
+          "views": 912
+        },
+        {
+          "date": "2026-09-17",
+          "views": 995
+        },
+        {
+          "date": "2026-09-18",
+          "views": 960
+        },
+        {
+          "date": "2026-09-19",
+          "views": 1015
+        },
+        {
+          "date": "2026-09-20",
+          "views": 931
+        },
+        {
+          "date": "2026-09-21",
+          "views": 873
+        },
+        {
+          "date": "2026-09-22",
+          "views": 909
+        },
+        {
+          "date": "2026-09-23",
+          "views": 1009
+        },
+        {
+          "date": "2026-09-24",
+          "views": 1021
+        },
+        {
+          "date": "2026-09-25",
+          "views": 1017
+        },
+        {
+          "date": "2026-09-26",
+          "views": 1068
+        },
+        {
+          "date": "2026-09-27",
+          "views": 1110
+        },
+        {
+          "date": "2026-09-28",
+          "views": 1011
+        },
+        {
+          "date": "2026-09-29",
+          "views": 883
+        },
+        {
+          "date": "2026-09-30",
+          "views": 942
+        },
+        {
+          "date": "2026-10-01",
+          "views": 930
+        },
+        {
+          "date": "2026-10-02",
+          "views": 883
+        },
+        {
+          "date": "2026-10-03",
+          "views": 893
+        },
+        {
+          "date": "2026-10-04",
+          "views": 903
+        },
+        {
+          "date": "2026-10-05",
+          "views": 808
+        },
+        {
+          "date": "2026-10-06",
+          "views": 835
+        },
+        {
+          "date": "2026-10-07",
+          "views": 795
+        },
+        {
+          "date": "2026-10-08",
+          "views": 872
+        },
+        {
+          "date": "2026-10-09",
+          "views": 901
+        },
+        {
+          "date": "2026-10-10",
+          "views": 1078
+        },
+        {
+          "date": "2026-10-11",
+          "views": 1169
+        },
+        {
+          "date": "2026-10-12",
+          "views": 1004
+        },
+        {
+          "date": "2026-10-13",
+          "views": 988
+        },
+        {
+          "date": "2026-10-14",
+          "views": 977
+        },
+        {
+          "date": "2026-10-15",
+          "views": 1531
+        },
+        {
+          "date": "2026-10-16",
+          "views": 1665
+        },
+        {
+          "date": "2026-10-17",
+          "views": 1132
+        },
+        {
+          "date": "2026-10-18",
+          "views": 1152
+        },
+        {
+          "date": "2026-10-19",
+          "views": 1117
+        },
+        {
+          "date": "2026-10-20",
+          "views": 1103
+        },
+        {
+          "date": "2026-10-21",
+          "views": 1095
+        },
+        {
+          "date": "2026-10-22",
+          "views": 1100
+        },
+        {
+          "date": "2026-10-23",
+          "views": 995
+        },
+        {
+          "date": "2026-10-24",
+          "views": 1209
+        },
+        {
+          "date": "2026-10-25",
+          "views": 1195
+        },
+        {
+          "date": "2026-10-26",
+          "views": 1086
+        },
+        {
+          "date": "2026-10-27",
+          "views": 1155
+        },
+        {
+          "date": "2026-10-28",
+          "views": 1233
+        },
+        {
+          "date": "2026-10-29",
+          "views": 1236
+        },
+        {
+          "date": "2026-10-30",
+          "views": 1238
+        },
+        {
+          "date": "2026-10-31",
+          "views": 1163
+        },
+        {
+          "date": "2026-11-01",
+          "views": 1607
+        },
+        {
+          "date": "2026-11-02",
+          "views": 1599
+        },
+        {
+          "date": "2026-11-03",
+          "views": 1793
+        },
+        {
+          "date": "2026-11-04",
+          "views": 1817
+        },
+        {
+          "date": "2026-11-05",
+          "views": 1834
+        },
+        {
+          "date": "2026-11-06",
+          "views": 1996
+        },
+        {
+          "date": "2026-11-07",
+          "views": 1923
+        },
+        {
+          "date": "2026-11-08",
+          "views": 2180
+        },
+        {
+          "date": "2026-11-09",
+          "views": 2826
+        },
+        {
+          "date": "2026-11-10",
+          "views": 3757
+        },
+        {
+          "date": "2026-11-11",
+          "views": 4239
+        },
+        {
+          "date": "2026-11-12",
+          "views": 6295
+        },
+        {
+          "date": "2026-11-13",
+          "views": 6207
+        },
+        {
+          "date": "2026-11-14",
+          "views": 5849
+        },
+        {
+          "date": "2026-11-15",
+          "views": 6987
+        },
+        {
+          "date": "2026-11-16",
+          "views": 8785
+        },
+        {
+          "date": "2026-11-17",
+          "views": 9501
+        },
+        {
+          "date": "2026-11-18",
+          "views": 25516
+        }
+      ]
+    },
+    "gta_series": {
+      "key": "gta_series",
+      "label": "Grand Theft Auto · Reihe",
+      "project": "en.wikipedia",
+      "article": "Grand_Theft_Auto",
+      "total": 823314,
+      "recent7": 273297,
+      "prev7": 72242,
+      "series": [
+        {
+          "date": "2026-08-21",
+          "views": 5226
+        },
+        {
+          "date": "2026-08-22",
+          "views": 5512
+        },
+        {
+          "date": "2026-08-23",
+          "views": 5767
+        },
+        {
+          "date": "2026-08-24",
+          "views": 5946
+        },
+        {
+          "date": "2026-08-25",
+          "views": 5834
+        },
+        {
+          "date": "2026-08-26",
+          "views": 6950
+        },
+        {
+          "date": "2026-08-27",
+          "views": 12323
+        },
+        {
+          "date": "2026-08-28",
+          "views": 27528
+        },
+        {
+          "date": "2026-08-29",
+          "views": 18088
+        },
+        {
+          "date": "2026-08-30",
+          "views": 16089
+        },
+        {
+          "date": "2026-08-31",
+          "views": 14275
+        },
+        {
+          "date": "2026-09-01",
+          "views": 10477
+        },
+        {
+          "date": "2026-09-02",
+          "views": 9636
+        },
+        {
+          "date": "2026-09-03",
+          "views": 8764
+        },
+        {
+          "date": "2026-09-04",
+          "views": 9727
+        },
+        {
+          "date": "2026-09-05",
+          "views": 8043
+        },
+        {
+          "date": "2026-09-06",
+          "views": 8003
+        },
+        {
+          "date": "2026-09-07",
+          "views": 7440
+        },
+        {
+          "date": "2026-09-08",
+          "views": 6714
+        },
+        {
+          "date": "2026-09-09",
+          "views": 5986
+        },
+        {
+          "date": "2026-09-10",
+          "views": 5676
+        },
+        {
+          "date": "2026-09-11",
+          "views": 5847
+        },
+        {
+          "date": "2026-09-12",
+          "views": 5638
+        },
+        {
+          "date": "2026-09-13",
+          "views": 5402
+        },
+        {
+          "date": "2026-09-14",
+          "views": 4948
+        },
+        {
+          "date": "2026-09-15",
+          "views": 4499
+        },
+        {
+          "date": "2026-09-16",
+          "views": 4766
+        },
+        {
+          "date": "2026-09-17",
+          "views": 5225
+        },
+        {
+          "date": "2026-09-18",
+          "views": 5025
+        },
+        {
+          "date": "2026-09-19",
+          "views": 4886
+        },
+        {
+          "date": "2026-09-20",
+          "views": 4716
+        },
+        {
+          "date": "2026-09-21",
+          "views": 4338
+        },
+        {
+          "date": "2026-09-22",
+          "views": 4342
+        },
+        {
+          "date": "2026-09-23",
+          "views": 4543
+        },
+        {
+          "date": "2026-09-24",
+          "views": 4373
+        },
+        {
+          "date": "2026-09-25",
+          "views": 4493
+        },
+        {
+          "date": "2026-09-26",
+          "views": 4334
+        },
+        {
+          "date": "2026-09-27",
+          "views": 4280
+        },
+        {
+          "date": "2026-09-28",
+          "views": 4152
+        },
+        {
+          "date": "2026-09-29",
+          "views": 3901
+        },
+        {
+          "date": "2026-09-30",
+          "views": 3802
+        },
+        {
+          "date": "2026-10-01",
+          "views": 3898
+        },
+        {
+          "date": "2026-10-02",
+          "views": 3997
+        },
+        {
+          "date": "2026-10-03",
+          "views": 4184
+        },
+        {
+          "date": "2026-10-04",
+          "views": 4440
+        },
+        {
+          "date": "2026-10-05",
+          "views": 3970
+        },
+        {
+          "date": "2026-10-06",
+          "views": 4024
+        },
+        {
+          "date": "2026-10-07",
+          "views": 3981
+        },
+        {
+          "date": "2026-10-08",
+          "views": 4183
+        },
+        {
+          "date": "2026-10-09",
+          "views": 4349
+        },
+        {
+          "date": "2026-10-10",
+          "views": 4058
+        },
+        {
+          "date": "2026-10-11",
+          "views": 4340
+        },
+        {
+          "date": "2026-10-12",
+          "views": 4202
+        },
+        {
+          "date": "2026-10-13",
+          "views": 4462
+        },
+        {
+          "date": "2026-10-14",
+          "views": 4915
+        },
+        {
+          "date": "2026-10-15",
+          "views": 6305
+        },
+        {
+          "date": "2026-10-16",
+          "views": 7092
+        },
+        {
+          "date": "2026-10-17",
+          "views": 5961
+        },
+        {
+          "date": "2026-10-18",
+          "views": 5587
+        },
+        {
+          "date": "2026-10-19",
+          "views": 5611
+        },
+        {
+          "date": "2026-10-20",
+          "views": 5521
+        },
+        {
+          "date": "2026-10-21",
+          "views": 5828
+        },
+        {
+          "date": "2026-10-22",
+          "views": 6171
+        },
+        {
+          "date": "2026-10-23",
+          "views": 5262
+        },
+        {
+          "date": "2026-10-24",
+          "views": 5276
+        },
+        {
+          "date": "2026-10-25",
+          "views": 5755
+        },
+        {
+          "date": "2026-10-26",
+          "views": 5250
+        },
+        {
+          "date": "2026-10-27",
+          "views": 5263
+        },
+        {
+          "date": "2026-10-28",
+          "views": 5307
+        },
+        {
+          "date": "2026-10-29",
+          "views": 6198
+        },
+        {
+          "date": "2026-10-30",
+          "views": 5306
+        },
+        {
+          "date": "2026-10-31",
+          "views": 4948
+        },
+        {
+          "date": "2026-11-01",
+          "views": 5580
+        },
+        {
+          "date": "2026-11-02",
+          "views": 5965
+        },
+        {
+          "date": "2026-11-03",
+          "views": 6761
+        },
+        {
+          "date": "2026-11-04",
+          "views": 6311
+        },
+        {
+          "date": "2026-11-05",
+          "views": 7652
+        },
+        {
+          "date": "2026-11-06",
+          "views": 8910
+        },
+        {
+          "date": "2026-11-07",
+          "views": 8136
+        },
+        {
+          "date": "2026-11-08",
+          "views": 9180
+        },
+        {
+          "date": "2026-11-09",
+          "views": 10440
+        },
+        {
+          "date": "2026-11-10",
+          "views": 13243
+        },
+        {
+          "date": "2026-11-11",
+          "views": 14681
+        },
+        {
+          "date": "2026-11-12",
+          "views": 18464
+        },
+        {
+          "date": "2026-11-13",
+          "views": 20235
+        },
+        {
+          "date": "2026-11-14",
+          "views": 22605
+        },
+        {
+          "date": "2026-11-15",
+          "views": 27244
+        },
+        {
+          "date": "2026-11-16",
+          "views": 33200
+        },
+        {
+          "date": "2026-11-17",
+          "views": 40881
+        },
+        {
+          "date": "2026-11-18",
+          "views": 110668
+        }
+      ]
+    },
+    "gta5_en": {
+      "key": "gta5_en",
+      "label": "GTA V · EN",
+      "project": "en.wikipedia",
+      "article": "Grand_Theft_Auto_V",
+      "total": 1045209,
+      "recent7": 233238,
+      "prev7": 82173,
+      "series": [
+        {
+          "date": "2026-08-21",
+          "views": 9977
+        },
+        {
+          "date": "2026-08-22",
+          "views": 9967
+        },
+        {
+          "date": "2026-08-23",
+          "views": 10954
+        },
+        {
+          "date": "2026-08-24",
+          "views": 9898
+        },
+        {
+          "date": "2026-08-25",
+          "views": 10226
+        },
+        {
+          "date": "2026-08-26",
+          "views": 11412
+        },
+        {
+          "date": "2026-08-27",
+          "views": 17633
+        },
+        {
+          "date": "2026-08-28",
+          "views": 32343
+        },
+        {
+          "date": "2026-08-29",
+          "views": 23339
+        },
+        {
+          "date": "2026-08-30",
+          "views": 21870
+        },
+        {
+          "date": "2026-08-31",
+          "views": 18877
+        },
+        {
+          "date": "2026-09-01",
+          "views": 15943
+        },
+        {
+          "date": "2026-09-02",
+          "views": 14171
+        },
+        {
+          "date": "2026-09-03",
+          "views": 13325
+        },
+        {
+          "date": "2026-09-04",
+          "views": 13432
+        },
+        {
+          "date": "2026-09-05",
+          "views": 12878
+        },
+        {
+          "date": "2026-09-06",
+          "views": 13046
+        },
+        {
+          "date": "2026-09-07",
+          "views": 11054
+        },
+        {
+          "date": "2026-09-08",
+          "views": 10421
+        },
+        {
+          "date": "2026-09-09",
+          "views": 10222
+        },
+        {
+          "date": "2026-09-10",
+          "views": 9209
+        },
+        {
+          "date": "2026-09-11",
+          "views": 9968
+        },
+        {
+          "date": "2026-09-12",
+          "views": 10434
+        },
+        {
+          "date": "2026-09-13",
+          "views": 10515
+        },
+        {
+          "date": "2026-09-14",
+          "views": 9426
+        },
+        {
+          "date": "2026-09-15",
+          "views": 9443
+        },
+        {
+          "date": "2026-09-16",
+          "views": 9089
+        },
+        {
+          "date": "2026-09-17",
+          "views": 10708
+        },
+        {
+          "date": "2026-09-18",
+          "views": 9449
+        },
+        {
+          "date": "2026-09-19",
+          "views": 9037
+        },
+        {
+          "date": "2026-09-20",
+          "views": 9126
+        },
+        {
+          "date": "2026-09-21",
+          "views": 7965
+        },
+        {
+          "date": "2026-09-22",
+          "views": 8025
+        },
+        {
+          "date": "2026-09-23",
+          "views": 7901
+        },
+        {
+          "date": "2026-09-24",
+          "views": 7694
+        },
+        {
+          "date": "2026-09-25",
+          "views": 8093
+        },
+        {
+          "date": "2026-09-26",
+          "views": 8442
+        },
+        {
+          "date": "2026-09-27",
+          "views": 8532
+        },
+        {
+          "date": "2026-09-28",
+          "views": 7208
+        },
+        {
+          "date": "2026-09-29",
+          "views": 6940
+        },
+        {
+          "date": "2026-09-30",
+          "views": 6111
+        },
+        {
+          "date": "2026-10-01",
+          "views": 6125
+        },
+        {
+          "date": "2026-10-02",
+          "views": 6487
+        },
+        {
+          "date": "2026-10-03",
+          "views": 6550
+        },
+        {
+          "date": "2026-10-04",
+          "views": 7025
+        },
+        {
+          "date": "2026-10-05",
+          "views": 5898
+        },
+        {
+          "date": "2026-10-06",
+          "views": 5642
+        },
+        {
+          "date": "2026-10-07",
+          "views": 5970
+        },
+        {
+          "date": "2026-10-08",
+          "views": 5851
+        },
+        {
+          "date": "2026-10-09",
+          "views": 6107
+        },
+        {
+          "date": "2026-10-10",
+          "views": 6704
+        },
+        {
+          "date": "2026-10-11",
+          "views": 7269
+        },
+        {
+          "date": "2026-10-12",
+          "views": 6668
+        },
+        {
+          "date": "2026-10-13",
+          "views": 7234
+        },
+        {
+          "date": "2026-10-14",
+          "views": 7214
+        },
+        {
+          "date": "2026-10-15",
+          "views": 8979
+        },
+        {
+          "date": "2026-10-16",
+          "views": 9008
+        },
+        {
+          "date": "2026-10-17",
+          "views": 8505
+        },
+        {
+          "date": "2026-10-18",
+          "views": 8593
+        },
+        {
+          "date": "2026-10-19",
+          "views": 8283
+        },
+        {
+          "date": "2026-10-20",
+          "views": 8055
+        },
+        {
+          "date": "2026-10-21",
+          "views": 7870
+        },
+        {
+          "date": "2026-10-22",
+          "views": 7673
+        },
+        {
+          "date": "2026-10-23",
+          "views": 7214
+        },
+        {
+          "date": "2026-10-24",
+          "views": 7271
+        },
+        {
+          "date": "2026-10-25",
+          "views": 7872
+        },
+        {
+          "date": "2026-10-26",
+          "views": 7229
+        },
+        {
+          "date": "2026-10-27",
+          "views": 7243
+        },
+        {
+          "date": "2026-10-28",
+          "views": 7052
+        },
+        {
+          "date": "2026-10-29",
+          "views": 7809
+        },
+        {
+          "date": "2026-10-30",
+          "views": 7228
+        },
+        {
+          "date": "2026-10-31",
+          "views": 7029
+        },
+        {
+          "date": "2026-11-01",
+          "views": 7577
+        },
+        {
+          "date": "2026-11-02",
+          "views": 7671
+        },
+        {
+          "date": "2026-11-03",
+          "views": 8373
+        },
+        {
+          "date": "2026-11-04",
+          "views": 8217
+        },
+        {
+          "date": "2026-11-05",
+          "views": 9005
+        },
+        {
+          "date": "2026-11-06",
+          "views": 9773
+        },
+        {
+          "date": "2026-11-07",
+          "views": 9249
+        },
+        {
+          "date": "2026-11-08",
+          "views": 10158
+        },
+        {
+          "date": "2026-11-09",
+          "views": 11836
+        },
+        {
+          "date": "2026-11-10",
+          "views": 15479
+        },
+        {
+          "date": "2026-11-11",
+          "views": 16673
+        },
+        {
+          "date": "2026-11-12",
+          "views": 19200
+        },
+        {
+          "date": "2026-11-13",
+          "views": 20845
+        },
+        {
+          "date": "2026-11-14",
+          "views": 21835
+        },
+        {
+          "date": "2026-11-15",
+          "views": 24605
+        },
+        {
+          "date": "2026-11-16",
+          "views": 29091
+        },
+        {
+          "date": "2026-11-17",
+          "views": 36313
+        },
+        {
+          "date": "2026-11-18",
+          "views": 81349
+        }
+      ]
+    },
+    "rockstar_en": {
+      "key": "rockstar_en",
+      "label": "Rockstar Games · EN",
+      "project": "en.wikipedia",
+      "article": "Rockstar_Games",
+      "total": 642554,
+      "recent7": 195265,
+      "prev7": 56946,
+      "series": [
+        {
+          "date": "2026-08-21",
+          "views": 6383
+        },
+        {
+          "date": "2026-08-22",
+          "views": 6092
+        },
+        {
+          "date": "2026-08-23",
+          "views": 6786
+        },
+        {
+          "date": "2026-08-24",
+          "views": 6889
+        },
+        {
+          "date": "2026-08-25",
+          "views": 5971
+        },
+        {
+          "date": "2026-08-26",
+          "views": 8465
+        },
+        {
+          "date": "2026-08-27",
+          "views": 13326
+        },
+        {
+          "date": "2026-08-28",
+          "views": 27065
+        },
+        {
+          "date": "2026-08-29",
+          "views": 21999
+        },
+        {
+          "date": "2026-08-30",
+          "views": 12985
+        },
+        {
+          "date": "2026-08-31",
+          "views": 11424
+        },
+        {
+          "date": "2026-09-01",
+          "views": 8488
+        },
+        {
+          "date": "2026-09-02",
+          "views": 7266
+        },
+        {
+          "date": "2026-09-03",
+          "views": 6347
+        },
+        {
+          "date": "2026-09-04",
+          "views": 6062
+        },
+        {
+          "date": "2026-09-05",
+          "views": 5620
+        },
+        {
+          "date": "2026-09-06",
+          "views": 5395
+        },
+        {
+          "date": "2026-09-07",
+          "views": 5014
+        },
+        {
+          "date": "2026-09-08",
+          "views": 4737
+        },
+        {
+          "date": "2026-09-09",
+          "views": 4202
+        },
+        {
+          "date": "2026-09-10",
+          "views": 4246
+        },
+        {
+          "date": "2026-09-11",
+          "views": 4340
+        },
+        {
+          "date": "2026-09-12",
+          "views": 3977
+        },
+        {
+          "date": "2026-09-13",
+          "views": 3847
+        },
+        {
+          "date": "2026-09-14",
+          "views": 3617
+        },
+        {
+          "date": "2026-09-15",
+          "views": 3249
+        },
+        {
+          "date": "2026-09-16",
+          "views": 3403
+        },
+        {
+          "date": "2026-09-17",
+          "views": 3805
+        },
+        {
+          "date": "2026-09-18",
+          "views": 3483
+        },
+        {
+          "date": "2026-09-19",
+          "views": 3234
+        },
+        {
+          "date": "2026-09-20",
+          "views": 3284
+        },
+        {
+          "date": "2026-09-21",
+          "views": 3139
+        },
+        {
+          "date": "2026-09-22",
+          "views": 3155
+        },
+        {
+          "date": "2026-09-23",
+          "views": 3239
+        },
+        {
+          "date": "2026-09-24",
+          "views": 3351
+        },
+        {
+          "date": "2026-09-25",
+          "views": 3235
+        },
+        {
+          "date": "2026-09-26",
+          "views": 3029
+        },
+        {
+          "date": "2026-09-27",
+          "views": 3062
+        },
+        {
+          "date": "2026-09-28",
+          "views": 3418
+        },
+        {
+          "date": "2026-09-29",
+          "views": 3154
+        },
+        {
+          "date": "2026-09-30",
+          "views": 2939
+        },
+        {
+          "date": "2026-10-01",
+          "views": 2924
+        },
+        {
+          "date": "2026-10-02",
+          "views": 2994
+        },
+        {
+          "date": "2026-10-03",
+          "views": 3193
+        },
+        {
+          "date": "2026-10-04",
+          "views": 3081
+        },
+        {
+          "date": "2026-10-05",
+          "views": 3171
+        },
+        {
+          "date": "2026-10-06",
+          "views": 3038
+        },
+        {
+          "date": "2026-10-07",
+          "views": 3080
+        },
+        {
+          "date": "2026-10-08",
+          "views": 2986
+        },
+        {
+          "date": "2026-10-09",
+          "views": 2898
+        },
+        {
+          "date": "2026-10-10",
+          "views": 2881
+        },
+        {
+          "date": "2026-10-11",
+          "views": 2983
+        },
+        {
+          "date": "2026-10-12",
+          "views": 3131
+        },
+        {
+          "date": "2026-10-13",
+          "views": 3492
+        },
+        {
+          "date": "2026-10-14",
+          "views": 5058
+        },
+        {
+          "date": "2026-10-15",
+          "views": 5911
+        },
+        {
+          "date": "2026-10-16",
+          "views": 6012
+        },
+        {
+          "date": "2026-10-17",
+          "views": 4808
+        },
+        {
+          "date": "2026-10-18",
+          "views": 4358
+        },
+        {
+          "date": "2026-10-19",
+          "views": 4345
+        },
+        {
+          "date": "2026-10-20",
+          "views": 4416
+        },
+        {
+          "date": "2026-10-21",
+          "views": 4308
+        },
+        {
+          "date": "2026-10-22",
+          "views": 4265
+        },
+        {
+          "date": "2026-10-23",
+          "views": 3776
+        },
+        {
+          "date": "2026-10-24",
+          "views": 3782
+        },
+        {
+          "date": "2026-10-25",
+          "views": 3921
+        },
+        {
+          "date": "2026-10-26",
+          "views": 4512
+        },
+        {
+          "date": "2026-10-27",
+          "views": 3980
+        },
+        {
+          "date": "2026-10-28",
+          "views": 3802
+        },
+        {
+          "date": "2026-10-29",
+          "views": 4595
+        },
+        {
+          "date": "2026-10-30",
+          "views": 3868
+        },
+        {
+          "date": "2026-10-31",
+          "views": 3538
+        },
+        {
+          "date": "2026-11-01",
+          "views": 3978
+        },
+        {
+          "date": "2026-11-02",
+          "views": 4516
+        },
+        {
+          "date": "2026-11-03",
+          "views": 5291
+        },
+        {
+          "date": "2026-11-04",
+          "views": 4729
+        },
+        {
+          "date": "2026-11-05",
+          "views": 7706
+        },
+        {
+          "date": "2026-11-06",
+          "views": 8005
+        },
+        {
+          "date": "2026-11-07",
+          "views": 6192
+        },
+        {
+          "date": "2026-11-08",
+          "views": 6036
+        },
+        {
+          "date": "2026-11-09",
+          "views": 7582
+        },
+        {
+          "date": "2026-11-10",
+          "views": 10386
+        },
+        {
+          "date": "2026-11-11",
+          "views": 11039
+        },
+        {
+          "date": "2026-11-12",
+          "views": 13766
+        },
+        {
+          "date": "2026-11-13",
+          "views": 14335
+        },
+        {
+          "date": "2026-11-14",
+          "views": 15767
+        },
+        {
+          "date": "2026-11-15",
+          "views": 18590
+        },
+        {
+          "date": "2026-11-16",
+          "views": 23946
+        },
+        {
+          "date": "2026-11-17",
+          "views": 29538
+        },
+        {
+          "date": "2026-11-18",
+          "views": 79323
         }
       ]
     },
@@ -1666,9 +3150,9 @@
     "gta_en": {
       "key": "gta_en",
       "label": "GTA VI · EN",
-      "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
+      "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 89,
+      "count24h": 68,
       "series": [
         {
           "date": "2026-11-13",
@@ -1684,57 +3168,57 @@
         },
         {
           "date": "2026-11-16",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-17",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-18",
-          "count": 69
+          "count": 58
         },
         {
           "date": "2026-11-19",
-          "count": 22
+          "count": 33
         }
       ],
       "items": [
         {
-          "title": "The full 'GTA 6' soundtrack reportedly leaked: See all artists and tracks - Mashable",
+          "title": "'GTA 6': How to use a talking parrot to find a stash of money - Mashable",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IanhESkJPU2JUZ2FVeV9oaDU4M0pWWXRkZXlWSTVnYWdPcV9FczhoXzcyU3J0dnZEMHNCSzNicHZ5SUk0ODhRbVNUWlNDNGw1QkVPOUxLUVYtUVo4M0w3b1FLS3k5LXlaTmNfbXJoR0VVU1lYamc?oc=5",
+          "source": "Mashable",
+          "pubDate": "Thu, 19 Nov 2026 11:07:01 GMT"
+        },
+        {
+          "title": "\"GTA VI\" is here. Here's how Utah fought games like it. - Axios",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQLWUtOVRmVFhXUDF4cTdRN3NFX1hoUXJtNlBTZExLcXhCQ0RzeEFMampoNHY4SnUweWZHZW9Oc0hSWFc1YzRpLTJRZ0xDVVBEOVZDdjFPVHkzYzVaSlNFbnVHY0ZCZ1g1MzJlUmhVMklDaG5EN2ZqYkdZcTIxN0VJVUdUelY1SDA4MzZKY2RYT0VoUEdqejJNX0xYT01IVlBoZERUM2gzVlBfLWFn?oc=5",
+          "source": "Axios",
+          "pubDate": "Thu, 19 Nov 2026 11:04:55 GMT"
+        },
+        {
+          "title": "GTA 6: Should you kill or spare Arnold? What to know. - Mashable",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4dG1US1dCcW5qOUdRMzNNR0daTnFKZEQ1bFNKZG5Ca0tPRkFzVWEzVFRfQy1oc0w0X193M2FmYWpCTUNISURZakk0VW9UYnJQSnVXd0o5VmZFZlE0ME9ZOWx1OG4xd2hZX2pvYXhB?oc=5",
+          "source": "Mashable",
+          "pubDate": "Thu, 19 Nov 2026 11:04:43 GMT"
+        },
+        {
+          "title": "‘GTA VI’ Is Finally Out - Rolling Stone",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYS1HaTVmWjhxcC1NSVp2TU5DcWM4MFhKck1qdUw4NVpmYXBkODRlMEFkeHJTZXV6LUpKNFZ2bnJkR25tTXFHM3RnV2EtZ1RSTXdoYlBRNXdGeEd3OGYwSkFZZXVfREtranRGYzBYVncxWkxFNUFSUnliSnpLQVBuQ2ZwWXNRQVJHcW40R0hHeTFmdTg?oc=5",
+          "source": "Rolling Stone",
+          "pubDate": "Thu, 19 Nov 2026 11:00:00 GMT"
+        },
+        {
+          "title": "The full 'GTA 6' soundtrack reportedly leaked: See every artist and track - Mashable",
           "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LazFtLVpoQTd1d2hnOUJsdGRGLVZJMExPVzlZREFaUXVFNVBCaUJRTkt1a1A4NHlqel9nUGtFcnNqWGJyeXg0ZTRTWmRfeGRFekFHaURqdUlRYXkybTRv?oc=5",
           "source": "Mashable",
-          "pubDate": "Thu, 19 Nov 2026 07:44:23 GMT"
+          "pubDate": "Thu, 19 Nov 2026 10:45:25 GMT"
         },
         {
-          "title": "The New Zealand Trick Works Like a Charm. How to Play GTA 6 Right Now - PCMag",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSWsteU5JeWFTMnB5UEJjcUdZVHptX3hoMTRwaUlmV01pNUI0a2dkdjZVa3B6WlNjR3g1dW1fYkNBR2dROUtJMTh5NnB2X2pKSUYzTllOaXZicDhIRm42ZjdZdTl5WUx4eU9xSmRjWWhDZk9LbU5BblJ5TDZsYXRPMjFLbEtUNkw5cGJhS0ZvV3FxOVNoY0hUTXlYWQ?oc=5",
-          "source": "PCMag",
-          "pubDate": "Thu, 19 Nov 2026 07:38:09 GMT"
-        },
-        {
-          "title": "'GTA 6' on Xbox Series S: How well it actually runs - Mashable",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tTTVvM0JOMzF6MGFJOXNUa2lwOE5GWVQtRmU2TUY2dkFNcXhFUlR1NVJHTTVtakM0clFiUlV4Zzdhb3NnandTeVk0OEhfWWhfTzdMLXVDenp0cm5SYjF4SUd2bFp5N2IyZm1WRFZ6RmFfczl1?oc=5",
-          "source": "Mashable",
-          "pubDate": "Thu, 19 Nov 2026 07:30:00 GMT"
-        },
-        {
-          "title": "How to Make Money Fast in GTA 6 - VICE",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NZEJkSFpaV3pUN1UxMW1EaVR2cWNnWHJ5UGVsZUdCVVVjd1BNelVoWWprVkd4dkpFaExjZUpIbVB6Vk9haDd4ajZNWDFJaHgybi1JTEZUakdTOU1Tdm9OQjhYZG1BN1g1OG5hWGpR?oc=5",
-          "source": "VICE",
-          "pubDate": "Thu, 19 Nov 2026 07:21:18 GMT"
-        },
-        {
-          "title": "Soldiers sign up to play ‘Grand Theft Auto VI’ in exchange for reenlisting - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbGstLUJXanc0c0tYRVV2RWNvVnFjc2cycS1waWhENTdhYkNMY3NESTY5aDhCY0ZhN1NOUkxfaTd6UnhBVURhRC01cWF6aHpVczFfLVU0THJidWVXUlJXWnctVmQ0UTlFOGlOblNJT044Z0hPR0FNb2NTT3VuNzJoT2hHXy1TNzZyUk9UdjRMemFoOHRNMHR4dDF5WS15MGYtbGdTSHhmY2pneFhEekpxblNtMGtMX1dRQ0JxdDUwVTc?oc=5",
-          "source": "The Washington Post",
-          "pubDate": "Thu, 19 Nov 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Rockstar hints massive 'GTA 6' map saved room for future content - Mashable",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd2VRMGhHMzg1OTZBN2hRYkstdmR0c2ZFN21KZkVzVExVZ1M4bzRSTFZ1bmxfOG5xaW9OUXhVa244dkJrbVctM19UYXh3ZW1INmJySHN0OXdGRFRBR2pERXpjYWpOdzlqc2NNQUZoamlFSkJqcHROVlJ6N3ZSQXVJZ0Zn?oc=5",
-          "source": "Mashable",
-          "pubDate": "Thu, 19 Nov 2026 06:50:15 GMT"
+          "title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6 - BBC",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1RQTFYUUNWbWRxVHh5QWx2RlhJU1NhdU1MR1puSy1uNUF4ZnA2Nmc0Q0J0blhXZ2VmcU9fTm9fSW13bDhvUnQ4VHlHQW1fbUJ0dVV4aFI2Znh2Tjg?oc=5",
+          "source": "BBC",
+          "pubDate": "Thu, 19 Nov 2026 10:32:10 GMT"
         }
       ],
       "history": [
@@ -1808,20 +3292,20 @@
         },
         {
           "date": "2026-11-19",
-          "count": 22
+          "count": 33
         }
       ]
     },
     "gta_de": {
       "key": "gta_de",
       "label": "GTA VI · DE",
-      "query": "(\"GTA 6\" OR \"Grand Theft Auto VI\")",
+      "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 81,
+      "count24h": 86,
       "series": [
         {
           "date": "2026-11-13",
-          "count": 2
+          "count": 1
         },
         {
           "date": "2026-11-14",
@@ -1829,61 +3313,61 @@
         },
         {
           "date": "2026-11-15",
-          "count": 3
+          "count": 1
         },
         {
           "date": "2026-11-16",
-          "count": 2
+          "count": 1
         },
         {
           "date": "2026-11-17",
-          "count": 5
+          "count": 2
         },
         {
           "date": "2026-11-18",
-          "count": 43
+          "count": 26
         },
         {
           "date": "2026-11-19",
-          "count": 43
+          "count": 67
         }
       ],
       "items": [
         {
-          "title": "Zwischen Begeisterung und Kritik: GTA 6 ist da – „eine neue Ära für alle Spieler“ - RP Online",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOG9CQjYxZW1reGtwQWF1dFJhZ1VYLTA3Tlc2eF9oV3FyMVJfOFhsa1E0TUZ1cjFFbVBfNjRCZ1JJVmFlai1vNmRsZ2FhS0p1Z2p1Z1VqVHVnWWhvZkJ4cGFYcjlFQWp0bXJFMExZQ1FGQWcycXFqV3dwVzB4M3BTd3dBaGViOGtqUHk5QVg2eU9lNVRUT2VTZTJndFk4S2NLbzMyRi1QWQ?oc=5",
-          "source": "RP Online",
-          "pubDate": "Thu, 19 Nov 2026 08:05:00 GMT"
+          "title": "Gaming-Journalistin zu GTA 6: \"Für viele wichtig als Eskapismus\" - NDR.de",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWHJFZmwzZkVsbDBLMWZrUndRUTVUNzlTb1lxXzhNVU16VzhiRDQ4a1R0RHN1NTNsNk9DelhWUTZTY19qMGRuTXVrLUhBSXRkT1RHZENxSWxNdkZEc1FHNHVhWXpGZU40d1FkNXRZMDlSVU1NSENlbU05c3RmMGZZZzRSRXlOTG82QW43R2VxUjNnN245QlNVcXpOVDBNaFU1SWpYV0tNN0l6MjdsWlk1TQ?oc=5",
+          "source": "NDR.de",
+          "pubDate": "Thu, 19 Nov 2026 11:03:00 GMT"
         },
         {
-          "title": "Warum so ein Hype um GTA 6? Experte über Videospiel - SAT.1 Regional",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOY3pxQzZZbllNQkdNOHh3ck1MMjFfeFVCQTltX2pEbXhUNFl5VEhfQy1nQS1lN0htVU5YTVN0UUpMTkNpaXJkbWVJcnV4NWg0bWpYZjlfTU44QURCdThNMGh4c1NIc1I4NEp6Tk9TRmw5cThGV2gyTW5vRHJRdEY5dXFVbTRQbVFGYVBKNg?oc=5",
-          "source": "SAT.1 Regional",
-          "pubDate": "Thu, 19 Nov 2026 07:56:53 GMT"
+          "title": "„GTA 6” ist endlich da! Sechs verblüffende Fakten zum Release - Merkur",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb1kxMkJzSGtBYlBzTU9LdUFaZVlZT2ZpbDRhQTZtWHN6V3dTR3RiLXMyNUZUNmkyUW5VSndHS1lBb2ItZ2JTTjdYQmFaRkQ0UlFvaWpoXzVLSno2WFVsSDg3cG4yMTV1OGVhRS1uSzhOM2tBTlg2UnRZZWhLWjljXzhvOU9HaDIySkY1bGhGaXp2LXIwcGpHVzBNYVhiT2NIdDVVbkZKYmdwMmZv?oc=5",
+          "source": "Merkur",
+          "pubDate": "Thu, 19 Nov 2026 10:52:36 GMT"
         },
         {
-          "title": "GTA 6 ist gestartet: So laufen die Konsolenfassungen auf PS5 und Xbox - Hardwareluxx",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVHZocjBfZWE0R3lZcTl3MWVjZEh0ZmdCWWFKZ3pPbURCTFFuQ2o0cGJnTXFNUHRETlQ0MXN2NGhPWVpFVkI4WE01VmFBdTlyX3dfU0JHMFYtQVNLTW1hRGtQUGtWUW5wZVhCVHJsaVZ4U1VCWjRlVkRqX3JlSlZ4Tml5SDRfOVVPV05abTNBcGtFdGZfcHJ1YmpDT0xIR2RjQ0ZTaGxmUlhpaTE0dW9pb3Z2UnFPNXNhWGEtRkZpT09IWm5HWnMtUXY0TmtwUnQzNVFWUA?oc=5",
-          "source": "Hardwareluxx",
-          "pubDate": "Thu, 19 Nov 2026 07:54:20 GMT"
+          "title": "Ilyass Alaoui, NDR, zur Veröffentlichung des Computerspiels \"GTA VI\" - tagesschau.de",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xbkRRUXpZZFNGbFVORVFhbFc4aFltczM2eTQ2cWNfbUJaOGlKLUMtbF9Sd3VWYnExY2tIRFVEYmlQVXpxZzllWlVpZDBLN1k0M1pGbUNCZkUwbXFJT080?oc=5",
+          "source": "tagesschau.de",
+          "pubDate": "Thu, 19 Nov 2026 10:46:10 GMT"
         },
         {
-          "title": "In GTA 6 könnt ihr keine Prostituierten aufgabeln, aber Rockstar hat einen logischen Grund dafür - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNSUdncUFSNUFLb2xwT1MtUVQzN1BBNHlzRDJZdnNOMnVxS0l4SDVDU2dVNDVkWHl5b3JTSFlDdzlZMTZ2bUZ4MnZKbE9SX0VVTjllVWNaTG1EdHBjRHhyV1E3SU54b2h3RGRrTGFwVmhwc1ZfdE5LNjNubTk0OERCNGVVM2FHUUQyTV90bmFVYWdIeGlFbkZjenJTd3pidTNuOVNQMUdENndReGV6VDYxWTNLTmtPVEhfcUstem85N1dBTGpxUG1PS0lqXzdBSzI5Y3ZDalNWRWI?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Thu, 19 Nov 2026 07:54:00 GMT"
+          "title": "\"Der Hype ist total krass\": Bäcker backt GTA 6-Brötchen – und Fans reisen extra an - MDR.de",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUJ0M1RaeUZfMDc2b3BGb2xnWE1LSUJPRGhLRHUzZzF1RWRKWUFuWE5yVHpxOXFJendKQ3REc2xKQmhCa3lucFJrY3VQaEZHcUZJNVRjcmZKQ0s0Q2pUNjMzMVhocjlZc0ZOZGE1YlpqWkJJb0drM19xa0hPbEpfVzBwZEh6Z1VvVnJuX2NWRDN3Rm9ka1pVNWF6bHBtN0dPTG9jclJ3?oc=5",
+          "source": "MDR.de",
+          "pubDate": "Thu, 19 Nov 2026 10:42:00 GMT"
         },
         {
-          "title": "GTA 6 startet mit Bestwertungen: Und das mit Recht! - connect.de",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb045QTVxclp0NV9uOVp4TzNuNlkxc2xSeXJ0clFFMlhjWWt0N1F2Tm5Ub0FoUmcxUXVHUDN6clRpMHBtcEdJZ2ZRN2lZUmM2UDlzRDZLSTg1Q1RHQ2FxSnJfREgwSnptT1M2YlRzbk5nYS1xNngtdmo4ZUw2NHhjeFJHdkFYSGhQYUxkYVNic2diSE4wN1JTR3JHMkRiZXM2SFJXMk8tTnBrbmFIaFpkSmhPb3pyZzJJQTFVUFp2cm9Xa0Jf?oc=5",
-          "source": "connect.de",
-          "pubDate": "Thu, 19 Nov 2026 07:43:48 GMT"
+          "title": "KO für Autodiebstahl - Jungle.World",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xY0oyNzVmQzNrZnN0QVhHMDZFemhhZ1h0RFVwNkdFRTBJVkF4N090TTlPWDg5ZjdwUkkzYllJUmt4SWI2T0hEaWdZdjdyX21mT2EwblNKQXhjQThFSzF1Zm51dFoxU1pDWHFxaGRLdVQtR2RRX0E?oc=5",
+          "source": "Jungle.World",
+          "pubDate": "Thu, 19 Nov 2026 10:41:15 GMT"
         },
         {
-          "title": "Hype um Videospiel: GTA 6 treibt Internet-Datenverkehr in die Höhe - STERN.de",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRXlZUENlM2x6dWRueVdBV0FpNlhtRXpwYXE2MDcxdzBCUnJ0TzFxWEczSmc0Sjg5cUZ1T3V1Y2xCOEplMWNDLVB5RDY0N3Y0dU4zTVJra0tEZ2stRExUR0FCYk1aTUx2YXVRRHZzR1lzMkRvQW81bmVxRTBCZmhEVlM5cmVMZHJnaDREWk9UdHlEcnIxU3JOZXc4MUp1WWhBZk5WZkNfQVpDTVNHRU5F?oc=5",
-          "source": "STERN.de",
-          "pubDate": "Thu, 19 Nov 2026 07:40:56 GMT"
+          "title": "17:30 SAT.1 Bayern - GTA 6: Gaming-Hype sorgt für Rekorde und mehr Urlaubsanträge - Joyn",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObHlzUk1VdDdCbGVnMEUyZU5RMUJPQVRlTjNQNzZrbm1KUUlLV0RGajZwYndGa05idldCLTc2b0k3dURVa3U3R0kzbGtoWnc1ZTU3dnNsSlViOEhSOVpCR1Y1bGp0TFNnWEwzd1E4TlpETEgxMk1yNHhtRTVBYTFmTktxVTEyLUcwQWJTLTRpSGxVN05QUkE?oc=5",
+          "source": "Joyn",
+          "pubDate": "Thu, 19 Nov 2026 10:04:36 GMT"
         }
       ],
       "history": [
@@ -1957,7 +3441,112 @@
         },
         {
           "date": "2026-11-19",
-          "count": 43
+          "count": 67
+        }
+      ]
+    },
+    "lore": {
+      "key": "lore",
+      "label": "Leonida & Vice City",
+      "query": "(Leonida OR \"Vice City\") (GTA OR \"Grand Theft Auto\")",
+      "count7d": 100,
+      "count24h": 74,
+      "series": [
+        {
+          "date": "2026-11-13",
+          "count": 1
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
+        },
+        {
+          "date": "2026-11-15",
+          "count": 0
+        },
+        {
+          "date": "2026-11-16",
+          "count": 2
+        },
+        {
+          "date": "2026-11-17",
+          "count": 8
+        },
+        {
+          "date": "2026-11-18",
+          "count": 56
+        },
+        {
+          "date": "2026-11-19",
+          "count": 33
+        }
+      ],
+      "items": [
+        {
+          "title": "Police issue statement addressing 'Vice City transplants' on GTA 6 release night - WKRC",
+          "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQOXBpOU4yUVFzVWVfLV81M0RXUmRxeUJtYnktYk10OUZURUhxRVZ1NXJXSmdaYmdnS19WMjdJcWlNc2ZQWmEyRGtnNDJvOHNwVkJpZ3FPS3VQWHlfWUl1RDJyb2FPNWNubFVzWkVNSXdhZy16OE0tbFg4QkVsMzhIMllESUpGbkt4RThNUGdWc0NPM0o5bTNBdjZXM0w2YkJPN2hZRlNiUFZsb2M4d0ZMMldYZ3dKT3JXT3d4V0N1M1ZyeW1KUEVUQWNHLW41dktZVnVoMU9iSkxPZm13MlEwVXdYWi1PTlpXWXVpQnRqT3BhbENfVUQweVhOTEFwMTJFeGNGRTNLMGJZcGhTSXlQcng1cGpXSVRoM21HUm12eUFRLU1FTUVKOFRGY0hqQ1RmMkU1MFNacngtWEN4LVByVmpxM1EtZ1BKRGc?oc=5",
+          "source": "WKRC",
+          "pubDate": "Thu, 19 Nov 2026 10:56:17 GMT"
+        },
+        {
+          "title": "Want to visit GTA 6 in real life? Start with these 5 Florida destinations - USA TODAY 10BEST",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxRTJxblpCS2JZaVRxVGUxZ19hbnIyZk9pSWxGMTdBMERUTjl6VzRRdnhiMF9zZVVMMHdXVWp2V2p4ejY0T1ZrWGVvNWZuZHNpWWxvQ2g5UDNQczB3Ukg2R05TOGNUay1tb0hVMGlzd3lZV1ZiTFd3?oc=5",
+          "source": "USA TODAY 10BEST",
+          "pubDate": "Thu, 19 Nov 2026 10:00:00 GMT"
+        },
+        {
+          "title": "GTA 6 Is Here: How Every Musician Can Benefit - Hypebot",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51a1RNY05FbE94bWo1SDdXZVVaRWxCVFFWUkJDT2Vvc2pTdTJoT0xwMHBXTUVPSm1DQ2lHcXhMQ2FXbjNhNTZTVy1BbHZ6bWtuWXBLWnhNdnhXNUhzNXZXTXlKaW8xVFRMcFB2S3k0b0pzbmYwQlVQUQ?oc=5",
+          "source": "Hypebot",
+          "pubDate": "Thu, 19 Nov 2026 09:21:23 GMT"
+        },
+        {
+          "title": "GTA 6 beginner’s guide: Essential tips and hidden mechanics - Red Bull",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1JVWEzQTB1RUsxeVp2YXpBVnNPQVNUOHdwTXcxb0xrUVJPMHpIQUxkZEk4YmlfV3pwdkJCSGFJc1J1MGQ1REs0WnZLVF81YXR2dVoxTVp3VTFWVWRTci14NTJn?oc=5",
+          "source": "Red Bull",
+          "pubDate": "Thu, 19 Nov 2026 09:12:04 GMT"
+        },
+        {
+          "title": "GTA 6 Launches Worldwide With a 99 Metacritic Score After a 13-Year Wait - Technology Org",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ3BPaHNhUU9kOE5EVVpCYUhhbzE4eGZpeGx3V1Y4cC1GUkZjSS1YUTBKdERFaVBmYlpNVW1PdjlhS0h6YmVrUVU3TUJBeFhjUFlsbWpGbFhrQk9EaWktVDJDbTZJdnNmTHBNYllDMDJJcExfT3NWczFXMTQwQ2MtOWx0ci1yb3I3V0dkZTg5dEU0UEFvb00wdQ?oc=5",
+          "source": "Technology Org",
+          "pubDate": "Thu, 19 Nov 2026 08:45:00 GMT"
+        },
+        {
+          "title": "GTA 6 Interactive Map - All 6 Regions of Leonida - Mobalytics",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9mazdSRF9seGpucktRVjAtWjNkZ2JJZFpFMWFoSDE2aFZkbUI3Y1BWcXdvOGJEbmhUUHlFaFJpbXVvMlUtSW40R0xJU0FEVF93ejBBaDNQWVR2UEswOHFxbXNldEp5bTZtLWRzZjhlSE5NLTVSRmMzUld2NEQ?oc=5",
+          "source": "Mobalytics",
+          "pubDate": "Thu, 19 Nov 2026 08:38:40 GMT"
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "count": 1
+        },
+        {
+          "date": "2026-11-14",
+          "count": 0
+        },
+        {
+          "date": "2026-11-15",
+          "count": 0
+        },
+        {
+          "date": "2026-11-16",
+          "count": 2
+        },
+        {
+          "date": "2026-11-17",
+          "count": 8
+        },
+        {
+          "date": "2026-11-18",
+          "count": 56
+        },
+        {
+          "date": "2026-11-19",
+          "count": 33
         }
       ]
     },
@@ -1966,7 +3555,7 @@
       "label": "Krankenstand · DE",
       "query": "(Krankmeldung OR Krankenstand OR Krankheitstage OR Arbeitsunfähigkeit)",
       "count7d": 26,
-      "count24h": 7,
+      "count24h": 6,
       "series": [
         {
           "date": "2026-11-13",
@@ -2114,8 +3703,8 @@
       "key": "rockstar",
       "label": "Rockstar Newswire",
       "query": "site:rockstargames.com",
-      "count7d": 28,
-      "count24h": 16,
+      "count7d": 29,
+      "count24h": 17,
       "series": [
         {
           "date": "2026-11-13",
@@ -2139,49 +3728,49 @@
         },
         {
           "date": "2026-11-18",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-19",
-          "count": 15
+          "count": 17
         }
       ],
       "items": [
         {
-          "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EbzZtLWh1RDFvUzlSaFVhaTRtSEszeW5PMGo2UXNIcmhJaUYzX2NTRDNBbkpDa3JHUWRwX2t1M2pyMk01UmxWRjY2MVRKN2pFZ28xdzdZbWVsZ2w3OVBzSEpGOTlzSHM?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Thu, 19 Nov 2026 06:57:18 GMT"
-        },
-        {
           "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDdGSjJuNlZtbnZQMUJQczFyQUJkYUF3ZVdkOTZkY3ZiZ01xbzdGemx1X1FEZG15eUNTb0VUT0lsMHFLQUV2b1dUOV9SQXc4UTBvTjZMNXJZQzlwTVFlY2ZXdlhaT3lLY0U0emYwTG1SZlJ1LTktWi1qbTY5M1ZlYk15SWtmZ3ItNElUWlhWSzR0WWprVmlQM0ZpY0x3OWFoUFhQUWtqeWdHM2NVOTJlOFhhVk5IcTQ?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Thu, 19 Nov 2026 06:51:25 GMT"
+          "pubDate": "Thu, 19 Nov 2026 09:52:21 GMT"
+        },
+        {
+          "title": "Rockstar Games - Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzeUZKRXlubkdYdmxUOEFXNHlXX24yNVlNVGlhYkN4WUc5UEZucGZRQ09VZnJUZktDeEI1ekh6ZFVDbTJoaHpOMjFrQkhjM2tZVU1kamF4bGJZN1Bya2h2WlFYMUdhdlB6dHVzXzVIX3F2SHJmR1pSdndtOA?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Thu, 19 Nov 2026 09:46:19 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vVTFGT1Via0JLZFdmWGM1R1NpUUFGTTBfclJlQXVFVTRhOXVrM0MtNU9ldTRyYTVBaHVsSWE1WVozRW5QY0NST28yU0ZUVVF3bVlaaFVLNnNGUnhIRkVEQjhvR2lfNnQ1NDFzTmlR?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Thu, 19 Nov 2026 06:31:02 GMT"
+          "pubDate": "Thu, 19 Nov 2026 09:30:21 GMT"
+        },
+        {
+          "title": "- Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VcEtsYWlGT0pGSlRpdUVHUlpKTzVpLTdJOU5SaEZnVTBPM2ZFbk1NdEduTWpPS1VvVjY4dll0dXBoRkFENlZHeGwxM0FIbHhUcm9yUFZqZnBHYWdhcTdPTjZDTUswMzczajhFTDgyTUt6RS1DUVRJQ0ZRNHNwdw?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Thu, 19 Nov 2026 09:24:07 GMT"
+        },
+        {
+          "title": "- Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNTZ1Yll3T2dGSmhUX2dOcC1aOVM2Qmh6VXVTOFBHV0JVbFhvbWpRWXhuRUI5NnFNRmUwT2xmVmNHLWJpS3dqZTQ4Zkd5S3pIOXN6YWxkamQ2NVZzTzlURDFqeHZBdDBrak5DMS1HMFE3WFNiaWgtUk51UUxhSXhsaGpn?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Thu, 19 Nov 2026 08:54:00 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2Q2dhM2tEY0NPNUFubUFsOEtRTUhVSWJuM3B1QWl1dDNDYy1MZXBfUWVtZWlOSnZnVmNvYUNJcGFzNE9FNnJpQV82Qy1vUU5YSVdmRWZ4Z1VUaS03LXVxalc2VDlLS2JuNGZ0bUlVeTEyb0oxQ0E2azRicw?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Thu, 19 Nov 2026 05:01:52 GMT"
-        },
-        {
-          "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TYVV0RUx3N3pHcTVvQ0JVd2hMQTY4Y3dZZ3BPVkxGWVByeG0tSlhzX1RYM3dBQ3FCcWc1MWdSRmVMMWItVVlBZ0JEX2xKM20y?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Thu, 19 Nov 2026 05:01:52 GMT"
-        },
-        {
-          "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Ubk9rWWhZcXU0cmhTNjVfX3pNR2tIaUVtYVM2WlZYQTNsT0hFNEUxOVM5OF81blpzLXp5QW5CRC1BSkNteVJVTFMtSEloRzdua19IZFlIUHJtQzhtWEJ5bUd3WDdYc0ZTVnBjZ2ZnS2txY1k?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Thu, 19 Nov 2026 04:57:52 GMT"
+          "pubDate": "Thu, 19 Nov 2026 08:05:45 GMT"
         }
       ],
       "history": [
@@ -2255,7 +3844,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 15
+          "count": 17
         }
       ]
     }
@@ -2276,138 +3865,195 @@
     "postsPerHour": 100,
     "topPosts": [
       {
-        "id": "1xzw0x3",
-        "title": "Brickell city center",
+        "id": "1y06sw6",
+        "title": "Dismemberment",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1795049441,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xzw0x3"
+        "createdUtc": 1795086636,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y06sw6"
       },
       {
-        "id": "1xzw0b7",
-        "title": "Why there are doomers",
-        "score": 1,
-        "comments": 0,
-        "createdUtc": 1795049392,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xzw0b7"
-      },
-      {
-        "id": "1xzw003",
-        "title": "Why my posts getting deleted",
-        "score": 1,
-        "comments": 0,
-        "createdUtc": 1795049366,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xzw003"
-      },
-      {
-        "id": "1xzvzxw",
-        "title": "Post Game",
+        "id": "1y06suc",
+        "title": "Ps6 on GTA VI ??!!",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1795049361,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xzvzxw"
+        "createdUtc": 1795086630,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y06suc"
       },
       {
-        "id": "1xzvzx3",
-        "title": "Will GTA6 have co-op?",
+        "id": "1y06srh",
+        "title": "Beaujolais Nouveau and GTA VI release on the same day",
+        "score": 1,
+        "comments": 1,
+        "createdUtc": 1795086623,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y06srh"
+      },
+      {
+        "id": "1y06snm",
+        "title": "I found a chupacabra in GTA 6.",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795049360,
-        "link": "https://www.reddit.com/r/GTA6/comments/1xzvzx3"
+        "createdUtc": 1795086612,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y06snm"
+      },
+      {
+        "id": "1y06shj",
+        "title": "To the GTA 6 haters blaming the game",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1795086595,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y06shj"
       }
     ],
-    "fetchedAt": "2026-11-19T08:10:22.487Z",
-    "error": "HTTP 422 Unprocessable Entity — https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=GTA6&limit=100&sort=desc"
+    "fetchedAt": "2026-11-19T11:11:12.372Z"
+  },
+  "redditGta": {
+    "subreddit": "GTA",
+    "peakPost": {
+      "score": 2,
+      "title": "NO WAY! Rockstar actually did it! 😭",
+      "link": "https://www.reddit.com/r/GTA/comments/1y066c8",
+      "createdUtc": 1795084267
+    },
+    "subscribers": 3262323,
+    "posts24h": 100,
+    "posts7d": null,
+    "sampleSize": 100,
+    "sampleHours": 1.5,
+    "postsPerHour": 66.1,
+    "topPosts": [
+      {
+        "id": "1y066c8",
+        "title": "NO WAY! Rockstar actually did it! 😭",
+        "score": 2,
+        "comments": 0,
+        "createdUtc": 1795084267,
+        "link": "https://www.reddit.com/r/GTA/comments/1y066c8"
+      },
+      {
+        "id": "1y064jf",
+        "title": "Bigfoot!?",
+        "score": 2,
+        "comments": 0,
+        "createdUtc": 1795084075,
+        "link": "https://www.reddit.com/r/GTA/comments/1y064jf"
+      },
+      {
+        "id": "1y06t52",
+        "title": "Just got this at work!",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1795086662,
+        "link": "https://www.reddit.com/r/GTA/comments/1y06t52"
+      },
+      {
+        "id": "1y06sdo",
+        "title": "This streamer completely crashed out after accidentally turning off his PS5 and lost 11 hours of progress.",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1795086581,
+        "link": "https://www.reddit.com/r/GTA/comments/1y06sdo"
+      },
+      {
+        "id": "1y06rvs",
+        "title": "Zero spoilers did anyone finish it yet?",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1795086527,
+        "link": "https://www.reddit.com/r/GTA/comments/1y06rvs"
+      }
+    ],
+    "fetchedAt": "2026-11-19T11:11:14.688Z"
   },
   "steam": {
-    "gta5": 38731,
+    "gta5": 54805,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-19T08:10:21.090Z"
+    "fetchedAt": "2026-11-19T11:11:10.769Z"
   },
   "trends": {
     "de": {
       "geo": "DE",
       "items": [
         {
-          "title": "steuerzahler",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:50:00 -0800",
-          "newsTitle": "Grundfreibetrag: Klage vor Bundesfinanzhof",
-          "newsUrl": "https://www.ndr.de/grundfreibetrag-klage-vor-bundesfinanzhof,grundfreibetrag-102.html",
-          "newsSource": "NDR.de"
-        },
-        {
-          "title": "luke littler grand slam darts",
-          "traffic": "2000+",
-          "pubDate": "Wed, 18 Nov 2026 23:50:00 -0800",
-          "newsTitle": "Grand Slam of Darts 2026: Luke Littler shocked by Jermaine Wattimena in round two",
-          "newsUrl": "https://www.bbc.com/sport/darts/articles/crlyenxw18d7o",
+          "title": "peres jepchirchir",
+          "traffic": "500+",
+          "pubDate": "Thu, 19 Nov 2026 02:50:00 -0800",
+          "newsTitle": "Peres Jepchirchir: World marathon champion gets three-year doping ban for using EPO",
+          "newsUrl": "https://www.bbc.com/sport/athletics/articles/cv5y1e1zle88o",
           "newsSource": "BBC"
         },
         {
-          "title": "johann wadephul",
+          "title": "tischtennis",
+          "traffic": "200+",
+          "pubDate": "Thu, 19 Nov 2026 02:50:00 -0800",
+          "newsTitle": "Tischtennis: Wunderkind Julian Luginger mit 11 Jahren an Krebs gestorben",
+          "newsUrl": "https://www.bild.de/sport/olympia/tischtennis-wunderkind-julian-luginger-11-an-krebs-gestorben-er-war-die-nr-1-in-europa-6afeb599e9561dcc48a02c91",
+          "newsSource": "BILD"
+        },
+        {
+          "title": "rohingya",
+          "traffic": "2000+",
+          "pubDate": "Thu, 19 Nov 2026 02:50:00 -0800",
+          "newsTitle": "Genozid-Urteil im Fall Myanmars erwartet „Es wird definitiv Auswirkungen auf die Verfahren gegen Israel und Deutschland haben“",
+          "newsUrl": "https://www.tagesspiegel.de/internationales/genozid-urteil-im-fall-myanmars-erwartet-es-wird-definitiv-auswirkungen-auf-die-verfahren-gegen-israel-und-deutschland-haben-16294654.html",
+          "newsSource": "Tagesspiegel"
+        },
+        {
+          "title": "echtzeit-strategiespiel",
+          "traffic": "200+",
+          "pubDate": "Thu, 19 Nov 2026 02:40:00 -0800",
+          "newsTitle": "",
+          "newsUrl": "",
+          "newsSource": ""
+        },
+        {
+          "title": "waldemar anton",
+          "traffic": "200+",
+          "pubDate": "Thu, 19 Nov 2026 02:40:00 -0800",
+          "newsTitle": "BVB setzt Schmerzgrenze bei Waldemar Anton",
+          "newsUrl": "https://www.sport.de/news/ne17443799/bvb-setzt-schmerzgrenze-bei-waldemar-anton/",
+          "newsSource": "sport.de"
+        },
+        {
+          "title": "corrado augias",
+          "traffic": "200+",
+          "pubDate": "Thu, 19 Nov 2026 02:40:00 -0800",
+          "newsTitle": "Corrado Augias è morto: addio a un grande italiano che conosceva la musica delle cose",
+          "newsUrl": "https://www.repubblica.it/cultura/2026/11/19/news/corrado_augias_morto_oggi-425734476/",
+          "newsSource": "la Repubblica"
+        },
+        {
+          "title": "manchester united",
           "traffic": "1000+",
-          "pubDate": "Wed, 18 Nov 2026 23:40:00 -0800",
-          "newsTitle": "Wadephul auf Rückflug von Armenien nach Berlin ausgebremst",
-          "newsUrl": "https://www.welt.de/newsticker/dpa_nt/infoline_nt/politik_ausland_nt/article6afe81c6332a07285981de2f/wadephul-auf-rueckflug-von-armenien-nach-berlin-ausgebremst.html",
-          "newsSource": "WELT"
+          "pubDate": "Thu, 19 Nov 2026 02:30:00 -0800",
+          "newsTitle": "Manchester United’s infamous 1974 relegation is a warning from history",
+          "newsUrl": "https://www.theguardian.com/football/2026/nov/18/manchester-united-infamous-1974-relegation-is-a-warning-from-history",
+          "newsSource": "The Guardian"
         },
         {
-          "title": "pirna",
+          "title": "air defense identification zone",
           "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:40:00 -0800",
-          "newsTitle": "Pirna: Sturmböen - umgestürzter Baum blockiert B172",
-          "newsUrl": "https://www.saechsische.de/lokales/saechsische-schweiz-osterzgebirge/pirna/pirna-sturmboeen-umgestuerzter-baum-blockiert-b172-YVA7EZS34NHVPKFJMLMKVACD5I.html",
-          "newsSource": "Sächsische Zeitung"
+          "pubDate": "Thu, 19 Nov 2026 02:30:00 -0800",
+          "newsTitle": "Russian military aircraft deployment sends potent message to Asia",
+          "newsUrl": "https://www.reuters.com/business/aerospace-defense/russian-military-aircraft-deployment-sends-potent-message-asia-2026-11-18/",
+          "newsSource": "Reuters"
         },
         {
-          "title": "gernot döllner",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:30:00 -0800",
-          "newsTitle": "(m+) Audi: Wie Gernot Döllner Audi in den Abgrund führt",
-          "newsUrl": "https://www.manager-magazin.de/unternehmen/mobilitaet/audi-wie-gernot-doellner-audi-in-den-abgrund-fuehrt-a-1b547e10-9566-4029-8324-9290f44c604a",
-          "newsSource": "Manager Magazin"
+          "title": "black friday rabatte",
+          "traffic": "20000+",
+          "pubDate": "Thu, 19 Nov 2026 02:20:00 -0800",
+          "newsTitle": "Black Friday Woche bei Amazon: Das sind die ntv.de-Deal-Favoriten",
+          "newsUrl": "https://www.n-tv.de/shopping-und-service/Black-Friday-Woche-bei-Amazon-Das-sind-die-ntv-de-Deal-Favoriten-article22915500.html",
+          "newsSource": "n-tv.de"
         },
         {
-          "title": "warnung vor starkem gewitter",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:30:00 -0800",
-          "newsTitle": "Sturm zieht über das Allgäu: Wie ist die Lage am Mittwoch?",
-          "newsUrl": "https://www.allgaeuer-zeitung.de/allgaeu/wetter-warnung-allgaeu-sturm-schaeden-polizei-feuerwehr-baeume-verkehr-zug-aktuell-a96-b12-a9-a7-sperrung-heute-mittwoch-bauzaun-115716402",
-          "newsSource": "Allgäuer Zeitung"
-        },
-        {
-          "title": "rouven schröder",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:30:00 -0800",
-          "newsTitle": "(k+) Sparen, entwickeln - siegen? Gladbachs Kampf um die Zukunft",
-          "newsUrl": "https://www.kicker.de/sparen-entwickeln-siegen-gladbachs-kampf-um-die-zukunft-1272628/artikel",
-          "newsSource": "Kicker"
-        },
-        {
-          "title": "cve-2026-123007",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:30:00 -0800",
-          "newsTitle": "Unauthenticated Remote Code Execution in NGINX: CVE-2026-123633 and CVE-2026-123007",
-          "newsUrl": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "newsSource": "wiz.io"
-        },
-        {
-          "title": "rag-stiftung",
+          "title": "b256",
           "traffic": "100+",
-          "pubDate": "Wed, 18 Nov 2026 23:30:00 -0800",
-          "newsTitle": "Übernahmekrimi um Evonik: Gutachten heizt der RAG-Stiftung ein",
-          "newsUrl": "https://rp-online.de/wirtschaft/basf-will-evonik-gutachten-heizt-rag-stiftung-ein_aid-158544359",
-          "newsSource": "RP Online"
-        },
-        {
-          "title": "коалиция желающих",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:20:00 -0800",
-          "newsTitle": "\"Коалиция желающих\": политики в Германии выступили с требованиями к участникам встречи",
-          "newsUrl": "https://www.dw.com/ru/koalicia-zelausih-politiki-v-frg-ozvucili-trebovania-ko-vstrece/a-79986898",
-          "newsSource": "DW.com"
+          "pubDate": "Thu, 19 Nov 2026 02:10:00 -0800",
+          "newsTitle": "B256: Reparaturarbeiten an der Hauptstraße in Waldbröl-Hermesdorf",
+          "newsUrl": "https://www.strassen.nrw.de/de/meldung/b256-reparaturarbeiten-an-der-hauptstrasse-in-waldbroel-hermesdorf.html",
+          "newsSource": "Landesbetrieb Straßenbau Nordrhein-Westfalen | Straßen.NRW"
         }
       ],
       "gta": [],
@@ -2417,130 +4063,105 @@
       "geo": "US",
       "items": [
         {
-          "title": "cyber attacks",
-          "traffic": "2000+",
-          "pubDate": "Wed, 18 Nov 2026 23:50:00 -0800",
-          "newsTitle": "What’s causing all these outages? The internet is held together with shoestring and bubblegum",
-          "newsUrl": "https://www.cnn.com/2026/11/18/tech/whats-causing-outages",
-          "newsSource": "CNN"
-        },
-        {
-          "title": "michele lamy jaden smith",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:50:00 -0800",
-          "newsTitle": "Who is Michèle Lamy, the woman the Internet can’t stop talking about?",
-          "newsUrl": "https://www.prestigeonline.com/in/lifestyle/everything-to-know-about-michele-lamy-controversy-jaden-smith/",
-          "newsSource": "Prestige Online - Singapore"
-        },
-        {
-          "title": "navajo stirling",
+          "title": "brooks nader",
           "traffic": "100+",
-          "pubDate": "Wed, 18 Nov 2026 23:50:00 -0800",
-          "newsTitle": "UFC Qatar full card predictions: Can Navajo Stirling actually beat Jiří Procházka?",
-          "newsUrl": "https://sports.yahoo.com/mma/article/ufc-qatar-full-card-predictions-can-navajo-stirling-actually-beat-jiri-prochazka-221054685.html",
-          "newsSource": "Yahoo Sports"
+          "pubDate": "Thu, 19 Nov 2026 02:40:00 -0800",
+          "newsTitle": "Brooks Nader’s tennis bracelet looks like real diamonds, but it’s $21 on Amazon",
+          "newsUrl": "https://pagesix.com/2026/11/16/style/brooks-nader-tennis-bracelet-is-21-on-amazon-but-looks-like-diamonds/",
+          "newsSource": "Page Six"
         },
         {
-          "title": "stanislaus wildlife care center",
+          "title": "weather near me",
           "traffic": "100+",
-          "pubDate": "Wed, 18 Nov 2026 23:40:00 -0800",
-          "newsTitle": "Fire at Stanislaus County wildlife center kills approximately 40 animals",
-          "newsUrl": "https://www.kcra.com/article/stanislaus-county-wildlife-center-fire-kills-animals/74472380",
-          "newsSource": "KCRA"
+          "pubDate": "Thu, 19 Nov 2026 02:30:00 -0800",
+          "newsTitle": "Risk of tornadoes for the valley as a major storm rolls through Northern California",
+          "newsUrl": "https://www.abc10.com/article/weather/weather-impact/risk-of-tornadoes-for-the-valley-as-a-major-storm-rolls-through-northern-california/103-73a32110-5aac-4449-92f6-5446337cb8df",
+          "newsSource": "ABC10"
         },
         {
-          "title": "joe jonas",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:40:00 -0800",
-          "newsTitle": "Joe Jonas Reveals Cheeky Gift He Recently Gave Ex Demi Lovato",
-          "newsUrl": "https://www.eonline.com/news/1438213/joe-jonas-gave-demi-lovato-a-mug-years-after-viral-interview-clip",
-          "newsSource": "E! News"
-        },
-        {
-          "title": "las vegas weather",
+          "title": "tampa weather",
           "traffic": "100+",
-          "pubDate": "Wed, 18 Nov 2026 23:30:00 -0800",
-          "newsTitle": "Storm systems bring rain chances to Las Vegas starting Thursday",
-          "newsUrl": "https://www.8newsnow.com/weather/storm-systems-bring-rain-chances-to-las-vegas-starting-thursday/",
-          "newsSource": "KLAS 8 News Now"
+          "pubDate": "Thu, 19 Nov 2026 02:20:00 -0800",
+          "newsTitle": "Impact Day: Heavy rain and minor flooding for the morning commute",
+          "newsUrl": "https://www.gulfcoastnewsnow.com/article/weather-forecast-florida-rain-storms-naples-cape-coral/74462669",
+          "newsSource": "Gulf Coast News and Weather"
         },
         {
-          "title": "app",
+          "title": "sri lanka vs pakistan",
           "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:30:00 -0800",
-          "newsTitle": "Google is forcing Android app developers to properly support foldables",
-          "newsUrl": "https://www.theverge.com/tech/1036796/google-android-app-games-developers-foldables-support",
-          "newsSource": "The Verge"
+          "pubDate": "Thu, 19 Nov 2026 02:10:00 -0800",
+          "newsTitle": "Ball by Ball Commentary & Live Score - PAK vs SL, 2nd Test",
+          "newsUrl": "https://www.cricinfo.com/series/sri-lanka-in-pakistan-2026-27-1550703/pakistan-vs-sri-lanka-2nd-test-1550712/ball-by-ball-commentary",
+          "newsSource": "Cricinfo"
         },
         {
-          "title": "should i spare arnold gta 6",
+          "title": "sc lottery",
+          "traffic": "100+",
+          "pubDate": "Thu, 19 Nov 2026 02:10:00 -0800",
+          "newsTitle": "$2 million Upstate lottery winner looks to help others",
+          "newsUrl": "https://www.foxcarolina.com/2026/11/17/2-million-upstate-lottery-winner-looks-help-others/",
+          "newsSource": "FOX Carolina News"
+        },
+        {
+          "title": "palm beach county schools",
+          "traffic": "10000+",
+          "pubDate": "Thu, 19 Nov 2026 02:00:00 -0800",
+          "newsTitle": "Historic flooding in South Florida closes schools, leaves residents stranded in deluge",
+          "newsUrl": "https://www.nbcmiami.com/news/local/breaking-news-live-updates-south-florida-miami-today-november-18-2026/3889620/",
+          "newsSource": "NBC 6 South Florida"
+        },
+        {
+          "title": "spider",
+          "traffic": "100+",
+          "pubDate": "Thu, 19 Nov 2026 01:50:00 -0800",
+          "newsTitle": "British hacker who stole $11m through text message scheme jailed for six years in US",
+          "newsUrl": "https://www.bbc.com/news/articles/cm87987w1qz5o",
+          "newsSource": "BBC"
+        },
+        {
+          "title": "train",
+          "traffic": "100+",
+          "pubDate": "Thu, 19 Nov 2026 01:50:00 -0800",
+          "newsTitle": "Driver killed in collision with NJ Transit train at crossing in Nanuet, police say",
+          "newsUrl": "https://www.fox5ny.com/news/fatal-nj-transit-train-collision-nanuet-new-clarkstown-road",
+          "newsSource": "FOX 5 New York"
+        },
+        {
+          "title": "bangladesh vs south africa",
           "traffic": "500+",
-          "pubDate": "Wed, 18 Nov 2026 23:20:00 -0800",
-          "newsTitle": "Grand Theft Auto VI Choices Guide",
-          "newsUrl": "https://www.gamersheroes.com/game-guides/grand-theft-auto-vi-choices-guide/",
-          "newsSource": "Gamers Heroes"
+          "pubDate": "Thu, 19 Nov 2026 01:40:00 -0800",
+          "newsTitle": "Harmer, Rabada help South Africa thump Bangladesh to go 1-0 up",
+          "newsUrl": "https://www.cricinfo.com/series/bangladesh-in-south-africa-2026-27-1525637/south-africa-vs-bangladesh-1st-test-1525662/match-report-5",
+          "newsSource": "Cricinfo"
         },
         {
-          "title": "gta 6 jason",
+          "title": "football",
           "traffic": "100+",
-          "pubDate": "Wed, 18 Nov 2026 23:10:00 -0800",
-          "newsTitle": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-          "newsUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-          "newsSource": "PC Gamer"
-        },
-        {
-          "title": "unwanted attention gta 6",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:00:00 -0800",
-          "newsTitle": "GTA 6 Unwanted Attention Mission Walkthrough",
-          "newsUrl": "https://www.videogameschronicle.com/guide/gta-6-unwanted-attention-mission-walkthrough/",
-          "newsSource": "Video Games Chronicle"
+          "pubDate": "Thu, 19 Nov 2026 01:30:00 -0800",
+          "newsTitle": "Top 25 betting lines: UGA big faves over Gamecocks, Vols slim favorites vs. LSU",
+          "newsUrl": "https://www.espn.com/espn/betting/story/_/id/50498153/2026-college-football-week-12-top-25-betting-lines-odds",
+          "newsSource": "ESPN"
         }
       ],
-      "gta": [
-        {
-          "title": "should i spare arnold gta 6",
-          "traffic": "500+",
-          "pubDate": "Wed, 18 Nov 2026 23:20:00 -0800",
-          "newsTitle": "Grand Theft Auto VI Choices Guide",
-          "newsUrl": "https://www.gamersheroes.com/game-guides/grand-theft-auto-vi-choices-guide/",
-          "newsSource": "Gamers Heroes"
-        },
-        {
-          "title": "gta 6 jason",
-          "traffic": "100+",
-          "pubDate": "Wed, 18 Nov 2026 23:10:00 -0800",
-          "newsTitle": "GTA 6 romance guide: How Jason and Lucia's relationship actually works",
-          "newsUrl": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-romance-jason-lucia/",
-          "newsSource": "PC Gamer"
-        },
-        {
-          "title": "unwanted attention gta 6",
-          "traffic": "200+",
-          "pubDate": "Wed, 18 Nov 2026 23:00:00 -0800",
-          "newsTitle": "GTA 6 Unwanted Attention Mission Walkthrough",
-          "newsUrl": "https://www.videogameschronicle.com/guide/gta-6-unwanted-attention-mission-walkthrough/",
-          "newsSource": "Video Games Chronicle"
-        }
-      ],
-      "gtaCount": 3
+      "gta": [],
+      "gtaCount": 0
     }
   },
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 174,
+    "latencyMs": 206,
     "bytes": 1254180,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-19T08:10:20.968Z"
+    "checkedAt": "2026-11-19T11:11:10.592Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": false,
-    "checkedAt": "2026-11-19T08:10:21.432Z"
+    "checkedAt": "2026-11-19T11:11:10.980Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -2557,7 +4178,8 @@
   "sources": {
     "wikipedia": "ok",
     "news": "ok",
-    "reddit": "degraded",
+    "reddit": "ok",
+    "redditGta": "ok",
     "steam": "ok",
     "trends": "ok",
     "rockstar": "ok",
