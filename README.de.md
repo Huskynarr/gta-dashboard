@@ -156,6 +156,13 @@ Bei Fehlern bleibt der letzte erfolgreiche Themenstand mit seinem ursprüngliche
 - **Resilienz:** Fehlt eine Quelle, bleiben die letzten Daten sichtbar; der Quellenstatus wird `degraded`.
 - **Cron:** Der Track-Workflow läuft auf dem Self-hosted Runner; der Runner wird per Watchdog am Leben gehalten.
 
+## Fehler-Monitoring
+
+Fehler landen im selbst gehosteten Sentry unter `logging.gardenpiratez.de`:
+
+- **Frontend** (`gta-dashboard-web`): `assets/js/monitoring.js` lädt nur auf der Live-Domain den ~3 KB kleinen Sentry-Loader; das SDK folgt erst bei Bedarf. Kein Replay, kein Tracing, `sendDefaultPii: false`, IP-Scrubbing, Query-Strings entfernt, nur Fehler aus eigenen Skripten (`allowUrls`). Defekte Datendateien (HTTP-Fehler, ungültiges JSON) kommen als Warnung.
+- **Collector** (`gta-dashboard-collector`): `scripts/lib/sentry.mjs` meldet Abstürze und jede Quellen-Warnung aus `meta.errors`, ohne npm-Abhängigkeit. Warnungen werden pro Quelle gruppiert (`ixp:AMS`, `news:gta_en` …). Der DSN kommt aus dem Repository-Secret `SENTRY_DSN_COLLECTOR`; lokale Läufe melden nichts.
+
 ## Wichtige Grenzen
 
 - **Krankenstand**: Offizielle Krankenkassen-Daten erscheinen mit Wochen Verzug. Das Dashboard nutzt deshalb Such- und News-Signale als Leading Indicator — nicht als amtliche Krankheitsstatistik.

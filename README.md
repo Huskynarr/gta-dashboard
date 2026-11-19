@@ -153,6 +153,13 @@ On errors, the last successful topic state stays visible with its original times
 - **SEO / GEO:** canonical, Open Graph/Twitter meta, JSON-LD (`WebSite`, `VideoGame`, `Dataset` with downloads, `FAQPage`), visible FAQ, `llms.txt`, AI crawlers explicitly allowed in `robots.txt`, `sitemap.xml` with automatic `lastmod` and web manifest.
 - **Resilience:** if a source fails, the last data stays visible and the source status becomes `degraded`.
 
+## Error monitoring
+
+Errors go to the self-hosted Sentry at `logging.gardenpiratez.de`:
+
+- **Frontend** (`gta-dashboard-web`): `assets/js/monitoring.js` loads the ~3 KB Sentry loader only on the live domain; the SDK follows on demand. No replay, no tracing, `sendDefaultPii: false`, IP scrubbing, query strings removed, only errors from our own scripts (`allowUrls`). Failed data files (HTTP error, invalid JSON) are reported as warnings.
+- **Collector** (`gta-dashboard-collector`): `scripts/lib/sentry.mjs` sends crashes and every source warning from `meta.errors` without an npm dependency. Warnings are grouped per source (`ixp:AMS`, `news:gta_en` …). The DSN comes from the repository secret `SENTRY_DSN_COLLECTOR`; local runs report nothing.
+
 ## Important limits
 
 - **Sick leave:** official health-insurance data is published weeks later. The dashboard therefore uses search and news signals as a leading indicator — not as official statistics.

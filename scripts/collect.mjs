@@ -7,6 +7,7 @@ import { collectIxpSites } from './lib/ixp.mjs';
 import { collectInvestor } from './lib/investor.mjs';
 import { collectHype } from './lib/hype.mjs';
 import { extendArchives } from './lib/archive.mjs';
+import { captureException, captureSourceWarning, flush } from './lib/sentry.mjs';
 
 const DATA_DIR = path.resolve('data');
 
@@ -227,11 +228,17 @@ async function main() {
 
   if (meta.errors.length) {
     console.warn(`[collect] ${meta.errors.length} source warning(s):`);
-    for (const error of meta.errors) console.warn(`  - ${error}`);
+    for (const error of meta.errors) {
+      console.warn(`  - ${error}`);
+      captureSourceWarning(error);
+    }
   }
 }
 
-main().catch((error) => {
-  console.error('[collect] fatal:', error);
-  process.exitCode = 1;
-});
+main()
+  .catch((error) => {
+    console.error('[collect] fatal:', error);
+    captureException(error);
+    process.exitCode = 1;
+  })
+  .finally(flush);

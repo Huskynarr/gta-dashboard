@@ -18,6 +18,8 @@ Automated data refreshes (`chore(data)`) are not listed.
 ### Changed
 - The GTA VI Google News queries now also match "GTA VI". The 7-day count was already capped at 100; the 24-hour count, which feeds the hype score's media channel, may rise slightly from 10 November 2026.
 
+- Error monitoring with the self-hosted Sentry (`logging.gardenpiratez.de`): the frontend (index and 404 page) uses the lazy Sentry loader on the live domain only, without replay, tracing or personal data; the collector reports crashes and source warnings (`meta.errors`, grouped per source) through a dependency-free envelope client. DSN for the collector via the `SENTRY_DSN_COLLECTOR` secret.
+
 ### Changed (mobile)
 Audited with Lighthouse in its mobile profile (Moto G Power, slow 4G). Measured on a gzip server against the previous version: page weight 2.3 MB → 543 KB, Best Practices 96 → 100, CLS ≤ 0.04, hero visible before the data arrives.
 - The YouTube popup no longer opens by itself on phones (≤ 620 px). It covered a third of the first screen (an intrusive interstitial) and loaded ~1.5 MB of player code; it is now one tap away via the "AD" button. On desktop it appears only after the page has loaded.

@@ -30,6 +30,9 @@ jobs:
 
       - name: Collect market, OSINT, network and hype data
         run: node scripts/collect.mjs
+        env:
+          # Collector errors and source warnings → Sentry project gta-dashboard-collector.
+          SENTRY_DSN: ${{ secrets.SENTRY_DSN_COLLECTOR }}
 
       - name: Commit data snapshot
         uses: stefanzweifel/git-auto-commit-action@v5

@@ -368,6 +368,11 @@ async function fetchData(files) {
         return await response.json();
       } catch (error) {
         console.warn(`data/${name}.json konnte nicht geladen werden`, error);
+        // Report broken deployments (HTTP errors, invalid JSON), not flaky
+        // mobile connections (TypeError: Failed to fetch).
+        if (!(error instanceof TypeError)) {
+          window.Sentry?.captureMessage?.(`data/${name}.json: ${error.message}`, 'warning');
+        }
         return null;
       }
     }),
