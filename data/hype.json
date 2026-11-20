@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T22:52:07.780Z",
+  "updated": "2026-11-20T23:26:20.044Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-20T22:52:07.780Z",
+      "updated": "2026-11-20T23:26:20.044Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -149,13 +149,13 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 30,
+      "count24h": 32,
       "publisherCount": 32,
       "capped": true,
       "series": [
         {
           "date": "2026-11-14",
-          "count": 2
+          "count": 1
         },
         {
           "date": "2026-11-15",
@@ -167,19 +167,19 @@
         },
         {
           "date": "2026-11-17",
-          "count": 5
+          "count": 4
         },
         {
           "date": "2026-11-18",
-          "count": 31
+          "count": 29
         },
         {
           "date": "2026-11-19",
-          "count": 30
+          "count": 32
         },
         {
           "date": "2026-11-20",
-          "count": 30
+          "count": 32
         }
       ],
       "items": [
@@ -209,7 +209,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-20T22:52:07.780Z",
+      "updated": "2026-11-20T23:26:20.044Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -281,7 +281,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 30
+          "count": 32
         }
       ]
     },
@@ -290,9 +290,9 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 45,
-      "count24h": 18,
-      "publisherCount": 28,
+      "count7d": 47,
+      "count24h": 19,
+      "publisherCount": 30,
       "capped": false,
       "series": [
         {
@@ -317,11 +317,11 @@
         },
         {
           "date": "2026-11-19",
-          "count": 12
+          "count": 13
         },
         {
           "date": "2026-11-20",
-          "count": 18
+          "count": 19
         }
       ],
       "items": [
@@ -351,7 +351,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-20T22:52:07.780Z",
+      "updated": "2026-11-20T23:26:20.044Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -423,7 +423,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 18
+          "count": 19
         }
       ]
     },
@@ -432,8 +432,8 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 89,
-      "count24h": 31,
+      "count7d": 91,
+      "count24h": 33,
       "publisherCount": 53,
       "capped": false,
       "series": [
@@ -463,10 +463,16 @@
         },
         {
           "date": "2026-11-20",
-          "count": 31
+          "count": 33
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 spielte an einem Tag rekordverdächtige drei Milliarden US-Dollar ein $3,79 - mobidevices.com",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBiem9VY2h1VGotQXQ2dEtkbGw1SFNZWjhUeXEzcVc4TzRJX2l2Z0hHM3NkeVpFU3Bad3dOMllMaVdTdk1uSFFGUTc0LWpnUG51Qm9YUXFIS09XTjZN?oc=5",
+          "source": "mobidevices.com",
+          "pubDate": "Fri, 20 Nov 2026 22:57:50 GMT"
+        },
         {
           "title": "»GTA 6« spielt am ersten Verkaufstag knapp 3,8 Milliarden Dollar ein - Spiegel",
           "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNDdEWjZSZXdwdUdodkRKTWZsWG1LbHhqbFJNeXNxQldaa29FYTBrNVFsVzhwM09mcUttc0FrcDh6TXhwblBjc2lIV0RFVnJxYjF2OTc1YmNtYzhHSzcyRC1OaUl4TWRHeVBuU2NjeUVqam5qWThuQjNTSFhmTXJUN0VCTkU3SWNpRlFoV1ktb0pRYXd6V1FLRTFld09NNi1qeGZ0bHJwUlRnNHZUcVI3MWo4UjdIM1Y3Y256YTNhcHlvcWFGYWMtZVNSQml2MV9wRXhTSVV2WWZXQ0E?oc=5",
@@ -484,16 +490,10 @@
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTzlfUzJscUxDVXh1QzI4dWZDZUdmZ1dkckRwVTFwQjlwZ01Kd2dERV8xdkVnWllsOS15QXNyN1dhLTctbDRKTVFKSTdZN0w4TWhPajRJMDlwQ01HR3Y0cXRRS1RncVhvV0l5SUJnX0NWVlpOX1NmdExweHk0Vy10RTFkOHg0SHdsRFZWeE5uUXZaYXNHSVpfV3U5SDQtQ2ItRmJFZTJBcW9JLWszTThTUnNn?oc=5",
           "source": "PLAY3.DE",
           "pubDate": "Fri, 20 Nov 2026 20:25:00 GMT"
-        },
-        {
-          "title": "„GTA 6“ schreibt Geschichte: 3.79 Milliarden Dollar am ersten Tag, der größte Marktstart in der Unterhaltungsbranche - Gazeta Express",
-          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxONlZOdzl4NUFyLWdlTDBsYi00amRsQ1lXZzVmM1drV2VUcHo1TktXdk1rRGkxaHNmZmZtdk1pdWlJdkRaWnJvUnU0Wk9tODBWR0FrY2NSTHZ6dlJNMW9Ka3lSZFJ6Y1M2SmJfaGQyYmlUSlJRS0g0UmExOGpLcWFLTkhRSV9jYlNZTWM3Zl9vN3J4YWZwZWhpb19LS2MxVHlVNWZ4bUhpMU1HaG94RHh6REtMN1JfLV94UVJ1eXJKUUx3N1E1N0hyQndTMjV1QlVETGJmM2RSOTBPODJMMEY0SzhrdlhqbFVNaDVJUzVYOUl1WWhtQXlIcWhYWkc5QTNRZUxyWjZxb21mLWM?oc=5",
-          "source": "Gazeta Express",
-          "pubDate": "Fri, 20 Nov 2026 20:10:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-20T22:52:07.780Z",
+      "updated": "2026-11-20T23:26:20.044Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -565,7 +565,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 31
+          "count": 33
         }
       ]
     }
@@ -1007,6 +1007,13 @@
     },
     {
       "at": "2026-11-20T22:52:07.406Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-20T23:26:20.040Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
