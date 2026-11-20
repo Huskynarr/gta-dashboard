@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-20T16:29:48.337Z",
+  "updated": "2026-11-20T22:52:03.494Z",
   "earnings": {
     "title": "Q2 2027 Take-Two Interactive Software, Inc. Earnings Conference Call",
     "dateLabel": "November 9, 2026 at 9:30 PM UTC",
     "date": "2026-11-09T21:30:00.000Z",
     "webcastUrl": "https://events.q4inc.com/attendee/112490011",
-    "resultsTitle": "Take-Two Interactive Software, Inc. to Report Second Quarter Fiscal Year 2027 Results on Monday, November 9, 2026",
-    "resultsDate": "2026-11-09",
-    "resultsUrl": "https://ir.take2games.com/ir/news/take-two-interactive-software-inc-report-second-quarter-fiscal-8"
+    "resultsTitle": null,
+    "resultsDate": null,
+    "resultsUrl": null
   },
   "estimates": {
     "epsAverage": 0.97026,
@@ -30,6 +30,13 @@
     "url": "https://www.virtualshareholdermeeting.com/TTWO2026"
   },
   "pressReleases": [
+    {
+      "date": "2026-11-20",
+      "dateLabel": "November 20, 2026",
+      "title": "Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales",
+      "url": "https://ir.take2games.com/ir/news/grand-theft-auto-vi-shatters-entertainment-box-office-records",
+      "firstSeen": "2026-11-20T22:52:03.354Z"
+    },
     {
       "date": "2026-11-19",
       "dateLabel": "November 19, 2026",
@@ -67,6 +74,15 @@
     }
   ],
   "filings": [
+    {
+      "form": "8-K",
+      "filingDate": "2026-11-20",
+      "reportDate": "2026-11-20",
+      "description": "8-K",
+      "accession": "0001628280-26-075217",
+      "url": "https://www.sec.gov/Archives/edgar/data/946581/000162828026075217/ttwo-20261120.htm",
+      "firstSeen": "2026-11-20T22:52:03.354Z"
+    },
     {
       "form": "10-Q",
       "filingDate": "2026-11-09",

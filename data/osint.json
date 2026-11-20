@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T16:29:53.397Z",
+  "updated": "2026-11-20T22:52:07.406Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -3184,7 +3184,7 @@
       "label": "GTA VI · EN",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 50,
+      "count24h": 60,
       "series": [
         {
           "date": "2026-11-14",
@@ -3196,7 +3196,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 2
+          "count": 1
         },
         {
           "date": "2026-11-17",
@@ -3204,53 +3204,53 @@
         },
         {
           "date": "2026-11-18",
-          "count": 30
+          "count": 21
         },
         {
           "date": "2026-11-19",
-          "count": 29
+          "count": 20
         },
         {
           "date": "2026-11-20",
-          "count": 36
+          "count": 55
         }
       ],
       "items": [
         {
-          "title": "Grand Theft Auto VI made a massive debut, selling 19 million copies in just 24 hours and generating billions of dollars. Before its release, preorders had already surpassed $1.5 billion. The standard edition costs $79.99, while other versions reach $100. #GTA - Facebook",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNX21Va3g0WmsxSVNJWi1fbkdQV2JzNEFYbGd3d0xId3NvTE43b1pUamRvWm9SaUZ3TlQ4MklhRVBJak1PUFRUb2VpcmQzWkFId0c1cDVKcV9CQ0h5MHN0QmhwTDZpMklrZUFKZ0FIUW93VUlzaVRTeHo1TlZZWjc1NnFCMHdReUNiS0xMNFJSTTNTRU9JODd3d3hteFRyeldsdlZrTTlQRmF2em9mR25GazJ3QXFfUzdzWGJfZlNEb21Wb1lDNnYzS3lHMFVwMURWUUFoTjhOcjRIblBjdG0w?oc=5",
+          "title": "I Tracked Down All 60 Birds in GTA 6: A Birder’s Guide to Vice City’s Wildlife - National Audubon Society",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb25TUkJoX2NyYVI1VGdlZ1pnbmlnLWlrTUU3SnhyemdZNTVwVGY0S0FleUZYVUlYc0lscVFGYUJUb0R3Rzl6M1FLWUw4REpTbGhTblpNcGI1VHljY3BUN0sxUUhnVks2d0F5NHlDYVpvZnRhNzYxS2RoNFNFOGtOVDd6dzM?oc=5",
+          "source": "National Audubon Society",
+          "pubDate": "Fri, 20 Nov 2026 22:38:24 GMT"
+        },
+        {
+          "title": "How Grand Theft Auto VI release day impacted Tucson businesses - KOLD",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMG80V2hfRWZvelA1ZkZsNFFlM3Y0azJxOXd2MFVReFVIY0xqZmFxalBzczQxM0g3WVFDQ2UzdEJqS2FqalZVWW1aWlRyY3RlaWdVZGZIWjJsVGg1Z0V0X29Rd2VUdERrZGNMdHp0dXhJTmR0NDU5cVdlUkJBbXF4X1F3OFd2X09YZ2NVbi1EOS16NnY0NkV6c1BhMNIBrwFBVV95cUxOSHpXaDdYdEZKTks5ZVM2eEcwV1JqV0NvVktnRzBVUXFqdkp1d2x3U0VLUHpOaWN2TFpZeFU1X1BRS1UyNm5XZllnVUhrZFBUbFBGQTdFTV92cTRNSl9UY3VMLUwzeEc5M0c4WXd5T1d2ak9YRnFyS1ptVWZhaTJaLTFlNE9adkl1T3F2dExLZGczRTVITmJ6LVloZHBuMFdDNmFFdUR4dHdBMng4Zk5z?oc=5",
+          "source": "KOLD",
+          "pubDate": "Fri, 20 Nov 2026 22:30:00 GMT"
+        },
+        {
+          "title": "Grammy-winning songwriter Derrick Milano brings Philly roots to 'Grand Theft Auto VI' - 6abc Philadelphia",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQckQzWS1objJhNzB5bEFuR3F3SUI2Sk5Oa1lDdDN2SDdoOUlac2lKU0lEQWs0bGYzaGR6RUxwWEtfcTI0LUh0RnI3c0UzS0pOa1pqVE9OTkYxaElhR0hrZ0dMblpmbmUzNTJva0RFeENvcHFCVkxEb01fQURmVVA4RmR6eG1KTjItbWxQMHVLeThTWERyOUpFQVdxNlJjR1hJVWlYbG9TcWozMlRQcU5MajZB0gG3AUFVX3lxTE4yNThJVkVrdUJZMW1tWmJmMlh0TkVub0plZjJvazJNZFRNTXFyTzMtbEhlN2IyTnZING9HNFVZQ19Pd3B4cVRVM1ByS3dENHR4RWZiVlBzOUstRWFWRW9sSmYxVEdEblc5enB1MGFaN2pxOGhMQzlNSnBKUkgxNlBTOVhtZDdULXQ0RGVSUjI3elVxSXhmMHpveGROVE41dmFUeTlhNmw2Rlp1aDNGRFdjWWh4cUd0VQ?oc=5",
+          "source": "6abc Philadelphia",
+          "pubDate": "Fri, 20 Nov 2026 22:21:10 GMT"
+        },
+        {
+          "title": "Grand Theft Auto VI released 13 years after the series’s previous entry, giving the designers plenty of time to create an immersive experience. This means there is so much more than meets the eye in a convenience store. - Facebook",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOekFBTjlXZWFsQlczMV9XY1psbzNCZDF3VHZhckJzY21FZU9tbHNoMjluSy1tang3M1Y0eVkzOXZvYVJHMlo3SHV5SURQaVp1bHpuQm9VdWlPd3phS19zX0NpanVxVFBYZEVtUU05NDJxNy1yM180SVl1MzRmbTR1MXhncHVGOWVNZ0FrWUNDTTdma051bDFOSjJqandKeV9PX3JXT2NrSGRTTWpsQmFpRW9rX042ckVfMkNkT0dSVl9xaFFYY3JxQnRXOERzUi1BQldz?oc=5",
           "source": "Facebook",
-          "pubDate": "Fri, 20 Nov 2026 16:20:38 GMT"
+          "pubDate": "Fri, 20 Nov 2026 22:11:43 GMT"
         },
         {
-          "title": "Grand Theft Auto VI made a massive debut, selling 19 million copies in just 24 hours and generating billions of dollars. Before its release, preorders had already surpassed $1.5 billion. The standard edition costs $79.99, while other versions reach $100. #GTA - Facebook",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQT3BqeUpNU0tYeWdESTVkZzFZSVIxd1RuZjk0R2pRQ0JYT1VWdXVCMDNnT3VydU94UGhFZEphNmpPQ3o2YzhhaDdnNk5ZNUp2a1NRbEt3SDREeHg1UzRVRXJvenhnTWJ4QTgtRVdNTktUWnVaTEI2ZjltcW94eXVYZGhCNFN6WjFDeDBSWnJzaWh0c2llM2ZBbzl2OFdFTmxYNFBqdlpPcUYyWUVfY1NhLXNNa09CMEcwNDE1UjNQLUNfVTZ2RnFBUHpnUkFhM2hZLU9qZmtLY2o1Sk5jMEdNMQ?oc=5",
-          "source": "Facebook",
-          "pubDate": "Fri, 20 Nov 2026 16:17:59 GMT"
+          "title": "Grand Theft Auto VI is now the biggest video game launch in history - Game Developer",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdU5pWlZ2VlUxMUlaVWJsQVM0VWhFc0x0ZHlZX01oV2JJVDRTVURNektsbklLTTVLUmw0R0x5SS1IT2ZvWGNjUWRDbENsWkNCVUM2TWUyZnJpU2t1Mkw1UFZ0YkpBYTFZeGZaUld4cXpuVjllbHVycFlRVWFkSF9Udi1sckUzYkxPTEpYdFRCYzRBLUgzOEpUZUVadGpLY2t4a3J2VExQS2NtVEE?oc=5",
+          "source": "Game Developer",
+          "pubDate": "Fri, 20 Nov 2026 21:51:42 GMT"
         },
         {
-          "title": "I’ve Played GTA 6 for 110 Hours, Here Are the Weirdest Things I’ve Seen - IGN Nordic",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaDlYN0t2SHJjemV2QURSMS0yMlZGUkUzSkl0SXNIVHB6WGhuZXYzQ1Y0ZWhrei0wWmNJeTJUenVSRVJuckhqRkh2a212WS1FQTVqWjQ4b25sTFQ1UlFIdTFvVllHQm0tbk5kbUozU3k5SjdlZkpNZnk2MzB5SlRiaGlwdndaeW9KREpLcFVsSXR5aFY5ZF93bWVqekpVc0hsZ2NJRDR3X2pBSE91QmtibHkwZ25SVWRUbkE?oc=5",
-          "source": "IGN Nordic",
-          "pubDate": "Fri, 20 Nov 2026 16:15:14 GMT"
-        },
-        {
-          "title": "Sales of 'Grand Theft Auto VI' skyrocket as the series makes its return after 13-year absence - News4JAX",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQVFHdG4xNVVUTVUzMEFXOTBQd3YyVWtDQ2JDczVLSGZNN2hLakZXUlNrRTJxVFRwR3B4WGRGVUotV1BkMHdUWGlscFo2Nkd0Umg4U0FzaS1HN3JFRkh3WGFNUnhkN0d2M0pGdFNwN0hGY3VvSHpqaTZVdUUyNW43dzlKQ2lZT09naUpya2U5R3J1RWd3Z2ExcFpqYnBEVTlrSTlaRGFESXk3S2RoSTJEdHo5Zk1RSW54c2llSm83THFjNlU1aU1hOG1WYzliWWlFVnVV?oc=5",
-          "source": "News4JAX",
-          "pubDate": "Fri, 20 Nov 2026 16:03:44 GMT"
-        },
-        {
-          "title": "A visual tour of ‘Grand Theft Auto VI’s’ stunningly realized Miami - The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeGhKV0xIVE1UajJRRnVTSjdsSS1Od0M1UU9DSWc1VzJ6OTFDWWlfZDkxRWtUTkU3eTBIWW5yWTJnaDFKQUw0NHZDa3RoRlluZXJibXBhVDR3U1N6YUY3RFJPMVZBb0JvZkx0ZDBqT0JORG9EQVh5cnF1ZUluS2tkc0w0eTJXd1ktdm84OHFTS1cyMTJzYTlNTlh3SVhzeFV6T0VvTGNXMDE4WmQ0Y2JZUE5kQWRzTG5zTkNB?oc=5",
-          "source": "The Washington Post",
-          "pubDate": "Fri, 20 Nov 2026 16:03:22 GMT"
-        },
-        {
-          "title": "GTA 6 launch could break sales records - Queen City News",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMjY5VGRhUWdBUjVtZTlzU0E0bVNkMlhKV0IyNU9vcjYwMFM3V05JNjhMZmZKc1l0TnBtblZzUGk0eXA1UEllSWRBcWFwMzBrZ0JYVm1KN2t2anVOenZic3IwQVZ1enhFaktOUVd4T1dXVWZENlpUWFFwTUZzOXF4WUJuX3g?oc=5",
-          "source": "Queen City News",
-          "pubDate": "Fri, 20 Nov 2026 15:50:27 GMT"
+          "title": "The Best Music Moments and Surprise Cameos From ‘GTA VI’ - Rolling Stone",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaE1zakUzUmJxdVZHaE41M2JCOW85QjZMamZRQjA4cURDTGtnSUdsWkxMSDRsSy1JQWtfRTh5T2M3NHdrVURnMFJaYlU5M3BRZ0gxSUdILVJwdzd6Y0Fnd1JVSDlTMTRUZ3FMV3l4NC1Wbko4UXBSZUwxR1VTQmhVTUVn?oc=5",
+          "source": "Rolling Stone",
+          "pubDate": "Fri, 20 Nov 2026 21:51:33 GMT"
         }
       ],
       "history": [
@@ -3328,7 +3328,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 36
+          "count": 55
         }
       ]
     },
@@ -3337,7 +3337,7 @@
       "label": "GTA VI · DE",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 62,
+      "count24h": 65,
       "series": [
         {
           "date": "2026-11-14",
@@ -3353,57 +3353,57 @@
         },
         {
           "date": "2026-11-17",
-          "count": 0
+          "count": 1
         },
         {
           "date": "2026-11-18",
-          "count": 10
+          "count": 8
         },
         {
           "date": "2026-11-19",
-          "count": 28
+          "count": 23
         },
         {
           "date": "2026-11-20",
-          "count": 59
+          "count": 65
         }
       ],
       "items": [
         {
-          "title": "So kommen Merz und die CDU mit ihrem GTA-6-Posting an - SWR3",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90ZGNpMUZHc2doLWNua3pFand4M1JPRjh1OS0zQ1l6V2NlckptX2VWdkxCX3cyOW5laVpDX2R1RGNYaXQwWV9lOEdHMVVHa1pqYlJhcS1ERkRMM2plbFRuQzRucjZRSXh5ODBOT0dR?oc=5",
-          "source": "SWR3",
-          "pubDate": "Fri, 20 Nov 2026 16:13:32 GMT"
+          "title": "»GTA 6« spielt am ersten Verkaufstag knapp 3,8 Milliarden Dollar ein - Spiegel",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNDdEWjZSZXdwdUdodkRKTWZsWG1LbHhqbFJNeXNxQldaa29FYTBrNVFsVzhwM09mcUttc0FrcDh6TXhwblBjc2lIV0RFVnJxYjF2OTc1YmNtYzhHSzcyRC1OaUl4TWRHeVBuU2NjeUVqam5qWThuQjNTSFhmTXJUN0VCTkU3SWNpRlFoV1ktb0pRYXd6V1FLRTFld09NNi1qeGZ0bHJwUlRnNHZUcVI3MWo4UjdIM1Y3Y256YTNhcHlvcWFGYWMtZVNSQml2MV9wRXhTSVV2WWZXQ0E?oc=5",
+          "source": "Spiegel",
+          "pubDate": "Fri, 20 Nov 2026 22:12:00 GMT"
         },
         {
-          "title": "Warum GTA VI so erfolgreich ist - FAZ",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN3J3ZG5XbEJrMDdDVGxWQ0xVMlpQVWs2ZkluOU01WXpRbURBUGdITGZDZEJtWk5kQy1ZWXVZM2otenF0a2JSVGNUOEFINndISDJJckRleWVDM1hjajlQS0dpR2p3UkU4TlI2TE8zaS1PMXMwWFRTZlNBNnBJVU8tNV9oT3lQZkxjVHVFcXZ3bFpMdjBBdHZZbHJ3?oc=5",
-          "source": "FAZ",
-          "pubDate": "Fri, 20 Nov 2026 16:05:00 GMT"
+          "title": "Spieler beschweren sich über kritische Abstürze in GTA VI auf PlayStation 5. - GameGPU",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUmJrRW42YzE1N0xSTVJvRkFxU2taU1YxUUI4RmV1VjBVVHRkRkMzRHZnYksxbld4R2tud3FaSEE5N290dENFd0Q4YlFMSGl0OVF0ZUtsaDRtS2kyYlBJWkFvbko1eXhoeHJGMzVVa3NoWHhJQ3JUenNUWmFyb01WOVkwWU82ZDZnbHVTR0VDQmpXZFVubTlFRERNajNoYktoZlpV?oc=5",
+          "source": "GameGPU",
+          "pubDate": "Fri, 20 Nov 2026 22:05:41 GMT"
         },
         {
-          "title": "So bekommt ihr schon ganz früh in GTA 6 unendlich viel Geld - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZEpuOUxYYkdYbUJTdlFqZXVuVjJ0LXlGajNqc1pURjYydEh2NjBUb0J1R2hLbmlVcjdRSW9GM25DdTFwbVZqQVhrWXBlMUZYUlJmRmJja2ltSWljVUFLZUJJQk1QMzMzVGJwWVRxbDU0bU9hNnZNMU9LaG4yMnJQWDgzWGZITHVhWHVxR3hpSkIySjBmUUFoalI5Y1lRMURFRk5XSTBMN1k?oc=5",
+          "title": "GTA 6: Verbirgt Mandy ein dunkles Geheimnis? | Alle gruseligen Hinweise - IGN Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZGNMQmlDeEI0d0ZnRUxTdlM2S3RTMzhNRVB2QmI1NEZ5UGVibE10eVY2ak9sdmp4a01VS1IwUHNCQ01ISWcwQmVrODM3NDdfXzlXQk84Zzg3NTRmeFd2aEhrbDZ3Y09lTWFvMjlHSXpwY3RXdzBycnRzc0VYN1lEUU41RE80WEt0U1hzUTJlU19JckpBd1hlam14b05aQkJtZzB6VnNOUXVJM2FiT2pRUnpkTQ?oc=5",
           "source": "IGN Deutschland",
-          "pubDate": "Fri, 20 Nov 2026 16:00:00 GMT"
+          "pubDate": "Fri, 20 Nov 2026 20:59:42 GMT"
         },
         {
-          "title": "«GTA VI»: Zehn Filme und Serien, die sich wie das Game anfühlen - OutNow",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVUxwUjFZa295d2gwQnhHY1hwSDM4eG1PM0FkVHhUdnljcXluejM5R1pnT1pCUWpzeGdYcmhIbTJEa25PR09BUGdSNFhUbWE3T0dWbFo4aFBUTEdHN2szenBDY3djMmNaR1l1Y0xsVV9uU3dUM3FzVW1VOE8wOVdsbnRmdVYyNVFBYU5fOWZzM3d5Zkd6SGZxSU9CQ0ZZU2RybVlPS1dtbkt4R0k?oc=5",
-          "source": "OutNow",
-          "pubDate": "Fri, 20 Nov 2026 15:35:00 GMT"
+          "title": "3,8 Mrd. Dollar an Tag 1: GTA 6 schlägt alle Verkaufsrekorde - ComputerBase",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPLWhhRmtvQ0FEczRzVUdkVkVONWFTczlTNXFMZk1QcEllUXRBci1yaFBXQldMM2o2bEJtOVVoQThBV2d6bXAyWFZfaDQ4MnhzWC1uazI5SkQzY0IzQlZ5dk5QQkhkOHBuUmRmV0FxZXdSR2dwTkwzeDNPd2lDemlPVFJaS0t6TkMyZ3hNQW4xMGZrcUFOYW9yQTFGSmNQcklQV1lwNGR4QU5XNVE?oc=5",
+          "source": "ComputerBase",
+          "pubDate": "Fri, 20 Nov 2026 20:53:00 GMT"
         },
         {
-          "title": "Rockstar Games: GTA-6-Leaker droht mit Veröffentlichung der Xbox-Version - Golem",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRWxXQjZjRTgzN2lvNFlXSVlrQWg2RFo2ZnVSTVNMODFZR1dfZXNUZW9rS1A0cE05VXl1SGtRclVMVThTYXBtVzRmb2pPYXZFa01tcHZNd25ucGUyeXRrSlNsQTdXcUpaV1pBLUhoWS1ldkVHU0NNRmZpVjVnMzFyd3J0ZFlqSDQ3TmtVSXdXSVFUd2FFbHhxWmJDTVN6Q1kyNWZqS0FUQUl2SmNGNjNVSDd3R3pIQQ?oc=5",
-          "source": "Golem",
-          "pubDate": "Fri, 20 Nov 2026 15:23:02 GMT"
+          "title": "Videospiel - GTA 6 erzielt laut Entwickler weitere Rekorde - Deutschlandfunk",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWE1tZ0s3MUhKclk1bGMzWTYwdmF6enNiTXBtMDBBUWJ2U1V1b05zb3EtYXBVZ3RjUHRsOHJzczU4QnRrUnpmbHRLYW1KaEswQmg1R2djMmlmS1FxYlhHWG9EXzd3XzFiTENsWW9HeldVdFVaaVdreDY5Q0JTenNQRll3QkkyU0gzLWtkYlp3?oc=5",
+          "source": "Deutschlandfunk",
+          "pubDate": "Fri, 20 Nov 2026 20:46:10 GMT"
         },
         {
-          "title": "GTA 6: Trainer berichtet von „Dates mit Lucia“ – wie das Videospiel die Profisportler fesselt - WELT",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQQU1SZlU0T3ZqUklEZVFCWmNHUXdxVTcwbEZhcF9UODRwZXAwWWpzSjJPbl9ZOWZTM3RIWU4xdXNnNU53VTlSNGpWWGFVUEFNeTdfcEhZSFl2Qnprek9YSlZEU3hsTHFIeDd6TW81Vk1RRGNweFdvNGIyb1hyb2x2SXg3U0RVOEcxSkxWbjhLci05VkowV0tlRmVrR3ljUFRkbkVINXNPMEpPUkFmSkIwWTFCdzhTVy0wY2JsX05CYWVBang1VUxDM29vNmxsWVZTdjBDRndhUm5TQnkyVHpPV3loQVlwQQ?oc=5",
-          "source": "WELT",
-          "pubDate": "Fri, 20 Nov 2026 15:17:16 GMT"
+          "title": "„Grand Theft Auto VI“ spielt am ersten Tag 3,79 Milliarden Dollar ein - STERN.de",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMUlHTHVxYW1fWnZJenpKd0pwNUxDS3QwSGFNT3Z0bnQ1YXNxYWVNZUp4VUxERVdPY1NQSkN3UU9BWldhLUl0bXZfbVhIV1d4c3AyRjFuVHR6VHFMdU5INktIU0NzeDlWM2VQZ0M4LW95VTEtaDFxTHVvcUlHeVYxQWRFSGJCOWZaV2VaZTR2ZUoxWXdxWnRXVnhNWjc5aU1ESXN3UWpQcGFZZ1RqNmc?oc=5",
+          "source": "STERN.de",
+          "pubDate": "Fri, 20 Nov 2026 20:40:20 GMT"
         }
       ],
       "history": [
@@ -3481,7 +3481,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 59
+          "count": 65
         }
       ]
     },
@@ -3490,7 +3490,7 @@
       "label": "Leonida & Vice City",
       "query": "(Leonida OR \"Vice City\") (GTA OR \"Grand Theft Auto\")",
       "count7d": 100,
-      "count24h": 43,
+      "count24h": 39,
       "series": [
         {
           "date": "2026-11-14",
@@ -3506,57 +3506,57 @@
         },
         {
           "date": "2026-11-17",
-          "count": 6
+          "count": 5
         },
         {
           "date": "2026-11-18",
-          "count": 18
+          "count": 16
         },
         {
           "date": "2026-11-19",
-          "count": 57
+          "count": 43
         },
         {
           "date": "2026-11-20",
-          "count": 17
+          "count": 34
         }
       ],
       "items": [
         {
-          "title": "‘GTA 6: Vice City’ sparks global frenzy earning billions - MS NOW",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMUtzNDVSX1lwSkpZdUpfMjNnNEU1ZjlJbzRMX08zMV91Umc4LWZqUXZkaVVyUGJHampSdEdzX2tiMVJlNFMzOHA2NURjVm5iNHFsSVU2V1FqTnROQW1MRUlldEE1ajhzMHdNa0Z1c1A4ZVQ1NmZ0MlhfdW9vTmtiYUdHdGlkcUpSRmh2NHpxellqd2JUOHFzdUlJRkRCYU94MDVfTzN5SQ?oc=5",
-          "source": "MS NOW",
-          "pubDate": "Fri, 20 Nov 2026 16:02:23 GMT"
+          "title": "I Tracked Down All 60 Birds in GTA 6: A Birder’s Guide to Vice City’s Wildlife - National Audubon Society",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQb25TUkJoX2NyYVI1VGdlZ1pnbmlnLWlrTUU3SnhyemdZNTVwVGY0S0FleUZYVUlYc0lscVFGYUJUb0R3Rzl6M1FLWUw4REpTbGhTblpNcGI1VHljY3BUN0sxUUhnVks2d0F5NHlDYVpvZnRhNzYxS2RoNFNFOGtOVDd6dzM?oc=5",
+          "source": "National Audubon Society",
+          "pubDate": "Fri, 20 Nov 2026 22:38:24 GMT"
         },
         {
-          "title": "GTA 6 map guide: Leonida's best locations to explore once you unlock free-roam - GAMINGbible",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTHVGY05YYmcxY3BGaDFVb3UtY253dnlFSVNSYkI0TWRmZ3NSTHRDRXIwaDVmVTFkX2lVS3V0VVRsbW9sa1JBZEZkbzVjYW1wWGhwQml0QjJ0YlpqamNrdlJITWlvaHcwczZVVnJUdHdaZDc0RUZkNXBRYmNRcmVRVQ?oc=5",
-          "source": "GAMINGbible",
-          "pubDate": "Fri, 20 Nov 2026 15:00:00 GMT"
+          "title": "GTA VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales - Restart.run",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPak0xMlhEZGpsVHNqbFlUV056SG5iS09OY1pCYXpzTDk0M0xhVEFITWs3eWo1bHNOaEszc0tJSE5Td0hlVWNSU2ZZckpLWXRxdzBGYmQyVzdTelV1cGlRSEticndPeEFEUEFTeXpnS2tQajZLTmVJQ0FSWHRYR1RxdEptaG94Yzc4MkZXS0NicHFNdFZIODlVNGdrVEIwTlZJa3lPUUVZVERWc01MOWNNRlVjbWRwQ2RqMUtiLVhMSkExZlBj?oc=5",
+          "source": "Restart.run",
+          "pubDate": "Fri, 20 Nov 2026 21:57:13 GMT"
         },
         {
-          "title": "10 Real-Life GTA 6 Vice City Locations And Experiences In Miami, Florida - Yahoo",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaEdEUkdlNHBiWFhrMWxPR05uVGFfTVRjSVExd01HQ2p5Rk5iYW82TlBKTmVDeVlhTGYzdWllajRFQ2xCMmliSy1mQkN5WjZGUUJjWmJMbTZZZGhlQWdDbFc5TVZDT0xBTkRzOHNobmE1Y19halZaUy1QRllCUFFjYzgxQVJJZzA5MjlJLWotbjNIdlpxVjJNV0stQlQ?oc=5",
-          "source": "Yahoo",
-          "pubDate": "Fri, 20 Nov 2026 15:00:00 GMT"
+          "title": "Grand Theft Auto VI ‘s Vice City Pays Homage to the Bass, Among More Art Easter Eggs - ARTnews.com",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeFNzMURKZFlrcjVJR1NUa2Zya0tvX1pLczA1VkxuX2phazBHTFRoWXJUa25PSTJValZJM1E2cFJWejRWM2p5ZlFWcnFEejdqNmVvSlFXQllTVGE1RXJkb19mNWpGa2JOWEpyZkgxckg5aXNwSm12cUJWUGg1UVVYU0xGT1JiOWU5T19hNEF4QXVqeUx1ZENnSlhfM3VNSThLakZVOXpJX3J4Zw?oc=5",
+          "source": "ARTnews.com",
+          "pubDate": "Fri, 20 Nov 2026 21:12:00 GMT"
         },
         {
-          "title": "GTA 6 Free Printable Map Available Now, Get Yours Here - PlayStation LifeStyle",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMWNXM2VwWnFMNEg2clBXNzNKdVlybzU1N1FCbV93eHZpQUMtdGJUcXk3UUUwSXdZS1g3N09BSzVKOG53d2dObEdaczZISGVRU0NJSzhBNGViNjlDOHNKU1J3SS02VUhJZWJ3ODQ4UU5vZDl2SHA0aW81VktrYkFtY2ZXVdIBiAFBVV95cUxPLUdPaU91a0c5cS1LNkt3d3BqSjE4OWJfQ05PcURWeVM2WVFuNFFweW9VNEJUcWN0UVVVV2EyZ21fTWhWblJTc1pmVVVsbkRHV0NyY3FYVmZBLXNzbHVPWHZWRldxVTVOTzBzTk9MejgxQkI3a29kaHl3T0RnQmtsSzg4Zk9LWUdR?oc=5",
-          "source": "PlayStation LifeStyle",
-          "pubDate": "Fri, 20 Nov 2026 13:30:00 GMT"
+          "title": "GTA VI Shatters First-Day Sales Records With $3.8 Billion - TheWrap",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUTFibDVKNXZZdldwZG0wcE1MMzUyNEdCWC1PN3M1dG9yU1hUY2NBUE8ySHNYRHo0aWM5QkNQVUNDa09uMU5xZTdNMk1DY3ZEWjNlLWZfZGk3RFA2aU8zSkxpT2V0ZndHN0tXRFZxQ2pxS3dMMW5lenJ0d1lqY3VROXduVnZfa1J3MXpOXzAxaVBuRHVm?oc=5",
+          "source": "TheWrap",
+          "pubDate": "Fri, 20 Nov 2026 20:06:00 GMT"
         },
         {
-          "title": "The Miami Heat cash in on the ‘GTA VI’ phenomenon with ‘Vice City’ - MARCA",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRHptU2NfSWNSakkyRlFjdG9XdmlnYm1LWnVwbHUxUnRCeEdldl9uTXJLcXZpeGlXb21kNVNjeFlJdWt3U19jM1lLOUVaUksxblVWcDJuZ2ZTX3VJMjBqelFhSzJQd2s3RGM3WFNaZEpEY0t5MzhjUWtCUmRVd2JJaXMtYUNZcXV6Nm5tbk5PWkFpWllmLTBaQUpBOW0tdjFVUXc4eElGOHRGcUQwTUpockloMDVzMjBsY21JaFdSZGkzeWhmelhWRNIByAFBVV95cUxQdkVydE5LU25OR3ZlR2tNQUJ5RjRmUnItM2JKbXRHTkRHVjVBRHNOMnMzUlRHZzMzUmp2MlcybnJXUC1uS1Rmd1BVRnNXc0RmYnhfUWJWd2hGZmtkS1djU01Bc1RMSTN4ZmktMTlhSUVTUG13aWoyb0IwYjNBUHFMNUVNRXYwQllKYWFjd1NLTGJiV05xYXRfVHVxVWlzSXlUZndQdW83T0FhWVJ2THRISTZsX2ViLWp0NEpIaVQ3a1paWlBIbVNmVA?oc=5",
-          "source": "MARCA",
-          "pubDate": "Fri, 20 Nov 2026 12:57:47 GMT"
+          "title": "Vice City is back with ‘GTA VI,’ but some Miami locals have mixed feelings - NBC News",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQY24yZkI1Tnd5bnNPVktoWVZhMnZRa1F0NnVfejdTUnFYV3FUT3Z6N0hRLUowUVFWM0tzbHA2WjNkWjJISFlZUnlhT2xpeGQxQmhOSGlDT0wzdjRaNWF4SGVZYjlwQnQxTTVHZFNraFcyUG5GVlBvYnIxSEhQUGp5TnNkNjhsc09nNklYU2FmQVRqYm41R05WeU5ZWm1SV0lQZGN0bFRoWjdNSk9p?oc=5",
+          "source": "NBC News",
+          "pubDate": "Fri, 20 Nov 2026 20:01:00 GMT"
         },
         {
-          "title": "GTA 6 Vice City FM tracklist: Every song, artist and radio host - RouteNote",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdUJSd2FQTW9SdlJlQnh3WUdpd2ZrdjI5RHdhXzU1Y3NWR3J5OEtLbmhCVnNxZTNTNThKZXRBeEZpMmNLYmYxa0RNU0xIWmtic054bUZkaV9zZmpSMzBvTDdtYlFiTlJpWkVray1nSVBBeDRTQ0xLRkUyRXU1WVZ1WklSMFlIdXNIWjZ6eTQ4OGI0QWZB?oc=5",
-          "source": "RouteNote",
-          "pubDate": "Fri, 20 Nov 2026 12:45:00 GMT"
+          "title": "The Real Miami Museums and Artists Behind GTA VI’s Vice City - Hyperallergic",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYVQ2a0NpVmJUaDluUV85SU95TGxOa2wyRERMakhUUS1EdDNkSHctek1iOElLVWoyYzNXbFJ3MDJrM1JHeGhIVzRNQXlGaVNvSENfWjBXVXVNbXY3cDRhUzdOWHdRQldGTFZkSHhqNGw0QXRQX3VGYld4WXBucE5wUmJLalNNUTZLRk8ySWltOA?oc=5",
+          "source": "Hyperallergic",
+          "pubDate": "Fri, 20 Nov 2026 19:44:06 GMT"
         }
       ],
       "history": [
@@ -3590,7 +3590,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 17
+          "count": 34
         }
       ]
     },
@@ -3598,8 +3598,8 @@
       "key": "sick_de",
       "label": "Krankenstand · DE",
       "query": "(Krankmeldung OR Krankenstand OR Krankheitstage OR Arbeitsunfähigkeit)",
-      "count7d": 27,
-      "count24h": 4,
+      "count7d": 26,
+      "count24h": 3,
       "series": [
         {
           "date": "2026-11-14",
@@ -3627,7 +3627,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 4
+          "count": 3
         }
       ],
       "items": [
@@ -3636,12 +3636,6 @@
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTEwzNF9LSXRFb196TGpmSVoyanRfVWNtZDZxU3hESEVxRTEwQXR3dXUzTEhkVURidm5IckozeW5qbW5ySElPbHdpUHRDM2tERzlkOGxRY3ltSEN3aF9VLWRwUDVBQm1maUFOcVlBc0J5WS1wVTd3VTJ2ZDN6WUQ4bmpzS0pDWkhDM0EybHBUN2NrUzhLRmVtd251VHVqYUMtbXpF?oc=5",
           "source": "KOSMO | Eine starke Verbindung!",
           "pubDate": "Fri, 20 Nov 2026 12:25:23 GMT"
-        },
-        {
-          "title": "Krankenstand: WK fordert raschere Prüfungen - kaernten.ORF.at",
-          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OTUVONmJYbDhGcl9oYXBEZnBhUEt1ZG5HYjk5R1J6OEkwT09OUmp5eHBveE9hcTQtVy1vQVJmOVlTajltblhCZGl6SDNiOU1MQlE?oc=5",
-          "source": "kaernten.ORF.at",
-          "pubDate": "Fri, 20 Nov 2026 11:33:31 GMT"
         },
         {
           "title": "Krankmeldung: Der kaum bekannte Unterschied zwischen Krankheit und Arbeitsunfähigkeit - inFranken.de",
@@ -3666,6 +3660,12 @@
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNEhzamNVblYwWW9INlJuR214bXV1RDFJdElPQVZmWkpTZXctQkRJMVRpNm84Tm42b3VpTnFQVVFBUno2QzY4TnBUdWU0bWhRbXBvOUdrZ0RGNXphdGJ6bjNkQzV0TkNTTjkwNEg1enNHblhiazlUVk9CWkxydWhNYUJoRFRUc0c1aDVoYm82LXJ2UWFZN0l3STg0ZXNGdmFvanhnNnBVaEFnMENQSk5qcHloaUVDdw?oc=5",
           "source": "MeinBezirk.at",
           "pubDate": "Thu, 19 Nov 2026 13:12:43 GMT"
+        },
+        {
+          "title": "Fit und trotzdem Krankenstand? Wirtschaftskammer fordert von Kassen mehr Kontrollen - DiePresse.com",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObzJuVzdiRndtaW5oZkJnMm9wNUtOMWtxWXRTdWhOYTJGejc5MHV2V1pZMUxMSmdEVkFLZXAwbzRtWHI5UnI1MFVwOVBGRFVab0dRWnEyNDZHMXp6cEhWVWVCS1Fxb2NJekRoMXFXSFpXWW80YjhhSnlhQ25JWXpMbFBVRERmVDlVTlo5N1NOSmFaUGQ0QVhrOHRidTlHM3VhajNmT0Vn?oc=5",
+          "source": "DiePresse.com",
+          "pubDate": "Thu, 19 Nov 2026 12:55:05 GMT"
         }
       ],
       "history": [
@@ -3751,8 +3751,8 @@
       "key": "rockstar",
       "label": "Rockstar Newswire",
       "query": "site:rockstargames.com",
-      "count7d": 37,
-      "count24h": 17,
+      "count7d": 40,
+      "count24h": 16,
       "series": [
         {
           "date": "2026-11-14",
@@ -3760,7 +3760,7 @@
         },
         {
           "date": "2026-11-15",
-          "count": 0
+          "count": 1
         },
         {
           "date": "2026-11-16",
@@ -3768,15 +3768,15 @@
         },
         {
           "date": "2026-11-17",
-          "count": 0
+          "count": 1
         },
         {
           "date": "2026-11-18",
-          "count": 3
+          "count": 5
         },
         {
           "date": "2026-11-19",
-          "count": 16
+          "count": 15
         },
         {
           "date": "2026-11-20",
@@ -3785,40 +3785,40 @@
       ],
       "items": [
         {
+          "title": "Rockstar Games - Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzeUZKRXlubkdYdmxUOEFXNHlXX24yNVlNVGlhYkN4WUc5UEZucGZRQ09VZnJUZktDeEI1ekh6ZFVDbTJoaHpOMjFrQkhjM2tZVU1kamF4bGJZN1Bya2h2WlFYMUdhdlB6dHVzXzVIX3F2SHJmR1pSdndtOA?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Fri, 20 Nov 2026 22:13:40 GMT"
+        },
+        {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9VcEtsYWlGT0pGSlRpdUVHUlpKTzVpLTdJOU5SaEZnVTBPM2ZFbk1NdEduTWpPS1VvVjY4dll0dXBoRkFENlZHeGwxM0FIbHhUcm9yUFZqZnBHYWdhcTdPTjZDTUswMzczajhFTDgyTUt6RS1DUVRJQ0ZRNHNwdw?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Fri, 20 Nov 2026 15:46:15 GMT"
+          "pubDate": "Fri, 20 Nov 2026 21:55:35 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNTZ1Yll3T2dGSmhUX2dOcC1aOVM2Qmh6VXVTOFBHV0JVbFhvbWpRWXhuRUI5NnFNRmUwT2xmVmNHLWJpS3dqZTQ4Zkd5S3pIOXN6YWxkamQ2NVZzTzlURDFqeHZBdDBrak5DMS1HMFE3WFNiaWgtUk51UUxhSXhsaGpn?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Fri, 20 Nov 2026 15:24:06 GMT"
-        },
-        {
-          "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjUwM1JuMTVwTEdaSURSS2RNVmlMQ3VDcUpIREVfSWlwTXZHQ1A0S3h4eTR4MzZBUTZlcThvY2hLQVQ3aEdud3RBSWRSVHdtTDI3Tjl1THdsY3RpRTFVRy1kUmp6dEhNSFV0dFpoY0dYTzU5MjNyaGxGRVZQRXpPVGxVMnRDNEhKQUF5RDhCNVNuenBvMXlxY1duZkV4MW0ySGNrX3Nobw?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Fri, 20 Nov 2026 14:54:01 GMT"
-        },
-        {
-          "title": "Grand Theft Auto VI: The Album Now Available - Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Fri, 20 Nov 2026 14:51:59 GMT"
+          "pubDate": "Fri, 20 Nov 2026 21:29:25 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Ubk9rWWhZcXU0cmhTNjVfX3pNR2tIaUVtYVM2WlZYQTNsT0hFNEUxOVM5OF81blpzLXp5QW5CRC1BSkNteVJVTFMtSEloRzdua19IZFlIUHJtQzhtWEJ5bUd3WDdYc0ZTVnBjZ2ZnS2txY1k?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Fri, 20 Nov 2026 14:22:28 GMT"
+          "pubDate": "Fri, 20 Nov 2026 20:27:11 GMT"
         },
         {
           "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TYVV0RUx3N3pHcTVvQ0JVd2hMQTY4Y3dZZ3BPVkxGWVByeG0tSlhzX1RYM3dBQ3FCcWc1MWdSRmVMMWItVVlBZ0JEX2xKM20y?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04SkxRcHFJN2o2YW5qOHlYdHNhQVB6cVNyLWxEdk9JOFpYaTdSNnFURU53Y290aHRzaHVpdzJHbEd6bGZvc3QtTEI0SFVBQy1yQVdpUGxtWVZFNEg5c1FkVWtzSms1LUJ1N25pNGNfZnB4N2M?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Fri, 20 Nov 2026 14:20:15 GMT"
+          "pubDate": "Fri, 20 Nov 2026 20:17:13 GMT"
+        },
+        {
+          "title": "- Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HUE8wZVBqaUp1d3hxRjBaV1M0LVd1ODV4VzdjME0yT2VXN3RPLUhLR0xIWWxIRXN3NVh6bGEyY3A0WjhOZy1MMEpzWVQ1ZjlKNWRNSG1PZmN1Q015ZlMxVXVzUUlodnFfcG9qNW1xLWVqbmxvblE?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Fri, 20 Nov 2026 19:51:10 GMT"
         }
       ],
       "history": [
@@ -3917,47 +3917,47 @@
     "postsPerHour": 100,
     "topPosts": [
       {
-        "id": "1y17uxm",
-        "title": "How to progress story ch2",
+        "id": "1y1ha1n",
+        "title": "Looks like she's talking to a RuneScape character",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1795215094,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y1ha1n"
+      },
+      {
+        "id": "1y1h9z7",
+        "title": "Kelly County wanted glitched?",
+        "score": 1,
+        "comments": 0,
+        "createdUtc": 1795215089,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y1h9z7"
+      },
+      {
+        "id": "1y1h9w5",
+        "title": "My only complaint about the game",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1795192133,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y17uxm"
+        "createdUtc": 1795215081,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y1h9w5"
       },
       {
-        "id": "1y17ugd",
-        "title": "How are you guys feeling so far?",
+        "id": "1y1h9u0",
+        "title": "PS5 base model - peformace",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795192098,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y17ugd"
+        "createdUtc": 1795215077,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y1h9u0"
       },
       {
-        "id": "1y17u7d",
-        "title": "You’re telling me these 2 aren’t related?",
+        "id": "1y1h9g1",
+        "title": "Proper pc version before i even want to know gta 7 name",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795192080,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y17u7d"
-      },
-      {
-        "id": "1y17u11",
-        "title": "My little brother made a new safe file for his run now mine is gone",
-        "score": 1,
-        "comments": 1,
-        "createdUtc": 1795192069,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y17u11"
-      },
-      {
-        "id": "1y17u0f",
-        "title": "Can't put more money on Buckme",
-        "score": 1,
-        "comments": 0,
-        "createdUtc": 1795192067,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y17u0f"
+        "createdUtc": 1795215048,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y1h9g1"
       }
     ],
-    "fetchedAt": "2026-11-20T16:29:51.420Z"
+    "fetchedAt": "2026-11-20T22:52:05.200Z"
   },
   "redditGta": {
     "subreddit": "GTA",
@@ -3971,151 +3971,151 @@
     "posts24h": 100,
     "posts7d": null,
     "sampleSize": 100,
-    "sampleHours": 1.3,
-    "postsPerHour": 79,
+    "sampleHours": 1.1,
+    "postsPerHour": 88.3,
     "topPosts": [
       {
-        "id": "1y17vne",
-        "title": "NPC interactive mission: SAW movie reference",
-        "score": 1,
+        "id": "1y1gfak",
+        "title": "Pop goes the weasel.",
+        "score": 2,
         "comments": 0,
-        "createdUtc": 1795192184,
-        "link": "https://www.reddit.com/r/GTA/comments/1y17vne"
+        "createdUtc": 1795212830,
+        "link": "https://www.reddit.com/r/GTA/comments/1y1gfak"
       },
       {
-        "id": "1y17usg",
-        "title": "Do I look like Jason?",
+        "id": "1y1h9jz",
+        "title": "Rockstar you are not fooling anyone",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795192121,
-        "link": "https://www.reddit.com/r/GTA/comments/1y17usg"
+        "createdUtc": 1795215056,
+        "link": "https://www.reddit.com/r/GTA/comments/1y1h9jz"
       },
       {
-        "id": "1y17ukd",
-        "title": "About the GTA criticism",
+        "id": "1y1h8xl",
+        "title": "Rogue-like minigame inside GTA 6?",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795192105,
-        "link": "https://www.reddit.com/r/GTA/comments/1y17ukd"
+        "createdUtc": 1795215009,
+        "link": "https://www.reddit.com/r/GTA/comments/1y1h8xl"
       },
       {
-        "id": "1y17uc9",
-        "title": "GTA 6 players: your in-game cat vs your real cat. Who wins? (Share pics of both, pls)",
+        "id": "1y1h8ww",
+        "title": "Jason thanking himself for driving himself on the bus.",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795192089,
-        "link": "https://www.reddit.com/r/GTA/comments/1y17uc9"
+        "createdUtc": 1795215007,
+        "link": "https://www.reddit.com/r/GTA/comments/1y1h8ww"
       },
       {
-        "id": "1y17tnq",
-        "title": "What's the point or appeal of the game?",
+        "id": "1y1h8bj",
+        "title": "Anyone else annoyed that you cant outright buy cars in this game?",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795192046,
-        "link": "https://www.reddit.com/r/GTA/comments/1y17tnq"
+        "createdUtc": 1795214963,
+        "link": "https://www.reddit.com/r/GTA/comments/1y1h8bj"
       }
     ],
-    "fetchedAt": "2026-11-20T16:29:53.397Z"
+    "fetchedAt": "2026-11-20T22:52:07.406Z"
   },
   "steam": {
-    "gta5": 81884,
+    "gta5": 53351,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-20T16:29:48.488Z"
+    "fetchedAt": "2026-11-20T22:52:03.662Z"
   },
   "trends": {
     "de": {
       "geo": "DE",
       "items": [
         {
-          "title": "karin prien",
-          "traffic": "200+",
-          "pubDate": "Fri, 20 Nov 2026 08:10:00 -0800",
-          "newsTitle": "Karin Prien fordert Gleichstellungspolitik für Jungen und Männer",
-          "newsUrl": "https://www.faz.net/aktuell/politik/inland/karin-prien-fordert-gleichstellungspolitik-fuer-jungen-und-maenner-accg-201701120.html",
-          "newsSource": "FAZ"
-        },
-        {
-          "title": "india a cricket team vs nepal national cricket team standings",
-          "traffic": "500+",
-          "pubDate": "Fri, 20 Nov 2026 08:10:00 -0800",
-          "newsTitle": "Nepal bowled out for 26 by India A: Why it won't be the lowest ODI total ever",
-          "newsUrl": "https://sports.yahoo.com/articles/nepal-bowled-26-india-why-160544669.html",
-          "newsSource": "Yahoo Sports"
-        },
-        {
-          "title": "bahnhofsviertel",
-          "traffic": "200+",
-          "pubDate": "Fri, 20 Nov 2026 08:10:00 -0800",
-          "newsTitle": "Hessen: Frankfurt: Großrazzia im Bahnhofsviertel - \"Crackküche\" fliegt auf",
-          "newsUrl": "https://www.tagesschau.de/inland/regional/hessen/hr-grossrazzia-gegen-drogenhandel-und-geldwaesche-im-frankfurter-bahnhofsviertel-100.html",
+          "title": "klarna",
+          "traffic": "5000+",
+          "pubDate": "Fri, 20 Nov 2026 14:40:00 -0800",
+          "newsTitle": "Neue EU-Regeln ab heute: Mehr Schutz vor Verschuldung bei Kleinkrediten",
+          "newsUrl": "https://www.tagesschau.de/wirtschaft/kleinkredite-neue-regeln-verschuldung-100.html",
           "newsSource": "tagesschau.de"
         },
         {
-          "title": "andreas mitter",
-          "traffic": "200+",
-          "pubDate": "Fri, 20 Nov 2026 08:00:00 -0800",
-          "newsTitle": "Weltcup-Auftakt am Wochenende: Neuer Skisprung-Bundestrainer Mitter mit Schmäh in Richtung Tournee",
-          "newsUrl": "https://rp-online.de/sport/wintersport/skispringen/skisprung-bundestrainer-mitter-mit-schmaeh-richtung-vierschanzentournee_aid-158657647",
-          "newsSource": "RP Online"
-        },
-        {
-          "title": "wirges",
+          "title": "gta 6 online release",
           "traffic": "100+",
-          "pubDate": "Fri, 20 Nov 2026 08:00:00 -0800",
-          "newsTitle": "14-jähriges Mädchen aus Wirges vermisst",
-          "newsUrl": "https://www.polizei.rlp.de/fahndung/detailansicht/default-c5cf6115304cce60b32742e59ee71134",
-          "newsSource": "Polizei Rheinland-Pfalz"
+          "pubDate": "Fri, 20 Nov 2026 14:40:00 -0800",
+          "newsTitle": "When is GTA 6 online coming out? Here’s everything we know",
+          "newsUrl": "https://www.independent.co.uk/bulletin/lifestyle/gta-6-online-when-is-come-out-b3088890.html",
+          "newsSource": "The Independent"
         },
         {
-          "title": "bundeswehr",
-          "traffic": "2000+",
-          "pubDate": "Fri, 20 Nov 2026 07:50:00 -0800",
-          "newsTitle": "Bundeswehr Geländewagen in Hagenow gestohlen",
-          "newsUrl": "https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/bundeswehr-gelaendewagen-in-hagenow-gestohlen,mvregioschwerin-6584.html",
-          "newsSource": "tagesschau.de"
-        },
-        {
-          "title": "gta 6 news",
-          "traffic": "20000+",
-          "pubDate": "Fri, 20 Nov 2026 07:50:00 -0800",
-          "newsTitle": "Gebrauchte Spielekonsolen so teuer wie noch nie",
-          "newsUrl": "https://www.tagesschau.de/wirtschaft/digitales/gta-vi-konsolen-preise-gaming-100.html",
-          "newsSource": "tagesschau.de"
-        },
-        {
-          "title": "hubert ohne staller",
+          "title": "club der reality detektive",
           "traffic": "200+",
-          "pubDate": "Fri, 20 Nov 2026 07:50:00 -0800",
-          "newsTitle": "Helmfried von Lüttichau wird 70: „Der Staller war mein Sechser im Lotto\"",
-          "newsUrl": "https://www.merkur.de/lokales/region-miesbach/schliersee-ort29415/helmfried-von-luettichau-wird-70-der-staller-war-ein-sechser-im-lotto-94596672.html",
-          "newsSource": "Merkur"
+          "pubDate": "Fri, 20 Nov 2026 14:40:00 -0800",
+          "newsTitle": "Club der Reality Detektive im TV - Sendung",
+          "newsUrl": "https://www.tvspielfilm.de/tv-programm/sendung/club-der-reality-detektive,6ae1bdf56b6f3b46dcd3e34a.html",
+          "newsSource": "TV Spielfilm"
         },
         {
-          "title": "dominik krause",
+          "title": "mikey moore fc köln",
+          "traffic": "100+",
+          "pubDate": "Fri, 20 Nov 2026 14:40:00 -0800",
+          "newsTitle": "Kölns größte Transfer-Enttäuschung",
+          "newsUrl": "https://www.fussballtransfers.com/a3444542129224732857-koelns-groesste-transfer-enttaeuschung",
+          "newsSource": "Fussball Transfers"
+        },
+        {
+          "title": "msci world",
+          "traffic": "200+",
+          "pubDate": "Fri, 20 Nov 2026 14:30:00 -0800",
+          "newsTitle": "Geldanlage: Nur zwei von zehn Branchen im MSCI World sind noch unterbewertet",
+          "newsUrl": "https://www.handelsblatt.com/finanzen/geldanlage-nur-zwei-von-zehn-branchen-im-msci-world-sind-noch-unterbewertet/100268676.html",
+          "newsSource": "Handelsblatt"
+        },
+        {
+          "title": "friesenjunkies",
+          "traffic": "1000+",
+          "pubDate": "Fri, 20 Nov 2026 14:20:00 -0800",
+          "newsTitle": "NDR Talk Show - Moderatorin Sylvie Meis - hier anschauen",
+          "newsUrl": "https://www.ardmediathek.de/video/ndr-talk-show/moderatorin-sylvie-meis/ndr/Y3JpZDovL25kci5kZS9kOGI0MGRiNy1iMDc5LTRjOTYtYTY1Ny02NGFhZDdhZDRiMDI",
+          "newsSource": "ARD Mediathek"
+        },
+        {
+          "title": "til schweiger aktuell",
           "traffic": "500+",
-          "pubDate": "Fri, 20 Nov 2026 07:40:00 -0800",
-          "newsTitle": "München-OB Krause will nur einen Witz machen, doch Söder nimmt ihn ernst",
-          "newsUrl": "https://www.abendzeitung-muenchen.de/muenchen/muenchen-ob-krause-will-nur-einen-witz-machen-doch-soeder-nimmt-ihn-ernst-art-1174627",
-          "newsSource": "Abendzeitung München"
+          "pubDate": "Fri, 20 Nov 2026 14:20:00 -0800",
+          "newsTitle": "",
+          "newsUrl": "",
+          "newsSource": ""
         },
         {
-          "title": "шахтёр донецк – левый берег",
+          "title": "sunrise on the reaping",
+          "traffic": "1000+",
+          "pubDate": "Fri, 20 Nov 2026 14:20:00 -0800",
+          "newsTitle": "New Hunger Games cast say joining the franchise is 'nerve-racking'",
+          "newsUrl": "https://www.bbc.com/news/articles/c8752w5vz2zqo",
+          "newsSource": "BBC"
+        },
+        {
+          "title": "jan böhmermann",
           "traffic": "200+",
-          "pubDate": "Fri, 20 Nov 2026 07:40:00 -0800",
-          "newsTitle": "Дуэль медалистов в Черкассах, киевское дерби и репетиция Шахтера: анонс 13-го тура УПЛ",
-          "newsUrl": "https://champion.com.ua/rus/football/anons-i-raspisanie-13-go-tura-ukrainskoy-premer-ligi-glavnye-matchi-i-intrigi-1091099/",
-          "newsSource": "Champion.com.ua"
+          "pubDate": "Fri, 20 Nov 2026 14:20:00 -0800",
+          "newsTitle": "Sebastian Kurz: Auftritt in Zürich mit Zitaten von Jan Böhmermann gestört",
+          "newsUrl": "https://www.spiegel.de/kultur/sebastian-kurz-auftritt-in-zuerich-mit-zitaten-von-jan-boehmermann-gestoert-a-662f33e9-2423-4023-8ad0-a27eec84c7c8",
+          "newsSource": "Spiegel"
+        },
+        {
+          "title": "nvda",
+          "traffic": "200+",
+          "pubDate": "Fri, 20 Nov 2026 14:20:00 -0800",
+          "newsTitle": "Nvidia stock plunges 12%, rides longest weekly losing streak since 2008 financial crisis",
+          "newsUrl": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+          "newsSource": "CNBC"
         }
       ],
       "gta": [
         {
-          "title": "gta 6 news",
-          "traffic": "20000+",
-          "pubDate": "Fri, 20 Nov 2026 07:50:00 -0800",
-          "newsTitle": "Gebrauchte Spielekonsolen so teuer wie noch nie",
-          "newsUrl": "https://www.tagesschau.de/wirtschaft/digitales/gta-vi-konsolen-preise-gaming-100.html",
-          "newsSource": "tagesschau.de"
+          "title": "gta 6 online release",
+          "traffic": "100+",
+          "pubDate": "Fri, 20 Nov 2026 14:40:00 -0800",
+          "newsTitle": "When is GTA 6 online coming out? Here’s everything we know",
+          "newsUrl": "https://www.independent.co.uk/bulletin/lifestyle/gta-6-online-when-is-come-out-b3088890.html",
+          "newsSource": "The Independent"
         }
       ],
       "gtaCount": 1
@@ -4124,84 +4124,84 @@
       "geo": "US",
       "items": [
         {
-          "title": "mstr stock",
+          "title": "dayton basketball",
           "traffic": "500+",
-          "pubDate": "Fri, 20 Nov 2026 08:10:00 -0800",
-          "newsTitle": "Strategy (MSTR) On Bitcoin Buying And MSCI Exit Still Looks Undervalued",
-          "newsUrl": "https://finance.yahoo.com/markets/stocks/articles/strategy-mstr-bitcoin-buying-msci-211424742.html",
-          "newsSource": "Yahoo Finance"
+          "pubDate": "Fri, 20 Nov 2026 14:30:00 -0800",
+          "newsTitle": "Dayton basketball: Flyers will play Utah for first time since 1958 on Friday at Charleston Classic",
+          "newsUrl": "https://www.daytondailynews.com/tncms/asset/editorial/1924438e-eac0-5afb-9263-05d336f382e5",
+          "newsSource": "Dayton Daily News"
         },
         {
-          "title": "bitcoin price",
+          "title": "royce lewis",
           "traffic": "5000+",
-          "pubDate": "Fri, 20 Nov 2026 08:00:00 -0800",
-          "newsTitle": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?",
-          "newsUrl": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
-          "newsSource": "CNBC"
+          "pubDate": "Fri, 20 Nov 2026 14:20:00 -0800",
+          "newsTitle": "Dodgers trade for Twins’ Royce Lewis, former No. 1 pick whose climb was slowed by injuries",
+          "newsUrl": "https://www.nytimes.com/athletic/7799003/2026/11/20/dodgers-twins-trade-royce-lewis/",
+          "newsSource": "The New York Times"
         },
         {
-          "title": "btc",
+          "title": "luis gil",
+          "traffic": "500+",
+          "pubDate": "Fri, 20 Nov 2026 14:20:00 -0800",
+          "newsTitle": "Yankees non-tender former Rookie of the Year Luis Gil, reliever Fernando Cruz (reports)",
+          "newsUrl": "https://www.mlb.com/news/yankees-non-tender-decisions-2026",
+          "newsSource": "MLB.com"
+        },
+        {
+          "title": "utah basketball",
           "traffic": "2000+",
-          "pubDate": "Fri, 20 Nov 2026 08:00:00 -0800",
-          "newsTitle": "Bitcoin selloff: Crypto is failing the 'digital gold' test again as it sinks with stocks",
-          "newsUrl": "https://www.cnbc.com/2026/11/20/bitcoin-price-gold-market-hedge.html",
-          "newsSource": "CNBC"
+          "pubDate": "Fri, 20 Nov 2026 14:20:00 -0800",
+          "newsTitle": "Texas 92-68 Southern Utah (Nov 19, 2026) Game Recap",
+          "newsUrl": "https://www.espn.com/mens-college-basketball/recap/_/gameId/401906867",
+          "newsSource": "ESPN"
         },
         {
-          "title": "btc price",
+          "title": "retirement age",
           "traffic": "1000+",
-          "pubDate": "Fri, 20 Nov 2026 08:00:00 -0800",
-          "newsTitle": "BTC price at 11 AM CST on Nov 20, 2026",
-          "newsUrl": "https://robinhood.com/us/en/prediction-markets/crypto/events/btc-price-at-11-am-cst-on-nov-20-2026-nov-20-2026/",
-          "newsSource": "Robinhood"
+          "pubDate": "Fri, 20 Nov 2026 14:10:00 -0800",
+          "newsTitle": "Social Security retirement age: Here are the important dates to know with 2027 update",
+          "newsUrl": "https://www.al.com/news/2026/11/social-security-retirement-age-here-are-the-important-dates-to-know-with-2027-update.html",
+          "newsSource": "AL.com"
         },
         {
-          "title": "ethereum price",
+          "title": "franklin graham",
           "traffic": "500+",
-          "pubDate": "Fri, 20 Nov 2026 08:00:00 -0800",
-          "newsTitle": "Current price of Ethereum for Nov. 20, 2026",
-          "newsUrl": "https://fortune.com/article/price-of-ethereum-11-20-2026/",
-          "newsSource": "Fortune"
+          "pubDate": "Fri, 20 Nov 2026 14:10:00 -0800",
+          "newsTitle": "Judge temporarily blocks United Methodist congregation from using Highland Park United Methodist name",
+          "newsUrl": "https://www.dallasnews.com/news/faith/article/judge-blocks-highland-park-united-name-22540233.php",
+          "newsSource": "Dallas News"
         },
         {
-          "title": "walmart stock",
-          "traffic": "500+",
-          "pubDate": "Fri, 20 Nov 2026 07:50:00 -0800",
-          "newsTitle": "Walmart’s Digital Sales Are Now Driving Its Growth, Not Stores",
-          "newsUrl": "https://www.wsj.com/business/earnings/walmart-wmt-3q-earnings-report-2026-6e658c54",
-          "newsSource": "WSJ"
-        },
-        {
-          "title": "micron stock",
-          "traffic": "500+",
-          "pubDate": "Fri, 20 Nov 2026 07:50:00 -0800",
-          "newsTitle": "Micron Keeps Falling as Memory Stocks Get Agonizingly Cheap. The Next Catalyst.",
-          "newsUrl": "https://www.barrons.com/articles/micron-stock-memory-price-catalyst-58e84734",
-          "newsSource": "Barron's"
-        },
-        {
-          "title": "jp morgan chase",
-          "traffic": "10000+",
-          "pubDate": "Fri, 20 Nov 2026 07:40:00 -0800",
-          "newsTitle": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
-          "newsUrl": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
-          "newsSource": "WSJ"
-        },
-        {
-          "title": "pj simon",
-          "traffic": "500+",
-          "pubDate": "Fri, 20 Nov 2026 07:30:00 -0800",
-          "newsTitle": "Magnolia great PJ Simon, 46, passes away",
-          "newsUrl": "https://tiebreakertimes.com.ph/tbt/magnolia-great-pj-simon-46-passes-away/390440",
-          "newsSource": "Tiebreaker Times"
-        },
-        {
-          "title": "interland",
+          "title": "coosawattee river resort",
           "traffic": "200+",
-          "pubDate": "Fri, 20 Nov 2026 07:30:00 -0800",
-          "newsTitle": "Twijfels over EK-perspectief van Jong Oranje na wisselvallige kwalificatie: ’Ik heb er een hard hoofd in’",
-          "newsUrl": "https://www.telegraaf.nl/sport/voetbal/twijfels-over-ek-perspectief-van-jong-oranje-na-wisselvallige-kwalificatie-ik-heb-er-een-hard-hoofd-in/164735874.html",
-          "newsSource": "De Telegraaf"
+          "pubDate": "Fri, 20 Nov 2026 14:10:00 -0800",
+          "newsTitle": "Ogden Road shut down in Gilmer County as crews battle fire spreading across multiple streets",
+          "newsUrl": "https://www.11alive.com/article/news/local/ellijay-battle-fire-spread-across-multiple-streets-coosawattee-river-resort/85-9c10417c-d644-451a-a776-92e1cdbcc1df",
+          "newsSource": "11Alive.com"
+        },
+        {
+          "title": "scott wiener",
+          "traffic": "500+",
+          "pubDate": "Fri, 20 Nov 2026 14:10:00 -0800",
+          "newsTitle": "San Francisco’s Congressional Earthquake",
+          "newsUrl": "https://nymag.com/intelligencer/article/san-francisco-congressional-earthquake-pelosi-scott-weiner-ai-politics.html",
+          "newsSource": "New York Magazine"
+        },
+        {
+          "title": "iowa state vs ucf",
+          "traffic": "10000+",
+          "pubDate": "Fri, 20 Nov 2026 14:00:00 -0800",
+          "newsTitle": "Football vs. Iowa State | Weather and Gameday Updates",
+          "newsUrl": "https://ucfknights.com/news/2026/11/19/ucfisu",
+          "newsSource": "UCF Athletics"
+        },
+        {
+          "title": "jonathan roumie",
+          "traffic": "500+",
+          "pubDate": "Fri, 20 Nov 2026 14:00:00 -0800",
+          "newsTitle": "Jonathan Roumie Says the ‘Weight’ of Playing Jesus in The Chosen ‘Feels Overwhelming at Times’ (Exclusive)",
+          "newsUrl": "https://people.com/jonathan-roumie-playing-jesus-the-chosen-overwhelming-exclusive-12261279",
+          "newsSource": "People.com"
         }
       ],
       "gta": [],
@@ -4211,18 +4211,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 259,
+    "latencyMs": 232,
     "bytes": 1468250,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-20T16:29:48.334Z"
+    "checkedAt": "2026-11-20T22:52:03.491Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": false,
-    "checkedAt": "2026-11-20T16:29:49.218Z"
+    "checkedAt": "2026-11-20T22:52:03.817Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",

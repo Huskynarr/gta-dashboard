@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-20T16:29:55.601Z",
-  "startedAt": "2026-11-20T16:29:48.189Z",
-  "durationMs": 7412,
+  "lastRun": "2026-11-20T22:52:09.919Z",
+  "startedAt": "2026-11-20T22:52:03.354Z",
+  "durationMs": 6565,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -33,19 +33,19 @@
   "counts": {
     "stocks": 13,
     "stockHistory": 3392,
-    "snapshots": 61,
+    "snapshots": 62,
     "wikiSeries": 8,
     "newsQueries": 5,
     "decixPoints": 571,
-    "decixHistoryPoints": 5549,
+    "decixHistoryPoints": 5624,
     "decixDailyPeaks": 20,
-    "decixSitePoints": 16650,
-    "ixpSitePoints": 3915,
-    "filings": 10,
-    "pressReleases": 5,
-    "hypeSnapshots": 62,
-    "timelineSnapshots": 62,
-    "archivedNews": 3108
+    "decixSitePoints": 16881,
+    "ixpSitePoints": 4076,
+    "filings": 11,
+    "pressReleases": 6,
+    "hypeSnapshots": 63,
+    "timelineSnapshots": 63,
+    "archivedNews": 3218
   },
   "errors": []
 }
