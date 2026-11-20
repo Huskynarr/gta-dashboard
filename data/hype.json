@@ -1,20 +1,16 @@
 {
-  "updated": "2026-11-19T23:56:59.013Z",
+  "updated": "2026-11-20T00:00:50.046Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 18,
+      "count7d": 17,
       "count24h": 2,
       "publisherCount": 12,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-13",
-          "count": 3
-        },
         {
           "date": "2026-11-14",
           "count": 1
@@ -38,6 +34,10 @@
         {
           "date": "2026-11-19",
           "count": 2
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T23:56:59.013Z",
+      "updated": "2026-11-20T00:00:50.046Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -136,6 +136,10 @@
         {
           "date": "2026-11-19",
           "count": 2
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -145,14 +149,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 54,
+      "count24h": 55,
       "publisherCount": 37,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-13",
-          "count": 0
-        },
         {
           "date": "2026-11-14",
           "count": 0
@@ -171,11 +171,15 @@
         },
         {
           "date": "2026-11-18",
-          "count": 37
+          "count": 36
         },
         {
           "date": "2026-11-19",
-          "count": 54
+          "count": 55
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
@@ -205,7 +209,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T23:56:59.013Z",
+      "updated": "2026-11-20T00:00:50.046Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -273,7 +277,11 @@
         },
         {
           "date": "2026-11-19",
-          "count": 54
+          "count": 55
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -287,10 +295,6 @@
       "publisherCount": 28,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-13",
-          "count": 2
-        },
         {
           "date": "2026-11-14",
           "count": 0
@@ -314,6 +318,10 @@
         {
           "date": "2026-11-19",
           "count": 22
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
@@ -343,7 +351,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T23:56:59.013Z",
+      "updated": "2026-11-20T00:00:50.046Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -412,6 +420,10 @@
         {
           "date": "2026-11-19",
           "count": 25
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -421,25 +433,21 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 51,
-      "publisherCount": 57,
+      "count24h": 64,
+      "publisherCount": 62,
       "capped": true,
       "series": [
         {
-          "date": "2026-11-13",
-          "count": 3
-        },
-        {
           "date": "2026-11-14",
-          "count": 3
+          "count": 1
         },
         {
           "date": "2026-11-15",
-          "count": 2
+          "count": 1
         },
         {
           "date": "2026-11-16",
-          "count": 4
+          "count": 1
         },
         {
           "date": "2026-11-17",
@@ -447,14 +455,24 @@
         },
         {
           "date": "2026-11-18",
-          "count": 29
+          "count": 22
         },
         {
           "date": "2026-11-19",
-          "count": 51
+          "count": 64
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
+        {
+          "title": "Downloads für \"GTA 6\" stellen Internetanbieter vor Herausforderungen - SWR",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZnZsNU9xVGZDaUk4UXp1LU1Fa3g4SFBtX2p2RmxndldsYXp4MzN3cGFTdlR2RXdLMzhheUtRQndtV2hTRHlINXRfMUtrdHY3Z2tBaC1xbGxWQUZLVEZvNHZHS1BtOEhIY1UyNTA2YXBEeXctQUpYN3puRGFmYl9zRHFkd3N3c05xR256SWx2a3J4RzRmTGhqeUt6ZjUzUkNmbmdtekJKY3RLRE5rNjBV?oc=5",
+          "source": "SWR",
+          "pubDate": "Thu, 19 Nov 2026 22:24:04 GMT"
+        },
         {
           "title": "\"GTA 6\" ist spielbar: Darum ist der Hype so groß - NDR.de",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeDNfRjJiQzlSTWpYMUNMdE9lSjNfM3d5dE5vUGhxZDBzRVhldThlRXR3amdfZ0dBRFluSnc0LXlLRmFaYXlnRlpqQmxEUVlXdUlhR2pNZUN2bTBQdWRuOWl5QjBDTVVGcnNXaG9Zc21uNFFJWW5xcWhDOVBsQVEwdktlWjBQMkI3V1R0UFBZSm1PTW1OT3d1UUlCb2pmUGs?oc=5",
@@ -472,16 +490,10 @@
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaTRRLUwtbzhJNjlDUVFhRFNtX3NGbFFfalRtMjNJMmpQV19PbFpwOHpCMGVpWFZKTk15cnVWVlBVelNKdnBna0lGQXhrUF9fUEhTTmV5Vkc3NGtuRENjaHIyYUtFTmY4ckQyWVBvZXZ3V3FqNEhfdlkxMVRnYUppaWtMQzdHQk80djBfalYzSFZqZVJiRC05T2VyQWU4SUFpVENUWWJTRVFpRUNoMG5NNmM2cUxaejlkZXc?oc=5",
           "source": "TopTechNews",
           "pubDate": "Thu, 19 Nov 2026 20:46:50 GMT"
-        },
-        {
-          "title": "„GTA 6“ ist da – erste Tests, Downloadgröße und alle wichtigen Infos - Neue Westfälische",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcktaOTYtdEhaYTdNOU16Zkg3MzEzSVp2aXk4YkVjSTh2REpsQnNFWjhSd3N1VldocklRQ0lvejJfQ0UyZ2NGQXRPZ21YLVJ0U0xwX2RUaGxTVXNmYW80V1QtTnhzeDR0S2dySVA3SjZqMTFyMUhwZ01VbHNHMGJQZlE5ZUJCMUpjZ1U5bVUzWHJMWHV5dTNELUZwSVl6Wlp4b1EyMjFoRm83MzlVZXFCNGRVX2Izdnc?oc=5",
-          "source": "Neue Westfälische",
-          "pubDate": "Thu, 19 Nov 2026 18:27:05 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-19T23:56:59.013Z",
+      "updated": "2026-11-20T00:00:50.046Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -550,6 +562,10 @@
         {
           "date": "2026-11-19",
           "count": 65
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     }
@@ -956,6 +972,13 @@
     },
     {
       "at": "2026-11-19T23:56:59.010Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-20T00:00:50.042Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,

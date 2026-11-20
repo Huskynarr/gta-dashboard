@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T23:57:01.854Z",
+  "updated": "2026-11-20T00:00:51.358Z",
   "source": "DE-CIX traffic API",
   "start": "2026-11-01T00:00:00.000Z",
   "sites": {
@@ -8,7 +8,7 @@
       "label": "New York",
       "timeZone": "America/New_York",
       "status": "ok",
-      "fetchedAt": "2026-11-19T23:57:00.602Z",
+      "fetchedAt": "2026-11-20T00:00:50.267Z",
       "meta": {
         "current": 2039929767655,
         "allTimePeak": 2439179990312
@@ -21528,9 +21528,9 @@
       "label": "Madrid",
       "timeZone": "Europe/Madrid",
       "status": "ok",
-      "fetchedAt": "2026-11-19T23:57:00.910Z",
+      "fetchedAt": "2026-11-20T00:00:50.577Z",
       "meta": {
-        "current": 934363086583,
+        "current": 898723274814,
         "allTimePeak": 1557194566672
       },
       "monthPeak": 1468803077541,
@@ -42939,6 +42939,10 @@
         [
           1795131300000,
           917110271002
+        ],
+        [
+          1795131600000,
+          898723274814
         ]
       ],
       "dailyPeaks": [
@@ -43044,9 +43048,9 @@
       "label": "Dubai",
       "timeZone": "Asia/Dubai",
       "status": "ok",
-      "fetchedAt": "2026-11-19T23:57:01.597Z",
+      "fetchedAt": "2026-11-20T00:00:51.101Z",
       "meta": {
-        "current": 781601918363,
+        "current": 774530904788,
         "allTimePeak": 1302891556403
       },
       "monthPeak": 1276320112568,

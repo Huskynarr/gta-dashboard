@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-19T23:56:59.010Z",
+  "updated": "2026-11-20T00:00:50.042Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
       "label": "GTA VI · EN",
       "project": "en.wikipedia",
       "article": "Grand_Theft_Auto_VI",
-      "total": 2795451,
+      "total": 2772871,
       "recent7": 1083033,
       "prev7": 287918,
       "series": [
@@ -421,7 +421,7 @@
       "label": "GTA VI · DE",
       "project": "de.wikipedia",
       "article": "Grand_Theft_Auto_VI",
-      "total": 249382,
+      "total": 248130,
       "recent7": 116369,
       "prev7": 30363,
       "series": [
@@ -836,7 +836,7 @@
       "label": "GTA VI · FR",
       "project": "fr.wikipedia",
       "article": "Grand_Theft_Auto_VI",
-      "total": 194203,
+      "total": 192837,
       "recent7": 69140,
       "prev7": 18755,
       "series": [
@@ -1207,7 +1207,7 @@
       "label": "Grand Theft Auto · Reihe",
       "project": "en.wikipedia",
       "article": "Grand_Theft_Auto",
-      "total": 825909,
+      "total": 820683,
       "recent7": 273297,
       "prev7": 72242,
       "series": [
@@ -1578,7 +1578,7 @@
       "label": "GTA V · EN",
       "project": "en.wikipedia",
       "article": "Grand_Theft_Auto_V",
-      "total": 1050211,
+      "total": 1040234,
       "recent7": 233238,
       "prev7": 82173,
       "series": [
@@ -1949,7 +1949,7 @@
       "label": "Rockstar Games · EN",
       "project": "en.wikipedia",
       "article": "Rockstar_Games",
-      "total": 644211,
+      "total": 637828,
       "recent7": 195265,
       "prev7": 56946,
       "series": [
@@ -2320,7 +2320,7 @@
       "label": "Krankenstand · DE",
       "project": "de.wikipedia",
       "article": "Krankenstand",
-      "total": 326,
+      "total": 325,
       "recent7": 28,
       "prev7": 19,
       "series": [
@@ -2735,7 +2735,7 @@
       "label": "Arbeitsunfähigkeit · DE",
       "project": "de.wikipedia",
       "article": "Arbeitsunfähigkeit",
-      "total": 1406,
+      "total": 1389,
       "recent7": 77,
       "prev7": 116,
       "series": [
@@ -3152,12 +3152,8 @@
       "label": "GTA VI · EN",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 66,
+      "count24h": 65,
       "series": [
-        {
-          "date": "2026-11-13",
-          "count": 0
-        },
         {
           "date": "2026-11-14",
           "count": 1
@@ -3168,7 +3164,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 0
+          "count": 1
         },
         {
           "date": "2026-11-17",
@@ -3180,10 +3176,20 @@
         },
         {
           "date": "2026-11-19",
-          "count": 66
+          "count": 65
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
+        {
+          "title": "Take-Two set to shatter sales records as 'GTA VI' launches to massive fanfare - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONUF6bm1SdVF6MDNJX3VvZXF3d0pzLVVoQXJxUTJEZ1ZqaGszRTNTOWNPaXRrOXhFcEhJeGJfT2V6dkVocUxyQVZaXzlQOXFtOVJZMER1WmxMbTN5VXFqMXJfbkhabFNtd1VTbnJ6dGVVSlJua2EwSGRYUHk5QmhtaXhaWV9NQWFSalhRZU5takkwWkNzeGV1TWpFRVBtWmJvbEFMLUhpZEJDRXl2Y3FveFZn?oc=5",
+          "source": "Reuters",
+          "pubDate": "Thu, 19 Nov 2026 23:46:23 GMT"
+        },
         {
           "title": "Miami native explores \"Vice City\" in Grand Theft Auto VI after waiting 13 years: \"I feel like I'm living in a dream\" - CBS News",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWVRTnA2ZElVTmhzTjVWd3VBbHB0dEpucEtKUHB2TzNDck9XYzFzR1ZqZFpSQnNiQTlyQ2ZQOE8yZ1dJMWFlYWZxZnJCcUlPdk8wdUlpMTNILTVzdGV1RWVGQmNUWlVLSGxWN3JUOXM1c1FvU1NraFVlQ1NKUVVLY0I3ejVPdVRBMzVaTjFZR3JFN1J6NE8yUV9JTTljWlM2YjVZ?oc=5",
@@ -3213,12 +3219,6 @@
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdnkza3o5SFdnQWpNcGtuVXRBejVhMEhkd2k5MzBHUXN5R1JvNW5lU3FBd0xBMVpKVnJCUkVFeFVGN2pGaUp5TVVYdlI4b0pVTllYU0pBWjY1RWxuc0dkS3hoTWU4S21pRjdieFljTUxKQmhsRmQ5UXVlUkdnS201U1cxdnJ4TERjaW8zTEZJOEtFUkY0bjdKX21zS2Qyemp5VTdkTkJsQnBmbldkMUV3?oc=5",
           "source": "The Guardian",
           "pubDate": "Thu, 19 Nov 2026 23:25:00 GMT"
-        },
-        {
-          "title": "The world is experiencing ‘GTA VI’ together — players and spectators alike - CNN",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYWRkUFhaZ2V2czUyX0ZyZFJ0RHJlWWdMR1d4bXppX0Jmcjc4MEZ0QV9icTNqM3JOdkszdTZHcVE1My1YRWlGbHoxR3lzYXlMRzJzbVJzSVUwc0N6ems5a2Y1bEJBUjdJZ3VEZXA5elNZOWhWMUl4aGlFQjNHT3l6dUtzVWd4djNOWkRzOTZvZw?oc=5",
-          "source": "CNN",
-          "pubDate": "Thu, 19 Nov 2026 23:17:46 GMT"
         }
       ],
       "history": [
@@ -3293,6 +3293,10 @@
         {
           "date": "2026-11-19",
           "count": 66
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -3301,12 +3305,8 @@
       "label": "GTA VI · DE",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 81,
+      "count24h": 80,
       "series": [
-        {
-          "date": "2026-11-13",
-          "count": 1
-        },
         {
           "date": "2026-11-14",
           "count": 1
@@ -3325,11 +3325,15 @@
         },
         {
           "date": "2026-11-18",
-          "count": 13
+          "count": 14
         },
         {
           "date": "2026-11-19",
-          "count": 81
+          "count": 80
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
@@ -3442,6 +3446,10 @@
         {
           "date": "2026-11-19",
           "count": 81
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -3450,12 +3458,8 @@
       "label": "Leonida & Vice City",
       "query": "(Leonida OR \"Vice City\") (GTA OR \"Grand Theft Auto\")",
       "count7d": 100,
-      "count24h": 73,
+      "count24h": 71,
       "series": [
-        {
-          "date": "2026-11-13",
-          "count": 1
-        },
         {
           "date": "2026-11-14",
           "count": 0
@@ -3479,6 +3483,10 @@
         {
           "date": "2026-11-19",
           "count": 73
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
@@ -3487,12 +3495,6 @@
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWVRTnA2ZElVTmhzTjVWd3VBbHB0dEpucEtKUHB2TzNDck9XYzFzR1ZqZFpSQnNiQTlyQ2ZQOE8yZ1dJMWFlYWZxZnJCcUlPdk8wdUlpMTNILTVzdGV1RWVGQmNUWlVLSGxWN3JUOXM1c1FvU1NraFVlQ1NKUVVLY0I3ejVPdVRBMzVaTjFZR3JFN1J6NE8yUV9JTTljWlM2YjVZ?oc=5",
           "source": "CBS News",
           "pubDate": "Thu, 19 Nov 2026 23:45:35 GMT"
-        },
-        {
-          "title": "Vice City Girl: JT Is Taking Over ‘GTA 6’ As A Radio Host - Hot 100.9",
-          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5M2N5a2lYQ1RTalQ4NjJaT1dTM1FZcFVxV3BsRjNWSlppVlI1eURVaFR3TVlrU2oxRmZtWk55T3RrUHdxSjlpSnVJVGVuR19GR0RHMUZSMU5TRVFr?oc=5",
-          "source": "Hot 100.9",
-          "pubDate": "Thu, 19 Nov 2026 23:25:26 GMT"
         },
         {
           "title": "GTA 6 songs you'll hear cruising around Vice City - CBS News",
@@ -3517,6 +3519,12 @@
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdDRqRU01OVljYVRiWldjQUc5c2NIRHJyNWdJemx1djlJZDlKN3FwTlV2OWo1aTM1Y21wNVczbFVEbUJJWWR4OXFtZDktXzNsdktzVlFOVUdLSmNVckRDS3JEcUpCd3ZkQ053NUt0azFyRTE4dmRYbFdEbnNYY05EaFFvYkVNMHV2cjBMYXB1SndCWTVrQ0xfVGdONVdtd9IBowFBVV95cUxPVklMMy1hV0Y2bVp6VzRTQkhaSm9KdzdXUjJNcVg1RWx1TlRsUUQ5MGNHcDdKcWNWT3p3c0RaRFRLY3JpcFhVbkR2WGRLb0JsTHdPVVlfNXZ5UUx5aGdyVnFZSExNbHpuU3lGcFVvWW9zYklSQjRzNW1ycWxxQU9ZdXUyMHlOaUVqOEVsT2R6alNiWVBQUzlXdy1zM2Y2TWpLM3pJ?oc=5",
           "source": "WOODTV.com",
           "pubDate": "Thu, 19 Nov 2026 22:18:55 GMT"
+        },
+        {
+          "title": "GTA 6's Pop And Classic Rock Radio Stations Contain 150 Songs, More Than All Of Vice City’s Radio Stations Combined - Kotaku",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQWWthby11cDVuZEJsR2JNV3F4OGxiT2ljR2c0TTFzX0ZxVDNQQWdCUklXbEFLY1hoOWpVVDV0bFlPeFYzZDIxcGF5cHh4MlpQREVTNHhHZjhYbzZNT241Z0VJRDVxcng2ZFJybWk5STV4NFVVczNCREVkVnhMUTM5SjRLYUZHVUttQ281X3VXNERXQWNTOXBxdW1VM2ZsbnRHX0hxclMyMzFacWU1NERGYVJrU04yNjI2RHRGWGxfMnE0bWItQndoTTlQOFBVczVBX1Fvd2ROdXg0dw?oc=5",
+          "source": "Kotaku",
+          "pubDate": "Thu, 19 Nov 2026 22:02:25 GMT"
         }
       ],
       "history": [
@@ -3547,6 +3555,10 @@
         {
           "date": "2026-11-19",
           "count": 73
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -3557,10 +3569,6 @@
       "count7d": 26,
       "count24h": 6,
       "series": [
-        {
-          "date": "2026-11-13",
-          "count": 3
-        },
         {
           "date": "2026-11-14",
           "count": 2
@@ -3584,6 +3592,10 @@
         {
           "date": "2026-11-19",
           "count": 6
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
@@ -3696,6 +3708,10 @@
         {
           "date": "2026-11-19",
           "count": 7
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     },
@@ -3706,10 +3722,6 @@
       "count7d": 36,
       "count24h": 26,
       "series": [
-        {
-          "date": "2026-11-13",
-          "count": 2
-        },
         {
           "date": "2026-11-14",
           "count": 2
@@ -3733,6 +3745,10 @@
         {
           "date": "2026-11-19",
           "count": 26
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ],
       "items": [
@@ -3845,6 +3861,10 @@
         {
           "date": "2026-11-19",
           "count": 26
+        },
+        {
+          "date": "2026-11-20",
+          "count": 0
         }
       ]
     }
@@ -3865,47 +3885,47 @@
     "postsPerHour": 100,
     "topPosts": [
       {
-        "id": "1y0oq6e",
-        "title": "How hard the game gets in Vice City.",
-        "score": 1,
-        "comments": 0,
-        "createdUtc": 1795132595,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y0oq6e"
-      },
-      {
-        "id": "1y0opxm",
-        "title": "Yooo does anyone wanna buy me gta 6?",
+        "id": "1y0osxe",
+        "title": "They already saw the amount of Egg there is XD",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1795132574,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y0opxm"
+        "createdUtc": 1795132803,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y0osxe"
       },
       {
-        "id": "1y0oppr",
-        "title": "Please help - stuck at a mission due to a big",
-        "score": 1,
-        "comments": 0,
-        "createdUtc": 1795132558,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y0oppr"
-      },
-      {
-        "id": "1y0oppi",
-        "title": "Arthur Morgan’s hat?",
+        "id": "1y0osv0",
+        "title": "Which is better gta6/5 or cyberpunk?",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1795132557,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y0oppi"
+        "createdUtc": 1795132801,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y0osv0"
       },
       {
-        "id": "1y0opem",
-        "title": "PSA: Use Auto Drive",
+        "id": "1y0oscx",
+        "title": "Could GTA VI \"Living City Seasons\" solve the biggest flaw in live-service open worlds?",
         "score": 1,
-        "comments": 0,
-        "createdUtc": 1795132532,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y0opem"
+        "comments": 1,
+        "createdUtc": 1795132773,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y0oscx"
+      },
+      {
+        "id": "1y0os7s",
+        "title": "Grand Theft Auto 6 - Skunk Ape Encounter",
+        "score": 1,
+        "comments": 1,
+        "createdUtc": 1795132762,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y0os7s"
+      },
+      {
+        "id": "1y0os2f",
+        "title": "the decade’s game",
+        "score": 1,
+        "comments": 1,
+        "createdUtc": 1795132749,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y0os2f"
       }
     ],
-    "fetchedAt": "2026-11-19T23:56:56.974Z"
+    "fetchedAt": "2026-11-20T00:00:40.776Z"
   },
   "redditGta": {
     "subreddit": "GTA",
@@ -3920,7 +3940,7 @@
     "posts7d": null,
     "sampleSize": 100,
     "sampleHours": 1.3,
-    "postsPerHour": 78.1,
+    "postsPerHour": 79.8,
     "topPosts": [
       {
         "id": "1y0ncux",
@@ -3931,45 +3951,45 @@
         "link": "https://www.reddit.com/r/GTA/comments/1y0ncux"
       },
       {
-        "id": "1y0oq6z",
-        "title": "🥲 34 hours",
+        "id": "1y0otu1",
+        "title": "I skipped the video. Wtf did I just miss? 😂",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795132596,
-        "link": "https://www.reddit.com/r/GTA/comments/1y0oq6z"
+        "createdUtc": 1795132832,
+        "link": "https://www.reddit.com/r/GTA/comments/1y0otu1"
       },
       {
-        "id": "1y0omnt",
-        "title": "The first mystery I found in GTA6",
+        "id": "1y0osl4",
+        "title": "The wanted system is genuinely amazing.",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795132318,
-        "link": "https://www.reddit.com/r/GTA/comments/1y0omnt"
+        "createdUtc": 1795132793,
+        "link": "https://www.reddit.com/r/GTA/comments/1y0osl4"
       },
       {
-        "id": "1y0olu7",
-        "title": "I did a walking tour in Ocean Beach!",
+        "id": "1y0oruq",
+        "title": "I’ve been attacked, drugged and was probably molested by Bigfoot",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795132250,
-        "link": "https://www.reddit.com/r/GTA/comments/1y0olu7"
+        "createdUtc": 1795132731,
+        "link": "https://www.reddit.com/r/GTA/comments/1y0oruq"
       },
       {
-        "id": "1y0oli5",
-        "title": "Might buy GTA 6 even though I’ve never played it in my life",
+        "id": "1y0orui",
+        "title": "Arthur's hat",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795132223,
-        "link": "https://www.reddit.com/r/GTA/comments/1y0oli5"
+        "createdUtc": 1795132730,
+        "link": "https://www.reddit.com/r/GTA/comments/1y0orui"
       }
     ],
-    "fetchedAt": "2026-11-19T23:56:59.010Z"
+    "fetchedAt": "2026-11-20T00:00:50.042Z"
   },
   "steam": {
-    "gta5": 35807,
+    "gta5": 34722,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-19T23:56:52.605Z"
+    "fetchedAt": "2026-11-20T00:00:38.270Z"
   },
   "trends": {
     "de": {
@@ -4150,18 +4170,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 603,
+    "latencyMs": 102,
     "bytes": 1463455,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-19T23:56:52.255Z"
+    "checkedAt": "2026-11-20T00:00:38.159Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": false,
-    "checkedAt": "2026-11-19T23:56:53.012Z"
+    "checkedAt": "2026-11-20T00:00:38.394Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",

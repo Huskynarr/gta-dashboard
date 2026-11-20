@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T23:57:00.494Z",
+  "updated": "2026-11-20T00:00:51.326Z",
   "source": "AMS-IX statistics page, LONAP IXP Manager grapher",
   "start": "2026-11-01T00:00:00.000Z",
   "sites": {
@@ -9,9 +9,9 @@
       "operator": "AMS-IX",
       "timeZone": "Europe/Amsterdam",
       "status": "ok",
-      "fetchedAt": "2026-11-19T23:56:59.292Z",
+      "fetchedAt": "2026-11-20T00:00:50.235Z",
       "meta": {
-        "current": 8355644000000,
+        "current": 7864730000000,
         "allTimePeak": 15822283000000,
         "peakBasis": "12 months"
       },
@@ -5960,7 +5960,19 @@
         ],
         [
           1795131300000,
-          8355644343705
+          8267551914553
+        ],
+        [
+          1795131600000,
+          8051628682503
+        ],
+        [
+          1795131900000,
+          7998561246138
+        ],
+        [
+          1795132200000,
+          7864730416128
         ]
       ],
       "dailyPeaks": [
@@ -6067,9 +6079,9 @@
       "operator": "LONAP",
       "timeZone": "Europe/London",
       "status": "ok",
-      "fetchedAt": "2026-11-19T23:57:00.240Z",
+      "fetchedAt": "2026-11-20T00:00:51.073Z",
       "meta": {
-        "current": 1693370813056,
+        "current": 1562384455880,
         "allTimePeak": 3434354559488,
         "peakBasis": "12 months"
       },
@@ -14235,6 +14247,10 @@
         [
           1795132200000,
           1694065759888
+        ],
+        [
+          1795132500000,
+          1693340131880
         ]
       ],
       "dailyPeaks": [
