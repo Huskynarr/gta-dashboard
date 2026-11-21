@@ -1,7 +1,7 @@
 {
-  "lastRun": "2026-11-21T13:46:41.939Z",
-  "startedAt": "2026-11-21T13:46:32.014Z",
-  "durationMs": 9925,
+  "lastRun": "2026-11-21T18:28:13.022Z",
+  "startedAt": "2026-11-21T18:28:03.418Z",
+  "durationMs": 9604,
   "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
@@ -18,7 +18,7 @@
     "osint": "ok",
     "network": "ok",
     "decixHistory": "ok",
-    "decixSites": "ok",
+    "decixSites": "degraded",
     "ixpSites": "ok",
     "reddit": "ok",
     "redditGta": "ok",
@@ -33,19 +33,21 @@
   "counts": {
     "stocks": 13,
     "stockHistory": 3392,
-    "snapshots": 66,
+    "snapshots": 67,
     "wikiSeries": 8,
     "newsQueries": 5,
-    "decixPoints": 572,
-    "decixHistoryPoints": 5804,
+    "decixPoints": 573,
+    "decixHistoryPoints": 5861,
     "decixDailyPeaks": 21,
-    "decixSitePoints": 17418,
-    "ixpSitePoints": 4434,
+    "decixSitePoints": 17586,
+    "ixpSitePoints": 4534,
     "filings": 11,
     "pressReleases": 6,
-    "hypeSnapshots": 67,
-    "timelineSnapshots": 67,
-    "archivedNews": 3389
+    "hypeSnapshots": 68,
+    "timelineSnapshots": 68,
+    "archivedNews": 3494
   },
-  "errors": []
+  "errors": [
+    "decix-sites: MAD: HTTP 403 Forbidden — https://www.de-cix.net/api/traffic/MAD/2days"
+  ]
 }
