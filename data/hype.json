@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-21T18:28:09.972Z",
+  "updated": "2026-11-21T22:29:42.940Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 22,
-      "count24h": 1,
-      "publisherCount": 14,
+      "count7d": 21,
+      "count24h": 0,
+      "publisherCount": 15,
       "capped": false,
       "series": [
         {
@@ -25,7 +25,7 @@
         },
         {
           "date": "2026-11-18",
-          "count": 7
+          "count": 5
         },
         {
           "date": "2026-11-19",
@@ -33,7 +33,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 3
+          "count": 4
         },
         {
           "date": "2026-11-21",
@@ -41,6 +41,12 @@
         }
       ],
       "items": [
+        {
+          "title": "US-Discord-Nutzer können nun anlässlich der Veröffentlichung von GTA 6 direkt in der Chat-App eine McDonald’s-Lieferung bestellen, allerdings benötigst du dafür weiterhin ein Uber Eats-Konto - Secret NYC",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBvZnZTdEtlMi0wc0NxbHNfT0FNV2xEQ0dMd3RSWGNMVGpSemljUGpKckZHNlNEVV81LWtHVE14WUFLX2xCeXlxYzl1bTJCN3hyQWlyWmV5aEtwNEFZaEZrZDV0bHBMZTBkdFlMbEdWLXpITlpCNWJBR3NJdw?oc=5",
+          "source": "Secret NYC",
+          "pubDate": "Fri, 20 Nov 2026 21:40:00 GMT"
+        },
         {
           "title": "GTA VI stellt einen absoluten Vorbestellungsrekord auf: Die 100-Dollar-Edition wurde von 82 % der Spieler gewählt - Root-Nation.com",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMnluTUZNWnFwc1pxMDUyZTRQQ0dJSTVXenZDb3NBMmhHQTBXMXpiTWI0bmZuX3lzWEpCQ3gyUlVWb2dTeVY4dl9kangwY2JRZjk4S2FObDA2TC0wVy1ic2x0aFZLTEdKU2hSa3FIVHN5azB3eDRxS0tob1p3elNuM0NyeUE0VlJuZnlZQk1GVEJIdEdM?oc=5",
@@ -58,16 +64,10 @@
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYTFqajZKY2JuWlAzblQ2RVFrcXVrUF9vOE82VHNzNnB6eHZnUS1ORDBUSWllYkk0VHMxR1JRV2NWRm9iLVRKOFVSMy1XZGs4Y09QTXZGWVBjMm9nU3BmTXZudWRVQnRNNVpSbjhKMy1YSzNYMjUxcktjTDJYRVk5b2kxUm5Dbl9reHVyZU93aGVTS201VFdWb2ZjSGxBSnhtRGxTQ2RzZWtpNzFqdl8xMnUyekFlcjU4YUVGNTFfLXZhVllOUUo4LTNDV1d1YUx2eGFhanJPRVVKOEtKY0pvUVFR?oc=5",
           "source": "CHIP",
           "pubDate": "Fri, 20 Nov 2026 08:40:00 GMT"
-        },
-        {
-          "title": "Den offiziellen Guide zu GTA 6 findet ihr bei IGN - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ0NrVnZIdnNLLUYzdTVsbzh0WVBlUThFbXFoWUJ6Sk02czVzdk1NTlU5eUpRdlRCVkw4Rkx4dlRjUVBxTGEtR2NfQXhTMjJtNjNGVG8tc3BKUmZEY3Y3NFVueWo1SFQzX3BMbzJYd29ZYVhXb1FvT0tLc29WbjFBM094Skl0VFJScXNxSEhtcDM0NkVJR1dfTzdFMA?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Thu, 19 Nov 2026 14:59:54 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T18:28:09.972Z",
+      "updated": "2026-11-21T22:29:42.940Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -139,7 +139,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 3
+          "count": 4
         },
         {
           "date": "2026-11-21",
@@ -163,7 +163,7 @@
         },
         {
           "date": "2026-11-16",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-17",
@@ -171,19 +171,19 @@
         },
         {
           "date": "2026-11-18",
-          "count": 24
+          "count": 25
         },
         {
           "date": "2026-11-19",
-          "count": 26
+          "count": 23
         },
         {
           "date": "2026-11-20",
-          "count": 24
+          "count": 25
         },
         {
           "date": "2026-11-21",
-          "count": 20
+          "count": 22
         }
       ],
       "items": [
@@ -213,7 +213,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T18:28:09.972Z",
+      "updated": "2026-11-21T22:29:42.940Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -289,7 +289,7 @@
         },
         {
           "date": "2026-11-21",
-          "count": 20
+          "count": 22
         }
       ]
     },
@@ -298,38 +298,38 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 55,
-      "count24h": 17,
-      "publisherCount": 33,
-      "capped": false,
+      "count7d": 100,
+      "count24h": 11,
+      "publisherCount": 49,
+      "capped": true,
       "series": [
         {
           "date": "2026-11-15",
-          "count": 0
-        },
-        {
-          "date": "2026-11-16",
           "count": 3
         },
         {
+          "date": "2026-11-16",
+          "count": 9
+        },
+        {
           "date": "2026-11-17",
-          "count": 2
+          "count": 6
         },
         {
           "date": "2026-11-18",
-          "count": 8
+          "count": 25
         },
         {
           "date": "2026-11-19",
-          "count": 14
+          "count": 28
         },
         {
           "date": "2026-11-20",
-          "count": 14
+          "count": 18
         },
         {
           "date": "2026-11-21",
-          "count": 14
+          "count": 11
         }
       ],
       "items": [
@@ -359,7 +359,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T18:28:09.972Z",
+      "updated": "2026-11-21T22:29:42.940Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -427,7 +427,7 @@
         },
         {
           "date": "2026-11-19",
-          "count": 25
+          "count": 28
         },
         {
           "date": "2026-11-20",
@@ -444,38 +444,38 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 97,
-      "count24h": 28,
-      "publisherCount": 57,
-      "capped": false,
+      "count7d": 100,
+      "count24h": 11,
+      "publisherCount": 53,
+      "capped": true,
       "series": [
         {
           "date": "2026-11-15",
-          "count": 1
-        },
-        {
-          "date": "2026-11-16",
           "count": 0
         },
         {
+          "date": "2026-11-16",
+          "count": 3
+        },
+        {
           "date": "2026-11-17",
-          "count": 6
+          "count": 5
         },
         {
           "date": "2026-11-18",
-          "count": 11
+          "count": 12
         },
         {
           "date": "2026-11-19",
-          "count": 31
+          "count": 53
         },
         {
           "date": "2026-11-20",
-          "count": 27
+          "count": 16
         },
         {
           "date": "2026-11-21",
-          "count": 21
+          "count": 11
         }
       ],
       "items": [
@@ -492,20 +492,20 @@
           "pubDate": "Sat, 21 Nov 2026 15:02:28 GMT"
         },
         {
-          "title": "PlayStation 5 : Midnight-Black-Modell startet für 55.000 Yen pünktlich zu GTA 6 - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcG13RzhETUNTVUpGVXBtcGtTR0FXYXpXQ0YwVHAwSXptRmd4VVFmbTZaR29MR2xOeVItckZjSVhpb1hRYVA0M2g5dVIya3NPT3Z6VjZLSXVzWDQwbVR0YW5VWmk3ekVHdnlFQ2Fyc3dnNE9maWdOaFNwcjF3SzAyWHZ2RE5QR1cyazJwT2JpcFpjeE8tWmVNV0p3M0VXZXZkWm1kR0NrVnlhSlFYUEtMOFpR?oc=5",
-          "source": "XboxDynasty",
-          "pubDate": "Sat, 21 Nov 2026 14:00:00 GMT"
-        },
-        {
           "title": "Der hässlichste Fanartikel von GTA 6? Dieses iPhone Duo kostet 14.000 Dollar - Futurezone",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT3dmVUw3cDIyajhDTWZvUkVUZ1RIalBOSGt6OVNLczhHVjhJRTBxYlg0bjRiQnFibnVZV09TWWNaYVFBZTRkNkNPb3FWVHpxbmgzQ3VuQVY0d2hDaXlFb3NjOFdwS3NuU2t4VWdUX0REdkxiTWo1Z1F2MmNnMlRhSGJJeFFIM1JmZ3hGajB2TkdBSEpTa0I2OE1kdW1jTVZBdjFz0gGoAUFVX3lxTE9WbTNVY29SdmRHU05KRnF3dy1oR1U5ZEhyXzVhbVNvQnhYYzZEZ2dubEpEN2pKMnNRUkdsUmxOUDZOODZ3dkRJMDJfV3d3ZW1wREoxWW1aVmljVFR6ZTR0Z015azNDZE40QkdYcXpsam9ydDVrWkE4OVFSb2VQcWJVX1JTS1o5YkozRUVURktzblRvVkY4VUhkQk45eWZRRVJwNXNGUDhxWA?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVm0zVWNvUnZkR1NOSkZxd3ctaEdVOWRIcl81YW1Tb0J4WGM2RGdnbmxKRDdqSjJzUVJHbFJsTlA2Tjg2d3ZESTAyX1d3d2VtcERKMVltWlZpY1RUemU0dGdNeWszQ2RONEJHWHF6bGpvcnQ1a1pBODlRUm9lUHFiVV9SU0taOWJKM0VFVEZLc25Ub1ZGOFVIZEJOOXlmUUVScDVzRlA4cVjSAagBQVVfeXFMT1ZtM1Vjb1J2ZEdTTkpGcXd3LWhHVTlkSHJfNWFtU29CeFhjNkRnZ25sSkQ3akoyc1FSR2xSbE5QNk44Nnd2REkwMl9Xd3dlbXBESjFZbVpWaWNUVHplNHRnTXlrM0NkTjRCR1hxemxqb3J0NWtaQTg5UVJvZVBxYlVfUlNLWjliSjNFRVRGS3NuVG9WRjhVSGRCTjl5ZlFFUnA1c0ZQOHFY?oc=5",
           "source": "Futurezone",
           "pubDate": "Sat, 21 Nov 2026 13:43:00 GMT"
+        },
+        {
+          "title": "GTA 6 schränkt den Zugriff auf vier Geschäfte in der Ultimate Edition für zusätzliche 20 Dollar ein. - GameGPU",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWTQ0MDBkMDhmMDlwTjBCSVNBSjZKNHZZM1J1OHBEMlBtbDgwckcwdWlNYjc5cERyWHZ4bWFsSTRBeFl2ZlcyZjU2ZlhaRXBRT3hId0E5RUlCUkZYV3lTTlNVOWRSanR2dUY1c3R3UGk4M0FXM3FPTmRHUkFpT21xOGdtQjM5ejdPUTJmLU9xSW1hWlh5Qk40UGV0SkxPdUw1bG11LTRiSG9hR181ZGE5WW03NThpWXJnMzhTYzY0LS1vQk1P?oc=5",
+          "source": "GameGPU",
+          "pubDate": "Sat, 21 Nov 2026 13:22:41 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T18:28:09.972Z",
+      "updated": "2026-11-21T22:29:42.940Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -1058,6 +1058,13 @@
     },
     {
       "at": "2026-11-21T18:28:09.969Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-21T22:29:42.932Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
