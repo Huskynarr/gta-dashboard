@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-21T11:54:26.132Z",
+  "updated": "2026-11-21T13:46:38.103Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 21,
-      "count24h": 1,
+      "count7d": 22,
+      "count24h": 2,
       "publisherCount": 15,
       "capped": false,
       "series": [
@@ -33,7 +33,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-21",
@@ -48,6 +48,12 @@
           "pubDate": "Fri, 20 Nov 2026 19:04:03 GMT"
         },
         {
+          "title": "Anthropic erzielt Rekord beim Börsengang und erreicht eine Marktkapitalisierung von $1,3 Billionen - mobidevices.com",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2WGVPWVA2bU9GV2dUSUJiYjVoR3ktTEFfOTBaamNCbXhweVF2SjZWQ1FVZW9jd3ZPRHhETWt1QjJPa25ab1dqOGNnVXdjZWctaVE?oc=5",
+          "source": "mobidevices.com",
+          "pubDate": "Fri, 20 Nov 2026 13:49:55 GMT"
+        },
+        {
           "title": "GTA 6 läuft nicht auf allen Konsolen gleich gut: Eine Version liegt vorn - CHIP",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYTFqajZKY2JuWlAzblQ2RVFrcXVrUF9vOE82VHNzNnB6eHZnUS1ORDBUSWllYkk0VHMxR1JRV2NWRm9iLVRKOFVSMy1XZGs4Y09QTXZGWVBjMm9nU3BmTXZudWRVQnRNNVpSbjhKMy1YSzNYMjUxcktjTDJYRVk5b2kxUm5Dbl9reHVyZU93aGVTS201VFdWb2ZjSGxBSnhtRGxTQ2RzZWtpNzFqdl8xMnUyekFlcjU4YUVGNTFfLXZhVllOUUo4LTNDV1d1YUx2eGFhanJPRVVKOEtKY0pvUVFR?oc=5",
           "source": "CHIP",
@@ -58,16 +64,10 @@
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ0NrVnZIdnNLLUYzdTVsbzh0WVBlUThFbXFoWUJ6Sk02czVzdk1NTlU5eUpRdlRCVkw4Rkx4dlRjUVBxTGEtR2NfQXhTMjJtNjNGVG8tc3BKUmZEY3Y3NFVueWo1SFQzX3BMbzJYd29ZYVhXb1FvT0tLc29WbjFBM094Skl0VFJScXNxSEhtcDM0NkVJR1dfTzdFMA?oc=5",
           "source": "IGN Deutschland",
           "pubDate": "Thu, 19 Nov 2026 14:59:54 GMT"
-        },
-        {
-          "title": "GTA 6 soll vor dem Start bereits 20 Millionen Vorbestellungen erreicht haben - IGN Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR1hHV0FtSmZQd3VqZ0VuUHpIQTZGYmxFeUs1bEJMX1Q2NVdIUzF2NGpGMEtSX3N0ZnU0NFVnT18wdVA1QVhqQ0VnUk1SUndoSmRxWTZYS201cndHM1czQ2xuVFVORDJ6QjQ4S2VIMXpxeDhKSmZ2VG96Q1BmOC1jNWthdDdFck14WGw1WGUxS0hxMzVCeG5naEtTbDAtT0I2Uy1hR1lERmc5YWVkMTltaE9jdEJMT2c4OXdWVDRJRQ?oc=5",
-          "source": "IGN Deutschland",
-          "pubDate": "Thu, 19 Nov 2026 14:09:54 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T11:54:26.132Z",
+      "updated": "2026-11-21T13:46:38.103Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -139,7 +139,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-21",
@@ -153,8 +153,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 25,
-      "publisherCount": 34,
+      "count24h": 24,
+      "publisherCount": 33,
       "capped": true,
       "series": [
         {
@@ -171,7 +171,7 @@
         },
         {
           "date": "2026-11-18",
-          "count": 28
+          "count": 25
         },
         {
           "date": "2026-11-19",
@@ -183,10 +183,16 @@
         },
         {
           "date": "2026-11-21",
-          "count": 12
+          "count": 16
         }
       ],
       "items": [
+        {
+          "title": "GTA VI auf der Xbox Series X kann mit Quick Resume schneller als 30 FPS laufen. - GameGPU",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOS25tVVBRQUZWOXdqY3VkQWNkZy04NHozNGFSVzZJOWtBZjN1Nkgzc24xNzRwZENMNW9OYnhVckV3UnVhdTIzYWZFZ2dpeWtmbG9OVldHWWhkMU5zclZLWTJhRFZrYjdmWGRrN3ZGYXl4bkI2RnJ3TGRoSzhXRVh1dTk4Ny02dmNQV1NIYUFpeGZkOTRLbmlLa2pXN2dLVzdEVTdDWVI0SGs2SGc?oc=5",
+          "source": "GameGPU",
+          "pubDate": "Sat, 21 Nov 2026 13:06:27 GMT"
+        },
         {
           "title": "Grand Theft Auto VI : Grafikvergleich zeigt Xbox Series X|S und Xbox One via Cloud - XboxDynasty",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTlhRRlVlNnZRTEp4NEZzT1MxQmNCdHktN2poVk5aNFpORTU1clFyU21tdTZscmN2bUtHR2l5YjVvLU1PS0RSSmdKWmFWV3RvYWQ1WF9vbG9LMnIyR09TMDA4TEdOZnM2QjduNGpCbWZYdG5FVUV4SzNjQ3NjWkkySVZ0QWx0ZTdSUnBiT2hjWndScVhTT2VvalZCSnlqYzh5eTVuc3VKaHhVOGJZMVNNamRn?oc=5",
@@ -200,20 +206,14 @@
           "pubDate": "Sat, 21 Nov 2026 10:56:00 GMT"
         },
         {
-          "title": "Grand Theft Auto VI : Fake-Eintrag auf Steam löst Malware-Warnung aus - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQjdOdmNmMERucmhDbzN5d3VpOHNFXzcyRlVuNFd3SWx2TjYwN1ZqTUpTY2xDODhudW90SFNFLUVMQ3FKaHNtN2NaYWhOakZadmM2azJzUFo5OHI1OUpYbEVCa1RIbDhoSGtOb2VEUEZQMVVKSnV0SUZOWTFnZ1M2Tkk0a1FnVWgwVmFDUklrRlhldjd2UU9iY18xNy0zcW5sanM4?oc=5",
-          "source": "XboxDynasty",
-          "pubDate": "Sat, 21 Nov 2026 10:00:00 GMT"
-        },
-        {
-          "title": "PS5 ausverkauft, aber die Xbox gibt es noch für GTA VI - HIFI.DE",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNTmlETkFTYXJVZzQtLWhmM0Q0a0cxdFE2cHlRUUNXcF9SbkZmVlpVYkFLOTdzV2dOd0IzM3RVTkkyeWJWVUFzSXN2VmlQQ2FwWTNrekMxYXZydHoyQTg5aTljQkhlWnpNRFpPNnpvSFQ5Yy1Qb1JlQnAwSTRnbVFXUHpVMUtfd2lkeFhHN3V4M3U?oc=5",
-          "source": "HIFI.DE",
-          "pubDate": "Sat, 21 Nov 2026 09:58:00 GMT"
+          "title": "GTA 6 stellt neuen Entertainment-Rekord auf und übertrifft sämtliche Prognosen - Eurogamer.de",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVXdWcFZBX2Y2Z3c3WGtaaFRsaU9zUzJ1c0tNa1ZPc01yMlp5RGwxeDBWVGVrSWJiQWFTcENablotTjRfZ3F3TEljemh1QVZweThyR184V2RXVXRFcTl6RU1qbW1SSFUyT3lwLUZzN1JITEQ5cDNKaklqTG9veFI5TnpueGNVbDg?oc=5",
+          "source": "Eurogamer.de",
+          "pubDate": "Sat, 21 Nov 2026 10:19:20 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T11:54:26.132Z",
+      "updated": "2026-11-21T13:46:38.103Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -289,7 +289,7 @@
         },
         {
           "date": "2026-11-21",
-          "count": 12
+          "count": 16
         }
       ]
     },
@@ -298,7 +298,7 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 53,
+      "count7d": 54,
       "count24h": 18,
       "publisherCount": 32,
       "capped": false,
@@ -317,7 +317,7 @@
         },
         {
           "date": "2026-11-18",
-          "count": 10
+          "count": 9
         },
         {
           "date": "2026-11-19",
@@ -329,10 +329,22 @@
         },
         {
           "date": "2026-11-21",
-          "count": 6
+          "count": 8
         }
       ],
       "items": [
+        {
+          "title": "GTA 6: Streamer weinen beim Ende vor laufender Kamera - BILD",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQNmxFN2NoaXdyNV9oX29vV283a0lFQ0JmSDFFbEtwQVdadVZGMG9SdW02aWNIbFExU3JObHIxM2xUWDJyX19MY0lpQzRpZmdaYlZnYmJtNzV1Q0QyMUVDOWEySFJIWUhMNVhCMGtQRGVBeFMtYy1Palh5WURsY09yaDJ2SGtaRWU2cmFkLUZGQXJsdU44Sm5aaFpzcWI1aS16eHdxZ1VRRUlpRWNjM0YxMldWd1dPemp5dm1hTURVcWJIQ1Q0?oc=5",
+          "source": "BILD",
+          "pubDate": "Sat, 21 Nov 2026 13:01:42 GMT"
+        },
+        {
+          "title": "„Ich finde das Spiel ist langweilig, Schmutz“ - MontanaBlack rechnet nach dem Release mit GTA 6 ab - Raptastisch",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRGRkOVRMczVOUHJ4eEtheENpYlNMOHgtM1FLM2U0Q25UV0hWSEpHZGVxeW44eTR5MjJSZV9iZjlTeWZEblJLV3hsQm90NnNqamVmZG1lSVcwNjBUVUtqekxIUzRSejdtNGVET0RiazdNX2VnN0Z5cWw3UEJuaFZpMC1XTWtmcW1XNGljZ1JybVA5SUpEd1ZBbWcxQVBrYjdGS21ad3lHWHZkcDBRS1I3Y0NXcVFhZGFlWmxhNGEzY01tWkpCM3BxWA?oc=5",
+          "source": "Raptastisch",
+          "pubDate": "Sat, 21 Nov 2026 12:25:20 GMT"
+        },
         {
           "title": "„Ihr seid erbärmlich“ – Rapstar rechnet mit Männern über 35 ab, die GTA 6 zocken - Raptastisch",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdS1lRWdZS1hHbEpPanFXUnJYSnZGV0Z4dzFNd2tMNGpsN0lPSTFOY3Jja0x5TVhuNl9UaTh1TzZVMmVTajhSV2ZJalFtYkVGMVpMR1NkRUF0TTlSX0xIOEZoeE85MjhzckF2LVBLT3F2ZVZZaXFzblM2ZVN2bDloTjYtQjBxQ2tNbXFONjhHZmZkUDhyaXFxYjZWdHhCbVBzZXNfSjNLWllwNi1KLXY3YkRJZGc?oc=5",
@@ -344,22 +356,10 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUXppdU43SHNfUERXaDhWczlidW04aUFNdUltZVlMb1czd29wRHp1RzdWTXc5SUlTN3lSMlBDSGJIMlpvVERROVJxQ055ekV5QThZSG52TVE0bXpLZnA4QVNfQU1BanZTeWpRem9VY2t1d3pVYmpKaHhzMnhla3d0QVp1NW50Z0Job1dUS21WaDJuUQ?oc=5",
           "source": "PC Games (DE)",
           "pubDate": "Sat, 21 Nov 2026 10:30:00 GMT"
-        },
-        {
-          "title": "GTA 6: Asmongold rastet wegen Blumen für Lucia aus - PlayCentral",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBOMGxpc29XWldXSXFyZVpDRTN1NWtfT1NVV3FEb0R3dTBZN2xtQWtncUJac1BJMnlJTFZKem9TY2gxV1RhcU1iQktsSFp4UGl1a1QwY0djN2tjdmhIektUb0ZtREdnVnhRTnVNQ3cxRWZ1ZHFC?oc=5",
-          "source": "PlayCentral",
-          "pubDate": "Sat, 21 Nov 2026 08:16:57 GMT"
-        },
-        {
-          "title": "Unsere ehrliche Meinung zu GTA 6! mit Maurice Weber, Eddy von den Rocket Beans, Maxim, JULEX, Henrik Oerding (Die Zeit) und Martin Le - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTldCdUNpaWJTU2lNZzVtTDdYOGNEWE11WlZWb3RrY3hEdEhyTmdtR2prUV9RYnpHbGhLQXl1ZGxZTFJ4blU4clBjQUktbUVfcUU3ZmtqSDBiLU1MYUFDc1dsWi1XdXJHdHplN096WDVTdTRlSTktTXFuLUZpU1ZGV2o3Zk1Ud2dOSW4xcGUwNXA3NFpsZ1dnYlFqVEpDSVBQa080SWhLQldfWHJnZFVNU1JWOWV1MC1CUy04amg2ejI4Mnk3d1MyYkhUeDZweDFUVk1fVXdLa2NCQW9wTlBVU2tRVGdjX2VoRXlrWmRFY3VHdDVjUjV6SllISHA0QQ?oc=5",
-          "source": "GameStar",
-          "pubDate": "Sat, 21 Nov 2026 08:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T11:54:26.132Z",
+      "updated": "2026-11-21T13:46:38.103Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -435,7 +435,7 @@
         },
         {
           "date": "2026-11-21",
-          "count": 6
+          "count": 8
         }
       ]
     },
@@ -444,10 +444,10 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 93,
-      "count24h": 29,
-      "publisherCount": 53,
-      "capped": false,
+      "count7d": 100,
+      "count24h": 13,
+      "publisherCount": 51,
+      "capped": true,
       "series": [
         {
           "date": "2026-11-15",
@@ -455,41 +455,41 @@
         },
         {
           "date": "2026-11-16",
-          "count": 0
+          "count": 3
         },
         {
           "date": "2026-11-17",
-          "count": 5
+          "count": 6
         },
         {
           "date": "2026-11-18",
-          "count": 12
+          "count": 15
         },
         {
           "date": "2026-11-19",
-          "count": 32
+          "count": 53
         },
         {
           "date": "2026-11-20",
-          "count": 32
+          "count": 15
         },
         {
           "date": "2026-11-21",
-          "count": 11
+          "count": 7
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 schränkt den Zugriff auf vier Geschäfte in der Ultimate Edition für zusätzliche 20 Dollar ein. - GameGPU",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWTQ0MDBkMDhmMDlwTjBCSVNBSjZKNHZZM1J1OHBEMlBtbDgwckcwdWlNYjc5cERyWHZ4bWFsSTRBeFl2ZlcyZjU2ZlhaRXBRT3hId0E5RUlCUkZYV3lTTlNVOWRSanR2dUY1c3R3UGk4M0FXM3FPTmRHUkFpT21xOGdtQjM5ejdPUTJmLU9xSW1hWlh5Qk40UGV0SkxPdUw1bG11LTRiSG9hR181ZGE5WW03NThpWXJnMzhTYzY0LS1vQk1P?oc=5",
+          "source": "GameGPU",
+          "pubDate": "Sat, 21 Nov 2026 13:22:41 GMT"
+        },
         {
           "title": "Rekord zerschmettert: \"GTA 6\" hat nach einem Tag schon mehr Geld gemacht als \"Avengers: Endgame\" und \"Avatar\"! - Filmstarts",
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE14c2R4VmV3aW5vT3hibHZqNGFITFVpczBSeEFPSUJEbVlnRFl1akpwRlRuV2dBb0pROHE3YUpSdUgwY3ItVnl1MmZLbThjeE1mYkJKRnZwMGx0ZFRQNGJHRFh5aw?oc=5",
           "source": "Filmstarts",
           "pubDate": "Sat, 21 Nov 2026 11:30:00 GMT"
-        },
-        {
-          "title": "Der Blockbuster GTA VI spielte am ersten Tag fast 4 Milliarden Dollar ein. - Vietnam.vn",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QMk5IMW1RU20yR0dGczktaWZiSkZuSmtlRVFQaHJQSTI0YVI4UzJydWlGR2ExT3A3LW01WlhNaFRvQWNYZlVCUlRRRTBrcHZicVRzTVl2dXNFemVHTVZBa29fZS1nUHpYV3FaMkdVN0tsMlE3MktJME1ySzVpUQ?oc=5",
-          "source": "Vietnam.vn",
-          "pubDate": "Sat, 21 Nov 2026 11:07:22 GMT"
         },
         {
           "title": "GTA 6 löschen für ein Gratis-Spiel? Devolver macht es wirklich - PC Games (DE)",
@@ -505,7 +505,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T11:54:26.132Z",
+      "updated": "2026-11-21T13:46:38.103Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -1046,6 +1046,13 @@
       "at": "2026-11-21T11:54:25.258Z",
       "version": "hype-v1",
       "score": 96,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-21T13:46:38.100Z",
+      "version": "hype-v1",
+      "score": 100,
       "coverage": 3,
       "signature": "wiki+news+reddit"
     }
