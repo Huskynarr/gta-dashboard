@@ -1,20 +1,16 @@
 {
-  "updated": "2026-11-20T23:26:20.044Z",
+  "updated": "2026-11-21T03:38:29.380Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 21,
-      "count24h": 1,
-      "publisherCount": 15,
+      "count7d": 22,
+      "count24h": 2,
+      "publisherCount": 16,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-14",
-          "count": 1
-        },
         {
           "date": "2026-11-15",
           "count": 0
@@ -37,10 +33,20 @@
         },
         {
           "date": "2026-11-20",
-          "count": 1
+          "count": 2
+        },
+        {
+          "date": "2026-11-21",
+          "count": 0
         }
       ],
       "items": [
+        {
+          "title": "GTA VI stellt einen absoluten Vorbestellungsrekord auf: Die 100-Dollar-Edition wurde von 82 % der Spieler gewählt - Root-Nation.com",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMnluTUZNWnFwc1pxMDUyZTRQQ0dJSTVXenZDb3NBMmhHQTBXMXpiTWI0bmZuX3lzWEpCQ3gyUlVWb2dTeVY4dl9kangwY2JRZjk4S2FObDA2TC0wVy1ic2x0aFZLTEdKU2hSa3FIVHN5azB3eDRxS0tob1p3elNuM0NyeUE0VlJuZnlZQk1GVEJIdEdM?oc=5",
+          "source": "Root-Nation.com",
+          "pubDate": "Fri, 20 Nov 2026 19:04:03 GMT"
+        },
         {
           "title": "GTA 6 läuft nicht auf allen Konsolen gleich gut: Eine Version liegt vorn - CHIP",
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYTFqajZKY2JuWlAzblQ2RVFrcXVrUF9vOE82VHNzNnB6eHZnUS1ORDBUSWllYkk0VHMxR1JRV2NWRm9iLVRKOFVSMy1XZGs4Y09QTXZGWVBjMm9nU3BmTXZudWRVQnRNNVpSbjhKMy1YSzNYMjUxcktjTDJYRVk5b2kxUm5Dbl9reHVyZU93aGVTS201VFdWb2ZjSGxBSnhtRGxTQ2RzZWtpNzFqdl8xMnUyekFlcjU4YUVGNTFfLXZhVllOUUo4LTNDV1d1YUx2eGFhanJPRVVKOEtKY0pvUVFR?oc=5",
@@ -58,16 +64,10 @@
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQR1hHV0FtSmZQd3VqZ0VuUHpIQTZGYmxFeUs1bEJMX1Q2NVdIUzF2NGpGMEtSX3N0ZnU0NFVnT18wdVA1QVhqQ0VnUk1SUndoSmRxWTZYS201cndHM1czQ2xuVFVORDJ6QjQ4S2VIMXpxeDhKSmZ2VG96Q1BmOC1jNWthdDdFck14WGw1WGUxS0hxMzVCeG5naEtTbDAtT0I2Uy1hR1lERmc5YWVkMTltaE9jdEJMT2c4OXdWVDRJRQ?oc=5",
           "source": "IGN Deutschland",
           "pubDate": "Thu, 19 Nov 2026 14:09:54 GMT"
-        },
-        {
-          "title": "Rapper verschenkt GTA VI - Journal Frankfurt",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNblFoaEpNTVlNN1hRVDU0Q3JRNmZHa3JYc3EySWpoa1NKWDJhYjY3amJYeXVWMUtnZlRhOU9HcXk5ckRsc2NLQmExdi02NzRHalRQYVJRMGJyY1VwSURqVXRoekc0dTBXQkZYZEoxM0twcTFqSzdST2RsS0pUVUFtTzJKeHBMS0V6OU12X3hHRHhMTFZpWURzQlBScnNqM1NqN2hVTE9WQU5UUGN0bTRqZ0xWcDk0NGYzWnBhejd3STI?oc=5",
-          "source": "Journal Frankfurt",
-          "pubDate": "Thu, 19 Nov 2026 11:18:31 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-20T23:26:20.044Z",
+      "updated": "2026-11-21T03:38:29.380Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -139,7 +139,11 @@
         },
         {
           "date": "2026-11-20",
-          "count": 1
+          "count": 2
+        },
+        {
+          "date": "2026-11-21",
+          "count": 0
         }
       ]
     },
@@ -149,14 +153,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 32,
-      "publisherCount": 32,
+      "count24h": 29,
+      "publisherCount": 34,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-14",
-          "count": 1
-        },
         {
           "date": "2026-11-15",
           "count": 0
@@ -171,18 +171,34 @@
         },
         {
           "date": "2026-11-18",
-          "count": 29
+          "count": 33
         },
         {
           "date": "2026-11-19",
-          "count": 32
+          "count": 31
         },
         {
           "date": "2026-11-20",
-          "count": 32
+          "count": 27
+        },
+        {
+          "date": "2026-11-21",
+          "count": 2
         }
       ],
       "items": [
+        {
+          "title": "Wann kommt GTA 6 Online raus? - Release, möglicher Preis, Trailer und mehr zum neuen Multiplayer-Modus - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mU1lFVU10enIzMXFySVlPY0ozZjh1eTZ0Nm4zR1RzVUtvNm1kd1VzQXZuLWFjQ0E2SDQ0ZzJxRDBaODRpVDVlZ3BPZjdDZ3VEb1NWc0FZaDdHbjBvM3RuWjVGeVBNQi1hR2VJSTFidDhSV0FJLWl6dVJSWE9nSmM?oc=5",
+          "source": "GamePro",
+          "pubDate": "Sat, 21 Nov 2026 03:18:42 GMT"
+        },
+        {
+          "title": "GTA 6 schlägt Hollywood: Rekordumsatz an Tag 1, PC-Spieler warten - PCGH",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU3YydlY5NmpEOEoyYndVZ052b2VvY2k3LTYycExzVDB4eVNpcDJENTdYWlk2Sk5lVVZuYV9uM3A2SUJ3bnNPYmgtTF9fbXZqb0JHU19sM3hkZ3k4VFNHREw3NlFLM3JkNm5zQWxuaVJadk5GUjR2U3E2dFM2ZUZmUzJ2aTBCazVfam1LRXFsU2xUa0ZRWHNHMTJTZkVvalY3Y3hRMjhpbXlnSjQ?oc=5",
+          "source": "PCGH",
+          "pubDate": "Sat, 21 Nov 2026 00:45:00 GMT"
+        },
         {
           "title": "LG OLED G5 48 Zoll: Bester Gaming TV für GTA VI im Kracherangebot - Hardware Journal",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTFZIQTlDQnlHaVV5SVcydUxGYUNtVmpWZXdfZ1oxdDRkN3NwYW56YmxlWEpieWYteGt6MzE4dW1pUkh1UW5PdHBqTW9palpHNExleERfekktRU01RkJ6Wk9hMUxqYmZPWjVUMzYzZzVmck1ISDdiVG1qWldrMVZRRzlUNXVMY2c5MHhlamg4VW9mdkxfaGRoNjJqQmxTeTNuZTdiSF9Sb2YtOTJi?oc=5",
@@ -190,26 +206,14 @@
           "pubDate": "Fri, 20 Nov 2026 21:56:40 GMT"
         },
         {
-          "title": "Wann kommt GTA 6 Online raus? - Release, möglicher Preis, Trailer und mehr zum neuen Multiplayer-Modus - GamePro",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9mU1lFVU10enIzMXFySVlPY0ozZjh1eTZ0Nm4zR1RzVUtvNm1kd1VzQXZuLWFjQ0E2SDQ0ZzJxRDBaODRpVDVlZ3BPZjdDZ3VEb1NWc0FZaDdHbjBvM3RuWjVGeVBNQi1hR2VJSTFidDhSV0FJLWl6dVJSWE9nSmM?oc=5",
-          "source": "GamePro",
-          "pubDate": "Fri, 20 Nov 2026 21:19:01 GMT"
-        },
-        {
           "title": "Grand Theft Auto VI : Collector’s Box zeigt sich im Unboxing - XboxDynasty",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVWw4Qk1CTzNOb0VEdFpBVWdWT0VZSE9ic3VBSGswcS1NNmxUWHdvdDhKb1ZVZW81aGxwdERjaFR4bjdycTdVRlBtU3VDVXl3TEpSWTFQU1ktN0tIaldueVFHWDE5WjBHZS1kWFVxemFYRDllZEFKQVZDMEJsU0JmYXlGcy1xR0poSGZYbE54Y1F3UXFD?oc=5",
           "source": "XboxDynasty",
           "pubDate": "Fri, 20 Nov 2026 18:30:00 GMT"
-        },
-        {
-          "title": "GTA 6 ruckelt auf PS5: Cache leeren und HDCP deaktivieren - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdGY4Y21kTXFYeTRrQnFYaDJzcHpSbHVxbHlZVGVJVEVGR1I4M1Vubi1tVlpMMUtjRXJXYUNTcEdHaE9PU1l0UG5sM2RkZWtPMlFwRjNkWmh6ODNoUTlOenNqaTN6NTRmeHQtc0ZFWVhUTVVCNTQ0NVZmYW5tSXNac0hmcXo1Ym5GNTVwMjJNck4xTHNrUFZ2eA?oc=5",
-          "source": "GameStar",
-          "pubDate": "Fri, 20 Nov 2026 16:40:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-20T23:26:20.044Z",
+      "updated": "2026-11-21T03:38:29.380Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -282,6 +286,10 @@
         {
           "date": "2026-11-20",
           "count": 32
+        },
+        {
+          "date": "2026-11-21",
+          "count": 2
         }
       ]
     },
@@ -290,15 +298,11 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 47,
-      "count24h": 19,
-      "publisherCount": 30,
+      "count7d": 56,
+      "count24h": 25,
+      "publisherCount": 32,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-14",
-          "count": 0
-        },
         {
           "date": "2026-11-15",
           "count": 0
@@ -317,14 +321,24 @@
         },
         {
           "date": "2026-11-19",
-          "count": 13
+          "count": 16
         },
         {
           "date": "2026-11-20",
-          "count": 19
+          "count": 24
+        },
+        {
+          "date": "2026-11-21",
+          "count": 1
         }
       ],
       "items": [
+        {
+          "title": "GTA 6-Spieler schläft einen Monat lang und erfindet \"Hard Mode\" - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc19OV3UzSjM1RmF3bU84emY4R3U1a0V2azBOMlB3cVduekVuWXBBZTRnNGpXRkc4QjZRUHhFOXJXOHZrUjBxUFFTRU1rZUpfVHBfdkRSUjVsWS14d2prQUJRRGRHUlpCamt6bXM5NUxCczNYVDdQREptRGlDWFVlc3hzWk9udWM?oc=5",
+          "source": "GamePro",
+          "pubDate": "Sat, 21 Nov 2026 02:57:00 GMT"
+        },
         {
           "title": "GTA 6: Streamer iShowSpeed findet extrem abgefahrene Sidequest, die komplett eskaliert und wohl wirklich niemand so erwartet hätte - GamePro",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUmlqTmc2by1sQ0JWR2FHUWMwWHMwMnlYUVlrQ2RrVDQwN2JGQ1JMZmR2MF94TjFCX0lWcTU5c0tXX3UxR3BCRmlELWFrVGdtTmNLTk01SG9YZzFEWmdZUDhpRm5TUEg0WWlVWDY0ZHlhYmhSODhodFR2ZDdQdGpJbnp1OWhUaXc?oc=5",
@@ -342,16 +356,10 @@
           "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fc1h0cTZURDFQR1NfZTRGM2RVTFlRTVljUG1GemxsN2FkZU4xWlZCNzlCQjUyM2IwelJpS2c2Qlk1cFpVTU5wNjF5cC1OdHJibUlJZlVzanU5NFdhSHVNNkg1N1I5LVFXNmc?oc=5",
           "source": "IMDb",
           "pubDate": "Fri, 20 Nov 2026 19:17:50 GMT"
-        },
-        {
-          "title": "„So abgehoben“: MontanaBlack teilt massiv gegen Kritiker aus – und schockiert mit seinen Worten die Fans - Comicschau",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NOWkyMTFYVW80WTZ2akgtRTZvRjlHd3Q2YXlPUDdidGFVU1UwdDdrTEhYQjlrVFlXbnFzWFBUczlQQUtoOUZ5dkx1MVY5UmlpS0RTTjF5WEl2MWR0eUp1aFZfTXUxSUw5NmJqZDBhRVFQQ0hlczhaQ0lSbw?oc=5",
-          "source": "Comicschau",
-          "pubDate": "Fri, 20 Nov 2026 16:05:15 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-20T23:26:20.044Z",
+      "updated": "2026-11-21T03:38:29.380Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -423,7 +431,11 @@
         },
         {
           "date": "2026-11-20",
-          "count": 19
+          "count": 24
+        },
+        {
+          "date": "2026-11-21",
+          "count": 1
         }
       ]
     },
@@ -433,14 +445,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 91,
-      "count24h": 33,
-      "publisherCount": 53,
+      "count24h": 31,
+      "publisherCount": 55,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-14",
-          "count": 2
-        },
         {
           "date": "2026-11-15",
           "count": 1
@@ -455,15 +463,19 @@
         },
         {
           "date": "2026-11-18",
-          "count": 14
+          "count": 13
         },
         {
           "date": "2026-11-19",
-          "count": 34
+          "count": 35
         },
         {
           "date": "2026-11-20",
           "count": 33
+        },
+        {
+          "date": "2026-11-21",
+          "count": 0
         }
       ],
       "items": [
@@ -493,7 +505,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-20T23:26:20.044Z",
+      "updated": "2026-11-21T03:38:29.380Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -566,6 +578,10 @@
         {
           "date": "2026-11-20",
           "count": 33
+        },
+        {
+          "date": "2026-11-21",
+          "count": 0
         }
       ]
     }
@@ -1014,6 +1030,13 @@
     },
     {
       "at": "2026-11-20T23:26:20.040Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-21T03:38:28.063Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
