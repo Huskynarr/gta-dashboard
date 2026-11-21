@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T22:29:38.432Z",
+  "updated": "2026-11-21T23:38:13.535Z",
   "source": "Yahoo Finance chart API",
   "series": {
     "7974": {
@@ -31368,6 +31368,65 @@
     },
     {
       "ts": "2026-11-21T22:29:42.937Z",
+      "date": "2026-11-21",
+      "slot": "evening",
+      "prices": {
+        "7974": {
+          "price": 8832,
+          "changePct": -5.09
+        },
+        "TTWO": {
+          "price": 210,
+          "changePct": 0.65
+        },
+        "RBLX": {
+          "price": 46.72,
+          "changePct": 0.8
+        },
+        "CDR": {
+          "price": 257.3,
+          "changePct": -5.4
+        },
+        "UBI": {
+          "price": 3.2,
+          "changePct": -23.24
+        },
+        "SONY": {
+          "price": 27.29,
+          "changePct": 0.33
+        },
+        "MSFT": {
+          "price": 484.52,
+          "changePct": -2.76
+        },
+        "NVDA": {
+          "price": 125.53,
+          "changePct": -14.01
+        },
+        "UBER": {
+          "price": 63.47,
+          "changePct": -3.25
+        },
+        "DASH": {
+          "price": 152.6,
+          "changePct": -2.88
+        },
+        "DHER": {
+          "price": 36.37,
+          "changePct": -0.63
+        },
+        "GME": {
+          "price": 26.66,
+          "changePct": -1
+        },
+        "AMZN": {
+          "price": 246.82,
+          "changePct": -4.1
+        }
+      }
+    },
+    {
+      "ts": "2026-11-21T23:38:17.870Z",
       "date": "2026-11-21",
       "slot": "evening",
       "prices": {

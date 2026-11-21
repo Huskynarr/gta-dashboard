@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T22:29:42.940Z",
+  "updated": "2026-11-21T23:38:18.018Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T22:29:42.940Z",
+      "updated": "2026-11-21T23:38:18.018Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -153,7 +153,7 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 22,
+      "count24h": 25,
       "publisherCount": 31,
       "capped": true,
       "series": [
@@ -171,11 +171,11 @@
         },
         {
           "date": "2026-11-18",
-          "count": 25
+          "count": 23
         },
         {
           "date": "2026-11-19",
-          "count": 23
+          "count": 22
         },
         {
           "date": "2026-11-20",
@@ -183,7 +183,7 @@
         },
         {
           "date": "2026-11-21",
-          "count": 22
+          "count": 25
         }
       ],
       "items": [
@@ -213,7 +213,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T22:29:42.940Z",
+      "updated": "2026-11-21T23:38:18.018Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -289,7 +289,7 @@
         },
         {
           "date": "2026-11-21",
-          "count": 22
+          "count": 25
         }
       ]
     },
@@ -298,38 +298,38 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 100,
-      "count24h": 11,
-      "publisherCount": 49,
-      "capped": true,
+      "count7d": 56,
+      "count24h": 15,
+      "publisherCount": 34,
+      "capped": false,
       "series": [
         {
           "date": "2026-11-15",
-          "count": 3
+          "count": 0
         },
         {
           "date": "2026-11-16",
-          "count": 9
+          "count": 3
         },
         {
           "date": "2026-11-17",
-          "count": 6
+          "count": 2
         },
         {
           "date": "2026-11-18",
-          "count": 25
+          "count": 7
         },
         {
           "date": "2026-11-19",
-          "count": 28
+          "count": 14
         },
         {
           "date": "2026-11-20",
-          "count": 18
+          "count": 15
         },
         {
           "date": "2026-11-21",
-          "count": 11
+          "count": 15
         }
       ],
       "items": [
@@ -359,7 +359,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T22:29:42.940Z",
+      "updated": "2026-11-21T23:38:18.018Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -435,7 +435,7 @@
         },
         {
           "date": "2026-11-21",
-          "count": 14
+          "count": 15
         }
       ]
     },
@@ -444,38 +444,38 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 100,
-      "count24h": 11,
+      "count7d": 92,
+      "count24h": 19,
       "publisherCount": 53,
-      "capped": true,
+      "capped": false,
       "series": [
         {
           "date": "2026-11-15",
-          "count": 0
+          "count": 1
         },
         {
           "date": "2026-11-16",
-          "count": 3
+          "count": 0
         },
         {
           "date": "2026-11-17",
-          "count": 5
+          "count": 6
         },
         {
           "date": "2026-11-18",
-          "count": 12
+          "count": 9
         },
         {
           "date": "2026-11-19",
-          "count": 53
+          "count": 29
         },
         {
           "date": "2026-11-20",
-          "count": 16
+          "count": 28
         },
         {
           "date": "2026-11-21",
-          "count": 11
+          "count": 19
         }
       ],
       "items": [
@@ -492,20 +492,20 @@
           "pubDate": "Sat, 21 Nov 2026 15:02:28 GMT"
         },
         {
-          "title": "Der hässlichste Fanartikel von GTA 6? Dieses iPhone Duo kostet 14.000 Dollar - Futurezone",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVm0zVWNvUnZkR1NOSkZxd3ctaEdVOWRIcl81YW1Tb0J4WGM2RGdnbmxKRDdqSjJzUVJHbFJsTlA2Tjg2d3ZESTAyX1d3d2VtcERKMVltWlZpY1RUemU0dGdNeWszQ2RONEJHWHF6bGpvcnQ1a1pBODlRUm9lUHFiVV9SU0taOWJKM0VFVEZLc25Ub1ZGOFVIZEJOOXlmUUVScDVzRlA4cVjSAagBQVVfeXFMT1ZtM1Vjb1J2ZEdTTkpGcXd3LWhHVTlkSHJfNWFtU29CeFhjNkRnZ25sSkQ3akoyc1FSR2xSbE5QNk44Nnd2REkwMl9Xd3dlbXBESjFZbVpWaWNUVHplNHRnTXlrM0NkTjRCR1hxemxqb3J0NWtaQTg5UVJvZVBxYlVfUlNLWjliSjNFRVRGS3NuVG9WRjhVSGRCTjl5ZlFFUnA1c0ZQOHFY?oc=5",
-          "source": "Futurezone",
-          "pubDate": "Sat, 21 Nov 2026 13:43:00 GMT"
+          "title": "PlayStation 5 : Midnight-Black-Modell startet für 55.000 Yen pünktlich zu GTA 6 - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcG13RzhETUNTVUpGVXBtcGtTR0FXYXpXQ0YwVHAwSXptRmd4VVFmbTZaR29MR2xOeVItckZjSVhpb1hRYVA0M2g5dVIya3NPT3Z6VjZLSXVzWDQwbVR0YW5VWmk3ekVHdnlFQ2Fyc3dnNE9maWdOaFNwcjF3SzAyWHZ2RE5QR1cyazJwT2JpcFpjeE8tWmVNV0p3M0VXZXZkWm1kR0NrVnlhSlFYUEtMOFpR?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Sat, 21 Nov 2026 14:00:00 GMT"
         },
         {
-          "title": "GTA 6 schränkt den Zugriff auf vier Geschäfte in der Ultimate Edition für zusätzliche 20 Dollar ein. - GameGPU",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWTQ0MDBkMDhmMDlwTjBCSVNBSjZKNHZZM1J1OHBEMlBtbDgwckcwdWlNYjc5cERyWHZ4bWFsSTRBeFl2ZlcyZjU2ZlhaRXBRT3hId0E5RUlCUkZYV3lTTlNVOWRSanR2dUY1c3R3UGk4M0FXM3FPTmRHUkFpT21xOGdtQjM5ejdPUTJmLU9xSW1hWlh5Qk40UGV0SkxPdUw1bG11LTRiSG9hR181ZGE5WW03NThpWXJnMzhTYzY0LS1vQk1P?oc=5",
-          "source": "GameGPU",
-          "pubDate": "Sat, 21 Nov 2026 13:22:41 GMT"
+          "title": "Der hässlichste Fanartikel von GTA 6? Dieses iPhone Duo kostet 14.000 Dollar - Futurezone",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQT3dmVUw3cDIyajhDTWZvUkVUZ1RIalBOSGt6OVNLczhHVjhJRTBxYlg0bjRiQnFibnVZV09TWWNaYVFBZTRkNkNPb3FWVHpxbmgzQ3VuQVY0d2hDaXlFb3NjOFdwS3NuU2t4VWdUX0REdkxiTWo1Z1F2MmNnMlRhSGJJeFFIM1JmZ3hGajB2TkdBSEpTa0I2OE1kdW1jTVZBdjFz0gGoAUFVX3lxTE9WbTNVY29SdmRHU05KRnF3dy1oR1U5ZEhyXzVhbVNvQnhYYzZEZ2dubEpEN2pKMnNRUkdsUmxOUDZOODZ3dkRJMDJfV3d3ZW1wREoxWW1aVmljVFR6ZTR0Z015azNDZE40QkdYcXpsam9ydDVrWkE4OVFSb2VQcWJVX1JTS1o5YkozRUVURktzblRvVkY4VUhkQk45eWZRRVJwNXNGUDhxWA?oc=5",
+          "source": "Futurezone",
+          "pubDate": "Sat, 21 Nov 2026 13:43:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-21T22:29:42.940Z",
+      "updated": "2026-11-21T23:38:18.018Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -1065,6 +1065,13 @@
     },
     {
       "at": "2026-11-21T22:29:42.932Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-21T23:38:18.015Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
