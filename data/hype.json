@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T12:56:56.380Z",
+  "updated": "2026-11-22T13:40:14.311Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T12:56:56.380Z",
+      "updated": "2026-11-22T13:40:14.311Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -157,8 +157,8 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 11,
-      "publisherCount": 33,
+      "count24h": 12,
+      "publisherCount": 34,
       "capped": true,
       "series": [
         {
@@ -175,22 +175,28 @@
         },
         {
           "date": "2026-11-19",
-          "count": 20
+          "count": 19
         },
         {
           "date": "2026-11-20",
-          "count": 23
+          "count": 24
         },
         {
           "date": "2026-11-21",
-          "count": 25
+          "count": 24
         },
         {
           "date": "2026-11-22",
-          "count": 5
+          "count": 6
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 Online - Drohen FPS-Probleme auf PS5 und Series S - PlayCentral",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EYmN0bFdRSWl3MUJlVGdHemRSUmJPQ1hlX1NWYUxJVnVnZzNYaDZGT2VfM3NVTURfamlXcV9FcXYxQ0pNWDhJdEtTUUxCV2hVNUhRZVFrQjdQNHowMEpsczBJQ0dmZzJhWS15bWc5MA?oc=5",
+          "source": "PlayCentral",
+          "pubDate": "Sun, 22 Nov 2026 12:11:00 GMT"
+        },
         {
           "title": "Gewaltiger Ansturm zum Launch: Käufer von GTA 6 verbrachten am ersten Tag im Schnitt 8,5 Stunden im Spiel - Eurogamer.de",
           "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80Sm1LWUwxb0tkWHkzbDRUT3dzdjYxb0FvUHJnaFJaTFlKYUNfc1lxYjRjNzQ5WWhPbHQ4eFVENXVfbW42Nnh1bnlBYi1TTlhwaWExWlJPZG9YNEh2dUZ3Y2pfUV9nWTNfd3dJSzFB?oc=5",
@@ -208,16 +214,10 @@
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaTgtQzlLeVczRnl5ckhBMF9ZeTI2cDdxRnhWc1dWYmdZVndQUC1EQUNNMXctQV9OajNuSFNDSFpmcktxaVF5SzZUQVVsbmJ1eFhtMnQ1NWR1NlJPdjQ3RGNOLVFMMm5Ta3IzRkVzTjVCQ2oxTkNuX1RvUVIxbFg1dFNRRVBseC1aT1BudTg1UG1EMlhjUkt6OHNZLWFmdw?oc=5",
           "source": "SMARTWEB.de",
           "pubDate": "Sun, 22 Nov 2026 09:39:00 GMT"
-        },
-        {
-          "title": "Ausgerechnet im Heimatland der PlayStation ist GTA 6 absolut nicht auf Rekordkurs - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNVTUxNDdUSjg1NUpsSkRoQS1lRlhLR19sblQzQk9kVjBuZTVBUlY4QnlINmJrVHYyZndfZUVJUlRjZllKeUViRlNJZTFtMmtWTjB6YjVheTZwdzlRazRqdGVRZEdyXzRTQ2pNNklvS3BLUk1fQ0hKWFVBN19fdk1NWDUtQUozRTZHeDk0clpLampENzgtdG5iamlsUVRkbmJnODEwY01jVQ?oc=5",
-          "source": "GameStar",
-          "pubDate": "Sun, 22 Nov 2026 09:05:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T12:56:56.380Z",
+      "updated": "2026-11-22T13:40:14.311Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -297,7 +297,7 @@
         },
         {
           "date": "2026-11-22",
-          "count": 5
+          "count": 6
         }
       ]
     },
@@ -306,8 +306,8 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 57,
-      "count24h": 12,
+      "count7d": 56,
+      "count24h": 13,
       "publisherCount": 32,
       "capped": false,
       "series": [
@@ -329,7 +329,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 12
+          "count": 11
         },
         {
           "date": "2026-11-21",
@@ -337,10 +337,16 @@
         },
         {
           "date": "2026-11-22",
-          "count": 6
+          "count": 7
         }
       ],
       "items": [
+        {
+          "title": "Trymacs legt seine Einnahmen mit einem Tag GTA 6-Livestream offen - Raptastisch",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaWFYcnRMMy1DcFRJaS1ScjhGanFYOVNhMkstbmZaMTVqZU4teUg4YlU2Mlo2LVBERjBIS0hQeVNyMmU2djlXN1BfODVFYlduZ0dHMnZVdHM1aFlfSDNEZWdLTlFORDRSX041YnA4XzdaZV9xN2IxU0d2Y3dsUW9CbzVvSXZiZXJwendvX2ZYT3lteC0tdWhWLXlTNU5DWEdDY1BZ?oc=5",
+          "source": "Raptastisch",
+          "pubDate": "Sun, 22 Nov 2026 13:29:21 GMT"
+        },
         {
           "title": "Was GTA 6, Elden Ring und Baldur's Gate 3 wirklich verbindet - PC Games (DE)",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRWo4QlBnSTBhQU9YRzR3dEhRRVRQSjQwdlZHYWJ2WDBqYklaZi1GQ3Nzd1pfNHlNSTNvVXZOTUFGVC1vTlVfTFRTbVhkdmUzNnpGOGpPdEF4VlVTRmI2QlZrSXpwRHM3SGZtdzZYaEpHNV9DTzR4c3U3bmw5eEYxaE9YRTB1SWdsREJUaFpmeG5La2dTOTFRRlc5aGJBMVJMNVNuY3lzeFRtMjk4YWc?oc=5",
@@ -358,16 +364,10 @@
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMnk2Yi1wWFFqS0hrQmZ6cjhQajd0RWliREdZYnBXZTJlc0NHMGZRTjBlaTMwd1JVZWl6Um1vdVo3SEZfZmpPMXVpN2hvaWxmU3AxWlpnRThuODlka3dsU3piSG1DUHBTR3RfcmloZ0ozTVg0RE5tWldlRlhTTW5GazMzWUVJREw3Vm5wSEs4VG02M3FpOFotYmxYYmpLVFR4UFE?oc=5",
           "source": "GameStar",
           "pubDate": "Sun, 22 Nov 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Kommt nach GTA 6 doch L.A. Noire 2? Ein Leak sorgt für Wirbel - PC Games (DE)",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd1Z0T2lvUVlKbXlfVGJLVml6TEJ0MVRCYTA2UXZoNW1FLWpHZll2UzY4X2Z2bnVIcE1za0x1MlpjMm5NR3d6TTN4MFNLb3FIenJsM2cyR0xQWU9GS3FMTkNiR0diX0YwZ05qam4tOGhYcHlQZE5Jc1pRRG9qa3N0WGVESnU2V05FSkYxVVN0alBjdDh4VmJPa3d2TlhtRnBWbEQyM1hIYXpBUQ?oc=5",
-          "source": "PC Games (DE)",
-          "pubDate": "Sun, 22 Nov 2026 07:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T12:56:56.380Z",
+      "updated": "2026-11-22T13:40:14.311Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -447,7 +447,7 @@
         },
         {
           "date": "2026-11-22",
-          "count": 6
+          "count": 7
         }
       ]
     },
@@ -456,14 +456,14 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 85,
-      "count24h": 14,
-      "publisherCount": 51,
-      "capped": false,
+      "count7d": 100,
+      "count24h": 9,
+      "publisherCount": 53,
+      "capped": true,
       "series": [
         {
           "date": "2026-11-16",
-          "count": 0
+          "count": 3
         },
         {
           "date": "2026-11-17",
@@ -471,23 +471,23 @@
         },
         {
           "date": "2026-11-18",
-          "count": 8
+          "count": 10
         },
         {
           "date": "2026-11-19",
-          "count": 22
+          "count": 48
         },
         {
           "date": "2026-11-20",
-          "count": 22
+          "count": 16
         },
         {
           "date": "2026-11-21",
-          "count": 19
+          "count": 12
         },
         {
           "date": "2026-11-22",
-          "count": 7
+          "count": 5
         }
       ],
       "items": [
@@ -510,14 +510,14 @@
           "pubDate": "Sun, 22 Nov 2026 11:16:00 GMT"
         },
         {
-          "title": "Energie Cottbus vs. Hertha BSC live: GTA VI - Edition Lausitz - sportschau.de",
+          "title": "Energie Cottbus - Hertha BSC: Energie Cottbus vs. Hertha BSC live: GTA VI - Edition Lausitz - sportschau.de",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd2E1WFBKYkVEUVUzWURKVUpIaWJ6b1E4dG0xTE1WYWwxUW80RFRvUk5HamxQU3c4ZmhTcmpQRjQyaFU5d1RDWUxLLUJ0LURMNlJzRFlXVmxOTGwtY19vaWYxY1VZb0V3cVBhaDNLZVphZEFZOXVpS0paVG1raUlPTkxyT0FGX3hUUHdLcHdubTVoWUNCTF9LeE5Rb01BRGY3NTJGaHVUbXlEa0FGV2c?oc=5",
           "source": "sportschau.de",
           "pubDate": "Sun, 22 Nov 2026 11:13:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T12:56:56.380Z",
+      "updated": "2026-11-22T13:40:14.311Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -1102,6 +1102,13 @@
     },
     {
       "at": "2026-11-22T12:56:56.220Z",
+      "version": "hype-v1",
+      "score": 81,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-22T13:40:13.454Z",
       "version": "hype-v1",
       "score": 81,
       "coverage": 3,
