@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T13:40:14.311Z",
+  "updated": "2026-11-22T20:06:23.255Z",
   "topics": [
     {
       "key": "retail",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T13:40:14.311Z",
+      "updated": "2026-11-22T20:06:23.255Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -156,9 +156,9 @@
       "label": "Hardware & Setup",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 100,
-      "count24h": 12,
-      "publisherCount": 34,
+      "count7d": 99,
+      "count24h": 7,
+      "publisherCount": 40,
       "capped": true,
       "series": [
         {
@@ -167,57 +167,57 @@
         },
         {
           "date": "2026-11-17",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-18",
-          "count": 22
+          "count": 8
         },
         {
           "date": "2026-11-19",
-          "count": 19
+          "count": 35
         },
         {
           "date": "2026-11-20",
-          "count": 24
+          "count": 26
         },
         {
           "date": "2026-11-21",
-          "count": 24
+          "count": 19
         },
         {
           "date": "2026-11-22",
-          "count": 6
+          "count": 7
         }
       ],
       "items": [
         {
-          "title": "GTA 6 Online - Drohen FPS-Probleme auf PS5 und Series S - PlayCentral",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9EYmN0bFdRSWl3MUJlVGdHemRSUmJPQ1hlX1NWYUxJVnVnZzNYaDZGT2VfM3NVTURfamlXcV9FcXYxQ0pNWDhJdEtTUUxCV2hVNUhRZVFrQjdQNHowMEpsczBJQ0dmZzJhWS15bWc5MA?oc=5",
-          "source": "PlayCentral",
-          "pubDate": "Sun, 22 Nov 2026 12:11:00 GMT"
+          "title": "GTA 6 mit 60 Fps auf dem PC: Selbst ein Ryzen 7 5800X3D könnte zu langsam sein - PCGH",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTDlVMGZuNW1tQmN0QkhlUU8zY0RBV3lCWjdNSmJWWFA4VXVleUZvUTNQNmtkY2pHb2Z3N01lV0NUdTFCb05fSmlqb3NXUkxkTjVEVlBjODc3NktzOU8zdUhTSi1XUkRfNFlVS0hKUW5iYUgxMFNrdGVvRkc1NDg1cTdHQ0RZc080TGYtU2VmeDl0QmFkSXNaa3lHanZyeU9SNC1RLWZPWGRlQjNiQkE?oc=5",
+          "source": "PCGH",
+          "pubDate": "Sun, 22 Nov 2026 19:15:00 GMT"
         },
         {
-          "title": "Gewaltiger Ansturm zum Launch: Käufer von GTA 6 verbrachten am ersten Tag im Schnitt 8,5 Stunden im Spiel - Eurogamer.de",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80Sm1LWUwxb0tkWHkzbDRUT3dzdjYxb0FvUHJnaFJaTFlKYUNfc1lxYjRjNzQ5WWhPbHQ4eFVENXVfbW42Nnh1bnlBYi1TTlhwaWExWlJPZG9YNEh2dUZ3Y2pfUV9nWTNfd3dJSzFB?oc=5",
-          "source": "Eurogamer.de",
-          "pubDate": "Sun, 22 Nov 2026 12:04:00 GMT"
-        },
-        {
-          "title": "Grand Theft Auto VI : Letzter Blockbuster vor dem KI-Umbruch - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOTFhbUF0MXphb3lleUVzX0VFMWxxX1ZwaDZtWmU3dXVJQVFSV2VPRkRFaUdqR2xYTVB4bXdUdnNlZTdyQVFBNzVrMEJmQm80NWVfRmJhVUx5a2JWZ1kyQ2VaRDdxYlpwNnJ4RHA2WWctZlBWYWRlLTVhVG1tOGhkZV8tblRsenJ0d1dsWURETzBEMWd4a3c?oc=5",
+          "title": "Gewinnspiel mit GTA 6 Ultimate Edition – jetzt gewinnen - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQUpHakR5VXZpajh6amdsbGprMjhNT0lGekJZTmlIc2tqTjdxc3p6MHRTMTFJbF9wOUxKeWV3b1RzNEZ4endIamNNRVpNV2tjaGthLUlPQ1Ywb2I0YkZLNkVHOFJmWk5QVU1JdHpLaTRuby1kV2s0MjNjd1o1bmVVNUdfejg2aEYyZVQya2VCS3VqTFVmQWhDREhjZDdjNVE?oc=5",
           "source": "XboxDynasty",
-          "pubDate": "Sun, 22 Nov 2026 10:00:00 GMT"
+          "pubDate": "Sun, 22 Nov 2026 18:44:21 GMT"
         },
         {
-          "title": "GTA 6 ist da! Hier bekommst Du das Spiel kostenlos zur PS5 dazu - SMARTWEB.de",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaTgtQzlLeVczRnl5ckhBMF9ZeTI2cDdxRnhWc1dWYmdZVndQUC1EQUNNMXctQV9OajNuSFNDSFpmcktxaVF5SzZUQVVsbmJ1eFhtMnQ1NWR1NlJPdjQ3RGNOLVFMMm5Ta3IzRkVzTjVCQ2oxTkNuX1RvUVIxbFg1dFNRRVBseC1aT1BudTg1UG1EMlhjUkt6OHNZLWFmdw?oc=5",
-          "source": "SMARTWEB.de",
-          "pubDate": "Sun, 22 Nov 2026 09:39:00 GMT"
+          "title": "So läuft GTA 6 auf der Xbox Series X mit 60 FPS - mobidevices.com",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rNnJ1Ni1ESHZNd3Z4NlFia25SYkJQZF81VTZBbm1nU2pWN0lNUG5vMmdzWUxKdHAyRl9Db3VTakVSa0J3R0dBLXhWY0Vwc3ZwRXExZzBYRHhEU29ndy10d0RoQQ?oc=5",
+          "source": "mobidevices.com",
+          "pubDate": "Sun, 22 Nov 2026 17:32:17 GMT"
+        },
+        {
+          "title": "Grand Theft Auto VI : Quick-Resume-Glitch knackt 60 FPS - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM3NNeXotQUgwNmhqcTZOakJIT2xPLUMtVnpPQkFxNGFib3hrVm5FRWx1ZGxORU5XNTFpejNlcXF1MDlxOU9rMzhocTg3UURXMmIwSXRfVjZ2UGtGZzVTSks1N3dKWTZDXy1kQWZINW5HV0FuNktETE1GNmlHLVdtYUNFYW5Pck50U0duYk1tZw?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Sun, 22 Nov 2026 15:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T13:40:14.311Z",
+      "updated": "2026-11-22T20:06:23.255Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -297,7 +297,7 @@
         },
         {
           "date": "2026-11-22",
-          "count": 6
+          "count": 7
         }
       ]
     },
@@ -306,34 +306,34 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 56,
-      "count24h": 13,
-      "publisherCount": 32,
-      "capped": false,
+      "count7d": 100,
+      "count24h": 7,
+      "publisherCount": 50,
+      "capped": true,
       "series": [
         {
           "date": "2026-11-16",
-          "count": 3
+          "count": 9
         },
         {
           "date": "2026-11-17",
-          "count": 2
+          "count": 6
         },
         {
           "date": "2026-11-18",
-          "count": 8
+          "count": 22
         },
         {
           "date": "2026-11-19",
-          "count": 11
+          "count": 26
         },
         {
           "date": "2026-11-20",
-          "count": 11
+          "count": 19
         },
         {
           "date": "2026-11-21",
-          "count": 14
+          "count": 11
         },
         {
           "date": "2026-11-22",
@@ -342,10 +342,16 @@
       ],
       "items": [
         {
-          "title": "Trymacs legt seine Einnahmen mit einem Tag GTA 6-Livestream offen - Raptastisch",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaWFYcnRMMy1DcFRJaS1ScjhGanFYOVNhMkstbmZaMTVqZU4teUg4YlU2Mlo2LVBERjBIS0hQeVNyMmU2djlXN1BfODVFYlduZ0dHMnZVdHM1aFlfSDNEZWdLTlFORDRSX041YnA4XzdaZV9xN2IxU0d2Y3dsUW9CbzVvSXZiZXJwendvX2ZYT3lteC0tdWhWLXlTNU5DWEdDY1BZ?oc=5",
-          "source": "Raptastisch",
-          "pubDate": "Sun, 22 Nov 2026 13:29:21 GMT"
+          "title": "„Nur 5 Spiele verkauft“: Frustrierter Händler erklärt, warum GTA 6 im Regal liegen bleibt - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS3ZqU2pNd0pCY000TzBDZHJtdjBWanMxdEcyRENWRFR0OHRtNXV6ZmpnVXpoUi1NOGc3SUNEQ3JaU3ZpanNJT2ZhZnVKYWIwNkROa2VaQy1obDQyYi03QjdOZ0pnWHNRNzkxNUoxNi10Mmk1TEp4cUYxN2JBRVNtQ2x6OGw1bEs0NkNLRmtKMEpHTHF1?oc=5",
+          "source": "PC Games (DE)",
+          "pubDate": "Sun, 22 Nov 2026 15:30:00 GMT"
+        },
+        {
+          "title": "GTA 6 macht unfassbar Spaß, aber eine Sache nervt unendlich - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUUY0cTdVMzBqT0cwRHhTajR0RXAyVnNuXzNyemdtdUlEUEQ4SEdqeG9GQlZVS0szajZPakZlOTdPQmhmQ0Z1Tlp4YTVBWlB3STBtdll2TzlQNnRwRUpiMjVpU2h2VV9ORlJxVkNWZVZSbDRjbnBQdFlyczRIVV9VTUVYQndfUjBPaGotQWF0b0hhSTVBQkxNQXZ1Qi1ublJoUng4NkNhbEFVb0NuejAySFdqRzBlWjNBM1JOQ2VXN3JMZw?oc=5",
+          "source": "CHIP",
+          "pubDate": "Sun, 22 Nov 2026 11:05:00 GMT"
         },
         {
           "title": "Was GTA 6, Elden Ring und Baldur's Gate 3 wirklich verbindet - PC Games (DE)",
@@ -358,16 +364,10 @@
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQUVVejF0VDBlZWdLLWZUa1MxUENxbXRBei1YSWwyQ0REMXlOeTFsX1RSeHgwLS1KcThEZlUtZVlWWXBPY2dVRUhMMjduclhHYkNzSEx4anpOV0Z0ZWF2N25ITVZCY01tZzJRNW16MTZMWjBwOVhvVi10N1UzOVBtT2RuVWFaNmpLYzB4SDVtblhXZC1qQlE4bkkySDJpTHc0V19tWXc1X24?oc=5",
           "source": "aktien.news",
           "pubDate": "Sun, 22 Nov 2026 07:44:13 GMT"
-        },
-        {
-          "title": "\"Mein Gott, ist das alles echt!\" - Deutsche Polizei über GTA 6 - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMnk2Yi1wWFFqS0hrQmZ6cjhQajd0RWliREdZYnBXZTJlc0NHMGZRTjBlaTMwd1JVZWl6Um1vdVo3SEZfZmpPMXVpN2hvaWxmU3AxWlpnRThuODlka3dsU3piSG1DUHBTR3RfcmloZ0ozTVg0RE5tWldlRlhTTW5GazMzWUVJREw3Vm5wSEs4VG02M3FpOFotYmxYYmpLVFR4UFE?oc=5",
-          "source": "GameStar",
-          "pubDate": "Sun, 22 Nov 2026 07:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T13:40:14.311Z",
+      "updated": "2026-11-22T20:06:23.255Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -456,68 +456,68 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 100,
-      "count24h": 9,
-      "publisherCount": 53,
-      "capped": true,
+      "count7d": 84,
+      "count24h": 14,
+      "publisherCount": 48,
+      "capped": false,
       "series": [
         {
           "date": "2026-11-16",
-          "count": 3
+          "count": 0
         },
         {
           "date": "2026-11-17",
-          "count": 6
+          "count": 7
         },
         {
           "date": "2026-11-18",
-          "count": 10
+          "count": 8
         },
         {
           "date": "2026-11-19",
-          "count": 48
+          "count": 19
         },
         {
           "date": "2026-11-20",
-          "count": 16
+          "count": 19
         },
         {
           "date": "2026-11-21",
-          "count": 12
+          "count": 17
         },
         {
           "date": "2026-11-22",
-          "count": 5
+          "count": 14
         }
       ],
       "items": [
         {
-          "title": "\"Lass es im Spiel\": Die US-Polizei richtet eine klare Botschaft an \"GTA 6\"-Spieler - T-Online",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcjJQbkp6eXpxUVZjdXBkdklSRl95RGVYTXhWUVlCSDhGbzJ4Wk5sMFhXQzBSeWpORWNpNjlKWFRqQ05HTnMwQjNDSG5UWk9XaG8wZkZaVE94NkFqQ2ROUGljXzBDZG1PT25KMWU3SVV4SEk1RUY4c092dWJLS09GZUhLYzcySTRwWFQ0ZXQ2Q3JPTzRtRWpCTzgyRDVyeldzYWQzcVVmOE1qdGZJ?oc=5",
-          "source": "T-Online",
-          "pubDate": "Sun, 22 Nov 2026 12:06:51 GMT"
+          "title": "Gewinnspiel mit GTA 6 Ultimate Edition – jetzt gewinnen - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQUpHakR5VXZpajh6amdsbGprMjhNT0lGekJZTmlIc2tqTjdxc3p6MHRTMTFJbF9wOUxKeWV3b1RzNEZ4endIamNNRVpNV2tjaGthLUlPQ1Ywb2I0YkZLNkVHOFJmWk5QVU1JdHpLaTRuby1kV2s0MjNjd1o1bmVVNUdfejg2aEYyZVQya2VCS3VqTFVmQWhDREhjZDdjNVE?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Sun, 22 Nov 2026 18:44:21 GMT"
         },
         {
-          "title": "Gewaltiger Ansturm zum Launch: Käufer von GTA 6 verbrachten am ersten Tag im Schnitt 8,5 Stunden im Spiel - Eurogamer.de",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80Sm1LWUwxb0tkWHkzbDRUT3dzdjYxb0FvUHJnaFJaTFlKYUNfc1lxYjRjNzQ5WWhPbHQ4eFVENXVfbW42Nnh1bnlBYi1TTlhwaWExWlJPZG9YNEh2dUZ3Y2pfUV9nWTNfd3dJSzFB?oc=5",
-          "source": "Eurogamer.de",
-          "pubDate": "Sun, 22 Nov 2026 12:04:00 GMT"
+          "title": "GTA 6: Dieses Update ist Pflicht für PS5-Spieler – Sony rät zur Aktualisierung - 4P.de",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZFBSTXg1UEd4NkxVQmRsT2Ffb21PUFdOZFVad1FZU3dmUjduTTZLd19TZ0hQRWk0Vk9JdlhtWWh6elpxUGJ1NFBHbVVBZHF0dTlITWY2cm1Ma2hBaTAxSmZvS3c3blhDNGlpQXBLRVJDUHBYRFIyeTJTV1BxaUdqd2IxYm52UktVd1hQQ1o0WnE1ME43SWNuOFNmbEhSOTBlVWZfTHF2M0V0ZENQUGdKbWh4S2Z5clk?oc=5",
+          "source": "4P.de",
+          "pubDate": "Sun, 22 Nov 2026 17:47:55 GMT"
         },
         {
-          "title": "„GTA VI\"-Veröffentlichung steigert Einnahmen der Lieferdienste - TAGESKARTE",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWGlYTHBBYmdEdHlDalVLRGEtaUVBZjZtT29fTWZ6RUFXVXBjYnZKamk1aTlrQ2RtZ0FTTmxzWlUzSF9BOXl4M2NGcjFYdU1rc2xxRUVId1pBZFlEZUJsMk9xVktlYTZnOHRZQm1aZzU1M09tR3M5RkFwOHpJalBBWHdjaEFEVW5xNHhYUWRBb0dFdkRxQTI4amtDUWxJblZzVUhuS0dGa0Fqa1c0dnJsVg?oc=5",
-          "source": "TAGESKARTE",
-          "pubDate": "Sun, 22 Nov 2026 11:16:00 GMT"
+          "title": "GTA 6: Diese eine Einstellung solltet ihr unbedingt noch vor Spielstart ändern - 4P.de",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQejJ1ZWgxakczZjBPckNlVVpUSktTYXVJU0xnUzlBOFF0eWJDYnEzbjN6QXJNZTNId1RrUy1MemFjNDNkdF9BdmRnTXE3Wm5BdWk0N3EtbkxiYl9HLUdXNmEwU2NCTWZVaXdmOHJwc3IwSjFmQWdKSWZUMGlXSTNWLVhfVllObl92TUFqN3FDT3I?oc=5",
+          "source": "4P.de",
+          "pubDate": "Sun, 22 Nov 2026 16:26:26 GMT"
         },
         {
-          "title": "Energie Cottbus - Hertha BSC: Energie Cottbus vs. Hertha BSC live: GTA VI - Edition Lausitz - sportschau.de",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd2E1WFBKYkVEUVUzWURKVUpIaWJ6b1E4dG0xTE1WYWwxUW80RFRvUk5HamxQU3c4ZmhTcmpQRjQyaFU5d1RDWUxLLUJ0LURMNlJzRFlXVmxOTGwtY19vaWYxY1VZb0V3cVBhaDNLZVphZEFZOXVpS0paVG1raUlPTkxyT0FGX3hUUHdLcHdubTVoWUNCTF9LeE5Rb01BRGY3NTJGaHVUbXlEa0FGV2c?oc=5",
-          "source": "sportschau.de",
-          "pubDate": "Sun, 22 Nov 2026 11:13:00 GMT"
+          "title": "GTA 6: Nächster Rekord gebrochen - Soundtrack schreibt Spotify-Geschichte - - PLAY3.DE",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNDk0WkF1di1jU3pKN1FnNGZUVUFVQ0xyTnpOUU84NkVrTjQ0X0w5RUpRR2hxakJzaWhqUVh2OUVWUFlpaFotV3lDVkZZbURzaFphV3E4ZkVtNHM2T2dhcGhqYnBXMjVBeGtqUFpnZlZWanpvUGNMX1pUa09nMVVBbEFSTFBMbVZHQWVNMU9wdFVOOWJKOW0wQVJxTTRPU0VIRDM2WEx3?oc=5",
+          "source": "PLAY3.DE",
+          "pubDate": "Sun, 22 Nov 2026 15:34:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T13:40:14.311Z",
+      "updated": "2026-11-22T20:06:23.255Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -597,7 +597,7 @@
         },
         {
           "date": "2026-11-22",
-          "count": 7
+          "count": 14
         }
       ]
     }
@@ -1111,6 +1111,13 @@
       "at": "2026-11-22T13:40:13.454Z",
       "version": "hype-v1",
       "score": 81,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-22T20:06:20.350Z",
+      "version": "hype-v1",
+      "score": 77,
       "coverage": 3,
       "signature": "wiki+news+reddit"
     }

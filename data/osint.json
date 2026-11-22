@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T13:40:13.454Z",
+  "updated": "2026-11-22T20:06:20.350Z",
   "wikipedia": {
     "gta_en": {
       "key": "gta_en",
@@ -3248,7 +3248,7 @@
       "label": "GTA VI · EN",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 13,
+      "count24h": 9,
       "series": [
         {
           "date": "2026-11-16",
@@ -3260,61 +3260,61 @@
         },
         {
           "date": "2026-11-18",
-          "count": 37
+          "count": 36
         },
         {
           "date": "2026-11-19",
-          "count": 20
+          "count": 22
         },
         {
           "date": "2026-11-20",
-          "count": 20
+          "count": 13
         },
         {
           "date": "2026-11-21",
-          "count": 14
+          "count": 16
         },
         {
           "date": "2026-11-22",
-          "count": 4
+          "count": 8
         }
       ],
       "items": [
         {
-          "title": "I tried to play GTA 6 without killing anyone, and, well, you see… - Polygon.com",
-          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvY1hfc2M5ZzNDVzkxa1J1V1BzWE9CSzVvcXBVdDlDTlBwVE1TVkJLc0RqcWpwc0laZWlTZnkwSVlqN01CTGRZSEFrWVpiZkJqZVVfSHlkV2hSRllvUDhUbUVDX3FKZw?oc=5",
-          "source": "Polygon.com",
-          "pubDate": "Sun, 22 Nov 2026 13:00:17 GMT"
-        },
-        {
-          "title": "Grand Theft Auto VI is a hit. What does that say about us? | Opinion - The Tennessean",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZFVfaTZCVkVKaTdiYi1pSE5MdnY4M0lrd1BTYWdKU29RYWRDeVFBUFMtNFBUQ1JuTHBINUdJVFVUc3o0UmhWeWxYSXhZb2wxOEd1eUZzR1NrVGkwSHZFMk5DVzJZNk1tOVNMdmd3Rl9yMnpnMHlHazNxUmxqYWFZeGlXcjNMSlU4bUtfT29RbjBCT0NyV3ZlSmVjeERKaHdCc0xTWXZLNmxnXzRrM0hPcmR6QkFWQ01EYXk1Y2tsVGhVTkk?oc=5",
-          "source": "The Tennessean",
-          "pubDate": "Sun, 22 Nov 2026 11:10:00 GMT"
+          "title": "I'm playing GTA 6 like it's The Sims and I couldn't be happier with that - GAMINGbible",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOb2pOa1NCTkhycV94OEZRUkpMSWtHTHZaMFZXT2U1czZINzdSdjY2YWFrTE43YmhlUkV4NXFkTmtBaWUxSi1uS3FxTFljcmpTNDIxU2pLb1ktODBsNVlVR0k1WEE3WWtraWQ2eVVMRWhsRFpxRkFmc3NNcGduWUtaMVRB?oc=5",
+          "source": "GAMINGbible",
+          "pubDate": "Sun, 22 Nov 2026 20:00:00 GMT"
         },
         {
           "title": "'GTA 6' on Xbox Series S: How well it actually runs - Mashable",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5weWZnSU1NaXVSOFhMNEtzUFJrTFgtZzVqX2psczFBY1pxcTRGekhqVWdsRDJUQjJMbGJtR1Frc01qT19zREZRQzNlWU5sYXdhc0dSazJRaGNtM3QweXREbndPV2xHUDRSbzFpY1dycDl6UUtwcG1PcDlPc3E?oc=5",
           "source": "Mashable",
-          "pubDate": "Sun, 22 Nov 2026 10:47:57 GMT"
+          "pubDate": "Sun, 22 Nov 2026 19:50:07 GMT"
         },
         {
-          "title": "How a piece of Detroit ended up inside GTA VI - ClickOnDetroit | WDIV Local 4",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeEs3VjVsMUhCVU1sX09CS3FTaDA5QjRuMS1Ja3NtX0ZjczRZd2NaakhSSmI0WDhadTZYMWkzNC0xX0Z6M3VqdXJNV3JqYkg4aEZ3bHFOQ0pPdm1ZSXFTakVpR2U1SmxOZjhkV24tWlBCSy1qWVZyS2xJajFWSi1CX2JiYnFjZkN0eFpEd1ZKSllZSHZGWUtUWjNYRmZlbk1k?oc=5",
-          "source": "ClickOnDetroit | WDIV Local 4",
-          "pubDate": "Sun, 22 Nov 2026 10:00:00 GMT"
+          "title": "Why GTA 6's Breakfast Run Is Being Called a Perfect Mission - Windows Central",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdFFxS09yTFNtVEo3bGZPMExhamwxWTF1eVFKRVZLdjh0X1RwLVpsUTlKSVBQd1JpWDFMNjNBUFZEY3VkdlJGb3Q4UFcyd1doWlFhbGJhUm13T0VJR01vMlIxWGVuZ1pmXzdYU1FFMFRxdUZzZC12d3VFT1Q3Vi1qM0pQWktWc2NNdHV4b2pDY2g1bXBuWmFQVkwwRDdIVk90M1dpZjZfYUhSY1dqSnJYdFdiQ1Uzcm9PVjFKVTRVN0NqaTBlRkNKZ3U5bE9DS29PZTIwUktmaHNpM1ZfOGRXVC10SFhWdw?oc=5",
+          "source": "Windows Central",
+          "pubDate": "Sun, 22 Nov 2026 19:35:03 GMT"
         },
         {
-          "title": "'It gives me the ick': Can you cheat on someone with a video game? - BBC",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54ZDBScmwxZ2UzWEFUMkZyZGc4RTNjczhSZVlycXRvSkJXei1rSGpwNzJJZDdJczZPNkxWX2dFNUt3YU5fWWhQTERkZkp3VVBfUVhGSzlDVXZXbzg?oc=5",
-          "source": "BBC",
-          "pubDate": "Sat, 21 Nov 2026 21:21:57 GMT"
+          "title": "Which GTA 6 radio station is your favourite so far? - PC Gamer",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNHZjZU1rcU9Lem9BbHFrOWFiTWVxajRjTnByTjlWc215eWtxTHo2T2tsUHZVZkVtcEc3Wm10aThfX2pSQVNxc21wWUFpdlhqNFVoZU93ZlZVNFh5aHI1OU1Gd255bjdBdDBOMmpISnNKZGVOQ29LUGFDZDEtV0FiZFJyYXV2RjRSbmJBOTZEYVZ3OHlrRTBFSHBIS0Z5anM?oc=5",
+          "source": "PC Gamer",
+          "pubDate": "Sun, 22 Nov 2026 18:00:00 GMT"
         },
         {
-          "title": "It’s Official, GTA 6’s Graphics Have Broken My Brain - Polygon.com",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBR1Q3dFhsYWQ1MmQzODJTX2RCUDVzUGtvNmN3QTZBX2hkdEdlT0Iybm1pZ3J0NS1tQmY1OE1BdnhYNUJPZU4xWkZPSlFzdnZKRUkteV9wYS13TG8?oc=5",
+          "title": "Oh No, I Can’t Stop Watching People Play ‘GTA VI’ - Defector",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04X1NVX3RNTlc3Qmlib1ByR3NrSHRrYkJ3WkJlRmhqNjlWY3BIbnNBSnJldllMc1hpcmRBTWJ4eFBvajZPSHYxT2FHcmdZdU9NNHVQUEZJM3BPb3VxZ1dLLVNBcldFaUdFLXNJcUlfWjllTjNh?oc=5",
+          "source": "Defector",
+          "pubDate": "Sun, 22 Nov 2026 17:31:00 GMT"
+        },
+        {
+          "title": "GTA 6 Makes It Nearly Impossible to Play Without Killing Anyone - Polygon.com",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvY1hfc2M5ZzNDVzkxa1J1V1BzWE9CSzVvcXBVdDlDTlBwVE1TVkJLc0RqcWpwc0laZWlTZnkwSVlqN01CTGRZSEFrWVpiZkJqZVVfSHlkV2hSRllvUDhUbUVDX3FKZw?oc=5",
           "source": "Polygon.com",
-          "pubDate": "Sat, 21 Nov 2026 19:00:17 GMT"
+          "pubDate": "Sun, 22 Nov 2026 13:00:17 GMT"
         }
       ],
       "history": [
@@ -3400,7 +3400,7 @@
         },
         {
           "date": "2026-11-22",
-          "count": 4
+          "count": 8
         }
       ]
     },
@@ -3409,73 +3409,73 @@
       "label": "GTA VI · DE",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\")",
       "count7d": 100,
-      "count24h": 8,
+      "count24h": 39,
       "series": [
         {
           "date": "2026-11-16",
-          "count": 5
+          "count": 1
         },
         {
           "date": "2026-11-17",
-          "count": 7
+          "count": 0
         },
         {
           "date": "2026-11-18",
-          "count": 19
+          "count": 8
         },
         {
           "date": "2026-11-19",
-          "count": 34
+          "count": 13
         },
         {
           "date": "2026-11-20",
-          "count": 14
+          "count": 17
         },
         {
           "date": "2026-11-21",
-          "count": 15
+          "count": 24
         },
         {
           "date": "2026-11-22",
-          "count": 6
+          "count": 37
         }
       ],
       "items": [
         {
-          "title": "Bremerhavener AWI-Forscher lassen in GTA die Küste versinken - buten un binnen",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0FvbGZFZERDNVBDQnBfS0hpVHZZT0doQW5VQmpPR0NFc2tfQUdHaHZxTnYzV3lkMEM4ZFUxVVlnM2ZlQnRkQlpJNzVMNXhFcDlucTQwbzNDcWRTV01WMHo2NUtKSktEOExMX3VvR1hReFBkcE5EeUpGeWs3QmJDM0xRVFpUZEdVVUJaYWZEWldmYUFtWWF3dHUzc3lDMFk?oc=5",
-          "source": "buten un binnen",
-          "pubDate": "Sun, 22 Nov 2026 12:00:00 GMT"
+          "title": "„Grand Theft Auto VI: The Album“ ist ein wildes Durcheinander – und das ist gut so - Rolling Stone",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPMVR0SE9lVlQzRnNueWxweFpHVnRXR25YZThBdVJHVUVJYTN5NnFwSE9VUk0yd1lBd0xXeVBwRUpRODF3SUFOWDJfTzgyZnNacVdLSEdPRkZuWTVUWDNBVHVsSGNTTmVIU2Zkd2pHaUs1bUNMV3lwS2RIRGdYZw?oc=5",
+          "source": "Rolling Stone",
+          "pubDate": "Sun, 22 Nov 2026 18:34:26 GMT"
         },
         {
-          "title": "Was das Videospiel GTA 6 über unsere Gegenwart erzählt - heise online",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVmhMcGVOQlNRUXNnNVFFcDNrM1R4cW9NbG5kU2Q4bU42ODBDQlN4Q2Q1U3JZdTd3X1Y0TEFkek5KMk1YUmNjM19VYjJhNGJ1V0JyZHVYSG1UUWdZZFhzY2xtcVFXcDdhZ0QzeWJCWEkzdzRZUDctT1pOOERwVTB1QlljbnNEZ19SdzBxaGZUZUkwMFpQcXRqMU1VdDY?oc=5",
-          "source": "heise online",
-          "pubDate": "Sun, 22 Nov 2026 11:02:00 GMT"
+          "title": "„GTA VI\": Die besten Musikmomente - Rolling Stone",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTTI2dmV1d1VZUHBRNmhlamNRTmZNVzhybDU0OVJmTHN5QWRnWTZCdjRkeGIxcndSNXpRVkVpMkh0T21hN0RjQWdYRTFqT0hwZktmNFMzSmpCM1VBVlZINlZ1UnRSWTV5NTJEdmtteHhCS1IyZFlTY2xiR25oTjgxS3F4cTFfOGl0eGd0NjB3?oc=5",
+          "source": "Rolling Stone",
+          "pubDate": "Sun, 22 Nov 2026 18:30:49 GMT"
         },
         {
-          "title": "GTA 6: Auf diese 4 Dinge solltet ihr beim ersten Spielen achten - t3n",
-          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3NWF6ZEk1YWY5OTBEZ2R4b2R1cGkxV0xabXhhUHJaejFCOFUxbE5wWkVGQkVaNmJtVFVkalBtRzFVV3FmZ3Fod3hEUS1LR1hmOEF5SHVoOHllbzQxd3c?oc=5",
-          "source": "t3n",
-          "pubDate": "Sun, 22 Nov 2026 09:15:00 GMT"
+          "title": "GTA 6: Dieses Update ist Pflicht für PS5-Spieler – Sony rät zur Aktualisierung - 4P.de",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZFBSTXg1UEd4NkxVQmRsT2Ffb21PUFdOZFVad1FZU3dmUjduTTZLd19TZ0hQRWk0Vk9JdlhtWWh6elpxUGJ1NFBHbVVBZHF0dTlITWY2cm1Ma2hBaTAxSmZvS3c3blhDNGlpQXBLRVJDUHBYRFIyeTJTV1BxaUdqd2IxYm52UktVd1hQQ1o0WnE1ME43SWNuOFNmbEhSOTBlVWZfTHF2M0V0ZENQUGdKbWh4S2Z5clk?oc=5",
+          "source": "4P.de",
+          "pubDate": "Sun, 22 Nov 2026 17:47:55 GMT"
         },
         {
-          "title": "Videospiel GTA 6 erzielt laut Entwickler weitere Rekorde - Deutschlandfunk Kultur",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM2RZVnpjSGYza3JybzJ5b1ctcG5JMlB1WU5XNktabWlqSWw3Sk9iZ19ZYUtfX0c0UUMtVFlKQnRXUWZsMmoxRlpNbzNpWDktcDhjNlB4U040SW1LQ1dDQXROS1VJNVRfcGVJaE0wY01TbVRReWRJRzVIQTZhUld2QVFudjU1SE1zTElaNW5EZmNiN2k5MEtGV0lCbE95bzRLTG9iYQ?oc=5",
-          "source": "Deutschlandfunk Kultur",
-          "pubDate": "Sun, 22 Nov 2026 08:34:24 GMT"
+          "title": "GTA 6: Ich bin besessen davon, überall perfekt einzuparken und ich kann nichts dagegen tun! - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNT2RYNkw0UXk4SVRQUmEyMTZiSUJhVUlNb1NHVmgzUG5HQzBGb096aWFhWXZfTFM3akpnenpNdTBxY01WRzV4U3NpU2NLZlUySFgteXBkdWZGV2dhQnRoVXpjbXVBUUpMWW54Vm1UWkNwemZNQ0NTcDdWY1k2dnNtbHZ3?oc=5",
+          "source": "GamePro",
+          "pubDate": "Sun, 22 Nov 2026 17:30:00 GMT"
         },
         {
-          "title": "BVB siegt in Gladbach: GTA 6 als Belohnung für den Tabellenführer – „heute wird gespielt“ - WELT",
-          "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOcEJCb01oUTBfQkpEWi1CRmdIY2Zva1lpbi1XcVVRNDlkOEVMdDhwUVBUZl9fb3VkTXA5Sm80NFY4LUt6NHcxZmRkdzdBUW1xVU85UGxZN3I5Q0owSDdlaFlqYnkwcURvWlp3ajV4bUJULUxXa183WmhNeWl1VVFSS0pYb3BLLXpaZVZWbE0tVXVVNlRvUDZoUmN6Q25xUHdDM29naXdoZ1lrLUZybzY5Z1hRQlBDems1c2J6bDNfc05KQkFjVnBrTXdGN3ZaSjFwSl9EVnh6NVFKal9zblNNdXg3ZURQV3NfTmhKOFBmcnFSYUkwMlBqblFBRi1vVnpMcE9kdFUxZC1XOGJ4a0I2d1Jma2pKQQ?oc=5",
-          "source": "WELT",
-          "pubDate": "Sun, 22 Nov 2026 08:00:03 GMT"
+          "title": "GTA 6: Diese eine Einstellung solltet ihr unbedingt noch vor Spielstart ändern - 4P.de",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQejJ1ZWgxakczZjBPckNlVVpUSktTYXVJU0xnUzlBOFF0eWJDYnEzbjN6QXJNZTNId1RrUy1MemFjNDNkdF9BdmRnTXE3Wm5BdWk0N3EtbkxiYl9HLUdXNmEwU2NCTWZVaXdmOHJwc3IwSjFmQWdKSWZUMGlXSTNWLVhfVllObl92TUFqN3FDT3I?oc=5",
+          "source": "4P.de",
+          "pubDate": "Sun, 22 Nov 2026 16:26:26 GMT"
         },
         {
-          "title": "Was GTA 6, Elden Ring und Baldur's Gate 3 wirklich verbindet - PC Games (DE)",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRWo4QlBnSTBhQU9YRzR3dEhRRVRQSjQwdlZHYWJ2WDBqYklaZi1GQ3Nzd1pfNHlNSTNvVXZOTUFGVC1vTlVfTFRTbVhkdmUzNnpGOGpPdEF4VlVTRmI2QlZrSXpwRHM3SGZtdzZYaEpHNV9DTzR4c3U3bmw5eEYxaE9YRTB1SWdsREJUaFpmeG5La2dTOTFRRlc5aGJBMVJMNVNuY3lzeFRtMjk4YWc?oc=5",
+          "title": "„Nur 5 Spiele verkauft“: Frustrierter Händler erklärt, warum GTA 6 im Regal liegen bleibt - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS3ZqU2pNd0pCY000TzBDZHJtdjBWanMxdEcyRENWRFR0OHRtNXV6ZmpnVXpoUi1NOGc3SUNEQ3JaU3ZpanNJT2ZhZnVKYWIwNkROa2VaQy1obDQyYi03QjdOZ0pnWHNRNzkxNUoxNi10Mmk1TEp4cUYxN2JBRVNtQ2x6OGw1bEs0NkNLRmtKMEpHTHF1?oc=5",
           "source": "PC Games (DE)",
-          "pubDate": "Sun, 22 Nov 2026 08:00:00 GMT"
+          "pubDate": "Sun, 22 Nov 2026 15:30:00 GMT"
         }
       ],
       "history": [
@@ -3561,7 +3561,7 @@
         },
         {
           "date": "2026-11-22",
-          "count": 20
+          "count": 37
         }
       ]
     },
@@ -3570,7 +3570,7 @@
       "label": "Leonida & Vice City",
       "query": "(Leonida OR \"Vice City\") (GTA OR \"Grand Theft Auto\")",
       "count7d": 100,
-      "count24h": 14,
+      "count24h": 9,
       "series": [
         {
           "date": "2026-11-16",
@@ -3578,15 +3578,15 @@
         },
         {
           "date": "2026-11-17",
-          "count": 5
+          "count": 7
         },
         {
           "date": "2026-11-18",
-          "count": 10
+          "count": 13
         },
         {
           "date": "2026-11-19",
-          "count": 25
+          "count": 19
         },
         {
           "date": "2026-11-20",
@@ -3598,10 +3598,16 @@
         },
         {
           "date": "2026-11-22",
-          "count": 3
+          "count": 4
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 vs GTA Vice City: Which Classic Radio Stations Returned? - RouteNote",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbzY5VzRCTENkaGgyRVV3ekNxU0prUGMxMXFtc2c5T1ZBcjBjWlYxdTRhRVEyb3VoQjUwZWtFRG8wOTRMNnJpa2tqOUVNZlRhN3NoQlc0eVo1Z1NUUEpfdU5fS2RMSnFJamNnMFpzSmdBbEhLbGJZMGR1RS1jdXhxX2ZIbHMyaE8zSjdwLURlaG82UEE?oc=5",
+          "source": "RouteNote",
+          "pubDate": "Sun, 22 Nov 2026 17:15:00 GMT"
+        },
         {
           "title": "How Miami Heat’s GTA VI Vice City night sparked unprecedented $1.5M merch frenzy - The New York Times",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNU1B0eGlQWmZnd3BpMWgteHdhSHh3amdjVXRBMzQ4WHo5Q0VqWlRkYUlYY3NCN1c4Z1Itc2dBbG8yVXZPRXAyQ0lRc0V2S1VpcnVNU1ZmTk54Q2FHVEJFdjRKTmJfTm5WYzRndTE2aGpxR3BqZXZkcTFaNldNWGxHaVlXN1FUOThUSF9YeWtDZ2lrZjA2dzJZUjRiMlg5MzM5emc?oc=5",
@@ -3630,13 +3636,7 @@
           "title": "Police remind GTA players: Oregon isn’t Leonida - KPTV",
           "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZXJMQ1RWcGc4LVV3QzBzU0NvSHlhUWtnZ1l1aXdnbFo5LVlIRjhTcWE3NDlURU85OEQzRnVtQlpRZ3UyNUFQSTVfU2pDRmhQbzFRRDRLR1dzWEFCUHVhYUk2dmpVdWJvcVNjam1wMHY1WndOa0RnUDltQ001dV93YWJCa0E?oc=5",
           "source": "KPTV",
-          "pubDate": "Sat, 21 Nov 2026 23:03:50 GMT"
-        },
-        {
-          "title": "Santa Monica Has a 20 Year History with Grand Theft Auto - Santa Monica Daily Press",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMzRBWmdkNl9zQklTcXZzQ0plLVo4VHUzRmVhTFUycWxxcENWckhUSG9nZi1SWGdPeFlRWXNHVUlxZWx3UjlwemtwTW84eVZCY0xuVGtTUzVEbXA2OFJLcEZRRmxzNkVfRU0wU2F3VnUySTdPTUhzMU5rdjJwc196S2EyY0U?oc=5",
-          "source": "Santa Monica Daily Press",
-          "pubDate": "Sat, 21 Nov 2026 22:27:16 GMT"
+          "pubDate": "Sat, 21 Nov 2026 23:01:00 GMT"
         }
       ],
       "history": [
@@ -3678,7 +3678,7 @@
         },
         {
           "date": "2026-11-22",
-          "count": 3
+          "count": 4
         }
       ]
     },
@@ -3686,12 +3686,12 @@
       "key": "sick_de",
       "label": "Krankenstand · DE",
       "query": "(Krankmeldung OR Krankenstand OR Krankheitstage OR Arbeitsunfähigkeit)",
-      "count7d": 30,
-      "count24h": 3,
+      "count7d": 28,
+      "count24h": 4,
       "series": [
         {
           "date": "2026-11-16",
-          "count": 5
+          "count": 4
         },
         {
           "date": "2026-11-17",
@@ -3699,11 +3699,11 @@
         },
         {
           "date": "2026-11-18",
-          "count": 4
+          "count": 3
         },
         {
           "date": "2026-11-19",
-          "count": 7
+          "count": 6
         },
         {
           "date": "2026-11-20",
@@ -3715,10 +3715,16 @@
         },
         {
           "date": "2026-11-22",
-          "count": 2
+          "count": 3
         }
       ],
       "items": [
+        {
+          "title": "Zentralbahn zahlt Nacht- und Wochenendzulagen neu auch während Krankheit oder nach Unfall - Nidwaldner Zeitung",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdWg2UFRPTm5JOUNIeEpta25pSFhiRDlIX2YwM29JU2hXaXlJZThnd18zVVczTkJGTlpRbXptX2UxMnVwSnRGQ1JaZWpyZ1lqeTh4MXZHWnc5U1k5N3UyNDhzMzk4cTNJM0NpRXJ2UFFmNHU5ZW1NYWEtU2hReFNQTzRxVDF4RTg1LWZ5TmNOVzFuMGNFbGExTHc2VTJlQ3B2SkE0QUhlMEcwYV9lSmRwVFphSHh1VFRCNDZlalMtSHRjdUlOMlVWaFRwTlAyYjNiZDd3QnB3?oc=5",
+          "source": "Nidwaldner Zeitung",
+          "pubDate": "Sun, 22 Nov 2026 16:00:26 GMT"
+        },
         {
           "title": "Bundespräsidialamt fällt durch relativ niedrigen Krankenstand auf - FAZ",
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUHJSTWdiVEdXUVl6SGZoMGtuZS1zSXlXeFY0SjJRN0hJZUQ1NDFZc29XOWp5d0hkR1Y5MlA3WGJKa3FKUXU3M2FEbXF3TWIzaWllVjdjLVJvVno3MmFfX2h2MEJOQjBYc2Q4N1lmQnJrRlhQblRMVkpzQjI2dXluVU5pVk1CNXMyQmUzS292dzE5ZjFMOXNZblc3Sm9lOWR1ZHlfendmRHFYajdHMURfSkZLX2ZtWTk3Z1RfUWdLUU1DM0RNN2oySDBOTHNkVVVyYldJenl2NUVzSFkt?oc=5",
@@ -3748,12 +3754,6 @@
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTEwzNF9LSXRFb196TGpmSVoyanRfVWNtZDZxU3hESEVxRTEwQXR3dXUzTEhkVURidm5IckozeW5qbW5ySElPbHdpUHRDM2tERzlkOGxRY3ltSEN3aF9VLWRwUDVBQm1maUFOcVlBc0J5WS1wVTd3VTJ2ZDN6WUQ4bmpzS0pDWkhDM0EybHBUN2NrUzhLRmVtd251VHVqYUMtbXpF?oc=5",
           "source": "KOSMO | Eine starke Verbindung!",
           "pubDate": "Fri, 20 Nov 2026 12:25:23 GMT"
-        },
-        {
-          "title": "Wegweisend: Gericht kippt häufige Wochenendfalle beim Krankengeld - Gegen Hartz IV",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSVcxS3l6a1doT1RZTEJjb3UyN3JIWGlob2szM3FPRnZXUEtrTEdlR0dYT3M0UldSVGctb1RGa29BQjg4QVZ3UVVFTWx4N3JuUVM2ZnVuODJBUHluSlVuYmdjQWpvbnpZc1VUeVdKeXhxNGowNUdncXMtVm94bHFXaUwyRmd6OUk2WGlMVUIzcjRfSHhmVTRjTXRGd1lmeXc?oc=5",
-          "source": "Gegen Hartz IV",
-          "pubDate": "Fri, 20 Nov 2026 08:39:57 GMT"
         }
       ],
       "history": [
@@ -3839,7 +3839,7 @@
         },
         {
           "date": "2026-11-22",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -3847,8 +3847,8 @@
       "key": "rockstar",
       "label": "Rockstar Newswire",
       "query": "site:rockstargames.com",
-      "count7d": 45,
-      "count24h": 14,
+      "count7d": 44,
+      "count24h": 16,
       "series": [
         {
           "date": "2026-11-16",
@@ -3860,15 +3860,15 @@
         },
         {
           "date": "2026-11-18",
-          "count": 5
+          "count": 4
         },
         {
           "date": "2026-11-19",
-          "count": 16
+          "count": 15
         },
         {
           "date": "2026-11-20",
-          "count": 7
+          "count": 6
         },
         {
           "date": "2026-11-21",
@@ -3876,45 +3876,45 @@
         },
         {
           "date": "2026-11-22",
-          "count": 12
+          "count": 14
         }
       ],
       "items": [
         {
           "title": "- Rockstar Games",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vVTFGT1Via0JLZFdmWGM1R1NpUUFGTTBfclJlQXVFVTRhOXVrM0MtNU9ldTRyYTVBaHVsSWE1WVozRW5QY0NST28yU0ZUVVF3bVlaaFVLNnNGUnhIRkVEQjhvR2lfNnQ1NDFzTmlR?oc=5",
+          "source": "Rockstar Games",
+          "pubDate": "Sun, 22 Nov 2026 19:01:22 GMT"
+        },
+        {
+          "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TYVV0RUx3N3pHcTVvQ0JVd2hMQTY4Y3dZZ3BPVkxGWVByeG0tSlhzX1RYM3dBQ3FCcWc1MWdSRmVMMWItVVlBZ0JEX2xKM20y?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 22 Nov 2026 11:48:06 GMT"
+          "pubDate": "Sun, 22 Nov 2026 17:50:23 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Ubk9rWWhZcXU0cmhTNjVfX3pNR2tIaUVtYVM2WlZYQTNsT0hFNEUxOVM5OF81blpzLXp5QW5CRC1BSkNteVJVTFMtSEloRzdua19IZFlIUHJtQzhtWEJ5bUd3WDdYc0ZTVnBjZ2ZnS2txY1k?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 22 Nov 2026 11:36:19 GMT"
+          "pubDate": "Sun, 22 Nov 2026 17:38:25 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE04SkxRcHFJN2o2YW5qOHlYdHNhQVB6cVNyLWxEdk9JOFpYaTdSNnFURU53Y290aHRzaHVpdzJHbEd6bGZvc3QtTEI0SFVBQy1yQVdpUGxtWVZFNEg5c1FkVWtzSms1LUJ1N25pNGNfZnB4N2M?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 22 Nov 2026 11:26:04 GMT"
+          "pubDate": "Sun, 22 Nov 2026 17:28:19 GMT"
         },
         {
           "title": "- Rockstar Games",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HUE8wZVBqaUp1d3hxRjBaV1M0LVd1ODV4VzdjME0yT2VXN3RPLUhLR0xIWWxIRXN3NVh6bGEyY3A0WjhOZy1MMEpzWVQ1ZjlKNWRNSG1PZmN1Q015ZlMxVXVzUUlodnFfcG9qNW1xLWVqbmxvblE?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 22 Nov 2026 10:59:54 GMT"
+          "pubDate": "Sun, 22 Nov 2026 17:00:17 GMT"
         },
         {
           "title": "- Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EbzZtLWh1RDFvUzlSaFVhaTRtSEszeW5PMGo2UXNIcmhJaUYzX2NTRDNBbkpDa3JHUWRwX2t1M2pyMk01UmxWRjY2MVRKN2pFZ28xdzdZbWVsZ2w3OVBzSEpGOTlzSHM?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONUQ5S09WUFZia290dDhLdGNrZ2llUGtHZDVfVVlLVHBKZWxqM29DeDFZbmRoazlCMXh4Zk1aNjU0ejRLTWpmTGREbDlBaVdUUzRqQUdLYlNKMXR2bHh4Y2p1dVBqLTZROUFKS3dnb2wtUFFYQWJNRWRyLUdzTnBMMm4wQQ?oc=5",
           "source": "Rockstar Games",
-          "pubDate": "Sun, 22 Nov 2026 10:20:46 GMT"
-        },
-        {
-          "title": "Rockstar Games - Rockstar Games",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBzeUZKRXlubkdYdmxUOEFXNHlXX24yNVlNVGlhYkN4WUc5UEZucGZRQ09VZnJUZktDeEI1ekh6ZFVDbTJoaHpOMjFrQkhjM2tZVU1kamF4bGJZN1Bya2h2WlFYMUdhdlB6dHVzXzVIX3F2SHJmR1pSdndtOA?oc=5",
-          "source": "Rockstar Games",
-          "pubDate": "Sun, 22 Nov 2026 10:16:42 GMT"
+          "pubDate": "Sun, 22 Nov 2026 16:28:10 GMT"
         }
       ],
       "history": [
@@ -4021,47 +4021,47 @@
     "postsPerHour": 100,
     "topPosts": [
       {
-        "id": "1y2pkdi",
-        "title": "How do I approach robbery opportunities without the cops getting alerted?",
+        "id": "1y2ygdj",
+        "title": "i never smiled so hard for playing an mission 🥹",
+        "score": 3,
+        "comments": 0,
+        "createdUtc": 1795377699,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y2ygdj"
+      },
+      {
+        "id": "1y2yjz2",
+        "title": "My bike is literally a rocket💀",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795354794,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y2pkdi"
+        "createdUtc": 1795377955,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y2yjz2"
       },
       {
-        "id": "1y2pj1y",
-        "title": "Gta7",
+        "id": "1y2yjiw",
+        "title": "Has anyone expericed stormy weather or generally mostly sunny/overcast?",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1795354683,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y2pj1y"
+        "createdUtc": 1795377922,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y2yjiw"
       },
       {
-        "id": "1y2pi6f",
-        "title": "Anyone found glitchest yet?",
+        "id": "1y2yjfj",
+        "title": "Radio songs repeating",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1795354606,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y2pi6f"
+        "createdUtc": 1795377915,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y2yjfj"
       },
       {
-        "id": "1y2pi47",
-        "title": "Football Games today",
+        "id": "1y2yj7m",
+        "title": "Can we talk about how the windshield wipers actually stop mid-swipe on the glass in the rain? Incredible detail",
         "score": 1,
         "comments": 1,
-        "createdUtc": 1795354601,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y2pi47"
-      },
-      {
-        "id": "1y2pi2l",
-        "title": "Legendary Weapons",
-        "score": 1,
-        "comments": 1,
-        "createdUtc": 1795354596,
-        "link": "https://www.reddit.com/r/GTA6/comments/1y2pi2l"
+        "createdUtc": 1795377900,
+        "link": "https://www.reddit.com/r/GTA6/comments/1y2yj7m"
       }
     ],
-    "fetchedAt": "2026-11-22T13:40:11.853Z"
+    "fetchedAt": "2026-11-22T20:06:17.807Z"
   },
   "redditGta": {
     "subreddit": "GTA",
@@ -4075,141 +4075,141 @@
     "posts24h": 100,
     "posts7d": null,
     "sampleSize": 100,
-    "sampleHours": 1.4,
-    "postsPerHour": 70.8,
+    "sampleHours": 1.2,
+    "postsPerHour": 83,
     "topPosts": [
       {
-        "id": "1y2pka0",
-        "title": "Jason and Lucia suddenly share the same BuckMe balance. Where did Jason's $60K go?",
+        "id": "1y2yk0b",
+        "title": "Does GTA6 play like RDR2?",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795354785,
-        "link": "https://www.reddit.com/r/GTA/comments/1y2pka0"
+        "createdUtc": 1795377957,
+        "link": "https://www.reddit.com/r/GTA/comments/1y2yk0b"
       },
       {
-        "id": "1y2pk07",
-        "title": "This sub has heavily unsurprisingly turned into what those Ultra Far Right vs Ultra Far Left protests come across like",
+        "id": "1y2yiqt",
+        "title": "Took me a year to get the stupid pills they ran out of ideas or wtf is this",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795354763,
-        "link": "https://www.reddit.com/r/GTA/comments/1y2pk07"
+        "createdUtc": 1795377866,
+        "link": "https://www.reddit.com/r/GTA/comments/1y2yiqt"
       },
       {
-        "id": "1y2pjb8",
-        "title": "GTA V Easter Egg",
+        "id": "1y2yi52",
+        "title": "Lucia gameplay",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795354703,
-        "link": "https://www.reddit.com/r/GTA/comments/1y2pjb8"
+        "createdUtc": 1795377824,
+        "link": "https://www.reddit.com/r/GTA/comments/1y2yi52"
       },
       {
-        "id": "1y2pj2q",
-        "title": "What do you all think of Jason's neighbour, Shirley?",
+        "id": "1y2yh3i",
+        "title": "My purple Mclaren has a tracker!!",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795354684,
-        "link": "https://www.reddit.com/r/GTA/comments/1y2pj2q"
+        "createdUtc": 1795377750,
+        "link": "https://www.reddit.com/r/GTA/comments/1y2yh3i"
       },
       {
-        "id": "1y2pieq",
-        "title": "GTA: Complete Guide to Grand Theft Auto, Gameplay, Characters and Popular Games",
+        "id": "1y2ygie",
+        "title": "After breaking into NPCs cars in GTA 6, NPC karma finally caught up with me",
         "score": 1,
         "comments": 0,
-        "createdUtc": 1795354626,
-        "link": "https://www.reddit.com/r/GTA/comments/1y2pieq"
+        "createdUtc": 1795377708,
+        "link": "https://www.reddit.com/r/GTA/comments/1y2ygie"
       }
     ],
-    "fetchedAt": "2026-11-22T13:40:13.454Z"
+    "fetchedAt": "2026-11-22T20:06:20.349Z"
   },
   "steam": {
-    "gta5": 100596,
+    "gta5": 80524,
     "appid": 271590,
     "label": "GTA V · Steam",
-    "fetchedAt": "2026-11-22T13:40:10.021Z"
+    "fetchedAt": "2026-11-22T20:06:15.067Z"
   },
   "trends": {
     "de": {
       "geo": "DE",
       "items": [
         {
-          "title": "stadion",
+          "title": "wilsberg",
           "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:20:00 -0800",
-          "newsTitle": "News zu Eintracht Frankfurt ➤ Hellmann wirbt für Stadion-Neubau",
-          "newsUrl": "https://www.hessenschau.de/sport/fussball/eintracht-frankfurt/news-zu-eintracht-frankfurt--hellmann-wirbt-fuer-stadion-neubau-,bundesliga-ticker-104.html",
-          "newsSource": "hessenschau.de"
+          "pubDate": "Sun, 22 Nov 2026 11:50:00 -0800",
+          "newsTitle": "\"Wo Licht ist, ist auch Schatten\": \"Mordach\"-Star Ina Paule Klink spricht offen über Depression",
+          "newsUrl": "https://www.joyn.de/bts/themen/ard/mordach-und-wilsberg-star-ina-paule-klink-spricht-offen-ueber-ihre-depression-219436",
+          "newsSource": "Joyn"
         },
         {
-          "title": "nvidia news",
-          "traffic": "500+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Exclusive | The Alice Huang Associate Accused of Funneling Nvidia Chips to China",
-          "newsUrl": "https://www.wsj.com/tech/li-ming-megaspeed-nvidia-chips-china-6260d836",
-          "newsSource": "WSJ"
-        },
-        {
-          "title": "barselona - villarreal",
+          "title": "hongkong",
           "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "LaLiga heute live im TV und LIVE-STREAM: FC Barcelona gegen Villarreal",
-          "newsUrl": "https://www.dazn.com/de-DE/news/fussball/laliga-heute-live-im-tv-und-live-stream-fc-barcelona-gegen-villarreal/u0r5olnfo7sk1is2ir9jskp0o",
-          "newsSource": "DAZN"
+          "pubDate": "Sun, 22 Nov 2026 11:50:00 -0800",
+          "newsTitle": "Licensable picture: 63rd Golden Horse Awards in Taipei",
+          "newsUrl": "https://www.reutersconnect.com/item/63rd-golden-horse-awards-in-taipei/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMjNUT0FLRTk5Mg",
+          "newsSource": "Reuters Connect"
         },
         {
-          "title": "gks katowice – lech poznań",
+          "title": "bradley cooper",
           "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "GKS Katowice - Lech Poznań: transmisja na żywo. Gdzie oglądać w TV i online? (22.11.2026)",
-          "newsUrl": "https://sportowefakty.wp.pl/bukmacherzy/1284914/gks-katowice-lech-poznan-transmisja-na-zywo-gdzie-ogladac-w-tv-i-online-22112026",
-          "newsSource": "SportoweFakty"
+          "pubDate": "Sun, 22 Nov 2026 11:50:00 -0800",
+          "newsTitle": "\"The Ability to Be Deeply Honest\": Gigi Hadid Has Explained What Makes Her Relationship With Bradley Cooper Different From Her Past Romances",
+          "newsUrl": "https://graziamagazine.com/articles/the-ability-to-be-deeply-honest-gigi-hadid-has-explained-what-makes-her-relationship-with-bradley-cooper-different-from-her-past-romances/",
+          "newsSource": "graziamagazine.com"
         },
         {
-          "title": "gaia sabbatini",
+          "title": "ali güngörmüs",
           "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Correre da sola non è sempre sicuro, questi piccoli gesti fanno la differenza",
-          "newsUrl": "https://www.virgilio.it/video/gaia-sabbatini-correre-sola-consigli-235471",
-          "newsSource": "Virgilio"
+          "pubDate": "Sun, 22 Nov 2026 11:50:00 -0800",
+          "newsTitle": "Laura Wontorra reagiert auf Joachim Llambis Hochzeits-Frage einsilbig",
+          "newsUrl": "https://home.1und1.de/magazine/unterhaltung/tv-shows/grill-henssler-laura-wontorra-hochzeits-frage-42963264",
+          "newsSource": "1&1"
         },
         {
-          "title": "tagesschau24",
+          "title": "motsi mabuse",
           "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Tagesschau24 verabschiedet sich noch vor Weihnachten",
-          "newsUrl": "https://www.dwdl.de/nachrichten/108655/tagesschau24_verabschiedet_sich_noch_vor_weihnachten_/",
-          "newsSource": "DWDL"
-        },
-        {
-          "title": "tobias raschl",
-          "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Neuzugänge Ezeh und Raschl fehlen Dresden in den kommenden Wochen",
-          "newsUrl": "https://www.kicker.de/neuzugaenge-ezeh-und-raschl-fehlen-dresden-in-den-kommenden-wochen-1272187/artikel",
-          "newsSource": "Kicker"
-        },
-        {
-          "title": "paderborner-bürger- schützenverein",
-          "traffic": "500+",
-          "pubDate": "Sun, 22 Nov 2026 05:00:00 -0800",
-          "newsTitle": "Paderborner-Bürger-Schützenverein trauert um große Persönlichkeit",
-          "newsUrl": "https://www.nw.de/lokal/kreis_paderborn/paderborn/24468557_Paderborner-Buerger-Schuetzenverein-trauert-um-grosse-Persoenlichkeit.html",
-          "newsSource": "Neue Westfälische"
-        },
-        {
-          "title": "eric stehfest",
-          "traffic": "500+",
-          "pubDate": "Sun, 22 Nov 2026 05:00:00 -0800",
-          "newsTitle": "Eric Stehfest: GZSZ-Star wird nach Ehe-Aus wieder Vater",
-          "newsUrl": "https://www.bild.de/unterhaltung/stars-und-leute/eric-stehfest-gzsz-star-wird-nach-ehe-aus-wieder-vater-6b02d86825b618a0b5d5bc9c",
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "Motsi Mabuse von Sex-Geräuschen im TV überrascht: Polizei ermittelt",
+          "newsUrl": "https://www.bild.de/unterhaltung/stars-und-leute/motsi-mabuse-von-sex-geraeuschen-im-tv-ueberrascht-polizei-ermittelt-6b028cf45842ff528b9e36c8",
           "newsSource": "BILD"
         },
         {
-          "title": "neuss",
+          "title": "خيتافي ضد أتلتيكو مدريد",
           "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:00:00 -0800",
-          "newsTitle": "Unfall in Neuss: 70-jähriger Autofahrer stößt mit Straßenbahn zusammen",
-          "newsUrl": "https://rp-online.de/nrw/staedte/neuss/unfall-in-neuss-70-jaehriger-autofahrer-kollidiert-mit-strassenbahn_aid-158782979",
-          "newsSource": "RP Online"
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "سيميوني يرفض القلق من العقم التهديفي قبل مواجهة أتلتيكو مدريد وخيتافي",
+          "newsUrl": "https://gate.ahram.org.eg/News/5989128.aspx",
+          "newsSource": "بوابة الأهرام"
+        },
+        {
+          "title": "atalanta vs inter",
+          "traffic": "200+",
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "Atalanta vs Internazionale - Prediction, where to watch, kick-off time and line-ups 22-11-2026",
+          "newsUrl": "https://onefootball.com/en/betting/predictions/atalanta-vs-internazionale-22-11-2026",
+          "newsSource": "OneFootball"
+        },
+        {
+          "title": "nasa",
+          "traffic": "5000+",
+          "pubDate": "Sun, 22 Nov 2026 11:30:00 -0800",
+          "newsTitle": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+          "newsUrl": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+          "newsSource": "NASA Science (.gov)"
+        },
+        {
+          "title": "marseille – le mans fc",
+          "traffic": "200+",
+          "pubDate": "Sun, 22 Nov 2026 11:30:00 -0800",
+          "newsTitle": "Olympique de Marseille - Le Mans : direct vidéo, streaming, chaîne TV... à quelle heure et comment regarder le match",
+          "newsUrl": "https://www.dazn.com/fr-FR/news/football/olympique-de-marseille-le-mans-direct-video-streaming-chaine-tv-a-quelle-heure-et-comment-regarder-le-match/8zsg9oifna2x1gqtxtnyn9462",
+          "newsSource": "DAZN"
+        },
+        {
+          "title": "airbag",
+          "traffic": "1000+",
+          "pubDate": "Sun, 22 Nov 2026 11:20:00 -0800",
+          "newsTitle": "Honda and Toyota recall 1.6 million vehicles over Takata airbag rupture risk",
+          "newsUrl": "https://www.nbcnews.com/business/autos/takata-airbag-recall-rcna610576",
+          "newsSource": "NBC News"
         }
       ],
       "gta": [],
@@ -4219,84 +4219,84 @@
       "geo": "US",
       "items": [
         {
-          "title": "truck driver",
-          "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:20:00 -0800",
-          "newsTitle": "Investigators seek truck driver after plywood critically injures I-10 driver",
-          "newsUrl": "https://www.abc15.com/news/crime/investigators-seek-truck-driver-after-plywood-critically-injures-i-10-driver",
-          "newsSource": "ABC15 Arizona"
+          "title": "jameson williams",
+          "traffic": "5000+",
+          "pubDate": "Sun, 22 Nov 2026 11:50:00 -0800",
+          "newsTitle": "NFL Week 11 predictions: Upsets, fantasy sleepers, stat lines, TD scorers, more",
+          "newsUrl": "https://www.espn.com/nfl/story/_/id/50521728/week-11-predictions-upsets-fantasy-sleepers-stats-2026",
+          "newsSource": "ESPN"
         },
         {
-          "title": "cbs news sunday morning cbs news sunday morning",
-          "traffic": "100+",
-          "pubDate": "Sun, 22 Nov 2026 05:20:00 -0800",
-          "newsTitle": "“CBS SUNDAY MORNING” LISTINGS FOR THE SPECIAL “EAT, DRINK AND BE MERRY” FOOD-THEMED EDITION",
-          "newsUrl": "https://www.paramountpressexpress.com/cbs-news-and-stations/shows/cbs-news-sunday-morning/releases/?view=113618-cbs-sunday-morning-listings-for-the-special-eat-drink-and-be-merry-food-themed-edition",
-          "newsSource": "Paramount Press Express"
-        },
-        {
-          "title": "hull vs brighton",
-          "traffic": "1000+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Hull City vs Brighton & Hove Albion LIVE: Premier League build-up, team news, stats & updates",
-          "newsUrl": "https://www.bbc.com/sport/football/live/cky97ll8253wt",
-          "newsSource": "BBC"
-        },
-        {
-          "title": "barca",
-          "traffic": "1000+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Barcelona hit by Lamine Yamal injury scare ahead of kick-off against Villarreal",
-          "newsUrl": "https://sports.yahoo.com/articles/barcelona-hit-lamine-yamal-injury-125325782.html",
+          "title": "pistons vs hawks",
+          "traffic": "5000+",
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "Pistons vs Hawks Prediction, Pick, NBA Odds for Sunday, November 22",
+          "newsUrl": "https://sports.yahoo.com/articles/pistons-vs-hawks-prediction-pick-120443901.html",
           "newsSource": "Yahoo Sports"
         },
         {
-          "title": "changing retirement lifestyle baby boomers",
-          "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Boomers Are Rewriting the Playbook for Old Age. It Doesn’t Include Winding Down.",
-          "newsUrl": "https://www.wsj.com/personal-finance/retirement/baby-boomers-aging-eec29458",
-          "newsSource": "WSJ"
+          "title": "dk metcalf",
+          "traffic": "2000+",
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "How Steelers' wide receiver corps gets big boost in Week 11",
+          "newsUrl": "https://www.espn.com/nfl/story/_/id/50545137/steelers-receiver-corps-boost-wilson-pittman-week-11",
+          "newsSource": "ESPN"
         },
         {
-          "title": "konyaspor vs beşiktaş",
+          "title": "trevor lawrence",
+          "traffic": "1000+",
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "NFL star Trevor Lawrence talks possibility of getting into an AEW ring one day",
+          "newsUrl": "https://www.foxnews.com/outkick-sports/nfl-star-trevor-lawrence-talks-possibility-getting-aew-ring-one-day",
+          "newsSource": "Fox News"
+        },
+        {
+          "title": "damar hamlin",
           "traffic": "500+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "CANLI | Konyaspor-Beşiktaş maçı Canlı Anlatım - KNY- BJK maçı kadrosu, skoru ve istatistikleri",
-          "newsUrl": "https://www.fanatik.com.tr/besiktas/live-konyaspor-besiktas-maci-canli-anlatim-kny-bjk-maci-kadrosu-skoru-ve-istatistikleri-2645344",
-          "newsSource": "Fanatik"
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "Dolphins rookie WR exits with first-half injury vs. Bills in Week 11",
+          "newsUrl": "https://sports.yahoo.com/articles/dolphins-rookie-wr-exits-first-194556079.html",
+          "newsSource": "Yahoo Sports"
         },
         {
-          "title": "georgia tech couple",
+          "title": "george karlaftis",
+          "traffic": "500+",
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "In Week 11’s ‘Reacts’ poll, Chiefs fans praise George Karlaftis",
+          "newsUrl": "https://www.arrowheadpride.com/nfl-reacts-survey/217030/week-11-results-chiefs-fans-praise-george-karlaftis",
+          "newsSource": "Arrowhead Pride"
+        },
+        {
+          "title": "gibbs",
+          "traffic": "500+",
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "Jahmyr Gibbs and Jared Goff power Lions offense into Week 11 game against Buccaneers",
+          "newsUrl": "https://www.foxnews.com/outkick-betting/jahmyr-gibbs-jared-goff-power-lions-offense-week-11-game-against-buccaneers",
+          "newsSource": "Fox News"
+        },
+        {
+          "title": "nelly korda",
           "traffic": "200+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "Jesse Palmer narrates Georgia Tech couple drama like only ‘Bachelor’ host can",
-          "newsUrl": "https://www.usatoday.com/story/sports/ncaaf/2026/11/21/georgia-tech-wake-forest-fans-jesse-palmer-bachelor-couple-breakup/92902050007/",
-          "newsSource": "USA Today"
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "Nelly Korda Fires 65 to Set Up Historic Sunday at CME Group Tour Championship",
+          "newsUrl": "https://www.lpga.com/news/2026/nelly-korda-fires-65-to-set-up-historic-sunday-at-cme-group-tour-championship",
+          "newsSource": "LPGA"
         },
         {
-          "title": "ravens vs panthers",
-          "traffic": "100+",
-          "pubDate": "Sun, 22 Nov 2026 05:10:00 -0800",
-          "newsTitle": "5 things to watch as the Panthers return home to take on the Ravens",
-          "newsUrl": "https://www.panthers.com/news/5-things-to-watch-as-the-panthers-return-home-to-take-on-the-ravens",
-          "newsSource": "Carolina Panthers"
+          "title": "quinnen williams",
+          "traffic": "200+",
+          "pubDate": "Sun, 22 Nov 2026 11:40:00 -0800",
+          "newsTitle": "Quinnen Williams named finalist for Bart Starr Award",
+          "newsUrl": "https://www.dallascowboys.com/news/quinnen-williams-named-finalist-for-bart-starr-award",
+          "newsSource": "Dallas Cowboys | Official Site of the Dallas Cowboys"
         },
         {
-          "title": "russian navy vessel fire benghazi",
-          "traffic": "1000+",
-          "pubDate": "Sun, 22 Nov 2026 05:00:00 -0800",
-          "newsTitle": "Russian Warship Destroyed In Huge Explosion In Libya",
-          "newsUrl": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/",
-          "newsSource": "Naval News"
-        },
-        {
-          "title": "pipeline explosion alabama",
-          "traffic": "1000+",
-          "pubDate": "Sun, 22 Nov 2026 05:00:00 -0800",
-          "newsTitle": "Explosion in Ward, Ala.",
-          "newsUrl": "https://www.kbtx.com/video/2026/11/22/explosion-ward-ala/",
-          "newsSource": "KBTX News 3"
+          "title": "troy aikman",
+          "traffic": "2000+",
+          "pubDate": "Sun, 22 Nov 2026 11:30:00 -0800",
+          "newsTitle": "Troy Aikman takes dig at Joe Buck, extending tensions: ‘Joe’s always wanted a 1-man booth’ - The Athletic",
+          "newsUrl": "https://www.nytimes.com/athletic/7795096/2026/11/19/troy-aikman-joe-buck-espn-nfl-super-bowl-61/",
+          "newsSource": "The New York Times"
         }
       ],
       "gta": [],
@@ -4306,18 +4306,18 @@
   "rockstar": {
     "status": 200,
     "ok": true,
-    "latencyMs": 135,
+    "latencyMs": 370,
     "bytes": 1468250,
     "title": "Grand Theft Auto VI – Rockstar Games",
     "preloadMention": true,
-    "checkedAt": "2026-11-22T13:40:09.838Z"
+    "checkedAt": "2026-11-22T20:06:14.811Z"
   },
   "playstation": {
     "ok": true,
     "preloadMention": true,
     "releaseMention": true,
     "storageMention": false,
-    "checkedAt": "2026-11-22T13:40:10.629Z"
+    "checkedAt": "2026-11-22T20:06:15.812Z"
   },
   "preload": {
     "preorder": "2026-06-25T00:00:00+02:00",
