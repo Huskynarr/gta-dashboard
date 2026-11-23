@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T22:53:08.687Z",
+  "updated": "2026-11-23T01:15:11.250Z",
   "topics": [
     {
       "key": "retail",
@@ -12,12 +12,8 @@
       "capped": false,
       "series": [
         {
-          "date": "2026-11-16",
-          "count": 4
-        },
-        {
           "date": "2026-11-17",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-18",
@@ -29,7 +25,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 4
+          "count": 3
         },
         {
           "date": "2026-11-21",
@@ -37,6 +33,10 @@
         },
         {
           "date": "2026-11-22",
+          "count": 0
+        },
+        {
+          "date": "2026-11-23",
           "count": 0
         }
       ],
@@ -46,12 +46,6 @@
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMnluTUZNWnFwc1pxMDUyZTRQQ0dJSTVXenZDb3NBMmhHQTBXMXpiTWI0bmZuX3lzWEpCQ3gyUlVWb2dTeVY4dl9kangwY2JRZjk4S2FObDA2TC0wVy1ic2x0aFZLTEdKU2hSa3FIVHN5azB3eDRxS0tob1p3elNuM0NyeUE0VlJuZnlZQk1GVEJIdEdM?oc=5",
           "source": "Root-Nation.com",
           "pubDate": "Fri, 20 Nov 2026 19:04:03 GMT"
-        },
-        {
-          "title": "Bestelle McDonald’s auf Discord in Los Angeles für „GTA 6“ - Secret Los Angeles",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTk9FODN2YUgwQ19NajJRTmFrOGRZa2lJTlk2WmhjdkRVS2RJM09TeWxOSnpla0FnUTRPS0lHcFcwYmVJUFdFdTRQX1NHV0pPcFZKN0pTbklCTUZFaXdGc0ZaT3RJYnpSTmc3VExDdW1fMFBoZDdiTEt5RjNWTkZrVG9FV1ZLN3YxOFNudzRGQ0M0MXF3d0E?oc=5",
-          "source": "Secret Los Angeles",
-          "pubDate": "Fri, 20 Nov 2026 17:40:00 GMT"
         },
         {
           "title": "Anthropic erzielt Rekord beim Börsengang und erreicht eine Marktkapitalisierung von $1,3 Billionen - mobidevices.com",
@@ -64,10 +58,16 @@
           "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYTFqajZKY2JuWlAzblQ2RVFrcXVrUF9vOE82VHNzNnB6eHZnUS1ORDBUSWllYkk0VHMxR1JRV2NWRm9iLVRKOFVSMy1XZGs4Y09QTXZGWVBjMm9nU3BmTXZudWRVQnRNNVpSbjhKMy1YSzNYMjUxcktjTDJYRVk5b2kxUm5Dbl9reHVyZU93aGVTS201VFdWb2ZjSGxBSnhtRGxTQ2RzZWtpNzFqdl8xMnUyekFlcjU4YUVGNTFfLXZhVllOUUo4LTNDV1d1YUx2eGFhanJPRVVKOEtKY0pvUVFR?oc=5",
           "source": "CHIP",
           "pubDate": "Fri, 20 Nov 2026 08:40:00 GMT"
+        },
+        {
+          "title": "Den offiziellen Guide zu GTA 6 findet ihr bei IGN - IGN Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ0NrVnZIdnNLLUYzdTVsbzh0WVBlUThFbXFoWUJ6Sk02czVzdk1NTlU5eUpRdlRCVkw4Rkx4dlRjUVBxTGEtR2NfQXhTMjJtNjNGVG8tc3BKUmZEY3Y3NFVueWo1SFQzX3BMbzJYd29ZYVhXb1FvT0tLc29WbjFBM094Skl0VFJScXNxSEhtcDM0NkVJR1dfTzdFMA?oc=5",
+          "source": "IGN Deutschland",
+          "pubDate": "Thu, 19 Nov 2026 14:59:54 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T22:53:08.687Z",
+      "updated": "2026-11-23T01:15:11.250Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -148,6 +148,10 @@
         {
           "date": "2026-11-22",
           "count": 0
+        },
+        {
+          "date": "2026-11-23",
+          "count": 0
         }
       ]
     },
@@ -157,14 +161,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 15,
-      "publisherCount": 34,
+      "count24h": 16,
+      "publisherCount": 32,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-16",
-          "count": 3
-        },
         {
           "date": "2026-11-17",
           "count": 3
@@ -179,15 +179,19 @@
         },
         {
           "date": "2026-11-20",
-          "count": 20
+          "count": 21
         },
         {
           "date": "2026-11-21",
-          "count": 22
+          "count": 21
         },
         {
           "date": "2026-11-22",
-          "count": 15
+          "count": 16
+        },
+        {
+          "date": "2026-11-23",
+          "count": 0
         }
       ],
       "items": [
@@ -198,16 +202,16 @@
           "pubDate": "Sun, 22 Nov 2026 20:47:44 GMT"
         },
         {
+          "title": "GTA 6: Sechs Dinge, die in der PC-Version noch viel schöner aussehen dürften - GameStar",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1DdjIwOHJsQnJxTnJOUWc2OEh5bEttbHFxY19KTGJnNlhNd2hzTHFyMVg2VW9Jd3BFQ1hOZ21BUkhPQVFtZXNrUFYyN2xlaUJzR0RTa19Ccy1HUXkxN1VTbkFtU19uYVhtenM5S0pJYw?oc=5",
+          "source": "GameStar",
+          "pubDate": "Sun, 22 Nov 2026 20:00:00 GMT"
+        },
+        {
           "title": "GTA 6 mit 60 Fps auf dem PC: Selbst ein Ryzen 7 5800X3D könnte zu langsam sein - PCGH",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTDlVMGZuNW1tQmN0QkhlUU8zY0RBV3lCWjdNSmJWWFA4VXVleUZvUTNQNmtkY2pHb2Z3N01lV0NUdTFCb05fSmlqb3NXUkxkTjVEVlBjODc3NktzOU8zdUhTSi1XUkRfNFlVS0hKUW5iYUgxMFNrdGVvRkc1NDg1cTdHQ0RZc080TGYtU2VmeDl0QmFkSXNaa3lHanZyeU9SNC1RLWZPWGRlQjNiQkE?oc=5",
           "source": "PCGH",
           "pubDate": "Sun, 22 Nov 2026 19:15:00 GMT"
-        },
-        {
-          "title": "Gewinnspiel mit GTA 6 Ultimate Edition – jetzt gewinnen - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQUpHakR5VXZpajh6amdsbGprMjhNT0lGekJZTmlIc2tqTjdxc3p6MHRTMTFJbF9wOUxKeWV3b1RzNEZ4endIamNNRVpNV2tjaGthLUlPQ1Ywb2I0YkZLNkVHOFJmWk5QVU1JdHpLaTRuby1kV2s0MjNjd1o1bmVVNUdfejg2aEYyZVQya2VCS3VqTFVmQWhDREhjZDdjNVE?oc=5",
-          "source": "XboxDynasty",
-          "pubDate": "Sun, 22 Nov 2026 18:44:21 GMT"
         },
         {
           "title": "Xbox Series X : Top-News und heiße Themen KW47/2026 - XboxDynasty",
@@ -217,7 +221,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T22:53:08.687Z",
+      "updated": "2026-11-23T01:15:11.250Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -297,7 +301,11 @@
         },
         {
           "date": "2026-11-22",
-          "count": 15
+          "count": 16
+        },
+        {
+          "date": "2026-11-23",
+          "count": 0
         }
       ]
     },
@@ -307,14 +315,10 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 56,
-      "count24h": 9,
+      "count24h": 8,
       "publisherCount": 33,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-16",
-          "count": 3
-        },
         {
           "date": "2026-11-17",
           "count": 2
@@ -338,6 +342,10 @@
         {
           "date": "2026-11-22",
           "count": 9
+        },
+        {
+          "date": "2026-11-23",
+          "count": 0
         }
       ],
       "items": [
@@ -367,7 +375,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T22:53:08.687Z",
+      "updated": "2026-11-23T01:15:11.250Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -448,6 +456,10 @@
         {
           "date": "2026-11-22",
           "count": 9
+        },
+        {
+          "date": "2026-11-23",
+          "count": 0
         }
       ]
     },
@@ -456,18 +468,14 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 82,
-      "count24h": 15,
-      "publisherCount": 49,
+      "count7d": 85,
+      "count24h": 17,
+      "publisherCount": 52,
       "capped": false,
       "series": [
         {
-          "date": "2026-11-16",
-          "count": 0
-        },
-        {
           "date": "2026-11-17",
-          "count": 6
+          "count": 7
         },
         {
           "date": "2026-11-18",
@@ -475,19 +483,23 @@
         },
         {
           "date": "2026-11-19",
-          "count": 17
-        },
-        {
-          "date": "2026-11-20",
-          "count": 20
-        },
-        {
-          "date": "2026-11-21",
           "count": 16
         },
         {
+          "date": "2026-11-20",
+          "count": 22
+        },
+        {
+          "date": "2026-11-21",
+          "count": 14
+        },
+        {
           "date": "2026-11-22",
-          "count": 15
+          "count": 18
+        },
+        {
+          "date": "2026-11-23",
+          "count": 0
         }
       ],
       "items": [
@@ -504,20 +516,20 @@
           "pubDate": "Sun, 22 Nov 2026 21:00:59 GMT"
         },
         {
+          "title": "„GTA VI\"-Veröffentlichung steigert Einnahmen der Lieferdienste - TAGESKARTE",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWGlYTHBBYmdEdHlDalVLRGEtaUVBZjZtT29fTWZ6RUFXVXBjYnZKamk1aTlrQ2RtZ0FTTmxzWlUzSF9BOXl4M2NGcjFYdU1rc2xxRUVId1pBZFlEZUJsMk9xVktlYTZnOHRZQm1aZzU1M09tR3M5RkFwOHpJalBBWHdjaEFEVW5xNHhYUWRBb0dFdkRxQTI4amtDUWxJblZzVUhuS0dGa0Fqa1c0dnJsVg?oc=5",
+          "source": "TAGESKARTE",
+          "pubDate": "Sun, 22 Nov 2026 20:49:39 GMT"
+        },
+        {
           "title": "GTA 6: Dieses Update ist Pflicht für PS5-Spieler – Sony rät zur Aktualisierung - 4P.de",
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZFBSTXg1UEd4NkxVQmRsT2Ffb21PUFdOZFVad1FZU3dmUjduTTZLd19TZ0hQRWk0Vk9JdlhtWWh6elpxUGJ1NFBHbVVBZHF0dTlITWY2cm1Ma2hBaTAxSmZvS3c3blhDNGlpQXBLRVJDUHBYRFIyeTJTV1BxaUdqd2IxYm52UktVd1hQQ1o0WnE1ME43SWNuOFNmbEhSOTBlVWZfTHF2M0V0ZENQUGdKbWh4S2Z5clk?oc=5",
           "source": "4P.de",
           "pubDate": "Sun, 22 Nov 2026 17:47:55 GMT"
-        },
-        {
-          "title": "GTA 6: Diese eine Einstellung solltet ihr unbedingt noch vor Spielstart ändern - 4P.de",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQejJ1ZWgxakczZjBPckNlVVpUSktTYXVJU0xnUzlBOFF0eWJDYnEzbjN6QXJNZTNId1RrUy1MemFjNDNkdF9BdmRnTXE3Wm5BdWk0N3EtbkxiYl9HLUdXNmEwU2NCTWZVaXdmOHJwc3IwSjFmQWdKSWZUMGlXSTNWLVhfVllObl92TUFqN3FDT3I?oc=5",
-          "source": "4P.de",
-          "pubDate": "Sun, 22 Nov 2026 16:26:26 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-22T22:53:08.687Z",
+      "updated": "2026-11-23T01:15:11.250Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -597,7 +609,11 @@
         },
         {
           "date": "2026-11-22",
-          "count": 15
+          "count": 18
+        },
+        {
+          "date": "2026-11-23",
+          "count": 0
         }
       ]
     }
@@ -1125,6 +1141,13 @@
       "at": "2026-11-22T22:53:08.683Z",
       "version": "hype-v1",
       "score": 96,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-23T01:15:11.247Z",
+      "version": "hype-v1",
+      "score": 93,
       "coverage": 3,
       "signature": "wiki+news+reddit"
     }
