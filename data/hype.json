@@ -1,23 +1,19 @@
 {
-  "updated": "2026-11-23T16:37:46.165Z",
+  "updated": "2026-11-24T03:31:39.549Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 45,
-      "count24h": 2,
-      "publisherCount": 29,
+      "count7d": 43,
+      "count24h": 3,
+      "publisherCount": 28,
       "capped": false,
       "series": [
         {
-          "date": "2026-11-17",
-          "count": 8
-        },
-        {
           "date": "2026-11-18",
-          "count": 14
+          "count": 15
         },
         {
           "date": "2026-11-19",
@@ -25,7 +21,7 @@
         },
         {
           "date": "2026-11-20",
-          "count": 6
+          "count": 5
         },
         {
           "date": "2026-11-21",
@@ -33,31 +29,35 @@
         },
         {
           "date": "2026-11-22",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-23",
-          "count": 2
+          "count": 3
+        },
+        {
+          "date": "2026-11-24",
+          "count": 0
         }
       ],
       "items": [
         {
-          "title": "Take-Two Interactive Aktie: Release von Grand Theft Auto VI euphorisiert Investoren - AktienCheck.de",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZXgwejI2MDdHNkFBYkNLMzBNYXJ0dW5Rell5ckJZbHhtMlFGbUxDdHhmcm1uTVRpa3VQbm1FdjFPakhXaUV4YVphWXNPZEtMa0otT1JJZmxVNzE4VDNJMm9HMU1mX2FtbXJ2R2k2SlZDS1FHVTRVWWxRRUhMS0hUVnlVeWtxUGxVQzROak9XeGhSRVo1TEJ2NWM4Ql8weWRGYzNnbg?oc=5",
-          "source": "AktienCheck.de",
-          "pubDate": "Mon, 23 Nov 2026 09:11:30 GMT"
+          "title": "GTA 6 läuft nicht auf jeder Konsole gleich gut: Eine Version liegt vorn - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSUhId2RrNWlhUFhQRDZMSm5fMTJJVWNad0tLRk54dmtLUXhORUpTWkEtTjJQQ1IxMlNOR2o2am9aRS1nOWFhNFZSNXMxSDEyVlVya2xnb0FrdzctYjJPbERaYmRDenZGNkFBam9uX2ZyMHVzeEVtTUIybHZhMVNSSVlrV2tvbXJWR01RS1VabnNVNzNSYXVlT0hMMjZBM0ZHWlNKZm4xRkFlMGxuODEzaFdjRG85RmozbGwxaHhyU0hSTUwyWDRaNXlLRFNuY0J2Qy13eXNsWExiMkIwZkRtVg?oc=5",
+          "source": "CHIP",
+          "pubDate": "Mon, 23 Nov 2026 17:40:00 GMT"
         },
         {
           "title": "GTA 6 hat Vorbestellungsrekorde übertroffen - Beyond Pixels",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrdG5yQkV6Vi1uS2NxZlA4YmYzNEhwMVdIenlwMGk4WmxvWEJxT1k5LThvbkhFcnRyLXlaVEhyQVNUVmY0MVIxRjJqM1BkSDBoTDU1RHNNeldoeV9ndGo5N1VsMkxMdzN3ZlFFc3J1bGc5ZGp3QnJGbjcza3RJZw?oc=5",
           "source": "Beyond Pixels",
-          "pubDate": "Mon, 23 Nov 2026 06:11:03 GMT"
+          "pubDate": "Mon, 23 Nov 2026 11:25:35 GMT"
         },
         {
-          "title": "GTA VI hat sich zu einer „Goldgrube“ für Franchises entwickelt. - Vietnam.vn",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBKOV9OMXJ4bVJCb2pLWjVrcnFWcVFiVHJZc1ZoVFdESWJUeXkxZG0wVks2eFRJT1FlR1VHZnMzT1BIX0VYTjFPMl9fRmxNSGtPQVlmbi1TSEU2UDgzM3JOdFBMTnlMQU9zVEcydkZMVFA0QUwyb3Q4OHlB?oc=5",
-          "source": "Vietnam.vn",
-          "pubDate": "Sun, 22 Nov 2026 13:22:43 GMT"
+          "title": "Take-Two Interactive Aktie: Release von Grand Theft Auto VI euphorisiert Investoren - AktienCheck.de",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZXgwejI2MDdHNkFBYkNLMzBNYXJ0dW5Rell5ckJZbHhtMlFGbUxDdHhmcm1uTVRpa3VQbm1FdjFPakhXaUV4YVphWXNPZEtMa0otT1JJZmxVNzE4VDNJMm9HMU1mX2FtbXJ2R2k2SlZDS1FHVTRVWWxRRUhMS0hUVnlVeWtxUGxVQzROak9XeGhSRVo1TEJ2NWM4Ql8weWRGYzNnbg?oc=5",
+          "source": "AktienCheck.de",
+          "pubDate": "Mon, 23 Nov 2026 09:11:30 GMT"
         },
         {
           "title": "GTA 6: Release Uhrzeit, Preload, Preis und Editionen im Check - Rhein Wied News",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-23T16:37:46.165Z",
+      "updated": "2026-11-24T03:31:39.549Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -131,7 +131,7 @@
         },
         {
           "date": "2026-11-18",
-          "count": 14
+          "count": 15
         },
         {
           "date": "2026-11-19",
@@ -151,7 +151,11 @@
         },
         {
           "date": "2026-11-23",
-          "count": 2
+          "count": 3
+        },
+        {
+          "date": "2026-11-24",
+          "count": 0
         }
       ]
     },
@@ -161,67 +165,67 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 39,
-      "publisherCount": 34,
+      "count24h": 26,
+      "publisherCount": 39,
       "capped": true,
       "series": [
         {
-          "date": "2026-11-17",
-          "count": 3
-        },
-        {
           "date": "2026-11-18",
-          "count": 22
+          "count": 9
         },
         {
           "date": "2026-11-19",
-          "count": 10
+          "count": 21
         },
         {
           "date": "2026-11-20",
-          "count": 3
+          "count": 22
         },
         {
           "date": "2026-11-21",
-          "count": 15
+          "count": 12
         },
         {
           "date": "2026-11-22",
-          "count": 13
+          "count": 8
         },
         {
           "date": "2026-11-23",
-          "count": 33
+          "count": 26
+        },
+        {
+          "date": "2026-11-24",
+          "count": 0
         }
       ],
       "items": [
         {
-          "title": "Cyberleek: GTA-6-Xbox-Build soll in Torrents kursieren - Netz Trends",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2TFUzenlQWG5pM1hUVU8zNG5MRnM3T3VWaUwzeDJGdmxWRHA5RXhsdkVRUmNSTHFYMTd5SUlIREUwVVVPR0hLeGUxN0xsN2xYbHFORVFHdGphc0dLMFZPNUYzeVYyUXI2VkFxcFo4bw?oc=5",
-          "source": "Netz Trends",
-          "pubDate": "Mon, 23 Nov 2026 16:23:00 GMT"
+          "title": "GTA 6-Konsolen: Sowohl PS5 als auch Xbox ausverkauft (Update) - GamesWirtschaft.de",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcTVNZUVFZG9IeHZ5UEdfRmIzMHJnZm9ZX3JrclFSVHYyWWxfOG5sZmpPUHg2SlVLRlotT0NRZDhFWFlZdHFOczBlMDV2akg5dHRMZGtDVWdnXzMwRkdkSG5iRzlKQnViWXJYOXpkSHhFdnZsOEtIV21uX0gtUVFqTUNTRm9qWGpfd1RTc3VOWGlJMjNNVlE?oc=5",
+          "source": "GamesWirtschaft.de",
+          "pubDate": "Mon, 23 Nov 2026 22:07:59 GMT"
         },
         {
-          "title": "Grand Theft Auto VI : Anzeige – Eine neue Generation für GTA 6 - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ05FZGl0ZmgwUENYTjV2c3RKaEd3UHlqV19QVEVfSFhjR1RRTTJmMlRwSXc1RW5uc2luakxjaFhZZjlPaU9RNnphaXJfTWh0a3hWbFF2LWlWNGNaYnRha3JSZTFOVXZmQTk4MDlaSTBxRUotT0FZakt5cVpjaG1BNnJhaklrOVE5QlI1QjY5N3c4WEVjODlZ?oc=5",
-          "source": "XboxDynasty",
-          "pubDate": "Mon, 23 Nov 2026 15:28:00 GMT"
+          "title": "Rockstar unter Druck: GTA-6-Code komplett geleakt - PC-Ports in Arbeit - WinFuture",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Ca2xKeFBnWjU4YUFsLTNkZndMMzc1QzRiMWFHeE9UXzhmeWhQQ1ZpYThSNG1tYlZDWnBoYkpWY01SbTd4b29uY01aY1VOdw?oc=5",
+          "source": "WinFuture",
+          "pubDate": "Mon, 23 Nov 2026 19:00:00 GMT"
         },
         {
-          "title": "Grand Theft Auto VI : Neues Update behebt Abstürze und Probleme mit Autosaves - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMjQxdmZieVpIcG1PQ0VpNDBTTGlvVVB3M3p3c1hYcjVWSURnQk1VZE41d01NeUZjc2JhRG5RTm84akZIR0JOSE14Q3E1V1QxZnUxLUxaaElYVWRibk9IR3pwam9Sa2JwNXNESXlkZW9ERmRiN3N1VThVVzlFdG1xUDhsd1pwYkNsNHdvNkpIeEFHcmpLSVVKQ1ZXazB2UXkwclhsU1ZpOTJoV1ZMeXc?oc=5",
-          "source": "XboxDynasty",
-          "pubDate": "Mon, 23 Nov 2026 15:22:00 GMT"
+          "title": "Streaming: So bringt Ihr GTA VI auf iPhone, iPad oder Vision Pro - iTopnews",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa1ppOGowcVY1VDJzeXVrUUh4SWJMVUxlOHV1Vm4tLXZGb3hqVTNIaFNlcU1yOXlNRHBxRzRhRzBwN0owdE16aElnQlB5ZTh1VGVHZk1oRUlyLVBGME4yXzk5NndmOVI5NkdqRXpTVGtjY09VQmNZN1dqTzlKYlR6eUlvaFRfMUlhVXZidGpuS2t1OUFOckJic2ZBSQ?oc=5",
+          "source": "iTopnews",
+          "pubDate": "Mon, 23 Nov 2026 18:34:00 GMT"
         },
         {
-          "title": "Grand Theft Auto VI : Vice City damals und heute im direkten Vergleich - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYmpZRkNjNzJuR21Fa0JmQW8yZjFhdkhlek9aZGpBZ2xxV3dRMWhTekM3RzdlNXNNV2pLRng5VWpLZXdIWTkyUUtHRlJVOHhHbjJoYXB1SElwUGJBVF9EdVEwTFItSDFDZloxYUo1TkNzdFpHeW01cDNTTWV2dF85XzhwbGpiYU9tb3p0ZVd6T1JFYlk0MTJFSUZ1Q1h1NFU4ZEdZ?oc=5",
+          "title": "Grand Theft Auto VI : Vorbestellerbonus jetzt einzeln für 4,99 Euro erhältlich - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQenpfZUw0eTFBYU5tRFFwSWNhc21MRU5FYVFqczdmRzBLLUNQQ1lKLTVjd0wtZUJCazV5X0k3M0JHZm9GeTZGT0RjVk5MVmVGdkFLRUZoRmJRY2lzSktUSEJuVXJjclhfMThBVnNZVGotOEhOOWV0eG1LUURZSnZKR1hmUVJzcGZ3OEpHeGtMR3Nnb29pZXE2U3c2NnViUkhDMmRmOUVlakoza0tsOEw0?oc=5",
           "source": "XboxDynasty",
-          "pubDate": "Mon, 23 Nov 2026 15:15:00 GMT"
+          "pubDate": "Mon, 23 Nov 2026 18:30:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-23T16:37:46.165Z",
+      "updated": "2026-11-24T03:31:39.549Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -306,6 +310,10 @@
         {
           "date": "2026-11-23",
           "count": 33
+        },
+        {
+          "date": "2026-11-24",
+          "count": 0
         }
       ]
     },
@@ -314,68 +322,68 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 50,
+      "count7d": 100,
       "count24h": 14,
-      "publisherCount": 30,
-      "capped": false,
+      "publisherCount": 47,
+      "capped": true,
       "series": [
         {
-          "date": "2026-11-17",
-          "count": 2
-        },
-        {
           "date": "2026-11-18",
-          "count": 9
+          "count": 22
         },
         {
           "date": "2026-11-19",
-          "count": 9
+          "count": 26
         },
         {
           "date": "2026-11-20",
-          "count": 5
+          "count": 20
         },
         {
           "date": "2026-11-21",
-          "count": 5
+          "count": 11
         },
         {
           "date": "2026-11-22",
-          "count": 5
+          "count": 6
         },
         {
           "date": "2026-11-23",
-          "count": 14
+          "count": 15
+        },
+        {
+          "date": "2026-11-24",
+          "count": 0
         }
       ],
       "items": [
         {
-          "title": "In GTA 6 lassen sich Teile der Nürburgring-Norschleife finden - PC Games (DE)",
+          "title": "10 Stunden GTA 6-Fortschritt weg: Streamer löscht offenbar versehentlich seinen Autosave-Spielstand - darauf solltet ihr achten, damit euch das nicht auch passiert - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa1V5b1dWNDdqMFdldjFFb2R0ckU3OE5sNGNVWVlYYVVTd3VRcWVYQ2dRRDdyemdKalk0c1hNd0o5eDk3RkJubjBLZTdrd2ZrLWQ3NlViREZZVHhoRDFCWUI0RWxtQWlQc2lKMVpzS2RYTlBOcUtQMFFpZ1psUnhYZ1BKZFl3c3o4bmZ6aXhn?oc=5",
+          "source": "GamePro",
+          "pubDate": "Mon, 23 Nov 2026 21:02:00 GMT"
+        },
+        {
+          "title": "GTA 6 First Person-Glitch - So wechselt ihr in die Ego-Perspektive, obwohl ein offizieller Modus gar nicht im Spiel ist - GamePro",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcnF6cDZmb01pOXdYd2Etb0Q2Qms0Qi1mdWVGUlk5SkJqVUlITm5qWVRheUdoNFNJUzZvSmZjWkIxMThIdmlfakI0dDdSY245ZFh0RWtQVHZYWS00bzhNU0pUTHFIcmQxNW1mSm9OY29meFdMZS13LWtmcks2RTJsOEc3OVlLSXU2SXc?oc=5",
+          "source": "GamePro",
+          "pubDate": "Mon, 23 Nov 2026 18:38:00 GMT"
+        },
+        {
+          "title": "In GTA 6 lassen sich Teile der Nürburgring-Nordschleife finden - PC Games (DE)",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNX0FrM3BMT3YtYUFYTl85S1BvMGpDUnk1YWFMVnRpU0Y5elJqblpUZ2FLZGFTa2NxUVlydkVaQWVPUTdndWdTVE04c3FETHo0LXd0Q0pOX1hxQ2lhVUQ2NGR4eHVsNHdKLTZnTTdSLXB2RlUzVlY0eVZSRXBiV3kyeURULXhOb2lKdGZVc0V6Sy1SSXExMDlSZDZ4bU1DY0pfdzYyOFhR?oc=5",
           "source": "PC Games (DE)",
           "pubDate": "Mon, 23 Nov 2026 15:30:00 GMT"
-        },
-        {
-          "title": "„Es ist wirklich unnormal Arsch“ - Papaplatte legt GTA 6 auf Eis und wartet auf die PC-Version - Raptastisch",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMkFpQ0taOEY1ZjR6MjFrR0NsQ0ZrNW1vUXVwV0JlTm41TEhGTEUya1J1R2Q1RHhKZDUyNUZkNHg2Uzc2RTJsSzIyUnJHWjFiSTJRdWJzYTUtZE9wckUxUk80eEk1ZFNZakV0NTBkTGItb1JvbHpLLTF5UFk2dWt6N3hQRUdSdk0yN1lraUIyaHh0c1F5LXRvVlIyZ0plNmY1MDVYLWV6cVpWNEcyZ3N6OVhLd3lWUGZWSEMxbGE2SnNEVE9F?oc=5",
-          "source": "Raptastisch",
-          "pubDate": "Mon, 23 Nov 2026 14:07:13 GMT"
         },
         {
           "title": "Papaplatte bricht vorzeitig GTA 6 auf Twitch ab, weil er auf die PC-Version warten will, doch Zuschauern gefällt der Beigeschmack nicht - Mein-MMO",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaWdsYjZ2bEN1ekpWNEUzVU1tdTFTb2drMlJCaXdtWkdEN2VKNDlIWUx4REtScUJpdTM1QnYzamJ2Z2dLTW1KUHpKR0NyQTlPWUo1b3l4aEkwMDZYZ3hzcjZBalJ6ZmFKdm9vYVRQOTVDSFVXdWoxZm1tbURaWHpHRTRWMEQyYnM?oc=5",
           "source": "Mein-MMO",
           "pubDate": "Mon, 23 Nov 2026 13:40:00 GMT"
-        },
-        {
-          "title": "Montanablack revidiert \"Schmutz\"-Aussage und vergibt 10/10 Punkte an GTA 6 - Raptastisch",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbmVQMGtaNlY4d1RXcVhYMTBhc2FQczhXam1wR29ZMlNlVDE5RzZnWjlqZ2dBdzFMcjRfRWx1eEVvNUwwbzhxV3NmaE43elNCcUNTQmpubW16eUdzTTJjcHlpbWY1N1B0bTdrYURNbjE5WVptYWVVdy0zOFpESEtURFhPTEctT04wVFYySnFMODFsTXVSSG05WjFuUzBlb0kwNmxIRTdGTkUxRVNu?oc=5",
-          "source": "Raptastisch",
-          "pubDate": "Mon, 23 Nov 2026 12:11:18 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-23T16:37:46.165Z",
+      "updated": "2026-11-24T03:31:39.549Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -459,7 +467,11 @@
         },
         {
           "date": "2026-11-23",
-          "count": 14
+          "count": 15
+        },
+        {
+          "date": "2026-11-24",
+          "count": 0
         }
       ]
     },
@@ -468,68 +480,68 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 87,
-      "count24h": 26,
-      "publisherCount": 54,
+      "count7d": 86,
+      "count24h": 30,
+      "publisherCount": 57,
       "capped": false,
       "series": [
         {
-          "date": "2026-11-17",
-          "count": 7
-        },
-        {
           "date": "2026-11-18",
-          "count": 8
-        },
-        {
-          "date": "2026-11-19",
-          "count": 13
-        },
-        {
-          "date": "2026-11-20",
-          "count": 14
-        },
-        {
-          "date": "2026-11-21",
           "count": 9
         },
         {
+          "date": "2026-11-19",
+          "count": 12
+        },
+        {
+          "date": "2026-11-20",
+          "count": 7
+        },
+        {
+          "date": "2026-11-21",
+          "count": 8
+        },
+        {
           "date": "2026-11-22",
-          "count": 16
+          "count": 13
         },
         {
           "date": "2026-11-23",
-          "count": 20
+          "count": 29
+        },
+        {
+          "date": "2026-11-24",
+          "count": 1
         }
       ],
       "items": [
         {
-          "title": "„GTA VI“-Hacker zu sieben Jahren Haft verurteilt - FAZ",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUNidGpnUVZZTGs5UW4yQzFRWVZuMlEzcXR5WTE4bmc0VDJUT1hsVno5R3h2SUZwSVpKdEhnVi01SlBiSmR4VUFXVWo3d1A3OFZEZXdPNW9xY0h4Nm90VmI1NlpsN204M3hjQkEwaUNkSnJ5NUlnTFBvRC1DdmRkNDJETlBNTk1LWjBDbE9rY2FGQUxiaHFiOFFtTVRoUUxUdnZxZi1KMTVXU3RBLWo1eFc1YUZwaTQ?oc=5",
-          "source": "FAZ",
-          "pubDate": "Mon, 23 Nov 2026 15:59:41 GMT"
+          "title": "GTA-6-Soundtrack: Deluxe Edition mit 57 Tracks - NeoTeo",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93WXM4ajFoOTdCdTBVNDdHTFdZUUszVjh4NTlWVHZ4RFNHZTdjZkpRd0FpUFBfd1NFbkxJcnkzX2V4OEhaWmZmcDVaNnhXdkpKa1dLTFY0a2ZnZHdXZ19kdWZtMGhHdTZNTzBZRXI1SHJNaTRCYVhjNGF1YTk?oc=5",
+          "source": "NeoTeo",
+          "pubDate": "Tue, 24 Nov 2026 00:09:52 GMT"
         },
         {
-          "title": "Grand Theft Auto VI: Update 01.002.002 - Patch-Log und Download-Größe bekannt - Gameswelt",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUUtpUGNzbXMyNHVSVk5FalpqQ3l4V3NMN0JvaF9Wc0hUejBrWmZMYkpPMUhoVUdGdm96WF81cHFFNGVlWk1ZOFRtWVVqa2lpR2drSzc4alg2RHRSWmZSc0gyMlVjQW9qc1puOENWbjVHdnN4dXhwQmI1QmpNLWt3bVdtTTlhQndXSV92RDFGTm9ORFM2TVluMTh2UElPMy1UUG9SMmhxWVhGcnFvdFoxZGkwQQ?oc=5",
-          "source": "Gameswelt",
-          "pubDate": "Mon, 23 Nov 2026 15:33:00 GMT"
+          "title": "Power verkauft PS5 in Norwegen nach den GTA VI Reviews aus - Foro3D",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX0NfZ2EyVXRRck56aDNubTY2V0VOWGYzU2U4Q1NENmwwRDgwbi1Ud0NrblRFMDNVeGxzY2YtRDZxT2ZuYU9UVDRLTDVyVExOM0g4YVFSQXl2WTRNUmU0U3ozYXB5WWtWUFlUV1FVWDJ6T2IyeF9WNWV5WjlzWkVoaGthOWlQU080ekFYbm0wR3N1QTRsenF2WHRVd0dFclE?oc=5",
+          "source": "Foro3D",
+          "pubDate": "Mon, 23 Nov 2026 22:24:48 GMT"
         },
         {
-          "title": "GTA VI: Mehr als die Hälfte der aktiven PlayStation- und Xbox-Spieler zockte am Launchday - jpgames.de",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUE5RLTRvenN2YVJfR19vY2FLT19vM1BRVTg0Z0dlZUtSWHNDamhkOHl6STZpZGphQTVqNEV3OXN5QlowVUhBZHFDazBSdC1sS2ItOUstTlhDNjNDdkZQMnJwWWNRQU8zVjRwVE55eGQxR2lEQi0wM3RYZUw4Z1NUdlJLNFZydzNISThKZG82eTRXQkkxZnpnMDlSYkVmTHdnanctUUpoM1FIaUtleFJUb0tSeFJyMHM?oc=5",
-          "source": "jpgames.de",
-          "pubDate": "Mon, 23 Nov 2026 14:49:14 GMT"
+          "title": "GTA 6: Diese eine Einstellung solltet ihr unbedingt noch vor Spielstart ändern - 4P.de",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeE81NVc0QXNPb2lYMDJLTXAySXFVMnF0S3VlSWdsb3dkR3lYN1Q4cGc3V2xuTWk3ZGNzcncwWVV1cUM5bGVTZktxMDZGVjFoQjZWelMzZTdfUE9wNnRPRHo0RGJ6eUQwRWVXazBQb2FWR1pBNjFmQ21kbWplTW5NLXduOEpPQk1yZDRZa3lJZ29oZw?oc=5",
+          "source": "4P.de",
+          "pubDate": "Mon, 23 Nov 2026 19:01:39 GMT"
         },
         {
-          "title": "Grand Theft Auto VI : Deluxe-Album erweitert Soundtrack um 23 Bonustracks - XboxDynasty",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS1o0eGhUWW1LZ1RYN3FUZmpFT3ZwOFVEcVVJV2JIbl9Dakh1OXNvVEgwZW1KTUlPOW5TMWdyVkVvUVRXeEdwTlBwQk1WVTFESUY2b0FESy1pUHJCRHJBMGVWRUR1T3Q1MVdWcmVOemxLZmh5UnRrUDI2aGYybkt1UWYxYUl4THhOaktPeV83TTJpbl9fVmV0VFlHc2kwTHIwcE5weW5vSQ?oc=5",
-          "source": "XboxDynasty",
-          "pubDate": "Mon, 23 Nov 2026 14:49:00 GMT"
+          "title": "Rockstar unter Druck: GTA-6-Code komplett geleakt - PC-Ports in Arbeit - WinFuture",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Ca2xKeFBnWjU4YUFsLTNkZndMMzc1QzRiMWFHeE9UXzhmeWhQQ1ZpYThSNG1tYlZDWnBoYkpWY01SbTd4b29uY01aY1VOdw?oc=5",
+          "source": "WinFuture",
+          "pubDate": "Mon, 23 Nov 2026 19:00:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-23T16:37:46.165Z",
+      "updated": "2026-11-24T03:31:39.549Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -613,7 +625,11 @@
         },
         {
           "date": "2026-11-23",
-          "count": 20
+          "count": 29
+        },
+        {
+          "date": "2026-11-24",
+          "count": 1
         }
       ]
     }
@@ -1153,6 +1169,13 @@
     },
     {
       "at": "2026-11-23T16:37:46.162Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-24T03:31:39.546Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
