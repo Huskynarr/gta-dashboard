@@ -1,23 +1,19 @@
 {
-  "updated": "2026-11-25T01:40:41.680Z",
+  "updated": "2026-11-26T01:13:42.878Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 20,
+      "count7d": 18,
       "count24h": 2,
-      "publisherCount": 16,
+      "publisherCount": 13,
       "capped": false,
       "series": [
         {
-          "date": "2026-11-19",
-          "count": 7
-        },
-        {
           "date": "2026-11-20",
-          "count": 3
+          "count": 2
         },
         {
           "date": "2026-11-21",
@@ -37,10 +33,26 @@
         },
         {
           "date": "2026-11-25",
+          "count": 2
+        },
+        {
+          "date": "2026-11-26",
           "count": 0
         }
       ],
       "items": [
+        {
+          "title": "GTA 6 zum Black Friday 2026: Die besten Deals zum Loszocken - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMXZObktYSjJ3Vjh0d3lxNVRhZXRPYy1wSTVOd0Q4NWNnWWxaUW44UUZlbWx2Z0VmeXplWS0ya3l1VXNBUk5feHFPZjJKRnhkTk5UM0RWX1Y4bVNpcnB0eC10d04wUEtJT3RvQUh2TmM3RFJjY244cFFMMGEzbjBqdDlxOXVQbE9xUk1XVWViYmFpOXhHdTlza3BGSVpQODlIUkExd3l4LVN1bTZON0l0Rllicm0xLXpMZ2FRSUZCYVlIZlRKTk54WGl6UDUybENtTng2NU53?oc=5",
+          "source": "CHIP",
+          "pubDate": "Wed, 25 Nov 2026 15:30:00 GMT"
+        },
+        {
+          "title": "Sammelkarten aus GTA 6 werden real: Panini bringt die Trading Cards aus dem Spiel ab Dezember in den Handel - Netzwelt",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORWcyeG1JUU1odHhNM1QzWVRUUTdUbjNxaXRDd0hoMlp2U1RFWWFJejFiVGdSLVlMQnk3VWFQb0l6ckY2d2dEZXhBVjhna2hvbkV0d1lDX250aGFKSFFjWnlNNHVNbm1hd2dkY0FmSWtnZU5abjBjeXRxNldnSW01SVpTLWZuWHB0TkdtcGkwWm1GcG5lMnlaTEFkZGZQbkQxTWg0emZ0UXNPX0dob0tLMXlXc0gwMGdx?oc=5",
+          "source": "Netzwelt",
+          "pubDate": "Wed, 25 Nov 2026 12:45:00 GMT"
+        },
         {
           "title": "GTA 6: Offizielle Panini-Sammelkarten kommen im Dezember - auch nach Deutschland? - - PLAY3.DE",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXRQeENtMVBmM0xHcjFiOGJLUlNISXBSaDUwTGhpSUh5MHF1dmNUR0ZfZXBjNmJlV0h6YVVUTVU0dm5URVlIWWVvNkpCZXVOUFlaZXZ0WmdramRuVlEyZlBnZDA2Vk1NZUhUMkd2Z2tma1Q1WXdzUG5MaTVSR28zLTl0b1Y0dXhQMFJPUDh5Qm1qSFYtdW11MnRWSzdyX3FWcTBQbldtcWVrWV9EaTRR?oc=5",
@@ -52,22 +64,10 @@
           "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5TYm5OaUNXVm9QeGhvLWV1QUs2MnBGbXFoY3V0TndSMWhjZFlXczM4NTN1NmtqY3M1aHk0SkpQV25qSkZKbnZYNnFuX0tfM0R5VjFIdFVibjZXTk5RV3dQSGpyTQ?oc=5",
           "source": "Eurogamer.de",
           "pubDate": "Tue, 24 Nov 2026 09:37:30 GMT"
-        },
-        {
-          "title": "GTA VI: Das «Vintage Vice City Pack» – das es bisher als Vorbestellungsbonus gab – kostet jetzt 4,99 - Instant Gaming News",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPQ3I3ajhpWkx1OUlDdGRyX0VGRXlfUkdWQmlyMGROQzhsVlVzSTNzUFczMzBFb2E1Y3NScGZZNUhvMk1aOV9PaENTNXR5aUVXNmtpRHlNUDJnb0JrcU9oUDN0cWZtcE5LYW9NN0dRTnVNNE5fOWF1aFdGTVhDOEs5MF9QMlppcmNpT09kVjdISGg0SDZlRkJGT0RoQUxQb24wTTctcWxUSVR1WVk5UVA3Tm9TQUkyZ0tLVmtTMF9SZDQxWFF6RzNUWWg3SERMSFBhMVozb0hYWlpVVU5URnA0?oc=5",
-          "source": "Instant Gaming News",
-          "pubDate": "Tue, 24 Nov 2026 01:17:00 GMT"
-        },
-        {
-          "title": "GTA 6 hat Vorbestellungsrekorde übertroffen - Beyond Pixels",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBrdG5yQkV6Vi1uS2NxZlA4YmYzNEhwMVdIenlwMGk4WmxvWEJxT1k5LThvbkhFcnRyLXlaVEhyQVNUVmY0MVIxRjJqM1BkSDBoTDU1RHNNeldoeV9ndGo5N1VsMkxMdzN3ZlFFc3J1bGc5ZGp3QnJGbjcza3RJZw?oc=5",
-          "source": "Beyond Pixels",
-          "pubDate": "Mon, 23 Nov 2026 11:25:35 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-25T01:40:41.680Z",
+      "updated": "2026-11-26T01:13:42.878Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -159,6 +159,10 @@
         },
         {
           "date": "2026-11-25",
+          "count": 2
+        },
+        {
+          "date": "2026-11-26",
           "count": 0
         }
       ]
@@ -169,67 +173,67 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 45,
-      "publisherCount": 35,
+      "count24h": 32,
+      "publisherCount": 40,
       "capped": true,
       "series": [
-        {
-          "date": "2026-11-19",
-          "count": 10
-        },
         {
           "date": "2026-11-20",
           "count": 1
         },
         {
           "date": "2026-11-21",
-          "count": 3
-        },
-        {
-          "date": "2026-11-22",
           "count": 5
         },
         {
+          "date": "2026-11-22",
+          "count": 6
+        },
+        {
           "date": "2026-11-23",
-          "count": 16
+          "count": 17
         },
         {
           "date": "2026-11-24",
-          "count": 45
+          "count": 31
         },
         {
           "date": "2026-11-25",
+          "count": 33
+        },
+        {
+          "date": "2026-11-26",
           "count": 0
         }
       ],
       "items": [
         {
-          "title": "GTA 6 setzt CD Projekt unter Druck – doch PC-Spieler halten dagegen - PCGH",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc3I4YTl3VUMxUGFyMEpaRmlHS09wRjZsNkpocXpxSkpEWnl5R1ZoU3dkRXZtRFJYUEx0Szc1NDh5RnkxODN0Ylo2eWVvX3RZWExwLXdYMzZseFk4dXYtNElBVUswWTRnVGNqbnkwcUJxYURkNkVhNDBpU3Jhd2FqZkdZY1VhMTB5QXdISDdlWHByYzRZblBBS2hoMVppNmwxejQwVnh3?oc=5",
-          "source": "PCGH",
-          "pubDate": "Tue, 24 Nov 2026 21:45:00 GMT"
+          "title": "GTA 6 Xbox Series X schlägt PS5 Basis bei Framerate - Meteora Web",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRDZtWkVNRnZBQkJCemtCcEwyOTlCajZ0YmUycFBUeVo3ZXQ5MWtrZlV2Zkt1WTZsRTgzNVB2UG9DbVNxR1dsRTdEM2c1aFV1YWhxSE9vTFRMUVNEWEQ2cDhrUkJubHQxQ3RUblNoWWQ1OGdvdmtPcE40MWJXQ19aR2draVlXTUM3ZjJsVWpzdExGZElZUjNieQ?oc=5",
+          "source": "Meteora Web",
+          "pubDate": "Wed, 25 Nov 2026 20:16:20 GMT"
         },
         {
-          "title": "Wie beim PS5-Release 2020: GTA 6 sorgt für ein Déjà-vu beim Konsolenkauf - PCGH",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcVdad0pCNm5qZGRJSGRpeW9xR1hXLVpqU3RPTzd6V2ZfajZMcUpqdWpoaHlhMWs3LVJ5QThsSmx2dHhXeVVHcnpzT3FZVjRSV2x4ZExVdGpIeG80ZFVHSWsyNkVfTFFjZUNWWHNHUzdtNGNLYWI5R1IzblVQUXQ0QjNpVFZ0ck9IRWc0T2d5VE1ZcXVaRWR0N0RybXV3bFhOUFM1NjVKWEMzQUJyNGdLcE82SnJYT2dUTXdJMEtBMmcyVXM0R3RSTHN0MzBadzA?oc=5",
-          "source": "PCGH",
-          "pubDate": "Tue, 24 Nov 2026 20:00:00 GMT"
+          "title": "GTA 6 läuft auf der Xbox Series X besser als auf der PS5 - mobidevices.com",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ERkt0emlpa0xMQV9Cb3VPWGFlTjZwbGM2WUJXeVFTQUhBOGpZRWh4U3lyMWszaTkxTzBqaTVjcVphZmdHNl90ZS1WeHhWajhrOWtnLXlYdlQ1eXJkREpKVkQwOA?oc=5",
+          "source": "mobidevices.com",
+          "pubDate": "Wed, 25 Nov 2026 19:09:47 GMT"
         },
         {
-          "title": "Preis-Wahnsinn nach GTA 6: PS5 Pro kratzt an der 2.000-Euro-Marke - PlayFront",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeUVXSHVpdHBFLURTamRXOTNLYmFfOEEtMWlHSmRyZnNhc2xBaExxcERtYXFhV3dTQi1xZkx2NUJBNnlxUkNxeWtrU1JTeE1PZHdIcjZkUS1SaDJ3SmlsdG1nT1c1MmRDM3VxTkU1VjV1SGRiNWZTYzBOSFVSNV9reExVVjRaVm0xbGNnclFmRQ?oc=5",
-          "source": "PlayFront",
-          "pubDate": "Tue, 24 Nov 2026 18:52:15 GMT"
+          "title": "GTA 6 für den PC: Was über den Release bekannt ist - Call of Duty Infobase",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUnZzV2VFMFBsMzNXR0ZMazRzbkE3SWUxd1BsQkdUd2tRMWZEcGNjT1pGZ2RTUE9ySm8wOVpVajI1VDM3T2NQclJWamRGUE9aNGFqUV9YM1ZNcXQ2V3FrQ0tmVnA4OXZXVmR4LWZUSW0wVTBrMFFzU0ZieHc1RDh1eFJ3Y2xPMm9UM2ZEQ3pn?oc=5",
+          "source": "Call of Duty Infobase",
+          "pubDate": "Wed, 25 Nov 2026 18:59:10 GMT"
         },
         {
-          "title": "GTA 6: Wie gut sieht das Spiel im Vergleich zum ersten Trailer aus? - GameStar",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUQTZ1ckFnMFRXNkpzMlZvUmtFTEtPcFpINmp3UjgtYmpLcTBxdDRlSS1USjZKUWFkbVFqWTdSYjJyV3NkV3ZIZlExRlQtMU90ZmkzVTk2M2NkQ2U2TTdCbnpuTXNSUmZPYlpWQmRzY3pmNjV2WGc?oc=5",
-          "source": "GameStar",
-          "pubDate": "Tue, 24 Nov 2026 18:00:00 GMT"
+          "title": "Für GTA 6 auf PS5 gibt fast jeder fünfte bei Amazon nur einen Stern: Woran liegt’s? - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRzhXR1JBOWdtdVpJcGJzMGxEZktmLVg3WG52OHFGUkI2RzRmME9aZXloX0l5d0RtbGtZQnFpQ0ZyM010QzJzWWozRUM1blBkM3NrM3oxaWlObHRzRUdqQmRFdm1PcGtNV1p4LUJILXFiZFF3VWpGTVJDWDQ1SzRQOFhCTGxDcmV2eklHRXFzb0JHRE9DeEJ6b05QMnpndGltWmhvS0tn?oc=5",
+          "source": "PC Games (DE)",
+          "pubDate": "Wed, 25 Nov 2026 16:35:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-25T01:40:41.680Z",
+      "updated": "2026-11-26T01:13:42.878Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -321,6 +325,10 @@
         },
         {
           "date": "2026-11-25",
+          "count": 33
+        },
+        {
+          "date": "2026-11-26",
           "count": 0
         }
       ]
@@ -330,22 +338,18 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 49,
-      "count24h": 12,
-      "publisherCount": 33,
+      "count7d": 44,
+      "count24h": 8,
+      "publisherCount": 32,
       "capped": false,
       "series": [
-        {
-          "date": "2026-11-19",
-          "count": 10
-        },
         {
           "date": "2026-11-20",
           "count": 4
         },
         {
           "date": "2026-11-21",
-          "count": 1
+          "count": 2
         },
         {
           "date": "2026-11-22",
@@ -353,45 +357,49 @@
         },
         {
           "date": "2026-11-23",
-          "count": 11
+          "count": 5
         },
         {
           "date": "2026-11-24",
-          "count": 12
+          "count": 11
         },
         {
           "date": "2026-11-25",
+          "count": 8
+        },
+        {
+          "date": "2026-11-26",
           "count": 0
         }
       ],
       "items": [
         {
-          "title": "Sie spielt „Mandy“ - Diese Schauspielerin geht dank „GTA VI“ viral - Kronen Zeitung",
-          "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFA1R2RIQ3BHLXNEUW5QTGF0dGxIazFfcmg3VlRrdTIxUFhPNW1VX0pYYjR6UGZBbTQ3eHJuRlNabVN2UQ?oc=5",
-          "source": "Kronen Zeitung",
-          "pubDate": "Tue, 24 Nov 2026 20:22:00 GMT"
+          "title": "Erster großer GTA 6-Patch fixt Autosave-Probleme - smartphones24.org",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Za3R3SllBd1hQVmtlLTVHY0txQkg5SC00Mlk5S2oydUJFUmE2ZWpfdjkzREFvZzBvYkQtcUJCaldhQURETVRtaW43LTlXeEhTaUpIUjRDejkzT3p3MnBrZjMwVjhWOVhkX3A5eGtnVHFINWc?oc=5",
+          "source": "smartphones24.org",
+          "pubDate": "Wed, 25 Nov 2026 19:46:06 GMT"
         },
         {
-          "title": "‘Grand Theft Auto VI’ Album’s Secret Weapon? The ‘Barbie’ Soundtrack Creator - IMDb",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42WUNRVEVzdmtHWWlBWG5OVlJ1dW9yNnVodVRtODlvd25oUk45N2w0eGItVlJDS2VLakl1ZnNlRlNtVXVnVm5aZGE5ckZsWnpJenJiS25TUlp4RnY3cVR4YUFTWHBxbmVjVGc?oc=5",
-          "source": "IMDb",
-          "pubDate": "Tue, 24 Nov 2026 20:00:46 GMT"
+          "title": "GTA 6: PS5 vor dem Hitzekollaps? Berichte über Abstürze und defekte Konsolen häufen sich - PLAY3.DE",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNekxCZWhPNFpXbndrUzR0TWVpV1NPU1hzdF9GTnBWNmxfb2I3Q0Z0NHpsWTdpVjlUbVBoX2ZvSkRTSTUxdkVNR19QN1JuMlNjWHFiSWoxdW4xZkVsT05JN19ZYkUtVTg2UW8wQXJMZ0dtYlRwclhKdGtnRmVyRzZCdlVmWG4wWkNRYnhKS25xTDBHaFJxZ0JPTWUyUEdHM0o3Z2gxaGVtYkxJSWhzcnVJdW1TNlk2NE9aNTBVdTVXSQ?oc=5",
+          "source": "PLAY3.DE",
+          "pubDate": "Wed, 25 Nov 2026 17:42:00 GMT"
         },
         {
-          "title": "Trymacs packt über seine Einnahmen durch GTA-6-Stream aus - Promiflash",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNzdrNWltRVpmR2pzcWFQSWZXQXpRT1I1VVJBQ1hIQVpLR21KMG9RanVrZEdtY0RFODQ5MFNBTkM2UkNBUXIxS2kxSU45bTNGMlJtandROW1uVXZLUmNPOXM3UGZHazI0NTc4U0lZZURzSkhYakZLcWNpS2RmWU1vTmFOeWgtWkNuSktOS1VkV1BQbHRxd243UnpxN0JQa0lpQW5KQmdzNzU?oc=5",
-          "source": "Promiflash",
-          "pubDate": "Tue, 24 Nov 2026 17:42:00 GMT"
+          "title": "GTA 6: Nett zur Freundin ist „woke“? Asmongold und Co. schimpfen über Jasons Fürsorge für Lucia - BILD",
+          "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPVnNMdFBNcXlDV1B2N0VsMkNiQlU2Y3VVSEtTNzBiZG5OM3FyR2JKczhrdDFmNFhQWFNwbjJVX2tmYzhDTnR6NVJRblhnWTN5c1JyeEpUa3BEX2FGNzhFclRCbzFUM252aVpiU1BkXzZMWHo0NUk3RG13YzM5al9XVzlHZm1zcXNXcDNldXZRNkxuU002RTVsdnk2TDZkUFR0MjJDam1HdElUdjZQRkU5bU5VdnpRVjVhTUU5c2dVb1NCMk4yUmRoaXViMXc3X041WGtSTEJCZlQ3eHB3NHk2TGs4blU3TnZuNG14bjhGOA?oc=5",
+          "source": "BILD",
+          "pubDate": "Wed, 25 Nov 2026 16:23:30 GMT"
         },
         {
-          "title": "Twitch-Streamer erreicht schlimmsten Rang in GTA 6, doch dafür muss er so abgefuckte Dinge tun, dass selbst Fans sagen „Lass mal reden“ - Mein-MMO",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8zUS1xMzFuaTRRWXRlNE1rMVhGTjV5LUZiZE43N3l0QkdPNDRwenRRd0p5ejJ0ZTkxRjBUNkI2d0YtUTdiSUVLX3lZUk54S3FUYXpzVzBsMkk1c3pDSldSRjlpUk11eGpaM3B1S1RBTF9tSElxblJHRUZkS2x0Zw?oc=5",
-          "source": "Mein-MMO",
-          "pubDate": "Tue, 24 Nov 2026 14:00:00 GMT"
+          "title": "GTA VI: Anti-woke Kampagne gegen Gaming-Hit - ZDFheute",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE52NmtxRkFNU2h0eEppR3l2UzI1elhubE1fZmFIaUJWRTd2VGpWU2ZLekVQRE9SY1Q5aXZlcVVfaHFDM09zSDZBblBIMm5DQnNZVkkteHN3OGxLOHh1bk9NZ2duZ3QyWHdKTTl0S0xxT1FVazh3bVZ3TEJYTQ?oc=5",
+          "source": "ZDFheute",
+          "pubDate": "Wed, 25 Nov 2026 14:39:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-25T01:40:41.680Z",
+      "updated": "2026-11-26T01:13:42.878Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -483,6 +491,10 @@
         },
         {
           "date": "2026-11-25",
+          "count": 8
+        },
+        {
+          "date": "2026-11-26",
           "count": 0
         }
       ]
@@ -492,68 +504,68 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 94,
-      "count24h": 34,
-      "publisherCount": 54,
-      "capped": false,
+      "count7d": 100,
+      "count24h": 18,
+      "publisherCount": 46,
+      "capped": true,
       "series": [
         {
-          "date": "2026-11-19",
-          "count": 13
-        },
-        {
           "date": "2026-11-20",
-          "count": 4
+          "count": 8
         },
         {
           "date": "2026-11-21",
-          "count": 3
+          "count": 10
         },
         {
           "date": "2026-11-22",
-          "count": 6
+          "count": 10
         },
         {
           "date": "2026-11-23",
-          "count": 23
+          "count": 15
         },
         {
           "date": "2026-11-24",
-          "count": 35
+          "count": 29
         },
         {
           "date": "2026-11-25",
+          "count": 18
+        },
+        {
+          "date": "2026-11-26",
           "count": 0
         }
       ],
       "items": [
         {
-          "title": "PS5-Ampel: PlayStation 5 wegen GTA 6 ausverkauft (Update) - GamesWirtschaft.de",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWFZnWFBYRDVvTXZ2ZjJrc0dFRFdKb2dTT0s1ejBIRElCdjVBSk5mdFhOTWNFdUJHdGxWVjNNSEFod21LZW1mUFVCZnVwTWVGZ2VwNzRhNS10enJqQklBLXJpRjhHSHRnc2JVei1NQ2o3ZFBlSVo3SjNmeU9QZDd4QlRPODk0RWFJbHZ2NWcyS0RTZ2Z4?oc=5",
-          "source": "GamesWirtschaft.de",
-          "pubDate": "Tue, 24 Nov 2026 23:50:17 GMT"
+          "title": "Für GTA 6 auf PS5 gibt fast jeder fünfte bei Amazon nur einen Stern: Woran liegt’s? - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRzhXR1JBOWdtdVpJcGJzMGxEZktmLVg3WG52OHFGUkI2RzRmME9aZXloX0l5d0RtbGtZQnFpQ0ZyM010QzJzWWozRUM1blBkM3NrM3oxaWlObHRzRUdqQmRFdm1PcGtNV1p4LUJILXFiZFF3VWpGTVJDWDQ1SzRQOFhCTGxDcmV2eklHRXFzb0JHRE9DeEJ6b05QMnpndGltWmhvS0tn?oc=5",
+          "source": "PC Games (DE)",
+          "pubDate": "Wed, 25 Nov 2026 16:35:00 GMT"
         },
         {
-          "title": "Wie beim PS5-Release 2020: GTA 6 sorgt für ein Déjà-vu beim Konsolenkauf - PCGH",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcVdad0pCNm5qZGRJSGRpeW9xR1hXLVpqU3RPTzd6V2ZfajZMcUpqdWpoaHlhMWs3LVJ5QThsSmx2dHhXeVVHcnpzT3FZVjRSV2x4ZExVdGpIeG80ZFVHSWsyNkVfTFFjZUNWWHNHUzdtNGNLYWI5R1IzblVQUXQ0QjNpVFZ0ck9IRWc0T2d5VE1ZcXVaRWR0N0RybXV3bFhOUFM1NjVKWEMzQUJyNGdLcE82SnJYT2dUTXdJMEtBMmcyVXM0R3RSTHN0MzBadzA?oc=5",
-          "source": "PCGH",
-          "pubDate": "Tue, 24 Nov 2026 20:00:00 GMT"
+          "title": "GTA 6 zum Black Friday 2026: Die besten Deals zum Loszocken - CHIP",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPMXZObktYSjJ3Vjh0d3lxNVRhZXRPYy1wSTVOd0Q4NWNnWWxaUW44UUZlbWx2Z0VmeXplWS0ya3l1VXNBUk5feHFPZjJKRnhkTk5UM0RWX1Y4bVNpcnB0eC10d04wUEtJT3RvQUh2TmM3RFJjY244cFFMMGEzbjBqdDlxOXVQbE9xUk1XVWViYmFpOXhHdTlza3BGSVpQODlIUkExd3l4LVN1bTZON0l0Rllicm0xLXpMZ2FRSUZCYVlIZlRKTk54WGl6UDUybENtTng2NU53?oc=5",
+          "source": "CHIP",
+          "pubDate": "Wed, 25 Nov 2026 15:30:00 GMT"
         },
         {
-          "title": "Preis-Wahnsinn nach GTA 6: PS5 Pro kratzt an der 2.000-Euro-Marke - PlayFront",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeUVXSHVpdHBFLURTamRXOTNLYmFfOEEtMWlHSmRyZnNhc2xBaExxcERtYXFhV3dTQi1xZkx2NUJBNnlxUkNxeWtrU1JTeE1PZHdIcjZkUS1SaDJ3SmlsdG1nT1c1MmRDM3VxTkU1VjV1SGRiNWZTYzBOSFVSNV9reExVVjRaVm0xbGNnclFmRQ?oc=5",
-          "source": "PlayFront",
-          "pubDate": "Tue, 24 Nov 2026 18:52:15 GMT"
+          "title": "\"Verrückter Moment\": Stuttgarter Band hat Song in GTA VI - und weiß lange nichts davon - SWR",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNG1KWHNiVzFFMVFfX2RPOUdMYWhjc1BlOWl6NW1BaVRPQm5BU1NJaGUyOEU3OC1aOHFoR3NiZm1TdWsteW9xa24xZmlwZUxnVmMyTVNlMDNNelhSUDhZbFZPQ0dYbHp3dFJKQUpLcUZhTXhBSnhjb3N1VGtOdU00ay1nUHdxSzdUS0tnVXYxQmxTMmtV?oc=5",
+          "source": "SWR",
+          "pubDate": "Wed, 25 Nov 2026 15:11:00 GMT"
         },
         {
-          "title": "GTA 6: Offizielle Panini-Sammelkarten kommen im Dezember - auch nach Deutschland? - - PLAY3.DE",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRXRQeENtMVBmM0xHcjFiOGJLUlNISXBSaDUwTGhpSUh5MHF1dmNUR0ZfZXBjNmJlV0h6YVVUTVU0dm5URVlIWWVvNkpCZXVOUFlaZXZ0WmdramRuVlEyZlBnZDA2Vk1NZUhUMkd2Z2tma1Q1WXdzUG5MaTVSR28zLTl0b1Y0dXhQMFJPUDh5Qm1qSFYtdW11MnRWSzdyX3FWcTBQbldtcWVrWV9EaTRR?oc=5",
-          "source": "PLAY3.DE",
-          "pubDate": "Tue, 24 Nov 2026 17:59:00 GMT"
+          "title": "Xbox Series S dank GTA 6 spannend wie nie zuvor - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTXlScG1IdVBxV0FGbjFoQU9JQVVGUjRiangtQ1VPT0owSjFxRzdrMnh2T1dhNjAzSWJoYUV5YnEwNGtpekNwTE4wXzJRNFM1U1U1MUJfZ09CZy1yWUl3V2JWSWRUelJPcml1a0I4d0Njc0tFWU81dGZneEhCb0lUem04YzIzQlh6bjlXcFZTU3kwYnZyaE1FajZlNFdtRkRnZ2xDZjhMM0F2UTBlMkcwdTZB?oc=5",
+          "source": "PC Games (DE)",
+          "pubDate": "Wed, 25 Nov 2026 14:30:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-25T01:40:41.680Z",
+      "updated": "2026-11-26T01:13:42.878Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -645,6 +657,10 @@
         },
         {
           "date": "2026-11-25",
+          "count": 18
+        },
+        {
+          "date": "2026-11-26",
           "count": 0
         }
       ]
@@ -1206,6 +1222,13 @@
     },
     {
       "at": "2026-11-25T01:40:41.677Z",
+      "version": "hype-v1",
+      "score": 100,
+      "coverage": 3,
+      "signature": "wiki+news+reddit"
+    },
+    {
+      "at": "2026-11-26T01:13:42.417Z",
       "version": "hype-v1",
       "score": 100,
       "coverage": 3,
