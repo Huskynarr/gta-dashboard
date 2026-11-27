@@ -1,8 +1,8 @@
 {
-  "lastRun": "2026-11-26T15:54:02.489Z",
-  "startedAt": "2026-11-26T15:53:46.236Z",
-  "durationMs": 16253,
-  "runSlot": "evening",
+  "lastRun": "2026-11-27T01:12:13.283Z",
+  "startedAt": "2026-11-27T01:11:57.443Z",
+  "durationMs": 15840,
+  "runSlot": "morning",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
     "ps5Preload": "2026-11-10T00:00:00+01:00",
@@ -32,29 +32,29 @@
   },
   "counts": {
     "stocks": 13,
-    "stockHistory": 3434,
-    "snapshots": 81,
+    "stockHistory": 3435,
+    "snapshots": 82,
     "wikiSeries": 8,
     "newsQueries": 5,
     "decixPoints": 573,
-    "decixHistoryPoints": 7270,
-    "decixDailyPeaks": 26,
-    "decixSitePoints": 21813,
-    "ixpSitePoints": 7362,
+    "decixHistoryPoints": 7382,
+    "decixDailyPeaks": 27,
+    "decixSitePoints": 22149,
+    "ixpSitePoints": 7568,
     "filings": 11,
     "pressReleases": 6,
-    "hypeSnapshots": 82,
-    "timelineSnapshots": 82,
-    "archivedNews": 4311
+    "hypeSnapshots": 83,
+    "timelineSnapshots": 83,
+    "archivedNews": 4425
   },
   "errors": [
-    "wiki:gta_en: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Grand_Theft_Auto_VI/daily/20260828/20261126",
-    "wiki:gta_de: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Grand_Theft_Auto_VI/daily/20260828/20261126",
-    "wiki:gta_fr: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Grand_Theft_Auto_VI/daily/20260828/20261126",
-    "wiki:gta_series: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Grand_Theft_Auto/daily/20260828/20261126",
-    "wiki:gta5_en: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Grand_Theft_Auto_V/daily/20260828/20261126",
-    "wiki:rockstar_en: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Rockstar_Games/daily/20260828/20261126",
-    "wiki:sick_stand: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Krankenstand/daily/20260828/20261126",
-    "wiki:sick_ability: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Arbeitsunf%C3%A4higkeit/daily/20260828/20261126"
+    "wiki:gta_en: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Grand_Theft_Auto_VI/daily/20260829/20261127",
+    "wiki:gta_de: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Grand_Theft_Auto_VI/daily/20260829/20261127",
+    "wiki:gta_fr: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/fr.wikipedia/all-access/user/Grand_Theft_Auto_VI/daily/20260829/20261127",
+    "wiki:gta_series: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Grand_Theft_Auto/daily/20260829/20261127",
+    "wiki:gta5_en: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Grand_Theft_Auto_V/daily/20260829/20261127",
+    "wiki:rockstar_en: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Rockstar_Games/daily/20260829/20261127",
+    "wiki:sick_stand: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Krankenstand/daily/20260829/20261127",
+    "wiki:sick_ability: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/de.wikipedia/all-access/user/Arbeitsunf%C3%A4higkeit/daily/20260829/20261127"
   ]
 }
