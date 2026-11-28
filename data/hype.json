@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-28T00:44:51.443Z",
+  "updated": "2026-11-28T14:37:41.730Z",
   "topics": [
     {
       "key": "retail",
       "label": "Handel & Marken",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (Netto OR Edeka OR supermarket OR retailer OR merchandise OR Kooperation OR Vorbestellung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28Netto+OR+Edeka+OR+supermarket+OR+retailer+OR+merchandise+OR+Kooperation+OR+Vorbestellung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 20,
-      "count24h": 2,
+      "count7d": 21,
+      "count24h": 1,
       "publisherCount": 16,
       "capped": false,
       "series": [
         {
           "date": "2026-11-22",
-          "count": 1
+          "count": 0
         },
         {
           "date": "2026-11-23",
@@ -21,7 +21,7 @@
         },
         {
           "date": "2026-11-24",
-          "count": 7
+          "count": 8
         },
         {
           "date": "2026-11-25",
@@ -29,7 +29,7 @@
         },
         {
           "date": "2026-11-26",
-          "count": 2
+          "count": 3
         },
         {
           "date": "2026-11-27",
@@ -67,7 +67,7 @@
         }
       ],
       "status": "ok",
-      "updated": "2026-11-28T00:44:51.443Z",
+      "updated": "2026-11-28T14:37:41.730Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -181,67 +181,67 @@
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (PS5 OR Xbox OR OLED OR SSD OR hardware OR bundle) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28PS5+OR+Xbox+OR+OLED+OR+SSD+OR+hardware+OR+bundle%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
       "count7d": 100,
-      "count24h": 19,
-      "publisherCount": 35,
+      "count24h": 10,
+      "publisherCount": 37,
       "capped": true,
       "series": [
         {
           "date": "2026-11-22",
-          "count": 1
+          "count": 4
         },
         {
           "date": "2026-11-23",
-          "count": 8
+          "count": 9
         },
         {
           "date": "2026-11-24",
-          "count": 16
+          "count": 13
         },
         {
           "date": "2026-11-25",
-          "count": 27
+          "count": 23
         },
         {
           "date": "2026-11-26",
-          "count": 26
+          "count": 28
         },
         {
           "date": "2026-11-27",
-          "count": 19
+          "count": 18
         },
         {
           "date": "2026-11-28",
-          "count": 0
+          "count": 5
         }
       ],
       "items": [
         {
-          "title": "PS5-Ampel: Hoffnung für GTA 6-Fans – MediaMarkt mit Black-Friday-Deal (Update) - GamesWirtschaft.de",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ0R6LXg3Y3ltME5ONGlibC1aM29TdVYyNXF1YUdYeWhwS25YSkp4ekJwZFZsNmpwdVBTX05aWTY3blFyRlhTVWIybmpvMkx3UVdwc1pnTzhra2ZOMWtGSDdwZmZGbE5GWFJDTXI3ODRIZGYxUkZneExpUWd2clZmc1ZHZEJiaWhrbGZ2bnNQSWJXeFN2?oc=5",
-          "source": "GamesWirtschaft.de",
-          "pubDate": "Fri, 27 Nov 2026 23:24:29 GMT"
+          "title": "Die PS5 ist doch nicht die beste Konsole für GTA 6 - Giga",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZ1hHd1RyZy1jYjBNMHp4WTZsT29jWDc3Z1JhRzd3V2tfMjl5bFJ1ZjN6cWNLTFRxM1hCYnVONU9LdUFPNzRha1B3WW9yQ0Q2bjltTzB4bzFqOV9QM1Zhd1NPLXZrY2NLMC1SZllDQVdCM09ucTB2ZDBsQXVfWnhmaEhCUGNfUTQxei1wZ05MVGVsbURnMl94akVIQTZiejFleVU5cU5RZmI?oc=5",
+          "source": "Giga",
+          "pubDate": "Sat, 28 Nov 2026 13:28:00 GMT"
         },
         {
-          "title": "GTA 6 auf dem PC: Konsolen-Datamining zeigt, wo die CPU bremst - PC Games Hardware",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPS1lFWEw1dEpUQndlV2pCQXJHSHUxWXIwY3dNaWxPOTBtMEkwcjFnZm0wQjRxX1RDRU00OFNQOG15X19COTJGRkdrVG9ZM0VBbkRwMVo2bWo2MEJYUmdZVk5ZNllBdHdDUS1ValEzNV9yUmliRHlRQ1dJb1ZXd1dUUnNBY2REWE9rRlpoc1h2Q1p1aHM5OHRkTFVYUEY3R0VFRWhzSXVwVC0wb3ZWamdEX1Rwam1ONWhzeTBsSUNB?oc=5",
-          "source": "PC Games Hardware",
-          "pubDate": "Fri, 27 Nov 2026 19:45:00 GMT"
+          "title": "GTA 6 auf dem PC: Bastler träumen vom eigenen Port – und laufen direkt vor Take-Twos Wand - PlayFront",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTGZURXZENGpiUWVRMDhwNi1TaW9HU3JqajlXVFhpTkgxaE8zQTlXRzFyamtzc3JoaklRUzAtSUZtWjJxeE1FUTViRVI2UTE2dm81TW9jcXc2WVJvNnloYkpCY1dEcGNid3RZcjl6U1dkZ21hRTBRdTVrT05DUmQ3NUVHemh1OHRVR29ZN0Z1bGhNYlBGbFIzRHJyUGdmSlFldU9aeWM2OEVFWHlHdmc?oc=5",
+          "source": "PlayFront",
+          "pubDate": "Sat, 28 Nov 2026 10:00:00 GMT"
         },
         {
-          "title": "GTA 6 auf PC & Smartphone spielen - so geht's - CHIP",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZVROUU9rVE5LRUxSRzhmaTdUSmh1eXllVkVBMHBOVXZIdkVibzJZN1RZQk1RSlFzZy1OdW9rel91V2RtVHhnZUhLci1Bakktb0xna2hxSmpFZU5fdE9ObzhKTWFCd1ZXb09MczdFMFA1QWVocUFGMklqekNxODJDSXVnOFJvRmJHbHExNWIxS3E1LW1vbWwtOEl4OWRUUU1BNFpQYmtNZjk2MnFBaGVMdEROd1VvdW9Q?oc=5",
-          "source": "CHIP",
-          "pubDate": "Fri, 27 Nov 2026 19:20:00 GMT"
+          "title": "Black-Friday-Deal für GTA VI: So zockst du noch heute das Kult-Game - HIFI.DE",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMHN1TGlRSzQ1M1U1UU1mcFlOQ0drUjZHbG93V3c5MWxuN0l4OGUyTGlvVm8weFlicFhaWFBRQUdVWk5mU2xpaFl4bmZ4ZE1iMXBkVnNMdXpmUDVUX3R6NHdESlNia1FFSWhXVVNhOHo4cko1UGhpM2xoelk2cmlUbTJSMThHRnFzZ1p1Rmo2NHhxWDVMdkExNk1XTTlscTQ?oc=5",
+          "source": "HIFI.DE",
+          "pubDate": "Sat, 28 Nov 2026 09:36:38 GMT"
         },
         {
-          "title": "GTA VI auf dem Mac: Drei bis sechs Bilder pro Sekunde - ifun.de",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ2FpUWh4dC1TbXpReDBzRExsNVIzX0pXSDA5ZXhZMnh2UkQ3YU1MVkVVSzRET1U5TXdtbzAwV1Npek9jaGhZV0cyOXA0VG16QnNRYllJSlNrNVB6VmhVcGxpUkg5WkJ4OUVxclp2R0NiZXZscmRDWHhkeWZVSHBkY2tsVUlDd00?oc=5",
-          "source": "ifun.de",
-          "pubDate": "Fri, 27 Nov 2026 17:31:09 GMT"
+          "title": "GTA 6: PS5-Spieler macht einen großen Fehler, den ihr unbedingt vermeiden müsst - Giga",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVnc5Z1VBRWJIMTg0aEpLQXg4SF84S1NFWHUyUlN5Qzdaa3JWTzB2MmhlWFNYd2NRc2lKaTNnRkQ1OU1XTl9Tck1uVmpKQk1UeGhTR0JxdzRmNElmUEpkaEJId0lRd3R5Z25QYW9sNGlnZlNHOVlwclFiUjRWWTY4eG0xUEZpUEZvUjRYdTJHSUV6S210RjY5LWFoLTd3RTJJaHVscGQ5UE5rUXlEcjktTGFJei1RT09EZmFod0RrdE81N1ZvTGlOejZSSUhOZw?oc=5",
+          "source": "Giga",
+          "pubDate": "Sat, 28 Nov 2026 07:39:44 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-28T00:44:51.443Z",
+      "updated": "2026-11-28T14:37:41.730Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -345,7 +345,7 @@
         },
         {
           "date": "2026-11-28",
-          "count": 0
+          "count": 5
         }
       ]
     },
@@ -354,26 +354,26 @@
       "label": "Creator & Social",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (YouTube OR Twitch OR TikTok OR streamer OR creator OR viral) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28YouTube+OR+Twitch+OR+TikTok+OR+streamer+OR+creator+OR+viral%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 74,
-      "count24h": 11,
-      "publisherCount": 39,
+      "count7d": 41,
+      "count24h": 5,
+      "publisherCount": 29,
       "capped": false,
       "series": [
         {
           "date": "2026-11-22",
-          "count": 9
+          "count": 2
         },
         {
           "date": "2026-11-23",
-          "count": 13
+          "count": 5
         },
         {
           "date": "2026-11-24",
-          "count": 10
+          "count": 5
         },
         {
           "date": "2026-11-25",
-          "count": 7
+          "count": 2
         },
         {
           "date": "2026-11-26",
@@ -381,41 +381,41 @@
         },
         {
           "date": "2026-11-27",
-          "count": 11
+          "count": 12
         },
         {
           "date": "2026-11-28",
-          "count": 0
+          "count": 3
         }
       ],
       "items": [
         {
-          "title": "MontanaBlack verdient Mega-Summe mit GTA 6 - Blick",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ3BGbnljYnlXM2swYVhuZ09Hb2hseU9WQkxkN25zQlNOZXRHX3ZOUnB5Z2h4eTZjRmVrWUV1a1hvQUIxS1k5YWxfT2ljWEtPRU1XU1g1bC03TjE3ajE2NE1lWkY1QVJZV0xRTzFrX0MtVURmZ21abXk2U1pVUzZjdlRrR1FiU2NMbzl6Rm9fa1NmLWkzMTVHUWZQd2h5T1hrYVhvbEZMX3JHZDNxTHc?oc=5",
-          "source": "Blick",
-          "pubDate": "Fri, 27 Nov 2026 21:13:17 GMT"
+          "title": "GTA 6-Erfolg, aber keine Einigung: Rockstar stoppt die Gewerkschaft - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSVN0QnhyMzAxNUFaZFJreElpOFNyNmFpUUdYM1JVRFNyU2ZZcmdERU1vRUhMQlJZNGRfSnBiUFZGdUNCZzhOSmhoNzlDdEFDcUJwbTA3NlJmeFJYMk5NWGJ0VDNXMDVCLTNkcjJwVXFSNHFIWTZjVkFac1JKNkE3QkRLOU5lcFlxSDA0WVNEQW1kQ3ZTVF9JeUZlRXUtbk9x?oc=5",
+          "source": "PC Games (DE)",
+          "pubDate": "Sat, 28 Nov 2026 11:30:00 GMT"
+        },
+        {
+          "title": "Grand Theft Auto VI : Michael-Darsteller kontert Woke-Vorwürfe - XboxDynasty",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNVVaY3Zuem9IRGNvX1luZlVlcmoxWVNhdWY0anZESE5XbHdZbXdLX3BfTFo1SzNMNlJLMFJNSXRQZlJtS3FpRlVPN3BTcEdiLWJBMTJ0a1IxREhuajBpSVdoSUlHdGZOeXhHSTE2SDQ1cmJaY21qVWdrU0tYVmxyX3ZZN3FnMkpsZG9MQnVSMFZXYzFETU05ZUZDTFpuQjdYQk9RM1ZBRWZ1X1c2d2c?oc=5",
+          "source": "XboxDynasty",
+          "pubDate": "Sat, 28 Nov 2026 10:00:00 GMT"
+        },
+        {
+          "title": "Song-Revival dank „GTA VI“: Sylvie Vartans Hit aus den 80ern geht viral - exxpress",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSmtvb3hVSDk0TTdXMTZjbWJJa2dJcmdrQU9IaTQ1YUJZRjM4WF9mTWRaajRiMUhUVGRiTm9CN3JxMEJXNHBXVWJBcmtTaGg0MTYwMk9yWU9wQ21tbGNxSjZnLUN3MHV3akxEZ01UNDROODY1eGhVN2Y1Z3dpRktjdlFTSGp0M0UzYVROX1U1UDZNYUtXdFcyM3Q3WWxnbW5P?oc=5",
+          "source": "exxpress",
+          "pubDate": "Sat, 28 Nov 2026 08:30:01 GMT"
         },
         {
           "title": "GTA 6: Das Rätsel der lila Lampen ist gelöst und witziger als gedacht - PC Games (DE)",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE15c1lLNnhNU2lJUnd0RE1JcnotZWRQc0dWRlI2NzQxLWNlRDhybHpWU2VweG95alltOVhPTml2SW1Gb0xOUUV3SHNrYzRYQ3ZxS0FMbjNvMlZtcDNaWXB4NmhtaHdjNTNpd2tzQW03bEhQMW1FallNLUZ3?oc=5",
           "source": "PC Games (DE)",
           "pubDate": "Fri, 27 Nov 2026 15:30:00 GMT"
-        },
-        {
-          "title": "170.000 Zuschauer bei GTA 6: So viel Geld kassierte MontanaBlack an einem Tag - Business Insider Deutschland",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUV8yX3Q1RVZ4SlZZd1ZKb1dQZUwwbXpvemE1RzlSc3ZnWUQ2dzMxU1ZpS1lUaGlSMXNXVTdPY3pFT0dmeEhZdDh3dHA0cGVuRTFtdmVXQ2xuU0h4YVZ4a0RuMEpQVGhXRmRpQmd6ZUE4WXlvTDhjbTlsRGxZMmpZWW41V1VWX3YwWW1tb3dTdW5tSWJFRWNTNDR4cEtFbm1lZEJrQXdfY3pSQ1c3VDhWbjJ4anMwbFZPaUhzcl9mLUpxQ2wx?oc=5",
-          "source": "Business Insider Deutschland",
-          "pubDate": "Fri, 27 Nov 2026 14:15:00 GMT"
-        },
-        {
-          "title": "GTA 6 mit HDR weiterhin zu dunkel: SDR-Vergleich und HDR-Calculator – so findet ihr die Settings für euren TV - PC Games (DE)",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaTNOX2dLa1RFOGJNSzR4V0FYbHI0WlJSenAwejQ1SENTQ1hfdnljcWdTT04tT2hPMUp2a1N1alQxZEttMzdLY0hTSWV3R2MyaFJiTHE5ZERxZ01nUURkaV9mMHJINEFpTzJkNEpOQTlrZ3ZSSW1zWGhuMTJVUEpaTDM0LUhnQnMwRURfczBZZWIzbnRzVHpXYkFoQXVzaWhH?oc=5",
-          "source": "PC Games (DE)",
-          "pubDate": "Fri, 27 Nov 2026 11:30:00 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-28T00:44:51.443Z",
+      "updated": "2026-11-28T14:37:41.730Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -515,11 +515,11 @@
         },
         {
           "date": "2026-11-27",
-          "count": 11
+          "count": 12
         },
         {
           "date": "2026-11-28",
-          "count": 0
+          "count": 3
         }
       ]
     },
@@ -528,68 +528,68 @@
       "label": "Release & Download",
       "query": "(\"GTA 6\" OR \"GTA VI\" OR \"Grand Theft Auto VI\") (preload OR download OR launch OR edition OR Speicherplatz OR Veröffentlichung) when:7d",
       "feedUrl": "https://news.google.com/rss/search?q=%28%22GTA+6%22+OR+%22GTA+VI%22+OR+%22Grand+Theft+Auto+VI%22%29+%28preload+OR+download+OR+launch+OR+edition+OR+Speicherplatz+OR+Ver%C3%B6ffentlichung%29+when%3A7d&hl=de&gl=DE&ceid=DE%3Ade",
-      "count7d": 69,
-      "count24h": 18,
-      "publisherCount": 33,
-      "capped": false,
+      "count7d": 100,
+      "count24h": 9,
+      "publisherCount": 43,
+      "capped": true,
       "series": [
         {
           "date": "2026-11-22",
-          "count": 2
+          "count": 6
         },
         {
           "date": "2026-11-23",
-          "count": 7
+          "count": 16
         },
         {
           "date": "2026-11-24",
-          "count": 15
+          "count": 23
         },
         {
           "date": "2026-11-25",
-          "count": 10
+          "count": 19
         },
         {
           "date": "2026-11-26",
-          "count": 13
+          "count": 16
         },
         {
           "date": "2026-11-27",
-          "count": 18
+          "count": 17
         },
         {
           "date": "2026-11-28",
-          "count": 0
+          "count": 3
         }
       ],
       "items": [
         {
-          "title": "PS5-Ampel: Hoffnung für GTA 6-Fans – MediaMarkt mit Black-Friday-Deal (Update) - GamesWirtschaft.de",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ0R6LXg3Y3ltME5ONGlibC1aM29TdVYyNXF1YUdYeWhwS25YSkp4ekJwZFZsNmpwdVBTX05aWTY3blFyRlhTVWIybmpvMkx3UVdwc1pnTzhra2ZOMWtGSDdwZmZGbE5GWFJDTXI3ODRIZGYxUkZneExpUWd2clZmc1ZHZEJiaWhrbGZ2bnNQSWJXeFN2?oc=5",
-          "source": "GamesWirtschaft.de",
-          "pubDate": "Fri, 27 Nov 2026 23:24:29 GMT"
+          "title": "GTA VI: PlayStation-Rekord mit 39 Mio. PS5-Spielern - NeoTeo",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaUt6RVJ1QVpQaXBXRXk4Umx0LXhTMjN0dVBubmljSFoyNTBtWVZSV2lZalotMUxIZEowSHBmR3lIX09OVFQxM1VjQmdFV3g1aU5kbWItNEhDS1hXQnBtR3dycGUzalVxVlpOUzRGTVRYclpHYXJXMENucWs2STZNV2UxRnZaazBSdVFXZnExS0p3Zw?oc=5",
+          "source": "NeoTeo",
+          "pubDate": "Sat, 28 Nov 2026 11:50:21 GMT"
+        },
+        {
+          "title": "GTA 6-Erfolg, aber keine Einigung: Rockstar stoppt die Gewerkschaft - PC Games (DE)",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSVN0QnhyMzAxNUFaZFJreElpOFNyNmFpUUdYM1JVRFNyU2ZZcmdERU1vRUhMQlJZNGRfSnBiUFZGdUNCZzhOSmhoNzlDdEFDcUJwbTA3NlJmeFJYMk5NWGJ0VDNXMDVCLTNkcjJwVXFSNHFIWTZjVkFac1JKNkE3QkRLOU5lcFlxSDA0WVNEQW1kQ3ZTVF9JeUZlRXUtbk9x?oc=5",
+          "source": "PC Games (DE)",
+          "pubDate": "Sat, 28 Nov 2026 11:30:00 GMT"
+        },
+        {
+          "title": "Die unglaublichen Zahlen des Milliarden-Dollar-Blockbusters GTA VI. - Vietnam.vn",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kekRESGJrR3UtQUdXckZaNy16OUNLOFMyN0g2SlJaRWF2RXE1azJkZjBfdko3M2g0WmpmaERQWWxPUnFUWHdjRmh4b1MwRVpxQ3YyYkxESTI4Qy10US04dmpKdXl3WEZGdmgteXFuc0R0ZDJYc1ZobVByZGY?oc=5",
+          "source": "Vietnam.vn",
+          "pubDate": "Sat, 28 Nov 2026 04:19:23 GMT"
         },
         {
           "title": "GTA 6 auf PC & Smartphone spielen - so geht's - CHIP",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZVROUU9rVE5LRUxSRzhmaTdUSmh1eXllVkVBMHBOVXZIdkVibzJZN1RZQk1RSlFzZy1OdW9rel91V2RtVHhnZUhLci1Bakktb0xna2hxSmpFZU5fdE9ObzhKTWFCd1ZXb09MczdFMFA1QWVocUFGMklqekNxODJDSXVnOFJvRmJHbHExNWIxS3E1LW1vbWwtOEl4OWRUUU1BNFpQYmtNZjk2MnFBaGVMdEROd1VvdW9Q?oc=5",
           "source": "CHIP",
           "pubDate": "Fri, 27 Nov 2026 19:20:00 GMT"
-        },
-        {
-          "title": "GTA 6: Diese eine Einstellung solltet ihr unbedingt noch vor Spielstart ändern - 4P.de",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVDByTVlfeEQ2RGk0TFNSOERndHZXSms4Q2s1dThxR0F3bHgwQTB4RXhtNEVZY2t4aHBqVkVEUjM4MFU0MHdWMkx0RC1RMlptRThEX3ZlUE5WZnYtRmZKSjNuMXpGeWw3VHVBekhZUExPTUF3a3AyaG9qcnpla01WQUFBa0VncE1yemh1TmpB?oc=5",
-          "source": "4P.de",
-          "pubDate": "Fri, 27 Nov 2026 17:57:33 GMT"
-        },
-        {
-          "title": "GTA 6: Warum sich viele der 33 Millionen Vorbesteller JETZT ärgern dürften - Netzwelt",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTDZGZ1VyWnFvTm9qb1J6SmVFemZ3MmsyTkE4OXJPR1FGUzg1QTV5VzZSWV9hdlJpYlh3UDVfS1FyS2RsdDZNUjhMWUNuTm94VmFkbUtBQUZEeGM5TUZIcURqSXExRFpyMlpDT1hvWGdUX1lzOURHUjU4Z3BrcnFMRmhncE5XbEM2aFJfa0EyemEwWkxRWXFDQ1I1MkNzclAwamFobF93?oc=5",
-          "source": "Netzwelt",
-          "pubDate": "Fri, 27 Nov 2026 17:27:39 GMT"
         }
       ],
       "status": "ok",
-      "updated": "2026-11-28T00:44:51.443Z",
+      "updated": "2026-11-28T14:37:41.730Z",
       "history": [
         {
           "date": "2026-11-03",
@@ -693,7 +693,7 @@
         },
         {
           "date": "2026-11-28",
-          "count": 0
+          "count": 3
         }
       ]
     }
@@ -1291,6 +1291,13 @@
       "at": "2026-11-28T00:44:51.440Z",
       "version": "hype-v1",
       "score": 64,
+      "coverage": 2,
+      "signature": "news+reddit"
+    },
+    {
+      "at": "2026-11-28T14:37:41.718Z",
+      "version": "hype-v1",
+      "score": 100,
       "coverage": 2,
       "signature": "news+reddit"
     }

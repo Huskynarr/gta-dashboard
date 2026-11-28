@@ -1,8 +1,8 @@
 {
-  "lastRun": "2026-11-28T00:44:53.850Z",
-  "startedAt": "2026-11-28T00:44:38.472Z",
-  "durationMs": 15378,
-  "runSlot": "morning",
+  "lastRun": "2026-11-28T14:37:44.113Z",
+  "startedAt": "2026-11-28T14:37:28.206Z",
+  "durationMs": 15907,
+  "runSlot": "evening",
   "release": {
     "preorder": "2026-06-25T00:00:00+02:00",
     "ps5Preload": "2026-11-10T00:00:00+01:00",
@@ -33,19 +33,19 @@
   "counts": {
     "stocks": 13,
     "stockHistory": 3447,
-    "snapshots": 84,
+    "snapshots": 85,
     "wikiSeries": 8,
     "newsQueries": 5,
     "decixPoints": 573,
-    "decixHistoryPoints": 7664,
+    "decixHistoryPoints": 7831,
     "decixDailyPeaks": 28,
-    "decixSitePoints": 22995,
-    "ixpSitePoints": 8155,
+    "decixSitePoints": 23496,
+    "ixpSitePoints": 8490,
     "filings": 11,
     "pressReleases": 6,
-    "hypeSnapshots": 85,
-    "timelineSnapshots": 85,
-    "archivedNews": 4628
+    "hypeSnapshots": 86,
+    "timelineSnapshots": 86,
+    "archivedNews": 4734
   },
   "errors": [
     "wiki:gta_en: HTTP 429 We suspect this request is automated: if so, please respect our robot policy. If you think you were incorrectly blocked, please contact noc@wikimedia.org reporting this message (01f0bde) — https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/Grand_Theft_Auto_VI/daily/20260830/20261128",
